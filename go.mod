@@ -1,4 +1,4 @@
-module newblog
+module cestlaz.github.io
 
 go 1.19
 
