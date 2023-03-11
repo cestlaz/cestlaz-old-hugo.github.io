@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ethical CS on C&#39;est la Z</title>
+    <link>https://newblog/tags/ethical-cs/</link>
+    <description>Recent content in Ethical CS on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Nov 2021 07:15:47 -0400</lastBuildDate><atom:link href="https://newblog/tags/ethical-cs/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Seats on a plane - addendum</title>
+      <link>https://newblog/post/airline-seats-2/</link>
+      <pubDate>Tue, 02 Nov 2021 07:15:47 -0400</pubDate>
+      
+      <guid>https://newblog/post/airline-seats-2/</guid>
+      <description>While my last post was well received, I did have a few conversations where people asked why I did this with such a seemingly minor ethical issue. They wondered that with issues the Facebook algorithm, bail and sentencing algorithms, gerrymandering and other issues dominating the ethical conversation, why focus this topic around something that seems to affect far fewer people and might not even be such a big deal. After all, when it does come up, flight crews can probably ask a few people to shuffle seats and voila, problem solved.</description>
+    </item>
+    
+    <item>
+      <title>Airline Seats - An Ethics Lesson</title>
+      <link>https://newblog/post/airline-seats/</link>
+      <pubDate>Tue, 26 Oct 2021 14:43:28 -0400</pubDate>
+      
+      <guid>https://newblog/post/airline-seats/</guid>
+      <description>I&amp;#39;ve held off on sharing any details on my Ethics in CS class because I wanted to wait until some of it ran. I didn&amp;#39;t want to talk about a topic and then find out that after we covered it I was all wrong.
+Now that we&amp;#39;re well into the semester, I think it&amp;#39;s time to share a few things.
+One of my premises when I designed the course was that most ethics courses are taken by either people who already have religion or people who see it as the &amp;#34;easy course&amp;#34; without programming.</description>
+    </item>
+    
+  </channel>
+</rss>

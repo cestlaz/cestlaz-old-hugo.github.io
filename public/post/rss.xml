@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on C&#39;est la Z</title>
+    <link>https://newblog/post/</link>
+    <description>Recent content in Posts on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Mar 2023 09:58:04 -0400</lastBuildDate><atom:link href="https://newblog/post/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Recursive Sentences</title>
+      <link>https://newblog/post/recursive-sentences/</link>
+      <pubDate>Fri, 10 Mar 2023 09:58:04 -0400</pubDate>
+      
+      <guid>https://newblog/post/recursive-sentences/</guid>
+      <description>It&amp;#39;s been a while since I last wrote up a specific lesson idea so when my friend Garth asked about recursion ideas I thought I&amp;#39;d write this one up. This is a unit I used to teach in my intro class at Stuy using Racket (nee Scheme) but I coded up a quick and dirty Python version.
+Recursion is a polarizing topic. Some people love it, others hate it. I&amp;#39;m sure the usual suspects of intro recursion problems doesn&amp;#39;t help.</description>
+    </item>
+    
+    <item>
+      <title>NYSED says you don&#39;t need to know CS to teach CS</title>
+      <link>https://newblog/post/soce/</link>
+      <pubDate>Thu, 09 Mar 2023 15:11:38 -0400</pubDate>
+      
+      <guid>https://newblog/post/soce/</guid>
+      <description>The title might come of as hyperbole but it&amp;#39;s really true.
+I&amp;#39;ll explain.
+A few years ago, NYSED created a certification area for computer science. At Hunter, we&amp;#39;ve been running our certificate program for the past three years and taking current teachers and qualifying them to earn this new certification. This past Fall, NYSED finalized it&amp;#39;s grandfathering position and just the other day it opened up the portal to allow teachers to sign up.</description>
+    </item>
+    
+    <item>
+      <title>Copilot and similar types of AI in learning CS</title>
+      <link>https://newblog/post/ai-in-learning-cs/</link>
+      <pubDate>Tue, 28 Feb 2023 14:50:07 -0400</pubDate>
+      
+      <guid>https://newblog/post/ai-in-learning-cs/</guid>
+      <description>So it seems like Copilot and similar will be beneficial to programmers but the question remains as to how beneficial. Will it be incremental change or will it be a game changer?
+Today we&amp;#39;ll look at how it will affect teaching and learning CS.
+It seems pretty clear that one group of learners will benefit from things like copilot - people who are already strong programmers who are learning something new.</description>
+    </item>
+    
+    <item>
+      <title>AI as a programmers aide</title>
+      <link>https://newblog/post/ai-in-programming/</link>
+      <pubDate>Tue, 28 Feb 2023 11:33:22 -0400</pubDate>
+      
+      <guid>https://newblog/post/ai-in-programming/</guid>
+      <description>ChatGPT in education has been all the rage but there&amp;#39;s another twist on AI that was getting some buzz even earlier - AI based code completions. GitHub&amp;#39;s Copilot has gotten the most air time but there are others out there as well.
+When you code with Copilot, you type in a function name and maybe a comment above it and the AI system will fill in the function.
+A canonical example seems to be Mergesort.</description>
+    </item>
+    
+    <item>
+      <title>Motivating Students in CS Class</title>
+      <link>https://newblog/post/motivating-students/</link>
+      <pubDate>Fri, 17 Feb 2023 10:00:05 -0400</pubDate>
+      
+      <guid>https://newblog/post/motivating-students/</guid>
+      <description>A teacher in one of my networks posted a question earlier today - &amp;#34;have you had any challenges or trouble with motivating kids in your classes?&amp;#34;
+Not a new question and I&amp;#39;m sure for any teacher with any level of experience the answer is a resounding yes. I don&amp;#39;t care who you are. Not all of your students are motivated all the time.
+This can particularly be a problem when a teacher switches over from teaching an elective or selective to a required class but it might not be.</description>
+    </item>
+    
+    <item>
+      <title>A poor craftsman blames his tools</title>
+      <link>https://newblog/post/ides-tools/</link>
+      <pubDate>Mon, 13 Feb 2023 06:48:49 -0400</pubDate>
+      
+      <guid>https://newblog/post/ides-tools/</guid>
+      <description>Yesterday, Alfred Thompson posted on students knowing their development environments. Alfred&amp;#39;s post was inspired by a related post by Eugene Wallingford. Eugene&amp;#39;s post was about more than development environments and both his and Alfred&amp;#39;s posts are worth a read.
+Being a tool wonk I thought I&amp;#39;d add my two cents.
+I&amp;#39;ve always been a tool wonk. Use the right tool for the job and if you need to buy one, don&amp;#39;t cheap out - get the best value right tool.</description>
+    </item>
+    
+    <item>
+      <title>Organizing a topics course</title>
+      <link>https://newblog/post/organizing-topics/</link>
+      <pubDate>Tue, 07 Feb 2023 12:18:10 -0400</pubDate>
+      
+      <guid>https://newblog/post/organizing-topics/</guid>
+      <description>I&amp;#39;m team teaching the CS Topics course this semester with my buddy JonAlf. It&amp;#39;s the final course in our Advanced Certificate and Masters programs in CS Education.
+It&amp;#39;s a fun course. The theory is that a K12 CS teacher doesn&amp;#39;t need to know everything but should know a little about a lot. It&amp;#39;s a survey - think of it as an intro unit in ten to twelve different topics in CS.</description>
+    </item>
+    
+    <item>
+      <title>The College Board wasn&#39;t cowardly</title>
+      <link>https://newblog/post/college-board-ap-aastudies/</link>
+      <pubDate>Fri, 03 Feb 2023 08:52:49 -0400</pubDate>
+      
+      <guid>https://newblog/post/college-board-ap-aastudies/</guid>
+      <description>As I&amp;#39;m sure you&amp;#39;re aware, recently, in his latest racist, fascist proclamation, Ron DeSantis threatened to stop offering AP African American Studies (APAAS) in Florida because, well, we can&amp;#39;t actually teach our children anything resembling our actual rather checkered history.
+I&amp;#39;m sure you&amp;#39;re also aware that the College Board just announced changes to APAAS which basically removed everything DeSantis found objectionable.
+I&amp;#39;ve been seeing articles, blog posts, Tweets and more all calling the College Boards act a cowardly one.</description>
+    </item>
+    
+    <item>
+      <title>Tech Layoffs and Workers Rights</title>
+      <link>https://newblog/post/tech-layoffs/</link>
+      <pubDate>Mon, 30 Jan 2023 10:59:20 -0400</pubDate>
+      
+      <guid>https://newblog/post/tech-layoffs/</guid>
+      <description>Lots of layoffs in big tech recently. Overall lousy but I am encouraged by the number of people trying to organize the local community to be supportive in helping those affected.
+Clearly this &amp;#34;correction&amp;#34; can turn current employees worlds upside down and place individuals and families in precarious financial situations but the effects also affect the incoming workforce. In addition to layoffs, internships and offers have been canceled left and right.</description>
+    </item>
+    
+    <item>
+      <title>First Day Final Semester</title>
+      <link>https://newblog/post/first-day-last-semester/</link>
+      <pubDate>Fri, 27 Jan 2023 09:49:07 -0400</pubDate>
+      
+      <guid>https://newblog/post/first-day-last-semester/</guid>
+      <description>So, yesterday was the first day of the semester. Since I&amp;#39;m retiring, it&amp;#39;s my last first day at Hunter.
+Felt pretty good. I think knowing that I&amp;#39;ll get a break after the term has alleviated some of the burnout for now.
+What will I be focusing on in class this last time around?
+I&amp;#39;m teaching three classes.
+First up is my undergraduate data structures. To be honest, I&amp;#39;m not looking at anything special there - just business as usual.</description>
+    </item>
+    
+    <item>
+      <title>chatGPT TOC</title>
+      <link>https://newblog/post/chatgpt-summary/</link>
+      <pubDate>Mon, 23 Jan 2023 14:29:45 -0400</pubDate>
+      
+      <guid>https://newblog/post/chatgpt-summary/</guid>
+      <description>I know I said that I was done with chatGPT but since I&amp;#39;ve ended up sharing my posts with a few people I though a quick table of contents post would be appropriate.
+Post 1 - Some general thoughts on cheating Post 2 - Cheating with chatGPT Post 3 - Teaching with chatGPT Post 4 - More teaching with chatGPT Post 5 - chatGPT in a CS class Back to new content soon.</description>
+    </item>
+    
+    <item>
+      <title>CS GPT</title>
+      <link>https://newblog/post/chatgpt-in-cs-class/</link>
+      <pubDate>Fri, 20 Jan 2023 08:57:09 -0400</pubDate>
+      
+      <guid>https://newblog/post/chatgpt-in-cs-class/</guid>
+      <description>This should be my last post about chatGPT.
+The GPT in chatGPT stands for Generative Pretrained Transformer. Not something that you&amp;#39;re going to cover in an early college CS class. I wanted to get my head around it and the technologies are typically covered in an advanced machine learning undergraduate elective so something you take after you take that 400 level machine learning class. Looks like I&amp;#39;m going to have to do some review first since I haven&amp;#39;t looked at any of the prerequisite material in around a dozen years.</description>
+    </item>
+    
+    <item>
+      <title>Teaching with chatGPT - The Good, The Bad, and The Ugly</title>
+      <link>https://newblog/post/chatgpt-good-bad-ugly/</link>
+      <pubDate>Sun, 15 Jan 2023 11:03:52 -0400</pubDate>
+      
+      <guid>https://newblog/post/chatgpt-good-bad-ugly/</guid>
+      <description>The plan was to talk about what we can and should do in CS classes with respect to chatGPT type technologies but after seeing so much discussion on how to and not to use chatGPT I thought I&amp;#39;d insert this additional post on classroom use.
+We already talked about the good. I love the idea of making an essay with errors for proof reading and it can be a great search resource, albeit one that needs to be error checked and I&amp;#39;m sure many other productive teaching and teaching support applications will turn up.</description>
+    </item>
+    
+    <item>
+      <title>teachGPT</title>
+      <link>https://newblog/post/teachgpt/</link>
+      <pubDate>Thu, 12 Jan 2023 07:45:56 -0400</pubDate>
+      
+      <guid>https://newblog/post/teachgpt/</guid>
+      <description>So, since we discussed cheating and chatGPT and decided that there shouldn&amp;#39;t be a ban, how can it or similar tools be used productively?
+General use The first go to seems to be as an alternative search engine. It hasn&amp;#39;t been uncommon seeing people say they use chatGPT instead of searching StackOverflow. This makes sense. ChatGPT gives answers and the natural language interface can make it easier to form some questions or ask for results in a particular format.</description>
+    </item>
+    
+    <item>
+      <title>CheatGPT</title>
+      <link>https://newblog/post/cheatgpt/</link>
+      <pubDate>Tue, 10 Jan 2023 06:42:45 -0400</pubDate>
+      
+      <guid>https://newblog/post/cheatgpt/</guid>
+      <description>Just got back from a few much needed days away so it&amp;#39;s time to get to those chatGPT posts.
+Last time, I wrote on cheating in general. That seems to be one of the hot points for chatGPT, in fact, the NYC DOE just last week decided to ban chatGPT outright, presumably for that reason. We&amp;#39;ll talk about the student side, both negative and postitive today and the teacher side next time.</description>
+    </item>
+    
+    <item>
+      <title>Cheating</title>
+      <link>https://newblog/post/cheating/</link>
+      <pubDate>Tue, 03 Jan 2023 14:30:36 -0400</pubDate>
+      
+      <guid>https://newblog/post/cheating/</guid>
+      <description>I said in my last post that I wanted to write about chatGPT. The way I see it, chatGPT is affecting teachers in four areas. First, students using it to cheat, second the possibility of students using it as a constructive tool. Third, teachers using it as a resource for lesson planning or similar, and fourth, down the road, another tool to replace teachers.
+Before I dive into any of those, I thought I&amp;#39;d spend a post talking about cheating in general.</description>
+    </item>
+    
+    <item>
+      <title>Kicking off 2023</title>
+      <link>https://newblog/post/2023/</link>
+      <pubDate>Sun, 01 Jan 2023 10:47:39 -0400</pubDate>
+      
+      <guid>https://newblog/post/2023/</guid>
+      <description>I never do much on New Years Eve. I can&amp;#39;t remember the last time I stayed up until Midnight. It&amp;#39;s just not really a big deal with me. Yesterday, thanks to Natan rushing tickets, I did close out the year seeing the Metropolitan Opera&amp;#39;s new production of Fedora which was very enjoyable.
+Woke up late today - around 5:00, went for my first run of the year and did the puzzle over coffee.</description>
+    </item>
+    
+    <item>
+      <title>Finally some down time</title>
+      <link>https://newblog/post/down-time/</link>
+      <pubDate>Fri, 30 Dec 2022 11:56:52 -0400</pubDate>
+      
+      <guid>https://newblog/post/down-time/</guid>
+      <description>Since entering end of term grades I&amp;#39;ve finally had a few days of legit down time. It&amp;#39;s been a long time. In the past few years, I went right from Fall finals int dealing with whatever issues arose around planning the next teacher ed cohort.
+Not so this year. The three classes I&amp;#39;m teaching are the same as last year so while I&amp;#39;ll be doing a lot of tweaking, planning, and updating once we get started, there&amp;#39;s not much to do now.</description>
+    </item>
+    
+    <item>
+      <title>Things they remember that we forgot</title>
+      <link>https://newblog/post/forgot/</link>
+      <pubDate>Sat, 17 Dec 2022 06:43:31 -0400</pubDate>
+      
+      <guid>https://newblog/post/forgot/</guid>
+      <description>Some time ago I wrote about some of the things our students remember (link - sorry for the bad formatting). Lessons, concepts, stories, or even small jokes I remember telling but had no idea that they left a lasting impression on any students.
+Fast forward to yesterday. I spent some time yesterday at a friend, a former student&amp;#39;s company for their holiday get together. My friend was telling a story about how I helped get him started - I won&amp;#39;t get into details but while I do remember the overall impression of including and encouraging him, I don&amp;#39;t remember the detailed specifics.</description>
+    </item>
+    
+    <item>
+      <title>In Education, What&#39;s New is Old</title>
+      <link>https://newblog/post/old-is-new/</link>
+      <pubDate>Wed, 07 Dec 2022 12:44:43 -0400</pubDate>
+      
+      <guid>https://newblog/post/old-is-new/</guid>
+      <description>I noticed a tweet the other day talking about gamification of education. It got me thinking.
+Gamification isn&amp;#39;t specifically the hot trend right now, at least not as &amp;#34;the one true way&amp;#34; to teach but every few years it surges as this great new idea to fix education.
+When it surges, it&amp;#39;s always the hot new thing but it never really is.
+Gamification has been around at least since I was in grade school and it was never a magic bullet.</description>
+    </item>
+    
+    <item>
+      <title>Advent 2022 - day 3 - sets</title>
+      <link>https://newblog/post/advent-2022-day03/</link>
+      <pubDate>Sat, 03 Dec 2022 10:13:56 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2022-day03/</guid>
+      <description>Day 3 ended up being a quick one. That is, as long as your language supports set operations. You can do it without set operations but it&amp;#39;s easier if you&amp;#39;ve got them.
+Part 1 Input is a file of text where each line is an input.
+You have to read each line, split it in half and then find the common letter between the left and right halves and then apply their scoring rules on that letter.</description>
+    </item>
+    
+    <item>
+      <title>Advent of Code 2022 - Days 1 and 2</title>
+      <link>https://newblog/post/advent-2022-day01-01/</link>
+      <pubDate>Fri, 02 Dec 2022 13:59:06 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2022-day01-01/</guid>
+      <description>It&amp;#39;s Advent of Code season again. Every day a new two part programming challenge and once again I&amp;#39;m taking part. At least until grading and other end of term obligations end up eating my lunch.
+I wasn&amp;#39;t planning on writing anything up but the first two days looked like nice problems for CS1 or even CS0 students and since my friend Steve was writing up his take, I thought I&amp;#39;d at least comment on the first two.</description>
+    </item>
+    
+    <item>
+      <title>Learning a new language - part 2 - Rust</title>
+      <link>https://newblog/post/learn-new-language-2/</link>
+      <pubDate>Tue, 29 Nov 2022 08:59:11 -0400</pubDate>
+      
+      <guid>https://newblog/post/learn-new-language-2/</guid>
+      <description>Last time, I wrote about frustrations in trying to motivate myself to learn ocaml. I could see the strong points but given that I&amp;#39;ve been using Clojure now for a while, it didn&amp;#39;t really hold any value added for me in my current situation.
+Next, I thought I&amp;#39;d explore Rust. On the non-functional style, my go to languages have always been Python for scripting and small things and C professionally.</description>
+    </item>
+    
+    <item>
+      <title>Learning a new language - part 1 - functional</title>
+      <link>https://newblog/post/learn-new-language/</link>
+      <pubDate>Mon, 21 Nov 2022 17:34:28 -0400</pubDate>
+      
+      <guid>https://newblog/post/learn-new-language/</guid>
+      <description>Now that I&amp;#39;ve done posting about why I&amp;#39;m retiring we can get back to our usual blogging.
+I haven&amp;#39;t really done anything technical over the past couple of year. The most programming I did in the past 18 months was a halfhearted effort at the Advent of Code 2021 event last December. I thought I&amp;#39;d see about picking up a new language to change that. In doing so, I was reminded of some of my resistances to learning a new language and how I&amp;#39;ve seen similar from self taught students coming into my classes.</description>
+    </item>
+    
+    <item>
+      <title>Retiring part 3 - What&#39;s Next</title>
+      <link>https://newblog/post/retiring-3-whats-next/</link>
+      <pubDate>Wed, 09 Nov 2022 19:40:01 -0400</pubDate>
+      
+      <guid>https://newblog/post/retiring-3-whats-next/</guid>
+      <description>Links to the three posts in this series: If you&amp;#39;re seeing this before the previous two posts, I&amp;#39;d encourage you to read post 1 and 2 first.
+Post 1: Why I&amp;#39;m retiring Post 2: What was accomplished at Hunter Post 3: This post As I said at the start of these three posts, I do want to stay in the game. Maybe take a break and definately slow down but I still think I&amp;#39;ve got something to contribute.</description>
+    </item>
+    
+    <item>
+      <title>Retiring part 2 - Accomplishments</title>
+      <link>https://newblog/post/retiring-2-accomplishments/</link>
+      <pubDate>Wed, 09 Nov 2022 15:35:50 -0400</pubDate>
+      
+      <guid>https://newblog/post/retiring-2-accomplishments/</guid>
+      <description>Links to the posts in this series If you&amp;#39;re reading this before the previous post, I&amp;#39;d recommend going back and reading that one first. Post 1: Why I&amp;#39;m retiring Post 2: This post Post 3: What I think I&amp;#39;ll be looking for next I think I&amp;#39;ve carved out a somewhat unique career. Never set out to be a teacher and a couple of different turns here or there and things could have been very different.</description>
+    </item>
+    
+    <item>
+      <title>After 7 years at Hunter College and 33 in NYC public schools, time for a change.</title>
+      <link>https://newblog/post/retiring-1-why/</link>
+      <pubDate>Wed, 09 Nov 2022 06:43:04 -0400</pubDate>
+      
+      <guid>https://newblog/post/retiring-1-why/</guid>
+      <description>I&amp;#39;ve been dropping mentions of this here and there for a while now but I think it&amp;#39;s time to come out more formally -
+I&amp;#39;m planning on retiring from Hunter at the end of this Spring.
+This doesn&amp;#39;t mean getting out of the CS or CS Ed game entirely - I could stay on in a part time capacity and, after some decompression I think I still have things to offer but the plan is retire, collect my pension, and then see where I can continue to be contribute to the Ed/CS Ed scene.</description>
+    </item>
+    
+    <item>
+      <title>Should college be career prep</title>
+      <link>https://newblog/post/should-cs-be-practical/</link>
+      <pubDate>Mon, 07 Nov 2022 11:47:50 -0400</pubDate>
+      
+      <guid>https://newblog/post/should-cs-be-practical/</guid>
+      <description>So, in some of the social platform discussion on my last post, the issue of the practicality of a college education came up. Should college teach practical job skills or should it be for some more abstract purpose - learning for learning sake or if one would be a bit presumptions learning how to think.
+Way back when going to college was not the norm. Most went from HS to workforce and even in HS you might have the &amp;#34;academic&amp;#34; track that prepared you for college, &amp;#34;vocational&amp;#34; that was job prep like automotive or regular which was neither extreme.</description>
+    </item>
+    
+    <item>
+      <title>Crafting a new major for tech</title>
+      <link>https://newblog/post/new-major/</link>
+      <pubDate>Fri, 04 Nov 2022 09:42:40 -0400</pubDate>
+      
+      <guid>https://newblog/post/new-major/</guid>
+      <description>Hunter College, like most colleges and universities is facing unprecedented demand for CS. It&amp;#39;s the hot major. Being a public college, we have an obligation to provide the best education possible to as many students as we can in our locality. This means we can&amp;#39;t just put a GPA requirement or other cap on the major and we can&amp;#39;t do things I&amp;#39;ve heard &amp;#34;elite&amp;#34; schools do like essentially making applicants apply to the major direct from HS.</description>
+    </item>
+    
+    <item>
+      <title>College Recommendation Season</title>
+      <link>https://newblog/post/college-recs/</link>
+      <pubDate>Tue, 01 Nov 2022 20:42:24 -0400</pubDate>
+      
+      <guid>https://newblog/post/college-recs/</guid>
+      <description>It&amp;#39;s fall so for HS teachers who taught juniors last year it&amp;#39;s recommendation writing season. For many of those teachers, they&amp;#39;re already well into the season with early decision deadlines being as early as November 1.
+Writing recs is one thing I don&amp;#39;t miss now that I&amp;#39;m working at the college level. Sure, it was always an honor to be asked but it was a lot of work. Now I&amp;#39;m on the other side and reading the recs.</description>
+    </item>
+    
+    <item>
+      <title>Some Professional Development Is Worthwhile</title>
+      <link>https://newblog/post/some-pd-is-worthwhile/</link>
+      <pubDate>Wed, 26 Oct 2022 16:29:50 -0400</pubDate>
+      
+      <guid>https://newblog/post/some-pd-is-worthwhile/</guid>
+      <description>No, I&amp;#39;m not walking back anything from my last post. I still think we have to stop using professional development as the primary means for preparing CS teachers but I wanted to take a minute to make it clear that while there&amp;#39;s plenty of lousy PD out there, there&amp;#39;s also plenty of good stuff.
+For bad PD, it&amp;#39;s frequently mandated and frequently neither useful or relevant or even if its potentially relevant, but the time it becomes useful you don&amp;#39;t remember it.</description>
+    </item>
+    
+    <item>
+      <title>Why PD doesn&#39;t work for CS</title>
+      <link>https://newblog/post/why-pd-wont-do/</link>
+      <pubDate>Mon, 24 Oct 2022 08:01:48 -0400</pubDate>
+      
+      <guid>https://newblog/post/why-pd-wont-do/</guid>
+      <description>EDIT I was reminded that by referring to CS4All and what it&amp;#39;s doing in NYC people could read an implication that the many hard working educators are not doing a yeoman&amp;#39;s job and indeed they are. They&amp;#39;ve been doing the heavy lifting from day 1 to bring opportunities to students and I did not mean to impugn their work or efforts in any way.
+I also want to mention that I know that there are many educators working in NY in CS who have been providing direct support for teachers outside of PD and this post is not about them and their good work.</description>
+    </item>
+    
+    <item>
+      <title>Don&#39;t give away the punchline</title>
+      <link>https://newblog/post/punchline/</link>
+      <pubDate>Fri, 21 Oct 2022 15:42:24 -0400</pubDate>
+      
+      <guid>https://newblog/post/punchline/</guid>
+      <description>Commenting on my post on teaching some Software Engineering concepts, there was a comment on code review and that code.org now included it in their CS-A curriculum. I found this video but no other materials. I was thinking that I certainly hoped that the video was not being used to introduce code review to students. I mean the video is fine and probably great to show to teachers so that they&amp;#39;ll have some idea on what code review is and why it&amp;#39;s important.</description>
+    </item>
+    
+    <item>
+      <title>Turning 55</title>
+      <link>https://newblog/post/turning-55/</link>
+      <pubDate>Wed, 19 Oct 2022 15:15:25 -0400</pubDate>
+      
+      <guid>https://newblog/post/turning-55/</guid>
+      <description>So, I turned 55 today. Another year older. The changes? Well, I&amp;#39;m seeing more doctors and seeing them more frequently and to be honest, I&amp;#39;d love to have a day or two without some small niggling ache or pain but that&amp;#39;s life. Like many people my age, we&amp;#39;ve got our health issues but I&amp;#39;m pretty active and managing mine (hey, I had a great 8 mile run this morning :-) ).</description>
+    </item>
+    
+    <item>
+      <title>Good class day today</title>
+      <link>https://newblog/post/good-day-in-class/</link>
+      <pubDate>Thu, 13 Oct 2022 14:59:22 -0400</pubDate>
+      
+      <guid>https://newblog/post/good-day-in-class/</guid>
+      <description>I&amp;#39;ve been in something of a teaching funk for much of the semester. Don&amp;#39;t get me wrong, I think things are going pretty well with the classes but I don&amp;#39;t feel like I&amp;#39;ve had my &amp;#34;A game.&amp;#34;
+Part of it, I think is because of the relaxed mask policy. Hunter is masks optional and in their infinite wisdom, last year replaced the signs that said &amp;#34;Masks required&amp;#34; with signs that say &amp;#34;Masks NOT required.</description>
+    </item>
+    
+    <item>
+      <title>Same Old Topics</title>
+      <link>https://newblog/post/same-old-topics/</link>
+      <pubDate>Sat, 08 Oct 2022 14:40:55 -0400</pubDate>
+      
+      <guid>https://newblog/post/same-old-topics/</guid>
+      <description>I haven&amp;#39;t been posting about specific CS teaching techniques and lesson content recently. Probably because I&amp;#39;ve been teaching the same classes at Hunter now for the past six years.
+Twice a year, Fall and Spring, I teach a recitation for Hunter&amp;#39;s CS1 in C++. In the Fall I also teach a version of their CS0 in Python. My second undergrad CS class in the Spring is Data Structures.
+I have some freedom in the CS0 class but that&amp;#39;s more with applications and assignments since the basics are the basics.</description>
+    </item>
+    
+    <item>
+      <title>We need certified teachers, not professionally developed teachers.</title>
+      <link>https://newblog/post/certification-needed/</link>
+      <pubDate>Wed, 28 Sep 2022 17:35:05 -0400</pubDate>
+      
+      <guid>https://newblog/post/certification-needed/</guid>
+      <description>Last time I mentioned that there are many teachers teaching CS in NY that have no intention of earning the new certification and also don&amp;#39;t really know the subject. People might not want to here this but it&amp;#39;s true. I don&amp;#39;t blame the teachers for this since they&amp;#39;ve been repeatedly told that &amp;#34;CS is super easy&amp;#34; and that their PD training 100% makes them CS teachers and really prepares them.</description>
+    </item>
+    
+    <item>
+      <title>Certified CS teachers - 2 flags in NY</title>
+      <link>https://newblog/post/certified-teacher-in-ny/</link>
+      <pubDate>Wed, 28 Sep 2022 16:39:37 -0400</pubDate>
+      
+      <guid>https://newblog/post/certified-teacher-in-ny/</guid>
+      <description>I&amp;#39;ve been running Hunter&amp;#39;s teacher certification program now for three years. We started with our Advanced Certificate which allows currently working teachers to earn an additional cert in CS and soon a few masters students joined the pipeline.
+In three years we&amp;#39;ve made great progress. Approximately 45 New York City teachers are either state certified to teach CS or are qualified to recieve the certification once they file with the state.</description>
+    </item>
+    
+    <item>
+      <title>Research Vs Practice</title>
+      <link>https://newblog/post/research-vs-practice/</link>
+      <pubDate>Sun, 11 Sep 2022 12:33:02 -0400</pubDate>
+      
+      <guid>https://newblog/post/research-vs-practice/</guid>
+      <description>I&amp;#39;ve been seeing a lot of tweets recently about &amp;#34;the research&amp;#34; - how PD should present how to teach and cite &amp;#34;the research,&amp;#34; how research defines the best practices teachers should use, and on and on.
+As readers know, this is not something I subscribe to.
+What got me this time was a specific tweet on the PD thing and how it&amp;#39;s critically important to show the research to &amp;#34;prove&amp;#34; the effectiveness of whatever is being pitched.</description>
+    </item>
+    
+    <item>
+      <title>Subtle Errors</title>
+      <link>https://newblog/post/subtle-errors/</link>
+      <pubDate>Fri, 02 Sep 2022 15:05:19 -0400</pubDate>
+      
+      <guid>https://newblog/post/subtle-errors/</guid>
+      <description>The semesters back up in full swing again - teaching 2 undergrad classes in person - CS0 in Python and CS1 in C++ along with my teacher certification class - Ethics via Zoom. Grand total of about 125 students. An error came up in the CS0 class the other day that reminded me how tough it is not only to prepare students to deal with all the things that can go wrong when learning to program but even for a teacher to realize what&amp;#39;s going on.</description>
+    </item>
+    
+  </channel>
+</rss>

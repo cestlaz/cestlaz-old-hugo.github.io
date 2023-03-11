@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jobs on C&#39;est la Z</title>
+    <link>https://newblog/tags/jobs/</link>
+    <description>Recent content in jobs on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Apr 2022 14:41:05 -0400</lastBuildDate><atom:link href="https://newblog/tags/jobs/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Should CSforAll focus on entrepreneurship and jobs?</title>
+      <link>https://newblog/post/cs-for-jobs/</link>
+      <pubDate>Thu, 14 Apr 2022 14:41:05 -0400</pubDate>
+      
+      <guid>https://newblog/post/cs-for-jobs/</guid>
+      <description>Is CSforAll a jobs program? This came up again the other day.
+I&amp;#39;m using a recent review as an excuse to ask more general questions.
+Is #CSforAll a jobs program or preparing future citizens? Does learning about CS belong just to STEM education?
+Should we only teach CS to Ss with math background, or can we teach CS to Ss who hate math? https://t.co/k030BHoZ93
+&amp;mdash; Mark Guzdial (@guzdial) April 5, 2022 With one of the referenced tweets talking about CS salaries.</description>
+    </item>
+    
+    <item>
+      <title>Whiteboard interviews</title>
+      <link>https://newblog/posts/whiteboard-interviews/</link>
+      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/whiteboard-interviews/</guid>
+      <description>A few days ago, I saw a piece on David Heinemeier Hansson&amp;#39;s tweet on whiteboard interviews:
+Hello, my name is David. I would fail to write bubble sort on a whiteboard. I look code up on the internet all the time. I don&amp;#39;t do riddles.
+&amp;mdash; DHH (@dhh) February 21, 2017 I&amp;#39;m not a huge fan of the whiteboard interview but I think many of the tweets missed the point.</description>
+    </item>
+    
+  </channel>
+</rss>

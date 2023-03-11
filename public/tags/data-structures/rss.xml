@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data structures on C&#39;est la Z</title>
+    <link>https://newblog/tags/data-structures/</link>
+    <description>Recent content in data structures on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 May 2022 14:23:44 -0400</lastBuildDate><atom:link href="https://newblog/tags/data-structures/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>When will I need to know this, Data Structures edition</title>
+      <link>https://newblog/post/when-need-ds/</link>
+      <pubDate>Mon, 02 May 2022 14:23:44 -0400</pubDate>
+      
+      <guid>https://newblog/post/when-need-ds/</guid>
+      <description>One of the things we&amp;#39;re frequently faced with as computer science teachers is the questiosn of &amp;#34;when will I need to know this.&amp;#34; This comes up when you teach an non-mainstream language like Racket or a language kids sometimes see as inauthentic like Scratch. It also comes up a lot when learning data structures and algorithms.
+Do I really need to know all of these sorts when I&amp;#39;m just going to use the built in sort routine?</description>
+    </item>
+    
+    <item>
+      <title>Heaps</title>
+      <link>https://newblog/post/heaps/</link>
+      <pubDate>Fri, 01 May 2020 13:53:43 -0400</pubDate>
+      
+      <guid>https://newblog/post/heaps/</guid>
+      <description>Continuing with the theme of alternate representations we just started heaps. Specifically binary heaps. binary min and max heaps.
+Heaps are one of my favorite topics in CS2. If you&amp;#39;re not familiar with them, a binary min heap is a complete binary tree that enforces the heap property. By being complete we mean that every level except possibly the last one is full - that is 2 children. The last level is as filled left to right.</description>
+    </item>
+    
+    <item>
+      <title>Alternate Representations</title>
+      <link>https://newblog/post/alternate-representations/</link>
+      <pubDate>Tue, 28 Apr 2020 12:54:05 -0400</pubDate>
+      
+      <guid>https://newblog/post/alternate-representations/</guid>
+      <description>There was a comment on my last post about arbitary trees on Reddit talking about how this type of data structure was a hold over from the old days when computer resources were more limited. Nowadays having a list of children makes more sense. The comment was of course correct but I still think it&amp;#39;s worth teaching representations like the one I spoke of in my last post. Looking at interesting and different ways of representing data and modeling solutions is one of the things that separates programmers or coders from computer scientists and software engineers.</description>
+    </item>
+    
+    <item>
+      <title>Arbitrary Trees</title>
+      <link>https://newblog/post/arbitrary-trees/</link>
+      <pubDate>Mon, 27 Apr 2020 18:45:50 -0400</pubDate>
+      
+      <guid>https://newblog/post/arbitrary-trees/</guid>
+      <description>It&amp;#39;s been 10 days from my last post. Not really a big break for me historically but certainly a big one given how much I&amp;#39;ve been posting this year. Been under the weather for the past couple of weeks dealing with COVID-19. Haven&amp;#39;t had super bad symptoms and as symptoms have been getting fewer and less severe I&amp;#39;m hoping I&amp;#39;m close to a full recovery.
+In any event, I&amp;#39;m feeling good enough for a quick post.</description>
+    </item>
+    
+    <item>
+      <title>Working with texts part 3 - word chains</title>
+      <link>https://newblog/post/word-chains/</link>
+      <pubDate>Mon, 25 Nov 2019 05:45:55 -0400</pubDate>
+      
+      <guid>https://newblog/post/word-chains/</guid>
+      <description>At this point, we&amp;#39;ve done a fair amount of playing with text so it&amp;#39;s time for a fun little project. We&amp;#39;re going to generate some text &amp;#34;in the style&amp;#34; of a source text. The technique we&amp;#39;re going to use is usually called a Markov Chain text generator. Basically a model where the next state or word is based entirely on the current state. I don&amp;#39;t dwell on the math under the hood but in case you&amp;#39;re interested, here are a few links: Wikipedia, Explained Visually, UC Davis Math.</description>
+    </item>
+    
+    <item>
+      <title>Working with texts part 2 - bag of words</title>
+      <link>https://newblog/post/bag-of-words/</link>
+      <pubDate>Wed, 20 Nov 2019 08:15:41 -0400</pubDate>
+      
+      <guid>https://newblog/post/bag-of-words/</guid>
+      <description>Following up on a previous post, we&amp;#39;re going to continue to talk about playing with text. This time, building and working with a bag of words from a text. A bag of words is a simple language processing model where you just consider individual words in a text. What they are and how many times they occur. This is a pretty simple model but you can still have a good bit of fun with your students with it.</description>
+    </item>
+    
+    <item>
+      <title>A* is born</title>
+      <link>https://newblog/posts/a-star-is-born/</link>
+      <pubDate>Mon, 05 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/a-star-is-born/</guid>
+      <description>Over on the CS Educator StachExchange, which is in private beta for a few more days, I saw a post asking about how to introduce the A* search algorithm.
+I taught A* as part of the APCS class at Stuy so I thought I&amp;#39;d talk about what I did here.
+Some time around mid year, we get to intermediate recursion. This is about the time, give or take, when we talk about the nlogn sorts.</description>
+    </item>
+    
+  </channel>
+</rss>

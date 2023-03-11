@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pipeline on C&#39;est la Z</title>
+    <link>https://newblog/tags/pipeline/</link>
+    <description>Recent content in pipeline on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Feb 2020 13:41:03 -0400</lastBuildDate><atom:link href="https://newblog/tags/pipeline/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Hunter Codefest 2020</title>
+      <link>https://newblog/post/codefest-2020/</link>
+      <pubDate>Sat, 01 Feb 2020 13:41:03 -0400</pubDate>
+      
+      <guid>https://newblog/post/codefest-2020/</guid>
+      <description>Two of the challenges faced by young computer science students are finding the time to build independent projects for their portfolios and getting feedback from and networking with tech professionals.
+Enter Hunter Codefest 2020
+&amp;lt;style&amp;gt; .flip { -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -o-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); } &amp;lt;/style&amp;gt;
+&amp;lt;br clear=&amp;#34;all&amp;#34;&amp;gt;
+Hunter, like most colleges has a Fall semester that runs from late August through the end of Decemeber and a Spring semester that starts at the end of January and runs through late may.</description>
+    </item>
+    
+  </channel>
+</rss>

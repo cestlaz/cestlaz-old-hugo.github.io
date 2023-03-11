@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>algorithms. unplugged on C&#39;est la Z</title>
+    <link>https://newblog/tags/algorithms.-unplugged/</link>
+    <description>Recent content in algorithms. unplugged on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Nov 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://newblog/tags/algorithms.-unplugged/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Motivating and understanding quicksort</title>
+      <link>https://newblog/posts/quick-sort-starting/</link>
+      <pubDate>Tue, 21 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/quick-sort-starting/</guid>
+      <description>Thks question was posed the other day - how can one get students to truly understand the quicksort algorithm?
+I&amp;#39;ve written a few posts about quicksort. The last time I did a lesson writeup on the subject I wrote about first looking and quickselect and then moving to the quicksort. The class was first faced with the problem of writing a routine to find the Kth smallest item in an unsorted data set.</description>
+    </item>
+    
+  </channel>
+</rss>

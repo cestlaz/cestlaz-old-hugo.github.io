@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>curriculum on C&#39;est la Z</title>
+    <link>https://newblog/categories/curriculum/</link>
+    <description>Recent content in curriculum on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Mar 2022 12:17:11 -0400</lastBuildDate><atom:link href="https://newblog/categories/curriculum/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Truth Tables and Logic Gates - where to teach them.</title>
+      <link>https://newblog/post/truth-tables/</link>
+      <pubDate>Mon, 14 Mar 2022 12:17:11 -0400</pubDate>
+      
+      <guid>https://newblog/post/truth-tables/</guid>
+      <description>A question was raised on Facebook last week asking about teaching truth tables and logic gates in an intro class in programming Python. The teacher who posed the question certainly appreciates the value of these topics but was wondering both how best to motivate the topics and if they were really appropriate in an intro programming course as opposed to, say, and intro computer architecture or electronics course or even a more general intro CS survey course.</description>
+    </item>
+    
+    <item>
+      <title>What is a Syllabus and why does it matter?</title>
+      <link>https://newblog/post/whats-a-syllabus/</link>
+      <pubDate>Fri, 14 Jan 2022 07:14:35 -0400</pubDate>
+      
+      <guid>https://newblog/post/whats-a-syllabus/</guid>
+      <description>Over in the Facebook CS Ed groups there was a discussion of the forthcoming code.org APCS-A curriculum. As far as I can tell, the curriculum isn&amp;#39;t actually available yet so I can&amp;#39;t really comment on it but the discussion started with a concern about some of the announcement. It made me think of what a curriculum was when I started teaching, what it is now, and the ramifications of the change.</description>
+    </item>
+    
+    <item>
+      <title>Teaching non required topics - the command line</title>
+      <link>https://newblog/post/non-required-topics/</link>
+      <pubDate>Fri, 08 Oct 2021 08:56:11 -0400</pubDate>
+      
+      <guid>https://newblog/post/non-required-topics/</guid>
+      <description>The other day I saw Allen Holub lamenting on how students don&amp;#39;t learn the command line.
+All my students this semester have gone through at least a year of programming classes, and some of them do not know how to do even basic stuff on the command-line. This strikes me as a huge flaw in the curriculum. Maybe the first CS class should be How Devs Use Computers 101.</description>
+    </item>
+    
+    <item>
+      <title>A new book on teaching CS in K12 - and I wrote a chapter!!</title>
+      <link>https://newblog/post/in-a-book/</link>
+      <pubDate>Mon, 15 Jun 2020 07:08:12 -0400</pubDate>
+      
+      <guid>https://newblog/post/in-a-book/</guid>
+      <description>I was involved in a really exciting project a few months ago and now that it&amp;#39;s available, it&amp;#39;s time to tell everyone about it.
+There&amp;#39;s a new book on teaching CS in K12 - Computer Science in K12. I got an email a few months ago from Shuchi Grover. Okay, actually a DM over twitter. I hadn&amp;#39;t officially met Shuchi although I&amp;#39;m pretty sure we&amp;#39;ve been at the same table or group in a conference or two but I did know her from reputation.</description>
+    </item>
+    
+    <item>
+      <title>When does a new course really get developed</title>
+      <link>https://newblog/post/when-does-a-new-course-get-developed/</link>
+      <pubDate>Mon, 07 Jan 2019 08:49:17 -0400</pubDate>
+      
+      <guid>https://newblog/post/when-does-a-new-course-get-developed/</guid>
+      <description>Following up on my last post I thought I&amp;#39;d talk a bit more about course development. According to most powers that be it&amp;#39;s all done ahead of time. Organizations and companies with curricula to sell package it all up ahead of time lesson by lesson unit by unit. When I create a new course at Hunter, they demand a sample syllabus during the approval process with a week by week outline, assignments reading and more.</description>
+    </item>
+    
+    <item>
+      <title>Owning The Curriculum</title>
+      <link>https://newblog/post/owning-the-curriculum/</link>
+      <pubDate>Sat, 05 Jan 2019 19:41:23 -0400</pubDate>
+      
+      <guid>https://newblog/post/owning-the-curriculum/</guid>
+      <description>I spent a couple of days last week hunkered down working designing a CS Ethics course and of course it got me thinking about designing courses in general. One of the topics I&amp;#39;ve ranted on is my disdain for canned curricula. I&amp;#39;ve never been a fan. This isn&amp;#39;t to say I don&amp;#39;t want to leverage other people&amp;#39;s work. I&amp;#39;ll take sample curricula, lessons, and all the resources I can get my hands on but I&amp;#39;d never just deliver them as is.</description>
+    </item>
+    
+  </channel>
+</rss>

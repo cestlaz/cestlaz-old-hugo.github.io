@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>civic tech on C&#39;est la Z</title>
+    <link>https://newblog/tags/civic-tech/</link>
+    <description>Recent content in civic tech on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Jun 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://newblog/tags/civic-tech/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>PDF 2016 - How we lost the open web</title>
+      <link>https://newblog/posts/pdf2016-lost-in-the-silo/</link>
+      <pubDate>Sat, 11 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/pdf2016-lost-in-the-silo/</guid>
+      <description>I spent the last couple of days attending Personal Democracy Forum 2016, described on their landing site as:
+The world’s leading conference exploring and analyzing technology&amp;#39;s impact on politics, government, and society.
+That&amp;#39;s the reason why I haven&amp;#39;t posted my latest Emacs video.
+PDF is a great conference and raised a huge number of important issues. I&amp;#39;ll probably blog about a few over the next few weeks.
+One topic that I&amp;#39;ve already lamented about has been the way we as a society are allowing so much information to be silo-ed in platforms like Facebook.</description>
+    </item>
+    
+  </channel>
+</rss>

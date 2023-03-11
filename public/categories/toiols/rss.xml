@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>toiols on C&#39;est la Z</title>
+    <link>https://newblog/categories/toiols/</link>
+    <description>Recent content in toiols on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Jul 2020 07:52:24 -0400</lastBuildDate><atom:link href="https://newblog/categories/toiols/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Tools matter when teaching (and learning)</title>
+      <link>https://newblog/post/tools-matter/</link>
+      <pubDate>Wed, 22 Jul 2020 07:52:24 -0400</pubDate>
+      
+      <guid>https://newblog/post/tools-matter/</guid>
+      <description>One of our teacher certification cohort members asked for some help on our Slack the other day. It was about a side project - he was learning him so Javascript. It&amp;#39;s always very cool to see teachers exploring things that can help with their craft on their own.
+The whole situation reminded me about how important good tooling is and why, in spite of its popularity, javascript has some severe issues as a learning language and I&amp;#39;m a guy that actually likes javascript.</description>
+    </item>
+    
+  </channel>
+</rss>

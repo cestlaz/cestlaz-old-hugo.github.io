@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>software engineering on C&#39;est la Z</title>
+    <link>https://newblog/tags/software-engineering/</link>
+    <description>Recent content in software engineering on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Sep 2019 12:34:04 -0400</lastBuildDate><atom:link href="https://newblog/tags/software-engineering/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Teaching techniques - industry to classroom and classroom to industry</title>
+      <link>https://newblog/post/industry-techniques-in-class/</link>
+      <pubDate>Fri, 27 Sep 2019 12:34:04 -0400</pubDate>
+      
+      <guid>https://newblog/post/industry-techniques-in-class/</guid>
+      <description>There are things we do in school and there are things we do in industry and they&amp;#39;re not always the same. In school we might use a learning language or an IDE which gives additional support and at times even take away language features while at work you might you might make heavy use of continuous integration tools. On the other hand, sometimes we use the same things. Java is used in schools and in industry, StackOverflow consulted in both and many schools use professional IDEs like Eclipse.</description>
+    </item>
+    
+    <item>
+      <title>Exploring Complex Projects</title>
+      <link>https://newblog/post/exploring-complex-projects/</link>
+      <pubDate>Wed, 07 Aug 2019 19:20:17 -0400</pubDate>
+      
+      <guid>https://newblog/post/exploring-complex-projects/</guid>
+      <description>A couple of weeks ago there were some discussions about students working on and in larger projects. Most CS educators think it&amp;#39;s a good idea to expose students to large projects even if we don&amp;#39;t all agree as to what the best time is.
+Regardless of when, figuring out a large project can be a bear and that&amp;#39;s not just true for students. I saw this on my Tweetstream about onboarding software engineers:</description>
+    </item>
+    
+    <item>
+      <title>Big Code And Case Studies</title>
+      <link>https://newblog/post/big-code-and-case-studies/</link>
+      <pubDate>Wed, 24 Jul 2019 11:22:12 -0400</pubDate>
+      
+      <guid>https://newblog/post/big-code-and-case-studies/</guid>
+      <description>I&amp;#39;m enjoying reading about Ria Galanos&amp;#39; new chapter on her blog. In her most recent post Ria briefly talks about the fact that very few professional developers start from scratch and most work in existing large code bases. She wonders why the College Board got rid of the APCS-A case study and talked about how it gave students an opportunity to work on a multi-file complex system. Over the past few years others have wondered if the College Board should bring it back.</description>
+    </item>
+    
+    <item>
+      <title>Give me a break (and a continue)</title>
+      <link>https://newblog/post/break-continue/</link>
+      <pubDate>Wed, 01 May 2019 08:39:41 -0400</pubDate>
+      
+      <guid>https://newblog/post/break-continue/</guid>
+      <description>What can I do to discourage my students from using the &amp;#34;break&amp;#34; statement?
+That was more or less the gist of the comment and it elicited some good responses. This time the conversation was on Facebook but I&amp;#39;ve seen this one and participated in it many times before. I never liked the question when presented as a &amp;#34;how can I stop them&amp;#34; one. I equally dislike when the offered advice is basically &amp;#34;never use break no matter what&amp;#34; or something similar.</description>
+    </item>
+    
+    <item>
+      <title>Code Review Revisited or research - the teacher version</title>
+      <link>https://newblog/post/code-review-2/</link>
+      <pubDate>Tue, 16 Apr 2019 11:36:27 -0400</pubDate>
+      
+      <guid>https://newblog/post/code-review-2/</guid>
+      <description>Last semester I wrote about how I was introducing my students to code review. I thought it worked pretty well and was anxious to try it again.
+Well, I did the lesson(s) again this past week and it looks like it&amp;#39;s a keeper. The setup was pretty much the same with some hiccups due to using a new platform. Last semester I used plain GitHub public repos. This time, I&amp;#39;ve been using GitHub classroom which I like very much but I forgot that I made this assignment use private repos which turned out to be a hassle.</description>
+    </item>
+    
+    <item>
+      <title>An experiment with code review</title>
+      <link>https://newblog/post/code-review/</link>
+      <pubDate>Thu, 15 Nov 2018 17:09:58 -0400</pubDate>
+      
+      <guid>https://newblog/post/code-review/</guid>
+      <description>Sometimes professional practices don&amp;#39;t work well in the classroom and sometimes they do. One professional practice that does work well is code review - reading and reflecting on other peoples code.
+I&amp;#39;ve had my students do code reviews in the past but this time I did things differently. Here&amp;#39;s what I did and here&amp;#39;s how it went
+Two weeks ago my students completed a lab. The lab involved reading in a poorly indented C++ program and spit out a properly indented one.</description>
+    </item>
+    
+    <item>
+      <title>Compile Each Concept</title>
+      <link>https://newblog/post/compile-each-concept/</link>
+      <pubDate>Tue, 09 Oct 2018 14:46:59 -0400</pubDate>
+      
+      <guid>https://newblog/post/compile-each-concept/</guid>
+      <description>We&amp;#39;ve all been there:
+Student: Teacher, I need help Teacher (comes over) Student (shows screen listing three bazillion errors)
+The student has just written pages of code and finally decided to try to run it only to end up with pages of errors.
+Error messages can at times be hard to read for beginners but to see and truth be told, they frequently don&amp;#39;t even read them but over the years I&amp;#39;ve developed a practice that I&amp;#39;ve found helpful as a software developer and if students adopt the same practice it can save them a lot of time and effort.</description>
+    </item>
+    
+    <item>
+      <title>Pull Requests and Other People&#39;s Code</title>
+      <link>https://newblog/posts/pull-requests/</link>
+      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/pull-requests/</guid>
+      <description>One of the things I&amp;#39;ve heard for years from former students - both those looking for jobs and those looking to hire is that colleges don&amp;#39;t really do a good job preparing students for careers in tech. Sure they teach the algorithms and the theory but ther are a lot of missing pieces, particularly on the practical end. I&amp;#39;m certainly not advocating turning CS programs into coding schools but there are many low cost opportunities to bring practical real world best practices in to the CS classroom.</description>
+    </item>
+    
+    <item>
+      <title>Do It The Dumb Way</title>
+      <link>https://newblog/posts/do-it-the-dumb-way/</link>
+      <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/do-it-the-dumb-way/</guid>
+      <description>There&amp;#39;s so much to like in the shape drawing lessons I talked about in my refactoring post that I thought I&amp;#39;d share a little more here.
+It can be argued that the most important things for a program to do is work. The most clever, elegant, creative program is worthless if it doesn&amp;#39;t produce the desired result. All too often, beginners and hot shot beginners in particular try to be too clever too early and get themselves into trouble.</description>
+    </item>
+    
+    <item>
+      <title>Testing Part 2</title>
+      <link>https://newblog/posts/testing-part2/</link>
+      <pubDate>Sun, 18 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/testing-part2/</guid>
+      <description>A few weeks ago I wrote about introducing testing in CS classes, specifically using a testing framework. In that post I talked about the plan but now I can talk about the results.
+My class interleaves with Hunter&amp;#39;s CSCI 13500 - Software Analysis and Design I class. One day each week, my students have complete a hands on lab focusing on whatever is being covered in the 13500 class. I decided to use one of those labs as a first foray into testing.</description>
+    </item>
+    
+    <item>
+      <title>Testing, Testing</title>
+      <link>https://newblog/posts/testing-testing/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/testing-testing/</guid>
+      <description>With CS4All being the buzzword of the day we&amp;#39;re paying a lot of attention to the fact that when we teach a CS class for all students, most of them won&amp;#39;t end up studying CS or going directly into a tech heavy field.
+Among those that do study CS though, there is another division. Those studying CS as an academic exercise or to go on to graduate studies and those who are going in to the tech sector.</description>
+    </item>
+    
+  </channel>
+</rss>

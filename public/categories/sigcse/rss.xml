@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sigcse on C&#39;est la Z</title>
+    <link>https://newblog/categories/sigcse/</link>
+    <description>Recent content in sigcse on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Mar 2022 14:26:26 -0400</lastBuildDate><atom:link href="https://newblog/categories/sigcse/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>SIGCSE 2022 AP or not AP</title>
+      <link>https://newblog/post/sigcse-2022-apcs-or-not-ap/</link>
+      <pubDate>Wed, 09 Mar 2022 14:26:26 -0400</pubDate>
+      
+      <guid>https://newblog/post/sigcse-2022-apcs-or-not-ap/</guid>
+      <description>While my series on APCS-A language choice is done, I wanted to write this brief addendum.
+While reading comments over on Facebook under my APCS posts one caught my eye. There was a comment saying they wished the College Board would create a data science course. I responded, why not create one yourself. The response, shared I&amp;#39;m sure by many is that if a course doesn&amp;#39;t have an AP designation students won&amp;#39;t sign up for it.</description>
+    </item>
+    
+    <item>
+      <title>SIGCSE 2022 APCS - Alternate Languages</title>
+      <link>https://newblog/post/sigcse-2022-apcs-alt-langs/</link>
+      <pubDate>Wed, 09 Mar 2022 11:12:13 -0400</pubDate>
+      
+      <guid>https://newblog/post/sigcse-2022-apcs-alt-langs/</guid>
+      <description>I think I&amp;#39;ve hit on the big points on APCS-A language but a couple more remain. This time, let&amp;#39;s look at alternative languages.
+When APCS started in 1984, Pascal probably made sense - it was the primary learning language at the time. It wasn&amp;#39;t really used in industry but it was the language you cut your teeth on. A few years later when I went from college to Goldman Sacks I found very few companies using Pascal.</description>
+    </item>
+    
+    <item>
+      <title>SIGCSE 2022 APCS-A Costs of changing the language</title>
+      <link>https://newblog/post/sigcse-2022-apcs-costs/</link>
+      <pubDate>Tue, 08 Mar 2022 07:28:46 -0400</pubDate>
+      
+      <guid>https://newblog/post/sigcse-2022-apcs-costs/</guid>
+      <description>One of the arguments for keeping APCS-A as is are the costs to change. There are of course, many kinds of costs.
+The first are the monetary costs. New text book, curricular materials and possibly equipment. The College Board has their development costs but I don&amp;#39;t care about those - they&amp;#39;re raking in money hand over fist anyway. I don&amp;#39;t think these costs amount to much. Companies that sell materials for classes are always trying to make sales and even when subjects don&amp;#39;t change there are always new books and other resources.</description>
+    </item>
+    
+    <item>
+      <title>SIGCSE 2022 - APCS-A Language strengths and weaknesses</title>
+      <link>https://newblog/post/sigcse-2022-apcs-languages/</link>
+      <pubDate>Mon, 07 Mar 2022 13:54:58 -0400</pubDate>
+      
+      <guid>https://newblog/post/sigcse-2022-apcs-languages/</guid>
+      <description>Last time we talked about the intent of APCS-A and without deciding on that we can&amp;#39;t really chose a language. Still, we can talk about strengths and weaknesses of languages. Let&amp;#39;s do that by taking a walk down history.
+APCS started in Pascal. Back then it was a one year course that included CS1 (programming) and CS2 (data structures). Later they offered two exams A (programming) and AB (programming plus data structures).</description>
+    </item>
+    
+    <item>
+      <title>SIGCSE 2022 - What language APCS-A part 1 - the intent</title>
+      <link>https://newblog/post/sigcse-2022-apcs-intent/</link>
+      <pubDate>Sun, 06 Mar 2022 16:00:07 -0400</pubDate>
+      
+      <guid>https://newblog/post/sigcse-2022-apcs-intent/</guid>
+      <description>One of the first sessions of SIGCSE2022 was a panel on the choice of language for APCS-A. Should it continue to use Java or should it shift to Python. This topic comes up from time to time. I didn&amp;#39;t attend this particular session but discussed it at length with a few people who did.
+Truth be told, I wasn&amp;#39;t going to start writing about SIGCSE and APCS-A until I finished a few other SIGCSE posts but my friend Alfred Thompson said he was writing one and was planning on posting it soon.</description>
+    </item>
+    
+    <item>
+      <title>SIGCSE 2022 - Conference format</title>
+      <link>https://newblog/post/sigcse-2022-hybrid/</link>
+      <pubDate>Sat, 05 Mar 2022 08:05:15 -0400</pubDate>
+      
+      <guid>https://newblog/post/sigcse-2022-hybrid/</guid>
+      <description>Before diving into the content I thought I&amp;#39;d share my thoughts about SIGCSE as a hybrid conference. Prior to Covid, SIGCSE was pushing 2,000 in person participants. This time around ther were a little under 800 in person and a number of hundreds more remote. The in person numbers mirrored what CSTA has grown to. It&amp;#39;s a nice size. Not overwhelming but manageable. It&amp;#39;s at the upper edge of possibly feeling intimate.</description>
+    </item>
+    
+    <item>
+      <title>SIGCSE 2019 - the keynotes</title>
+      <link>https://newblog/post/sigcse-2019-keynotes/</link>
+      <pubDate>Mon, 04 Mar 2019 15:25:59 -0400</pubDate>
+      
+      <guid>https://newblog/post/sigcse-2019-keynotes/</guid>
+      <description>It&amp;#39;s that time of the year to write a series of blog posts about SIGCSE. I thought I&amp;#39;d start with one on the keynotes. There were four keynote speakers. Marie desJardins, Gloria Townsend, Mark Guzdial, and Blair Taylor. I wasn&amp;#39;t at the first timer&amp;#39;s lunch where Townsend spoke so I won&amp;#39;t talk at all about that keynote.
+I&amp;#39;m also not going to summarize the talks. Andy Ko wrote up a terrific summary of his SIGCSE experience and did a much better job giving overviews to the keynotes than I ever could so I&amp;#39;ll just refer you to Andy&amp;#39;s blog post.</description>
+    </item>
+    
+  </channel>
+</rss>

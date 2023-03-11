@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ed on C&#39;est la Z</title>
+    <link>https://newblog/tags/ed/</link>
+    <description>Recent content in ed on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Oct 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://newblog/tags/ed/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Standards - Who are they for?</title>
+      <link>https://newblog/posts/standards-who-for/</link>
+      <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/standards-who-for/</guid>
+      <description>The big push at last year&amp;#39;s CSTA conference was the release of the new CSTA K12 standards. It seemed that every other session was pushing them in one way or another. I&amp;#39;ve been meaning to share my thoughts about them or, more specifically, learning standards in general for a while but with announcement about federal funding for CS coming from the White House last week I thought it was time.</description>
+    </item>
+    
+  </channel>
+</rss>

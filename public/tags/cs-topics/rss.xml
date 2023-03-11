@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CS Topics on C&#39;est la Z</title>
+    <link>https://newblog/tags/cs-topics/</link>
+    <description>Recent content in CS Topics on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Oct 2022 14:40:55 -0400</lastBuildDate><atom:link href="https://newblog/tags/cs-topics/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Same Old Topics</title>
+      <link>https://newblog/post/same-old-topics/</link>
+      <pubDate>Sat, 08 Oct 2022 14:40:55 -0400</pubDate>
+      
+      <guid>https://newblog/post/same-old-topics/</guid>
+      <description>I haven&amp;#39;t been posting about specific CS teaching techniques and lesson content recently. Probably because I&amp;#39;ve been teaching the same classes at Hunter now for the past six years.
+Twice a year, Fall and Spring, I teach a recitation for Hunter&amp;#39;s CS1 in C++. In the Fall I also teach a version of their CS0 in Python. My second undergrad CS class in the Spring is Data Structures.
+I have some freedom in the CS0 class but that&amp;#39;s more with applications and assignments since the basics are the basics.</description>
+    </item>
+    
+  </channel>
+</rss>

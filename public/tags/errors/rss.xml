@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>errors on C&#39;est la Z</title>
+    <link>https://newblog/tags/errors/</link>
+    <description>Recent content in errors on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Sep 2022 15:05:19 -0400</lastBuildDate><atom:link href="https://newblog/tags/errors/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Subtle Errors</title>
+      <link>https://newblog/post/subtle-errors/</link>
+      <pubDate>Fri, 02 Sep 2022 15:05:19 -0400</pubDate>
+      
+      <guid>https://newblog/post/subtle-errors/</guid>
+      <description>The semesters back up in full swing again - teaching 2 undergrad classes in person - CS0 in Python and CS1 in C++ along with my teacher certification class - Ethics via Zoom. Grand total of about 125 students. An error came up in the CS0 class the other day that reminded me how tough it is not only to prepare students to deal with all the things that can go wrong when learning to program but even for a teacher to realize what&amp;#39;s going on.</description>
+    </item>
+    
+  </channel>
+</rss>

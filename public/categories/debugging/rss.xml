@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>debugging on C&#39;est la Z</title>
+    <link>https://newblog/categories/debugging/</link>
+    <description>Recent content in debugging on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 May 2022 14:22:57 -0400</lastBuildDate><atom:link href="https://newblog/categories/debugging/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>When Your Program Crashes</title>
+      <link>https://newblog/post/when-your-program-crashes/</link>
+      <pubDate>Fri, 13 May 2022 14:22:57 -0400</pubDate>
+      
+      <guid>https://newblog/post/when-your-program-crashes/</guid>
+      <description>We all have to deal with bugs - students, teachers, hobbyists, professionals. It&amp;#39;s rare that we&amp;#39;ll take a concept to working program without some bumps along the way. Well, once or twice I did but that&amp;#39;s once or twice over the course of a lifetime, those cases are the exceptions.
+The errors and the bugs are inevitable so what can we do to help students deal with the invariable frustration?</description>
+    </item>
+    
+    <item>
+      <title>More thoughts on debugging</title>
+      <link>https://newblog/post/debug/</link>
+      <pubDate>Thu, 21 May 2020 08:11:25 -0400</pubDate>
+      
+      <guid>https://newblog/post/debug/</guid>
+      <description>Yesterday&amp;#39;s post on errors led to some interesting discussion over on Facebook. Specifically on teaching students to use a debugger. My contention is that while it&amp;#39;s easy to demonstrate a debugger it&amp;#39;s hard to get student buy in. In my CS0, we start with Thonny which has a great integrated debugger. In my CS1 I also show and use gdb. Regardless of my approach the subset of students who actively end up using the debugger has remained both constant and small.</description>
+    </item>
+    
+    <item>
+      <title>Errors Are Hard To Find</title>
+      <link>https://newblog/post/errors-are-hard-to-find/</link>
+      <pubDate>Wed, 20 May 2020 08:10:54 -0400</pubDate>
+      
+      <guid>https://newblog/post/errors-are-hard-to-find/</guid>
+      <description>Programming is amazing. You get the thrill of victory and the agony of defeat. It&amp;#39;s a great feeling when you write something and it works - even it it&amp;#39;s small and simple. It also feels good to hunt down, discover and eliminate subtle bugs in our code. On the other hand, I&amp;#39;ll frequently feel like a bozo when I pour over my code for days only to find a super silly error.</description>
+    </item>
+    
+    <item>
+      <title>CS Ed Podcast 3 -  Debugging</title>
+      <link>https://newblog/post/cs-ed-podcast-3-debugging/</link>
+      <pubDate>Fri, 06 Mar 2020 08:40:26 -0400</pubDate>
+      
+      <guid>https://newblog/post/cs-ed-podcast-3-debugging/</guid>
+      <description>&amp;lt;blockquote&amp;gt; Everyone knows that debugging is twice as hard as writing a program in the first place. So if you&amp;#39;re as clever as you can be when you write it, how will you ever debug it? – Brian Kernighan &amp;lt;/blockquote&amp;gt;
+Debugging is what the third episode of the CS Ed Podcast was all about. Kristin Stephens-Martinez of Duke University speaks with Amy Ko of the University of Washington.
+The long and the short of it is that debugging is hard, teaching is hard, and teaching debugging is hard.</description>
+    </item>
+    
+  </channel>
+</rss>

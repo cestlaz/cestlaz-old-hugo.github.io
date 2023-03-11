@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>csed on C&#39;est la Z</title>
+    <link>https://newblog/tags/csed/</link>
+    <description>Recent content in csed on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Jan 2022 06:47:18 -0400</lastBuildDate><atom:link href="https://newblog/tags/csed/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Do you need to know assembly to be a computer scientist?</title>
+      <link>https://newblog/post/assembly/</link>
+      <pubDate>Wed, 19 Jan 2022 06:47:18 -0400</pubDate>
+      
+      <guid>https://newblog/post/assembly/</guid>
+      <description>Another recent discussion online asked &amp;#34;do you need to know assembly language to be a computer scientist?&amp;#34;
+Sides quickly formed. On one side, it was a strict requirement. Some going so far as saying you had to start with it or at worst a language like C. On the other side you had people claiming that it&amp;#39;s wholly unnecessary for most CS graduates like many of the classes we require of a CS major (I&amp;#39;m looking at you Calc II and beyond).</description>
+    </item>
+    
+    <item>
+      <title>If you build programs, teachers will come</title>
+      <link>https://newblog/post/people-will-teach-cs/</link>
+      <pubDate>Thu, 27 May 2021 06:53:26 -0400</pubDate>
+      
+      <guid>https://newblog/post/people-will-teach-cs/</guid>
+      <description>It&amp;#39;s been a month since my last post. In fact it seems that most of the usual CS Ed bloggers are down in frequency this year. For me it&amp;#39;s probably been Covid fatigue and the resulting funk but I&amp;#39;m going to see if I can force myself to write more frequently.
+So, the other day someone was asking about CS certification in NY state on Facebook. One comment caught my eye.</description>
+    </item>
+    
+    <item>
+      <title>New York City has Certified CS Teachers</title>
+      <link>https://newblog/post/certified-teachers/</link>
+      <pubDate>Tue, 23 Mar 2021 19:35:57 -0400</pubDate>
+      
+      <guid>https://newblog/post/certified-teachers/</guid>
+      <description>I&amp;#39;m super proud to say that New York City now has state certified Computer Science Teachers!!!!!!
+It&amp;#39;s been a long road - really long if you consider I got started on my CS Ed journey decades ago and there&amp;#39;s a long road ahead but we hit a major milestone. I started at Hunter a little over five years ago and creating teacher certification programs was one of the goals. Back then, the state had neither CS certification nor CS standards.</description>
+    </item>
+    
+    <item>
+      <title>Preparing CS Teachers - tools for remote instruction</title>
+      <link>https://newblog/post/teacher-cert-tools/</link>
+      <pubDate>Mon, 10 Aug 2020 06:07:26 -0400</pubDate>
+      
+      <guid>https://newblog/post/teacher-cert-tools/</guid>
+      <description>Our summer intensive was supposed to be in person but COVID-19 changed that in a hurry. We had to scramble to redesign and figure out how we were going to run things.
+We decided to go with the following:
+Zoom for live meetings Slack for chat Git and GitHub
+GitHub classroom for assignments GitHub repos for code distribution, class website and resource sharing. GitHub discussions for off hour and long form discussion While Zoom is a great platform it was lacking in a few areas so we also ended up using: Padlet as a collaborative writing space for groups Assorted whiteboarding tools.</description>
+    </item>
+    
+    <item>
+      <title>Preparing CS teachers - Curricula don&#39;t add richness, teachers do</title>
+      <link>https://newblog/post/teacher-cert-topics-curriculum/</link>
+      <pubDate>Fri, 07 Aug 2020 07:25:57 -0400</pubDate>
+      
+      <guid>https://newblog/post/teacher-cert-topics-curriculum/</guid>
+      <description>I&amp;#39;ve frequently been asked for curricula. I&amp;#39;ll hear from a school or someone otherwise involved in a school or education and they&amp;#39;ll ask for a course they can drop in and teach.
+I explain it doesn&amp;#39;t work that way. A syllabus or curriculum is only so good. A great curriculum with a bad teacher will still be bad but a great teacher can do a lot to salvage a horrible curriculum.</description>
+    </item>
+    
+    <item>
+      <title>Preparing CS Teachers - what to leave in, what to leave out</title>
+      <link>https://newblog/post/teacher-cert-methods-choosing/</link>
+      <pubDate>Thu, 06 Aug 2020 07:37:12 -0400</pubDate>
+      
+      <guid>https://newblog/post/teacher-cert-methods-choosing/</guid>
+      <description>Teachers always make decisions in their courses - what to leave in, what to leave out. I&amp;#39;ve seen programming and data structure classes where everything is written from scratch and others where a few things are explained and the students just use built in types like the java LinkedList or Arrays.sort() method.
+Do too much from scratch and you&amp;#39;ll never finish the curriculum. Do to little and the students won&amp;#39;t really understand what&amp;#39;s going on and walk a path towards being programmers or coders rather than computer scientists.</description>
+    </item>
+    
+    <item>
+      <title>CS Teacher Certification - Topics in CS</title>
+      <link>https://newblog/post/teacher-cert-topics/</link>
+      <pubDate>Wed, 05 Aug 2020 07:13:01 -0400</pubDate>
+      
+      <guid>https://newblog/post/teacher-cert-topics/</guid>
+      <description>Officially, the last course of the summer was &amp;#34;Modern Topics in Computer Science.&amp;#34; The idea was that K12 CS teachers on the one hand need depth beyond the typical terminal high school course, hence data structures and also breadth so that they could create electives, mix teasers in to the regular courses, or help precocious students with independent or semi-independant explorations. If someone was teaching this in a typical fall or spring semester course, they&amp;#39;d probably have a list of topics and spend a couple of weeks on each.</description>
+    </item>
+    
+    <item>
+      <title>Preparing CS Teachers - adding methods to our madness</title>
+      <link>https://newblog/post/teacher-cert-methods/</link>
+      <pubDate>Tue, 04 Aug 2020 06:47:08 -0400</pubDate>
+      
+      <guid>https://newblog/post/teacher-cert-methods/</guid>
+      <description>Our summer intensive was, well, pretty intensive. We met all day every day for a month and knocked out four classes. Programming (CS1) Data Structures Topics Methods If you ever took or taught a summer session class, you know that time is tight and generally you cover a little less than in a fall or spring semester class. N credits in 5 weeks just isn&amp;#39;t the same as those same N credits spread over 13.</description>
+    </item>
+    
+    <item>
+      <title>Preparing teachers to teach CS</title>
+      <link>https://newblog/post/teacher-cert-recap-intro/</link>
+      <pubDate>Mon, 03 Aug 2020 06:16:52 -0400</pubDate>
+      
+      <guid>https://newblog/post/teacher-cert-recap-intro/</guid>
+      <description>Now that the summer portion of Hunter College&amp;#39;s Advanced Certificate in Teaching Computer Science is over I thought I&amp;#39;d do a postmortem. That is, a few posts about what we did and how it all went. First, though, an overview of the program.
+The Advanced Certificate program is geared towards teachers who are currently certified in another subject area who wish to earn an additional New York State teaching certificate in Computer Science.</description>
+    </item>
+    
+    <item>
+      <title>Do It First</title>
+      <link>https://newblog/post/do-it-first/</link>
+      <pubDate>Mon, 10 Jun 2019 08:00:08 -0400</pubDate>
+      
+      <guid>https://newblog/post/do-it-first/</guid>
+      <description>Reading Garth Flint&amp;#39;s end of year post and Alfred Thompson&amp;#39;s follow up had me thinking about a couple of things. One was spurred when Garth wrote &amp;#34;They also have to figure out the math before they code.&amp;#34; This made me think about all the details we sometimes take for for granted. Things that are hard for our students that we just know. It&amp;#39;s frequently math that we might find trivial but it could also be much simpler things.</description>
+    </item>
+    
+    <item>
+      <title>Blog For Self Professional Devleopment</title>
+      <link>https://newblog/post/blog-for-pd/</link>
+      <pubDate>Thu, 16 May 2019 07:12:44 -0400</pubDate>
+      
+      <guid>https://newblog/post/blog-for-pd/</guid>
+      <description>Lat day of the 2019 NCWIT Summmit. Got up crazy early, got back from my run and saw this when I checked Twitter:
+A1: CSTA, Twitter chats like this one, @guzdial and @alfredtwo&amp;#39;s blogs among others. In all cases because those places start from assuming I&amp;#39;m a CS teacher, rather than starting from assuming I&amp;#39;m a teacher who is better at teaching something else. #csk8 https://t.co/6DO77fzq0j
+&amp;mdash; Sarah Judd (@SarahEJudd) May 16, 2019 I don&amp;#39;t usually participate in Twitter chats.</description>
+    </item>
+    
+    <item>
+      <title>Give me a break (and a continue)</title>
+      <link>https://newblog/post/break-continue/</link>
+      <pubDate>Wed, 01 May 2019 08:39:41 -0400</pubDate>
+      
+      <guid>https://newblog/post/break-continue/</guid>
+      <description>What can I do to discourage my students from using the &amp;#34;break&amp;#34; statement?
+That was more or less the gist of the comment and it elicited some good responses. This time the conversation was on Facebook but I&amp;#39;ve seen this one and participated in it many times before. I never liked the question when presented as a &amp;#34;how can I stop them&amp;#34; one. I equally dislike when the offered advice is basically &amp;#34;never use break no matter what&amp;#34; or something similar.</description>
+    </item>
+    
+    <item>
+      <title>Seam Carving and Dynamic Programming</title>
+      <link>https://newblog/post/seam-carving/</link>
+      <pubDate>Mon, 22 Apr 2019 13:51:52 -0400</pubDate>
+      
+      <guid>https://newblog/post/seam-carving/</guid>
+      <description>It&amp;#39;s spring break and for me that&amp;#39;s always been a good time to explore some new ideas.
+Here&amp;#39;s one that some of you might like, particularly if you&amp;#39;re teaching APCS-A or something similar. Many APCS-A teachers do a unit on image processing using the picture lab (alternate resource). Image processing is a nice platform to explore two dimensional arrays. You basically use a 2D array of pixels (points) to represent an image.</description>
+    </item>
+    
+    <item>
+      <title>CS Teacher PD at Grow with Google</title>
+      <link>https://newblog/post/pd-at-gwg/</link>
+      <pubDate>Fri, 12 Apr 2019 08:12:54 -0400</pubDate>
+      
+      <guid>https://newblog/post/pd-at-gwg/</guid>
+      <description>Yesterday we held our third monthly Professional Development session for teachers of &amp;#34;APCS-A, Similar, and Beyond.&amp;#34; It&amp;#39;s great to see that we&amp;#39;re starting to form a core of a community of CS teachers teaching some of the more advanced classes as there is a core group that keeps coming back for more. Even better is the fact that we&amp;#39;re gaining a couple of new teachers at each session.
+Last time, we were at Digital Ocean, a cloud provide that has been very involved in education since their creation and has been a tremendous boon to my education projects over the years.</description>
+    </item>
+    
+    <item>
+      <title>Choosing A Textbook</title>
+      <link>https://newblog/post/choosing-a-textbook/</link>
+      <pubDate>Sun, 31 Mar 2019 10:41:16 -0400</pubDate>
+      
+      <guid>https://newblog/post/choosing-a-textbook/</guid>
+      <description>Now and again there are requests on the assorted CS Education forums asking about which text book to use. These requests are usually for APCS-A. There are usually a number of &amp;#34;I&amp;#39;m very happy with …&amp;#34; replies but I thought I&amp;#39;d take a bit of a deeper dive into what teachers might want to consider when evaluating a textbook.
+It was never an issue when I started as a math teacher.</description>
+    </item>
+    
+    <item>
+      <title>Adapting A Nifty Assignment</title>
+      <link>https://newblog/post/adapting-a-nifty-assignment/</link>
+      <pubDate>Sat, 16 Mar 2019 08:20:47 -0400</pubDate>
+      
+      <guid>https://newblog/post/adapting-a-nifty-assignment/</guid>
+      <description>&amp;lt;figure class=&amp;#34;z_image_center&amp;#34;&amp;gt;&amp;lt;img src=&amp;#34;&amp;#34;/&amp;gt; &amp;lt;/figure&amp;gt;
+The Nifty Assignments session at SGICSE is always a popular one.
+Go to the site and you&amp;#39;ll find links to all the assignments presented from 1999 to the present year.
+On the one hand, it&amp;#39;s a great resource. On the other, the assignments vary in nifty-ness depending on one&amp;#39;s personal taste. To me, there seemed to be a run of nifty assignments that were really just &amp;#34;take a generic assignment and fancy up the graphics&amp;#34; mixed in with one&amp;#39;s that I found really cool.</description>
+    </item>
+    
+    <item>
+      <title>Evaluating Java IDES for teaching teachers.</title>
+      <link>https://newblog/post/java-ides/</link>
+      <pubDate>Fri, 08 Mar 2019 13:29:18 -0400</pubDate>
+      
+      <guid>https://newblog/post/java-ides/</guid>
+      <description>Since Hunter uses C++ as it&amp;#39;s core language, I haven&amp;#39;t used Java much in the past three years. That&amp;#39;s going to change pretty soon. Once we start offering our CS teacher Certificate and Masters programs I&amp;#39;ll once again start teaching with Java as that&amp;#39;s one of the langauges that we want to prepare our teachers with.
+That means deciding on a set of tools and so I&amp;#39;ve been spending time evaluating Java programming environments with an eye on the beginner since not only do the teachers I work with have to be comfortable with the tool but more importantly they will have to be able to support the tool for all of their students.</description>
+    </item>
+    
+    <item>
+      <title>SIGCSE 2019 - the keynotes</title>
+      <link>https://newblog/post/sigcse-2019-keynotes/</link>
+      <pubDate>Mon, 04 Mar 2019 15:25:59 -0400</pubDate>
+      
+      <guid>https://newblog/post/sigcse-2019-keynotes/</guid>
+      <description>It&amp;#39;s that time of the year to write a series of blog posts about SIGCSE. I thought I&amp;#39;d start with one on the keynotes. There were four keynote speakers. Marie desJardins, Gloria Townsend, Mark Guzdial, and Blair Taylor. I wasn&amp;#39;t at the first timer&amp;#39;s lunch where Townsend spoke so I won&amp;#39;t talk at all about that keynote.
+I&amp;#39;m also not going to summarize the talks. Andy Ko wrote up a terrific summary of his SIGCSE experience and did a much better job giving overviews to the keynotes than I ever could so I&amp;#39;ll just refer you to Andy&amp;#39;s blog post.</description>
+    </item>
+    
+    <item>
+      <title>March PD for CS Teachers</title>
+      <link>https://newblog/post/pd-apcs-a-and-beyond-3-14-2019/</link>
+      <pubDate>Tue, 26 Feb 2019 15:49:22 -0400</pubDate>
+      
+      <guid>https://newblog/post/pd-apcs-a-and-beyond-3-14-2019/</guid>
+      <description>Back in December we ran our first PD session for CS teachers. This was to address the need for professional development for teachers who were more experienced in terms of computer science - we aimed this at people who were ready to teach APCS-A, similar, or beyond and also to start to build a community for these teachers. We had trouble setting things up for February but we&amp;#39;re good to go for March, April and May.</description>
+    </item>
+    
+    <item>
+      <title>Why the Thomas Friedman&#39;s editorial on the College Board&#39;s Two Codes left me concerned</title>
+      <link>https://newblog/post/college-boards-two-codes/</link>
+      <pubDate>Tue, 19 Feb 2019 10:20:19 -0400</pubDate>
+      
+      <guid>https://newblog/post/college-boards-two-codes/</guid>
+      <description>There was some buzz over this editorial about the College Board last week. The two codes every child needs - Coding and the US Constitution? Who could argue with that.
+I&amp;#39;m not going to disagree. Civics and CS are important and can&amp;#39;t wait until college. The thing that left me chilled though was that nobody&amp;#39;s paying attention to the fact that the College Board - a private entity with its own interests has so much influence over American education.</description>
+    </item>
+    
+    <item>
+      <title>Use A Real Language</title>
+      <link>https://newblog/post/use-a-real-language/</link>
+      <pubDate>Sat, 09 Feb 2019 15:08:18 -0400</pubDate>
+      
+      <guid>https://newblog/post/use-a-real-language/</guid>
+      <description>Why can&amp;#39;t we use a real language!
+This topic has been coming up a lot recently. Now I&amp;#39;m not talking about the Drag and drop vs textual language thing. Let me be clear. To me a Drag and Drop language can certainly be a real language and many are. I also think they&amp;#39;re terrific when used correctly. I just think they&amp;#39;re frequently misapplied in later grades. No, I&amp;#39;m talking about people asking things like &amp;#34;Why do we have to use Java in our class, why can&amp;#39;t we use a real language like __.</description>
+    </item>
+    
+    <item>
+      <title>Sequencing Topics</title>
+      <link>https://newblog/post/sequencing-topics/</link>
+      <pubDate>Sat, 26 Jan 2019 16:06:08 -0400</pubDate>
+      
+      <guid>https://newblog/post/sequencing-topics/</guid>
+      <description>Monday&amp;#39;s the start of the Spring semester. Other than the 8:00am start I&amp;#39;m looking forward to it. My 8:00am class is the honors/lab component that goes with CS1. I taught it last semester and during each of the past two years at Hunter. My second class is the follow up - more OOP / C++, data structures and some algorithms.
+The material is old hat. I&amp;#39;ve taught it in Java more times than I can count and also in C++ albeit many years ago.</description>
+    </item>
+    
+    <item>
+      <title>Thoughts On Code And Beyond - Computational Thinking</title>
+      <link>https://newblog/post/thoughts-on-code-and-beyond-ct/</link>
+      <pubDate>Mon, 14 Jan 2019 17:48:27 -0400</pubDate>
+      
+      <guid>https://newblog/post/thoughts-on-code-and-beyond-ct/</guid>
+      <description>The theme of this year&amp;#39;s To Code and Beyond was Computational Thinking. Mark Guzdial gave the keynote. While the talk isn&amp;#39;t currently online, check out this talk that Mark gave last March. It&amp;#39;s not the same but the second halves are and well worth a look.
+In the first half, Mark talked about other types of &amp;#34;thinking.&amp;#34; Scientific thinking, engineering thinking and even historical thinking. All had a good amount of overlap with both each other and with computational thinking even as we haven&amp;#39;t yet settled on what computational thinking actually is.</description>
+    </item>
+    
+    <item>
+      <title>Is There a First Grade Machine Learning Achievement Gap?</title>
+      <link>https://newblog/post/is-there-a-first-grade-ml-achievement-gap/</link>
+      <pubDate>Fri, 11 Jan 2019 15:24:16 -0400</pubDate>
+      
+      <guid>https://newblog/post/is-there-a-first-grade-ml-achievement-gap/</guid>
+      <description>Today was the fifth &amp;#34;To Code and Beyond&amp;#34; - a one day conference hosted at Cornell Technion and once again Diane Levitt put together a great show. The theme was Computational Thinking and the day consisted of a variety of talks, panels, and activities. I plan on writing about one panel in particular but for today I wanted to address something that came up as a question. One attendee asked a panel about the achievement gap - the fact that when the CS movement got started in NY some of the more innovative and interesting work was being done with some of our most vulnerable students.</description>
+    </item>
+    
+    <item>
+      <title>Advent of Code, Data Structures, and Hidden Complexity</title>
+      <link>https://newblog/post/aoc-data-structures-hidden-complexity/</link>
+      <pubDate>Sun, 30 Dec 2018 15:17:14 -0400</pubDate>
+      
+      <guid>https://newblog/post/aoc-data-structures-hidden-complexity/</guid>
+      <description>Since 2015, Eric Wastl has gifted us each December with Advent of Code - a 25 day programming competition that I very much enjoy. This year I haven&amp;#39;t been able to get to too many of the problems. I only completed the first two days on the day they were released, problem three a day late and then I didn&amp;#39;t get back to the problems until almost 12/25 - the final day of the competition.</description>
+    </item>
+    
+    <item>
+      <title>Visiting schools and talking tech</title>
+      <link>https://newblog/post/fall-2018-tour-revisited/</link>
+      <pubDate>Fri, 21 Dec 2018 15:49:44 -0400</pubDate>
+      
+      <guid>https://newblog/post/fall-2018-tour-revisited/</guid>
+      <description>Back in September I talked about embarking on my Fall 2018 HS CS Tour. Since then I&amp;#39;ve visited about a dozen schools. I&amp;#39;d like to thank my friends who helped connect me to schools - particularly Aankit Patel and Diane Levitt.
+Even though the original motivation for the visits was to get the word out about Hunter CS and the awesome things we&amp;#39;re doing in the Hunter CS Honors program I always tried to make my talks about something that would be relevant for the entire audience and not just the few that were great fits for my program.</description>
+    </item>
+    
+    <item>
+      <title>Professional Development - APCS-A, similar and beyond</title>
+      <link>https://newblog/post/pd-apcs-a-and-beyond/</link>
+      <pubDate>Sat, 15 Dec 2018 08:56:06 -0400</pubDate>
+      
+      <guid>https://newblog/post/pd-apcs-a-and-beyond/</guid>
+      <description>A while ago I wrote about our plans at Hunter to run professional development for CS teachers. Specifically, running once a month sessions for teachers who teach APCS-A, similar and beyond.
+The idea started as a joke but morphed into a legit idea.
+I was talking to some friends about CTLE hours and how ridiculous the system is. NY State teachers need 100 hours of CTLE credit (PD hours) every so many years.</description>
+    </item>
+    
+    <item>
+      <title>Teaching Sorting</title>
+      <link>https://newblog/post/teaching-sorting/</link>
+      <pubDate>Mon, 19 Nov 2018 20:04:08 -0400</pubDate>
+      
+      <guid>https://newblog/post/teaching-sorting/</guid>
+      <description>Earlier today I saw a facebook post asking for thoughts on teaching sorting. The question was specifically not about motivations like having the class act out sorts or sort cards but rather about the coding. I&amp;#39;ve been meaning to write about this since last summer when I attended Owen Astrachan&amp;#39;s talk on the same subject.
+Early in my career when teaching sorting I developed the n^2 sorts as standalone routines just as they&amp;#39;re presented in most books but as I gained more experience as a teacher, I changed it up to build the sorts (at least some of them) from existing concepts.</description>
+    </item>
+    
+    <item>
+      <title>From Scripts To Freestyle</title>
+      <link>https://newblog/post/from-scripts-to-freestyle/</link>
+      <pubDate>Fri, 26 Oct 2018 17:35:56 -0400</pubDate>
+      
+      <guid>https://newblog/post/from-scripts-to-freestyle/</guid>
+      <description>I just read this post by Bethany Crystal - Going off script.
+Bethany writes that while she normally essentially scripts important presentations, this time she went more off the cuff.
+It made me think about how I teach and a disturbing trend I&amp;#39;ve seen in CS education and education in general.
+I&amp;#39;ve never strictly used a script for teaching. When I started I did use very detailed lesson plans. Back then I was teaching math.</description>
+    </item>
+    
+    <item>
+      <title>Who Played Spiderman - part 3</title>
+      <link>https://newblog/post/who-played-spiderman-3/</link>
+      <pubDate>Tue, 16 Oct 2018 17:25:33 -0400</pubDate>
+      
+      <guid>https://newblog/post/who-played-spiderman-3/</guid>
+      <description>Parts 1 and 2 Part 1 Part 2 Part 3 In the first two parts of this set of posts I wrote about the motivation and design a question answering system that can answer &amp;#34;who&amp;#34; queries like &amp;#34;who played Spiderman&amp;#34; or &amp;#34;who shot John Lennon?&amp;#34; It&amp;#39;s not perfect. When doing the Spiderman query, chances are the desired answer will be at or near the top of the list of most frequently appearing names but so will &amp;#34;Peter Parker.</description>
+    </item>
+    
+    <item>
+      <title>Who Played Spiderman part 2</title>
+      <link>https://newblog/post/who-played-spiderman-2/</link>
+      <pubDate>Sat, 13 Oct 2018 16:04:59 -0400</pubDate>
+      
+      <guid>https://newblog/post/who-played-spiderman-2/</guid>
+      <description>Parts 1 and 3 Part 1 Part 3 Part 2 When we left off last time we used a search engine API to gather a whole bunch of documents with the term &amp;#34;played Spiderman&amp;#34; or &amp;#34;who played Spiderman.&amp;#34; Now we have to process these documents to answer the question. Fortunately, the documents are basically just big strings of text.
+Since we&amp;#39;re doing a &amp;#34;who&amp;#34; query we want to find all the names in all the documents.</description>
+    </item>
+    
+    <item>
+      <title>Who Played Spiderman part 1 or my Nifty Assignment (that was rejected)</title>
+      <link>https://newblog/post/who-played-spiderman/</link>
+      <pubDate>Thu, 11 Oct 2018 17:16:23 -0400</pubDate>
+      
+      <guid>https://newblog/post/who-played-spiderman/</guid>
+      <description>Parts 2 and 3 [[/post/who-played-spiderman-2/][Part 2] Part 3 I wasn&amp;#39;t going to teach this lesson today. I was planning on starting a multi day project starting with an exercise in specification writing and design.
+Beforehand though, we had to talk about classes. One of my students asked if probability and/or statistics were really important for CS. I started to cite a few examples and then decided to segue into this.</description>
+    </item>
+    
+    <item>
+      <title>Globals Breaks And Returns, oh my</title>
+      <link>https://newblog/post/globals-breaks-and-returns/</link>
+      <pubDate>Sat, 06 Oct 2018 15:48:55 -0400</pubDate>
+      
+      <guid>https://newblog/post/globals-breaks-and-returns/</guid>
+      <description>Never use global variables Never break out of a loop These are two &amp;#34;best practices&amp;#34; that are frequently touted in early CS classes both at the high school and college level.
+They came up a couple of times yesterday. Once in the Facebook APCS-A teachers group and once on Alfred Thompson&amp;#39;s blog.
+Alfred post was topically on global variables. Actually it was deeper than just global variables. It&amp;#39;s also about how students progress - what they can figure out at various stages of progress and how what seems like a good idea early on the path to computer science doesn&amp;#39;t seem so great later on.</description>
+    </item>
+    
+    <item>
+      <title>When the students know more than the teacher</title>
+      <link>https://newblog/post/students-know-more/</link>
+      <pubDate>Thu, 04 Oct 2018 16:07:09 -0400</pubDate>
+      
+      <guid>https://newblog/post/students-know-more/</guid>
+      <description>We&amp;#39;ve heard it many times with computer science - &amp;#34;the kids know more than the teacher.&amp;#34; On the one hand, the truth is that this isn&amp;#39;t so much the case. Kids might use computers all the time but they don&amp;#39;t necessarily know much about them or about computer science (link 1, link 2). Then you have students who think they know all about CS but really don&amp;#39;t. They might have picked up a bit of coding somewhere but more often than not, the knowledge is pretty superficial.</description>
+    </item>
+    
+    <item>
+      <title>Fall 2018 HS CS Tour</title>
+      <link>https://newblog/post/fall-2018-hs-tour/</link>
+      <pubDate>Sat, 29 Sep 2018 16:57:26 -0400</pubDate>
+      
+      <guid>https://newblog/post/fall-2018-hs-tour/</guid>
+      <description>I&amp;#39;ve written before about why Hunter College CS is so important for NYC and I&amp;#39;ve been working hard to develop our Daedalus Scholars honors CS program - a program in which students receive a scholarship along with all sorts of special opportunities to add on to their in class CS education. The program and Hunter CS as a whole have made a lot of progress over the past two years and each year I roll out new special activities and events for my honors students.</description>
+    </item>
+    
+    <item>
+      <title>CS vs CT vs Coding</title>
+      <link>https://newblog/post/cs-ct-cc/</link>
+      <pubDate>Fri, 28 Sep 2018 12:08:35 -0400</pubDate>
+      
+      <guid>https://newblog/post/cs-ct-cc/</guid>
+      <description>There&amp;#39;s been a lot of buzz recently concernting Computational Thinking (CT) vs Computer Science (CS) vs Coding / Programming on the interwebs.
+Some of the questions and concerns that I&amp;#39;ve seen recently include:
+What is CT?? Will rich schools get CS and poor only CT? Will rich schools get CS and poor on coding? The first question is a big one and as a community we haven&amp;#39;t answered it yet.</description>
+    </item>
+    
+    <item>
+      <title>Not every lesson has to be magic</title>
+      <link>https://newblog/post/not-always-exciting/</link>
+      <pubDate>Tue, 25 Sep 2018 18:08:35 -0400</pubDate>
+      
+      <guid>https://newblog/post/not-always-exciting/</guid>
+      <description>If you check out Twitter, Facebook, Medium and other blog sites you might get the idea that you&amp;#39;re the worst teacher in the world. The internet abounds with people sharing tweets and posts about wonderful lessons they&amp;#39;ve just taught, witnessed or learned about in professional development. Sure, the teacher forums rife with requests for lesson ideas and resources but the shared material is always aces.
+It makes sense, people in the community want to share things that worked for them or things they think will work.</description>
+    </item>
+    
+    <item>
+      <title>What CS should we teach in HS</title>
+      <link>https://newblog/post/what-cs-in-hs/</link>
+      <pubDate>Sun, 23 Sep 2018 16:54:12 -0400</pubDate>
+      
+      <guid>https://newblog/post/what-cs-in-hs/</guid>
+      <description>I wanted to chime in on Alfred Thompson&amp;#39;s post last week on what to include in a HS CS class but was working on moving blogging platforms so didn&amp;#39;t get a chance so I&amp;#39;ll say a few words here.
+If you&amp;#39;ve been here before you probably know I&amp;#39;m not a fan of the standards and I certainly am no fan of the College Board and the AP program so what&amp;#39;s my take?</description>
+    </item>
+    
+    <item>
+      <title>Two Faces of Project Based Learning</title>
+      <link>https://newblog/posts/two-faces-of-pbl/</link>
+      <pubDate>Sat, 28 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/two-faces-of-pbl/</guid>
+      <description>If one looks at my twitter feed they&amp;#39;ll notice that in addition to CS Ed, another issue I&amp;#39;m passionate about is school reform or rather resistance to what is popularly known as and mislabeled as school reform. I&amp;#39;m anti vouchers, charter schools, high stakes testing and more. One of the heroes of this resistance is education historian Diane Ravitch. I&amp;#39;m a big fan of Diane&amp;#39;s and she&amp;#39;s one of the true great champions of public schools, kids, and teachers.</description>
+    </item>
+    
+    <item>
+      <title>Time To Create An Ethics Course</title>
+      <link>https://newblog/posts/time-to-create-an-ethics-course/</link>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/time-to-create-an-ethics-course/</guid>
+      <description>I think it&amp;#39;s time for me to start developing a CS Ethics class.
+An ethics course isn&amp;#39;t a replacement for having teachers that live and model good behavior and weave ethical issues throughout the curriculum but still, adding a separate course on top of that has its merits.
+I&amp;#39;m not in a rush to create this course. I might be done in a month or it might take a couple of years.</description>
+    </item>
+    
+  </channel>
+</rss>

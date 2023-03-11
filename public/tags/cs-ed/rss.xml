@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CS Ed on C&#39;est la Z</title>
+    <link>https://newblog/tags/cs-ed/</link>
+    <description>Recent content in CS Ed on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Aug 2022 15:38:55 -0400</lastBuildDate><atom:link href="https://newblog/tags/cs-ed/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Teaching CS - How early and how often?</title>
+      <link>https://newblog/post/cs-how-early/</link>
+      <pubDate>Tue, 16 Aug 2022 15:38:55 -0400</pubDate>
+      
+      <guid>https://newblog/post/cs-how-early/</guid>
+      <description>A big part of the CS4All movement has been making computer science available at all grade levels. Of course that can mean many things. Grade levels could be elementary, middle, and high school or it can me k-2, 3-5, 6-8, 9-12 or maybe even every grade.
+Does it mean required at every level or just an option?
+This has led to many discussions and, at least from the ones I&amp;#39;ve listened in on, the prevailing feeling from the CS side is all CS all the time.</description>
+    </item>
+    
+    <item>
+      <title>Teacher Preparation - know what&#39;s under the hood</title>
+      <link>https://newblog/post/arraylists-under-the-hood/</link>
+      <pubDate>Tue, 12 Jul 2022 11:52:31 -0400</pubDate>
+      
+      <guid>https://newblog/post/arraylists-under-the-hood/</guid>
+      <description>Yesterday was the last day on our first course for teacher certification. A programming course similar to a college CS1 - think APCS-A. We&amp;#39;re now moving to a data structures course.
+There are a few reasons for this. First, it&amp;#39;s depth of knowledge. The most advanced class a high school student will normally take would be APCS-A. Data structures is the next course. A teacher should have studied a topic to a greater depth than the students.</description>
+    </item>
+    
+    <item>
+      <title>Feeling like an English teacher</title>
+      <link>https://newblog/post/english-teacher/</link>
+      <pubDate>Thu, 14 Oct 2021 14:40:35 -0400</pubDate>
+      
+      <guid>https://newblog/post/english-teacher/</guid>
+      <description>So I&amp;#39;m teaching my Ethics and CS class for the first time. I originally designed the course but didn&amp;#39;t teach it the first time around. That honor went to my friend, Master Teacher Topher Mykolyk. He of course did an amazing job - impossible to follow. Fortunately, this is a different cohort so they don&amp;#39;t know how great Topher was for the course :-).
+Even though I have the syllabus and Topher&amp;#39;s notes from last time around, first time through is very week to week but I think I&amp;#39;m starting to get my legs under me.</description>
+    </item>
+    
+    <item>
+      <title>Hunter College CS Teacher Certification Summer 2021</title>
+      <link>https://newblog/post/teacher-cert-cohort-2/</link>
+      <pubDate>Mon, 02 Aug 2021 08:58:21 -0400</pubDate>
+      
+      <guid>https://newblog/post/teacher-cert-cohort-2/</guid>
+      <description>Last Friday concluded the summer portion of Hunter&amp;#39;s CS Teacher Certification program. It was an intense month. All day every day from June 28th through July 30. On the one hand between burnout and covid fatigue it was a tough month and I&amp;#39;m dealing with some much needed recovery this week. On the other hand, working with JonAlf, Topher, new team member Genady along with around 25 amazing teachers and teacher candidates made it a highlight of the year.</description>
+    </item>
+    
+    <item>
+      <title>They&#39;re all good first programming languages ;-)</title>
+      <link>https://newblog/post/first-language/</link>
+      <pubDate>Fri, 25 Jun 2021 10:06:36 -0400</pubDate>
+      
+      <guid>https://newblog/post/first-language/</guid>
+      <description>There&amp;#39;s been a lot of chatter recently about the first programming language to teach. First, I read a Facebook thread focussing on Java, C and C++ and then, presumably unrelated, Mark Guzdial posted this which lead to another Facebook discussing and then yesterday I noticed a Twitter thread started by someone in the Bootcamp world asking people what their first language was which resulted in answers ranging from JS to PHP to Perl to a bunch of others.</description>
+    </item>
+    
+    <item>
+      <title>But we don&#39;t have enough teachers!!</title>
+      <link>https://newblog/post/enough-teachers/</link>
+      <pubDate>Mon, 14 Jun 2021 07:55:01 -0400</pubDate>
+      
+      <guid>https://newblog/post/enough-teachers/</guid>
+      <description>A common refrain against requiring CS in our K12 schools is that we don&amp;#39;t have the teachers and we won&amp;#39;t any time soon. Sure, we don&amp;#39;t right now but we won&amp;#39;t if we don&amp;#39;t do something about it.
+The question to ask is &amp;#34;how long will it take&amp;#34; and &amp;#34;how do we get there?&amp;#34;
+Let&amp;#39;s look at New York City. We&amp;#39;ve got approximately 1,000,000 students in our public schools. Let&amp;#39;s say that&amp;#39;s grades 1 to 12.</description>
+    </item>
+    
+    <item>
+      <title>CS Ed Podcast 3 -  Debugging</title>
+      <link>https://newblog/post/cs-ed-podcast-3-debugging/</link>
+      <pubDate>Fri, 06 Mar 2020 08:40:26 -0400</pubDate>
+      
+      <guid>https://newblog/post/cs-ed-podcast-3-debugging/</guid>
+      <description>&amp;lt;blockquote&amp;gt; Everyone knows that debugging is twice as hard as writing a program in the first place. So if you&amp;#39;re as clever as you can be when you write it, how will you ever debug it? – Brian Kernighan &amp;lt;/blockquote&amp;gt;
+Debugging is what the third episode of the CS Ed Podcast was all about. Kristin Stephens-Martinez of Duke University speaks with Amy Ko of the University of Washington.
+The long and the short of it is that debugging is hard, teaching is hard, and teaching debugging is hard.</description>
+    </item>
+    
+    <item>
+      <title>CS Ed Podcast 2 - Dan Garcia on test creation</title>
+      <link>https://newblog/post/cs-ed-podcast-2/</link>
+      <pubDate>Thu, 13 Feb 2020 08:41:21 -0400</pubDate>
+      
+      <guid>https://newblog/post/cs-ed-podcast-2/</guid>
+      <description>Episode 2 of the CS Ed podcast had Dan Garcia talk about exam creation. This wasn&amp;#39;t a podcast about the value of exams - in class, high stakes or otherwise. In fact Dan says in the podcast it would be great to &amp;#34;get grades out of the equation. Grades are gonna be an impediment to learning.&amp;#34; But recognizes that we have not say in this most of the time (and I&amp;#39;ll add that though I agree grades can and do perform a function) so we should be creative in terms of assessment.</description>
+    </item>
+    
+    <item>
+      <title>Riffing on the CS Ed Podcast - Episode 1 - David Malan</title>
+      <link>https://newblog/post/cs-ed-podcast-1/</link>
+      <pubDate>Thu, 06 Feb 2020 16:42:08 -0400</pubDate>
+      
+      <guid>https://newblog/post/cs-ed-podcast-1/</guid>
+      <description>I saw a couple of posts the other day about the CS Ed Podcast. Kristin Stephens-Martinez of Duke interviewed (or will interview) six CS educators on a variety of topics. There are four posted so far:
+David Malan Dan Garcia Amy Ko Mark Guzdial Before I started I thought I&amp;#39;d listen to a few and then share some thoughts but I found so much to unpack in the second episode where Dan talks about testing that I decided to share my thoughts on the first episode, then Dan&amp;#39;s and then see if find anything to comment on in episodes three and beyond.</description>
+    </item>
+    
+  </channel>
+</rss>

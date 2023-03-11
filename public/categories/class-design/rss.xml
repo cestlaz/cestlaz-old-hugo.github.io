@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>class design on C&#39;est la Z</title>
+    <link>https://newblog/categories/class-design/</link>
+    <description>Recent content in class design on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Feb 2023 12:18:10 -0400</lastBuildDate><atom:link href="https://newblog/categories/class-design/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Organizing a topics course</title>
+      <link>https://newblog/post/organizing-topics/</link>
+      <pubDate>Tue, 07 Feb 2023 12:18:10 -0400</pubDate>
+      
+      <guid>https://newblog/post/organizing-topics/</guid>
+      <description>I&amp;#39;m team teaching the CS Topics course this semester with my buddy JonAlf. It&amp;#39;s the final course in our Advanced Certificate and Masters programs in CS Education.
+It&amp;#39;s a fun course. The theory is that a K12 CS teacher doesn&amp;#39;t need to know everything but should know a little about a lot. It&amp;#39;s a survey - think of it as an intro unit in ten to twelve different topics in CS.</description>
+    </item>
+    
+  </channel>
+</rss>

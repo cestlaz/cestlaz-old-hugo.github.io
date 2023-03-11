@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data structures on C&#39;est la Z</title>
+    <link>https://newblog/categories/data-structures/</link>
+    <description>Recent content in data structures on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 May 2022 14:23:44 -0400</lastBuildDate><atom:link href="https://newblog/categories/data-structures/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>When will I need to know this, Data Structures edition</title>
+      <link>https://newblog/post/when-need-ds/</link>
+      <pubDate>Mon, 02 May 2022 14:23:44 -0400</pubDate>
+      
+      <guid>https://newblog/post/when-need-ds/</guid>
+      <description>One of the things we&amp;#39;re frequently faced with as computer science teachers is the questiosn of &amp;#34;when will I need to know this.&amp;#34; This comes up when you teach an non-mainstream language like Racket or a language kids sometimes see as inauthentic like Scratch. It also comes up a lot when learning data structures and algorithms.
+Do I really need to know all of these sorts when I&amp;#39;m just going to use the built in sort routine?</description>
+    </item>
+    
+    <item>
+      <title>Heaps</title>
+      <link>https://newblog/post/heaps/</link>
+      <pubDate>Fri, 01 May 2020 13:53:43 -0400</pubDate>
+      
+      <guid>https://newblog/post/heaps/</guid>
+      <description>Continuing with the theme of alternate representations we just started heaps. Specifically binary heaps. binary min and max heaps.
+Heaps are one of my favorite topics in CS2. If you&amp;#39;re not familiar with them, a binary min heap is a complete binary tree that enforces the heap property. By being complete we mean that every level except possibly the last one is full - that is 2 children. The last level is as filled left to right.</description>
+    </item>
+    
+    <item>
+      <title>Alternate Representations</title>
+      <link>https://newblog/post/alternate-representations/</link>
+      <pubDate>Tue, 28 Apr 2020 12:54:05 -0400</pubDate>
+      
+      <guid>https://newblog/post/alternate-representations/</guid>
+      <description>There was a comment on my last post about arbitary trees on Reddit talking about how this type of data structure was a hold over from the old days when computer resources were more limited. Nowadays having a list of children makes more sense. The comment was of course correct but I still think it&amp;#39;s worth teaching representations like the one I spoke of in my last post. Looking at interesting and different ways of representing data and modeling solutions is one of the things that separates programmers or coders from computer scientists and software engineers.</description>
+    </item>
+    
+    <item>
+      <title>Arbitrary Trees</title>
+      <link>https://newblog/post/arbitrary-trees/</link>
+      <pubDate>Mon, 27 Apr 2020 18:45:50 -0400</pubDate>
+      
+      <guid>https://newblog/post/arbitrary-trees/</guid>
+      <description>It&amp;#39;s been 10 days from my last post. Not really a big break for me historically but certainly a big one given how much I&amp;#39;ve been posting this year. Been under the weather for the past couple of weeks dealing with COVID-19. Haven&amp;#39;t had super bad symptoms and as symptoms have been getting fewer and less severe I&amp;#39;m hoping I&amp;#39;m close to a full recovery.
+In any event, I&amp;#39;m feeling good enough for a quick post.</description>
+    </item>
+    
+  </channel>
+</rss>

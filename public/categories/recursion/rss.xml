@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>recursion on C&#39;est la Z</title>
+    <link>https://newblog/categories/recursion/</link>
+    <description>Recent content in recursion on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Mar 2023 09:58:04 -0400</lastBuildDate><atom:link href="https://newblog/categories/recursion/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Recursive Sentences</title>
+      <link>https://newblog/post/recursive-sentences/</link>
+      <pubDate>Fri, 10 Mar 2023 09:58:04 -0400</pubDate>
+      
+      <guid>https://newblog/post/recursive-sentences/</guid>
+      <description>It&amp;#39;s been a while since I last wrote up a specific lesson idea so when my friend Garth asked about recursion ideas I thought I&amp;#39;d write this one up. This is a unit I used to teach in my intro class at Stuy using Racket (nee Scheme) but I coded up a quick and dirty Python version.
+Recursion is a polarizing topic. Some people love it, others hate it. I&amp;#39;m sure the usual suspects of intro recursion problems doesn&amp;#39;t help.</description>
+    </item>
+    
+  </channel>
+</rss>

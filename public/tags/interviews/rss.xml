@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>interviews on C&#39;est la Z</title>
+    <link>https://newblog/tags/interviews/</link>
+    <description>Recent content in interviews on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Apr 2019 11:27:46 -0400</lastBuildDate><atom:link href="https://newblog/tags/interviews/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>On Technical Interviews And Diversity</title>
+      <link>https://newblog/post/technical-interviews-and-diversity/</link>
+      <pubDate>Sun, 28 Apr 2019 11:27:46 -0400</pubDate>
+      
+      <guid>https://newblog/post/technical-interviews-and-diversity/</guid>
+      <description>I recently stumbled upon Laurie Barth on Twitter and noticed a couple of tweets about tech interviews and the hiring process, something I&amp;#39;ve been thinking about recently.
+Solid rant. I think the teach to the programming test market already exists. And it’s why interviewers who subscribe to these tactics get upset if a candidate admits they’ve seen the problem previously. Because it ruins the illusion that this is revealing how candidates think.</description>
+    </item>
+    
+    <item>
+      <title>Whiteboard interviews</title>
+      <link>https://newblog/posts/whiteboard-interviews/</link>
+      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/whiteboard-interviews/</guid>
+      <description>A few days ago, I saw a piece on David Heinemeier Hansson&amp;#39;s tweet on whiteboard interviews:
+Hello, my name is David. I would fail to write bubble sort on a whiteboard. I look code up on the internet all the time. I don&amp;#39;t do riddles.
+&amp;mdash; DHH (@dhh) February 21, 2017 I&amp;#39;m not a huge fan of the whiteboard interview but I think many of the tweets missed the point.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>disruption on C&#39;est la Z</title>
+    <link>https://newblog/tags/disruption/</link>
+    <description>Recent content in disruption on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Jul 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://newblog/tags/disruption/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Ed Disruption - why it&#39;s different</title>
+      <link>https://newblog/posts/ed-disrupt-why-diff/</link>
+      <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/ed-disrupt-why-diff/</guid>
+      <description>Earlier today I read this post by Eliot Horowitz, founder and CTO of MongoDB.
+Eliot titled the post &amp;#34;Innovate vs Appropriate&amp;#34; and talks about the importance of knowing when to come up with something new vs when to use the accepted tool, technique, or method. Eliot, of course is discussing this as it applies to MongoDB and it&amp;#39;s well worth a read but it got me thinking about the ever popular need to &amp;#34;disrupt&amp;#34; education.</description>
+    </item>
+    
+  </channel>
+</rss>

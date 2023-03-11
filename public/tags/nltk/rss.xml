@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nltk on C&#39;est la Z</title>
+    <link>https://newblog/tags/nltk/</link>
+    <description>Recent content in nltk on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Nov 2019 05:45:55 -0400</lastBuildDate><atom:link href="https://newblog/tags/nltk/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Working with texts part 3 - word chains</title>
+      <link>https://newblog/post/word-chains/</link>
+      <pubDate>Mon, 25 Nov 2019 05:45:55 -0400</pubDate>
+      
+      <guid>https://newblog/post/word-chains/</guid>
+      <description>At this point, we&amp;#39;ve done a fair amount of playing with text so it&amp;#39;s time for a fun little project. We&amp;#39;re going to generate some text &amp;#34;in the style&amp;#34; of a source text. The technique we&amp;#39;re going to use is usually called a Markov Chain text generator. Basically a model where the next state or word is based entirely on the current state. I don&amp;#39;t dwell on the math under the hood but in case you&amp;#39;re interested, here are a few links: Wikipedia, Explained Visually, UC Davis Math.</description>
+    </item>
+    
+    <item>
+      <title>Working with texts part 2 - bag of words</title>
+      <link>https://newblog/post/bag-of-words/</link>
+      <pubDate>Wed, 20 Nov 2019 08:15:41 -0400</pubDate>
+      
+      <guid>https://newblog/post/bag-of-words/</guid>
+      <description>Following up on a previous post, we&amp;#39;re going to continue to talk about playing with text. This time, building and working with a bag of words from a text. A bag of words is a simple language processing model where you just consider individual words in a text. What they are and how many times they occur. This is a pretty simple model but you can still have a good bit of fun with your students with it.</description>
+    </item>
+    
+  </channel>
+</rss>

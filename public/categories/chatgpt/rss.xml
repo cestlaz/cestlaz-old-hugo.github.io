@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chatGPT on C&#39;est la Z</title>
+    <link>https://newblog/categories/chatgpt/</link>
+    <description>Recent content in chatGPT on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Jan 2023 14:29:45 -0400</lastBuildDate><atom:link href="https://newblog/categories/chatgpt/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>chatGPT TOC</title>
+      <link>https://newblog/post/chatgpt-summary/</link>
+      <pubDate>Mon, 23 Jan 2023 14:29:45 -0400</pubDate>
+      
+      <guid>https://newblog/post/chatgpt-summary/</guid>
+      <description>I know I said that I was done with chatGPT but since I&amp;#39;ve ended up sharing my posts with a few people I though a quick table of contents post would be appropriate.
+Post 1 - Some general thoughts on cheating Post 2 - Cheating with chatGPT Post 3 - Teaching with chatGPT Post 4 - More teaching with chatGPT Post 5 - chatGPT in a CS class Back to new content soon.</description>
+    </item>
+    
+    <item>
+      <title>CheatGPT</title>
+      <link>https://newblog/post/cheatgpt/</link>
+      <pubDate>Tue, 10 Jan 2023 06:42:45 -0400</pubDate>
+      
+      <guid>https://newblog/post/cheatgpt/</guid>
+      <description>Just got back from a few much needed days away so it&amp;#39;s time to get to those chatGPT posts.
+Last time, I wrote on cheating in general. That seems to be one of the hot points for chatGPT, in fact, the NYC DOE just last week decided to ban chatGPT outright, presumably for that reason. We&amp;#39;ll talk about the student side, both negative and postitive today and the teacher side next time.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>languages on C&#39;est la Z</title>
+    <link>https://newblog/categories/languages/</link>
+    <description>Recent content in languages on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Sep 2019 17:33:51 -0400</lastBuildDate><atom:link href="https://newblog/categories/languages/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Different languages, different techniques, different solutions</title>
+      <link>https://newblog/post/different-languages/</link>
+      <pubDate>Mon, 02 Sep 2019 17:33:51 -0400</pubDate>
+      
+      <guid>https://newblog/post/different-languages/</guid>
+      <description>I spent this weekend diving back into Clojure or more specifically, Clojurescript. For those who don&amp;#39;t know, Clojure is a Lisp that runs on the JVM. The solution it particularly seeks to &amp;#34;solve&amp;#34; is immutability. Clojurescript is Clojure that compiles to Javascript for web applications. Tooling aside, it&amp;#39;s all pretty neat.
+I didn&amp;#39;t do anything earth shaking, just a quick implementation of Conway&amp;#39;s game of life and Snake. While the code isn&amp;#39;t particularly good, you can check them out here (Snake, Life).</description>
+    </item>
+    
+    <item>
+      <title>Use A Real Language</title>
+      <link>https://newblog/post/use-a-real-language/</link>
+      <pubDate>Sat, 09 Feb 2019 15:08:18 -0400</pubDate>
+      
+      <guid>https://newblog/post/use-a-real-language/</guid>
+      <description>Why can&amp;#39;t we use a real language!
+This topic has been coming up a lot recently. Now I&amp;#39;m not talking about the Drag and drop vs textual language thing. Let me be clear. To me a Drag and Drop language can certainly be a real language and many are. I also think they&amp;#39;re terrific when used correctly. I just think they&amp;#39;re frequently misapplied in later grades. No, I&amp;#39;m talking about people asking things like &amp;#34;Why do we have to use Java in our class, why can&amp;#39;t we use a real language like __.</description>
+    </item>
+    
+  </channel>
+</rss>

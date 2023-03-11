@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tools on C&#39;est la Z</title>
+    <link>https://newblog/categories/tools/</link>
+    <description>Recent content in tools on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Feb 2023 14:50:07 -0400</lastBuildDate><atom:link href="https://newblog/categories/tools/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Copilot and similar types of AI in learning CS</title>
+      <link>https://newblog/post/ai-in-learning-cs/</link>
+      <pubDate>Tue, 28 Feb 2023 14:50:07 -0400</pubDate>
+      
+      <guid>https://newblog/post/ai-in-learning-cs/</guid>
+      <description>So it seems like Copilot and similar will be beneficial to programmers but the question remains as to how beneficial. Will it be incremental change or will it be a game changer?
+Today we&amp;#39;ll look at how it will affect teaching and learning CS.
+It seems pretty clear that one group of learners will benefit from things like copilot - people who are already strong programmers who are learning something new.</description>
+    </item>
+    
+    <item>
+      <title>AI as a programmers aide</title>
+      <link>https://newblog/post/ai-in-programming/</link>
+      <pubDate>Tue, 28 Feb 2023 11:33:22 -0400</pubDate>
+      
+      <guid>https://newblog/post/ai-in-programming/</guid>
+      <description>ChatGPT in education has been all the rage but there&amp;#39;s another twist on AI that was getting some buzz even earlier - AI based code completions. GitHub&amp;#39;s Copilot has gotten the most air time but there are others out there as well.
+When you code with Copilot, you type in a function name and maybe a comment above it and the AI system will fill in the function.
+A canonical example seems to be Mergesort.</description>
+    </item>
+    
+    <item>
+      <title>Zulip - maybe the answer for class communication</title>
+      <link>https://newblog/post/zulip/</link>
+      <pubDate>Wed, 16 Sep 2020 14:01:23 -0400</pubDate>
+      
+      <guid>https://newblog/post/zulip/</guid>
+      <description>It&amp;#39;s always been a challenge to get students to buy in to an out of class communication tool. Over the years I&amp;#39;ve tried many including mailing lists, Piazza, Discourse, Vanilla and other discussion forums, Slack and probably a few other things.
+I guess it&amp;#39;s not surprising that it&amp;#39;s a hard sell - prior to the internet once school was out kids there as no teacher student interaction until the next school day and kids would only interact with their direct friends.</description>
+    </item>
+    
+    <item>
+      <title>Github and Student Feedback</title>
+      <link>https://newblog/post/github-student-feedback/</link>
+      <pubDate>Mon, 20 Jul 2020 16:12:47 -0400</pubDate>
+      
+      <guid>https://newblog/post/github-student-feedback/</guid>
+      <description>Beyond the CS specifics We&amp;#39;ve been primarily using three tools in our summer certification program.
+Zoom for video conferencing Slack for text based communicaiton GitHub for just about everything else We use GitHub as a CMS - a place to share code and assignments as well as collect them. We&amp;#39;re also playing with GitHub discussions although that&amp;#39;s fallen somewhat to the wayside with Slack being preferred. One of the choices I&amp;#39;m digging more than ever is GitHub Classroom for assignments.</description>
+    </item>
+    
+    <item>
+      <title>Pro Version Or Education Version</title>
+      <link>https://newblog/post/pro-version-or-ed-version/</link>
+      <pubDate>Fri, 29 May 2020 19:00:13 -0400</pubDate>
+      
+      <guid>https://newblog/post/pro-version-or-ed-version/</guid>
+      <description>I woke up to this tweet by Mark Guzdial today:#pro-version-or ed-version.org#
+An indication that CS Ed in US high schools is about vocational training: 2 (of 5) recommended sessions at the @csteachersorg conference are on Github and Agile. Is @CSforAll a Silicon Valley jobs program? https://t.co/n8ugnmTU84
+&amp;mdash; Mark Guzdial (@guzdial) May 28, 2020 This led to a lively discussion throughout the day with lots of likes and lots of comments.</description>
+    </item>
+    
+    <item>
+      <title>Zoom alternatives that aren&#39;t from MicroGoogle</title>
+      <link>https://newblog/post/bigbluebutton/</link>
+      <pubDate>Mon, 25 May 2020 16:33:17 -0400</pubDate>
+      
+      <guid>https://newblog/post/bigbluebutton/</guid>
+      <description>As we scrambled to move online in March we used what we knew, what we heard of and what we were allowed. This usually meant Zoom, Google Meet, or Microsoft Teams.
+I settled on Zoom. It worked and worked pretty well. There were a few things I felt they could improve on but given that Zoom wasn&amp;#39;t designed as a teaching tool I&amp;#39;ve been pretty happy with it.
+Now that the emergency rush has passed we have time to see if there are some better alternatives.</description>
+    </item>
+    
+    <item>
+      <title>Github Org Explorer - now with oauth</title>
+      <link>https://newblog/post/github-org-explorer-oauth/</link>
+      <pubDate>Sun, 16 Feb 2020 12:53:59 -0400</pubDate>
+      
+      <guid>https://newblog/post/github-org-explorer-oauth/</guid>
+      <description>A while ago I wrote about a small side project - GitHub Org Explorer - a small tool to make it easier to manager GitHub repositories based on organization. I&amp;#39;m using it as a replacement for the GitHub provided Classroom Assistant. I find it more flexible in terms of exporting assignments to my own machine and it allows me to delete repos en masse which is critical after the semester is over.</description>
+    </item>
+    
+    <item>
+      <title>GitHub Org Explorer</title>
+      <link>https://newblog/post/github-org-explorer/</link>
+      <pubDate>Fri, 03 Jan 2020 14:40:40 -0400</pubDate>
+      
+      <guid>https://newblog/post/github-org-explorer/</guid>
+      <description>I&amp;#39;m a big fan of GitHub Classroom and use it for all of my class assignments. It&amp;#39;s great for organizing, distributing, and collecting assignments and gets the kids used to using real world tools at the same time. I&amp;#39;ve written a bunch of posts on how I use it:
+How I use GitHub Classroom Communicating with Students - meybe GitHub to the rescue GitHub as a tool for education (part of a 4 part series) As well as a couple of others.</description>
+    </item>
+    
+    <item>
+      <title>Evaluating Java IDES for teaching teachers.</title>
+      <link>https://newblog/post/java-ides/</link>
+      <pubDate>Fri, 08 Mar 2019 13:29:18 -0400</pubDate>
+      
+      <guid>https://newblog/post/java-ides/</guid>
+      <description>Since Hunter uses C++ as it&amp;#39;s core language, I haven&amp;#39;t used Java much in the past three years. That&amp;#39;s going to change pretty soon. Once we start offering our CS teacher Certificate and Masters programs I&amp;#39;ll once again start teaching with Java as that&amp;#39;s one of the langauges that we want to prepare our teachers with.
+That means deciding on a set of tools and so I&amp;#39;ve been spending time evaluating Java programming environments with an eye on the beginner since not only do the teachers I work with have to be comfortable with the tool but more importantly they will have to be able to support the tool for all of their students.</description>
+    </item>
+    
+    <item>
+      <title>How I use Github Classroom</title>
+      <link>https://newblog/post/github-classroom/</link>
+      <pubDate>Sun, 17 Feb 2019 16:42:48 -0400</pubDate>
+      
+      <guid>https://newblog/post/github-classroom/</guid>
+      <description>It&amp;#39;s been an amazingly unproductive weekend. Mostly because I&amp;#39;ve been sick with the flu. It sucks but since the rest of the family&amp;#39;s away anway at least I&amp;#39;m not making everyone miserable.
+I did manage to stage my next couple of classes and figured that writing this post wouldn&amp;#39;t take too much energy since it&amp;#39;s mostly a video.
+Earlier, I talked about using GitHub and TravicCI and this time around I show how I use GitHub classroom to set up, disseminate, and collect assignments.</description>
+    </item>
+    
+    <item>
+      <title>GitHub Helps Me Help Students</title>
+      <link>https://newblog/post/github-helps-me-help-students/</link>
+      <pubDate>Mon, 11 Feb 2019 18:55:22 -0400</pubDate>
+      
+      <guid>https://newblog/post/github-helps-me-help-students/</guid>
+      <description>Earlier today I was reminded why I love GitHub in support of my classes. One of my students posted a question about our current lab. They posted a synopsis of the problem along with the error message.
+Since we&amp;#39;re all working on GitHub the student&amp;#39;s work was already up online Since I started using GitHub Classroom I was able to quickly navigate to the repo. This might have been enough but to really in to the students work I cloned the repo and went into Emacs.</description>
+    </item>
+    
+    <item>
+      <title>Github Classroom and Travis CI</title>
+      <link>https://newblog/post/github-classroom-travis/</link>
+      <pubDate>Sat, 02 Feb 2019 09:44:29 -0400</pubDate>
+      
+      <guid>https://newblog/post/github-classroom-travis/</guid>
+      <description>I&amp;#39;ve been using GitHub with my classes since GitHub&amp;#39;s early days. Over time I&amp;#39;ve gotten my workflows down. I use a combination of shell scripts - many just written on the fly, GitHub organizations, and some naming conventions and protocols that have served me well. A few years ago, the GitHub Education team started GitHub Classroom. I looked at it at the time. It was pretty cool but I had my workflow so I didn&amp;#39;t adopt it.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Advent of Code on C&#39;est la Z</title>
+    <link>https://newblog/tags/advent-of-code/</link>
+    <description>Recent content in Advent of Code on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Dec 2022 10:13:56 -0400</lastBuildDate><atom:link href="https://newblog/tags/advent-of-code/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Advent 2022 - day 3 - sets</title>
+      <link>https://newblog/post/advent-2022-day03/</link>
+      <pubDate>Sat, 03 Dec 2022 10:13:56 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2022-day03/</guid>
+      <description>Day 3 ended up being a quick one. That is, as long as your language supports set operations. You can do it without set operations but it&amp;#39;s easier if you&amp;#39;ve got them.
+Part 1 Input is a file of text where each line is an input.
+You have to read each line, split it in half and then find the common letter between the left and right halves and then apply their scoring rules on that letter.</description>
+    </item>
+    
+    <item>
+      <title>Advent of Code 2022 - Days 1 and 2</title>
+      <link>https://newblog/post/advent-2022-day01-01/</link>
+      <pubDate>Fri, 02 Dec 2022 13:59:06 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2022-day01-01/</guid>
+      <description>It&amp;#39;s Advent of Code season again. Every day a new two part programming challenge and once again I&amp;#39;m taking part. At least until grading and other end of term obligations end up eating my lunch.
+I wasn&amp;#39;t planning on writing anything up but the first two days looked like nice problems for CS1 or even CS0 students and since my friend Steve was writing up his take, I thought I&amp;#39;d at least comment on the first two.</description>
+    </item>
+    
+    <item>
+      <title>Transparent Origami - Advent 2021 Day 13</title>
+      <link>https://newblog/post/advent-2021-day13/</link>
+      <pubDate>Mon, 13 Dec 2021 13:28:28 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2021-day13/</guid>
+      <description>No post so far on day 12. I finished part 1 but my code was pretty messy which turned part 2 into a mess. I still have to go back to get that second star so just like day 10, my day 12 write up is on hold.
+That said, I really enjoyed [[https://adventofcode.com/2021/day/13 ][today&amp;#39;s]] challenge. Paper foldind. You&amp;#39;re given transparent paper with a bunch of marks on it. You have to fold the paper over horizontal or vertical lines and examine the results.</description>
+    </item>
+    
+    <item>
+      <title>Dumbo Octopus and the Game of Life - AOC 2011 Day 11</title>
+      <link>https://newblog/post/advent-2021-day11/</link>
+      <pubDate>Sat, 11 Dec 2021 11:31:32 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2021-day11/</guid>
+      <description>I wasn&amp;#39;t particularly motivated to start day 11 but took a look over coffee. A grid of points where on each turn or step the points are modified by some rule. Hey, this sounds familiar - cellular automata like Conway&amp;#39;s Game of Life.
+You set up your grid and then on each turn just follow the rules. In a traditional Cellular Automaton like Conway&amp;#39;s Game of Life, on each turn each cell looks at its six neighbors and makes a decision as to its next state based on the neighbors and a rule.</description>
+    </item>
+    
+    <item>
+      <title>Bracket Bonanza (AOC 2021 day 10)</title>
+      <link>https://newblog/post/advent-2021-day10/</link>
+      <pubDate>Fri, 10 Dec 2021 12:15:34 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2021-day10/</guid>
+      <description>I know, where&amp;#39;s day 9? Thursdays (and Mondays) are already tight for me - I teach all morning and it&amp;#39;s been a rough week. I just had very little energy and focus all day yesterday. I snuck some time in to finish part 1 but couldn&amp;#39;t focus on part 2.
+Today, however, my body gave me an extra half hour of sleep (til 4:30am) so I had extra time and energy.</description>
+    </item>
+    
+    <item>
+      <title>Seven Segment Silliness - Advent 2021 Day08</title>
+      <link>https://newblog/post/advent-2021-day08/</link>
+      <pubDate>Wed, 08 Dec 2021 13:20:49 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2021-day08/</guid>
+      <description>Day 8 took a lot longer than the other days. Not all that much code and not too complex, at least after getting through a scary sounding lead up but going from problem statement to solution took both time and thought.
+As I started to read the problem, I wasn&amp;#39;t sure I&amp;#39;d finish it let alone have time to write it up.
+Take a minute to read over the problem.</description>
+    </item>
+    
+    <item>
+      <title>How you look at a problem can make it easier - AOC 2021 Day 7</title>
+      <link>https://newblog/post/advent-2021-day07/</link>
+      <pubDate>Tue, 07 Dec 2021 09:04:53 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2021-day07/</guid>
+      <description>Today&amp;#39;s problem was similar to yesterday&amp;#39;s in that it&amp;#39;s ease or difficulty really depended on how you looked at the question.
+For yesterday, the problem was hard if you approached it by modeling each and every lanternfish but it was much easier if you modeled the 8 days of the reproduction cycle. Sure, there was still work to be done but looking at the problem the right way made things much easier.</description>
+    </item>
+    
+    <item>
+      <title>Lanternfish and lots of data (AOC 2021 Day 6)</title>
+      <link>https://newblog/post/advent-2021-day06/</link>
+      <pubDate>Mon, 06 Dec 2021 16:25:24 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2021-day06/</guid>
+      <description>Today we had to model the growth of the lanternfish population (problem here).
+Lanternfish spawn new lanternfish every seven days. The trick is that the original starting population consists of fish at different points in the cycle. For instance, if your input data was 3,2,4 then each fish would spawn a new fish in three, two, and four days respectively. The new fish would set their timers to 8 and start counting down to their spawn date on the next day and the original fish would reset it&amp;#39;s timer to 6.</description>
+    </item>
+    
+    <item>
+      <title>One man&#39;s complex is another man&#39;s simple (AOC 2021 Day 5)</title>
+      <link>https://newblog/post/advent-2021-day05/</link>
+      <pubDate>Sun, 05 Dec 2021 10:40:21 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2021-day05/</guid>
+      <description>Yesterday I wrote about the virtues of a simple straightforward solution as opposed to a super &amp;#34;clever&amp;#34; one. Today reminded me that what seems simple to one person might be clever to another.
+Having successfully survived bingo with a giant squid, Today&amp;#39;s challenge had us navigating our sub so as to avoid dangerous parts of the ocean. We were given a bunch of lines represented by endpoints as input. If we graphed all the lines, some of them would overlap.</description>
+    </item>
+    
+    <item>
+      <title>Working code is better than clever code (AOC 2021 day 4)</title>
+      <link>https://newblog/post/advent-2021-day04/</link>
+      <pubDate>Sat, 04 Dec 2021 12:17:30 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2021-day04/</guid>
+      <description>I always tell my students that the cleverest program is worthless if it doesn&amp;#39;t actually work.
+There are always some kids in class that all too often try to write the fanciest solutions.
+They&amp;#39;re the ones that write
+int l(char *s){return !*s?0:(l(++s)+1);} instead of something like:
+int string_length(char *s){ int i = 0; while (s[i] != 0){ i=i+1; } return i; } to calculate the length of a string.</description>
+    </item>
+    
+    <item>
+      <title>Work through the example!!!!!</title>
+      <link>https://newblog/post/advent-2021-day03/</link>
+      <pubDate>Fri, 03 Dec 2021 17:10:50 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2021-day03/</guid>
+      <description>It&amp;#39;s that time of year again. Yep, you got it. Time for Advent of Code. I&amp;#39;m not feeling nearly as motivated as in past years but so far so good. Finished the first three days.
+Today I got a good reminder - work through your examples. You can find today&amp;#39;s problem here.
+For part 1 you got a list of binary numbers and had to figure out how many ones and zeros there were in any given digit.</description>
+    </item>
+    
+    <item>
+      <title>Final thoughts on Advent of Code 2020</title>
+      <link>https://newblog/post/advent-2020-final-thoughts/</link>
+      <pubDate>Sun, 27 Dec 2020 15:57:22 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2020-final-thoughts/</guid>
+      <description>Time for some final thoughts on Advent of Code 2020. This was my sixth Advent of Code but the first time I completed all 25 days. Better than last year&amp;#39;s 31 and a whole lot better than my weakest effort of 11 stars in 2017. I managed to find the time to finish all but two on the day they were released and finished those two on Christmas morning. This was also the first year I wrote all my solutions in Clojure and I also made a bunch of blog posts and videos (linked on the bottom of this post).</description>
+    </item>
+    
+    <item>
+      <title>A Teacher Looks at Advent of Code 2020 - Days 21 and 24</title>
+      <link>https://newblog/post/advent-2020-21-24/</link>
+      <pubDate>Thu, 24 Dec 2020 11:43:14 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2020-21-24/</guid>
+      <description>Day 24 didn&amp;#39;t take that much time so I had a chance to go back and finish day 21.
+As usual, all my code is up here. Day 21 Problem Link
+It took me a while to get my head around this example. You have a set of recipes. Each recipe has a list of ingredients and a list of allergens. Your job for part 1 was basically to determine which ingredients don&amp;#39;t contain any allergens.</description>
+    </item>
+    
+    <item>
+      <title>A Teacher Looks at Advent of Code 2020 - 19 through 23</title>
+      <link>https://newblog/post/advent-2020-19-23/</link>
+      <pubDate>Wed, 23 Dec 2020 15:09:38 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2020-19-23/</guid>
+      <description>A few days have past so it&amp;#39;s time for an update. Two more days to go and while I haven&amp;#39;t completed all the problems, I have accumulated 43 stars which is a personal best. Given the nature of the problems I&amp;#39;m missing, I might even go back and do them at some point. Of course, I may very well also just crash out on the final two days.
+As usual, all my code is up here.</description>
+    </item>
+    
+    <item>
+      <title>A Teacher Looks at Advent of Code 2020 - Days 17 and 18</title>
+      <link>https://newblog/post/advent-2020-1718/</link>
+      <pubDate>Fri, 18 Dec 2020 12:35:57 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2020-1718/</guid>
+      <description>Day 17 Day 17 brought back Cellular Automata. It was a nice follow up to day 11. In my writeup I talked about data representation - how a Cellular Automoton like Conway&amp;#39;s game of life is a nice 2D array project in a class like APCS-A but multi dimensional arrays are only one way to represent a cellular automaton. Day 17 really drove that home. The actual rules were pretty simple - if a cell is active and has 2 or 3 active neighbors it stays active.</description>
+    </item>
+    
+    <item>
+      <title>A Teacher Looks at Advent of Code 2020 - day 16</title>
+      <link>https://newblog/post/advent-2020-day16/</link>
+      <pubDate>Wed, 16 Dec 2020 17:12:56 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2020-day16/</guid>
+      <description>Today&amp;#39;s problem was a fun one to solve. Why was it fun? Stay tuned,
+The basic gist is that you have a plane ticket which is a set of numbers but you don&amp;#39;t know which number maps to which category - row, seat, gate, etc. You also know the number ranges for each category. For example, row might be a number between 6 and 11 or 33 through 44 while a seat might be 13 through 40 or 45 through 50.</description>
+    </item>
+    
+    <item>
+      <title>A teacher looks at Advent of Code day 14</title>
+      <link>https://newblog/post/advent-2020-day14/</link>
+      <pubDate>Mon, 14 Dec 2020 14:30:47 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2020-day14/</guid>
+      <description>Time for Day 14!!!
+I didn&amp;#39;t write up day 12 but here&amp;#39;s a Clojure video runthrough. I also didn&amp;#39;t write up day 13 mostly because I hacked together my part 2 in Python and still want to rewrite it in decent clojure. In any event, all my solutions are up on GitHub.
+Day 14 had a few interesting things going on. At its core it&amp;#39;s a small machine simulator where you have to deal with binary numbers.</description>
+    </item>
+    
+    <item>
+      <title>A teacher looks at Advent of Code 2020 - Day 11</title>
+      <link>https://newblog/post/advent-2020-day11/</link>
+      <pubDate>Fri, 11 Dec 2020 15:00:43 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2020-day11/</guid>
+      <description>Today was Cellular Automaton Day at Advent of Code. You have a world that&amp;#39;s usually represented as a grid of cells. Each cell can be in a certain state. Given a certain state, the next state is determined by simple rules like for a given cell how many of it&amp;#39;s neighbors are the same color. The most popular Cellular Automat is probably Conway&amp;#39;s Game of Life where each cell can be either alive or dead in a given generation and in the next generation the state will be determined by how many of its neighbors are currently dead or alive.</description>
+    </item>
+    
+    <item>
+      <title>A Teacher looks at Advent of Code 2020 - days 9 and 10</title>
+      <link>https://newblog/post/advent-2020-day0910/</link>
+      <pubDate>Thu, 10 Dec 2020 16:52:45 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2020-day0910/</guid>
+      <description>As we get closer to the end of the semester and time becomes scarcer I&amp;#39;m wondering how many more I&amp;#39;ll finish. Barely had time to do days 9 and 10.
+Not much to say about day 9 Part one was basically a rehash of day 1 part 1 but with a sliding widow. Part 2? I just brute force tried all the subranges. I meant to go back to try to improve the solution but didn&amp;#39;t have a chance.</description>
+    </item>
+    
+    <item>
+      <title>A Teacher looks at Advent of Code 2020 - Days 7 and 8</title>
+      <link>https://newblog/post/advent-2020-day0708/</link>
+      <pubDate>Tue, 08 Dec 2020 14:47:17 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2020-day0708/</guid>
+      <description>Today we&amp;#39;ll talk about days seven and eight. Let&amp;#39;s start with 7. I teach all morning on Mondays. I woke up and worked out and then took a look at the problem in the few minutes before class. It was certainly harder than days one through six but I felt it was something I knew I could do based on past experience so I quickly started to throw something together.</description>
+    </item>
+    
+    <item>
+      <title>A Teacher looks at Advent of Code 2020 - Day 06</title>
+      <link>https://newblog/post/advent-2020-day06/</link>
+      <pubDate>Sun, 06 Dec 2020 10:14:03 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2020-day06/</guid>
+      <description>Day 6 turned out to be pretty straightforward. Like day 4 you had to deal with two consecutive newlines when parsing the data but assuming you did day 4 that&amp;#39;s no problem. The gist is that a group is formed by consecutive lines and groups are separated by a blank line. Each line in each group is a string of letters representing answers to questions. For instance, for this group: abc abd ab you have three people.</description>
+    </item>
+    
+    <item>
+      <title>A teacher looks at Advent of Code 2020 - Day 5</title>
+      <link>https://newblog/post/advent-2020-day05/</link>
+      <pubDate>Sat, 05 Dec 2020 11:18:59 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2020-day05/</guid>
+      <description>Day five&amp;#39;s problem is a nice one for an early CS class. It can be very much brute forced but it also touches on some nice concepts and can be solved pretty elegantly. I&amp;#39;ve embedded a walk through in Clojure at the end but a Python solution would be pretty similar. Read the problem over if you haven&amp;#39;t. At it&amp;#39;s core you are taking a boarding pass representing a coded airplane seat number and you&amp;#39;re converting it to a known seat (row and column).</description>
+    </item>
+    
+    <item>
+      <title>A Teacher Looks at Advent of Code 2020 - Day 4</title>
+      <link>https://newblog/post/advent-2020-day04/</link>
+      <pubDate>Fri, 04 Dec 2020 17:31:06 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2020-day04/</guid>
+      <description>One of the nice things about Advent of Code is that it gets me to explore language features I haven&amp;#39;t used yet. Today&amp;#39;s problem got me to explore Clojure Spec which is a very cool validation library. There&amp;#39;s a complete run through of the solution in Clojure in the video but here I&amp;#39;ll talk about the problem in Python (mostly). Today&amp;#39;s problem is about validating passports. You start with a text file consisting of passport information.</description>
+    </item>
+    
+    <item>
+      <title>A Teacher Looks at Advent of Code 2020 - Day 3</title>
+      <link>https://newblog/post/advent-2020-day03/</link>
+      <pubDate>Thu, 03 Dec 2020 14:27:02 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2020-day03/</guid>
+      <description>I thought I&amp;#39;d do a video for today. No particular reason. Mostly why not.
+I&amp;#39;ll talk about day 3&amp;#39;s problem and code up a solution in Clojure. If you haven&amp;#39;t ever used Clojure, hopefully this will give a bit of the flavor. This video also serves double duty as being my next Using Emacs video since it demos Emacs&amp;#39;s Clojure tools. Mostly Cider which even with a few quirks is the best development environment I&amp;#39;ve ever used.</description>
+    </item>
+    
+    <item>
+      <title>A Teacher Looks at Advent of Code 2020 - Day 2</title>
+      <link>https://newblog/post/advent-2020-day02/</link>
+      <pubDate>Wed, 02 Dec 2020 12:27:27 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2020-day02/</guid>
+      <description>Day two introduced some staples of staples of not only Advent of Code but also of programming problems in general. The first is input parsing. For this problem you get lines of input like this:
+1-3 a: abcde 1-3 b: cdefg 2-9 c: cccccccc or in general
+number_1-number_2 Letter: String There are a few ways to handle this. One is to brute force it. In Python maybe something like: sample_line=&amp;#34;4-15 f: abcdefg&amp;#34; sample_list = sample_line.</description>
+    </item>
+    
+    <item>
+      <title>A Teacher Looks at Advent of Code 2020 - Day 1</title>
+      <link>https://newblog/post/advent-2020-day-01/</link>
+      <pubDate>Tue, 01 Dec 2020 09:03:39 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2020-day-01/</guid>
+      <description>So, yesterday I was chatting with my daughter. She was talking with her team and for some reason one of them pulled out an interview question from their company&amp;#39;s question bank. Turns out it was today&amp;#39;s Advent of Code problem. As with past years, I&amp;#39;m going to try to solve the problems in Clojure but if I can will talk Python when I talk about solutions. Part 1 of the problem basically asks for you to find a pair of numbers in an array that sum to a specific value.</description>
+    </item>
+    
+    <item>
+      <title>Advent of Code 2020</title>
+      <link>https://newblog/post/advent-2020-leadin/</link>
+      <pubDate>Mon, 30 Nov 2020 14:21:17 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2020-leadin/</guid>
+      <description>Tomorrow, or more practically, tonight at Midnight, Eric Wastl will once again launch the Advent of Code. As I&amp;#39;ve written before, it&amp;#39;s a month long event where each day a new programming problem is released. The problems range in difficulty and complexity. Some are very approachable to beginners and some are crazy challenging. I&amp;#39;ve written a bunch about AOC in past years:
+Solve A to Solve B Data structures and Hidden Complexity Tools can shape- how we think 2019 day 1 2019 day 2 2019 day 3 2019 day 4 2019 day 8 2019 day 8 addendum and a few more not listed.</description>
+    </item>
+    
+    <item>
+      <title>Multi Stage Assignments - the good and the bad - Advent of Code</title>
+      <link>https://newblog/post/multi-stage-assignments/</link>
+      <pubDate>Thu, 12 Dec 2019 17:19:27 -0400</pubDate>
+      
+      <guid>https://newblog/post/multi-stage-assignments/</guid>
+      <description>In the real world you&amp;#39;re usually not building your own projects from scratch. Much more frequently you&amp;#39;re working on a team and you and other players come and go over time. This is in stark contrast to most CS educational experiences where students typically complete relatively small assignments from beginning to end. One of my biggest fears way back when as I was about to graduate college was when I woke up one night in a cold sweath &amp;#34;oh crap - in a couple of weeks I&amp;#39;m going to have to actually produce good code.</description>
+    </item>
+    
+    <item>
+      <title>Advent 2019 Day 8 - addendum - generating inputs</title>
+      <link>https://newblog/post/advent-2019-day8-part2/</link>
+      <pubDate>Sun, 08 Dec 2019 17:04:30 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2019-day8-part2/</guid>
+      <description>As I said in my last post, day 8 would be a nice project or lesson in an APCS-A or college CS1 class. Another nice problem would be to write a program to generate an image in the format required by the question. Alternatively, a teacher doing day 8 with their classes might want to generate a bunch of images for the students to test their decoders on. I thought I&amp;#39;d write one to see how appropriate it would be for the students.</description>
+    </item>
+    
+    <item>
+      <title>Advent 2019 Day - 8</title>
+      <link>https://newblog/post/advent-2019-day8/</link>
+      <pubDate>Sun, 08 Dec 2019 08:42:32 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2019-day8/</guid>
+      <description>I spent most of last week up in Albany working on the NY State K12 CS Standards so fell a bit behind. I had to go back to complete day 5 but still haven&amp;#39;t finished day 7 which builds on day 5 which in turn builds on day 2. I might not get to finishing 7 for a while but it looks like a good chance to play with core.</description>
+    </item>
+    
+    <item>
+      <title>Advent 2019 Day 4</title>
+      <link>https://newblog/post/advent-2019-day4/</link>
+      <pubDate>Wed, 04 Dec 2019 19:32:34 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2019-day4/</guid>
+      <description>Day 4. Most of the day was spent working on the NY State CS standards to I didn&amp;#39;t figure to have much time to work on the problem. Fortunately, I was able to knock out part 1 before work started and part 2 was a quick adjustment when I got back to it at the start of lunch.
+Once again, it was a problem with a few interesting teacher side aspects.</description>
+    </item>
+    
+    <item>
+      <title>Advent 2019 Day 3</title>
+      <link>https://newblog/post/advent-2019-day3/</link>
+      <pubDate>Tue, 03 Dec 2019 19:01:13 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2019-day3/</guid>
+      <description>Today&amp;#39;s problem dealt with intersecting paths. You start with two inputs, figure out the paths they represent and where they intersect and then find the intersection that correctly answers the question.
+For part 1 you have to find the intersection closest to the origin. From a teacher&amp;#39;s point of view, the interesting part here is data representation. This problem deals with a two dimensional grid on which the paths live.</description>
+    </item>
+    
+    <item>
+      <title>Advent 2019 Day 2</title>
+      <link>https://newblog/post/advent-2019-day2/</link>
+      <pubDate>Mon, 02 Dec 2019 17:11:43 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2019-day2/</guid>
+      <description>Day 2 of Advent of Code 2019 was also pretty straightforward and once again I wrote my solution in Clojure but in order to talk about this from a teacher&amp;#39;s point of view, we&amp;#39;ll look at a Python solution. At its core, this is a simulation problem - read the data into an array or list and write a program to run through the steps. At first I was hoping that the solution would consume the data - that is, once you read past an instruction you don&amp;#39;t go back to it.</description>
+    </item>
+    
+    <item>
+      <title>Advent of Code 2019 Day 1</title>
+      <link>https://newblog/post/advent-2019-day1/</link>
+      <pubDate>Sun, 01 Dec 2019 14:23:35 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2019-day1/</guid>
+      <description>Like most programming challenges, Advent of Code ramps out from easier, more accessible problems to harder, more complex ones. As such, a number of the early challenges are great problems for early CS students. I thought that while I watched my NY Giants play valiantly in their attempt to get a high draft pick I&amp;#39;d talk about today&amp;#39;s challenge from a teacher&amp;#39;s point of view.
+The summary of part one is that you have a list of inputs (masses of components) and for each one you have to perform a calculation (how much fuel is needed).</description>
+    </item>
+    
+  </channel>
+</rss>

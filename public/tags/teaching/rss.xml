@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>teaching on C&#39;est la Z</title>
+    <link>https://newblog/tags/teaching/</link>
+    <description>Recent content in teaching on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Feb 2023 10:00:05 -0400</lastBuildDate><atom:link href="https://newblog/tags/teaching/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Motivating Students in CS Class</title>
+      <link>https://newblog/post/motivating-students/</link>
+      <pubDate>Fri, 17 Feb 2023 10:00:05 -0400</pubDate>
+      
+      <guid>https://newblog/post/motivating-students/</guid>
+      <description>A teacher in one of my networks posted a question earlier today - &amp;#34;have you had any challenges or trouble with motivating kids in your classes?&amp;#34;
+Not a new question and I&amp;#39;m sure for any teacher with any level of experience the answer is a resounding yes. I don&amp;#39;t care who you are. Not all of your students are motivated all the time.
+This can particularly be a problem when a teacher switches over from teaching an elective or selective to a required class but it might not be.</description>
+    </item>
+    
+    <item>
+      <title>First Day Final Semester</title>
+      <link>https://newblog/post/first-day-last-semester/</link>
+      <pubDate>Fri, 27 Jan 2023 09:49:07 -0400</pubDate>
+      
+      <guid>https://newblog/post/first-day-last-semester/</guid>
+      <description>So, yesterday was the first day of the semester. Since I&amp;#39;m retiring, it&amp;#39;s my last first day at Hunter.
+Felt pretty good. I think knowing that I&amp;#39;ll get a break after the term has alleviated some of the burnout for now.
+What will I be focusing on in class this last time around?
+I&amp;#39;m teaching three classes.
+First up is my undergraduate data structures. To be honest, I&amp;#39;m not looking at anything special there - just business as usual.</description>
+    </item>
+    
+    <item>
+      <title>teachGPT</title>
+      <link>https://newblog/post/teachgpt/</link>
+      <pubDate>Thu, 12 Jan 2023 07:45:56 -0400</pubDate>
+      
+      <guid>https://newblog/post/teachgpt/</guid>
+      <description>So, since we discussed cheating and chatGPT and decided that there shouldn&amp;#39;t be a ban, how can it or similar tools be used productively?
+General use The first go to seems to be as an alternative search engine. It hasn&amp;#39;t been uncommon seeing people say they use chatGPT instead of searching StackOverflow. This makes sense. ChatGPT gives answers and the natural language interface can make it easier to form some questions or ask for results in a particular format.</description>
+    </item>
+    
+    <item>
+      <title>Cheating</title>
+      <link>https://newblog/post/cheating/</link>
+      <pubDate>Tue, 03 Jan 2023 14:30:36 -0400</pubDate>
+      
+      <guid>https://newblog/post/cheating/</guid>
+      <description>I said in my last post that I wanted to write about chatGPT. The way I see it, chatGPT is affecting teachers in four areas. First, students using it to cheat, second the possibility of students using it as a constructive tool. Third, teachers using it as a resource for lesson planning or similar, and fourth, down the road, another tool to replace teachers.
+Before I dive into any of those, I thought I&amp;#39;d spend a post talking about cheating in general.</description>
+    </item>
+    
+    <item>
+      <title>Finally some down time</title>
+      <link>https://newblog/post/down-time/</link>
+      <pubDate>Fri, 30 Dec 2022 11:56:52 -0400</pubDate>
+      
+      <guid>https://newblog/post/down-time/</guid>
+      <description>Since entering end of term grades I&amp;#39;ve finally had a few days of legit down time. It&amp;#39;s been a long time. In the past few years, I went right from Fall finals int dealing with whatever issues arose around planning the next teacher ed cohort.
+Not so this year. The three classes I&amp;#39;m teaching are the same as last year so while I&amp;#39;ll be doing a lot of tweaking, planning, and updating once we get started, there&amp;#39;s not much to do now.</description>
+    </item>
+    
+    <item>
+      <title>Some Professional Development Is Worthwhile</title>
+      <link>https://newblog/post/some-pd-is-worthwhile/</link>
+      <pubDate>Wed, 26 Oct 2022 16:29:50 -0400</pubDate>
+      
+      <guid>https://newblog/post/some-pd-is-worthwhile/</guid>
+      <description>No, I&amp;#39;m not walking back anything from my last post. I still think we have to stop using professional development as the primary means for preparing CS teachers but I wanted to take a minute to make it clear that while there&amp;#39;s plenty of lousy PD out there, there&amp;#39;s also plenty of good stuff.
+For bad PD, it&amp;#39;s frequently mandated and frequently neither useful or relevant or even if its potentially relevant, but the time it becomes useful you don&amp;#39;t remember it.</description>
+    </item>
+    
+    <item>
+      <title>Don&#39;t give away the punchline</title>
+      <link>https://newblog/post/punchline/</link>
+      <pubDate>Fri, 21 Oct 2022 15:42:24 -0400</pubDate>
+      
+      <guid>https://newblog/post/punchline/</guid>
+      <description>Commenting on my post on teaching some Software Engineering concepts, there was a comment on code review and that code.org now included it in their CS-A curriculum. I found this video but no other materials. I was thinking that I certainly hoped that the video was not being used to introduce code review to students. I mean the video is fine and probably great to show to teachers so that they&amp;#39;ll have some idea on what code review is and why it&amp;#39;s important.</description>
+    </item>
+    
+    <item>
+      <title>Good class day today</title>
+      <link>https://newblog/post/good-day-in-class/</link>
+      <pubDate>Thu, 13 Oct 2022 14:59:22 -0400</pubDate>
+      
+      <guid>https://newblog/post/good-day-in-class/</guid>
+      <description>I&amp;#39;ve been in something of a teaching funk for much of the semester. Don&amp;#39;t get me wrong, I think things are going pretty well with the classes but I don&amp;#39;t feel like I&amp;#39;ve had my &amp;#34;A game.&amp;#34;
+Part of it, I think is because of the relaxed mask policy. Hunter is masks optional and in their infinite wisdom, last year replaced the signs that said &amp;#34;Masks required&amp;#34; with signs that say &amp;#34;Masks NOT required.</description>
+    </item>
+    
+    <item>
+      <title>CoTeaching - learning from colleagues</title>
+      <link>https://newblog/post/co-teach/</link>
+      <pubDate>Thu, 28 Jul 2022 12:49:50 -0400</pubDate>
+      
+      <guid>https://newblog/post/co-teach/</guid>
+      <description>A few weeks ago I wrote on how you can&amp;#39;t workshop a lesson. Besides the slow feedback loop, teachers largely work alone. Between classes, teachers might have a small bit of time to collaborate and bounce around ideas but with a HS teacher typically having 5 classes a day + professional assignment there&amp;#39;s not a lot of time.
+CS teachers typically have it worse as they might be the only CS teacher in their building.</description>
+    </item>
+    
+    <item>
+      <title>Yes, deadlines do matter</title>
+      <link>https://newblog/post/late-assignments/</link>
+      <pubDate>Tue, 17 May 2022 08:28:56 -0400</pubDate>
+      
+      <guid>https://newblog/post/late-assignments/</guid>
+      <description>I&amp;#39;ve been seeing a few threads lately talking about the virtues of allowing students to hand in assignments late. Not just late but pretty much whenever they want. This attitude seems to be related with things like mastery or specification grading, which I believe in but it&amp;#39;s not the same thing.
+The threads start with someone saying that assignments shouldn&amp;#39;t have deadlines or some variant and the thread proceeds with a bunch of people chiming in as to why a teacher who actually enforces deadlines is an inhuman monster.</description>
+    </item>
+    
+    <item>
+      <title>Rubrics for teacher observations are garbage</title>
+      <link>https://newblog/post/observation-rubrics/</link>
+      <pubDate>Wed, 09 Feb 2022 12:12:26 -0400</pubDate>
+      
+      <guid>https://newblog/post/observation-rubrics/</guid>
+      <description>There have been a lot of bad ideas foisted onto educators over the course of my career. One of the ones that always pissed me off was the use of a rubric for teacher observation. Specifically, using the Danielson Framework. The Danielson Framework is a LONG laundry list of topics and concepts and for each a teacher could be rated ineffective, developing, effective, or highly effective.
+It&amp;#39;s garbage.
+Sure, there are some good things in the framework but using a restrictive rubric to judge a teacher is just a bad idea.</description>
+    </item>
+    
+    <item>
+      <title>When is remote better</title>
+      <link>https://newblog/post/whats-better-remote/</link>
+      <pubDate>Fri, 28 Jan 2022 08:13:17 -0400</pubDate>
+      
+      <guid>https://newblog/post/whats-better-remote/</guid>
+      <description>With my first classes of the semester coming up on Monday I thought I&amp;#39;d write a bit about what worked better remote than in person. When I say better I mean specifically, worked better for me given my situation. I think they worked better for the class but I can&amp;#39;t say with any certainty given the length of the educational feedback loop and other factors.
+My in person teaching situation is as follows.</description>
+    </item>
+    
+    <item>
+      <title>Turning a good class into a bad lecture</title>
+      <link>https://newblog/post/inperson-update/</link>
+      <pubDate>Tue, 28 Sep 2021 08:11:34 -0400</pubDate>
+      
+      <guid>https://newblog/post/inperson-update/</guid>
+      <description>I&amp;#39;ve been teaching in person for about a month now so I thought I&amp;#39;d give a quick update on how it&amp;#39;s going. I&amp;#39;ve written before about my feelings on how Hunter started the semester (TL;DR - I was very displeased) but that&amp;#39;s not the point of this post. As of today, I believe every student has been required to be stabbed at least once and on October 11, all students must be fully vaccinated to be on campus.</description>
+    </item>
+    
+    <item>
+      <title>A Memorable Lesson (at least for one student)</title>
+      <link>https://newblog/post/a-memorable-lesson/</link>
+      <pubDate>Fri, 10 Sep 2021 13:31:22 -0400</pubDate>
+      
+      <guid>https://newblog/post/a-memorable-lesson/</guid>
+      <description>Back to calling an audible.
+Around seven years ago I was visiting with some former students at Google in Mountain View. One of them from way back in the late 90s, Pawel, out of the blue said there was one lesson I taught that was particularly memorable. Not memorable in the &amp;#34;that was fun&amp;#34; way like maybe my Halloween adventures but memorable in that he felt he got a lot more out of it than a normal lesson.</description>
+    </item>
+    
+    <item>
+      <title>Should every assignment be open ended?</title>
+      <link>https://newblog/post/creative-projects/</link>
+      <pubDate>Sun, 05 Sep 2021 06:43:53 -0400</pubDate>
+      
+      <guid>https://newblog/post/creative-projects/</guid>
+      <description>This post by my friend Alfred caught my eye yesterday. It&amp;#39;s a good post - some good examples of inserting student creativity even into small intro level assignments. While I like the post and agree with the sentiment of open ended, student driven projects, I had to take issue with the lead quote Alfred used: “If you assign a project and get back 30 of the same thing, that’s not a project, that is a recipe.</description>
+    </item>
+    
+    <item>
+      <title>Calling an audible</title>
+      <link>https://newblog/post/audible/</link>
+      <pubDate>Thu, 02 Sep 2021 13:48:09 -0400</pubDate>
+      
+      <guid>https://newblog/post/audible/</guid>
+      <description>Be ready to call an audible.
+This was advice I got during my third year teaching. I had just transferred from Seward Park to Stuy and was being observed for the first time by my former teacher and now supervisor Richie Rothenberg. I forget exactly what the lesson was on - something with coordinate geometry I think. The lesson was okay but it wasn&amp;#39;t going over well with the class.</description>
+    </item>
+    
+    <item>
+      <title>Day one back in person</title>
+      <link>https://newblog/post/day-one-in-person/</link>
+      <pubDate>Fri, 27 Aug 2021 06:46:11 -0400</pubDate>
+      
+      <guid>https://newblog/post/day-one-in-person/</guid>
+      <description>Yesterday was my first day of in person teaching since early March 2020. It was,… interesting.
+I was looking forward to actually seeing my students in person but as I mentioned in my last post, i wasn&amp;#39;t comfortable given Hunter&amp;#39;s current COVID policy and Delta.
+I&amp;#39;ll be happier come mid October when 100% of students on campus will be vaccinated but at least for now, mask compliance is high. I only had to talk to one student in a hallway to remind him to put his mask back on and the only other non-masked person was a staff member (too far away for me to address) who had it under her nose.</description>
+    </item>
+    
+    <item>
+      <title>\(2^5\) Years Teaching</title>
+      <link>https://newblog/post/32-years/</link>
+      <pubDate>Sat, 21 Aug 2021 13:02:56 -0400</pubDate>
+      
+      <guid>https://newblog/post/32-years/</guid>
+      <description>I was looking over my TRS statement the other day - that&amp;#39;s Teacher&amp;#39;s Retirement System and noticed that next week I&amp;#39;ll be starting my 32nd year teaching. That&amp;#39;s \(2^5\) or 10000 - 5 bits so I guess you can&amp;#39;t call me a two bit teacher.
+Two and a half years at Seward, over 20 at Stuy, and the rest at Hunter College. I&amp;#39;ve had a lot of last days before school starts but this year is different.</description>
+    </item>
+    
+    <item>
+      <title>Why it takes so long to become a better teacher</title>
+      <link>https://newblog/post/feedback-loop/</link>
+      <pubDate>Fri, 06 Aug 2021 06:54:15 -0400</pubDate>
+      
+      <guid>https://newblog/post/feedback-loop/</guid>
+      <description>I&amp;#39;ve written about how long it takes to become a master teacher and that even after 9 or 10 years most teachers are really just advanced beginners. A big reason for that is our long feedback loop. You do something and you can&amp;#39;t do it again for a year.
+I was listening to a podcast on my morning run by the Hudson River and something came up about differences between quantities of items.</description>
+    </item>
+    
+    <item>
+      <title>Computer Science is not (inherently) fun</title>
+      <link>https://newblog/post/no-fun/</link>
+      <pubDate>Thu, 01 Jul 2021 09:56:06 -0400</pubDate>
+      
+      <guid>https://newblog/post/no-fun/</guid>
+      <description>I saw a tweet the other day by a CS teacher. They were talking about how much easier it is to teach CS because it&amp;#39;s fun.
+They went on about how they get to create cool problems which makes it so much easier to teach than other subjects.
+I&amp;#39;ve heard this a lot over the years particularly from teachers who are into gaming - &amp;#34;CS is fun because you can create games.</description>
+    </item>
+    
+    <item>
+      <title>Teaching Styles</title>
+      <link>https://newblog/post/teaching-styles/</link>
+      <pubDate>Tue, 20 Apr 2021 08:31:47 -0400</pubDate>
+      
+      <guid>https://newblog/post/teaching-styles/</guid>
+      <description>My friend Emmanuel lamented over on Facebook on &amp;#34;Learning Styles,&amp;#34; or more specifically on how it&amp;#39;s still given credence. We all chimed in in agreement but not an hour later I saw a Twitter thread where education thought leaders extolled the virtues of Learning Styles all over again. I pointed out that it&amp;#39;s a great example as to why so many teachers scoff at &amp;#34;the research&amp;#34; and &amp;#34;research backed practices.</description>
+    </item>
+    
+    <item>
+      <title>Deadlines And Commitments</title>
+      <link>https://newblog/post/deadlines-and-commitments/</link>
+      <pubDate>Thu, 01 Oct 2020 13:50:38 -0400</pubDate>
+      
+      <guid>https://newblog/post/deadlines-and-commitments/</guid>
+      <description>A few days ago I was part of a Twitter discussion on assignment deadlines. I noticed a tweet:
+Not sure who needs to hear this, but stop taking off points for late assignments. It’s not helping students learn responsibility, and it’s not making your job easier. It’s only making your class inequitable. 💯
+&amp;mdash; Sydney Jensen (@sydneycjensen) September 26, 2020 I disagreed. I wasn&amp;#39;t necessarily against floating or open deadlines without deductions but rather, they made my life more difficult and weren&amp;#39;t in the best interest of my students.</description>
+    </item>
+    
+    <item>
+      <title>Quarter Century Courses</title>
+      <link>https://newblog/post/quarter-century-courses/</link>
+      <pubDate>Tue, 15 Sep 2020 07:09:25 -0400</pubDate>
+      
+      <guid>https://newblog/post/quarter-century-courses/</guid>
+      <description>I was talking in our Curriculum Development class last week about the courses I&amp;#39;ve created over the years. From the first computer graphics course to the current teacher education courses. JonAlf pointed out that we missed an &amp;#34;important&amp;#34; occasion last spring - the twenty fifth offering of my computer graphics class at Stuy. I haven&amp;#39;t taught it in almost 10 years but it&amp;#39;s been running continuously for a quarter century since it first ran back in the mid 90s.</description>
+    </item>
+    
+    <item>
+      <title>Multiple Cameras For Remote Teaching</title>
+      <link>https://newblog/post/multiple-cameras-for-remote-teaching/</link>
+      <pubDate>Sun, 30 Aug 2020 11:05:49 -0400</pubDate>
+      
+      <guid>https://newblog/post/multiple-cameras-for-remote-teaching/</guid>
+      <description>We used Zoom for remote classes over the summer but at this point, I&amp;#39;ve also used Coding Rooms, Big Blue Button, and Google meet as well. They each have their own strong points and failings but all are limited in terms of sharing multiple cameras and screen components. All will let you share your camera or share your screen and when you share you screen you can either share it all or a single window.</description>
+    </item>
+    
+    <item>
+      <title>Starting the new semester</title>
+      <link>https://newblog/post/new-semester/</link>
+      <pubDate>Fri, 28 Aug 2020 08:56:23 -0400</pubDate>
+      
+      <guid>https://newblog/post/new-semester/</guid>
+      <description>Thursday was the first day of the new semester. The big change was that my classes were done remotely but there were also some other differences. Other changes were that I only met one of my two CS classes on Thursday. That&amp;#39;s my CS0. I&amp;#39;m also teaching a recitation for CS1 which only meets once a week. I&amp;#39;ll see those students as well as my CS0 students for a second time on Monday.</description>
+    </item>
+    
+    <item>
+      <title>Preparing CS Teachers - index post</title>
+      <link>https://newblog/post/teacher-cert-index/</link>
+      <pubDate>Tue, 11 Aug 2020 20:03:21 -0400</pubDate>
+      
+      <guid>https://newblog/post/teacher-cert-index/</guid>
+      <description>Since we ended up with an eight post postmortem on our CS Teaching Certificate summer intensive I thought I&amp;#39;d add add an index page. Here are links to each post: Introduction - program overview On pedagogy - CS teaching methods Topics in Computer Science Deciding on which methods to teach Commentary on selected CS topics Tools for remote instruction Building a community of CS teachers The good, the bad, and what&amp;#39;s next I also wrote a few posts as the summer intensive was running:</description>
+    </item>
+    
+    <item>
+      <title>Preparing CS Teachers - the good, the bad, and what&#39;s next.</title>
+      <link>https://newblog/post/teacher-cert-successes-and-failures/</link>
+      <pubDate>Tue, 11 Aug 2020 12:00:15 -0400</pubDate>
+      
+      <guid>https://newblog/post/teacher-cert-successes-and-failures/</guid>
+      <description>Looking back, what worked and what didn&amp;#39;t?
+Overall, things went very well. We were extremely happy with the cohort&amp;#39;s growth and performance and based on feedback received they were happy with the program so far. I&amp;#39;ll also say that while they&amp;#39;re not finished yet, I can honestly say that every one of them would be a boon to any school in the city in need of a CS teacher (but they&amp;#39;re not available since they&amp;#39;re all already teaching CS at their respective schools :-)).</description>
+    </item>
+    
+    <item>
+      <title>Preparing CS Teachers - building a community</title>
+      <link>https://newblog/post/teacher-cert-community/</link>
+      <pubDate>Tue, 11 Aug 2020 07:11:49 -0400</pubDate>
+      
+      <guid>https://newblog/post/teacher-cert-community/</guid>
+      <description>What so many non-teachers just don&amp;#39;t get is culture and community can be so much more powerful than curriculum. The problem is, culture and community are harder to create, curate, and maintain and the results don&amp;#39;t always show up on standardized tests.
+You can&amp;#39;t force community or culture in a classroom but you can try your best to foster it. It&amp;#39;s ultimately up to the class as a whole. It&amp;#39;s like I tell groups who come to events I organize.</description>
+    </item>
+    
+    <item>
+      <title>Preparing CS teachers - Curricula don&#39;t add richness, teachers do</title>
+      <link>https://newblog/post/teacher-cert-topics-curriculum/</link>
+      <pubDate>Fri, 07 Aug 2020 07:25:57 -0400</pubDate>
+      
+      <guid>https://newblog/post/teacher-cert-topics-curriculum/</guid>
+      <description>I&amp;#39;ve frequently been asked for curricula. I&amp;#39;ll hear from a school or someone otherwise involved in a school or education and they&amp;#39;ll ask for a course they can drop in and teach.
+I explain it doesn&amp;#39;t work that way. A syllabus or curriculum is only so good. A great curriculum with a bad teacher will still be bad but a great teacher can do a lot to salvage a horrible curriculum.</description>
+    </item>
+    
+    <item>
+      <title>CS Teacher Certification - Topics in CS</title>
+      <link>https://newblog/post/teacher-cert-topics/</link>
+      <pubDate>Wed, 05 Aug 2020 07:13:01 -0400</pubDate>
+      
+      <guid>https://newblog/post/teacher-cert-topics/</guid>
+      <description>Officially, the last course of the summer was &amp;#34;Modern Topics in Computer Science.&amp;#34; The idea was that K12 CS teachers on the one hand need depth beyond the typical terminal high school course, hence data structures and also breadth so that they could create electives, mix teasers in to the regular courses, or help precocious students with independent or semi-independant explorations. If someone was teaching this in a typical fall or spring semester course, they&amp;#39;d probably have a list of topics and spend a couple of weeks on each.</description>
+    </item>
+    
+    <item>
+      <title>Preparing teachers to teach CS</title>
+      <link>https://newblog/post/teacher-cert-recap-intro/</link>
+      <pubDate>Mon, 03 Aug 2020 06:16:52 -0400</pubDate>
+      
+      <guid>https://newblog/post/teacher-cert-recap-intro/</guid>
+      <description>Now that the summer portion of Hunter College&amp;#39;s Advanced Certificate in Teaching Computer Science is over I thought I&amp;#39;d do a postmortem. That is, a few posts about what we did and how it all went. First, though, an overview of the program.
+The Advanced Certificate program is geared towards teachers who are currently certified in another subject area who wish to earn an additional New York State teaching certificate in Computer Science.</description>
+    </item>
+    
+    <item>
+      <title>Pro Version Or Education Version</title>
+      <link>https://newblog/post/pro-version-or-ed-version/</link>
+      <pubDate>Fri, 29 May 2020 19:00:13 -0400</pubDate>
+      
+      <guid>https://newblog/post/pro-version-or-ed-version/</guid>
+      <description>I woke up to this tweet by Mark Guzdial today:#pro-version-or ed-version.org#
+An indication that CS Ed in US high schools is about vocational training: 2 (of 5) recommended sessions at the @csteachersorg conference are on Github and Agile. Is @CSforAll a Silicon Valley jobs program? https://t.co/n8ugnmTU84
+&amp;mdash; Mark Guzdial (@guzdial) May 28, 2020 This led to a lively discussion throughout the day with lots of likes and lots of comments.</description>
+    </item>
+    
+    <item>
+      <title>Varying Remote Teaching</title>
+      <link>https://newblog/post/varying-remote-teaching/</link>
+      <pubDate>Wed, 15 Apr 2020 08:33:20 -0400</pubDate>
+      
+      <guid>https://newblog/post/varying-remote-teaching/</guid>
+      <description>When we first went remote I jumped on Zoom. I already new the technology and it most simulated a live class. Basically, it was the best combination if quick, easy, and effective and we were under the gun to get something going and give our students some sense of normalcy and continuity.
+As we settled in though, it made sense to try some different things. One was the &amp;#34;lab packet.</description>
+    </item>
+    
+    <item>
+      <title>It&#39;s okay, I Get It</title>
+      <link>https://newblog/post/i-get-it/</link>
+      <pubDate>Fri, 10 Apr 2020 14:13:08 -0400</pubDate>
+      
+      <guid>https://newblog/post/i-get-it/</guid>
+      <description>I was reading Mary Clair Wright&amp;#39;s new blog the other day. It&amp;#39;s always great to see another teacher sharing publicly online.
+One line caught my eye in her latest post - &amp;lt;blockquote&amp;gt; Remote instruction is weird, I can’t see them. I have to trust that they will message me with questions. &amp;lt;/blockquote&amp;gt;
+This is a real problem. It&amp;#39;s hard enough in a regular class where we can pick up an all sorts of cues and use all sorts formal and informal assessments but when the students are on the other end of a teleconference or even more challenging an email or chat it&amp;#39;s even harder.</description>
+    </item>
+    
+    <item>
+      <title>Limitations Of Remote Teaching</title>
+      <link>https://newblog/post/limitations-of-remote-teaching/</link>
+      <pubDate>Mon, 30 Mar 2020 14:41:35 -0400</pubDate>
+      
+      <guid>https://newblog/post/limitations-of-remote-teaching/</guid>
+      <description>While tools like Zoom, Slack and others are a tremendous boon as we&amp;#39;re forced to do all our teaching remotely the limitations become apparent as we settle in and try to go beyond the basics of an offsite meeting.
+Today was code review day in my CS1 class. It&amp;#39;s a lesson that I enjoy teaching and I think my students get a lot out of it. Today we had to do it remote.</description>
+    </item>
+    
+    <item>
+      <title>Class Legends</title>
+      <link>https://newblog/post/class-legends/</link>
+      <pubDate>Wed, 25 Mar 2020 15:43:54 -0400</pubDate>
+      
+      <guid>https://newblog/post/class-legends/</guid>
+      <description>Let&amp;#39;s talk about something other than distance learning and COVID-19.
+You know you&amp;#39;ve been doing something a long time when you&amp;#39;ve got legends.
+Over on my alumni mailing list JonAlf shared a web site showing off what his current students were doing in their computer graphics class. Somewhere in the thread, Con replied:
+Someone should put up a video of the fabulous and fantastically famous hand animation called FINGER.MDL. It dates from a little before my time, but stories elevated it to legendary status.</description>
+    </item>
+    
+    <item>
+      <title>Necessity is the mother of invention</title>
+      <link>https://newblog/post/mother-of-invention/</link>
+      <pubDate>Mon, 23 Mar 2020 18:59:40 -0400</pubDate>
+      
+      <guid>https://newblog/post/mother-of-invention/</guid>
+      <description>I didn&amp;#39;t expect to read a Fred Wilson post on teaching online but that&amp;#39;s what I found when I visited his blog this morning. Don&amp;#39;t get me wrong - I suspect that Fred has the makings of a great teacher, it&amp;#39;s just not what I expected to find. There have been many posts about education but I don&amp;#39;t recall any about teaching or more specifically the art of teaching. I did find this post though which actually speaks to some of the thoughts today&amp;#39;s post got churning.</description>
+    </item>
+    
+    <item>
+      <title>Interesting Problems</title>
+      <link>https://newblog/post/interesting-problems/</link>
+      <pubDate>Sat, 07 Mar 2020 08:12:55 -0400</pubDate>
+      
+      <guid>https://newblog/post/interesting-problems/</guid>
+      <description>I organize a monthly professional development session for CS teachers. It&amp;#39;s targeted at teachers who are beyond the beginner stage and don&amp;#39;t want yet another hello world blinky arduino scratch workshop. Don&amp;#39;t get me wrong, given the need for CS teachers we need plenty of beginner workshops but we also need to take teachers to the next level. I refer to my workshops as being for teachers of APCS-A, similar, or beyond.</description>
+    </item>
+    
+    <item>
+      <title>Teachers Pay Teachers - part 2 - the report</title>
+      <link>https://newblog/post/teachers-pay-teachers-2/</link>
+      <pubDate>Mon, 20 Jan 2020 10:03:27 -0400</pubDate>
+      
+      <guid>https://newblog/post/teachers-pay-teachers-2/</guid>
+      <description>Continuing from yesterday, what about the article and report on pay and free teacher resources.
+The report looked at three sources - one pay and two free. They came up with a number of results but I think they largely missed the point.
+Their bottom line conclusion was that &amp;#39;Overall, reviewers rate most of the materials as “mediocre” or “probably not worth using”.&amp;#39; They also didn&amp;#39;t seem to find that neither the for profit or free sources were universally better.</description>
+    </item>
+    
+    <item>
+      <title>Teachers Pay Teachers  - part 1 - should they</title>
+      <link>https://newblog/post/teachers-pay-teachers/</link>
+      <pubDate>Mon, 20 Jan 2020 08:43:37 -0400</pubDate>
+      
+      <guid>https://newblog/post/teachers-pay-teachers/</guid>
+      <description>There was a bit of buzz a couple of months ago when Amazon announced an online marketplace for educational resources. It wasn&amp;#39;t a new concept - on the pay side, Teachers Pay Teachers has been around for a while and in terms of free, there are many online resources but they&amp;#39;re not necessarily well organized or curated. What was the buzz? Should teachers be charging their peers for class materials or should they be providing them for free.</description>
+    </item>
+    
+  </channel>
+</rss>

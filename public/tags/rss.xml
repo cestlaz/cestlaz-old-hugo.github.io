@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on C&#39;est la Z</title>
+    <link>https://newblog/tags/</link>
+    <description>Recent content in Tags on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Mar 2023 09:58:04 -0400</lastBuildDate><atom:link href="https://newblog/tags/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>programming</title>
+      <link>https://newblog/tags/programming/</link>
+      <pubDate>Fri, 10 Mar 2023 09:58:04 -0400</pubDate>
+      
+      <guid>https://newblog/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>recursion</title>
+      <link>https://newblog/tags/recursion/</link>
+      <pubDate>Fri, 10 Mar 2023 09:58:04 -0400</pubDate>
+      
+      <guid>https://newblog/tags/recursion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>policy</title>
+      <link>https://newblog/tags/policy/</link>
+      <pubDate>Thu, 09 Mar 2023 15:11:38 -0400</pubDate>
+      
+      <guid>https://newblog/tags/policy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tools</title>
+      <link>https://newblog/tags/tools/</link>
+      <pubDate>Tue, 28 Feb 2023 14:50:07 -0400</pubDate>
+      
+      <guid>https://newblog/tags/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>teaching</title>
+      <link>https://newblog/tags/teaching/</link>
+      <pubDate>Fri, 17 Feb 2023 10:00:05 -0400</pubDate>
+      
+      <guid>https://newblog/tags/teaching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CS Education</title>
+      <link>https://newblog/tags/cs-education/</link>
+      <pubDate>Mon, 13 Feb 2023 06:48:49 -0400</pubDate>
+      
+      <guid>https://newblog/tags/cs-education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>class design</title>
+      <link>https://newblog/tags/class-design/</link>
+      <pubDate>Tue, 07 Feb 2023 12:18:10 -0400</pubDate>
+      
+      <guid>https://newblog/tags/class-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>misc</title>
+      <link>https://newblog/tags/misc/</link>
+      <pubDate>Fri, 03 Feb 2023 08:52:49 -0400</pubDate>
+      
+      <guid>https://newblog/tags/misc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chatGPT</title>
+      <link>https://newblog/tags/chatgpt/</link>
+      <pubDate>Mon, 23 Jan 2023 14:29:45 -0400</pubDate>
+      
+      <guid>https://newblog/tags/chatgpt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPT</title>
+      <link>https://newblog/tags/gpt/</link>
+      <pubDate>Fri, 20 Jan 2023 08:57:09 -0400</pubDate>
+      
+      <guid>https://newblog/tags/gpt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ai</title>
+      <link>https://newblog/tags/ai/</link>
+      <pubDate>Sun, 15 Jan 2023 11:03:52 -0400</pubDate>
+      
+      <guid>https://newblog/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cheating</title>
+      <link>https://newblog/tags/cheating/</link>
+      <pubDate>Tue, 10 Jan 2023 06:42:45 -0400</pubDate>
+      
+      <guid>https://newblog/tags/cheating/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>predictions</title>
+      <link>https://newblog/tags/predictions/</link>
+      <pubDate>Sun, 01 Jan 2023 10:47:39 -0400</pubDate>
+      
+      <guid>https://newblog/tags/predictions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PD</title>
+      <link>https://newblog/tags/pd/</link>
+      <pubDate>Fri, 30 Dec 2022 11:56:52 -0400</pubDate>
+      
+      <guid>https://newblog/tags/pd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pedagogy</title>
+      <link>https://newblog/tags/pedagogy/</link>
+      <pubDate>Wed, 07 Dec 2022 12:44:43 -0400</pubDate>
+      
+      <guid>https://newblog/tags/pedagogy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Advent of Code</title>
+      <link>https://newblog/tags/advent-of-code/</link>
+      <pubDate>Sat, 03 Dec 2022 10:13:56 -0400</pubDate>
+      
+      <guid>https://newblog/tags/advent-of-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>clojure</title>
+      <link>https://newblog/tags/clojure/</link>
+      <pubDate>Sat, 03 Dec 2022 10:13:56 -0400</pubDate>
+      
+      <guid>https://newblog/tags/clojure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming languages</title>
+      <link>https://newblog/tags/programming-languages/</link>
+      <pubDate>Tue, 29 Nov 2022 08:59:11 -0400</pubDate>
+      
+      <guid>https://newblog/tags/programming-languages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cs major</title>
+      <link>https://newblog/tags/cs-major/</link>
+      <pubDate>Mon, 07 Nov 2022 11:47:50 -0400</pubDate>
+      
+      <guid>https://newblog/tags/cs-major/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CS Topics</title>
+      <link>https://newblog/tags/cs-topics/</link>
+      <pubDate>Sat, 08 Oct 2022 14:40:55 -0400</pubDate>
+      
+      <guid>https://newblog/tags/cs-topics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>certification</title>
+      <link>https://newblog/tags/certification/</link>
+      <pubDate>Wed, 28 Sep 2022 16:39:37 -0400</pubDate>
+      
+      <guid>https://newblog/tags/certification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ed research</title>
+      <link>https://newblog/tags/ed-research/</link>
+      <pubDate>Sun, 11 Sep 2022 12:33:02 -0400</pubDate>
+      
+      <guid>https://newblog/tags/ed-research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>errors</title>
+      <link>https://newblog/tags/errors/</link>
+      <pubDate>Fri, 02 Sep 2022 15:05:19 -0400</pubDate>
+      
+      <guid>https://newblog/tags/errors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CS Ed</title>
+      <link>https://newblog/tags/cs-ed/</link>
+      <pubDate>Tue, 16 Aug 2022 15:38:55 -0400</pubDate>
+      
+      <guid>https://newblog/tags/cs-ed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teacher Ed</title>
+      <link>https://newblog/tags/teacher-ed/</link>
+      <pubDate>Tue, 28 Jun 2022 10:25:35 -0400</pubDate>
+      
+      <guid>https://newblog/tags/teacher-ed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>debugging</title>
+      <link>https://newblog/tags/debugging/</link>
+      <pubDate>Fri, 13 May 2022 14:22:57 -0400</pubDate>
+      
+      <guid>https://newblog/tags/debugging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data structures</title>
+      <link>https://newblog/tags/data-structures/</link>
+      <pubDate>Mon, 02 May 2022 14:23:44 -0400</pubDate>
+      
+      <guid>https://newblog/tags/data-structures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jobs</title>
+      <link>https://newblog/tags/jobs/</link>
+      <pubDate>Thu, 14 Apr 2022 14:41:05 -0400</pubDate>
+      
+      <guid>https://newblog/tags/jobs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>curriculum</title>
+      <link>https://newblog/tags/curriculum/</link>
+      <pubDate>Mon, 14 Mar 2022 12:17:11 -0400</pubDate>
+      
+      <guid>https://newblog/tags/curriculum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SIGCSE</title>
+      <link>https://newblog/tags/sigcse/</link>
+      <pubDate>Wed, 09 Mar 2022 14:26:26 -0400</pubDate>
+      
+      <guid>https://newblog/tags/sigcse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>csed</title>
+      <link>https://newblog/tags/csed/</link>
+      <pubDate>Wed, 19 Jan 2022 06:47:18 -0400</pubDate>
+      
+      <guid>https://newblog/tags/csed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>education</title>
+      <link>https://newblog/tags/education/</link>
+      <pubDate>Mon, 03 Jan 2022 08:53:28 -0400</pubDate>
+      
+      <guid>https://newblog/tags/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ethical CS</title>
+      <link>https://newblog/tags/ethical-cs/</link>
+      <pubDate>Tue, 02 Nov 2021 07:15:47 -0400</pubDate>
+      
+      <guid>https://newblog/tags/ethical-cs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ethics</title>
+      <link>https://newblog/tags/ethics/</link>
+      <pubDate>Tue, 02 Nov 2021 07:15:47 -0400</pubDate>
+      
+      <guid>https://newblog/tags/ethics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emacs</title>
+      <link>https://newblog/tags/emacs/</link>
+      <pubDate>Mon, 25 Oct 2021 16:38:20 -0400</pubDate>
+      
+      <guid>https://newblog/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>workflow</title>
+      <link>https://newblog/tags/workflow/</link>
+      <pubDate>Sun, 10 Oct 2021 10:44:41 -0400</pubDate>
+      
+      <guid>https://newblog/tags/workflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teacher Prep</title>
+      <link>https://newblog/tags/teacher-prep/</link>
+      <pubDate>Mon, 14 Jun 2021 07:55:01 -0400</pubDate>
+      
+      <guid>https://newblog/tags/teacher-prep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CS4All</title>
+      <link>https://newblog/tags/cs4all/</link>
+      <pubDate>Tue, 23 Mar 2021 19:35:57 -0400</pubDate>
+      
+      <guid>https://newblog/tags/cs4all/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CS</title>
+      <link>https://newblog/tags/cs/</link>
+      <pubDate>Thu, 18 Mar 2021 12:10:53 -0400</pubDate>
+      
+      <guid>https://newblog/tags/cs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AOC</title>
+      <link>https://newblog/tags/aoc/</link>
+      <pubDate>Sun, 27 Dec 2020 15:57:22 -0400</pubDate>
+      
+      <guid>https://newblog/tags/aoc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

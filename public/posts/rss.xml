@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on C&#39;est la Z</title>
+    <link>https://newblog/posts/</link>
+    <description>Recent content in Posts on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://newblog/posts/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Blight Move</title>
+      <link>https://newblog/posts/blight-move/</link>
+      <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/blight-move/</guid>
+      <description>It was Jon and Amy&amp;#39;s wedding. Jon was my student back in the day so there were a handful of Stuy alums there to celebrate the occasion. Some, like Jon, I had stayed in touch with and now count as friends. Others, I knew but hadn&amp;#39;t kept up with.
+I was with a cluster of guests and for some reason the conversation turned to chess computers. I started telling a story about the my former teacher Herb Greenhut&amp;#39;s Talking Chess Challenger computer.</description>
+    </item>
+    
+    <item>
+      <title>Creating a school for CS</title>
+      <link>https://newblog/posts/creating-a-school/</link>
+      <pubDate>Tue, 11 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/creating-a-school/</guid>
+      <description>Do we really need CS focused high schools?
+That&amp;#39;s the question Alfred Thompson asked partly in reaction to my post talking about Bill Gates&amp;#39; visit to AFSE, a NYC public school with a CS focus.
+On both posts, Michael Preston shared some important and good points about AFSE as a starting point and gateway that helped lead to CS4All in NYC and also specifically about AFSE.
+In response to Alfred&amp;#39;s question I thought it was time I shared a bit about what I was pushing for AFSE back when I was involved.</description>
+    </item>
+    
+    <item>
+      <title>That Time Bill Gates Visited AFSE</title>
+      <link>https://newblog/posts/that-time-bill-gates-visited-afse/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/that-time-bill-gates-visited-afse/</guid>
+      <description>AFSE stands for the Academy for Software Engineering. It&amp;#39;s a public school in New York City with a stated focus on, well, software engineering. I have some history with the school and its creation but that&amp;#39;s not what this post is about. In fact, this post isn&amp;#39;t really about AFSE at all. I plan to neither praise or critique the school. This is about what Bill Gates wrote about his recent visit.</description>
+    </item>
+    
+    <item>
+      <title>Do you need to know binary for CS?</title>
+      <link>https://newblog/posts/why-binary/</link>
+      <pubDate>Wed, 05 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/why-binary/</guid>
+      <description>Yesterday, Alfred Thompson asked &amp;#34;Why is it important for CS students to understand binary?&amp;#34; on Twitter which led to a number of interesting responses. Alfred summarized and wrote his own thoughts on his blog.
+I wanted to add a comment but I already wrote a post for yesterday so put it off until today.
+First let me say that you can have a very successful career in tech and not really know binary or number bases other than 10.</description>
+    </item>
+    
+    <item>
+      <title>Wishing all K12 teachers a great year</title>
+      <link>https://newblog/posts/starting-school-2018/</link>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/starting-school-2018/</guid>
+      <description>Today was the first day of school for all NYC teachers. Students come back tomorrow. That&amp;#39;s a quick turnaround. Some years, they get a day or two before the kids come in. That&amp;#39;s much easier.
+The first day is usually dominated by meetings. In a large school like Stuy you&amp;#39;ll typically have a long faculty meeting in the morning and a department meeting in the afternoon. Not much time to actually get ready for classes.</description>
+    </item>
+    
+    <item>
+      <title>Class Rules</title>
+      <link>https://newblog/posts/class-rules/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/class-rules/</guid>
+      <description>Classes started up again today so I thought I&amp;#39;d talk about my class rules.
+I don&amp;#39;t seem to recall many class rules in college. Sure, there was a grading policy governing homework and the like but not much beyond that. In K12 there are usually more. When you can talk, how you set up your notebook, how to do homework, bathroom policy etc.
+For years, I&amp;#39;ve used the same set of class rules and I always talk about the rules with my classes.</description>
+    </item>
+    
+    <item>
+      <title>Artifacts Have Stories</title>
+      <link>https://newblog/posts/artifacts-have-stories/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/artifacts-have-stories/</guid>
+      <description>Earlier today I was asked about my avatar:
+I&amp;#39;ve been using it for most services for a few months now. It&amp;#39;s an image that I&amp;#39;ve had for ages. I started thinking about using it about a year ago
+So, what&amp;#39;s the story?
+It was back in 1993. I had just started at Stuy. I taught some CS when I was at Seward Park but at the time, I was teaching all math at Stuy.</description>
+    </item>
+    
+    <item>
+      <title>Software Longevity</title>
+      <link>https://newblog/posts/software-longevity/</link>
+      <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/software-longevity/</guid>
+      <description>Writing about old projects got me thinking of my first programming gig and software longevity. It was a part time after school / full time summer job at Arcus-Simplex-Brown. I started in my senior year in high school and continued through most of my first year in college. It wasn&amp;#39;t my first job - that was being a delivery boy at Video Room, an independent video store that&amp;#39;s survived from the old VHS/Betamax days through DVDs and is still, somehow or other, surviving in this day and age of streaming video.</description>
+    </item>
+    
+    <item>
+      <title>Rite Of Passage Projects</title>
+      <link>https://newblog/posts/rite-of-passage-projects/</link>
+      <pubDate>Fri, 17 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/rite-of-passage-projects/</guid>
+      <description>JCS&amp;#39;s post on Irreal today brought me back. It was about Brief which was the editing hotness back in the day. I played with it a little really mostly used Emacs clones for real work when I was stuck on MS-DOS systems. Usually either JOVE or Epsilon
+In the comments Jon reminded me about the MKS Toolkit which brought most everyday Unix tools to DOS along with a shell and a version of Vi.</description>
+    </item>
+    
+    <item>
+      <title>Early Code Reuse</title>
+      <link>https://newblog/posts/early-code-reuse/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/early-code-reuse/</guid>
+      <description>I&amp;#39;ve been following the tweets coming out of ICER2018. I&amp;#39;ve never been to ICER but now am thinking about trying to get funding to go next year. One set of tweets involved students writing or using APIs or Libraries. This overlaps with Owen Astrachan&amp;#39;s talk from this past year&amp;#39;s CSTA conference on sorting. I was planning on writing a post about Owen&amp;#39;s talk but I thought I&amp;#39;d leave it for the school year closer to when sorting is typically covered.</description>
+    </item>
+    
+    <item>
+      <title>Class Communications</title>
+      <link>https://newblog/posts/class-communications/</link>
+      <pubDate>Wed, 08 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/class-communications/</guid>
+      <description>Right now I&amp;#39;m on vacation in Harrogate England. Natan is here taking part in the International Gilbert and Sullivan Festival so Devorah and I came along as tourists. Today we went to Knaresborough:
+The River Nidd as seen from Knaresborough Castle Normally when traveling I try to get everything in and that leaves me pretty exhausted at the end of each day. Since this time we&amp;#39;ll be here for around two weeks, I&amp;#39;m trying a less hectic pace.</description>
+    </item>
+    
+    <item>
+      <title>Getting Ready To Go Back</title>
+      <link>https://newblog/posts/getting-ready-to-go-back-2018/</link>
+      <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/getting-ready-to-go-back-2018/</guid>
+      <description>It&amp;#39;s August 3rd and I&amp;#39;ve been giving a lot of thought to the start of the semester. Normally I wouldn&amp;#39;t think about the Fall term this early. While I&amp;#39;ve been working on and off since last semester ended, I don&amp;#39;t officially &amp;#34;go back&amp;#34; until August 23rd with classes starting on the 27th. The difference is that for the first time in forever we&amp;#39;re taking a longish trip between now and then.</description>
+    </item>
+    
+    <item>
+      <title>Two Faces of Project Based Learning</title>
+      <link>https://newblog/posts/two-faces-of-pbl/</link>
+      <pubDate>Sat, 28 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/two-faces-of-pbl/</guid>
+      <description>If one looks at my twitter feed they&amp;#39;ll notice that in addition to CS Ed, another issue I&amp;#39;m passionate about is school reform or rather resistance to what is popularly known as and mislabeled as school reform. I&amp;#39;m anti vouchers, charter schools, high stakes testing and more. One of the heroes of this resistance is education historian Diane Ravitch. I&amp;#39;m a big fan of Diane&amp;#39;s and she&amp;#39;s one of the true great champions of public schools, kids, and teachers.</description>
+    </item>
+    
+    <item>
+      <title>Keyboarding and the Digital Divide</title>
+      <link>https://newblog/posts/keyboarding-dig-divite/</link>
+      <pubDate>Mon, 23 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/keyboarding-dig-divite/</guid>
+      <description>My friend Adam posted this link to an article on the new digital divide the other day. It&amp;#39;s talking about young people who do everything on the phone so aren&amp;#39;t familiar or comfortable with a traditional keyboard/mouse computer setup. In the comments there were some of us who lamented about the term &amp;#34;digital natives&amp;#34; and the idea that kids these days know all about computers and technology.
+This led me to think about a couple of things.</description>
+    </item>
+    
+    <item>
+      <title>Time To Create An Ethics Course</title>
+      <link>https://newblog/posts/time-to-create-an-ethics-course/</link>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/time-to-create-an-ethics-course/</guid>
+      <description>I think it&amp;#39;s time for me to start developing a CS Ethics class.
+An ethics course isn&amp;#39;t a replacement for having teachers that live and model good behavior and weave ethical issues throughout the curriculum but still, adding a separate course on top of that has its merits.
+I&amp;#39;m not in a rush to create this course. I might be done in a month or it might take a couple of years.</description>
+    </item>
+    
+    <item>
+      <title>A couple of Brian Kernighan videos</title>
+      <link>https://newblog/posts/brian-kernighan-videos/</link>
+      <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/brian-kernighan-videos/</guid>
+      <description>I noticed a couple of short videos - interviews with Brian Kernighan - on my YouTube home page the other day. This is probably because I recently viewed a Kernighan video in the same series after reading this post on the history of naming grep on JCS&amp;#39;s blog.
+For you youngsters out there, CS people of my generation relied on Brian&amp;#39;s books &amp;#34;The C Programming Language&amp;#34; and &amp;#34;The Unix Programming Environment&amp;#34;to get us started with C and Unix respectively.</description>
+    </item>
+    
+    <item>
+      <title>How early for APCS</title>
+      <link>https://newblog/posts/how-early-apcs/</link>
+      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/how-early-apcs/</guid>
+      <description>In what grade should students take APCS? This question comes up from time to time.
+I&amp;#39;ve heard answers ranging from middle school through never. Infact, years ago, my chairman relayed a conversation he had with Marvin Minsky where he asked Minsky what the high schools should be teaching with respect to CS. The answer was &amp;#34;nothing.&amp;#34; This was then amended to &amp;#34;teach them to type.&amp;#34; Of course this was a long time ago but I believe the sentiment was that college was the right time and the high schools don&amp;#39;t know what they&amp;#39;re doing and will just screw up the kids.</description>
+    </item>
+    
+    <item>
+      <title>CSTA 2018 - Funding and Direction</title>
+      <link>https://newblog/posts/csta-2018-future/</link>
+      <pubDate>Thu, 12 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/csta-2018-future/</guid>
+      <description>In addition to everything I wrote about last time there were a couple of other big announcements at this year&amp;#39;s CSTA conference. Both announcements deal with funding.
+First, there is a new class of CSTA membership. The free tier remains but now for $50 you can join CSTA+. This new level of membership comes with a bunch of extras that are probably good for K12 teachers but I doubt I&amp;#39;ll use any of them.</description>
+    </item>
+    
+    <item>
+      <title>Csta 2018 Report</title>
+      <link>https://newblog/posts/csta-2018-report/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/csta-2018-report/</guid>
+      <description>I just got back from the CSTA (Computer Science Teacher&amp;#39;s Association) conference. It&amp;#39;s the biggest annual conference dedicated to K12 CS education. I think there were about 700 people attending. It felt much larger than last year but compared to SIGCSE which is double the size, CSTA still felt pretty intimate.
+The conference was in Omaha Devorah came along to play tourist and we both came a day early to do some site seeing.</description>
+    </item>
+    
+    <item>
+      <title>I&#39;m not going to congratulate you on your AP results</title>
+      <link>https://newblog/posts/ap-2018/</link>
+      <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/ap-2018/</guid>
+      <description>While busy finishing off my sides for my talk at CSTA2018 this weekend I noticed a Facebook post about APCS exam grades now or shortly being available.
+I&amp;#39;m no longer teaching high school but still fancy myself a teacher first and part of the K12CS community. We&amp;#39;re a growing community and we&amp;#39;re growing fast.
+Usually, at this time of year we see a number of people posting their results. &amp;#34;I had 16 test takers, had 5 fives, 6 fours etc.</description>
+    </item>
+    
+    <item>
+      <title>Certification The Old Way</title>
+      <link>https://newblog/posts/certification-the-old-way/</link>
+      <pubDate>Mon, 02 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/certification-the-old-way/</guid>
+      <description>I&amp;#39;ve taken part in a few conversations and read more than a few threads on teacher certification exams recently. Specifically, CS teacher certification exams. There are a bunch of them floating around. There&amp;#39;s the Praxis offered by ETS, the one from the National Evaluation Series, the Washington Evaluator Test Series one and then there&amp;#39;s what&amp;#39;s going on in Texas. NY State says it will eventually develop their own.
+I have mixed feelings about exams like these.</description>
+    </item>
+    
+    <item>
+      <title>Talking about CS teacher certification at CSTA 2018</title>
+      <link>https://newblog/posts/csta-2018/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/csta-2018/</guid>
+      <description>As I mentioned in my last post, this coming weekend is the Computer Science Teachers Association (CSTA) conference. I&amp;#39;ve been a member of CSTA since the beginning but this will be only the second time I&amp;#39;ve made it to the annual conference.
+The CSTA conference might be the largest conference specifically for k12 computer science teachers and that makes it different from conferences like SIGCSE which is for CS education and education research at all levels or ISTE which seems to be more of an Ed Tech conference.</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs Episode 50 - presentations</title>
+      <link>https://newblog/posts/using-emacs-50-presentations/</link>
+      <pubDate>Sat, 30 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/using-emacs-50-presentations/</guid>
+      <description>Next weekend I&amp;#39;ll be attending the Computer Science Teachers Association&amp;#39;s annual conference. It&amp;#39;s probably the biggest conference focussed on K12 Computer Science education. This year, in addition to attending, I&amp;#39;ll be giving a talk on preservice and inservice CS teacher preparation programs. I&amp;#39;ll be talking about the new New York State certification requirements along with what we&amp;#39;re rolling out at Hunter College.
+This means putting together a slide deck for the session.</description>
+    </item>
+    
+    <item>
+      <title>Hunter CS - a lot of progress in a short time</title>
+      <link>https://newblog/posts/hunter-cs-year-two/</link>
+      <pubDate>Fri, 29 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/hunter-cs-year-two/</guid>
+      <description>Yesterday I was back on campus for an early orientation session for Hunter&amp;#39;s incoming Daedalus CS honors students. It was the first time all of us got to meet face to face. The students I met with will be my third cohort. I got to thinking how far we&amp;#39;ve come in under three years.
+Hunter&amp;#39;s had a strong but little known undergraduate CS program for as long as I&amp;#39;ve known.</description>
+    </item>
+    
+    <item>
+      <title>PD for people who know CS</title>
+      <link>https://newblog/posts/pd-for-cs/</link>
+      <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/pd-for-cs/</guid>
+      <description>I saw a couple of tweets from Sarah Judd this morning:
+A lot of CS Ed PD assumes you are new to CS. I really want CS Ed PD for people like us that came from a CS background and want to understand the pedagogy for CS in particular better. Do you know of some?
+&amp;mdash; Sarah Judd (@SarahEJudd) June 27, 2018 Yes! I love SIGCSE and CSTA. I just feel like.</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs Episode 49 mu4e-conversation</title>
+      <link>https://newblog/posts/using-emacs-49-mu4e-conversation/</link>
+      <pubDate>Thu, 21 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/using-emacs-49-mu4e-conversation/</guid>
+      <description>I&amp;#39;ve been using Emacs for email for a couple of years now. Not for everything, for now my personal email is still Gmail but work is sent and read through Emacs. I&amp;#39;m currently using mu4e and while it has a few quirks and limitations, I like it very much. You can take a look on how I configure and use it here.
+The other day I saw this thread on Emacs about a new package - mu4e-conversation.</description>
+    </item>
+    
+    <item>
+      <title>How I Grokked OOP</title>
+      <link>https://newblog/posts/how-i-grokked-oop/</link>
+      <pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/how-i-grokked-oop/</guid>
+      <description>Time to get back to CS and CS Ed related blogging.
+Last week, in Garth Flint&amp;#39;s post about his summer plans, Garth mentioned wanting to get his head around Object Oriented Programming and possibly taking a course to help him get there. I thought I&amp;#39;d talk a little about how I got my head around OOP here and some of the difficulties I faced then and what people might face now.</description>
+    </item>
+    
+    <item>
+      <title>Giving control of NYC&#39;s specialized schools to a political appointee</title>
+      <link>https://newblog/posts/shsat-part2/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/shsat-part2/</guid>
+      <description>Yesterday I shared my thoughts on Bill de Blasio&amp;#39;s plans to &amp;#34;fix&amp;#34; the selection criteria for New York City&amp;#39;s specialized high schools. If you haven&amp;#39;t read the post, you can find it here.
+I was going to get back to CS and CS Ed related blogging today but there&amp;#39;s more to the story.
+In spite of what BdB stated, it&amp;#39;s not enough for him to switch to another measure - the middle school state exam along with some modifiers.</description>
+    </item>
+    
+    <item>
+      <title>Changing Admissions to the NYC Specialized High Schools</title>
+      <link>https://newblog/posts/shsat/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/shsat/</guid>
+      <description>Yesterday, Bill de Blasio, the current Mayor of New York City outlined how he would &amp;#34;fix&amp;#34; our specialized schools. The schools he was referring to were the &amp;#34;big three&amp;#34; of Stuyvesant, Bronx Science, and Brooklyn Tech and then five additional schools - The High School for Math Science and Engineering at CCNY, The High School for American Studies at Lehman, Brooklyn Latin, The Queens Arts and Science High School at York College, and Staten Island Tech.</description>
+    </item>
+    
+    <item>
+      <title>The Tech or the Teacher</title>
+      <link>https://newblog/posts/tech-or-teacher/</link>
+      <pubDate>Thu, 31 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/tech-or-teacher/</guid>
+      <description>Every morning one of the first things I do is quickly glance at my emails and other notifications. I really should wait until I&amp;#39;m more awake but old habits die hard.
+As some of you know over the past couple of years I&amp;#39;ve been making a series of videos and related post on using my editor of choice, Emacs. I&amp;#39;ve done 48 videos, have over 2500 subscribers on YouTube and people seem to find some value from the series.</description>
+    </item>
+    
+    <item>
+      <title>Teaching recursion early? Make sure to use a good tool.</title>
+      <link>https://newblog/posts/recursion-early/</link>
+      <pubDate>Wed, 30 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/recursion-early/</guid>
+      <description>I replied this tweet yesterday and thought I&amp;#39;d expound a bit.
+We started kids using scheme on 10th grade at stuy so did recursion early. Not everyone got all of it but it think it made things much easier for those that you more CS later.
+&amp;mdash; Mike Zamansky (@zamansky) May 29, 2018 We introduced recursion very early in our intro course at Stuy and I think it worked well.</description>
+    </item>
+    
+    <item>
+      <title>Is Cs for All Worth Doing</title>
+      <link>https://newblog/posts/is-cs4all-worth-doing/</link>
+      <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/is-cs4all-worth-doing/</guid>
+      <description>Last time I mentioned the pushback on CS for All. While many people are all in for CS for All, resistance is coming from many areas. There&amp;#39;s resistance from teachers of other subject areas, people who think it&amp;#39;s merely job training for the tech industry (which it can be if done poorly), people who feel it will be implemented at the expense of other important subjects already on the chopping block like music and art, and others.</description>
+    </item>
+    
+    <item>
+      <title>Should CS for All be implemented at the college level?</title>
+      <link>https://newblog/posts/csforall-in-college/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/csforall-in-college/</guid>
+      <description>There&amp;#39;s been a lively discussion on pushback to CS for All at the K12 level over on Facebook. Mark Guzdial started a sub thread asking if CS for All should first be implemented at the undergrad level rather than K12.
+It&amp;#39;s an interesting question and as good as anything to get me out of my month long non-blogging rut.
+Mark was right when he said that if Colleges implement CS for All, K12 will likely do so to follow - just look at AP.</description>
+    </item>
+    
+    <item>
+      <title>Is there room for CS for All</title>
+      <link>https://newblog/posts/room-for-csforall/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/room-for-csforall/</guid>
+      <description>A fear revolving around CS For All concerns where will the money come from and how will we fit in the new classes.
+One suggested solution is to integrate CS into other subjects. I thought I&amp;#39;d write today about why I don&amp;#39;t think the fear is valid and while integrating CS into other classes can have value, it probably isn&amp;#39;t a long term solution for CS education.
+Let&amp;#39;s start with the integration solution.</description>
+    </item>
+    
+    <item>
+      <title>Unfunded Mandates and CS For All</title>
+      <link>https://newblog/posts/unfunded-mandates/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/unfunded-mandates/</guid>
+      <description>This morning, Mark Guzdial wrote about unfunded mandates and CS for All. Unfunded mandates frequently wreak havoc on schools in a number of ways but in the long run, I don&amp;#39;t think it should have a severe effect on CS for All. Rather, it could have a big impact on the number of CS courses we offer beyond that.
+Mark relay&amp;#39;s a story from the Cambridge Rindge and Latin School where at the time many students wanted more CS classes but the school wasn&amp;#39;t planning on hiring a new CS teacher.</description>
+    </item>
+    
+    <item>
+      <title>Pull Requests and Other People&#39;s Code</title>
+      <link>https://newblog/posts/pull-requests/</link>
+      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/pull-requests/</guid>
+      <description>One of the things I&amp;#39;ve heard for years from former students - both those looking for jobs and those looking to hire is that colleges don&amp;#39;t really do a good job preparing students for careers in tech. Sure they teach the algorithms and the theory but ther are a lot of missing pieces, particularly on the practical end. I&amp;#39;m certainly not advocating turning CS programs into coding schools but there are many low cost opportunities to bring practical real world best practices in to the CS classroom.</description>
+    </item>
+    
+    <item>
+      <title>Do the students finish the tests or does the test finish the students</title>
+      <link>https://newblog/posts/tests-finish-students/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/tests-finish-students/</guid>
+      <description>I tweeted this the other day:
+Why don&amp;#39;t so many teachers and professors understand that the test or assignment you can do in 15 minutes will take your beginning students at least an hour and probably a lot more to complete.
+&amp;mdash; Mike Zamansky (@zamansky) April 18, 2018 What led to the tweet was a discussion I was having with some students about not having enough time on tests which led to a discussion of having to drop everything to spend every waking hour on a project.</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs 48 Silversearcher</title>
+      <link>https://newblog/posts/using-emacs-48-silversearcher/</link>
+      <pubDate>Sun, 22 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/using-emacs-48-silversearcher/</guid>
+      <description>A couple of days ago I wrote about on my lab grading workflow. In the post I mentioned that I used Emacs to easily navigate between student folders and files so I can actually look at their work in addition to their programs output and test results.
+The key is a combination of dired and ag, Emacs&amp;#39;s interface to the Silver Searcher which is something like a recursive code grep on steroids.</description>
+    </item>
+    
+    <item>
+      <title>No Magic Bullets - Discovery Learning</title>
+      <link>https://newblog/posts/no-magic-bullets-constructivism/</link>
+      <pubDate>Sat, 21 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/no-magic-bullets-constructivism/</guid>
+      <description>The most recent NYC CSTA chapter meeting was &amp;#34;How do I assess CS?&amp;#34; I wanted to go but it&amp;#39;s been such a crazy month I was just too wiped out. Fortunately, the meetup was recorded. I was able to watch the first half this morning while working out on my stationary trainer which leads me to today&amp;#39;s rare Saturday morning blog post. The meetup consisted of two panels. The first was made up of K12 teachers who taught CS.</description>
+    </item>
+    
+    <item>
+      <title>Unit Tests Grading Workflow</title>
+      <link>https://newblog/posts/unit-tests-grading-workflow/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/unit-tests-grading-workflow/</guid>
+      <description>I&amp;#39;ve talked before about unit testing (here, and here). My premise is that in addition to being an important industry technique, it&amp;#39;s a sound practice for students studying CS. I also contend that it can make grading easier on the teacher. Maybe not as easy as an auto-grader but those have their own problems.
+Since I spent most of today grading I thought I&amp;#39;d share my current workflow and how unit tests have made me more efficient.</description>
+    </item>
+    
+  </channel>
+</rss>

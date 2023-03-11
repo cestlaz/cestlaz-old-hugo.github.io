@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CS on C&#39;est la Z</title>
+    <link>https://newblog/tags/cs/</link>
+    <description>Recent content in CS on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Mar 2021 12:10:53 -0400</lastBuildDate><atom:link href="https://newblog/tags/cs/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Quick Sort over Zoom</title>
+      <link>https://newblog/post/qsort-over-zoom/</link>
+      <pubDate>Thu, 18 Mar 2021 12:10:53 -0400</pubDate>
+      
+      <guid>https://newblog/post/qsort-over-zoom/</guid>
+      <description>I haven&amp;#39;t been blogging much this year. Not sure why - probably pandemic fatigue. It&amp;#39;s also affected my blog reading - more scanning, less deep reading. I&amp;#39;ve also been trying to spend mode time off screen learning how to paint (with,let&amp;#39;s say mixed results :-) ) leaving less time and energy to blog. Hopefully I&amp;#39;ll pick up on both ends as more people get vaccinated and we can get to a more normal life.</description>
+    </item>
+    
+    <item>
+      <title>On Teaching Recursion</title>
+      <link>https://newblog/post/recursion/</link>
+      <pubDate>Sun, 03 Jan 2021 13:49:00 -0400</pubDate>
+      
+      <guid>https://newblog/post/recursion/</guid>
+      <description>Yesterday I read three posts on teaching recursion. First by Shriram Krishnamurthi discussing his thoughts on how recursion is taught incorrectly. This prompted Adam Michlin to write about teaching recursion later with some commentary on APCS and then finally, Alfred Thompson added his thoughts. Much like everything else in education there is no single right way to do things. To say as an absolute that you should or shouldn&amp;#39;t teach in a certain way is wrong - too many variable.</description>
+    </item>
+    
+    <item>
+      <title>Arbitrary Trees</title>
+      <link>https://newblog/post/arbitrary-trees/</link>
+      <pubDate>Mon, 27 Apr 2020 18:45:50 -0400</pubDate>
+      
+      <guid>https://newblog/post/arbitrary-trees/</guid>
+      <description>It&amp;#39;s been 10 days from my last post. Not really a big break for me historically but certainly a big one given how much I&amp;#39;ve been posting this year. Been under the weather for the past couple of weeks dealing with COVID-19. Haven&amp;#39;t had super bad symptoms and as symptoms have been getting fewer and less severe I&amp;#39;m hoping I&amp;#39;m close to a full recovery.
+In any event, I&amp;#39;m feeling good enough for a quick post.</description>
+    </item>
+    
+    <item>
+      <title>Interesting Problems</title>
+      <link>https://newblog/post/interesting-problems/</link>
+      <pubDate>Sat, 07 Mar 2020 08:12:55 -0400</pubDate>
+      
+      <guid>https://newblog/post/interesting-problems/</guid>
+      <description>I organize a monthly professional development session for CS teachers. It&amp;#39;s targeted at teachers who are beyond the beginner stage and don&amp;#39;t want yet another hello world blinky arduino scratch workshop. Don&amp;#39;t get me wrong, given the need for CS teachers we need plenty of beginner workshops but we also need to take teachers to the next level. I refer to my workshops as being for teachers of APCS-A, similar, or beyond.</description>
+    </item>
+    
+    <item>
+      <title>My code works -- and I have no idea why!!!</title>
+      <link>https://newblog/post/my-code-works/</link>
+      <pubDate>Sun, 09 Feb 2020 16:22:18 -0400</pubDate>
+      
+      <guid>https://newblog/post/my-code-works/</guid>
+      <description>One of my pet annoyances is how code ecosystems have gotten more and more complex. Sometimes I think tool designers put together build systems to show how clever they are rather than to solve dependency problems as cleanly and simply as possible.
+Over the break I wrote GitHub Org Explorer - a tool to help deal with GitHub classroom repositories. It worked but was using &amp;#34;basic&amp;#34; authentication where it sent a username and password with every request.</description>
+    </item>
+    
+    <item>
+      <title>AI For All</title>
+      <link>https://newblog/post/pd-ai-for-all/</link>
+      <pubDate>Fri, 31 Jan 2020 07:00:01 -0400</pubDate>
+      
+      <guid>https://newblog/post/pd-ai-for-all/</guid>
+      <description>Yesterday we had another Professional Development Workshop for High School CS Teachers and as usual, I wnat to express my thanks to Digital Ocean for continuing to provide space, food, and great overall support.
+This time though, instead of JonAlf and I having to run the show we had a guest speaker. We were joined by Sarah Judd of AI4ALL. Sarah gave an overview of what AI4ALL was up to and why but the core of her presentation was taking us through some of the exercises they have been developing at AI4All.</description>
+    </item>
+    
+    <item>
+      <title>Keeping Current Between Semesters</title>
+      <link>https://newblog/post/keeping-current-between-semesters/</link>
+      <pubDate>Fri, 27 Dec 2019 11:56:23 -0400</pubDate>
+      
+      <guid>https://newblog/post/keeping-current-between-semesters/</guid>
+      <description>People say that one of the impossible problems for CS teachers is keeping current - they say the field is constantly changing, how can a teacher keep up with all the new things going on.
+Well, on the one hand it isn&amp;#39;t true - most of the core of CS is the same. We still teach roughly the same programming constructs, data structures and algorithms. On the other hand, it is true.</description>
+    </item>
+    
+    <item>
+      <title>Multi Stage Assignments - the good and the bad - Advent of Code</title>
+      <link>https://newblog/post/multi-stage-assignments/</link>
+      <pubDate>Thu, 12 Dec 2019 17:19:27 -0400</pubDate>
+      
+      <guid>https://newblog/post/multi-stage-assignments/</guid>
+      <description>In the real world you&amp;#39;re usually not building your own projects from scratch. Much more frequently you&amp;#39;re working on a team and you and other players come and go over time. This is in stark contrast to most CS educational experiences where students typically complete relatively small assignments from beginning to end. One of my biggest fears way back when as I was about to graduate college was when I woke up one night in a cold sweath &amp;#34;oh crap - in a couple of weeks I&amp;#39;m going to have to actually produce good code.</description>
+    </item>
+    
+    <item>
+      <title>Advent 2019 Day 8 - addendum - generating inputs</title>
+      <link>https://newblog/post/advent-2019-day8-part2/</link>
+      <pubDate>Sun, 08 Dec 2019 17:04:30 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2019-day8-part2/</guid>
+      <description>As I said in my last post, day 8 would be a nice project or lesson in an APCS-A or college CS1 class. Another nice problem would be to write a program to generate an image in the format required by the question. Alternatively, a teacher doing day 8 with their classes might want to generate a bunch of images for the students to test their decoders on. I thought I&amp;#39;d write one to see how appropriate it would be for the students.</description>
+    </item>
+    
+    <item>
+      <title>Advent 2019 Day - 8</title>
+      <link>https://newblog/post/advent-2019-day8/</link>
+      <pubDate>Sun, 08 Dec 2019 08:42:32 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2019-day8/</guid>
+      <description>I spent most of last week up in Albany working on the NY State K12 CS Standards so fell a bit behind. I had to go back to complete day 5 but still haven&amp;#39;t finished day 7 which builds on day 5 which in turn builds on day 2. I might not get to finishing 7 for a while but it looks like a good chance to play with core.</description>
+    </item>
+    
+    <item>
+      <title>Advent 2019 Day 4</title>
+      <link>https://newblog/post/advent-2019-day4/</link>
+      <pubDate>Wed, 04 Dec 2019 19:32:34 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2019-day4/</guid>
+      <description>Day 4. Most of the day was spent working on the NY State CS standards to I didn&amp;#39;t figure to have much time to work on the problem. Fortunately, I was able to knock out part 1 before work started and part 2 was a quick adjustment when I got back to it at the start of lunch.
+Once again, it was a problem with a few interesting teacher side aspects.</description>
+    </item>
+    
+    <item>
+      <title>Advent 2019 Day 3</title>
+      <link>https://newblog/post/advent-2019-day3/</link>
+      <pubDate>Tue, 03 Dec 2019 19:01:13 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2019-day3/</guid>
+      <description>Today&amp;#39;s problem dealt with intersecting paths. You start with two inputs, figure out the paths they represent and where they intersect and then find the intersection that correctly answers the question.
+For part 1 you have to find the intersection closest to the origin. From a teacher&amp;#39;s point of view, the interesting part here is data representation. This problem deals with a two dimensional grid on which the paths live.</description>
+    </item>
+    
+    <item>
+      <title>Advent 2019 Day 2</title>
+      <link>https://newblog/post/advent-2019-day2/</link>
+      <pubDate>Mon, 02 Dec 2019 17:11:43 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2019-day2/</guid>
+      <description>Day 2 of Advent of Code 2019 was also pretty straightforward and once again I wrote my solution in Clojure but in order to talk about this from a teacher&amp;#39;s point of view, we&amp;#39;ll look at a Python solution. At its core, this is a simulation problem - read the data into an array or list and write a program to run through the steps. At first I was hoping that the solution would consume the data - that is, once you read past an instruction you don&amp;#39;t go back to it.</description>
+    </item>
+    
+    <item>
+      <title>Advent of Code 2019 Day 1</title>
+      <link>https://newblog/post/advent-2019-day1/</link>
+      <pubDate>Sun, 01 Dec 2019 14:23:35 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2019-day1/</guid>
+      <description>Like most programming challenges, Advent of Code ramps out from easier, more accessible problems to harder, more complex ones. As such, a number of the early challenges are great problems for early CS students. I thought that while I watched my NY Giants play valiantly in their attempt to get a high draft pick I&amp;#39;d talk about today&amp;#39;s challenge from a teacher&amp;#39;s point of view.
+The summary of part one is that you have a list of inputs (masses of components) and for each one you have to perform a calculation (how much fuel is needed).</description>
+    </item>
+    
+    <item>
+      <title>Advent Of Code 2019</title>
+      <link>https://newblog/post/advent-of-code-2019/</link>
+      <pubDate>Fri, 29 Nov 2019 09:02:09 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-of-code-2019/</guid>
+      <description>It&amp;#39;s almost December which means it&amp;#39;s almost time for Advent of Code 2019. Advent of code is an annual computer programming competition created and ruyn by Eric Wastl. It&amp;#39;s been running since 2015. I&amp;#39;ve written about it before, mostly from a teacher&amp;#39;s point of view (Solve A to Solve B, Data structures and Hidden Complexity, Tools can shape how we think and a few others). Basically, Eric releases one poblem a day at midnight from Dec 1 through Dec 25.</description>
+    </item>
+    
+    <item>
+      <title>Working with texts part 3 - word chains</title>
+      <link>https://newblog/post/word-chains/</link>
+      <pubDate>Mon, 25 Nov 2019 05:45:55 -0400</pubDate>
+      
+      <guid>https://newblog/post/word-chains/</guid>
+      <description>At this point, we&amp;#39;ve done a fair amount of playing with text so it&amp;#39;s time for a fun little project. We&amp;#39;re going to generate some text &amp;#34;in the style&amp;#34; of a source text. The technique we&amp;#39;re going to use is usually called a Markov Chain text generator. Basically a model where the next state or word is based entirely on the current state. I don&amp;#39;t dwell on the math under the hood but in case you&amp;#39;re interested, here are a few links: Wikipedia, Explained Visually, UC Davis Math.</description>
+    </item>
+    
+    <item>
+      <title>Lesson and project inspiration from old BSD games</title>
+      <link>https://newblog/post/bsdgames/</link>
+      <pubDate>Fri, 22 Nov 2019 13:55:09 -0400</pubDate>
+      
+      <guid>https://newblog/post/bsdgames/</guid>
+      <description>When I was writing the I Speak Jive post, the first thing I had to do was find those old programs. It turned out to be harder than I thought. I found online versions but it took a while to find this GitHub repo.
+On the way, I seemed to recall that these might be bundled with a bunch of old BSD games so I took a look at the BSD games package for Linux.</description>
+    </item>
+    
+    <item>
+      <title>Working with texts part 2 - bag of words</title>
+      <link>https://newblog/post/bag-of-words/</link>
+      <pubDate>Wed, 20 Nov 2019 08:15:41 -0400</pubDate>
+      
+      <guid>https://newblog/post/bag-of-words/</guid>
+      <description>Following up on a previous post, we&amp;#39;re going to continue to talk about playing with text. This time, building and working with a bag of words from a text. A bag of words is a simple language processing model where you just consider individual words in a text. What they are and how many times they occur. This is a pretty simple model but you can still have a good bit of fun with your students with it.</description>
+    </item>
+    
+    <item>
+      <title>School Visit Update 2019</title>
+      <link>https://newblog/post/school-visit-update-2019/</link>
+      <pubDate>Wed, 06 Nov 2019 12:25:17 -0400</pubDate>
+      
+      <guid>https://newblog/post/school-visit-update-2019/</guid>
+      <description>I&amp;#39;ve been spending a lot of time at area high schools this fall. Today I was at FDR High School in Broooklyn.
+&amp;lt;figure&amp;gt;&amp;lt;img src=&amp;#34;&amp;#34; width=&amp;#34;500px&amp;#34;/&amp;gt; &amp;lt;/figure&amp;gt;
+I only learned about FDR HS a little over a year ago when I met their CS teacher Josh Hans at a NYC PD event. I visit last fall and then again today.
+Whenever I visit a school it&amp;#39;s a different experience. Sometimes I speak to the CS classes, sometimes at an event like a CS Week hackathon, once I even got to address an entire senior class in an auditorium.</description>
+    </item>
+    
+    <item>
+      <title>Give me a break (and a continue)</title>
+      <link>https://newblog/post/break-continue/</link>
+      <pubDate>Wed, 01 May 2019 08:39:41 -0400</pubDate>
+      
+      <guid>https://newblog/post/break-continue/</guid>
+      <description>What can I do to discourage my students from using the &amp;#34;break&amp;#34; statement?
+That was more or less the gist of the comment and it elicited some good responses. This time the conversation was on Facebook but I&amp;#39;ve seen this one and participated in it many times before. I never liked the question when presented as a &amp;#34;how can I stop them&amp;#34; one. I equally dislike when the offered advice is basically &amp;#34;never use break no matter what&amp;#34; or something similar.</description>
+    </item>
+    
+    <item>
+      <title>On Technical Interviews And Diversity</title>
+      <link>https://newblog/post/technical-interviews-and-diversity/</link>
+      <pubDate>Sun, 28 Apr 2019 11:27:46 -0400</pubDate>
+      
+      <guid>https://newblog/post/technical-interviews-and-diversity/</guid>
+      <description>I recently stumbled upon Laurie Barth on Twitter and noticed a couple of tweets about tech interviews and the hiring process, something I&amp;#39;ve been thinking about recently.
+Solid rant. I think the teach to the programming test market already exists. And it’s why interviewers who subscribe to these tactics get upset if a candidate admits they’ve seen the problem previously. Because it ruins the illusion that this is revealing how candidates think.</description>
+    </item>
+    
+    <item>
+      <title>Seam Carving and Dynamic Programming</title>
+      <link>https://newblog/post/seam-carving/</link>
+      <pubDate>Mon, 22 Apr 2019 13:51:52 -0400</pubDate>
+      
+      <guid>https://newblog/post/seam-carving/</guid>
+      <description>It&amp;#39;s spring break and for me that&amp;#39;s always been a good time to explore some new ideas.
+Here&amp;#39;s one that some of you might like, particularly if you&amp;#39;re teaching APCS-A or something similar. Many APCS-A teachers do a unit on image processing using the picture lab (alternate resource). Image processing is a nice platform to explore two dimensional arrays. You basically use a 2D array of pixels (points) to represent an image.</description>
+    </item>
+    
+    <item>
+      <title>Adapting A Nifty Assignment</title>
+      <link>https://newblog/post/adapting-a-nifty-assignment/</link>
+      <pubDate>Sat, 16 Mar 2019 08:20:47 -0400</pubDate>
+      
+      <guid>https://newblog/post/adapting-a-nifty-assignment/</guid>
+      <description>&amp;lt;figure class=&amp;#34;z_image_center&amp;#34;&amp;gt;&amp;lt;img src=&amp;#34;&amp;#34;/&amp;gt; &amp;lt;/figure&amp;gt;
+The Nifty Assignments session at SGICSE is always a popular one.
+Go to the site and you&amp;#39;ll find links to all the assignments presented from 1999 to the present year.
+On the one hand, it&amp;#39;s a great resource. On the other, the assignments vary in nifty-ness depending on one&amp;#39;s personal taste. To me, there seemed to be a run of nifty assignments that were really just &amp;#34;take a generic assignment and fancy up the graphics&amp;#34; mixed in with one&amp;#39;s that I found really cool.</description>
+    </item>
+    
+    <item>
+      <title>SIGCSE 2019 - the keynotes</title>
+      <link>https://newblog/post/sigcse-2019-keynotes/</link>
+      <pubDate>Mon, 04 Mar 2019 15:25:59 -0400</pubDate>
+      
+      <guid>https://newblog/post/sigcse-2019-keynotes/</guid>
+      <description>It&amp;#39;s that time of the year to write a series of blog posts about SIGCSE. I thought I&amp;#39;d start with one on the keynotes. There were four keynote speakers. Marie desJardins, Gloria Townsend, Mark Guzdial, and Blair Taylor. I wasn&amp;#39;t at the first timer&amp;#39;s lunch where Townsend spoke so I won&amp;#39;t talk at all about that keynote.
+I&amp;#39;m also not going to summarize the talks. Andy Ko wrote up a terrific summary of his SIGCSE experience and did a much better job giving overviews to the keynotes than I ever could so I&amp;#39;ll just refer you to Andy&amp;#39;s blog post.</description>
+    </item>
+    
+    <item>
+      <title>March PD for CS Teachers</title>
+      <link>https://newblog/post/pd-apcs-a-and-beyond-3-14-2019/</link>
+      <pubDate>Tue, 26 Feb 2019 15:49:22 -0400</pubDate>
+      
+      <guid>https://newblog/post/pd-apcs-a-and-beyond-3-14-2019/</guid>
+      <description>Back in December we ran our first PD session for CS teachers. This was to address the need for professional development for teachers who were more experienced in terms of computer science - we aimed this at people who were ready to teach APCS-A, similar, or beyond and also to start to build a community for these teachers. We had trouble setting things up for February but we&amp;#39;re good to go for March, April and May.</description>
+    </item>
+    
+    <item>
+      <title>Java Interfaces</title>
+      <link>https://newblog/post/java-interfaces/</link>
+      <pubDate>Fri, 08 Feb 2019 09:40:44 -0400</pubDate>
+      
+      <guid>https://newblog/post/java-interfaces/</guid>
+      <description>Two of the hardest topics to make meaningful to students in APCS-A are inheritance and interfaces. It&amp;#39;s not that they&amp;#39;re super difficult topics but rather that they&amp;#39;re not often needed, useful, or superior to not using them on beginner assignments. More often than not the motivation is a bit forced as are the assignments. Inheritance is its own can of worms and to be honest, something I&amp;#39;ve not found to be all that useful or necessary.</description>
+    </item>
+    
+    <item>
+      <title>Solve A To Solve B</title>
+      <link>https://newblog/post/solve-a-to-solve-b/</link>
+      <pubDate>Fri, 18 Jan 2019 19:36:59 -0400</pubDate>
+      
+      <guid>https://newblog/post/solve-a-to-solve-b/</guid>
+      <description>So many programming assignments involve a direct solution. Write a program to do this or write a problem to solve that. It&amp;#39;s pretty typical. There&amp;#39;s nothing wrong with assignments like these. They allow students to practice what they&amp;#39;ve been learning and it gives them the opportunity to create some cool programs. All the same, I like it when there&amp;#39;s an indirect problem. You&amp;#39;re faced with a problem but in order to solve it you first have to solve some other problem</description>
+    </item>
+    
+    <item>
+      <title>Advent of Code, Data Structures, and Hidden Complexity</title>
+      <link>https://newblog/post/aoc-data-structures-hidden-complexity/</link>
+      <pubDate>Sun, 30 Dec 2018 15:17:14 -0400</pubDate>
+      
+      <guid>https://newblog/post/aoc-data-structures-hidden-complexity/</guid>
+      <description>Since 2015, Eric Wastl has gifted us each December with Advent of Code - a 25 day programming competition that I very much enjoy. This year I haven&amp;#39;t been able to get to too many of the problems. I only completed the first two days on the day they were released, problem three a day late and then I didn&amp;#39;t get back to the problems until almost 12/25 - the final day of the competition.</description>
+    </item>
+    
+    <item>
+      <title>Professional Development - APCS-A, similar and beyond</title>
+      <link>https://newblog/post/pd-apcs-a-and-beyond/</link>
+      <pubDate>Sat, 15 Dec 2018 08:56:06 -0400</pubDate>
+      
+      <guid>https://newblog/post/pd-apcs-a-and-beyond/</guid>
+      <description>A while ago I wrote about our plans at Hunter to run professional development for CS teachers. Specifically, running once a month sessions for teachers who teach APCS-A, similar and beyond.
+The idea started as a joke but morphed into a legit idea.
+I was talking to some friends about CTLE hours and how ridiculous the system is. NY State teachers need 100 hours of CTLE credit (PD hours) every so many years.</description>
+    </item>
+    
+    <item>
+      <title>PD in NYC</title>
+      <link>https://newblog/post/pd-in-nyc/</link>
+      <pubDate>Sun, 18 Nov 2018 19:43:36 -0400</pubDate>
+      
+      <guid>https://newblog/post/pd-in-nyc/</guid>
+      <description>I spent this past Saturday morning up at the Microsoft building in Times Square. What was I doing there? Aankit Patel invited me to check out the professional development that he and his team organized for the teachers involved in the assorted CSforAllNYC programs that his office runs. Wow.
+Lots of great things going on. I was only able to stay for a couple of hours but I spent some time in two rooms run by TEALS, a room of BJC teachers, a group working with p5.</description>
+    </item>
+    
+    <item>
+      <title>Who Played Spiderman - part 3</title>
+      <link>https://newblog/post/who-played-spiderman-3/</link>
+      <pubDate>Tue, 16 Oct 2018 17:25:33 -0400</pubDate>
+      
+      <guid>https://newblog/post/who-played-spiderman-3/</guid>
+      <description>Parts 1 and 2 Part 1 Part 2 Part 3 In the first two parts of this set of posts I wrote about the motivation and design a question answering system that can answer &amp;#34;who&amp;#34; queries like &amp;#34;who played Spiderman&amp;#34; or &amp;#34;who shot John Lennon?&amp;#34; It&amp;#39;s not perfect. When doing the Spiderman query, chances are the desired answer will be at or near the top of the list of most frequently appearing names but so will &amp;#34;Peter Parker.</description>
+    </item>
+    
+    <item>
+      <title>Who Played Spiderman part 2</title>
+      <link>https://newblog/post/who-played-spiderman-2/</link>
+      <pubDate>Sat, 13 Oct 2018 16:04:59 -0400</pubDate>
+      
+      <guid>https://newblog/post/who-played-spiderman-2/</guid>
+      <description>Parts 1 and 3 Part 1 Part 3 Part 2 When we left off last time we used a search engine API to gather a whole bunch of documents with the term &amp;#34;played Spiderman&amp;#34; or &amp;#34;who played Spiderman.&amp;#34; Now we have to process these documents to answer the question. Fortunately, the documents are basically just big strings of text.
+Since we&amp;#39;re doing a &amp;#34;who&amp;#34; query we want to find all the names in all the documents.</description>
+    </item>
+    
+    <item>
+      <title>Who Played Spiderman part 1 or my Nifty Assignment (that was rejected)</title>
+      <link>https://newblog/post/who-played-spiderman/</link>
+      <pubDate>Thu, 11 Oct 2018 17:16:23 -0400</pubDate>
+      
+      <guid>https://newblog/post/who-played-spiderman/</guid>
+      <description>Parts 2 and 3 [[/post/who-played-spiderman-2/][Part 2] Part 3 I wasn&amp;#39;t going to teach this lesson today. I was planning on starting a multi day project starting with an exercise in specification writing and design.
+Beforehand though, we had to talk about classes. One of my students asked if probability and/or statistics were really important for CS. I started to cite a few examples and then decided to segue into this.</description>
+    </item>
+    
+    <item>
+      <title>Compile Each Concept</title>
+      <link>https://newblog/post/compile-each-concept/</link>
+      <pubDate>Tue, 09 Oct 2018 14:46:59 -0400</pubDate>
+      
+      <guid>https://newblog/post/compile-each-concept/</guid>
+      <description>We&amp;#39;ve all been there:
+Student: Teacher, I need help Teacher (comes over) Student (shows screen listing three bazillion errors)
+The student has just written pages of code and finally decided to try to run it only to end up with pages of errors.
+Error messages can at times be hard to read for beginners but to see and truth be told, they frequently don&amp;#39;t even read them but over the years I&amp;#39;ve developed a practice that I&amp;#39;ve found helpful as a software developer and if students adopt the same practice it can save them a lot of time and effort.</description>
+    </item>
+    
+    <item>
+      <title>Creating a school for CS</title>
+      <link>https://newblog/posts/creating-a-school/</link>
+      <pubDate>Tue, 11 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/creating-a-school/</guid>
+      <description>Do we really need CS focused high schools?
+That&amp;#39;s the question Alfred Thompson asked partly in reaction to my post talking about Bill Gates&amp;#39; visit to AFSE, a NYC public school with a CS focus.
+On both posts, Michael Preston shared some important and good points about AFSE as a starting point and gateway that helped lead to CS4All in NYC and also specifically about AFSE.
+In response to Alfred&amp;#39;s question I thought it was time I shared a bit about what I was pushing for AFSE back when I was involved.</description>
+    </item>
+    
+    <item>
+      <title>Do you need to know binary for CS?</title>
+      <link>https://newblog/posts/why-binary/</link>
+      <pubDate>Wed, 05 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/why-binary/</guid>
+      <description>Yesterday, Alfred Thompson asked &amp;#34;Why is it important for CS students to understand binary?&amp;#34; on Twitter which led to a number of interesting responses. Alfred summarized and wrote his own thoughts on his blog.
+I wanted to add a comment but I already wrote a post for yesterday so put it off until today.
+First let me say that you can have a very successful career in tech and not really know binary or number bases other than 10.</description>
+    </item>
+    
+    <item>
+      <title>Rite Of Passage Projects</title>
+      <link>https://newblog/posts/rite-of-passage-projects/</link>
+      <pubDate>Fri, 17 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/rite-of-passage-projects/</guid>
+      <description>JCS&amp;#39;s post on Irreal today brought me back. It was about Brief which was the editing hotness back in the day. I played with it a little really mostly used Emacs clones for real work when I was stuck on MS-DOS systems. Usually either JOVE or Epsilon
+In the comments Jon reminded me about the MKS Toolkit which brought most everyday Unix tools to DOS along with a shell and a version of Vi.</description>
+    </item>
+    
+    <item>
+      <title>Hunter CS - a lot of progress in a short time</title>
+      <link>https://newblog/posts/hunter-cs-year-two/</link>
+      <pubDate>Fri, 29 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/hunter-cs-year-two/</guid>
+      <description>Yesterday I was back on campus for an early orientation session for Hunter&amp;#39;s incoming Daedalus CS honors students. It was the first time all of us got to meet face to face. The students I met with will be my third cohort. I got to thinking how far we&amp;#39;ve come in under three years.
+Hunter&amp;#39;s had a strong but little known undergraduate CS program for as long as I&amp;#39;ve known.</description>
+    </item>
+    
+    <item>
+      <title>Teaching recursion early? Make sure to use a good tool.</title>
+      <link>https://newblog/posts/recursion-early/</link>
+      <pubDate>Wed, 30 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/recursion-early/</guid>
+      <description>I replied this tweet yesterday and thought I&amp;#39;d expound a bit.
+We started kids using scheme on 10th grade at stuy so did recursion early. Not everyone got all of it but it think it made things much easier for those that you more CS later.
+&amp;mdash; Mike Zamansky (@zamansky) May 29, 2018 We introduced recursion very early in our intro course at Stuy and I think it worked well.</description>
+    </item>
+    
+    <item>
+      <title>Why Strong K12 Teacher Certification is Important</title>
+      <link>https://newblog/posts/strong-teacher-certification/</link>
+      <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/strong-teacher-certification/</guid>
+      <description>About a week ago New York State&amp;#39;s new regulation creating a K12 CS teacher certification went live. Just the other day I was honored to be interviewed by Matt Flamm of Crain&amp;#39;s New York in a follow up piece about it.
+Having K12 CS teacher certification is big and having quality programs that lead to certification is HUGE. In my view, it&amp;#39;s a game changer.
+Let&amp;#39;s Focus on high school, my wheelhouse.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>education on C&#39;est la Z</title>
+    <link>https://newblog/tags/education/</link>
+    <description>Recent content in education on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Jan 2022 08:53:28 -0400</lastBuildDate><atom:link href="https://newblog/tags/education/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>How Will Online Influence Teaching</title>
+      <link>https://newblog/post/how-will-online-influence-teaching/</link>
+      <pubDate>Mon, 03 Jan 2022 08:53:28 -0400</pubDate>
+      
+      <guid>https://newblog/post/how-will-online-influence-teaching/</guid>
+      <description>I always enjoy Fred Wilson&amp;#39;s predictions for the new year over on his blog and this year was no exception.
+I was inspired to think a bit on his education prediction:
+K12 systems around the US (and around the world) faced with teacher shortages and desperate to erase several years of learning shortfalls, will increasingly adopt online learning services in the school building in lieu of and in addition to in-class learning.</description>
+    </item>
+    
+    <item>
+      <title>Turning a good class into a bad lecture</title>
+      <link>https://newblog/post/inperson-update/</link>
+      <pubDate>Tue, 28 Sep 2021 08:11:34 -0400</pubDate>
+      
+      <guid>https://newblog/post/inperson-update/</guid>
+      <description>I&amp;#39;ve been teaching in person for about a month now so I thought I&amp;#39;d give a quick update on how it&amp;#39;s going. I&amp;#39;ve written before about my feelings on how Hunter started the semester (TL;DR - I was very displeased) but that&amp;#39;s not the point of this post. As of today, I believe every student has been required to be stabbed at least once and on October 11, all students must be fully vaccinated to be on campus.</description>
+    </item>
+    
+    <item>
+      <title>How The Hash Is Made</title>
+      <link>https://newblog/post/how-the-hash-is-made/</link>
+      <pubDate>Thu, 16 Sep 2021 17:08:19 -0400</pubDate>
+      
+      <guid>https://newblog/post/how-the-hash-is-made/</guid>
+      <description>Following up on my last post.
+Soon after I read that tweet, I read Julia&amp;#39;s post on hash tables. This got me thinking more about what is and isn&amp;#39;t taught in school. Hash tables were always taught in CS programs but back in the day you might not have used them much after your data structures or algorithms classes. Nowadays you&amp;#39;re much more likely to use them as they&amp;#39;re built in to so many platforms.</description>
+    </item>
+    
+    <item>
+      <title>What They Used To Know</title>
+      <link>https://newblog/post/what-they-used-to-know/</link>
+      <pubDate>Thu, 16 Sep 2021 10:42:05 -0400</pubDate>
+      
+      <guid>https://newblog/post/what-they-used-to-know/</guid>
+      <description>I saw this tweet by Julia Evans the other day.
+if you&amp;#39;ve been working in computing for &amp;gt; 15 years -- are there fundamentals that you learned &amp;quot;on the job&amp;quot; 15 years ago that you think most people aren&amp;#39;t learning on the job today?
+(I&amp;#39;m thinking about how for example nobody has ever paid me to write C code)
+&amp;mdash; 🔎Julia Evans🔍 (@b0rk) September 9, 2021 I&amp;#39;ve never met Julia but have been following her on Twitter and reading her blog for some time now.</description>
+    </item>
+    
+    <item>
+      <title>Hunter College CS Teacher Certification - Final Project Fun Time</title>
+      <link>https://newblog/post/teacher-cert-presentations/</link>
+      <pubDate>Tue, 28 Jul 2020 10:09:25 -0400</pubDate>
+      
+      <guid>https://newblog/post/teacher-cert-presentations/</guid>
+      <description>Well, we just delivered the last formal piece of instruction for the summer intensive. Writing this post between visits to breakout rooms as the cohort works on their final projects.
+Tomorrow and Thursday will be presentation time. Each group will give spend thirty minutes teaching us all about some topic in CS along with the plan for how we could teach the topic to our kids. We&amp;#39;ve got a few more things to talk about as a group but it&amp;#39;s mostly time to sit back and enjoy the show.</description>
+    </item>
+    
+    <item>
+      <title>Hunter&#39;s CS Teacher Certification program Week 2</title>
+      <link>https://newblog/post/teacher-cert-week-2/</link>
+      <pubDate>Sun, 12 Jul 2020 10:31:53 -0400</pubDate>
+      
+      <guid>https://newblog/post/teacher-cert-week-2/</guid>
+      <description>Time for some thoughts after week 2.
+Since this is the inaugural edition of our program and there was no way to really know what the cohort would be like we&amp;#39;ve been adjusting on the fly. This was expected but we&amp;#39;re finally starting to settle in. We&amp;#39;re still finding more zoom heavy days but as we move towards the end of our data structures segment there should be fewer of those.</description>
+    </item>
+    
+    <item>
+      <title>Hunter&#39;s CS Teacher Certification program  Week 1</title>
+      <link>https://newblog/post/teacher-cert-week-1/</link>
+      <pubDate>Thu, 02 Jul 2020 13:48:21 -0400</pubDate>
+      
+      <guid>https://newblog/post/teacher-cert-week-1/</guid>
+      <description>Time for an update on our NY State Teacher Certification Program. We kicked off on Monday. Twenty two students working with three instructors from 9:00 - 3:00 every day. We&amp;#39;ve been using a combination of synchronous with Zoom and async using Slack and GitHub discussions. We&amp;#39;re using GitHub as our main platform.
+Day 0 was very Zoom heavy but we&amp;#39;re trying to balance one big Zoom session a day combined with other work so as to minimize fatigue.</description>
+    </item>
+    
+    <item>
+      <title>Education is not a spectator sport</title>
+      <link>https://newblog/post/education-not-spec-sport/</link>
+      <pubDate>Fri, 17 Jan 2020 08:07:26 -0400</pubDate>
+      
+      <guid>https://newblog/post/education-not-spec-sport/</guid>
+      <description>As many of you know, the CS Education programs I designed here at Hunter were finally approved by NY State late last year. We&amp;#39;re planning to get started this summer. I&amp;#39;ve received many questions about the program and will write up the details here sooner or later but one question I frequently get is &amp;#34;will it be offered online?&amp;#34; This is also something I&amp;#39;ve been asked more than once internal to Hunter.</description>
+    </item>
+    
+    <item>
+      <title>Teacher Centric Teaching</title>
+      <link>https://newblog/post/teacher-centric-teaching/</link>
+      <pubDate>Tue, 14 Jan 2020 08:27:09 -0400</pubDate>
+      
+      <guid>https://newblog/post/teacher-centric-teaching/</guid>
+      <description>Every few years the experts give us some new magic bullet, some new teaching fad research based pedagogical technique. Teachers are trained in it, forced to use it - frequently as a one size fits all. If we do, we&amp;#39;re good teachers, if we don&amp;#39;t we get the dreaded ineffective on our annual ratings.
+I was reminded of this when reading Mark Guzdial&amp;#39;s recent blog post on things he got wrong in Computing Education.</description>
+    </item>
+    
+    <item>
+      <title>Proof By Authority</title>
+      <link>https://newblog/post/proof-by-authority/</link>
+      <pubDate>Tue, 25 Jun 2019 07:00:12 -0400</pubDate>
+      
+      <guid>https://newblog/post/proof-by-authority/</guid>
+      <description>No,I&amp;#39;m not talking aboutArgument from Authority - something that very much plagues CS Education and education in general where an annointed few who may, or may not really know what they&amp;#39;re talking about are given creedence because they&amp;#39;ve been there the longest, work for the companies with the biggest names, have the economic backing or otherwise have been given the stage. I&amp;#39;m talking about Proof by Authority which I fondly remember from those silly Proof techniques lists that went around in the day.</description>
+    </item>
+    
+    <item>
+      <title>Predicting Grades</title>
+      <link>https://newblog/post/predicting-grades/</link>
+      <pubDate>Sat, 18 May 2019 12:03:10 -0400</pubDate>
+      
+      <guid>https://newblog/post/predicting-grades/</guid>
+      <description>Just saw this:
+Evaluation metric idea: take snapshots of students&amp;#39; grades each week (specifically, the grade they actually see in your LMS). How well do these correlate with your final assigned grade? Were students getting good estimates?
+&amp;mdash; Austin Cory Bart (@AustinCorgiBart) May 18, 2019 It made me think of a couple of conversations I had with more senior teachers early in my career.
+They&amp;#39;d tell me &amp;#34;by and large, you know what the kids are going to get after a few week.</description>
+    </item>
+    
+    <item>
+      <title>The Hunter Daedalus Fall 2019 recruiting class</title>
+      <link>https://newblog/post/daedalus-class-2019/</link>
+      <pubDate>Wed, 08 May 2019 08:25:12 -0400</pubDate>
+      
+      <guid>https://newblog/post/daedalus-class-2019/</guid>
+      <description>Now that high school seniors have all committed to their respective colleges I though I&amp;#39;d share some information on Hunter&amp;#39;s incoming Daedalus (honors CS) cohort.
+I joke about the first cohort saying that nobody applied to the program. That&amp;#39;s kind of true. I jointed Hunter a little over three years ago in late January. That was after high school seniors had already applied to college and at that time the program didn&amp;#39;t exist.</description>
+    </item>
+    
+    <item>
+      <title>SIGCSE 2019 - the keynotes</title>
+      <link>https://newblog/post/sigcse-2019-keynotes/</link>
+      <pubDate>Mon, 04 Mar 2019 15:25:59 -0400</pubDate>
+      
+      <guid>https://newblog/post/sigcse-2019-keynotes/</guid>
+      <description>It&amp;#39;s that time of the year to write a series of blog posts about SIGCSE. I thought I&amp;#39;d start with one on the keynotes. There were four keynote speakers. Marie desJardins, Gloria Townsend, Mark Guzdial, and Blair Taylor. I wasn&amp;#39;t at the first timer&amp;#39;s lunch where Townsend spoke so I won&amp;#39;t talk at all about that keynote.
+I&amp;#39;m also not going to summarize the talks. Andy Ko wrote up a terrific summary of his SIGCSE experience and did a much better job giving overviews to the keynotes than I ever could so I&amp;#39;ll just refer you to Andy&amp;#39;s blog post.</description>
+    </item>
+    
+    <item>
+      <title>Thoughts On Code And Beyond - Computational Thinking</title>
+      <link>https://newblog/post/thoughts-on-code-and-beyond-ct/</link>
+      <pubDate>Mon, 14 Jan 2019 17:48:27 -0400</pubDate>
+      
+      <guid>https://newblog/post/thoughts-on-code-and-beyond-ct/</guid>
+      <description>The theme of this year&amp;#39;s To Code and Beyond was Computational Thinking. Mark Guzdial gave the keynote. While the talk isn&amp;#39;t currently online, check out this talk that Mark gave last March. It&amp;#39;s not the same but the second halves are and well worth a look.
+In the first half, Mark talked about other types of &amp;#34;thinking.&amp;#34; Scientific thinking, engineering thinking and even historical thinking. All had a good amount of overlap with both each other and with computational thinking even as we haven&amp;#39;t yet settled on what computational thinking actually is.</description>
+    </item>
+    
+    <item>
+      <title>Is There a First Grade Machine Learning Achievement Gap?</title>
+      <link>https://newblog/post/is-there-a-first-grade-ml-achievement-gap/</link>
+      <pubDate>Fri, 11 Jan 2019 15:24:16 -0400</pubDate>
+      
+      <guid>https://newblog/post/is-there-a-first-grade-ml-achievement-gap/</guid>
+      <description>Today was the fifth &amp;#34;To Code and Beyond&amp;#34; - a one day conference hosted at Cornell Technion and once again Diane Levitt put together a great show. The theme was Computational Thinking and the day consisted of a variety of talks, panels, and activities. I plan on writing about one panel in particular but for today I wanted to address something that came up as a question. One attendee asked a panel about the achievement gap - the fact that when the CS movement got started in NY some of the more innovative and interesting work was being done with some of our most vulnerable students.</description>
+    </item>
+    
+    <item>
+      <title>Happy New Year 2019</title>
+      <link>https://newblog/post/new-year-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 09:55:01 -0400</pubDate>
+      
+      <guid>https://newblog/post/new-year-2019/</guid>
+      <description>I&amp;#39;ve never been much of a New Years person. I get up really early and so don&amp;#39;t usually stay up late and more to the point, as any teacher knows, the year really goes from September through June with that really long much needed weekend that you regular folks call July and August tacked on to separate years.
+This whole January first thing is really more of a half time break or perhaps an intermission.</description>
+    </item>
+    
+    <item>
+      <title>Sloan awards for excellence in teaching science and mathematics</title>
+      <link>https://newblog/post/sloan-awards-2018/</link>
+      <pubDate>Wed, 12 Dec 2018 12:52:44 -0400</pubDate>
+      
+      <guid>https://newblog/post/sloan-awards-2018/</guid>
+      <description>I spent yesterday evening at the Cooper Union in their Great Hall, a place famous for Abraham Lincoln&amp;#39;s speech that some say propelled him to the presidency.
+I was there in the audience watching as the Sloan Foundation and the Fund for the City of New York awarded seven public school teachers with an ward for &amp;#34;Excellence in the Teaching of Science and Mathematics.&amp;#34;
+I was their to see my friend Dave Deutsch, a long time public school physics teacher receive the honor.</description>
+    </item>
+    
+    <item>
+      <title>Email Policy</title>
+      <link>https://newblog/post/email-policy/</link>
+      <pubDate>Sat, 01 Dec 2018 19:36:37 -0400</pubDate>
+      
+      <guid>https://newblog/post/email-policy/</guid>
+      <description>I saw this tweet the day along with the ensuing thread:
+Seriously, who emails a professor with words like &amp;quot;u&amp;quot; and &amp;quot;plz hlp&amp;quot;? Am I allowed to put language in my syllabus that penalizes students for obnoxious, intentional misspellings? Maybe: -1% to your course grade multiplied by the edit distance of the word with its correction?
+&amp;mdash; Austin Cory Bart (@AustinCorgiBart) November 30, 2018 I wanted to reply but as usual, I decided to reply in a blog post so that it doesn&amp;#39;t get lost in the Twitterverse.</description>
+    </item>
+    
+    <item>
+      <title>PD in NYC</title>
+      <link>https://newblog/post/pd-in-nyc/</link>
+      <pubDate>Sun, 18 Nov 2018 19:43:36 -0400</pubDate>
+      
+      <guid>https://newblog/post/pd-in-nyc/</guid>
+      <description>I spent this past Saturday morning up at the Microsoft building in Times Square. What was I doing there? Aankit Patel invited me to check out the professional development that he and his team organized for the teachers involved in the assorted CSforAllNYC programs that his office runs. Wow.
+Lots of great things going on. I was only able to stay for a couple of hours but I spent some time in two rooms run by TEALS, a room of BJC teachers, a group working with p5.</description>
+    </item>
+    
+    <item>
+      <title>When the students know more than the teacher</title>
+      <link>https://newblog/post/students-know-more/</link>
+      <pubDate>Thu, 04 Oct 2018 16:07:09 -0400</pubDate>
+      
+      <guid>https://newblog/post/students-know-more/</guid>
+      <description>We&amp;#39;ve heard it many times with computer science - &amp;#34;the kids know more than the teacher.&amp;#34; On the one hand, the truth is that this isn&amp;#39;t so much the case. Kids might use computers all the time but they don&amp;#39;t necessarily know much about them or about computer science (link 1, link 2). Then you have students who think they know all about CS but really don&amp;#39;t. They might have picked up a bit of coding somewhere but more often than not, the knowledge is pretty superficial.</description>
+    </item>
+    
+    <item>
+      <title>Talking about CS teacher certification at CSTA 2018</title>
+      <link>https://newblog/posts/csta-2018/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/csta-2018/</guid>
+      <description>As I mentioned in my last post, this coming weekend is the Computer Science Teachers Association (CSTA) conference. I&amp;#39;ve been a member of CSTA since the beginning but this will be only the second time I&amp;#39;ve made it to the annual conference.
+The CSTA conference might be the largest conference specifically for k12 computer science teachers and that makes it different from conferences like SIGCSE which is for CS education and education research at all levels or ISTE which seems to be more of an Ed Tech conference.</description>
+    </item>
+    
+    <item>
+      <title>Giving control of NYC&#39;s specialized schools to a political appointee</title>
+      <link>https://newblog/posts/shsat-part2/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/shsat-part2/</guid>
+      <description>Yesterday I shared my thoughts on Bill de Blasio&amp;#39;s plans to &amp;#34;fix&amp;#34; the selection criteria for New York City&amp;#39;s specialized high schools. If you haven&amp;#39;t read the post, you can find it here.
+I was going to get back to CS and CS Ed related blogging today but there&amp;#39;s more to the story.
+In spite of what BdB stated, it&amp;#39;s not enough for him to switch to another measure - the middle school state exam along with some modifiers.</description>
+    </item>
+    
+    <item>
+      <title>Changing Admissions to the NYC Specialized High Schools</title>
+      <link>https://newblog/posts/shsat/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/shsat/</guid>
+      <description>Yesterday, Bill de Blasio, the current Mayor of New York City outlined how he would &amp;#34;fix&amp;#34; our specialized schools. The schools he was referring to were the &amp;#34;big three&amp;#34; of Stuyvesant, Bronx Science, and Brooklyn Tech and then five additional schools - The High School for Math Science and Engineering at CCNY, The High School for American Studies at Lehman, Brooklyn Latin, The Queens Arts and Science High School at York College, and Staten Island Tech.</description>
+    </item>
+    
+    <item>
+      <title>Do the students finish the tests or does the test finish the students</title>
+      <link>https://newblog/posts/tests-finish-students/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/tests-finish-students/</guid>
+      <description>I tweeted this the other day:
+Why don&amp;#39;t so many teachers and professors understand that the test or assignment you can do in 15 minutes will take your beginning students at least an hour and probably a lot more to complete.
+&amp;mdash; Mike Zamansky (@zamansky) April 18, 2018 What led to the tweet was a discussion I was having with some students about not having enough time on tests which led to a discussion of having to drop everything to spend every waking hour on a project.</description>
+    </item>
+    
+    <item>
+      <title>Tools and Complexity</title>
+      <link>https://newblog/posts/tools-and-complexity/</link>
+      <pubDate>Thu, 05 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/tools-and-complexity/</guid>
+      <description>Alfred Thompson wrote about CS education tools earlier today. I&amp;#39;ve also been meaning to write on the topic but from a different point of view.
+I do my best to keep up with the latest and greatest in the CS world both on the academic side as well as the professional one. That&amp;#39;s not really possible, but I do my best. When I have a small project to work on I&amp;#39;ll some times use it as an excuse to play with some recent technology.</description>
+    </item>
+    
+    <item>
+      <title>Ethics In CS Education</title>
+      <link>https://newblog/posts/ethics-in-cs/</link>
+      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/ethics-in-cs/</guid>
+      <description>I&amp;#39;ve been meaning to write about ethics in CS education for a while. Probably since I saw this article in the NY Times but got sidetracked.
+I was reminded when I saw this tweet by Hadi the other day:
+This message is bigger than Facebook. Computer science faces an ethics crisis. That’s why @codeorg covers ethics and digital citizenship in our computer science courses. (And we’re thankful that most of the largest tech companies support us) https://t.</description>
+    </item>
+    
+    <item>
+      <title>On Prestigious Competitons And High Schools</title>
+      <link>https://newblog/posts/on-prestigious-competitons-and-high-schools/</link>
+      <pubDate>Sat, 17 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/on-prestigious-competitons-and-high-schools/</guid>
+      <description>The ACM recently announced this year&amp;#39;s winners of the Cutler-Bell Prize in High School Computing. Over on his blog, Alfred Thompson noted that the winners were either from independent or magnet public schools. Alfred also noted that most of the winners of prestigious science competitions like the Regeneron Science Talent Search (nee Intel, nee Westinghouse) were from public magnet schools. In his post, Alfred ruminates on this and wonders &amp;#34;how to we add the flexibility and support to more students at more schools?</description>
+    </item>
+    
+    <item>
+      <title>Sigcse2018 Making theory more acccesible</title>
+      <link>https://newblog/posts/sigcse2018-theory/</link>
+      <pubDate>Tue, 13 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/sigcse2018-theory/</guid>
+      <description>Next up from SIGCSE 2018 is John MacCormick&amp;#39;s session on Strategies for Baing the CS Theory Course on Non-decision Problems
+MacCormicks&amp;#39;s stance is that CS theory is tough the first time around and using non-decision problems is a viable approach to make theory more accessible to beginners. As MacCormick said in his paper:
+… a decision problem may ask the yes/no question, &amp;#34;Does this graph have a Hamilton cycle?&amp;#34; The corresponding non-decision problem is, &amp;#34;Please give me a Hamilton cycle of this graph if it has one.</description>
+    </item>
+    
+    <item>
+      <title>How my views on education research were shaped</title>
+      <link>https://newblog/posts/practitioners-and-researchers/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/practitioners-and-researchers/</guid>
+      <description>After reading a couple of comments on my last post where I talked a bit about practitioners vs researchers I thought I&amp;#39;d expand and expound a bit.
+While there are education researchers that I very much respect, overall, I&amp;#39;m skeptical of education research. Note that I&amp;#39;m not talking specifically about CS Ed research but rather education research in general.
+Let&amp;#39;s go back to the beginning. I entered teaching from industry.</description>
+    </item>
+    
+    <item>
+      <title>Fixing the Absent Teacher Reserve (ATR) situation</title>
+      <link>https://newblog/posts/atrs/</link>
+      <pubDate>Fri, 22 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/atrs/</guid>
+      <description>In the New York City department of education a recurring hot topic is the Absent Teacher Reserve or ATR pool.
+A teacher or administrator in the ATR pool is a licensed, most likely tenured teacher not assigned permanently to a school. Each year these educators get shuttled from school to school and denied a chance to actually settle in a position.
+The ATR pool was created under the Bloomberg administration.</description>
+    </item>
+    
+    <item>
+      <title>New York State moving forward with CS Teacher Certification</title>
+      <link>https://newblog/posts/ny-cs-certificate/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/ny-cs-certificate/</guid>
+      <description>Last April I woke up early and trekked up to Albany along with a few of my Hunter College colleagues to share our thoughts on K12 Computer Science teacher certification with the Board of Regents. We gave a presentation to the Regents Higher Education Committee and afterwards had a chance to talk with some of the Regents as well as other members of the New York State Department of Education.</description>
+    </item>
+    
+    <item>
+      <title>Professional Development beyond Scratch</title>
+      <link>https://newblog/posts/election-day-pd-2017/</link>
+      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/election-day-pd-2017/</guid>
+      <description>Today was Election Day. One of the few days each year when students stay home and teachers spend all day attending what is generously known as professional development.
+Years ago I was in a room with a few colleagues when my friend Dave - one of the best math teachers I know said &amp;#34;you know, every time we have a PD day in NJ and my wife and I have to scramble to take care of the kids I get a little annoyed but then think I shouldn&amp;#39;t get annoyed since they&amp;#39;re spending the day doing all sorts of valuable PD.</description>
+    </item>
+    
+    <item>
+      <title>There&#39;s always something to learn (from your students)</title>
+      <link>https://newblog/posts/when-they-change-the-script/</link>
+      <pubDate>Wed, 18 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/when-they-change-the-script/</guid>
+      <description>One thing I&amp;#39;ve learned from teaching is that there&amp;#39;s always something new to learn. For the kids, yes, but I&amp;#39;m talking about for the teacher.
+The other day, I taught a lesson I&amp;#39;ve taught many times. Find the mode of a data set. That&amp;#39;s the problem that they solve but the lesson is really about run time complexity, hidden complexity and using data structures in alternate ways.
+I blogged about this before so you can get an earlier take there although the code isn&amp;#39;t formatted correctly due to blog conversions.</description>
+    </item>
+    
+    <item>
+      <title>A test result is just a test result</title>
+      <link>https://newblog/posts/ap-results-measure-of-curriculum/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/ap-results-measure-of-curriculum/</guid>
+      <description>This past weekend was Catskillsconf - my favorite event of the year. I spent the weekend up in Ulster County with a bunch of my students. some great friends old and new, and Devorah. It was a great weekend but I was mostly offline.
+As a result I missed a rather heated discussion in the CS Ed Facebook groups. The debate was over whether or not Strong AP CSP exam results are indicative of a good curriculum or good professional development (PD).</description>
+    </item>
+    
+    <item>
+      <title>I Believe CS Teachers are Smart and Capable</title>
+      <link>https://newblog/posts/cs-teachers-smart/</link>
+      <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/cs-teachers-smart/</guid>
+      <description>People sometimes accuse me of being an elitist CS snob that I feel that CS teachers have to have advanced CS degrees.
+It&amp;#39;s not that at all. Rather, I feel that CS teachers are smart and capable. Circumstances frequently result in a teacher in front of a CS class with limited content and pedagogical content knowledge. It&amp;#39;s not ideal but it&amp;#39;s reality. Of course I feel that we should do everything to support and encourage these teachers but we should also insist that after a reasonable period of time, they know their stuff.</description>
+    </item>
+    
+    <item>
+      <title>Is the new Secret Sauce ever better?</title>
+      <link>https://newblog/posts/is-the-new-secret-sauce-ever-better/</link>
+      <pubDate>Fri, 08 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/is-the-new-secret-sauce-ever-better/</guid>
+      <description>I read this piece earlier today on Nancy Bailey&amp;#39;s blog.
+TL;DR (although it really isn&amp;#39;t too long so you should read it) - it&amp;#39;s on Laurene Powell Jobs, her efforts to &amp;#34;reform&amp;#34; education and why she&amp;#39;s misguided as are most of the well to do non-educators working hard to change and in many cases privatize public education.
+Laura posts a nice list of simple, common sense ways to improve education.</description>
+    </item>
+    
+    <item>
+      <title>Teaching APCS-A for the first time</title>
+      <link>https://newblog/posts/teaching-ap-first-time/</link>
+      <pubDate>Wed, 23 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/teaching-ap-first-time/</guid>
+      <description>I got an email from a friend the other day. Among other things, he mentioned that he would be teaching APCS-A for the first time this year. He&amp;#39;s a little trepidatious. He knows his stuff but he hasn&amp;#39;t really done much using Java.
+I was going to respond in an email but thought I might share here instead.
+TL;DR - for all you APCS teachers who are new or new to Java - learn your core CS, lean on your resources and support and it&amp;#39;s OK to tell your kids &amp;#34;I don&amp;#39;t know, I&amp;#39;ll get back to you.</description>
+    </item>
+    
+    <item>
+      <title>The Cost of AP Exams</title>
+      <link>https://newblog/posts/cost-of-ap-exams/</link>
+      <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/cost-of-ap-exams/</guid>
+      <description>Now that I&amp;#39;m back from vacation and summer&amp;#39;s winding down I thought I&amp;#39;d start getting back to more classroom related posts. I still have a few summer topics I want to write about – standards and side projects in particular but I&amp;#39;m also looking forward to talking more about the classroom since, after all, at my core, I&amp;#39;m a teacher. When I saw this article in my inbox this morning I thought I&amp;#39;d talk about it.</description>
+    </item>
+    
+    <item>
+      <title>Ethics, Cybersecurity, ethics, curricula  and standards</title>
+      <link>https://newblog/posts/ethics-cybersecurity-curricla-standards/</link>
+      <pubDate>Wed, 02 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/ethics-cybersecurity-curricla-standards/</guid>
+      <description>This morning, I read Alfred Thompson&amp;#39;s post on teaching cybersecurity. as Alfred says, it&amp;#39;s something of a CS Ed buzzword this summer.
+Another hot topic in K12 CS Ed this summer is the inclusion of ethics in our CS courses courtesy of efforts like the #ethicalCS twitter chat every Wednesday at 8:00 Eastern time hosted by Saber Khan. Discussions about both topics include &amp;#34;where should we be doing this?&amp;#34; &amp;#34;What should we be doing?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://newblog/posts/grit-kind-word-gun/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/grit-kind-word-gun/</guid>
+      <description>Back in May, I read this post about Angela Duckworth and Grit. Grit has become an education buzzword in the past few years so I figured I should read Duckworth&amp;#39;s book. It took this long because there was a long waiting list at the New York Public Library to get the ebook. I&amp;#39;m still not quite finished with the book but I thought I&amp;#39;d share some of my thoughts on the book and the buzz.</description>
+    </item>
+    
+  </channel>
+</rss>

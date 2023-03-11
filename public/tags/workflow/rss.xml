@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>workflow on C&#39;est la Z</title>
+    <link>https://newblog/tags/workflow/</link>
+    <description>Recent content in workflow on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Oct 2021 10:44:41 -0400</lastBuildDate><atom:link href="https://newblog/tags/workflow/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>My project grading workflow</title>
+      <link>https://newblog/post/using-emacs-78-grading/</link>
+      <pubDate>Sun, 10 Oct 2021 10:44:41 -0400</pubDate>
+      
+      <guid>https://newblog/post/using-emacs-78-grading/</guid>
+      <description>Grading sucks. Even for a well crafted assignment it takes time and rarely does it give you the same insights into your students as you can get from just observing them and working with them, at least when the environment supports you doing so. This leads lots of teachers to go to auto graders. I can&amp;#39;t bring myself going along with that. While assignments are imperfect and tedious to grade, they do provide some insight to your students and that&amp;#39;s an important part about being a teacher.</description>
+    </item>
+    
+    <item>
+      <title>Unit Tests Grading Workflow</title>
+      <link>https://newblog/posts/unit-tests-grading-workflow/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/unit-tests-grading-workflow/</guid>
+      <description>I&amp;#39;ve talked before about unit testing (here, and here). My premise is that in addition to being an important industry technique, it&amp;#39;s a sound practice for students studying CS. I also contend that it can make grading easier on the teacher. Maybe not as easy as an auto-grader but those have their own problems.
+Since I spent most of today grading I thought I&amp;#39;d share my current workflow and how unit tests have made me more efficient.</description>
+    </item>
+    
+  </channel>
+</rss>

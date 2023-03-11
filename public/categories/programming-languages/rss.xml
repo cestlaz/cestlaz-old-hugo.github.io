@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming languages on C&#39;est la Z</title>
+    <link>https://newblog/categories/programming-languages/</link>
+    <description>Recent content in programming languages on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Nov 2022 08:59:11 -0400</lastBuildDate><atom:link href="https://newblog/categories/programming-languages/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Learning a new language - part 2 - Rust</title>
+      <link>https://newblog/post/learn-new-language-2/</link>
+      <pubDate>Tue, 29 Nov 2022 08:59:11 -0400</pubDate>
+      
+      <guid>https://newblog/post/learn-new-language-2/</guid>
+      <description>Last time, I wrote about frustrations in trying to motivate myself to learn ocaml. I could see the strong points but given that I&amp;#39;ve been using Clojure now for a while, it didn&amp;#39;t really hold any value added for me in my current situation.
+Next, I thought I&amp;#39;d explore Rust. On the non-functional style, my go to languages have always been Python for scripting and small things and C professionally.</description>
+    </item>
+    
+  </channel>
+</rss>

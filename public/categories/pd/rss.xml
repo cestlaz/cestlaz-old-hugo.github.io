@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PD on C&#39;est la Z</title>
+    <link>https://newblog/categories/pd/</link>
+    <description>Recent content in PD on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Jan 2022 17:46:43 -0400</lastBuildDate><atom:link href="https://newblog/categories/pd/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Trends In Professional Development in CS - it&#39;s not all good</title>
+      <link>https://newblog/post/trends-in-pd/</link>
+      <pubDate>Tue, 25 Jan 2022 17:46:43 -0400</pubDate>
+      
+      <guid>https://newblog/post/trends-in-pd/</guid>
+      <description>My friend Tom tweeted earlier which led me to this piece on trends in CS professional development (PD). Tom&amp;#39;s tweet was talking about virtual vs in person PD so I initially thought I&amp;#39;d write about that and PD in general but the article actually led to some deeper issues with PD.
+The article talks about PD being focussed on specific units or modules, narrowing to more popular offerings and also becoming less localized.</description>
+    </item>
+    
+    <item>
+      <title>Teaching CS  - all the educators to all the grades</title>
+      <link>https://newblog/post/teaching-cs-in-all-the-grades/</link>
+      <pubDate>Sat, 27 Jun 2020 12:29:06 -0400</pubDate>
+      
+      <guid>https://newblog/post/teaching-cs-in-all-the-grades/</guid>
+      <description>I&amp;#39;m kicking off a couple of exciting summer projects next week and it&amp;#39;s been pointed out to me a couple of times that I&amp;#39;ll be working with educators at every level to help them to deliver CS instruction to students at every level. What an opportunity to be a part of and learn from - working with every level of teacher for every level of student. I&amp;#39;m part of the teaching teams but I think I&amp;#39;m also going to learn a lot.</description>
+    </item>
+    
+    <item>
+      <title>PD in NYC</title>
+      <link>https://newblog/post/pd-in-nyc/</link>
+      <pubDate>Sun, 18 Nov 2018 19:43:36 -0400</pubDate>
+      
+      <guid>https://newblog/post/pd-in-nyc/</guid>
+      <description>I spent this past Saturday morning up at the Microsoft building in Times Square. What was I doing there? Aankit Patel invited me to check out the professional development that he and his team organized for the teachers involved in the assorted CSforAllNYC programs that his office runs. Wow.
+Lots of great things going on. I was only able to stay for a couple of hours but I spent some time in two rooms run by TEALS, a room of BJC teachers, a group working with p5.</description>
+    </item>
+    
+  </channel>
+</rss>

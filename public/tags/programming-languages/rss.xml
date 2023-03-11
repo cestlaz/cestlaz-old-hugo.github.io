@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming languages on C&#39;est la Z</title>
+    <link>https://newblog/tags/programming-languages/</link>
+    <description>Recent content in programming languages on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Nov 2022 08:59:11 -0400</lastBuildDate><atom:link href="https://newblog/tags/programming-languages/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Learning a new language - part 2 - Rust</title>
+      <link>https://newblog/post/learn-new-language-2/</link>
+      <pubDate>Tue, 29 Nov 2022 08:59:11 -0400</pubDate>
+      
+      <guid>https://newblog/post/learn-new-language-2/</guid>
+      <description>Last time, I wrote about frustrations in trying to motivate myself to learn ocaml. I could see the strong points but given that I&amp;#39;ve been using Clojure now for a while, it didn&amp;#39;t really hold any value added for me in my current situation.
+Next, I thought I&amp;#39;d explore Rust. On the non-functional style, my go to languages have always been Python for scripting and small things and C professionally.</description>
+    </item>
+    
+    <item>
+      <title>Learning a new language - part 1 - functional</title>
+      <link>https://newblog/post/learn-new-language/</link>
+      <pubDate>Mon, 21 Nov 2022 17:34:28 -0400</pubDate>
+      
+      <guid>https://newblog/post/learn-new-language/</guid>
+      <description>Now that I&amp;#39;ve done posting about why I&amp;#39;m retiring we can get back to our usual blogging.
+I haven&amp;#39;t really done anything technical over the past couple of year. The most programming I did in the past 18 months was a halfhearted effort at the Advent of Code 2021 event last December. I thought I&amp;#39;d see about picking up a new language to change that. In doing so, I was reminded of some of my resistances to learning a new language and how I&amp;#39;ve seen similar from self taught students coming into my classes.</description>
+    </item>
+    
+  </channel>
+</rss>

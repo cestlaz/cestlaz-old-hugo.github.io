@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on C&#39;est la Z</title>
+    <link>https://newblog/categories/programming/</link>
+    <description>Recent content in Programming on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Nov 2022 17:34:28 -0400</lastBuildDate><atom:link href="https://newblog/categories/programming/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Learning a new language - part 1 - functional</title>
+      <link>https://newblog/post/learn-new-language/</link>
+      <pubDate>Mon, 21 Nov 2022 17:34:28 -0400</pubDate>
+      
+      <guid>https://newblog/post/learn-new-language/</guid>
+      <description>Now that I&amp;#39;ve done posting about why I&amp;#39;m retiring we can get back to our usual blogging.
+I haven&amp;#39;t really done anything technical over the past couple of year. The most programming I did in the past 18 months was a halfhearted effort at the Advent of Code 2021 event last December. I thought I&amp;#39;d see about picking up a new language to change that. In doing so, I was reminded of some of my resistances to learning a new language and how I&amp;#39;ve seen similar from self taught students coming into my classes.</description>
+    </item>
+    
+    <item>
+      <title>Subtle Errors</title>
+      <link>https://newblog/post/subtle-errors/</link>
+      <pubDate>Fri, 02 Sep 2022 15:05:19 -0400</pubDate>
+      
+      <guid>https://newblog/post/subtle-errors/</guid>
+      <description>The semesters back up in full swing again - teaching 2 undergrad classes in person - CS0 in Python and CS1 in C++ along with my teacher certification class - Ethics via Zoom. Grand total of about 125 students. An error came up in the CS0 class the other day that reminded me how tough it is not only to prepare students to deal with all the things that can go wrong when learning to program but even for a teacher to realize what&amp;#39;s going on.</description>
+    </item>
+    
+    <item>
+      <title>Transparent Origami - Advent 2021 Day 13</title>
+      <link>https://newblog/post/advent-2021-day13/</link>
+      <pubDate>Mon, 13 Dec 2021 13:28:28 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2021-day13/</guid>
+      <description>No post so far on day 12. I finished part 1 but my code was pretty messy which turned part 2 into a mess. I still have to go back to get that second star so just like day 10, my day 12 write up is on hold.
+That said, I really enjoyed [[https://adventofcode.com/2021/day/13 ][today&amp;#39;s]] challenge. Paper foldind. You&amp;#39;re given transparent paper with a bunch of marks on it. You have to fold the paper over horizontal or vertical lines and examine the results.</description>
+    </item>
+    
+    <item>
+      <title>Dumbo Octopus and the Game of Life - AOC 2011 Day 11</title>
+      <link>https://newblog/post/advent-2021-day11/</link>
+      <pubDate>Sat, 11 Dec 2021 11:31:32 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2021-day11/</guid>
+      <description>I wasn&amp;#39;t particularly motivated to start day 11 but took a look over coffee. A grid of points where on each turn or step the points are modified by some rule. Hey, this sounds familiar - cellular automata like Conway&amp;#39;s Game of Life.
+You set up your grid and then on each turn just follow the rules. In a traditional Cellular Automaton like Conway&amp;#39;s Game of Life, on each turn each cell looks at its six neighbors and makes a decision as to its next state based on the neighbors and a rule.</description>
+    </item>
+    
+    <item>
+      <title>Bracket Bonanza (AOC 2021 day 10)</title>
+      <link>https://newblog/post/advent-2021-day10/</link>
+      <pubDate>Fri, 10 Dec 2021 12:15:34 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2021-day10/</guid>
+      <description>I know, where&amp;#39;s day 9? Thursdays (and Mondays) are already tight for me - I teach all morning and it&amp;#39;s been a rough week. I just had very little energy and focus all day yesterday. I snuck some time in to finish part 1 but couldn&amp;#39;t focus on part 2.
+Today, however, my body gave me an extra half hour of sleep (til 4:30am) so I had extra time and energy.</description>
+    </item>
+    
+    <item>
+      <title>Seven Segment Silliness - Advent 2021 Day08</title>
+      <link>https://newblog/post/advent-2021-day08/</link>
+      <pubDate>Wed, 08 Dec 2021 13:20:49 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2021-day08/</guid>
+      <description>Day 8 took a lot longer than the other days. Not all that much code and not too complex, at least after getting through a scary sounding lead up but going from problem statement to solution took both time and thought.
+As I started to read the problem, I wasn&amp;#39;t sure I&amp;#39;d finish it let alone have time to write it up.
+Take a minute to read over the problem.</description>
+    </item>
+    
+    <item>
+      <title>How you look at a problem can make it easier - AOC 2021 Day 7</title>
+      <link>https://newblog/post/advent-2021-day07/</link>
+      <pubDate>Tue, 07 Dec 2021 09:04:53 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2021-day07/</guid>
+      <description>Today&amp;#39;s problem was similar to yesterday&amp;#39;s in that it&amp;#39;s ease or difficulty really depended on how you looked at the question.
+For yesterday, the problem was hard if you approached it by modeling each and every lanternfish but it was much easier if you modeled the 8 days of the reproduction cycle. Sure, there was still work to be done but looking at the problem the right way made things much easier.</description>
+    </item>
+    
+    <item>
+      <title>Lanternfish and lots of data (AOC 2021 Day 6)</title>
+      <link>https://newblog/post/advent-2021-day06/</link>
+      <pubDate>Mon, 06 Dec 2021 16:25:24 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2021-day06/</guid>
+      <description>Today we had to model the growth of the lanternfish population (problem here).
+Lanternfish spawn new lanternfish every seven days. The trick is that the original starting population consists of fish at different points in the cycle. For instance, if your input data was 3,2,4 then each fish would spawn a new fish in three, two, and four days respectively. The new fish would set their timers to 8 and start counting down to their spawn date on the next day and the original fish would reset it&amp;#39;s timer to 6.</description>
+    </item>
+    
+    <item>
+      <title>One man&#39;s complex is another man&#39;s simple (AOC 2021 Day 5)</title>
+      <link>https://newblog/post/advent-2021-day05/</link>
+      <pubDate>Sun, 05 Dec 2021 10:40:21 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2021-day05/</guid>
+      <description>Yesterday I wrote about the virtues of a simple straightforward solution as opposed to a super &amp;#34;clever&amp;#34; one. Today reminded me that what seems simple to one person might be clever to another.
+Having successfully survived bingo with a giant squid, Today&amp;#39;s challenge had us navigating our sub so as to avoid dangerous parts of the ocean. We were given a bunch of lines represented by endpoints as input. If we graphed all the lines, some of them would overlap.</description>
+    </item>
+    
+    <item>
+      <title>Working code is better than clever code (AOC 2021 day 4)</title>
+      <link>https://newblog/post/advent-2021-day04/</link>
+      <pubDate>Sat, 04 Dec 2021 12:17:30 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2021-day04/</guid>
+      <description>I always tell my students that the cleverest program is worthless if it doesn&amp;#39;t actually work.
+There are always some kids in class that all too often try to write the fanciest solutions.
+They&amp;#39;re the ones that write
+int l(char *s){return !*s?0:(l(++s)+1);} instead of something like:
+int string_length(char *s){ int i = 0; while (s[i] != 0){ i=i+1; } return i; } to calculate the length of a string.</description>
+    </item>
+    
+    <item>
+      <title>Work through the example!!!!!</title>
+      <link>https://newblog/post/advent-2021-day03/</link>
+      <pubDate>Fri, 03 Dec 2021 17:10:50 -0400</pubDate>
+      
+      <guid>https://newblog/post/advent-2021-day03/</guid>
+      <description>It&amp;#39;s that time of year again. Yep, you got it. Time for Advent of Code. I&amp;#39;m not feeling nearly as motivated as in past years but so far so good. Finished the first three days.
+Today I got a good reminder - work through your examples. You can find today&amp;#39;s problem here.
+For part 1 you got a list of binary numbers and had to figure out how many ones and zeros there were in any given digit.</description>
+    </item>
+    
+    <item>
+      <title>Coding For Problem Solving</title>
+      <link>https://newblog/post/coding-for-problem-solving/</link>
+      <pubDate>Fri, 01 Oct 2021 10:17:01 -0400</pubDate>
+      
+      <guid>https://newblog/post/coding-for-problem-solving/</guid>
+      <description>Like most CS educators I&amp;#39;m a regular reader of Alfred Thompson&amp;#39;s blog. Alfred&amp;#39;s latest post is spot on but there was a line in it and a particular Twitter response that reminded me that we so often forget a big reason why people learn to code.
+Alfred mentions, as did that Tweet about coding to solve problems. What problem are you trying to solve. This is the mainstream push - programming helps you solve problems.</description>
+    </item>
+    
+    <item>
+      <title>Back To Python</title>
+      <link>https://newblog/post/back-to-python/</link>
+      <pubDate>Fri, 14 Jun 2019 15:53:54 -0400</pubDate>
+      
+      <guid>https://newblog/post/back-to-python/</guid>
+      <description>With summer right around the corner I&amp;#39;m hoping to spend at least a little time on some personal coding projects. There are a few work related tools I&amp;#39;d love to develop and just some random areas of CS I&amp;#39;d like to explore. If I finish them, the work projects will be web based.
+I was thinking about using this as an opportunity to do a deeper dive into Clojure having used it for some experiments and competitions like Advent of Code but at the end of the day I decided not to.</description>
+    </item>
+    
+    <item>
+      <title>Give me a break (and a continue)</title>
+      <link>https://newblog/post/break-continue/</link>
+      <pubDate>Wed, 01 May 2019 08:39:41 -0400</pubDate>
+      
+      <guid>https://newblog/post/break-continue/</guid>
+      <description>What can I do to discourage my students from using the &amp;#34;break&amp;#34; statement?
+That was more or less the gist of the comment and it elicited some good responses. This time the conversation was on Facebook but I&amp;#39;ve seen this one and participated in it many times before. I never liked the question when presented as a &amp;#34;how can I stop them&amp;#34; one. I equally dislike when the offered advice is basically &amp;#34;never use break no matter what&amp;#34; or something similar.</description>
+    </item>
+    
+    <item>
+      <title>Globals Breaks And Returns, oh my</title>
+      <link>https://newblog/post/globals-breaks-and-returns/</link>
+      <pubDate>Sat, 06 Oct 2018 15:48:55 -0400</pubDate>
+      
+      <guid>https://newblog/post/globals-breaks-and-returns/</guid>
+      <description>Never use global variables Never break out of a loop These are two &amp;#34;best practices&amp;#34; that are frequently touted in early CS classes both at the high school and college level.
+They came up a couple of times yesterday. Once in the Facebook APCS-A teachers group and once on Alfred Thompson&amp;#39;s blog.
+Alfred post was topically on global variables. Actually it was deeper than just global variables. It&amp;#39;s also about how students progress - what they can figure out at various stages of progress and how what seems like a good idea early on the path to computer science doesn&amp;#39;t seem so great later on.</description>
+    </item>
+    
+  </channel>
+</rss>

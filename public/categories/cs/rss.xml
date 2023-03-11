@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CS on C&#39;est la Z</title>
+    <link>https://newblog/categories/cs/</link>
+    <description>Recent content in CS on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Nov 2021 07:15:47 -0400</lastBuildDate><atom:link href="https://newblog/categories/cs/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Seats on a plane - addendum</title>
+      <link>https://newblog/post/airline-seats-2/</link>
+      <pubDate>Tue, 02 Nov 2021 07:15:47 -0400</pubDate>
+      
+      <guid>https://newblog/post/airline-seats-2/</guid>
+      <description>While my last post was well received, I did have a few conversations where people asked why I did this with such a seemingly minor ethical issue. They wondered that with issues the Facebook algorithm, bail and sentencing algorithms, gerrymandering and other issues dominating the ethical conversation, why focus this topic around something that seems to affect far fewer people and might not even be such a big deal. After all, when it does come up, flight crews can probably ask a few people to shuffle seats and voila, problem solved.</description>
+    </item>
+    
+    <item>
+      <title>Airline Seats - An Ethics Lesson</title>
+      <link>https://newblog/post/airline-seats/</link>
+      <pubDate>Tue, 26 Oct 2021 14:43:28 -0400</pubDate>
+      
+      <guid>https://newblog/post/airline-seats/</guid>
+      <description>I&amp;#39;ve held off on sharing any details on my Ethics in CS class because I wanted to wait until some of it ran. I didn&amp;#39;t want to talk about a topic and then find out that after we covered it I was all wrong.
+Now that we&amp;#39;re well into the semester, I think it&amp;#39;s time to share a few things.
+One of my premises when I designed the course was that most ethics courses are taken by either people who already have religion or people who see it as the &amp;#34;easy course&amp;#34; without programming.</description>
+    </item>
+    
+    <item>
+      <title>Quick Sort over Zoom</title>
+      <link>https://newblog/post/qsort-over-zoom/</link>
+      <pubDate>Thu, 18 Mar 2021 12:10:53 -0400</pubDate>
+      
+      <guid>https://newblog/post/qsort-over-zoom/</guid>
+      <description>I haven&amp;#39;t been blogging much this year. Not sure why - probably pandemic fatigue. It&amp;#39;s also affected my blog reading - more scanning, less deep reading. I&amp;#39;ve also been trying to spend mode time off screen learning how to paint (with,let&amp;#39;s say mixed results :-) ) leaving less time and energy to blog. Hopefully I&amp;#39;ll pick up on both ends as more people get vaccinated and we can get to a more normal life.</description>
+    </item>
+    
+    <item>
+      <title>On Teaching Recursion</title>
+      <link>https://newblog/post/recursion/</link>
+      <pubDate>Sun, 03 Jan 2021 13:49:00 -0400</pubDate>
+      
+      <guid>https://newblog/post/recursion/</guid>
+      <description>Yesterday I read three posts on teaching recursion. First by Shriram Krishnamurthi discussing his thoughts on how recursion is taught incorrectly. This prompted Adam Michlin to write about teaching recursion later with some commentary on APCS and then finally, Alfred Thompson added his thoughts. Much like everything else in education there is no single right way to do things. To say as an absolute that you should or shouldn&amp;#39;t teach in a certain way is wrong - too many variable.</description>
+    </item>
+    
+    <item>
+      <title>Working with texts part 3 - word chains</title>
+      <link>https://newblog/post/word-chains/</link>
+      <pubDate>Mon, 25 Nov 2019 05:45:55 -0400</pubDate>
+      
+      <guid>https://newblog/post/word-chains/</guid>
+      <description>At this point, we&amp;#39;ve done a fair amount of playing with text so it&amp;#39;s time for a fun little project. We&amp;#39;re going to generate some text &amp;#34;in the style&amp;#34; of a source text. The technique we&amp;#39;re going to use is usually called a Markov Chain text generator. Basically a model where the next state or word is based entirely on the current state. I don&amp;#39;t dwell on the math under the hood but in case you&amp;#39;re interested, here are a few links: Wikipedia, Explained Visually, UC Davis Math.</description>
+    </item>
+    
+    <item>
+      <title>Working with texts part 2 - bag of words</title>
+      <link>https://newblog/post/bag-of-words/</link>
+      <pubDate>Wed, 20 Nov 2019 08:15:41 -0400</pubDate>
+      
+      <guid>https://newblog/post/bag-of-words/</guid>
+      <description>Following up on a previous post, we&amp;#39;re going to continue to talk about playing with text. This time, building and working with a bag of words from a text. A bag of words is a simple language processing model where you just consider individual words in a text. What they are and how many times they occur. This is a pretty simple model but you can still have a good bit of fun with your students with it.</description>
+    </item>
+    
+    <item>
+      <title>Code Review Revisited or research - the teacher version</title>
+      <link>https://newblog/post/code-review-2/</link>
+      <pubDate>Tue, 16 Apr 2019 11:36:27 -0400</pubDate>
+      
+      <guid>https://newblog/post/code-review-2/</guid>
+      <description>Last semester I wrote about how I was introducing my students to code review. I thought it worked pretty well and was anxious to try it again.
+Well, I did the lesson(s) again this past week and it looks like it&amp;#39;s a keeper. The setup was pretty much the same with some hiccups due to using a new platform. Last semester I used plain GitHub public repos. This time, I&amp;#39;ve been using GitHub classroom which I like very much but I forgot that I made this assignment use private repos which turned out to be a hassle.</description>
+    </item>
+    
+    <item>
+      <title>Solve A To Solve B</title>
+      <link>https://newblog/post/solve-a-to-solve-b/</link>
+      <pubDate>Fri, 18 Jan 2019 19:36:59 -0400</pubDate>
+      
+      <guid>https://newblog/post/solve-a-to-solve-b/</guid>
+      <description>So many programming assignments involve a direct solution. Write a program to do this or write a problem to solve that. It&amp;#39;s pretty typical. There&amp;#39;s nothing wrong with assignments like these. They allow students to practice what they&amp;#39;ve been learning and it gives them the opportunity to create some cool programs. All the same, I like it when there&amp;#39;s an indirect problem. You&amp;#39;re faced with a problem but in order to solve it you first have to solve some other problem</description>
+    </item>
+    
+    <item>
+      <title>An experiment with code review</title>
+      <link>https://newblog/post/code-review/</link>
+      <pubDate>Thu, 15 Nov 2018 17:09:58 -0400</pubDate>
+      
+      <guid>https://newblog/post/code-review/</guid>
+      <description>Sometimes professional practices don&amp;#39;t work well in the classroom and sometimes they do. One professional practice that does work well is code review - reading and reflecting on other peoples code.
+I&amp;#39;ve had my students do code reviews in the past but this time I did things differently. Here&amp;#39;s what I did and here&amp;#39;s how it went
+Two weeks ago my students completed a lab. The lab involved reading in a poorly indented C++ program and spit out a properly indented one.</description>
+    </item>
+    
+    <item>
+      <title>Who Played Spiderman - part 3</title>
+      <link>https://newblog/post/who-played-spiderman-3/</link>
+      <pubDate>Tue, 16 Oct 2018 17:25:33 -0400</pubDate>
+      
+      <guid>https://newblog/post/who-played-spiderman-3/</guid>
+      <description>Parts 1 and 2 Part 1 Part 2 Part 3 In the first two parts of this set of posts I wrote about the motivation and design a question answering system that can answer &amp;#34;who&amp;#34; queries like &amp;#34;who played Spiderman&amp;#34; or &amp;#34;who shot John Lennon?&amp;#34; It&amp;#39;s not perfect. When doing the Spiderman query, chances are the desired answer will be at or near the top of the list of most frequently appearing names but so will &amp;#34;Peter Parker.</description>
+    </item>
+    
+    <item>
+      <title>Who Played Spiderman part 2</title>
+      <link>https://newblog/post/who-played-spiderman-2/</link>
+      <pubDate>Sat, 13 Oct 2018 16:04:59 -0400</pubDate>
+      
+      <guid>https://newblog/post/who-played-spiderman-2/</guid>
+      <description>Parts 1 and 3 Part 1 Part 3 Part 2 When we left off last time we used a search engine API to gather a whole bunch of documents with the term &amp;#34;played Spiderman&amp;#34; or &amp;#34;who played Spiderman.&amp;#34; Now we have to process these documents to answer the question. Fortunately, the documents are basically just big strings of text.
+Since we&amp;#39;re doing a &amp;#34;who&amp;#34; query we want to find all the names in all the documents.</description>
+    </item>
+    
+    <item>
+      <title>Who Played Spiderman part 1 or my Nifty Assignment (that was rejected)</title>
+      <link>https://newblog/post/who-played-spiderman/</link>
+      <pubDate>Thu, 11 Oct 2018 17:16:23 -0400</pubDate>
+      
+      <guid>https://newblog/post/who-played-spiderman/</guid>
+      <description>Parts 2 and 3 [[/post/who-played-spiderman-2/][Part 2] Part 3 I wasn&amp;#39;t going to teach this lesson today. I was planning on starting a multi day project starting with an exercise in specification writing and design.
+Beforehand though, we had to talk about classes. One of my students asked if probability and/or statistics were really important for CS. I started to cite a few examples and then decided to segue into this.</description>
+    </item>
+    
+    <item>
+      <title>Compile Each Concept</title>
+      <link>https://newblog/post/compile-each-concept/</link>
+      <pubDate>Tue, 09 Oct 2018 14:46:59 -0400</pubDate>
+      
+      <guid>https://newblog/post/compile-each-concept/</guid>
+      <description>We&amp;#39;ve all been there:
+Student: Teacher, I need help Teacher (comes over) Student (shows screen listing three bazillion errors)
+The student has just written pages of code and finally decided to try to run it only to end up with pages of errors.
+Error messages can at times be hard to read for beginners but to see and truth be told, they frequently don&amp;#39;t even read them but over the years I&amp;#39;ve developed a practice that I&amp;#39;ve found helpful as a software developer and if students adopt the same practice it can save them a lot of time and effort.</description>
+    </item>
+    
+  </channel>
+</rss>

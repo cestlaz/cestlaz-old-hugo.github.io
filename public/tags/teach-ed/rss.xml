@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>teach ed on C&#39;est la Z</title>
+    <link>https://newblog/tags/teach-ed/</link>
+    <description>Recent content in teach ed on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Nov 2020 15:05:31 -0400</lastBuildDate><atom:link href="https://newblog/tags/teach-ed/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>CS Teacher Prep - the big picture and the long game.</title>
+      <link>https://newblog/post/teachers-prep-big-pic/</link>
+      <pubDate>Wed, 25 Nov 2020 15:05:31 -0400</pubDate>
+      
+      <guid>https://newblog/post/teachers-prep-big-pic/</guid>
+      <description>Time to follow up on my last post and all the surrounding discussion. To be honest, I was a bit surprised at first to see that many posters were all for what I consider a weak program. I think all of us agreed that you want and need a gentle entry - you have to be accessible to teachers with little or even no prior computer science experience but I was taken back by the number of teachers who thought it was fine to have a graduate level program where the teachers end up with no more knowledge than a high school student taking APCS-A.</description>
+    </item>
+    
+  </channel>
+</rss>

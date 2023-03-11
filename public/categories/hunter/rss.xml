@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hunter on C&#39;est la Z</title>
+    <link>https://newblog/categories/hunter/</link>
+    <description>Recent content in hunter on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Oct 2020 07:23:55 -0400</lastBuildDate><atom:link href="https://newblog/categories/hunter/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Getting the word out on Hunter CS in 2020</title>
+      <link>https://newblog/post/recruiting-2020/</link>
+      <pubDate>Mon, 12 Oct 2020 07:23:55 -0400</pubDate>
+      
+      <guid>https://newblog/post/recruiting-2020/</guid>
+      <description>As we move through Fall, I&amp;#39;m missing one of the most draining but at the same time one of my favorite parts of the year. School recruiting visits. When I came to Hunter, I started the Daedalus CS Honors program. We started small but now, each year, we take in about fifty students, give them a laptop and a scholarship and all sorts of extras and bring them in for a great CS education at a fraction of the cost of say NYU or Columbia.</description>
+    </item>
+    
+    <item>
+      <title>Hunter&#39;s first Honors CS Cohort</title>
+      <link>https://newblog/post/first-daedalus-class/</link>
+      <pubDate>Tue, 19 May 2020 07:41:29 -0400</pubDate>
+      
+      <guid>https://newblog/post/first-daedalus-class/</guid>
+      <description>Almost four and a half years ago I left Stuyvesant and joined Hunter College. One of the initiatives I was charged with was the creation of a computer science honors program - the Daedalus scholars. Now, a little over four years later, our first cohort is graduating.
+I&amp;#39;m super proud of that first cohort and what we&amp;#39;ve collectively been building. I joined Hunter at the end of January 2016 - a month after college applications had closed.</description>
+    </item>
+    
+    <item>
+      <title>Hunter Codefest 2020</title>
+      <link>https://newblog/post/codefest-2020/</link>
+      <pubDate>Sat, 01 Feb 2020 13:41:03 -0400</pubDate>
+      
+      <guid>https://newblog/post/codefest-2020/</guid>
+      <description>Two of the challenges faced by young computer science students are finding the time to build independent projects for their portfolios and getting feedback from and networking with tech professionals.
+Enter Hunter Codefest 2020
+&amp;lt;style&amp;gt; .flip { -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -o-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); } &amp;lt;/style&amp;gt;
+&amp;lt;br clear=&amp;#34;all&amp;#34;&amp;gt;
+Hunter, like most colleges has a Fall semester that runs from late August through the end of Decemeber and a Spring semester that starts at the end of January and runs through late may.</description>
+    </item>
+    
+    <item>
+      <title>Hunter College Winter Codefest 2019</title>
+      <link>https://newblog/post/code-fest-2019/</link>
+      <pubDate>Wed, 20 Feb 2019 17:34:00 -0400</pubDate>
+      
+      <guid>https://newblog/post/code-fest-2019/</guid>
+      <description>It&amp;#39;s great to see how much Hunter CS has developed since starting here there years ago. The latest endeavor is Winter Codefest. During the fall I was approached by one of my students who had asked an older Hunter CS student about their portfolio and found that the senior&amp;#39;s portfolio was lacking. This student said we should do something to help encourage younger students to build that portfolio. The result was Winter Codefest.</description>
+    </item>
+    
+    <item>
+      <title>Challenges of teaching at a commuter school</title>
+      <link>https://newblog/post/commuter-school/</link>
+      <pubDate>Mon, 08 Oct 2018 08:43:40 -0400</pubDate>
+      
+      <guid>https://newblog/post/commuter-school/</guid>
+      <description>One of the bigger challenges faced at commuter schools is building a feeling of community. Students aren&amp;#39;t on campus every day and come from far afield and even when they are on campus, we really don&amp;#39;t have a CS &amp;#34;hang out&amp;#34; space. The space issue should be resolved soon - we&amp;#39;re scheduled to get a CS student lounge next semester.
+I&amp;#39;m finding this to be even more of a challenge this year with my honors students.</description>
+    </item>
+    
+  </channel>
+</rss>

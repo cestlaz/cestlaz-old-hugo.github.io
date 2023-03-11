@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GPT on C&#39;est la Z</title>
+    <link>https://newblog/categories/gpt/</link>
+    <description>Recent content in GPT on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Jan 2023 08:57:09 -0400</lastBuildDate><atom:link href="https://newblog/categories/gpt/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>CS GPT</title>
+      <link>https://newblog/post/chatgpt-in-cs-class/</link>
+      <pubDate>Fri, 20 Jan 2023 08:57:09 -0400</pubDate>
+      
+      <guid>https://newblog/post/chatgpt-in-cs-class/</guid>
+      <description>This should be my last post about chatGPT.
+The GPT in chatGPT stands for Generative Pretrained Transformer. Not something that you&amp;#39;re going to cover in an early college CS class. I wanted to get my head around it and the technologies are typically covered in an advanced machine learning undergraduate elective so something you take after you take that 400 level machine learning class. Looks like I&amp;#39;m going to have to do some review first since I haven&amp;#39;t looked at any of the prerequisite material in around a dozen years.</description>
+    </item>
+    
+  </channel>
+</rss>

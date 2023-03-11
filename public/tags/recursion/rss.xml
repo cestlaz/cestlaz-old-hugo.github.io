@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>recursion on C&#39;est la Z</title>
+    <link>https://newblog/tags/recursion/</link>
+    <description>Recent content in recursion on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Mar 2023 09:58:04 -0400</lastBuildDate><atom:link href="https://newblog/tags/recursion/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>Recursive Sentences</title>
+      <link>https://newblog/post/recursive-sentences/</link>
+      <pubDate>Fri, 10 Mar 2023 09:58:04 -0400</pubDate>
+      
+      <guid>https://newblog/post/recursive-sentences/</guid>
+      <description>It&amp;#39;s been a while since I last wrote up a specific lesson idea so when my friend Garth asked about recursion ideas I thought I&amp;#39;d write this one up. This is a unit I used to teach in my intro class at Stuy using Racket (nee Scheme) but I coded up a quick and dirty Python version.
+Recursion is a polarizing topic. Some people love it, others hate it. I&amp;#39;m sure the usual suspects of intro recursion problems doesn&amp;#39;t help.</description>
+    </item>
+    
+    <item>
+      <title>On Teaching Recursion</title>
+      <link>https://newblog/post/recursion/</link>
+      <pubDate>Sun, 03 Jan 2021 13:49:00 -0400</pubDate>
+      
+      <guid>https://newblog/post/recursion/</guid>
+      <description>Yesterday I read three posts on teaching recursion. First by Shriram Krishnamurthi discussing his thoughts on how recursion is taught incorrectly. This prompted Adam Michlin to write about teaching recursion later with some commentary on APCS and then finally, Alfred Thompson added his thoughts. Much like everything else in education there is no single right way to do things. To say as an absolute that you should or shouldn&amp;#39;t teach in a certain way is wrong - too many variable.</description>
+    </item>
+    
+    <item>
+      <title>Teaching recursion early? Make sure to use a good tool.</title>
+      <link>https://newblog/posts/recursion-early/</link>
+      <pubDate>Wed, 30 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/recursion-early/</guid>
+      <description>I replied this tweet yesterday and thought I&amp;#39;d expound a bit.
+We started kids using scheme on 10th grade at stuy so did recursion early. Not everyone got all of it but it think it made things much easier for those that you more CS later.
+&amp;mdash; Mike Zamansky (@zamansky) May 29, 2018 We introduced recursion very early in our intro course at Stuy and I think it worked well.</description>
+    </item>
+    
+  </channel>
+</rss>

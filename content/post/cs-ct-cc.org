@@ -1,0 +1,139 @@
+---
+title: "CS vs CT vs Coding"
+date: 2018-09-28T12:08:35-04:00
+draft: false
+tags:
+- csed
+- pedagogy
+categories:
+- CSed
+---
+
+
+There's been a lot of buzz recently concernting Computational Thinking
+(CT) vs Computer Science (CS) vs Coding / Programming on the
+interwebs.
+
+Some of the questions and concerns that I've seen recently include:
+- What is CT??
+- Will rich schools get CS and poor only CT?
+- Will rich schools get CS and poor on coding?
+
+The first question is a big one and as a community we haven't answered
+it yet. I think about it as including things like algorithmic
+thinking, decomposing problems, iterating, pattern recoginition and the like 
+but I'm hardpressed to come up with a succinct formal definition. This
+is somewhat related to the bigger problem of "what is CS?" A problem
+the CS community is still dealing with. There seems to be an editorial
+or letter in the [[https://cacm.acm.org/][Communications of the ACM]] every few months talking
+about this. "We're an enginering discipline. No, we're a science. No
+we're an artistic endeavor" and on and on. It's no surprise that the
+rest of the world doesn't understand what we are when we haven't
+figured it out ourselves. It's also no surprise that this problem also
+extends to CT.
+
+One thing seemed clear on the twitter threads and posts I read is that
+people seem to believe that CT and Coding are potentially overlapping
+subsets of CS but you can do CT and Coding without CS.
+
+While there's probably a lot to say on the CT without CS or rather CT
+without programming but today let's look at the programming without CS
+side of things.
+
+This is probably of particular concern to me as a high school and now
+college guy. There's no doubt to me that there's a big difference
+between a kid learning coding/programming and computer science. 
+
+Coding can be a useful skill but without at least some computer
+science it's of limited value. Look at code schools as examples. Many
+code schools work to prepare their customers for entry level tech
+jobs. Usually, this includes the fundamentals of programming on top of
+a typical business toolset. Examples would be a node.js backend,
+Mongodb, and React.js. Another, albeit older one so probably not
+taught as much now would be Ruby on Rails. Upon completing the
+program, one can create a formulaic full stack applicationand knowing
+that formula can make you employable in our current tech sector. The
+downside though, as I've heard from countless employers, is that code
+school graduates, by training, can't break out of that formula. They
+just don't have the context, nor the problem solving ability - they
+lack the CS. I'm sure many go on to learn the CS but that's another
+story. I was talking to a code school founder a few years ago about
+this and asked "what happens when the formula chages." The answer I
+got was "that's ok, we'll just bring them back for a new bootcamp." Of
+course that will cost the kid another 10K or whatever bootcamps are
+charging these days.
+
+Now of course some code schools try harder than others and some
+attempt build some CS into their programs but while there are always
+outliers who can learn a great deal in a short period of time, and
+often on their own, real education takes time and effort and a short
+term bootcamp just doesn't have that time.
+
+Back to schools.
+
+To start coding is easier to teach than CS. It can be formulaic and
+there are lots of resources out there to assist teachers without a CS
+background. 
+
+It's also easy to test and show off. 
+
+I was at the NYTM once and they were celebrating a code school
+project. The idea was really a good one - automatic sensing of heat in
+low income apartments. I had a couple of questions about getting their
+data out to the authorities but thought that if they figured that out
+it could really do some good. On the other hand there was practically
+no CS. As the project was described - it sets up it's own mesh network
+and communicates heat readings etc etc., I said to my neighbor in the
+audience - sounds like an arduino with an XBee shield and yep, when
+they showed the case, it was the exact form factor to hold an arduino
+and xbee. That told me there was no CS. The mesh networking is
+automatically done by the XBee so all they had to do was take the
+sample arduino code to read the heat sensor and instead of sending it
+to the serial port as the sample code does, send it to a particular
+XBee node. Pretty much no CS and almost no programming. Just a great
+idea and gluing some components together.
+
+I've seen the same with student projects that have been highlighted at
+events with funders and politicians and in the media. I won't describe
+them as they are student projects and wouldn't do that to a student
+but the projects really had no CS under the hood. Nice ideas or even
+more importantly nice stories around the kid but it was glue and
+simple basic programming not CS.
+
+Teaching real CS is harder to do, harder to assess and harder to show
+off which makes teaching coding so enticing. 
+
+This is not to say that teaching coding without CS doesn't have
+value. I believe it does but it also leads to another problem -- it
+can be assessed improperly either with showy projects that are merely
+gluing a theme on a fixed pattern or by tests that allow for
+memorization and this at times has led to students being given too
+much too early.
+
+We've seen this with algebra and physics. Students end up taking these
+subjects before they're ready for them. They can pass the
+standardized test  because they can plug numbers into formulas or can
+recognize what form to use because there are a limited set of problem
+patterns on the exams but they don't really "get" the subject. This
+leads to problems later on but of course that's another teacher's
+problem.
+
+This also happens in coding classes. While it's usually pretty clear
+when a kid isn't getting a CS concept, I've seen programming
+experiences where the student at first or in the short term can appear
+to pass the assessments but later on it's revealed that they weren't
+ready and they didn't really learn what they were supposed to.
+
+This is a problem. Just as we might have some students exposed to CT
+without CS I think a major problem will be kids getting Coding without
+CS. This will particularly be a danger in poorer schools and
+communities but possibly across the board.
+
+Just another thing we have to really be on guard for as we try to
+achieve CS for all.
+
+
+
+
+
+

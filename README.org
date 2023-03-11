@@ -1,0 +1,16 @@
+* hugo-blog-genreator
+
+Hugo site to generate http://cestlaz.github.io
+
+** Changes to Mainroad theme
+- added zwidget.html which adds recent twitter and feedburner under widgets
+- added zwidget to config
+- added tweet.html partial to add "tweet this" button
+- added thluffy image to header in partials
+- added feedburner rss button to header in partials
+- clicky in baseof.html
+- Added disqus total comments to summary and included script in baseof
+- only printing tags with more than 1 in taglist
+- Adde archive page under the mainroad theme 
+  - loops through post (new posts) and posts (old posts from nikola)
+- Modifued archive/list.html under theme to add 2019 to archive

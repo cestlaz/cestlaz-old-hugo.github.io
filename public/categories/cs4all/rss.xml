@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CS4All on C&#39;est la Z</title>
+    <link>https://newblog/categories/cs4all/</link>
+    <description>Recent content in CS4All on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Mar 2021 19:35:57 -0400</lastBuildDate><atom:link href="https://newblog/categories/cs4all/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>New York City has Certified CS Teachers</title>
+      <link>https://newblog/post/certified-teachers/</link>
+      <pubDate>Tue, 23 Mar 2021 19:35:57 -0400</pubDate>
+      
+      <guid>https://newblog/post/certified-teachers/</guid>
+      <description>I&amp;#39;m super proud to say that New York City now has state certified Computer Science Teachers!!!!!!
+It&amp;#39;s been a long road - really long if you consider I got started on my CS Ed journey decades ago and there&amp;#39;s a long road ahead but we hit a major milestone. I started at Hunter a little over five years ago and creating teacher certification programs was one of the goals. Back then, the state had neither CS certification nor CS standards.</description>
+    </item>
+    
+  </channel>
+</rss>

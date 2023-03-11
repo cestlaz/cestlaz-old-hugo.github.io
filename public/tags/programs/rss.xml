@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programs on C&#39;est la Z</title>
+    <link>https://newblog/tags/programs/</link>
+    <description>Recent content in programs on C&#39;est la Z</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Apr 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://newblog/tags/programs/rss.xml" rel="self" type="application/rss" />
+    <item>
+      <title>TEALS Time</title>
+      <link>https://newblog/posts/teals-time/</link>
+      <pubDate>Wed, 18 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://newblog/posts/teals-time/</guid>
+      <description>Everybody know&amp;#39;s I&amp;#39;m the Statler and Waldorf of the CS Education world.
+I&amp;#39;ve been known to be &amp;#34;prickly,&amp;#34; which is a nice way of putting it and I&amp;#39;m openly critical of many programs out there.
+One program, however, that I very much like is TEALS. They&amp;#39;ve been around since 2009 founded by Kevin Wang, a former teacher. The basic idea was to have tech professionals go to a school on the way to work and team teach a CS class with one of the school&amp;#39;s teachers.</description>
+    </item>
+    
+  </channel>
+</rss>
