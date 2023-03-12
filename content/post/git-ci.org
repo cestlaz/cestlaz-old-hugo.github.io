@@ -1,5 +1,5 @@
 ---
-title: Hosted websites, Contiuous Integration GitHub and GitLab 
+title: Hosted websites, Continuous Integration GitHub and GitLab 
 date: 2023-03-12T12:08:29-04:00
 tags:
 - web 
