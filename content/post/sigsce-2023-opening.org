@@ -10,11 +10,11 @@ draft: false
 
 Arrived in Toronto yesterday for SIGCSE 2023 along with Devorah and
  Batya. Devorah to play tourist and Batya as conference attendee. As usual, I arrived
-early the day befoer to get my bearings. Since we weren't partaking in
+early the day before to get my bearings. Since we weren't partaking in
  any of the preconference activities we had an afternoon to explore
  the city. Ten miles walking from the hotel near the CN Tower, through
  and all around Kensington, looping through the University of Toronto
- campus and back. We local arts, games, yarn and fabric  shops as well as
+ campus and back. We hit local arts, games, yarn and fabric  shops as well as
  other local establishments.
 
  This morning, I have to say that the intro announcements was for the
@@ -29,7 +29,7 @@ early the day befoer to get my bearings. Since we weren't partaking in
  to Covid. Interpret that as you will.
 
  After the usual announcements - logistics, policies, top papers etc,
- we were off to the first keynote - atronaut Robert Thirsk. I really
+ we were off to the first keynote - astronaut Robert Thirsk. I really
  enjoyed his talk but it was an interesting choice as he's neither an
  educator or commputer scientists.
 
@@ -74,7 +74,7 @@ early the day befoer to get my bearings. Since we weren't partaking in
 
  First off, simulation modelling and experiential learning takes
  longer and, like most teaching, works better in small classes. You
- know, likein those schools that rich folk send their kids to. Not so
+ know, like in those schools that rich folk send their kids to. Not so
  much in the public schools. It's also much easier to test
  memorization with standardized tests so I wouldn't hold my breath.
 
@@ -82,8 +82,8 @@ early the day befoer to get my bearings. Since we weren't partaking in
  money and keeping those in power in that money. We could maintain our
  infrastructure, simulate possible dangerous scenarios and how to deal
  wtih them and build in failsafes and redundencies but why do
- that. All it wall do is maybe save lives or make sure people have
- clean water to drink and air th breath but it's cheaper and more
+ that. All it will do is maybe save lives or make sure people have
+ clean water to drink and air to breath but it's cheaper and more
  profitable to behave irresponsibly.
 
  Sorry, that's not particularly uplifting but that is America.
