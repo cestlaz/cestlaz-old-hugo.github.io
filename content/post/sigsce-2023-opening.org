@@ -1,0 +1,115 @@
+---
+title: Sigsce 2023 Opening morning
+date: 2023-03-16T10:59:58-04:00
+tags:
+- SIGCSE
+categories:
+- SIGCSE
+draft: false
+--- 
+
+Arrived in Toronto yesterday for SIGCSE 2023 along with Devorah and
+ Batya. Devorah to play tourist and Batya as conference attendee. As usual, I arrived
+early the day befoer to get my bearings. Since we weren't partaking in
+ any of the preconference activities we had an afternoon to explore
+ the city. Ten miles walking from the hotel near the CN Tower, through
+ and all around Kensington, looping through the University of Toronto
+ campus and back. We local arts, games, yarn and fabric  shops as well as
+ other local establishments.
+
+ This morning, I have to say that the intro announcements was for the
+ birds, or more specifically, the bird as there was a pigeon soaring
+ up and all around the plenary hall.
+
+ More seriously we had the usual warm welcome and I have to
+ acknowledge that I really appreacited that like last year, coffee was
+ available before the first session, Interesting that they
+ announced around 1500 total participants which included both in
+ person and remote. This is still down from in person attendance prior
+ to Covid. Interpret that as you will.
+
+ After the usual announcements - logistics, policies, top papers etc,
+ we were off to the first keynote - atronaut Robert Thirsk. I really
+ enjoyed his talk but it was an interesting choice as he's neither an
+ educator or commputer scientists.
+
+ Thirsk was a mission engineer on the space shuttle and he walked us
+ through a mission. He artistically painted a picture of the
+ environment, launch and all that it entailed. As the mission
+ proceeded, he recounted how they dealt with systems failure after
+ failure. Some legit, some sensor issues, some major, some minor. In
+ the end they had to abort and make a danger fraught landing. From
+ Florida to Spain in 40 minutes.
+
+ Then the reveal - it was all a dream. Or rather a simulation.
+
+ Then Thirsk proceeded with his takeawys and how he felt they related
+ to education.
+
+ First, a couple of things I noted about this mission:
+
+ One, and this was something repeatedly emphasized by Thirst was that
+ in order for the space shuttle to work over a million components have
+ to work, interact, and work together both the first time and
+ everytime and there has to be extreme redundency.
+
+ Another was that the crew used notepads for their checklists and for
+ important information. Here they are in one of the worlds most
+ advanced technological creations. Surrounded by monitors, switches,
+ indicators and the best technology can provide and they were using
+ old school, hand held, hand written notebooks. Cool.
+
+ After the mission, Thirsk talked about his takeaways. His big one was
+ simulation modelling and experiential learning and doing  it so much
+ that not only will you get it right but you can't get it wrong.
+
+ Thirsk felt that we need much more of this and if our populations
+ were trained this way maybe we woould have had better responses in
+ times of crisis like when Covid hit or the supply chains failed.
+
+ We already see a push for experiential learning in CS so I think most
+ of us would agree but while his pleas were probably preaching to the
+ choir this morning, it will probably fall on the deaf ears of those
+ who actually make decisions and set policy.
+
+ First off, simulation modelling and experiential learning takes
+ longer and, like most teaching, works better in small classes. You
+ know, likein those schools that rich folk send their kids to. Not so
+ much in the public schools. It's also much easier to test
+ memorization with standardized tests so I wouldn't hold my breath.
+
+ Also, our entire system isn't based on the common good. It's based on
+ money and keeping those in power in that money. We could maintain our
+ infrastructure, simulate possible dangerous scenarios and how to deal
+ wtih them and build in failsafes and redundencies but why do
+ that. All it wall do is maybe save lives or make sure people have
+ clean water to drink and air th breath but it's cheaper and more
+ profitable to behave irresponsibly.
+
+ Sorry, that's not particularly uplifting but that is America.
+
+ Another big takeaway Thirsk talks of the importance of "non technical
+ competencies" which is a *much* better term for soft skills and that
+ there are all sorts of important things to learn during the college
+ experience beyond the classroom. No argument there.
+
+ Finally, Thirsk talked about the influence of educators. Something
+ I've [[https://cestlaz.github.io/post/forgot/][written about]] before. He told of how Mrs. Shirly Cole, his third
+ grade teacher took time out from class to play a radio broadcast on
+ John Glenn's launch into space. Mrs. Cole didn't remember this years
+ later but it had a huge impact. Thirsk went on to talk of other
+ educators and how they had impacts.
+
+ This is something worth remembering. Sure, we teach CS - loops,
+ conditionals and the like but sometimes it can be a little something
+ else that has greatest impact.
+
+ As I said, it was an interesting choice to select a non educator no
+ CS person but it was a strong keynote and I enjoyed it immensley.
+
+ At the coffe break I barely got to any vendors as I ran in to some
+ friends. I'm writing this while listening to a session on the ACM
+ 2023 CS Curriculumm (Beta). I'm not getting a whole lot out of this
+ session, hence writing the post. I'll probably talk a bit about this
+ session though in a later post.
+ 
