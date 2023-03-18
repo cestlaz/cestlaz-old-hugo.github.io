@@ -9,7 +9,7 @@ draft: false
 --- 
 
 Long day two at SIGCSE lots of interesting stuff. Don't have the time
-or enegery to write anything up so I thought I'd share a list of
+or energy to write anything up so I thought I'd share a list of
 topics that I plan to write up in the next few days or weeks.
 
 After day 1's keynote and the session on the ACM's 2023 curriculum I
