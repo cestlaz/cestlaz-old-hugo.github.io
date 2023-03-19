@@ -5,7 +5,7 @@ tags:
 - SIGCSE
 categories:
 - SIGCSE
-draft: true
+draft: false
 ---
 
 My new favorite session at SIGSCE is "It seemed like a good idea at
