@@ -31,9 +31,9 @@ I couldn't really take in the entirety of the conference all at once
 and have no access to the actual data.
 
 I really enjoyed this edition of SIGCSE and I'll share specifics in
-future posts but for now I'' say it was 100% a worthwhile and valuable
+future posts but for now I'll say it was 100% a worthwhile and valuable
 experience. That said, I saw too many instances of college faculty
-talking authratatively about instruction in ways that would get them
+talking authoratively about instruction in ways that would get them
 laughed out of any strong collection of K12 teachers. 
 
 I'm not the only one who experienced this.
@@ -67,7 +67,7 @@ still leaves much to do on return trips.
 * Favourite parts
 
 My favourite thing about this trip was that my daughter Batya came
-along. She's an SE at Meta but is spending the semester teaching at
+along. She's a software engineer at Meta but is spending the semester teaching at
 Georgia State so Meta sent her along. Of course now, she's considering
 this ed thing as a possible career path (particularly if she's hit in
 the next round of layoffs). Devorah also came along but only to play
