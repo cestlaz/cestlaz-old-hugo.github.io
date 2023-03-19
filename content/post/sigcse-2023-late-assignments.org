@@ -1,0 +1,109 @@
+---
+title: SIGCSE 2023 - 
+date: 2023-03-19T09:36:56-04:00
+tags: 
+categories: 
+draft: true
+--- 
+
+My new favorite session at SIGSCE is "It seemed like a good idea at
+the time." Panelists share something they tried in or with their
+classes that they thought would be awesome. It wasn't. then they
+shared either how they tried to fix it or left it open ended. It's a
+lot of fun and for the two years I've attended the most interesting
+and valuable session.
+
+I wish though, that there was a presenter that shared something about
+a specific lesson and how that failed - most, I think, all the talks
+I've been to in this session were always a little tangential to the
+actual class content. I do understand this - it's hard to get up in
+front of a room of people and say "I failed" though I'm going to try
+to find something, the bigger the better that I can share at a future
+SIGCSE, I mean, I've been doing this for 33+ years so I've got to have
+tons of failures to draw from.
+
+The only other thing was that last year, the organizers asked for
+questions or suggested solutions at the end, this time only
+questions. I think it's important to explicitly call to the audience
+for both. I was going to share the my suggestion for one of the
+scenarios at the session but instead I shared it with the panelist at
+SIGCSE and will share it here. 
+
+The scenario in question was presented by my long time friend Lauren
+Bricker of the University of Washington, although a very similar
+situation was also presented by __________ of Duke. Lauren was one of
+the few High School teachers with a strong background in CS so she's
+really a unicorn and it made sense for Udub to come calling and snatch
+her up.
+
+The issue was students turning in projects late. This is a tale as old
+as time. Deadlines are a hot button issue in education. Some think
+that we need hard ones and others think you should be able to turn
+anything in at any time. I fall somewhere in between.
+
+In Lauren's case far too many students were asking for
+extensions. This was a problem. The first solution was to allow any
+student to request a 2 week extension on any in term project. You
+couldn't ask for an extension on the final project. With the
+extension, a student could resubmit one time.
+
+This worked well with some students - students who had something going
+on during the project run or otherwise had legitimate issues that made
+the original project window unrealistic.
+
+The problem was that too many students would use the policy to
+basically not do anything until the last minute - essentially treat
+the project as a project with a deadline two weeks further out.
+
+So, this policy worked for the student who tried to do things the
+right way but would end up with others getting jammed up and falling
+further and further behind as the class moved on.
+
+One suggested solution would be to require specific milestones be
+submitted but this would likely be a hardship on the students who
+legitimately needed the extra time.
+
+My suggestion was as follows.
+
+I noticed that  Lauren uses git with her classes. Git has a wonderful
+feature - extensive logs. As long as a student commits and pushes
+their work to whatever central repository system they use - GitLab,
+GitHub or other, the instructor can easily see what was done when.
+
+My policy has always been that as long as you've been doing some level
+of legitamate work on a project I'll give an extension. When I do
+grant an extension I always start by asking the student - when do you
+think is a reasonable due date and I also ask about any resources they
+need. As long as the their suggestion is reasonable I go with it. If
+it isn't, we discuss why it isn't and come up with something together.
+
+What do I mean by legitamate work? Well, that depends but at a very
+basic level, I look to see if there was some development of the
+project, some code, working or failed or even documentation in the
+readme about a student's issues (we set that policy of using the
+readme as such early in the semester).
+
+If a student asks for an extension but didn't commit/push anything, we
+have a discussion. I may or may not grant the extension but you can
+bet the next time they do it right.
+
+The nice thing about this solution is that aspects can also be
+automated. It's easy enough to write a script to determine how many,
+if any commits a student has pushed in a given time frame. It would be
+equaly easy to write a script to email students or instructors if a
+student wasn't submitting anything within a certain time frame.
+
+For my policy, beyond this, I just request that the student asks for
+the extension prior to right before an assignment is due. Some
+teachers disagree and feel that requiring a student ask is more than
+what should be expected but I do think that there is a point where a
+student has to advocate for themselves and I'll usually accept the
+first last minute request but then not future ones.
+
+So, that's how I've been dealing with late projects and it's worked
+well for me and my classes. I hope it can be helpful to some of you
+out there but if you've got another policy or method of trying to get
+students to work on  their peojcts in a timely manner please share.
+
+
+
