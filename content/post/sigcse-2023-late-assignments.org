@@ -1,40 +1,21 @@
 ---
-title: SIGCSE 2023 - 
+title: SIGCSE 2023 - Deadlines and Commitments  
 date: 2023-03-19T09:36:56-04:00
 tags: 
-categories: 
+- SIGCSE
+categories:
+- SIGCSE
 draft: true
 --- 
 
-My new favorite session at SIGSCE is "It seemed like a good idea at
-the time." Panelists share something they tried in or with their
-classes that they thought would be awesome. It wasn't. then they
-shared either how they tried to fix it or left it open ended. It's a
-lot of fun and for the two years I've attended the most interesting
-and valuable session.
-
-I wish though, that there was a presenter that shared something about
-a specific lesson and how that failed - most, I think, all the talks
-I've been to in this session were always a little tangential to the
-actual class content. I do understand this - it's hard to get up in
-front of a room of people and say "I failed" though I'm going to try
-to find something, the bigger the better that I can share at a future
-SIGCSE, I mean, I've been doing this for 33+ years so I've got to have
-tons of failures to draw from.
-
-The only other thing was that last year, the organizers asked for
-questions or suggested solutions at the end, this time only
-questions. I think it's important to explicitly call to the audience
-for both. I was going to share the my suggestion for one of the
-scenarios at the session but instead I shared it with the panelist at
-SIGCSE and will share it here. 
+The first "good idea at the time" dealt with deadline extensions. 
 
 The scenario in question was presented by my long time friend Lauren
-Bricker of the University of Washington, although a very similar
-situation was also presented by __________ of Duke. Lauren was one of
-the few High School teachers with a strong background in CS so she's
-really a unicorn and it made sense for Udub to come calling and snatch
-her up.
+Bricker of the University of Washington although a very similar
+situation was also presented by of Kristin Stephens-Martinez of
+Duke. Lauren was one of the few High School teachers with a strong
+background in CS so she's really a unicorn and it made sense for UW
+to come calling and snatch her up.
 
 The issue was students turning in projects late. This is a tale as old
 as time. Deadlines are a hot button issue in education. Some think
