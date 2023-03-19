@@ -1,0 +1,121 @@
+---
+title: SIGCSE  2023 An Overview
+date: 2023-03-18T19:40:54-04:00
+tags:
+- SIGCSE
+categories:
+- SIGCSE
+draft: false
+--- 
+
+On top of what I posted yesterday, it looks like I'll add something
+on Nifty Assignments but as I'm winding down in my Toronto Hotel
+waiting for tomorrow morning's flight home, I thought I'd share some
+general thoughts on the conference.
+
+* Numbers and perceptions.
+The announced attendance was around 1500 but that was both in person
+and remote. It would be interesting to know what the in person numbers
+were but I'd estimate it was under 1000. There were a good number of
+people there but it didn't feel overwhelming. Continuing a terrific
+change from last year, coffee and tea were available before the first
+session each day and overall, at least from my perspective the
+organizing team did a great job.
+
+SIGCSE has always been a college level thing. Over the years, more and
+more K12 educators have been attending and the scope has been widening
+but this year, the K12 numbers seemed lower. There also seemed to
+be a larger than usual amount of first timers. Of course, I could be
+all wrong about this since this was just based on my observations and
+I couldn't really take in the entirety of the conference all at once
+and have no access to the actual data.
+
+I really enjoyed this edition of SIGCSE and I'll share specifics in
+future posts but for now I'' say it was 100% a worthwhile and valuable
+experience. That said, I saw too many instances of college faculty
+talking authratatively about instruction in ways that would get them
+laughed out of any strong collection of K12 teachers. 
+
+I'm not the only one who experienced this.
+
+This morning, during the Nifty Assignments session, I was speaking to
+a HS teacher who I've known for a long time but was meeting in person
+for the first time. It was his  first SIGCSE. I asked how he was
+liking it. His response was "well, there are a whole lot of professors
+who really could use a class or two in pedagogy."
+
+Now, I'm probably being a bit hyperbolic but I do believe that many
+college educators could learn a lot about teaching from K12 teachers -
+particularly inner city K12 teachers, and for some there's a level of
+arrogance that won't let them do so.
+
+* Location
+
+It was my first time in Toronto and I really enjoyed the city or at
+least the parts I was able to see.
+
+Between Wednesday and Saturday, I walked about 20 miles of Toronto
+streets. Hit the waterfront, the Fort York historic site, the Shoe
+Museum (who would have thought there would be a museum dedicated to
+Shoes), Kensington, UofT and more.
+
+We had fun meals at Sneaky Pete's and the Loose Moose and really good
+modern Indian at Kettle. Side snacks at Wanda's Pies and from the
+tourist and foodie point of view the trip was a great success but
+still leaves much to do on return trips.
+
+* Favourite parts
+
+My favourite thing about this trip was that my daughter Batya came
+along. She's an SE at Meta but is spending the semester teaching at
+Georgia State so Meta sent her along. Of course now, she's considering
+this ed thing as a possible career path (particularly if she's hit in
+the next round of layoffs). Devorah also came along but only to play
+tourist. Just like it was a treat for me to have Batya in my class
+back at Stuy, it's also such a treat to be able to share professional
+experiences be they strict tech or even better education. 
+
+Also, of course, was the hallway track. I was able to at least say hi
+to almost everyone I wanted to who I knew was there. True in one case
+it was on the escalator out of the center for the final time and I was
+so conferenced out by then I was barely coherent but still, so great
+to see old friends.
+
+Session wise, I loved the "It seemed like a good idea,"
+"Microteaching," and "Nifty Assignments" trifecta. Each of those
+tackled a different aspect of actual teaching so together they made
+for an interesting set. I'll write more about each later.
+
+As a final plus, I'll say that the coffee break snacks were top notch. 
+
+* Least favorite parts
+
+There were a few sessions that unfortunately did dissapoint. One was a
+session on liberal arts schools and the forthcoming ACM 2023
+curriculum. The presenters talked about liberal arts colleges being
+different but I was really hoping for a how and/or why. I left having
+learned very little. I was hoping for maybe an example of a liberal
+arts college and why its curriculum differed from a school
+implementing the traditional ACM 2013 curriculum or a specific example
+of how two liberal arts colleges differed from each other.
+
+There were a few sessions like this where I was hoping for more than a
+reading of the paper or report. The paper provided the bones but I
+wanted the talk to be the meat on the bones. I'd say about two thirds
+of the sessions I went to had the meat but a few were lacking.
+
+My other downside, and I don't know how to avoid this was that this
+year I had the bad luck more than in the past of having more time
+slots that had multiple sessions I really wanted to see at the same
+time along with other slots with nothing that talked to me.
+
+
+
+
+* What's next
+
+So that's a quick hit on some overall thoughts, some good, and some
+bad. I'll start writing posts soon on individual sessions and  in some
+cases individual presentations.
+
+
