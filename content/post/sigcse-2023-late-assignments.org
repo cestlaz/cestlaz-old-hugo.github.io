@@ -1,11 +1,11 @@
 ---
 title: SIGCSE 2023 - Deadlines and Commitments  
-date: 2023-03-19T09:36:56-04:00
+date: 2023-03-20T12:41:23-04:00
 tags: 
 - SIGCSE
 categories:
 - SIGCSE
-draft: true
+draft: false
 --- 
 
 The first "good idea at the time" dealt with deadline extensions. 
