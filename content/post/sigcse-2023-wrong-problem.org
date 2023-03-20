@@ -1,0 +1,66 @@
+---
+title: SIGCSE 2023 - when the solution solves the wrong problem
+date: 2023-03-20T17:50:16-04:00
+tags:
+- SIGCSE
+categories:
+- SIGCSE
+draft: true
+--- 
+
+The next good idea was from David Malan of Harvard's CS50 class. For
+full disclosure, I have to say that I've been skeptical of CS50 ever
+since I started hearing from my former students. I've had a lot of
+them either take CS50 at Harvard, TA the class, or TA the course that
+follows CS50 and their assessment is, let's say somewhat different
+than the usual Ted Talk miracle course hype that normally surrounds
+it.
+
+What was the problem? Office hours. Malan described how offices hours
+started in a dark dank computer lab but as they realized that most if
+not all students had laptops they moved them to dining halls across
+classrooms complete with snacks. This should have been great but he
+shared a graph showing the typical cyclic behavior of office hours
+visits - peaking right before each project was due. He also shared
+that the wait for a TA would reach two hours at those peak times.
+
+The solution involved reworking office hours to group office hours -
+adding another small recitation to the class if you would and also one
+single big office hours block with all 80 teaching assistants.
+
+The problem - too many students waiting too long for help over and
+over again is a real problem. The problem is that the solution doesn't
+address the real problem.
+
+As an experienced teacher I had one immediate thought.
+
+Over the day I ended up speaking to 3 other experienced HS teachers. I
+told each the problem - even with Harvard's resources, overloaded
+office hours - too many students, too long a wait. I told the solution
+as well - small group office hours + 1 big office hour block.
+
+Each independently and immediately had the same reaction I did.
+
+If you've got large numbers of students coming out to office hours
+over and over again the problem probably isn't with the TAs. The
+problem is probably in the course.
+
+Same thing when half the class fails a test or can't complete a
+project. That's the time that as teachers we have to look at
+ourselves. Maybe we're not teaching something well or maybe it's too
+much in too short a time. Maybe an assignment is just unrealistic. 
+
+In any event, indications based on the presentation is that the issue
+is in the course, not the office hours arrangements.
+
+Besides, looking at the small group TA solution, what you're really
+doing is adding an additional recitation to the class without awarding
+any additional credits to the students.
+
+I could be all wrong on this but I don't think I am. It's not uncommon
+for an instructor not to look inward when issues arise.
+
+So, this might not be popular but that was my take.
+
+That's it for my posts on "It seemed like a good idea at the time."
+Next we'll move to thoughts on some other sessions.
