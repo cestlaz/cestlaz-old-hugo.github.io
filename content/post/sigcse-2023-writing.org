@@ -1,0 +1,78 @@
+---
+title: SIGCSE 2023 Writing in CS Classes
+date: 2023-03-21T10:54:01-04:00
+tags:
+- SIGCSE
+categories:
+- SIGCSE
+draft: true
+---
+
+On to Friday's "Computing and Liberal Arts" session.
+
+A couple to write about here. One will bring us back to Harvard's
+CS50 - I'll save that for tomorrow. Today I'll share what Lisa Zhang
+and her team at the University of Toronto at Mississauga are doing to
+bring writing into their CS classes.
+
+Most people I speak to agree that in America we don't do a good
+job teaching writing. It looks like Canada might not be doing much
+better. Communication is so fundamental that it's great to see a full
+CS program embracing the importance of writing and doing it without
+compromising their own content.
+
+Unfortunately, and I say this tongue in cheek, they seem to be doing
+it the right way so those of us who would have to run stealth can't
+really steal their program and process.
+
+To start they have a bunch of instructors bought in and they're
+integrating writing in five core classes:
+
+ 1. CS 2
+ 2. Data Structures
+ 3. Computer Architecture
+ 4. Theory
+ 5. Systems
+    
+Right off the bat I love this - 5 classes over two, maybe three years
+with different instructors all in agreement that their students have
+to be better at writing and communicating.
+
+Next, they made the writing topical to each class. They might write a
+man page, that is program documentation in a course where they write
+an application. A proof in the theory course, an email to a potential
+interviewer, etc.. Not only does this ensure that the assignments flow
+naturally in the class but it also develops the kinds of writing
+skills they'll need in the future.
+
+Now, how do they do this without overloading the current teaching
+staff and what makes a bunch of CS professors and TAs qualified to
+assess and improve writing? That's always been a big question with
+writing across the curriculum efforts.
+
+They're doing it by hiring a writing specialist who's in charge of
+the writing aspects of the classes. They also hired specific writing
+TAs who would support the writing aspect to go along with the
+traditional CS subject TAs who would continue to support the regularly
+scheduled class content.
+
+How did they assess the writing TAs? They gave them a writing sample
+to critique. Not perfect but I guess no worse than a TA in any writing
+heavy class.
+
+Overall, I love this approach. At Hunter, we have a writing center but
+if the writing isn't Incorporated into the class and the supports
+aren't right there, you're not going to get the same benefit.
+
+One other aspect of their writing program that I love is that it's
+pragmatic and focused on the bottom line - communication. They decided
+*not* to focus on grammar and grammar errors so long as the issue
+didn't impair understanding and communication. This is great overall
+and particularly is important if your classes have English language
+learners. 
+
+So no teacher analysis or alternate views today. Just wanted to share
+some really cool stuff being done at UofT Mississauga.
+
+You can find the paper [[https://dl.acm.org/doi/10.1145/3545945.3569729][here]].
+
