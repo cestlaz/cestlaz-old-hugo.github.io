@@ -52,13 +52,13 @@ their work to whatever central repository system they use - GitLab,
 GitHub or other, the instructor can easily see what was done when.
 
 My policy has always been that as long as you've been doing some level
-of legitamate work on a project I'll give an extension. When I do
+of legitimate work on a project I'll give an extension. When I do
 grant an extension I always start by asking the student - when do you
 think is a reasonable due date and I also ask about any resources they
 need. As long as the their suggestion is reasonable I go with it. If
 it isn't, we discuss why it isn't and come up with something together.
 
-What do I mean by legitamate work? Well, that depends but at a very
+What do I mean by legitimate work? Well, that depends but at a very
 basic level, I look to see if there was some development of the
 project, some code, working or failed or even documentation in the
 readme about a student's issues (we set that policy of using the
