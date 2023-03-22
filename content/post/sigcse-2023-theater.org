@@ -1,0 +1,117 @@
+---
+title: Sigcse 2023 Theater
+date: 2023-03-22T06:43:22-04:00
+tags: 
+categories: 
+draft: true
+---
+
+I'll recount what I said a couple of posts earlier - I was speaking to
+a HS teacher who I've known for a long time but was meeting in person
+for the first time. It was his first SIGCSE. I asked how he was liking
+it. His response was "well, there are a whole lot of professors who
+really could use a class or two in pedagogy."
+
+I'll go further to say that we always give extra value and credence
+to those that come from elite institutions. It's just a reflection on
+society - famous people are considered authorities and frequently
+assert themselves as such. What does Bill Gates know about education?
+Nothing, yet he's done more to drive education policies in America
+than any ten teachers. David Coleman controls education through the
+college board and "gifted" us with common core and how many years did
+he teach? what about Wendy Kopp of Teach For America.
+
+But I digress.
+
+If something comes out of an elite institution it's good. Otherwise,
+we're skeptical. I can't tell you how many times I've heard a student
+complain about something at Hunter, another CUNY, or a similar
+institution but when I've heard students talk of similar or worse from
+places like Stanford, Harvard, or CMU, it's always considered the
+right way to do things.
+
+All this leads up to more commentary on Harvard's CS50. In this
+session David Malan, the course's creator and instructor was talking
+about innovative ways of engagement that he used during Covid. Beign
+at Harvard, he had access to the American Repertory Theater to film as
+well as a professional level props department.
+
+It must be nice to have almost limitless resources.
+
+Malan talked about ripping a phone book to demonstrate binary search,
+using blocks and string for linked lists, swapping variables by
+modeling with two cups filled with colored liquids then three. Linear
+search with "let's make a deal" style doors and more.
+
+All of these came with the expected level of glitz and showmanship.
+
+Now, to be fair, most of the ideas presented were good ones, although
+I'll suggest a better specific one for linked list down below. No
+problem with the presentation - I liked it. The thing that made me sad
+is at the college level this is considered innovative. I know teachers
+who were ripping phone books in the 80s. They were teaching binary
+search for the first time but they knew how to use manipulatives from
+day 1 as a teacher. Same for most of the other practices.
+
+Malan did bring up the important question as to how much time one
+should spend on these types of demos vs class materials and where's
+the line but I think a richer presentation would have included an
+instructor from a less well funded institution (or a HS teacher since
+these ideas are old hat to them) providing the dollar value version of
+the Harvard production and they could have discussed if they were
+equally effective or not.
+
+So, while I have my curmudgeonly take that for a K12 teacher not much
+here is new, the paper is worth looking over and at least for now,
+it's publicly available [[https://dl.acm.org/doi/10.1145/3545945.3569859][here]].
+
+To close things off, I wanted to talk about the linked list demo. It's
+a nice but medium to high effort demo. Malan made physical blocks to
+represent nodes and connected them with string. This could of course
+be done more cheaply with, let's say cardboard bankers boxes but I
+have another suggestion that worked better for me, although both are
+good ideas.
+
+It's actually the way I introduced linked lists prior to Covid when we
+were in person.
+
+Prior to class, I tell a subset of my  students a secret - who's after
+them. In person, I'd pull them aside on entry, on Zoom I'd dm them.
+
+I'd say:
+
+- John, don't tell anyone but Beth is after you
+- Sarah, don't tell anyone but Jean is after you
+- Beth, don't tell anyone but Sarah is after you
+- Jean, don't tell anyone but Harry is after you
+
+Etc.
+
+Now, sometime, students get worried and interpret "so and so is after
+you" to mean that person is out to get them. An unintended
+consequence, but it's always turned out to be an opportunity to have
+some class fun.
+
+Anyway, this is a linked list:
+
+John->Beth->Sarah->Jean->Harry
+
+I make it clear that each person can only know and remember two
+things - who they are and who's next.
+
+We can see that the list is distributed all over the class (or city on
+Zoom) and we can perform operations on the list. We try an insert and
+more often than not the person doing the insert does it in the wrong
+order - hilarity ensues.
+
+An instructor can go in all sorts of directions with this. It's fun
+and actively involves the students. The demo is nice but I much prefer
+this.
+
+So, that's it for today some good practices, possibly innovative at
+the college level but not at the HS one. Fun presentation and a paper
+worth reading over.
+
+I've still got a few more sessions to write up but it might be a
+couple of days before I post the next one.
+
