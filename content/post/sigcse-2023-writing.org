@@ -5,7 +5,7 @@ tags:
 - SIGCSE
 categories:
 - SIGCSE
-draft: true
+draft: false
 ---
 
 On to Friday's "Computing and Liberal Arts" session.
