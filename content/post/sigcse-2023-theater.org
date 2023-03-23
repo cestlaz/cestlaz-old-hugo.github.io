@@ -19,7 +19,7 @@ assert themselves as such. What does Bill Gates know about education?
 Nothing, yet he's done more to drive education policies in America
 than any ten teachers. David Coleman controls education through the
 college board and "gifted" us with common core and how many years did
-he teach? what about Wendy Kopp of Teach For America.
+he teach? What about Wendy Kopp of Teach For America.
 
 But I digress.
 
@@ -32,7 +32,7 @@ right way to do things.
 
 All this leads up to more commentary on Harvard's CS50. In this
 session David Malan, the course's creator and instructor was talking
-about innovative ways of engagement that he used during Covid. Beign
+about innovative ways of engagement that he used during Covid. Being
 at Harvard, he had access to the American Repertory Theater to film as
 well as a professional level props department.
 
@@ -51,19 +51,19 @@ problem with the presentation - I liked it. The thing that made me sad
 is at the college level this is considered innovative. I know teachers
 who were ripping phone books in the 80s. They were teaching binary
 search for the first time but they knew how to use manipulatives from
-day 1 as a teacher. Same for most of the other practices.
+day 1 as teachers. Same for most of the other practices.
 
 Malan did bring up the important question as to how much time one
 should spend on these types of demos vs class materials and where's
 the line but I think a richer presentation would have included an
 instructor from a less well funded institution (or a HS teacher since
-these ideas are old hat to them) providing the dollar value version of
+these ideas are old hat to them) providing the dollar store value version of
 the Harvard production and they could have discussed if they were
 equally effective or not.
 
 So, while I have my curmudgeonly take that for a K12 teacher not much
 here is new, the paper is worth looking over and at least for now,
-it's publicly available [[https://dl.acm.org/doi/10.1145/3545945.3569859][here]].
+it's freely available [[https://dl.acm.org/doi/10.1145/3545945.3569859][here]].
 
 To close things off, I wanted to talk about the linked list demo. It's
 a nice but medium to high effort demo. Malan made physical blocks to
