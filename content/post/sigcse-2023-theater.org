@@ -1,5 +1,5 @@
 ---
-title: Sigcse 2023 Theater
+title: Sigcse 2023 Theatrics in CS
 date: 2023-03-22T06:43:22-04:00
 tags: 
 categories: 
@@ -24,11 +24,11 @@ he teach? What about Wendy Kopp of Teach For America.
 But I digress.
 
 If something comes out of an elite institution it's good. Otherwise,
-we're skeptical. I can't tell you how many times I've heard a student
+people are  skeptical. I can't tell you how many times I've heard a student
 complain about something at Hunter, another CUNY, or a similar
 institution but when I've heard students talk of similar or worse from
-places like Stanford, Harvard, or CMU, it's always considered the
-right way to do things.
+places like Stanford, Harvard, or CMU, it's always oh, those
+institutions know how to do things.
 
 All this leads up to more commentary on Harvard's CS50. In this
 session David Malan, the course's creator and instructor was talking
@@ -46,12 +46,13 @@ search with "let's make a deal" style doors and more.
 All of these came with the expected level of glitz and showmanship.
 
 Now, to be fair, most of the ideas presented were good ones, although
-I'll suggest a better specific one for linked list down below. No
-problem with the presentation - I liked it. The thing that made me sad
-is at the college level this is considered innovative. I know teachers
-who were ripping phone books in the 80s. They were teaching binary
-search for the first time but they knew how to use manipulatives from
-day 1 as teachers. Same for most of the other practices.
+I'll suggest one I find better for linked list down below. No problem
+with the presentation - I liked it - all good stuff. The thing that
+made me sad is at the college level this is considered innovative. I
+know teachers who were ripping phone books in the 80s. They were
+teaching binary search for the first time but they knew how to use
+manipulatives from day 1 as teachers. Same for most of the other
+practices.
 
 Malan did bring up the important question as to how much time one
 should spend on these types of demos vs class materials and where's
@@ -62,8 +63,8 @@ the Harvard production and they could have discussed if they were
 equally effective or not.
 
 So, while I have my curmudgeonly take that for a K12 teacher not much
-here is new, the paper is worth looking over and at least for now,
-it's freely available [[https://dl.acm.org/doi/10.1145/3545945.3569859][here]].
+here is new it is really good stuff. The paper is worth looking over
+and at least for now, it's freely available [[https://dl.acm.org/doi/10.1145/3545945.3569859][here]].
 
 To close things off, I wanted to talk about the linked list demo. It's
 a nice but medium to high effort demo. Malan made physical blocks to
@@ -112,6 +113,8 @@ So, that's it for today some good practices, possibly innovative at
 the college level but not at the HS one. Fun presentation and a paper
 worth reading over.
 
-I've still got a few more sessions to write up but it might be a
-couple of days before I post the next one.
+Next I'll be writing up a session called Pedagogical Innovations. It
+really had nothing to do with pedagogy, more about curriculum but it
+too was a really good session.
+
 
