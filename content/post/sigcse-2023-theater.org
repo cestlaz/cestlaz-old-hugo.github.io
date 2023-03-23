@@ -3,7 +3,7 @@ title: Sigcse 2023 Theatrics in CS
 date: 2023-03-22T06:43:22-04:00
 tags: 
 categories: 
-draft: true
+draft: false
 ---
 
 I'll recount what I said a couple of posts earlier - I was speaking to
