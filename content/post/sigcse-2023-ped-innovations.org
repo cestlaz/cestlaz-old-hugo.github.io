@@ -1,0 +1,90 @@
+---
+title: Sigcse 2023 Ped Innovations
+date: 2023-03-22T19:00:52-04:00
+tags:
+- SIGCSE
+categories:
+- SIGCSE
+draft: true
+--- 
+
+Next up was a session called Pedagogical Innovations. Good stuff but
+not really pedagogy. Maybe curricular innovations would have been
+better.
+
+The third session was about virtual summer camps - I had to skip out
+for that but here's what went on in the first two sessions.
+
+The first session involved professors from Oregon State working with
+middle school teachers teaching CS through the use of classic physical
+games. Specifically tic tac toe (paper [[https://dl.acm.org/doi/10.1145/3545945.3569883][here]]). I've used games like tic
+tac toe and connect 4 in high school classes but never younger. You
+can read the paper for details but there were some ups and
+downs. Students made progress but had trouble with the algorithm and
+conditionals. I wonder if it was too much too soon. I'm always
+skeptical when I hear classes of really young kids doing work that my
+Stuy HS kids had trouble with. Sometimes it's too young or too much
+and there's nothing wrong with that. In fact, we'd be better off if
+more people recognized that.
+
+It was nice to see that acknowledgment here.
+
+One other point of note, and one I'm super glad they brought up was
+the acknowledgment that even with training and extreme support,
+teachers that didn't come in with a strong programming background had
+a very hard time.
+
+So nice for people other than me to say that publicly. 
+
+We've been hearing CS is so easy - anyone can do it, anyone can teach
+it but it's just not so. It takes time and effort just like anything
+else and every time code.org or some other flavour of the month says
+you can teach CS without really learning CS devalues the subject and
+the teaching profession.
+
+So, that was presentation one and I encourage you to read the paper
+linked above.
+
+The second presentation was by Dan Garcia and the BJC crew a new
+class - [[https://bjc.berkeley.edu/sparks/][BJC Sparks]]. Again, not pedagogy but curriculum. The idea was
+middle school functional first programming course in Scratch.
+
+I'm a big functional guy so I love this.
+
+I've frequently come out against drag and drop languages but that's in
+later grades and this is middle school so I'm fine with it here. I do
+have some questions relating to drag and drop in general:
+
+ - how do you deal with large programs on small screens?
+ - Is there a difference in learning by dragging blocks vs say typing
+   words, vs even writing words?
+ - Jigsaw puzzle programming
+
+but those are questions for another time.
+
+Here the BJC crew start with a functional approach to programming but
+then add imperative constructs. I was curious about two things. One
+was when was the optimal time to do that switch - they weren't sure. I
+think that's a worthwhile question to explore.
+
+The other question was how to keep students from using the imperative
+blocks until they're introduced and this is the cool part - they can
+disable those blocks from the language until needed. Something like
+the different levels of language with Dr.Racket but apparently with
+finer grain control.
+
+This course looks pretty exciting and if I do stay in the game and
+want to look more at the middle school level, I'll be sure to look at
+it more carefully.
+
+So that's it for today.
+
+Still to come?
+
+- Microteaching
+- Nifty Assignments
+- And also some closing thoughts
+
+  
+
+
