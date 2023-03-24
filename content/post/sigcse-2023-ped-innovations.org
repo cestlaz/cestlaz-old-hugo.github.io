@@ -5,12 +5,12 @@ tags:
 - SIGCSE
 categories:
 - SIGCSE
-draft: true
+draft: false
 --- 
 
 Next up was a session called Pedagogical Innovations. Good stuff but
 not really pedagogy. Maybe curricular innovations would have been
-better.
+a better title.
 
 The third session was about virtual summer camps - I had to skip out
 for that but here's what went on in the first two sessions.
@@ -45,11 +45,11 @@ the teaching profession.
 So, that was presentation one and I encourage you to read the paper
 linked above.
 
-The second presentation was by Dan Garcia and the BJC crew a new
+The second presentation was by Dan Garcia and the BJC crew on a new
 class - [[https://bjc.berkeley.edu/sparks/][BJC Sparks]]. Again, not pedagogy but curriculum. The idea was
 middle school functional first programming course in Scratch.
 
-I'm a big functional guy so I love this.
+I'm a big functional programming guy so I love this.
 
 I've frequently come out against drag and drop languages but that's in
 later grades and this is middle school so I'm fine with it here. I do
@@ -85,6 +85,7 @@ Still to come?
 - Nifty Assignments
 - And also some closing thoughts
 
-  
+
+
 
 
