@@ -1,0 +1,113 @@
+---
+title: The joys and sorrows of teaching
+date: 2023-03-26T18:59:01-04:00
+tags:
+- policy
+categories:
+- policy 
+draft: false
+--- 
+
+Yesterday I was at a former student's wedding. It was a beautiful
+affair. For me, to be invited to attend was one of the greatest gifts
+I have received as a teacher. Seriously. One of the greatest
+opportunities of teaching is the chance to be a force for good in a
+student's life and one of the greatest gifts we can receive is when a
+student lets you know you've made a difference. When over time they
+decide to share life events. Wow.
+
+I've probably been to more than my fair share of former student events and
+I'm always greatly touched.
+
+I guess I've also been thinking about things like this recently with
+my pending retirement and also since I've been interviewing potential
+students for my teacher education masters program. I got to enjoy one
+particular interview when I asked the candidate where they were
+currently working as a SWE. After they answered, I was able to reel
+off the names of four of my former students who are also working
+there.
+
+That particular interview was really energizing. The others I did were
+as well. You have to get excited by the energy of these young CS
+people - most who spent a short time in industry but some applying
+right from college who are now anxious to enter the teaching workforce
+to make a difference in young people's lives.
+
+Energizing to the point that I'll miss teaching them next year but not
+enough to make me forget that I *really* need to step back. Besides, I
+can probably teach them as an adjunct in their second year in the
+program :-).
+
+So all this has me looking back and when I was talking to each program
+candidate, I make sure to talk to them about both the good and the
+bad of the profession. The good are in the relationships we build and
+how we can change, and literally save lives and often we do it by
+being ourselves and just by being decent human beings. Years ago, I
+was  purchasing some hardware. I needed a Milwaukee hammer drill among
+other things. A former student's father was an executive at that
+company. He took my order and payment info. The tools arrived shortly
+later but no charge. I called him up and protested (I mean, I would
+have liked a small discount, but this was the whole deal). He said,
+"you don't pay for tools, you saved my kid's life." I was, and am very
+fond of this former student but I really didn't think I did anything
+special.
+
+I'm hoping that current teachers reading this give themselves the time
+and space to appreciate their accomplishments even as the system we
+all work in has become more and more difficult to navigate and survive
+in.
+
+That brings us to the other side - the cons and the bigger picture of
+the cons. That's something that I wish more teachers were more in tune
+with and more vocal about.
+
+Yes, teaching can be extremely awarding if you can make it work
+financially but make no mistake, public education is under attack and
+not just by republicans. We see daily the news out of Florida but
+there are more subtle things going on.
+
+I've been calling out the college board for ages - treating districts
+as cash cows, peddling in valueless high stakes tests and on and
+on. Too few teachers call them out and take a stand. When they did
+dirty with the AP African American Studies and Florida there were a
+few complaints but now we're back to business as usual.
+
+Another big one are charters. Again, I've been stating my opinion for
+decades but too few take the time to look behind the hype. The blindly
+accept their published graduation rates and never question simple
+factual data like how Success Academy boasted a near perfect
+graduation and college acceptance rate with their first cohort but
+never mention that they started with nearly 100 students but only
+graduated 17.
+
+Now, they're not even trying to hide. In NY because our leaders are
+beholden to the right, charters, most notably the money chains like
+Success Academy got legislation passed so that the public school
+system would have to either provide space for charters in their
+already overcrowded buildings or pay the rent for the charters. Just
+last week it was announced that Success Academy created a shell entity
+that purchased properties. You can be sure that those properties will be
+charging the city exorbitant amounts to pay for their charter schools
+that while being the darling of people like Mike Bloomberg only
+graduate 17% of their students.
+
+These and many more big picture issues are changing the landscape of
+public education and not for the better. Republican states have
+skipped passed the charter movement and gone straight to vouchers - a
+way to directly funnel money from the public to the wealthy but blue
+states are still destroying public education behind a screen.
+
+So that's the good and that's the bad. I'm excited for the new
+youngsters who want to enter our field but I'm appealing to us elders
+to take a stand and be more vocal to make sure they have a field to
+teach in,
+
+Thanks for reading. Hope the first part was inspirational and
+sorry for the rant but I wish more teachers and more people in general
+would really take a stand.
+
+Next time back to more direct CS Ed stuff.
+
+
+
+
