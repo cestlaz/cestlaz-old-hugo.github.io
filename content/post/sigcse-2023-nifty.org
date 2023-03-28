@@ -1,53 +1,67 @@
 ---
 title: Sigcse 2023 Nifty
 date: 2023-03-28T08:21:58-04:00
-tags: 
-categories: 
+tags:
+- sigcse
+categories:
+- sigcse
 draft: true
 --- 
 
+The final session I wanted to talk about was Nifty Assignments. Nifty
+has gone from a session that went through the approval process each
+year until it's popularity ended up with it being a regularly
+scheduled part of the show.
+
+It used to be my favorite session but it's slipped behind "It seemed
+like a good idea at the time" and a couple of others this year -
+including "Microteaching." That's not a knock on Nifty assignments,
+it's still a fun session but when you combine the fact that the
+presentations are discrete assignments and Nick Parlante and team have
+both put together a nice web site to present all the assignments and
+have the submissions follow a standardized format, the session has
+become less necessary. Still fun and worthwhile but if I missed it, I
+know I'd be able to get most of the value of the session from the web
+site. Oh, and the site can be found here: [[http://nifty.stanford.edu/][http://nifty.stanford.edu/]].
+
+The session is pretty straightforward. Each speaker walks the audience
+through their assignment. One point that Nick Parlante brought up,
+though, that I never thought about before was that these are all
+packaged assignments - that is, you could adapt them but you could
+also use them as is. This was not about pedagogy or instruction. In
+fact, he said something to the effect of - you're lectures are your
+lectures just like you've always done but you can make part of the
+class memorable with a really nifty assignment. I disagree in that a
+class itself can be interesting, memorable, and even perhaps fun but
+Parlante had a valid point that even if a class is old school lecture
+based, an interesting assignment can always spice things up in a
+positive way.
+
+Back in the day a lot of Nifty assignments were just take a regular
+assignment and add graphics on top. I guess it was a step in a new
+direction but not really that nifty.
+
+Now, there's a much wider range of topics and a wider range of
+"niftiness."
+
+Some still leveraged graphics, and that's fine - that will certainly
+motivate a subset of students but it was nice to see other, non
+graphics approaches that will excite others.
+
+Many of the assignments relied on relating to current real world
+topics or by using real world data. Others, like the Enigma Machine
+simulation was rich with history. Still others used games and one
+focused on music.
+
+Looking over the web site, most of the assignments are for CS1 but
+there are a bunch for CS2 and some for CS0. Personally, I've been
+using the [[http://nifty.stanford.edu/2021/schwarz-linked-list-labyrinth/][Linked List Labyrinth]] with my CS2 students since I first saw
+the assignment. 
+
+If you teach CS1, CS2, or even a CS0, take a look at the site. Lots of
+fun stuff there.
 
 
-* Nifty
-http://nifty.stanford.edu/
-These are assignments not lessons (or lectures as Parlante  said)
-Because assignments can be memorable
-I think lessons/units should be memorable
-
-used to be all graphics up the app
-and last few years didn't do it
-this year better range - graphics, sounds, real world data, games
-
-Not one modality will talk to all students (in spite of what some
-presenters said) so it's good to have a big catalog of choices and to
-use different ones in a given class.
-
-Session is still fun but less important because Nifty has really set
-up a good format and web  site.
-
-microteaching and it seemed like a good idea are more about the
-teaching side and aren't captured as well in a web site.
-** Rising tides Keith Schwartz
-- flood fill on terrain maps (heights)
-- real world data
-- still is graphics (he said shouldn't be graphics)
-** Enigma machine - Eric Roberts Jed
-- built an enigma machine - work in a project
-- MVC but student only does M
-- 7 milestones
-- nicely structured project
-** Police shootings
-- analyzed data set on police shooting
-- real data
-- class discussion afterwards about results
-- instructor was concerned about pushback
-** Optical Illusions
-- simple draing
-- add loops
-- add animations
-- add illusions
-- graphical and differentiated
-** Hex game
-- add game  controller to a graphical board game framework
-** Music Dice
-
+Nifty, along with ISLaGIATT and Microteaching formed a nice little
+unofficial track for actual teaching and that's what I'll explore in
+my final SIGCSE 2023 post.
