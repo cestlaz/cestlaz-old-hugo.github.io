@@ -2,10 +2,10 @@
 title: SIGCSE 2023 Microteaching
 date: 2023-03-27T07:44:47-04:00
 tags:
-- SIGCSE
+- sigcse
 categories:
-- SIGCSE
-draft: true
+- sigcse
+draft: false
 --- 
 
 Okay, back to SIGCSE.
