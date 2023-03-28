@@ -2,39 +2,266 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>chatGPT on C&#39;est la Z</title>
-    <link>https://newblog/tags/chatgpt/</link>
-    <description>Recent content in chatGPT on C&#39;est la Z</description>
+    <link>https://cestlaz.github.io/tags/chatgpt/</link>
+    <description>C&#39;est la Z (chatGPT)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Jan 2023 14:29:45 -0400</lastBuildDate><atom:link href="https://newblog/tags/chatgpt/rss.xml" rel="self" type="application/rss" />
+    <lastBuildDate>Mon, 23 Jan 2023 14:29:45 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/chatgpt/rss.xml" rel="self" type="application/rss" />
+    
+    
     <item>
       <title>chatGPT TOC</title>
-      <link>https://newblog/post/chatgpt-summary/</link>
+      <link>https://cestlaz.github.io/post/chatgpt-summary/</link>
       <pubDate>Mon, 23 Jan 2023 14:29:45 -0400</pubDate>
       
-      <guid>https://newblog/post/chatgpt-summary/</guid>
-      <description>I know I said that I was done with chatGPT but since I&amp;#39;ve ended up sharing my posts with a few people I though a quick table of contents post would be appropriate.
-Post 1 - Some general thoughts on cheating Post 2 - Cheating with chatGPT Post 3 - Teaching with chatGPT Post 4 - More teaching with chatGPT Post 5 - chatGPT in a CS class Back to new content soon.</description>
+      <guid>https://cestlaz.github.io/post/chatgpt-summary/</guid>
+      <description>&lt;p&gt;
+I know I said that I was done with chatGPT but since I&amp;#39;ve ended up
+sharing my posts with a few people I though a quick table of contents
+post would be appropriate.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Post 1 - &lt;a href=&#34;https://cestlaz.github.io/post/cheating&#34;&gt;Some general thoughts on cheating&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Post 2 - &lt;a href=&#34;https://cestlaz.github.io/post/cheatgpt/&#34;&gt;Cheating with chatGPT&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Post 3 - &lt;a href=&#34;https://cestlaz.github.io/post/teachgpt/&#34;&gt;Teaching with chatGPT&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Post 4 - &lt;a href=&#34;https://cestlaz.github.io/post/chatgpt-good-bad-ugly/&#34;&gt;More teaching with chatGPT&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Post 5 - &lt;a href=&#34;https://cestlaz.github.io/post/chatgpt-in-cs-class/&#34;&gt;chatGPT in a CS class&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+Back to new content soon.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Teaching with chatGPT - The Good, The Bad, and The Ugly</title>
-      <link>https://newblog/post/chatgpt-good-bad-ugly/</link>
+      <link>https://cestlaz.github.io/post/chatgpt-good-bad-ugly/</link>
       <pubDate>Sun, 15 Jan 2023 11:03:52 -0400</pubDate>
       
-      <guid>https://newblog/post/chatgpt-good-bad-ugly/</guid>
-      <description>The plan was to talk about what we can and should do in CS classes with respect to chatGPT type technologies but after seeing so much discussion on how to and not to use chatGPT I thought I&amp;#39;d insert this additional post on classroom use.
-We already talked about the good. I love the idea of making an essay with errors for proof reading and it can be a great search resource, albeit one that needs to be error checked and I&amp;#39;m sure many other productive teaching and teaching support applications will turn up.</description>
+      <guid>https://cestlaz.github.io/post/chatgpt-good-bad-ugly/</guid>
+      <description>&lt;p&gt;
+The plan was to talk about what we can and should do in CS classes
+with respect to chatGPT type technologies but after seeing so much
+discussion on how to and not to use chatGPT I thought I&amp;#39;d insert this
+additional post on classroom use.&lt;/p&gt;
+&lt;p&gt;
+We already talked about &lt;a href=&#34;https://cestlaz.github.io/po%60st/teachgpt/&#34;&gt;the good&lt;/a&gt;. I love the idea of making an essay
+with errors for proof reading and it can be a great search resource,
+albeit one that needs to be error checked and I&amp;#39;m sure many other
+productive teaching and teaching support applications will turn up.&lt;/p&gt;
+&lt;p&gt;
+We also talked about &lt;a href=&#34;https://cestlaz.github.io/post/cheatgpt/&#34;&gt;the bad&lt;/a&gt;. The big one being potential cheating -
+crossing the line from research or understanding aid to using it as an
+inappropriate shortcut. It also just plain out fails at times to do
+what you wnat it to do but that&amp;#39;s really reasonable given what it is.&lt;/p&gt;
+&lt;p&gt;
+What about the ugly?&lt;/p&gt;
+&lt;p&gt;
+Ugly is probably the wrong word. I&amp;#39;m talking about using chatGPT or
+any technology because it&amp;#39;s new and cool and not because it&amp;#39;s actually
+the right tool in the right place at the right time.&lt;/p&gt;
+&lt;p&gt;
+This is nothing new and not restricted to education. Years ago, my
+parent&amp;#39;s taxes were audited. The auditor has one of those new fangled
+electronic calculators and he was so enthralled  with it that he kept
+showing it off and all it could to do my parents throughout the
+audit. My parents were pretty sharp overall and my dad was very good
+with numbers. At the end of the day the auditor determined that my
+parents didn&amp;#39;t owe taxes but actually were due a sizable refund. When
+all was said and done, my dad pointed out all the times that the
+auditor messed up with the calculator which resulted in the
+refund. The truth was that the taxes were filed correctly to begin
+with but my folks weren&amp;#39;t going to turn away free money. The auditor
+should have just gone old school.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve seen some examples already of &amp;#34;the ugly&amp;#34; and I&amp;#39;m sure there will be
+more to come. Also, I want to emphasize that &amp;#34;the ugly&amp;#34; doesn&amp;#39;t
+necessarily mean bad,  I just wanted to use that turn of phrase.&lt;/p&gt;
+&lt;p&gt;
+A friend of mine suggested using chatGPT to evaluate  essays for when
+students aren&amp;#39;t comfortable with other people viewing their
+work. Assuming that we&amp;#39;re confident that chatGPT will do a good job
+this could work but I&amp;#39;d have some concerns. True, this could alleviate
+a student&amp;#39;s fear of peer grading but building a supportive community
+of peers that &lt;strong&gt;can&lt;/strong&gt; support you is important and I&amp;#39;m leery of using
+technology too much as a crutch. Also that while this might offload
+work from the teacher, it also removes an opportunity for the teacher
+to build more of a relationship with the student through the
+interaction and through their work.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m not enough of an expert on language/english classes to really
+judget that bt here&amp;#39;s a similar CS related example that I saw
+suggested online. Have students enter programs in into chatGPT and ask
+the system to add comments. &lt;/p&gt;
+&lt;p&gt;
+I tried this with a couple of small intro type programs and each time
+I got the same style of comments. Things like a comment on top of a
+loop saying &amp;#34;loop from 1 to n&amp;#34; or on top of a line like &lt;code&gt;sum = 0&lt;/code&gt;
+saying &amp;#34;initialize the sum  to 0.&amp;#34; Not good comments at all.&lt;/p&gt;
+&lt;p&gt;
+This, I&amp;#39;d describe as ugly. If chatGPT consistently gives these types
+of comments then it&amp;#39;s pretty worthless as an activity if the goal is
+to help students understand commenting and writing good code. On the
+other hand, if chatGPT sometimes gives these ridiculous comments and
+at other times gives good comments, well, that&amp;#39;s pretty bad as well.&lt;/p&gt;
+&lt;p&gt;
+Now, if it always gives bad answers it could be a fun activity. Solve
+the problem in class, have chatGPT comment it, and then you can
+discuss good and bad coding styles and the limits of programs like
+chatGPT.&lt;/p&gt;
+&lt;p&gt;
+Generating lessons plans also counts to me as ugly, unless you use it
+to add standards to your plans to fulfill requirements from
+above. Yeah, it&amp;#39;s cool that this program can make a bare bones bullet
+point lesson but you then have to read it, evaluate it, check it for
+errors and then still add all the meat to the bones and customize it
+for your students. I&amp;#39;d argue that if a teacher knows their stuff it&amp;#39;ll
+slow them down.&lt;/p&gt;
+&lt;p&gt;
+Normally, when using a new technology an educator should ask
+themselves if it saves time and/or effort and does it improve
+instruction/learning and make sure that there&amp;#39;s some real benefit to
+the use. It&amp;#39;s fine if that benefit comes later and requires some dues
+to be paid now but if it&amp;#39;s just a cool new technology, the new shiny
+if you would, I&amp;#39;ll pass.&lt;/p&gt;
+&lt;p&gt;
+As a final note, even when the ugly doesn&amp;#39;t save time or improve
+instruction it&amp;#39;s not necessarily bad. A good teacher knows when a
+class needs a break and also when they themselves need one. It&amp;#39;s fine
+to burn some time on a fun but not productive activity either for
+mental health, community building or other positive reasons. It&amp;#39;s not
+healthy to be 100% on task 100% of the time and a good teacher gets
+this. What&amp;#39;s important to also understand is when a new technology or
+tool can be used productively and when it&amp;#39;s just a diversion.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>CheatGPT</title>
-      <link>https://newblog/post/cheatgpt/</link>
+      <link>https://cestlaz.github.io/post/cheatgpt/</link>
       <pubDate>Tue, 10 Jan 2023 06:42:45 -0400</pubDate>
       
-      <guid>https://newblog/post/cheatgpt/</guid>
-      <description>Just got back from a few much needed days away so it&amp;#39;s time to get to those chatGPT posts.
-Last time, I wrote on cheating in general. That seems to be one of the hot points for chatGPT, in fact, the NYC DOE just last week decided to ban chatGPT outright, presumably for that reason. We&amp;#39;ll talk about the student side, both negative and postitive today and the teacher side next time.</description>
+      <guid>https://cestlaz.github.io/post/cheatgpt/</guid>
+      <description>&lt;p&gt;
+Just got back from a few much needed days away so it&amp;#39;s time to get to
+those chatGPT posts.&lt;/p&gt;
+&lt;p&gt;
+Last time, &lt;a href=&#34;https://cestlaz.github.io/post/cheating/&#34;&gt;I wrote on&lt;/a&gt; cheating in general. That seems to be one of the
+hot points for chatGPT, in fact, the NYC DOE just last week decided to
+ban chatGPT outright, presumably for that reason. We&amp;#39;ll talk about the
+student side, both negative and postitive today and the teacher side
+next time.&lt;/p&gt;
+&lt;p&gt;
+To start, while on vacation I saw this tweet:&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Any educator who is saying “ChatGPT won’t affect MY classroom” better get humble really quickly. &lt;br&gt;&lt;br&gt;As a friend said, “This is like when my AP called me into his office &amp;amp; asked ‘Have you seen this thing called Google?’”&lt;br&gt;&lt;br&gt;It’s going to change the way we think about writing forever.&lt;/p&gt;&amp;mdash; Chris Lehmann (@chrislehmann) &lt;a href=&#34;https://twitter.com/chrislehmann/status/1611777320745828360?ref_src=twsrc%5Etfw&#34;&gt;January 7, 2023&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;
+Sure, it&amp;#39;s going to change our classrooms but it&amp;#39;s not like this is
+the first time. We went from nothing to calculators to graphing
+calculators to programs like Wolfram Alpha. I&amp;#39;ve been telling my
+students for decades that Emacs Calc mode could not only solve all
+their math assignments symbolically but it could also typeset them
+directly in TeX so their homeworks would look professional.&lt;/p&gt;
+&lt;p&gt;
+On the non-math side we&amp;#39;ve added word processors to spell checkers to
+grammar aides not to mention collaborative environments.&lt;/p&gt;
+&lt;p&gt;
+And we haven&amp;#39;t even mentioned search engines, wikipedia, youtube and
+the scores of other resources available today that didn&amp;#39;t exist years
+ago.&lt;/p&gt;
+&lt;p&gt;
+New technologies come in to play over and over again and teachers
+adapt. Unfortunately, instead of giving teachers the resources they
+need to adapt efficiently, districts normally opt for a hammer and
+then blame teachers regardless.&lt;/p&gt;
+&lt;p&gt;
+So, now we have a new tool - will students use it to cheat? Sure -
+some will but this is nothing new.  I&amp;#39;d like to believe that the
+majority of students will use the new tool productively but to do so,
+many will need guidance.&lt;/p&gt;
+&lt;p&gt;
+Should the NYC DOE have banned chatGPT? I&amp;#39;d say no. Well, actually,
+I&amp;#39;d say yes but with a caveat and we&amp;#39;ll get to that below.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve been playing with chatGPT a bit now and it certainly seems to be
+able to generate student quality essays on a variety of topics. It
+100% can solve introductory CS programming problems, frequently just
+by pasting the teachers prompt in the chat box.&lt;/p&gt;
+&lt;p&gt;
+This can, of course, lead to cheating but shutting down the technology
+in school won&amp;#39;t change a thing. As usual, draconian measures will do
+little to deter bad behavior and will merely make things more
+difficult for kids who want to do things the right way.&lt;/p&gt;
+&lt;p&gt;
+Let me use GitHub as an example. I&amp;#39;ve had &lt;strong&gt;many&lt;/strong&gt; professors tell me
+that they&amp;#39;ll have students use GitHub but &lt;strong&gt;only&lt;/strong&gt; if repos are private
+so as to prevent cheating. Right - making a repo private is really
+going to prevent some kid from sharing their code. Sure, it&amp;#39;ll prevent
+a random student from stumbling on their work but it&amp;#39;s going to do
+nothing to prevent a bad actor from acting badly.&lt;/p&gt;
+&lt;p&gt;
+At the same time, it sows distrust and prevents students who want to
+productively share and help each other (with proper attribution) from
+doing so.&lt;/p&gt;
+&lt;p&gt;
+Banning a tool in school only serves to limit students who want to do
+things the right way anyway. Cheating happened prior to chatGPT and
+prior to older technologies. Some students have always cut corners
+either by crossing the line with friends or even paying for essays
+online. Now with chatGPT, I can type in &amp;#34;write a program to do…&amp;#34;
+rather than search StackOverflow or ask a friend or pay a service but
+it doesn&amp;#39;t change the fact that no matter what, some students will
+cheat. On the other hand, if you cultivate a classroom where support
+and sharing is encouraged, don&amp;#39;t overwork students, provide the needed
+resources and allow for failure and growth, you&amp;#39;ll minimize the
+problems. Of course I just described a panacea that can rarely be
+created in a public school given large class sizes, emphasis on
+standardized testing, and all the baggage dumped on teachers.&lt;/p&gt;
+&lt;p&gt;
+In a programming class, a solution could be to allow chatGPT but to
+include lab time in the class. During that time, the teacher can
+observe students and really get to know what they know - their
+strengths and weaknesses. I always was able to include lab time at
+Stuy and before that at Seward Park and by the end of the term, I knew
+my students, what they could do, and where they had challenges. To be
+honest, I could assign letter grades from that info alone and the
+grades would pretty much match the test results.&lt;/p&gt;
+&lt;p&gt;
+This can be done but it&amp;#39;s getting more and more challenging given the
+weight placed upon teachers.&lt;/p&gt;
+&lt;p&gt;
+Given this, in my class, I don&amp;#39;t want to ban chatGPT but want to
+take the time to figure out how to use it productively. &lt;/p&gt;
+&lt;p&gt;
+Why then did I say earlier that districts &lt;strong&gt;should&lt;/strong&gt; ban it? Because at
+the end of the day, schools and teachers should set these policies but
+these policies need to be supported by the district. The district has
+to have the principal&amp;#39;s back and the principal, their teachers.&lt;/p&gt;
+&lt;p&gt;
+A district should say &amp;#34;here&amp;#39;s the boilerplate policy to ban chatGPT so
+if in your school or class it&amp;#39;s inappropriate, you can ban it and we&amp;#39;ve
+got your back. On the other hand, a principle can implement a looser
+policy and that&amp;#39;s fine and we encourage schools to implement policies
+where chatGPT can be used effectively as a learning tool&amp;#34; and then
+provide some boilerplate language for that.&lt;/p&gt;
+&lt;p&gt;
+The district has to have the hardest line because in some cases, that
+hard line will be either appropriate or necessary and then schools can
+loosen the restrictions as appropriate.&lt;/p&gt;
+&lt;p&gt;
+So, that&amp;#39;s my take.&lt;/p&gt;
+&lt;p&gt;
+Next time - chatGPT as a teacher aide.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

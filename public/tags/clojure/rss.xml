@@ -2,41 +2,521 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>clojure on C&#39;est la Z</title>
-    <link>https://newblog/tags/clojure/</link>
-    <description>Recent content in clojure on C&#39;est la Z</description>
+    <link>https://cestlaz.github.io/tags/clojure/</link>
+    <description>C&#39;est la Z (clojure)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Dec 2022 10:13:56 -0400</lastBuildDate><atom:link href="https://newblog/tags/clojure/rss.xml" rel="self" type="application/rss" />
+    <lastBuildDate>Sat, 03 Dec 2022 10:13:56 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/clojure/rss.xml" rel="self" type="application/rss" />
+    
+    
     <item>
       <title>Advent 2022 - day 3 - sets</title>
-      <link>https://newblog/post/advent-2022-day03/</link>
+      <link>https://cestlaz.github.io/post/advent-2022-day03/</link>
       <pubDate>Sat, 03 Dec 2022 10:13:56 -0400</pubDate>
       
-      <guid>https://newblog/post/advent-2022-day03/</guid>
-      <description>Day 3 ended up being a quick one. That is, as long as your language supports set operations. You can do it without set operations but it&amp;#39;s easier if you&amp;#39;ve got them.
-Part 1 Input is a file of text where each line is an input.
-You have to read each line, split it in half and then find the common letter between the left and right halves and then apply their scoring rules on that letter.</description>
+      <guid>https://cestlaz.github.io/post/advent-2022-day03/</guid>
+      <description>
+&lt;p&gt;
+&lt;a href=&#34;https://adventofcode.com/2022/day/3&#34;&gt;Day 3&lt;/a&gt; ended up being a quick one. That is, as long as your language
+supports set operations. You can do it without set operations but it&amp;#39;s
+easier if you&amp;#39;ve got them.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Part 1
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+Input is a file of text where each line is an input.&lt;/p&gt;
+&lt;p&gt;
+You have to read each line, split it in half  and then find the common
+letter between the left and right halves and then apply their scoring
+rules on that letter.&lt;/p&gt;
+&lt;p&gt;
+For scoring, lower case letters are valued a=1, b=2 etc. and for upper
+case, A=27, B=28 and so on.&lt;/p&gt;
+&lt;p&gt;
+For scoring, this is a nice opportunity to talk about ASCII values and
+the relationship between characters and integers. For lower case
+letters you can use the formula &lt;strong&gt;int(letter) - 97 + 1&lt;/strong&gt; where int(x)
+returns the ASCII code for letter &lt;code&gt;x&lt;/code&gt;. The 97 is the value for &amp;#39;a&amp;#39; so
+that will map the lower case letter to a value of  0 for &amp;#39;a,&amp;#39; 1 for &amp;#39;b,&amp;#39;
+etc.. We add one becuase the question says to start with 1 for &amp;#39;a.&amp;#39;&lt;/p&gt;
+&lt;p&gt;
+For the upper case letters, we can use &lt;strong&gt;int(letter)-65 + 27&lt;/strong&gt; where 65
+is the value for &amp;#39;A.&amp;#39; In this case, we add an offset of 27 since
+that&amp;#39;s are lowest upper case score.&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s the clojure code but it would be similar in Python or other
+languages:&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-clojure&#34; data-lang=&#34;clojure&#34;&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;defn &lt;/span&gt;score [letter]
+  (&lt;span style=&#34;color:#66d9ef&#34;&gt;if &lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;Character/isUpperCase&lt;/span&gt; letter)
+    (+ &lt;span style=&#34;color:#ae81ff&#34;&gt;27&lt;/span&gt; (-  (int letter) (int &lt;span style=&#34;color:#e6db74&#34;&gt;\A&lt;/span&gt;)))
+    (inc (-  (int letter) (int &lt;span style=&#34;color:#e6db74&#34;&gt;\a&lt;/span&gt;)))
+    ))&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;
+The processing of the data is also pretty straight forward. Here&amp;#39;s a
+Clojure solution:&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-clojure&#34; data-lang=&#34;clojure&#34;&gt;  (&lt;span style=&#34;color:#66d9ef&#34;&gt;defn &lt;/span&gt;parse-part1 [line]
+    (&lt;span style=&#34;color:#66d9ef&#34;&gt;let &lt;/span&gt;[size (/  (count line) &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)
+          left (take size line)
+          right (drop size line)
+          common (&lt;span style=&#34;color:#a6e22e&#34;&gt;set/intersection&lt;/span&gt; (set left) (set right))]
+      (&lt;span style=&#34;color:#a6e22e&#34;&gt;score&lt;/span&gt; (first common))))&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;
+Line 2&amp;#39;s Python equivalent would be &lt;code&gt;size = len(line)/2&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+Line 3 takes the first half and stores it in left and line 4 drops the
+first half and keeps the right hand side.&lt;/p&gt;
+&lt;p&gt;
+Line 5 uses Clojure&amp;#39;s set operations to find the letter in common.&lt;/p&gt;
+&lt;p&gt;
+To solve part 1 we just split the data, which starts as a long
+string, split on newlines and then run the parse-part1 function
+defined above on each line. We then use reduce to add up all the results.&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-clojure&#34; data-lang=&#34;clojure&#34;&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;defn &lt;/span&gt;part1 [data]
+  (&lt;span style=&#34;color:#a6e22e&#34;&gt;-&amp;gt;&amp;gt;&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;str/split&lt;/span&gt; data &lt;span style=&#34;color:#f92672&#34;&gt;#&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;\n&amp;#34;&lt;/span&gt;)
+       (map  parse-part1)
+       (reduce +)))&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;
+Full code can be found &lt;a href=&#34;https://github.com/zamansky/advent2022/blob/main/src/day03.clj&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+A Python solution would look pretty similar. Java would be tricker for
+beginners because they wouldn&amp;#39;t know about sets and using them
+requires more overhead than either Clojure or Python. The problem can
+still be solved by beginners. An easy, if inefficient way of finding
+the intersection would be looping over all the characters in one
+string and looking for it in the other.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+Part two
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+Part two was very similar. Instead of splitting each line in half, we
+had to group entire lines by three.&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s the clojure code:&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;7
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-clojure&#34; data-lang=&#34;clojure&#34;&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;defn &lt;/span&gt;part2 [data]
+  (&lt;span style=&#34;color:#a6e22e&#34;&gt;-&amp;gt;&amp;gt;&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;str/split&lt;/span&gt; data &lt;span style=&#34;color:#f92672&#34;&gt;#&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;\n&amp;#34;&lt;/span&gt;)
+       (map set)
+       (&lt;span style=&#34;color:#a6e22e&#34;&gt;partition&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;)
+       (map  &lt;span style=&#34;color:#f92672&#34;&gt;#&lt;/span&gt;(reduce set/intersection %))
+       (map first)
+       (map score)
+       (reduce +)))&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;
+Instead of munging the data and then turning strings into sets, we
+first use line 2 to transform the list of strings into a list of sets.&lt;/p&gt;
+&lt;p&gt;
+Then, we use (partition 3) in line 4. This groups the list 3 at a
+time. Then, going through the rest of the lines&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;line 5 - find the intersection within the group fo 3&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;line 6 - there will be one letter in the result, but we have to use
+&lt;strong&gt;first&lt;/strong&gt; to extract the value since the result is a set.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;line 7 - score all the letters&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;line 8 - add them up&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A nice little problem. With beginners, you get to talk about the ASCII
+character relationship and if your language supports it, you can play
+with sets.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>Advent of Code 2022 - Days 1 and 2</title>
-      <link>https://newblog/post/advent-2022-day01-01/</link>
+      <link>https://cestlaz.github.io/post/advent-2022-day01-01/</link>
       <pubDate>Fri, 02 Dec 2022 13:59:06 -0400</pubDate>
       
-      <guid>https://newblog/post/advent-2022-day01-01/</guid>
-      <description>It&amp;#39;s Advent of Code season again. Every day a new two part programming challenge and once again I&amp;#39;m taking part. At least until grading and other end of term obligations end up eating my lunch.
-I wasn&amp;#39;t planning on writing anything up but the first two days looked like nice problems for CS1 or even CS0 students and since my friend Steve was writing up his take, I thought I&amp;#39;d at least comment on the first two.</description>
+      <guid>https://cestlaz.github.io/post/advent-2022-day01-01/</guid>
+      <description>
+&lt;p&gt;
+It&amp;#39;s &lt;a href=&#34;https://adventofcode.com/&#34;&gt;Advent of Code&lt;/a&gt; season again. Every day a new two part programming
+challenge and once again I&amp;#39;m taking part. At least until grading and
+other end of term obligations end up eating my lunch.&lt;/p&gt;
+&lt;p&gt;
+I wasn&amp;#39;t planning on writing anything up but the first two days looked
+like nice problems for CS1 or even CS0 students and since my friend
+Steve was &lt;a href=&#34;https://github.com/scerruti/AoC2022&#34;&gt;writing up&lt;/a&gt; his take, I thought I&amp;#39;d at least comment on the
+first two.&lt;/p&gt;
+&lt;p&gt;
+I also recorded a code through in Clojure which you can find at the
+bottom of this post.&lt;/p&gt;
+&lt;p&gt;
+Even though I&amp;#39;m using Clojure, a similar approach can be taken in
+languages like Python or Javascript. If you enjoy this type of
+analysis please read Steve&amp;#39;s &lt;a href=&#34;https://github.com/scerruti/AoC2022&#34;&gt;posts&lt;/a&gt;. His approach is usually different
+from mine as he&amp;#39;s working in Java and so is more OOP centric. I love
+it when you can think about problems in different ways.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Day 1 - Calorie Counting
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+Problem link: &lt;a href=&#34;https://adventofcode.com/2022/day/1&#34;&gt;&lt;a href=&#34;https://adventofcode.com/2022/day/1&#34;&gt;https://adventofcode.com/2022/day/1&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+Here the input was lines of numbers with an extra blank linke
+separating sets of inputs:&lt;/p&gt;
+&lt;pre class=&#34;example&#34;&gt;
+1000
+2000
+3000
+
+4000
+
+5000
+6000
+
+7000
+8000
+9000
+
+10000
+&lt;/pre&gt;
+&lt;p&gt;
+Here, the first three numbers (1000,2000,3000) represent what the
+first elf is carrying, 4000 the second elf, 5000, and 6000 the third,
+etc..&lt;/p&gt;
+&lt;p&gt;
+The challenge was to figure out which elf carried the most.&lt;/p&gt;
+&lt;p&gt;
+A first year student might read a line at a time building a
+sum. Whenever you see a blank line, see if that&amp;#39;s your largest sum so farand
+if so, make a not of it.&lt;/p&gt;
+&lt;p&gt;
+In Python:&lt;/p&gt;
+&lt;div class=&#34;src src-text&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;sum = 0
+bigsum  = 0
+for line in open(&amp;#34;../data/day01.dat&amp;#34;).readlines():
+    if line == &amp;#34;\n&amp;#34;:
+        if sum &amp;gt; bigsum:
+            bigsum = sum
+        sum = 0
+        continue
+    sum = sum + int(line)
+
+print(bigsum)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Another approach, the one I used, was to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Convert the input lines into a list by splitting on double newlines&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Convert each list item into a list of numbers&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sum each list&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Find the largest&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The video below shows this in Clojure, but in Python it might look
+like this:   &lt;/p&gt;
+&lt;div class=&#34;src src-text&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;input = open(&amp;#34;../data/day01.dat&amp;#34;).read().strip().split(&amp;#34;\n\n&amp;#34;)
+input = [x.split(&amp;#34;\n&amp;#34;) for x in input]
+int_input = [ [int(x) for x in sublist] for sublist in input]
+sums = [ sum(x) for x in int_input]
+max(sums)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+The nice thing here from the teaching point of view is that these
+represent two very different approaches and there are probably more.&lt;/p&gt;
+&lt;p&gt;
+For part 2 you just had to add up the three largest elf loads. If you
+used the second approach, instead of finding the largest number, you
+can just sort the list and add up the biggest three.&lt;/p&gt;
+&lt;p&gt;
+The code for all of this in Clojure can be found &lt;a href=&#34;https://github.com/zamansky/advent2022/blob/main/src/day01.clj&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+Day 2 - Rock Paper Scissors
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+Day 2 was a rock paper scissors problem. Input was a list of &amp;#34;moves:&amp;#34;&lt;/p&gt;
+&lt;pre class=&#34;example&#34;&gt;
+A Y
+B X
+C Z
+&lt;/pre&gt;
+&lt;p&gt;
+The above says that in move 1, your opponent played &amp;#34;A&amp;#34; and you played
+&amp;#34;Y,&amp;#34; in move two, your opponent &amp;#34;B&amp;#34; and you &amp;#34;X,&amp;#34; etc.&lt;/p&gt;
+&lt;p&gt;
+The moves meant:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Opponent Letter&lt;/th&gt;
+&lt;th&gt;Your letter&lt;/th&gt;
+&lt;th&gt;Means&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;X&lt;/td&gt;
+&lt;td&gt;Rock&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;B&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;Paper&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C&lt;/td&gt;
+&lt;td&gt;Z&lt;/td&gt;
+&lt;td&gt;Scissors&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+Each turned was scored as follows:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Result&lt;/th&gt;
+&lt;th class=&#34;align-right&#34;&gt;Points&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;You win&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;You tie&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;You lose&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+Your score for a turn was the results points plus a 1 if you played
+Rock, 2 if you played Paper, and 3 if you played Scissors.&lt;/p&gt;
+&lt;p&gt;
+The part 1 solution had you tracing through a game and figuring out
+the score.&lt;/p&gt;
+&lt;p&gt;
+What&amp;#39;s nice about this problem is that it can be solved by a very raw
+beginner with a not too long set of if statements.&lt;/p&gt;
+&lt;p&gt;
+You can also, however, look at more interesting approaches. &lt;/p&gt;
+&lt;p&gt;
+First, a student might notice that the moves are &amp;#34;in order&amp;#34; in that
+each letter, or move, loses to the one after it. That is, Rock loses
+to Paper, Paper loses to scissors, and wrapping around, scissors loses
+to rock.&lt;/p&gt;
+&lt;p&gt;
+Then, they might see that they can assign a numeric value to each
+move:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Opponent Letter&lt;/th&gt;
+&lt;th&gt;Your letter&lt;/th&gt;
+&lt;th&gt;Means&lt;/th&gt;
+&lt;th class=&#34;align-right&#34;&gt;value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;X&lt;/td&gt;
+&lt;td&gt;Rock&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;B&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;Paper&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C&lt;/td&gt;
+&lt;td&gt;Z&lt;/td&gt;
+&lt;td&gt;Scissors&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+Finally, they might notice that if they find the difference between
+your move and your opponent&amp;#39;s move, you&amp;#39;ll get:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th class=&#34;align-right&#34;&gt;Difference&lt;/th&gt;
+&lt;th&gt;result&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&#34;align-right&#34;&gt;0&lt;/td&gt;
+&lt;td&gt;tie - same move&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;align-right&#34;&gt;1&lt;/td&gt;
+&lt;td&gt;You win - you&amp;#39;re the &amp;#34;next&amp;#34; move&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;align-right&#34;&gt;2&lt;/td&gt;
+&lt;td&gt;You lose&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+You can also either deal with mod to wrap around or you can put in a
+couple of negative values for the difference on your chart.&lt;/p&gt;
+&lt;p&gt;
+For part 1, my solution basically did what I just described. Make a
+look up table to map the letters to values, find the difference, then
+look up the points awarded from another look up table.&lt;/p&gt;
+&lt;p&gt;
+The Clojure code can be found &lt;a href=&#34;https://github.com/zamansky/advent2022/blob/main/src/day02.clj&#34;&gt;here&lt;/a&gt; and the video is embedded below.&lt;/p&gt;
+&lt;p&gt;
+For part 2, things were a bit tricker but also more interesting. Now,
+your &amp;#34;move&amp;#34; of X,Y, or Z didn&amp;#39;t mean Rock, Paper or Scissors. The
+letters now said that depending on your letter you had to select a
+move so that you would either win, lose or draw based on this table:&lt;/p&gt;
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Your letter&lt;/td&gt;
+&lt;td&gt;Choose a move that results in&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;X&lt;/td&gt;
+&lt;td&gt;You losing&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;A tie&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Z&lt;/td&gt;
+&lt;td&gt;You win&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+This part was a reduction - look at your letter and figure out what to
+replace it with - A, B, or C based on the above chart and then just do
+what you did in part 1.&lt;/p&gt;
+&lt;p&gt;
+Here, we notice that we tie if we choose the same move as our
+opponent, we win if we choose the &amp;#34;next&amp;#34; move and we loose if we
+choose the move that&amp;#39;s two away (mod 3 to deal with the wraparound).&lt;/p&gt;
+&lt;p&gt;
+The clojure code also &lt;a href=&#34;https://github.com/zamansky/advent2022/blob/main/src/day02.clj&#34;&gt;here&lt;/a&gt; and the walkthrough below.&lt;/p&gt;
+&lt;p&gt;
+Hope you all enjoyed this.&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/80so4H3mSCM&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>Clojurescript Components</title>
-      <link>https://newblog/post/clojurescript-components/</link>
+      <link>https://cestlaz.github.io/post/clojurescript-components/</link>
       <pubDate>Sun, 12 Jan 2020 12:19:00 -0400</pubDate>
       
-      <guid>https://newblog/post/clojurescript-components/</guid>
-      <description>I got some positive feedback from my first Clojurescript post and video so I thought I&amp;#39;d continue with the series.
-Here we&amp;#39;ll continue to build a simple Clojurescript/Shadow-cljs/Reagent/Tailwindcss application by creating some reusable components. It&amp;#39;s one of the things that make Clojurescript so nice for web development. Here&amp;#39;s a link to the GitHub repo with the code: https://github.com/zamansky/shadow-cljs-demo
-&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34; src=&amp;#34;https://www.youtube.com/embed/_CTTbC6owS0&amp;#34; frameborder=&amp;#34;0&amp;#34; allow=&amp;#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&amp;#34; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;</description>
+      <guid>https://cestlaz.github.io/post/clojurescript-components/</guid>
+      <description>&lt;p&gt;
+I got some positive feedback from my first Clojurescript &lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-63-clojurescript/&#34;&gt;post and
+video&lt;/a&gt; so I thought I&amp;#39;d continue with the series.&lt;/p&gt;
+&lt;p&gt;
+Here we&amp;#39;ll continue to build a simple
+Clojurescript/Shadow-cljs/Reagent/Tailwindcss application by creating
+some reusable components. It&amp;#39;s one of the things that make
+Clojurescript so nice for web development. &lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s a link to the GitHub repo with the code:
+&lt;a href=&#34;https://github.com/zamansky/shadow-cljs-demo&#34;&gt;&lt;a href=&#34;https://github.com/zamansky/shadow-cljs-demo&#34;&gt;https://github.com/zamansky/shadow-cljs-demo&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34;
+src=&amp;#34;&lt;a href=&#34;https://www.youtube.com/embed/_CTTbC6owS0&#34;&gt;https://www.youtube.com/embed/_CTTbC6owS0&lt;/a&gt;&amp;#34; frameborder=&amp;#34;0&amp;#34;
+allow=&amp;#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&amp;#34; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -2,29 +2,164 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ai on C&#39;est la Z</title>
-    <link>https://newblog/tags/ai/</link>
-    <description>Recent content in ai on C&#39;est la Z</description>
+    <link>https://cestlaz.github.io/tags/ai/</link>
+    <description>C&#39;est la Z (ai)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Jan 2023 11:03:52 -0400</lastBuildDate><atom:link href="https://newblog/tags/ai/rss.xml" rel="self" type="application/rss" />
+    <lastBuildDate>Sun, 15 Jan 2023 11:03:52 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/ai/rss.xml" rel="self" type="application/rss" />
+    
+    
     <item>
       <title>Teaching with chatGPT - The Good, The Bad, and The Ugly</title>
-      <link>https://newblog/post/chatgpt-good-bad-ugly/</link>
+      <link>https://cestlaz.github.io/post/chatgpt-good-bad-ugly/</link>
       <pubDate>Sun, 15 Jan 2023 11:03:52 -0400</pubDate>
       
-      <guid>https://newblog/post/chatgpt-good-bad-ugly/</guid>
-      <description>The plan was to talk about what we can and should do in CS classes with respect to chatGPT type technologies but after seeing so much discussion on how to and not to use chatGPT I thought I&amp;#39;d insert this additional post on classroom use.
-We already talked about the good. I love the idea of making an essay with errors for proof reading and it can be a great search resource, albeit one that needs to be error checked and I&amp;#39;m sure many other productive teaching and teaching support applications will turn up.</description>
+      <guid>https://cestlaz.github.io/post/chatgpt-good-bad-ugly/</guid>
+      <description>&lt;p&gt;
+The plan was to talk about what we can and should do in CS classes
+with respect to chatGPT type technologies but after seeing so much
+discussion on how to and not to use chatGPT I thought I&amp;#39;d insert this
+additional post on classroom use.&lt;/p&gt;
+&lt;p&gt;
+We already talked about &lt;a href=&#34;https://cestlaz.github.io/po%60st/teachgpt/&#34;&gt;the good&lt;/a&gt;. I love the idea of making an essay
+with errors for proof reading and it can be a great search resource,
+albeit one that needs to be error checked and I&amp;#39;m sure many other
+productive teaching and teaching support applications will turn up.&lt;/p&gt;
+&lt;p&gt;
+We also talked about &lt;a href=&#34;https://cestlaz.github.io/post/cheatgpt/&#34;&gt;the bad&lt;/a&gt;. The big one being potential cheating -
+crossing the line from research or understanding aid to using it as an
+inappropriate shortcut. It also just plain out fails at times to do
+what you wnat it to do but that&amp;#39;s really reasonable given what it is.&lt;/p&gt;
+&lt;p&gt;
+What about the ugly?&lt;/p&gt;
+&lt;p&gt;
+Ugly is probably the wrong word. I&amp;#39;m talking about using chatGPT or
+any technology because it&amp;#39;s new and cool and not because it&amp;#39;s actually
+the right tool in the right place at the right time.&lt;/p&gt;
+&lt;p&gt;
+This is nothing new and not restricted to education. Years ago, my
+parent&amp;#39;s taxes were audited. The auditor has one of those new fangled
+electronic calculators and he was so enthralled  with it that he kept
+showing it off and all it could to do my parents throughout the
+audit. My parents were pretty sharp overall and my dad was very good
+with numbers. At the end of the day the auditor determined that my
+parents didn&amp;#39;t owe taxes but actually were due a sizable refund. When
+all was said and done, my dad pointed out all the times that the
+auditor messed up with the calculator which resulted in the
+refund. The truth was that the taxes were filed correctly to begin
+with but my folks weren&amp;#39;t going to turn away free money. The auditor
+should have just gone old school.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve seen some examples already of &amp;#34;the ugly&amp;#34; and I&amp;#39;m sure there will be
+more to come. Also, I want to emphasize that &amp;#34;the ugly&amp;#34; doesn&amp;#39;t
+necessarily mean bad,  I just wanted to use that turn of phrase.&lt;/p&gt;
+&lt;p&gt;
+A friend of mine suggested using chatGPT to evaluate  essays for when
+students aren&amp;#39;t comfortable with other people viewing their
+work. Assuming that we&amp;#39;re confident that chatGPT will do a good job
+this could work but I&amp;#39;d have some concerns. True, this could alleviate
+a student&amp;#39;s fear of peer grading but building a supportive community
+of peers that &lt;strong&gt;can&lt;/strong&gt; support you is important and I&amp;#39;m leery of using
+technology too much as a crutch. Also that while this might offload
+work from the teacher, it also removes an opportunity for the teacher
+to build more of a relationship with the student through the
+interaction and through their work.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m not enough of an expert on language/english classes to really
+judget that bt here&amp;#39;s a similar CS related example that I saw
+suggested online. Have students enter programs in into chatGPT and ask
+the system to add comments. &lt;/p&gt;
+&lt;p&gt;
+I tried this with a couple of small intro type programs and each time
+I got the same style of comments. Things like a comment on top of a
+loop saying &amp;#34;loop from 1 to n&amp;#34; or on top of a line like &lt;code&gt;sum = 0&lt;/code&gt;
+saying &amp;#34;initialize the sum  to 0.&amp;#34; Not good comments at all.&lt;/p&gt;
+&lt;p&gt;
+This, I&amp;#39;d describe as ugly. If chatGPT consistently gives these types
+of comments then it&amp;#39;s pretty worthless as an activity if the goal is
+to help students understand commenting and writing good code. On the
+other hand, if chatGPT sometimes gives these ridiculous comments and
+at other times gives good comments, well, that&amp;#39;s pretty bad as well.&lt;/p&gt;
+&lt;p&gt;
+Now, if it always gives bad answers it could be a fun activity. Solve
+the problem in class, have chatGPT comment it, and then you can
+discuss good and bad coding styles and the limits of programs like
+chatGPT.&lt;/p&gt;
+&lt;p&gt;
+Generating lessons plans also counts to me as ugly, unless you use it
+to add standards to your plans to fulfill requirements from
+above. Yeah, it&amp;#39;s cool that this program can make a bare bones bullet
+point lesson but you then have to read it, evaluate it, check it for
+errors and then still add all the meat to the bones and customize it
+for your students. I&amp;#39;d argue that if a teacher knows their stuff it&amp;#39;ll
+slow them down.&lt;/p&gt;
+&lt;p&gt;
+Normally, when using a new technology an educator should ask
+themselves if it saves time and/or effort and does it improve
+instruction/learning and make sure that there&amp;#39;s some real benefit to
+the use. It&amp;#39;s fine if that benefit comes later and requires some dues
+to be paid now but if it&amp;#39;s just a cool new technology, the new shiny
+if you would, I&amp;#39;ll pass.&lt;/p&gt;
+&lt;p&gt;
+As a final note, even when the ugly doesn&amp;#39;t save time or improve
+instruction it&amp;#39;s not necessarily bad. A good teacher knows when a
+class needs a break and also when they themselves need one. It&amp;#39;s fine
+to burn some time on a fun but not productive activity either for
+mental health, community building or other positive reasons. It&amp;#39;s not
+healthy to be 100% on task 100% of the time and a good teacher gets
+this. What&amp;#39;s important to also understand is when a new technology or
+tool can be used productively and when it&amp;#39;s just a diversion.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>AI For All</title>
-      <link>https://newblog/post/pd-ai-for-all/</link>
+      <link>https://cestlaz.github.io/post/pd-ai-for-all/</link>
       <pubDate>Fri, 31 Jan 2020 07:00:01 -0400</pubDate>
       
-      <guid>https://newblog/post/pd-ai-for-all/</guid>
-      <description>Yesterday we had another Professional Development Workshop for High School CS Teachers and as usual, I wnat to express my thanks to Digital Ocean for continuing to provide space, food, and great overall support.
-This time though, instead of JonAlf and I having to run the show we had a guest speaker. We were joined by Sarah Judd of AI4ALL. Sarah gave an overview of what AI4ALL was up to and why but the core of her presentation was taking us through some of the exercises they have been developing at AI4All.</description>
+      <guid>https://cestlaz.github.io/post/pd-ai-for-all/</guid>
+      <description>&lt;p&gt;
+Yesterday we had another Professional Development Workshop for High
+School CS Teachers and as usual, I wnat to express my thanks to
+&lt;a href=&#34;digitalocean.com&#34;&gt;Digital Ocean&lt;/a&gt; for continuing to provide space, food, and great overall support.&lt;/p&gt;
+&lt;p&gt;
+This time though, instead of JonAlf and I having
+to run the show we had a guest speaker. We were joined by &lt;a href=&#34;https://twitter.com/SarahEJudd&#34;&gt;Sarah Judd&lt;/a&gt;
+of &lt;a href=&#34;http://ai-4-all.org/about/what-is-ai/&#34;&gt;AI4ALL&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;
+Sarah gave an overview of what AI4ALL was up to and why but the core
+of her presentation was taking us through some of the exercises 
+they have been developing at AI4All. Specifically, they&amp;#39;re developing
+what they call &lt;a href=&#34;http://ai-4-all.org/open-learning/&#34;&gt;AI4All Open Learning&lt;/a&gt; which consists of curricular
+materials aimed at high school students. &lt;/p&gt;
+&lt;p&gt;
+As we only had a short time, Sarah took us on a whirlwind tour of what
+they&amp;#39;re building from the baseline concepts of AI that she feels (and
+I agree) that every students should know up to specific AI topics like
+neural nets. Obviously you can&amp;#39;t cover even a single course in one
+evening professional development session but Sarah did a great job
+giving both a taste and an overview.&lt;/p&gt;
+&lt;p&gt;
+The activities were all engaging and and covered both ethical/societal
+issues as well as the technical/CS. I appreciated that the materials weren&amp;#39;t
+presented as canned experiences but rather tools that a teacher would
+use to deliver their own experiences. On the other hand I&amp;#39;m skeptical
+of the website&amp;#39;s claims of &amp;#34;No AI or computer science experience
+necessary.&amp;#34; I&amp;#39;m a firm believer that a CS teacher must know both CS
+and how to teach it - maybe not at first due to necessity, but
+ultimately. Regardless, Sarah has both real teaching experience and CS
+knowledge and I put more faith in what she&amp;#39;s saying than a PR blurb on a
+web site. &lt;/p&gt;
+&lt;p&gt;
+Now you&amp;#39;ll notice I haven&amp;#39;t said anything specific about Sarah&amp;#39;s
+presentation or AI4All and that&amp;#39;s because Sarah will be giving a
+variation of it at SIGCSE in March. If you teach high school and are
+going to be at SIGCSE, I highly recommend you check out her session.&lt;/p&gt;
+&lt;p&gt;
+If not, perhaps I&amp;#39;ll blog more specifics after the event.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

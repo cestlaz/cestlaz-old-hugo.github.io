@@ -1,0 +1,53 @@
+---
+title: Sigcse 2023 Nifty
+date: 2023-03-28T08:21:58-04:00
+tags: 
+categories: 
+draft: true
+--- 
+
+
+
+* Nifty
+http://nifty.stanford.edu/
+These are assignments not lessons (or lectures as Parlante  said)
+Because assignments can be memorable
+I think lessons/units should be memorable
+
+used to be all graphics up the app
+and last few years didn't do it
+this year better range - graphics, sounds, real world data, games
+
+Not one modality will talk to all students (in spite of what some
+presenters said) so it's good to have a big catalog of choices and to
+use different ones in a given class.
+
+Session is still fun but less important because Nifty has really set
+up a good format and web  site.
+
+microteaching and it seemed like a good idea are more about the
+teaching side and aren't captured as well in a web site.
+** Rising tides Keith Schwartz
+- flood fill on terrain maps (heights)
+- real world data
+- still is graphics (he said shouldn't be graphics)
+** Enigma machine - Eric Roberts Jed
+- built an enigma machine - work in a project
+- MVC but student only does M
+- 7 milestones
+- nicely structured project
+** Police shootings
+- analyzed data set on police shooting
+- real data
+- class discussion afterwards about results
+- instructor was concerned about pushback
+** Optical Illusions
+- simple draing
+- add loops
+- add animations
+- add illusions
+- graphical and differentiated
+** Hex game
+- add game  controller to a graphical board game framework
+** Music Dice
+

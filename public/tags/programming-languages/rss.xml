@@ -2,29 +2,203 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>programming languages on C&#39;est la Z</title>
-    <link>https://newblog/tags/programming-languages/</link>
-    <description>Recent content in programming languages on C&#39;est la Z</description>
+    <link>https://cestlaz.github.io/tags/programming-languages/</link>
+    <description>C&#39;est la Z (programming languages)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Nov 2022 08:59:11 -0400</lastBuildDate><atom:link href="https://newblog/tags/programming-languages/rss.xml" rel="self" type="application/rss" />
+    <lastBuildDate>Tue, 29 Nov 2022 08:59:11 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/programming-languages/rss.xml" rel="self" type="application/rss" />
+    
+    
     <item>
       <title>Learning a new language - part 2 - Rust</title>
-      <link>https://newblog/post/learn-new-language-2/</link>
+      <link>https://cestlaz.github.io/post/learn-new-language-2/</link>
       <pubDate>Tue, 29 Nov 2022 08:59:11 -0400</pubDate>
       
-      <guid>https://newblog/post/learn-new-language-2/</guid>
-      <description>Last time, I wrote about frustrations in trying to motivate myself to learn ocaml. I could see the strong points but given that I&amp;#39;ve been using Clojure now for a while, it didn&amp;#39;t really hold any value added for me in my current situation.
-Next, I thought I&amp;#39;d explore Rust. On the non-functional style, my go to languages have always been Python for scripting and small things and C professionally.</description>
+      <guid>https://cestlaz.github.io/post/learn-new-language-2/</guid>
+      <description>&lt;p&gt;
+Last time, I wrote about frustrations in trying to &lt;a href=&#34;https://cestlaz.github.io/post/learn-new-language/&#34;&gt;motivate myself to
+learn ocaml&lt;/a&gt;. I could see the strong points but given that I&amp;#39;ve been
+using Clojure now for a while, it didn&amp;#39;t really hold any value added
+for me in my current situation.&lt;/p&gt;
+&lt;p&gt;
+Next, I thought I&amp;#39;d explore Rust. On the non-functional style, my go to
+languages have always been Python for scripting and small things and C
+professionally. I also used and taught C++ and Java. I always loved
+C&amp;#39;s minimalism but it was pretty bare bones and Java and C++ while
+more modern both also have their warts so it made sense to see if
+there was a language I&amp;#39;d like to use instead of any of those three.&lt;/p&gt;
+&lt;p&gt;
+A number of years ago, I decided to explore Go for this. Go had some
+nice features. It didn&amp;#39;t do a full blown object oriented thing but
+rather a more lightweight way of defining structures and binding
+functionality to structures. I guess like interfaces. Since I&amp;#39;m not a
+big OOP person but did like the occasional object abstraction this was
+great. I also loved goroutines for concurrency. On the other hand, I
+didn&amp;#39;t like the lack of functional goodness so ultimately I stopped
+pursuing Go.&lt;/p&gt;
+&lt;p&gt;
+This time, it was Rust&amp;#39;s turn. Here&amp;#39;s a list of a few of the things
+that drew me to Rust:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Good learning resources&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Good dev experience under Emacs&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Static typing&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;immutable by default&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Supports the other functional goodness that I like&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I just started playing and so far I like it. In addition to the above
+I&amp;#39;m also seeing some other positives. It has pattern matching which I
+mentioned in my previous post and the object model looks more like Go
+than like C++ or Java so that&amp;#39;s a plus.&lt;/p&gt;
+&lt;p&gt;
+Another big potential positive is Rust&amp;#39;s concept of ownership. An
+informal way of thinking about it is that it&amp;#39;s how Rust deifnes what
+can access memory. In Rust,  if you have code like this (lifted from
+the Rust Book):&lt;/p&gt;
+&lt;div class=&#34;src src-rust&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-rust&#34; data-lang=&#34;rust&#34;&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; s1 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; String::from(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;hello&amp;#34;&lt;/span&gt;);
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; s2 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; s1;
+
+    println!(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;{}, world!&amp;#34;&lt;/span&gt;, s1);&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+you&amp;#39;ll get an error. Once you assign s1 to s2 then s2 owns the memory
+with the string &amp;#34;hello&amp;#34; so when you try to access it, you get an
+error. Of course, Rust has ways of dealing with this including 
+explicitly declared mutability and references and maybe other things I
+haven&amp;#39;t gotten to yet so it isn&amp;#39;t really a problem. I can also see it
+as being a really strong way of encouraging the writing of safe
+programs.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m pretty early on in the journey - I though I might try Advent of
+code this year in Rust but I don&amp;#39;t think I&amp;#39;ll be sufficiently up to
+speed on it yet but we&amp;#39;ll see. In any event, it seems to be a very
+cool language and a strong C++ or Java alternative.&lt;/p&gt;
+&lt;p&gt;
+A strong alternative at least in terms of using. For teaching, that&amp;#39;s
+another story. For me, learning hasn&amp;#39;t been a problem since I&amp;#39;ve been
+around the block a few times but I could see the language being a
+challenge for beginners. Lot&amp;#39;s of cognitive overhead for the ownership
+thing as well as general scope rules and the way mutability works. I
+think all these features are great for the language but I suspect that
+it wouldn&amp;#39;t fly very well in a CS0 course.&lt;/p&gt;
+&lt;p&gt;
+So, I&amp;#39;m feeling that Rust&amp;#39;s a go and I look forward to continuing to
+explore the language. If you want to check it out, start here:
+&lt;a href=&#34;https://www.rust-lang.org/&#34;&gt;&lt;a href=&#34;https://www.rust-lang.org/&#34;&gt;https://www.rust-lang.org/&lt;/a&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Learning a new language - part 1 - functional</title>
-      <link>https://newblog/post/learn-new-language/</link>
+      <link>https://cestlaz.github.io/post/learn-new-language/</link>
       <pubDate>Mon, 21 Nov 2022 17:34:28 -0400</pubDate>
       
-      <guid>https://newblog/post/learn-new-language/</guid>
-      <description>Now that I&amp;#39;ve done posting about why I&amp;#39;m retiring we can get back to our usual blogging.
-I haven&amp;#39;t really done anything technical over the past couple of year. The most programming I did in the past 18 months was a halfhearted effort at the Advent of Code 2021 event last December. I thought I&amp;#39;d see about picking up a new language to change that. In doing so, I was reminded of some of my resistances to learning a new language and how I&amp;#39;ve seen similar from self taught students coming into my classes.</description>
+      <guid>https://cestlaz.github.io/post/learn-new-language/</guid>
+      <description>&lt;p&gt;
+Now that I&amp;#39;ve done posting about &lt;a href=&#34;https://cestlaz.github.io/post/retiring-1-why/&#34;&gt;why I&amp;#39;m retiring&lt;/a&gt; we can get back to
+our usual blogging.&lt;/p&gt;
+&lt;p&gt;
+I haven&amp;#39;t really done anything technical over the past couple of
+year. The most programming I did in the past 18 months was a
+halfhearted effort at the Advent of Code 2021 event last December. I
+thought I&amp;#39;d see about picking up a new language to change that. In
+doing so, I was reminded of some of my resistances to learning a new
+language and how I&amp;#39;ve seen similar from self taught students coming
+into my classes.&lt;/p&gt;
+&lt;p&gt;
+Of course my situation is different - I&amp;#39;m doing this wholly by choice
+and once a student is in a class they&amp;#39;ve got to use the prescribed
+tool.&lt;/p&gt;
+&lt;p&gt;
+The contenders on the functional side were Haskell and OCaml and on the
+other side, mostly Rust.&lt;/p&gt;
+&lt;p&gt;
+Today, we&amp;#39;ll talk about the functional side. I decided to look at
+OCaml. I had briefly looked at it well over a decade ago but barely
+scratched the surface. Haskell I played with a little more deeply but
+not much. I decided on OCaml because it was supposed to be more real
+world and, to be honest, I get turned off by some of the holier than
+though purely functional talk that sometimes occurs.&lt;/p&gt;
+&lt;p&gt;
+Funny thing is that I&amp;#39;ve had a really hard time getting going - so
+much so that I decided that for now I&amp;#39;d explore Rust.&lt;/p&gt;
+&lt;p&gt;
+So, what&amp;#39;s going on?&lt;/p&gt;
+&lt;p&gt;
+OCaml looks to have some nice features. It&amp;#39;s functional and I&amp;#39;m a fan
+there and it&amp;#39;s also supposed to be pragmatic - you can get real world
+stuff done with it. It&amp;#39;s also statically typed which overall I think
+is a good thing and it has cool features like pattern matching.&lt;/p&gt;
+&lt;p&gt;
+For pattern matching, I&amp;#39;m not talking about things like regex or
+matching characters in a string but rather something like a really
+cool and powerful case or switch statement. Even that description,
+though is not doing it justice.&lt;/p&gt;
+&lt;p&gt;
+I think my problem is that I already am comfortable and enjoy
+programming in Clojure. Clojure is functional and pragmatic but while
+Clojure doesn&amp;#39;t have pattern matching built in but there is a library
+that basically accomplishes the same thing. As to the type system,
+Clojure is dynamically typed and while that would be an issue if I
+were working on large real projects and/or on a team, I&amp;#39;m just writing
+little toys by myself. If I want stronger typing, there are ways of
+doing that in Clojure. True, it&amp;#39;s not required but working by myself,
+I have that option, should I choose. It&amp;#39;s not the same - I know but as
+I said, I&amp;#39;m not doing anything big, important or with other people
+right now.&lt;/p&gt;
+&lt;p&gt;
+So, basically, every time I try to dive in to OCaml, I end up feeling
+that &amp;#34;I can already do that and do it better in Clojure.&amp;#34; I&amp;#39;m guessing
+I&amp;#39;d feel the reverse had I started on the OCaml side. &lt;/p&gt;
+&lt;p&gt;
+This has happened to me before. I was an early Python adopter feeling
+that it was a huge improvement over Perl. A while later, Ruby came out
+and shortly after that, Ruby on Rails became a thing. Every time I
+looked into Ruby I had to stop - I could already do and do better in
+Python. By then, there were enough tools to compete with Rails even
+though they weren&amp;#39;t as mainstream and overall I preferred Python. I
+never did end up learning Ruby.&lt;/p&gt;
+&lt;p&gt;
+I felt a similar sluggishness when I went from C++ to Java - something
+I had to do because of the AP Exam change but I pushed through since I
+had to teach it and ultimately, I&amp;#39;ve learned to appreciate the good
+and curse the bad of both languages.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve seen similar blocks or resistance from who&amp;#39;ve had prior
+programming experiences over the years. From students who seemed
+to be taught more &amp;#34;the language&amp;#34; rather than CS using the language. I
+know that&amp;#39;s a nebulous thing to say but I think some of you will catch
+my drift. It&amp;#39;s subtleties like saying &amp;#34;okay, we&amp;#39;re repeating this
+process, here&amp;#39;s how we do it in language such and such&amp;#34; vs &amp;#34;here&amp;#39;s how
+we repeat this process period&amp;#34; and show the language construct.&lt;/p&gt;
+&lt;p&gt;
+My former math chairman at Stuy said he once, back in the 80s asked Marvin
+Minsky what they should be teaching for CS in High School. Minsky
+said, and I paraphrase, &amp;#34;nothing, you&amp;#39;ll only mess them up. At most
+teach them to type.&amp;#34; Of course that was a different time and I
+&lt;strong&gt;strongly&lt;/strong&gt; disagree with that statement but I do think we have to look
+at how students entering our classes are or are not prepared and
+adjust accordingly. &lt;/p&gt;
+&lt;p&gt;
+So, in the end, it&amp;#39;s back to Clojure for me on the functional side and
+I&amp;#39;ll try to do an OCaml dive sometime in the future.&lt;/p&gt;
+&lt;p&gt;
+Fortunately, I&amp;#39;m having an easier time getting in to Rust. More about
+that next time.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

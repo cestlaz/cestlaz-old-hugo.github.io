@@ -2,90 +2,1836 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SIGCSE on C&#39;est la Z</title>
-    <link>https://newblog/tags/sigcse/</link>
-    <description>Recent content in SIGCSE on C&#39;est la Z</description>
+    <link>https://cestlaz.github.io/tags/sigcse/</link>
+    <description>C&#39;est la Z (SIGCSE)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Mar 2022 14:26:26 -0400</lastBuildDate><atom:link href="https://newblog/tags/sigcse/rss.xml" rel="self" type="application/rss" />
+    <lastBuildDate>Mon, 27 Mar 2023 07:44:47 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/sigcse/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>SIGCSE 2023 Microteaching</title>
+      <link>https://cestlaz.github.io/post/sigcse-2023-microteaching/</link>
+      <pubDate>Mon, 27 Mar 2023 07:44:47 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/sigcse-2023-microteaching/</guid>
+      <description>&lt;p&gt;
+Okay, back to SIGCSE.&lt;/p&gt;
+&lt;p&gt;
+Next up, a session titled Microteaching run by Colleen Lewis. Here&amp;#39;s
+the paper: &lt;a href=&#34;https://dl.acm.org/doi/10.1145/3545947.3569593&#34;&gt;link&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+Unfortunately, the paper doesn&amp;#39;t do the session justice as the paper
+briefly describes a small amount of CS subject matter that each
+session presenter was going to &amp;#34;teach.&amp;#34; By &amp;#34;teach,&amp;#34; I mean, do a 7
+minute mock version of the lesson for the attendees.  That&amp;#39;s all fine
+and good but the thrust wasn&amp;#39;t really the actual CS content but how it
+was delivered.&lt;/p&gt;
+&lt;p&gt;
+Each presenter would deliver their mini lesson and then Colleen would
+highlight solid pedagogical practices.&lt;/p&gt;
+&lt;p&gt;
+This type of session is much needed and as far as I can tell, has been
+missing from SIGCSE.&lt;/p&gt;
+&lt;p&gt;
+Let me repeat: This type of session is much needed and as far as I can tell, has been
+missing from SIGCSE.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ll talk more about my feelings of where this type of session should
+belong along with &lt;a href=&#34;https://cestlaz.github.io/post/sigcse-2023-it-seemed-good-idea/&#34;&gt;It seemed like a good idea at the time&lt;/a&gt; and Nifty
+Assignments in my final SIGCSE post but here I&amp;#39;ll stick to this
+session.&lt;/p&gt;
+&lt;p&gt;
+As I said, after each mini lesson, Colleen shared what she saw as good
+practices.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Using manipulatives&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;give students time to process questions&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;give explicit goals&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;read what&amp;#39;s on the board aloud&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;use activities that involve the students&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;create interesting motivations that lead to the topic&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;and more&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All were good, except I have a minor quibble with one that
+I&amp;#39;ll get to below. Overall this made me happy. I had never seen a
+SIGCSE session that highlighted basic pedagogical techniques. On the
+other hand, I was a bit sad. Why? Because all the techniques listed
+were super basic - like day 0.5 of basic pedagogy techniques.&lt;/p&gt;
+&lt;p&gt;
+Was it really necessary to focus on such basic introductory techniques
+as opposed to, say, questioning techniques - something that has a lot
+more depth than a lot of people realize?&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m guessing it was. Colleen has spent a lot of time working with
+college faculty members and a good deal of time thinking about these
+things so I&amp;#39;m guessing that if she highlighted something as a best
+practice, she felt it needed to be highlighted.&lt;/p&gt;
+&lt;p&gt;
+So, even if the pedagogical level was rather rudimentary, I&amp;#39;d say that
+it&amp;#39;s probably needed and that makes it even more important to have
+sessions like this at SIGCSE.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ll circle back to this and teaching sessions in general in my last
+SIGCSE post - I still have one more to go on Nifty Assignments before
+that one but to close out, I&amp;#39;ll talk about my quibble.&lt;/p&gt;
+&lt;p&gt;
+It was with the &amp;#34;best practice&amp;#34; of giving explicit goals. This could
+be like a high school teacher to have an explicit &lt;strong&gt;aim&lt;/strong&gt; on the board
+prior to the lesson start or it could be on the side of the board
+&amp;#34;students will learn….&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+This is frequently taught as a best practice but it isn&amp;#39;t. It&amp;#39;s often
+a good practice but it&amp;#39;s not a universal best one. In fact nothing
+is. The trouble is, it&amp;#39;s often taught as a &lt;strong&gt;must follow&lt;/strong&gt; practice with
+no exceptions and unfortunately educators buy in. It&amp;#39;s frequently
+taught as a must follow because it&amp;#39;s least common denominator  - you
+can always do it and it frequently conveys info to the students (and
+your supervisor observing :-) ). It&amp;#39;s easy to do and easy to
+&amp;#34;measure.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+The problem is, it&amp;#39;s not a universal best practice. There are plenty
+of times when you don&amp;#39;t want to give away the punchline or you want to
+set up a head fake. &lt;/p&gt;
+&lt;p&gt;
+My linked list motivation which I described &lt;a href=&#34;https://cestlaz.github.io/post/sigcse-2023-theater/&#34;&gt;here&lt;/a&gt; is one such case. I
+don&amp;#39;t want to write my objective ahead of time because it would take
+away from the activity which would then remove it&amp;#39;s value to make
+linked lists clearer and easier.&lt;/p&gt;
+&lt;p&gt;
+Incidentally, the one student to drop out of my Advanced Certificate
+teacher program in a huff got all bent out of shape because I woulnd&amp;#39;t
+provide every detail of every lesson in advance because to them that
+was the way to do it. Everyone else got it.&lt;/p&gt;
+&lt;p&gt;
+As they say, you&amp;#39;ve got to know when to hold them, know when to fold
+them….&lt;/p&gt;
+&lt;p&gt;
+Other times when not giving the objective right up front might be when
+teaching merge or quick sorts, depending on your motivation. In math
+class, I&amp;#39;d say teaching the quadratic formula is better served by
+working the derivation by completing the square prior to revealing why
+you were doing it.&lt;/p&gt;
+&lt;p&gt;
+In any event, it was a minor quibble and it wasn&amp;#39;t necessarily stated
+as being a best practice but a good practice for the specific mini
+lesson. &lt;/p&gt;
+&lt;p&gt;
+Bottom line this session or a session like this is a great addition to
+SIGCSE and hats off to Colleen and all the presenters.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sigcse 2023 Pedagogical Innovations</title>
+      <link>https://cestlaz.github.io/post/sigcse-2023-ped-innovations/</link>
+      <pubDate>Wed, 22 Mar 2023 19:00:52 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/sigcse-2023-ped-innovations/</guid>
+      <description>&lt;p&gt;
+Next up was a session called Pedagogical Innovations. Good stuff but
+not really pedagogy. Maybe curricular innovations would have been
+a better title.&lt;/p&gt;
+&lt;p&gt;
+The third session was about virtual summer camps - I had to skip out
+for that but here&amp;#39;s what went on in the first two sessions.&lt;/p&gt;
+&lt;p&gt;
+The first session involved professors from Oregon State working with
+middle school teachers teaching CS through the use of classic physical
+games. Specifically tic tac toe (paper &lt;a href=&#34;https://dl.acm.org/doi/10.1145/3545945.3569883&#34;&gt;here&lt;/a&gt;). I&amp;#39;ve used games like tic
+tac toe and connect 4 in high school classes but never younger. You
+can read the paper for details but there were some ups and
+downs. Students made progress but had trouble with the algorithm and
+conditionals. I wonder if it was too much too soon. I&amp;#39;m always
+skeptical when I hear classes of really young kids doing work that my
+Stuy HS kids had trouble with. Sometimes it&amp;#39;s too young or too much
+and there&amp;#39;s nothing wrong with that. In fact, we&amp;#39;d be better off if
+more people recognized that.&lt;/p&gt;
+&lt;p&gt;
+It was nice to see that acknowledgment here.&lt;/p&gt;
+&lt;p&gt;
+One other point of note, and one I&amp;#39;m super glad they brought up was
+the acknowledgment that even with training and extreme support,
+teachers that didn&amp;#39;t come in with a strong programming background had
+a very hard time.&lt;/p&gt;
+&lt;p&gt;
+So nice for people other than me to say that publicly. &lt;/p&gt;
+&lt;p&gt;
+We&amp;#39;ve been hearing CS is so easy - anyone can do it, anyone can teach
+it but it&amp;#39;s just not so. It takes time and effort just like anything
+else and every time code.org or some other flavour of the month says
+you can teach CS without really learning CS devalues the subject and
+the teaching profession.&lt;/p&gt;
+&lt;p&gt;
+So, that was presentation one and I encourage you to read the paper
+linked above.&lt;/p&gt;
+&lt;p&gt;
+The second presentation was by Dan Garcia and the BJC crew on a new
+class - &lt;a href=&#34;https://bjc.berkeley.edu/sparks/&#34;&gt;BJC Sparks&lt;/a&gt;. Again, not pedagogy but curriculum. The idea was
+middle school functional first programming course in Scratch.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m a big functional programming guy so I love this.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve frequently come out against drag and drop languages but that&amp;#39;s in
+later grades and this is middle school so I&amp;#39;m fine with it here. I do
+have some questions relating to drag and drop in general:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;how do you deal with large programs on small screens?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Is there a difference in learning by dragging blocks vs say typing
+words, vs even writing words?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Jigsaw puzzle programming&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;but those are questions for another time.&lt;/p&gt;
+&lt;p&gt;
+Here the BJC crew start with a functional approach to programming but
+then add imperative constructs. I was curious about two things. One
+was when was the optimal time to do that switch - they weren&amp;#39;t sure. I
+think that&amp;#39;s a worthwhile question to explore.&lt;/p&gt;
+&lt;p&gt;
+The other question was how to keep students from using the imperative
+blocks until they&amp;#39;re introduced and this is the cool part - they can
+disable those blocks from the language until needed. Something like
+the different levels of language with Dr.Racket but apparently with
+finer grain control.&lt;/p&gt;
+&lt;p&gt;
+This course looks pretty exciting and if I do stay in the game and
+want to look more at the middle school level, I&amp;#39;ll be sure to look at
+it more carefully.&lt;/p&gt;
+&lt;p&gt;
+So that&amp;#39;s it for today.&lt;/p&gt;
+&lt;p&gt;
+Still to come?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Microteaching&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Nifty Assignments&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;And also some closing thoughts&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SIGCSE 2023 Writing in CS Classes</title>
+      <link>https://cestlaz.github.io/post/sigcse-2023-writing/</link>
+      <pubDate>Tue, 21 Mar 2023 10:54:01 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/sigcse-2023-writing/</guid>
+      <description>&lt;p&gt;
+On to Friday&amp;#39;s &amp;#34;Computing and Liberal Arts&amp;#34; session.&lt;/p&gt;
+&lt;p&gt;
+A couple to write about here. One will bring us back to Harvard&amp;#39;s
+CS50 - I&amp;#39;ll save that for tomorrow. Today I&amp;#39;ll share what Lisa Zhang
+and her team at the University of Toronto at Mississauga are doing to
+bring writing into their CS classes.&lt;/p&gt;
+&lt;p&gt;
+Most people I speak to agree that in America we don&amp;#39;t do a good
+job teaching writing. It looks like Canada might not be doing much
+better. Communication is so fundamental that it&amp;#39;s great to see a full
+CS program embracing the importance of writing and doing it without
+compromising their own content.&lt;/p&gt;
+&lt;p&gt;
+Unfortunately, and I say this tongue in cheek, they seem to be doing
+it the right way so those of us who would have to run stealth can&amp;#39;t
+really steal their program and process.&lt;/p&gt;
+&lt;p&gt;
+To start they have a bunch of instructors bought in and they&amp;#39;re
+integrating writing in five core classes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;CS 2&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Data Structures&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Computer Architecture&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Theory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Systems&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Right off the bat I love this - 5 classes over two, maybe three years
+with different instructors all in agreement that their students have
+to be better at writing and communicating.&lt;/p&gt;
+&lt;p&gt;
+Next, they made the writing topical to each class. They might write a
+man page, that is program documentation in a course where they write
+an application. A proof in the theory course, an email to a potential
+interviewer, etc.. Not only does this ensure that the assignments flow
+naturally in the class but it also develops the kinds of writing
+skills they&amp;#39;ll need in the future.&lt;/p&gt;
+&lt;p&gt;
+Now, how do they do this without overloading the current teaching
+staff and what makes a bunch of CS professors and TAs qualified to
+assess and improve writing? That&amp;#39;s always been a big question with
+writing across the curriculum efforts.&lt;/p&gt;
+&lt;p&gt;
+They&amp;#39;re doing it by hiring a writing specialist who&amp;#39;s in charge of
+the writing aspects of the classes. They also hired specific writing
+TAs who would support the writing aspect to go along with the
+traditional CS subject TAs who would continue to support the regularly
+scheduled class content.&lt;/p&gt;
+&lt;p&gt;
+How did they assess the writing TAs? They gave them a writing sample
+to critique. Not perfect but I guess no worse than a TA in any writing
+heavy class.&lt;/p&gt;
+&lt;p&gt;
+Overall, I love this approach. At Hunter, we have a writing center but
+if the writing isn&amp;#39;t Incorporated into the class and the supports
+aren&amp;#39;t right there, you&amp;#39;re not going to get the same benefit.&lt;/p&gt;
+&lt;p&gt;
+One other aspect of their writing program that I love is that it&amp;#39;s
+pragmatic and focused on the bottom line - communication. They decided
+&lt;strong&gt;not&lt;/strong&gt; to focus on grammar and grammar errors so long as the issue
+didn&amp;#39;t impair understanding and communication. This is great overall
+and particularly is important if your classes have English language
+learners. &lt;/p&gt;
+&lt;p&gt;
+So no teacher analysis or alternate views today. Just wanted to share
+some really cool stuff being done at UofT Mississauga.&lt;/p&gt;
+&lt;p&gt;
+You can find the paper &lt;a href=&#34;https://dl.acm.org/doi/10.1145/3545945.3569729&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SIGCSE 2023 - when the solution solves the wrong problem</title>
+      <link>https://cestlaz.github.io/post/sigcse-2023-wrong-problem/</link>
+      <pubDate>Mon, 20 Mar 2023 17:50:16 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/sigcse-2023-wrong-problem/</guid>
+      <description>&lt;p&gt;
+The next good idea was from David Malan of Harvard&amp;#39;s CS50 class. For
+full disclosure, I have to say that I&amp;#39;ve been skeptical of CS50 ever
+since I started hearing from my former students. I&amp;#39;ve had a lot of
+them either take CS50 at Harvard, TA the class, or TA the course that
+follows CS50 and their assessment is, let&amp;#39;s say somewhat different
+than the usual Ted Talk miracle course hype that normally surrounds
+it.&lt;/p&gt;
+&lt;p&gt;
+What was the problem? Office hours. Malan described how offices hours
+started in a dark dank computer lab but as they realized that most if
+not all students had laptops they moved them to dining halls across
+classrooms complete with snacks. This should have been great but he
+shared a graph showing the typical cyclic behavior of office hours
+visits - peaking right before each project was due. He also shared
+that the wait for a TA would reach two hours at those peak times.&lt;/p&gt;
+&lt;p&gt;
+The solution involved reworking office hours to group office hours -
+adding another small recitation to the class if you would and also one
+single big office hours block with all 80 teaching assistants.&lt;/p&gt;
+&lt;p&gt;
+The problem - too many students waiting too long for help over and
+over again is a real problem. My issue is that the solution doesn&amp;#39;t
+address the real problem.&lt;/p&gt;
+&lt;p&gt;
+As an experienced teacher I had one immediate thought.&lt;/p&gt;
+&lt;p&gt;
+Over the day I ended up speaking to 3 other experienced HS teachers. I
+told each the problem - even with Harvard&amp;#39;s resources, overloaded
+office hours - too many students, too long a wait. I told the solution
+as well - small group office hours + 1 big office hour block.&lt;/p&gt;
+&lt;p&gt;
+Each independently and immediately had the same reaction I did.&lt;/p&gt;
+&lt;p&gt;
+If you&amp;#39;ve got large numbers of students coming out to office hours
+over and over again the problem probably isn&amp;#39;t with the TAs. The
+problem is probably in the course.&lt;/p&gt;
+&lt;p&gt;
+Same thing when half the class fails a test or can&amp;#39;t complete a
+project. That&amp;#39;s the time that as teachers we have to look at
+ourselves. Maybe we&amp;#39;re not teaching something well or maybe it&amp;#39;s too
+much in too short a time. Maybe an assignment is just unrealistic. &lt;/p&gt;
+&lt;p&gt;
+In any event, indications based on the presentation is that the issue
+is most likely in the course, its delivery, or its instruction, not
+the office hours arrangements.&lt;/p&gt;
+&lt;p&gt;
+Besides, looking at the small group TA solution, what you&amp;#39;re really
+doing is adding an additional recitation to the class without awarding
+any additional credits to the students.&lt;/p&gt;
+&lt;p&gt;
+I could be all wrong on this but I don&amp;#39;t think I am. It&amp;#39;s not uncommon
+for an instructor not to look inward when class issues arise.&lt;/p&gt;
+&lt;p&gt;
+So, this might not be popular but that was my take.&lt;/p&gt;
+&lt;p&gt;
+That&amp;#39;s it for my posts on &amp;#34;It seemed like a good idea at the time.&amp;#34;
+Next we&amp;#39;ll move to thoughts on some other sessions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SIGCSE 2023 - Deadlines and Commitments</title>
+      <link>https://cestlaz.github.io/post/sigcse-2023-late-assignments/</link>
+      <pubDate>Mon, 20 Mar 2023 12:41:23 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/sigcse-2023-late-assignments/</guid>
+      <description>&lt;p&gt;
+The first &amp;#34;good idea at the time&amp;#34; dealt with deadline extensions. &lt;/p&gt;
+&lt;p&gt;
+The scenario in question was presented by my long time friend Lauren
+Bricker of the University of Washington although a very similar
+situation was also presented by of Kristin Stephens-Martinez of
+Duke. Lauren was one of the few High School teachers with a strong
+background in CS so she&amp;#39;s really a unicorn and it made sense for UW
+to come calling and snatch her up.&lt;/p&gt;
+&lt;p&gt;
+The issue was students turning in projects late. This is a tale as old
+as time. Deadlines are a hot button issue in education. Some think
+that we need hard ones and others think you should be able to turn
+anything in at any time. I fall somewhere in between.&lt;/p&gt;
+&lt;p&gt;
+In Lauren&amp;#39;s case far too many students were asking for
+extensions. This was a problem. The first solution was to allow any
+student to request a 2 week extension on any in term project. You
+couldn&amp;#39;t ask for an extension on the final project. With the
+extension, a student could resubmit one time.&lt;/p&gt;
+&lt;p&gt;
+This worked well with some students - students who had something going
+on during the project run or otherwise had legitimate issues that made
+the original project window unrealistic.&lt;/p&gt;
+&lt;p&gt;
+The problem was that too many students would use the policy to
+basically not do anything until the last minute - essentially treat
+the project as a project with a deadline two weeks further out.&lt;/p&gt;
+&lt;p&gt;
+So, this policy worked for the student who tried to do things the
+right way but would end up with others getting jammed up and falling
+further and further behind as the class moved on.&lt;/p&gt;
+&lt;p&gt;
+One suggested solution would be to require specific milestones be
+submitted but this would likely be a hardship on the students who
+legitimately needed the extra time.&lt;/p&gt;
+&lt;p&gt;
+My suggestion was as follows.&lt;/p&gt;
+&lt;p&gt;
+I noticed that  Lauren uses git with her classes. Git has a wonderful
+feature - extensive logs. As long as a student commits and pushes
+their work to whatever central repository system they use - GitLab,
+GitHub or other, the instructor can easily see what was done when.&lt;/p&gt;
+&lt;p&gt;
+My policy has always been that as long as you&amp;#39;ve been doing some level
+of legitimate work on a project I&amp;#39;ll give an extension. When I do
+grant an extension I always start by asking the student - when do you
+think is a reasonable due date and I also ask about any resources they
+need. As long as the their suggestion is reasonable I go with it. If
+it isn&amp;#39;t, we discuss why it isn&amp;#39;t and come up with something together.&lt;/p&gt;
+&lt;p&gt;
+What do I mean by legitimate work? Well, that depends but at a very
+basic level, I look to see if there was some development of the
+project, some code, working or failed or even documentation in the
+readme about a student&amp;#39;s issues (we set that policy of using the
+readme as such early in the semester).&lt;/p&gt;
+&lt;p&gt;
+If a student asks for an extension but didn&amp;#39;t commit/push anything, we
+have a discussion. I may or may not grant the extension but you can
+bet the next time they do it right.&lt;/p&gt;
+&lt;p&gt;
+The nice thing about this solution is that aspects can also be
+automated. It&amp;#39;s easy enough to write a script to determine how many,
+if any commits a student has pushed in a given time frame. It would be
+equaly easy to write a script to email students or instructors if a
+student wasn&amp;#39;t submitting anything within a certain time frame.&lt;/p&gt;
+&lt;p&gt;
+For my policy, beyond this, I just request that the student asks for
+the extension prior to right before an assignment is due. Some
+teachers disagree and feel that requiring a student ask is more than
+what should be expected but I do think that there is a point where a
+student has to advocate for themselves and I&amp;#39;ll usually accept the
+first last minute request but then not future ones.&lt;/p&gt;
+&lt;p&gt;
+So, that&amp;#39;s how I&amp;#39;ve been dealing with late projects and it&amp;#39;s worked
+well for me and my classes. I hope it can be helpful to some of you
+out there but if you&amp;#39;ve got another policy or method of trying to get
+students to work on  their projects in a timely manner please share.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SIGCSE 2023 - It seemed like a good idea</title>
+      <link>https://cestlaz.github.io/post/sigcse-2023-it-seemed-good-idea/</link>
+      <pubDate>Sun, 19 Mar 2023 11:31:25 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/sigcse-2023-it-seemed-good-idea/</guid>
+      <description>&lt;p&gt;
+My new favorite session at SIGSCE is &amp;#34;It seemed like a good idea at
+the time.&amp;#34; Panelists share something they tried in or with their
+classes that they thought would be awesome. It wasn&amp;#39;t. then they
+shared either how they tried to fix it or left it open ended. It&amp;#39;s a
+lot of fun and for the two years I&amp;#39;ve attended the most interesting
+and valuable session.&lt;/p&gt;
+&lt;p&gt;
+I wish though, that there was a presenter that shared something about
+a specific lesson and how that failed - most if not all of the talks
+I&amp;#39;ve been to in this session were always a little tangential to the
+actual class content. I do understand this - it&amp;#39;s hard to get up in
+front of a room of people and say &amp;#34;I failed&amp;#34; though I&amp;#39;m going to try
+to find something, the bigger the better that I can share at a future
+SIGCSE, I mean, I&amp;#39;ve been doing this for 33+ years so I&amp;#39;ve got to have
+tons of failures to draw from.&lt;/p&gt;
+&lt;p&gt;
+Dan Garcia - one of the session organizers said that he hoped, and I&amp;#39;m
+paraphrasing, that this session would dive deeper into what we
+actually do - teach - and he&amp;#39;s right. That the session always had good
+discussion, good material, and some laughts. Dan posed the question of
+who actually gets to laugh when developing curriculum. He was right
+about the session but I&amp;#39;ll dispute his final point. When I&amp;#39;m working
+with my team on curriculum, lessons, and in fact anything education
+there are lots of laughs. Our problem is we descend into &amp;#34;the stupid&amp;#34;
+and things take us eight times as long as it should.&lt;/p&gt;
+&lt;p&gt;
+The only other thing was that last year, the organizers asked for
+questions or suggested solutions at the end, this time only
+questions. I think it&amp;#39;s important to explicitly call to the audience
+for both.&lt;/p&gt;
+&lt;p&gt;
+There were five &amp;#34;failures&amp;#34; but my next two posts will focus on two of
+them. First up will be Lauren Bricker from the University of
+Washington. Her topic involved deadline extensions on student
+projects. Kristin Stephens-Martinez of Duke also talked about
+deadlines. That&amp;#39;s my next  post.&lt;/p&gt;
+&lt;p&gt;
+After that, I&amp;#39;ll look at David Malan of Harvard and CS50 fame and
+his &amp;#34;failure.&amp;#34; The other speakers were also great but I didn&amp;#39;t come
+away with any interesting extras to write about.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SIGCSE  2023 An Overview</title>
+      <link>https://cestlaz.github.io/post/sigcse-2023-overview/</link>
+      <pubDate>Sat, 18 Mar 2023 19:40:54 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/sigcse-2023-overview/</guid>
+      <description>
+&lt;p&gt;
+On top of what I posted yesterday, it looks like I&amp;#39;ll add something
+on Nifty Assignments but as I&amp;#39;m winding down in my Toronto Hotel
+waiting for tomorrow morning&amp;#39;s flight home, I thought I&amp;#39;d share some
+general thoughts on the conference.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Numbers and perceptions.
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;The announced attendance was around 1500 but that was both in person
+and remote. It would be interesting to know what the in person numbers
+were but I&amp;#39;d estimate it was under 1000. There were a good number of
+people there but it didn&amp;#39;t feel overwhelming. Continuing a terrific
+change from last year, coffee and tea were available before the first
+session each day and overall, at least from my perspective the
+organizing team did a great job.&lt;/p&gt;
+&lt;p&gt;
+SIGCSE has always been a college level thing. Over the years, more and
+more K12 educators have been attending and the scope has been widening
+but this year, the K12 numbers seemed lower. There also seemed to
+be a larger than usual amount of first timers. Of course, I could be
+all wrong about this since this was just based on my observations and
+I couldn&amp;#39;t really take in the entirety of the conference all at once
+and have no access to the actual data.&lt;/p&gt;
+&lt;p&gt;
+I really enjoyed this edition of SIGCSE and I&amp;#39;ll share specifics in
+future posts but for now I&amp;#39;ll say it was 100% a worthwhile and valuable
+experience. That said, I saw too many instances of college faculty
+talking authoratively about instruction in ways that would get them
+laughed out of any strong collection of K12 teachers. &lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m not the only one who experienced this.&lt;/p&gt;
+&lt;p&gt;
+This morning, during the Nifty Assignments session, I was speaking to
+a HS teacher who I&amp;#39;ve known for a long time but was meeting in person
+for the first time. It was his  first SIGCSE. I asked how he was
+liking it. His response was &amp;#34;well, there are a whole lot of professors
+who really could use a class or two in pedagogy.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+Now, I&amp;#39;m probably being a bit hyperbolic but I do believe that many
+college educators could learn a lot about teaching from K12 teachers -
+particularly inner city K12 teachers, and for some there&amp;#39;s a level of
+arrogance that won&amp;#39;t let them do so.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+Location
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+It was my first time in Toronto and I really enjoyed the city or at
+least the parts I was able to see.&lt;/p&gt;
+&lt;p&gt;
+Between Wednesday and Saturday, I walked about 20 miles of Toronto
+streets. Hit the waterfront, the Fort York historic site, the Shoe
+Museum (who would have thought there would be a museum dedicated to
+Shoes), Kensington, UofT and more.&lt;/p&gt;
+&lt;p&gt;
+We had fun meals at Sneaky Pete&amp;#39;s and the Loose Moose and really good
+modern Indian at Kettle. Side snacks at Wanda&amp;#39;s Pies and from the
+tourist and foodie point of view the trip was a great success but
+still leaves much to do on return trips.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-3&#34;&gt;
+Favourite parts
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+My favourite thing about this trip was that my daughter Batya came
+along. She&amp;#39;s a software engineer at Meta but is spending the semester teaching at
+Georgia State so Meta sent her along. Of course now, she&amp;#39;s considering
+this ed thing as a possible career path (particularly if she&amp;#39;s hit in
+the next round of layoffs). Devorah also came along but only to play
+tourist. Just like it was a treat for me to have Batya in my class
+back at Stuy, it&amp;#39;s also such a treat to be able to share professional
+experiences be they strict tech or even better education. &lt;/p&gt;
+&lt;p&gt;
+Also, of course, was the hallway track. I was able to at least say hi
+to almost everyone I wanted to who I knew was there. Though in one case
+it was on the escalator out of the center for the final time and I was
+so conferenced out by then I was barely coherent but still, so great
+to see old friends.&lt;/p&gt;
+&lt;p&gt;
+Session wise, I loved the &amp;#34;It seemed like a good idea,&amp;#34;
+&amp;#34;Microteaching,&amp;#34; and &amp;#34;Nifty Assignments&amp;#34; trifecta. Each of those
+tackled a different aspect of actual teaching so together they made
+for an interesting set. I&amp;#39;ll write more about each later.&lt;/p&gt;
+&lt;p&gt;
+As a final plus, I&amp;#39;ll say that the coffee break snacks were top notch. &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-4&#34;&gt;
+Least favorite parts
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+There were a few sessions that unfortunately did dissapoint. One was a
+session on liberal arts schools and the forthcoming ACM 2023
+curriculum. The presenters talked about liberal arts colleges being
+different but I was really hoping for a how and/or why. I left having
+learned very little. I was hoping for maybe an example of a liberal
+arts college and why its curriculum differed from a school
+implementing the traditional ACM 2013 curriculum or a specific example
+of how two liberal arts colleges differed from each other.&lt;/p&gt;
+&lt;p&gt;
+There were a few sessions like this where I was hoping for more than a
+reading of the paper or report. The paper provided the bones but I
+wanted the talk to be the meat on the bones. I&amp;#39;d say about two thirds
+of the sessions I went to had the meat but a few were lacking.&lt;/p&gt;
+&lt;p&gt;
+My other downside, and I don&amp;#39;t know how to avoid this was that this
+year I had the bad luck more than in the past of having more time
+slots that had multiple sessions I really wanted to see at the same
+time along with other slots with nothing that talked to me.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-5&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-5&#34;&gt;
+What&amp;#39;s next
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+So that&amp;#39;s a quick hit on some overall thoughts, some good, and some
+bad. I&amp;#39;ll start writing posts soon on individual sessions and  in some
+cases individual presentations.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sigcse 2023 Posts to come</title>
+      <link>https://cestlaz.github.io/post/sigcse-2023-to-come/</link>
+      <pubDate>Fri, 17 Mar 2023 20:10:42 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/sigcse-2023-to-come/</guid>
+      <description>&lt;p&gt;
+Long day two at SIGCSE lots of interesting stuff. Don&amp;#39;t have the time
+or energy to write anything up so I thought I&amp;#39;d share a list of
+topics that I plan to write up in the next few days or weeks.&lt;/p&gt;
+&lt;p&gt;
+After day 1&amp;#39;s keynote and the session on the ACM&amp;#39;s 2023 curriculum I
+went to &amp;#34;It Seemed Like a Good Idea at the Time&amp;#34; which is my new
+favorite session replacing &amp;#34;Nifty Assignments.&amp;#34; I plan to write up
+that session over a couple of posts. I also went to the session on CS1
+Pedagogical innovations and will write up some of what went on their.&lt;/p&gt;
+&lt;p&gt;
+Today&amp;#39;s keynote was enjoyable but not too much to write about so I&amp;#39;ll
+skip that but there are a few things I want to talk about from the
+&amp;#34;computing and liberal arts&amp;#34; session as well as from the
+&amp;#34;microteaching&amp;#34; session. I also sat in on a session about student
+success in CS2 but I might skip writing that up.&lt;/p&gt;
+&lt;p&gt;
+So, that&amp;#39;s whats to come on this blog plus whatever&amp;#39;s interestding
+tomorrow.&lt;/p&gt;
+&lt;p&gt;
+So, stay tuned.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sigsce 2023 Opening morning</title>
+      <link>https://cestlaz.github.io/post/sigsce-2023-opening/</link>
+      <pubDate>Thu, 16 Mar 2023 10:59:58 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/sigsce-2023-opening/</guid>
+      <description>&lt;p&gt;
+Arrived in Toronto yesterday for SIGCSE 2023 along with Devorah and
+ Batya. Devorah to play tourist and Batya as conference attendee. As usual, I arrived
+early the day before to get my bearings. Since we weren&amp;#39;t partaking in
+ any of the preconference activities we had an afternoon to explore
+ the city. Ten miles walking from the hotel near the CN Tower, through
+ and all around Kensington, looping through the University of Toronto
+ campus and back. We hit local arts, games, yarn and fabric  shops as well as
+ other local establishments.&lt;/p&gt;
+&lt;p&gt;
+ This morning, I have to say that the intro announcements was for the
+ birds, or more specifically, the bird as there was a pigeon soaring
+ up and all around the plenary hall.&lt;/p&gt;
+&lt;p&gt;
+ More seriously we had the usual warm welcome and I have to
+ acknowledge that I really appreacited that like last year, coffee was
+ available before the first session, Interesting that they
+ announced around 1500 total participants which included both in
+ person and remote. This is still down from in person attendance prior
+ to Covid. Interpret that as you will.&lt;/p&gt;
+&lt;p&gt;
+ After the usual announcements - logistics, policies, top papers etc,
+ we were off to the first keynote - astronaut Robert Thirsk. I really
+ enjoyed his talk but it was an interesting choice as he&amp;#39;s neither an
+ educator or commputer scientists.&lt;/p&gt;
+&lt;p&gt;
+ Thirsk was a mission engineer on the space shuttle and he walked us
+ through a mission. He artistically painted a picture of the
+ environment, launch and all that it entailed. As the mission
+ proceeded, he recounted how they dealt with systems failure after
+ failure. Some legit, some sensor issues, some major, some minor. In
+ the end they had to abort and make a danger fraught landing. From
+ Florida to Spain in 40 minutes.&lt;/p&gt;
+&lt;p&gt;
+ Then the reveal - it was all a dream. Or rather a simulation.&lt;/p&gt;
+&lt;p&gt;
+ Then Thirsk proceeded with his takeawys and how he felt they related
+ to education.&lt;/p&gt;
+&lt;p&gt;
+ First, a couple of things I noted about this mission:&lt;/p&gt;
+&lt;p&gt;
+ One, and this was something repeatedly emphasized by Thirst was that
+ in order for the space shuttle to work over a million components have
+ to work, interact, and work together both the first time and
+ everytime and there has to be extreme redundency.&lt;/p&gt;
+&lt;p&gt;
+ Another was that the crew used notepads for their checklists and for
+ important information. Here they are in one of the worlds most
+ advanced technological creations. Surrounded by monitors, switches,
+ indicators and the best technology can provide and they were using
+ old school, hand held, hand written notebooks. Cool.&lt;/p&gt;
+&lt;p&gt;
+ After the mission, Thirsk talked about his takeaways. His big one was
+ simulation modelling and experiential learning and doing  it so much
+ that not only will you get it right but you can&amp;#39;t get it wrong.&lt;/p&gt;
+&lt;p&gt;
+ Thirsk felt that we need much more of this and if our populations
+ were trained this way maybe we woould have had better responses in
+ times of crisis like when Covid hit or the supply chains failed.&lt;/p&gt;
+&lt;p&gt;
+ We already see a push for experiential learning in CS so I think most
+ of us would agree but while his pleas were probably preaching to the
+ choir this morning, it will probably fall on the deaf ears of those
+ who actually make decisions and set policy.&lt;/p&gt;
+&lt;p&gt;
+ First off, simulation modelling and experiential learning takes
+ longer and, like most teaching, works better in small classes. You
+ know, like in those schools that rich folk send their kids to. Not so
+ much in the public schools. It&amp;#39;s also much easier to test
+ memorization with standardized tests so I wouldn&amp;#39;t hold my breath.&lt;/p&gt;
+&lt;p&gt;
+ Also, our entire system isn&amp;#39;t based on the common good. It&amp;#39;s based on
+ money and keeping those in power in that money. We could maintain our
+ infrastructure, simulate possible dangerous scenarios and how to deal
+ wtih them and build in failsafes and redundencies but why do
+ that. All it will do is maybe save lives or make sure people have
+ clean water to drink and air to breath but it&amp;#39;s cheaper and more
+ profitable to behave irresponsibly.&lt;/p&gt;
+&lt;p&gt;
+ Sorry, that&amp;#39;s not particularly uplifting but that is America.&lt;/p&gt;
+&lt;p&gt;
+ Another big takeaway Thirsk talks of the importance of &amp;#34;non technical
+ competencies&amp;#34; which is a &lt;strong&gt;much&lt;/strong&gt; better term for soft skills and that
+ there are all sorts of important things to learn during the college
+ experience beyond the classroom. No argument there.&lt;/p&gt;
+&lt;p&gt;
+ Finally, Thirsk talked about the influence of educators. Something
+ I&amp;#39;ve &lt;a href=&#34;https://cestlaz.github.io/post/forgot/&#34;&gt;written about&lt;/a&gt; before. He told of how Mrs. Shirly Cole, his third
+ grade teacher took time out from class to play a radio broadcast on
+ John Glenn&amp;#39;s launch into space. Mrs. Cole didn&amp;#39;t remember this years
+ later but it had a huge impact. Thirsk went on to talk of other
+ educators and how they had impacts.&lt;/p&gt;
+&lt;p&gt;
+ This is something worth remembering. Sure, we teach CS - loops,
+ conditionals and the like but sometimes it can be a little something
+ else that has greatest impact.&lt;/p&gt;
+&lt;p&gt;
+ As I said, it was an interesting choice to select a non educator no
+ CS person but it was a strong keynote and I enjoyed it immensley.&lt;/p&gt;
+&lt;p&gt;
+ At the coffe break I barely got to any vendors as I ran in to some
+ friends. I&amp;#39;m writing this while listening to a session on the ACM
+ 2023 CS Curriculumm (Beta). I&amp;#39;m not getting a whole lot out of this
+ session, hence writing the post. I&amp;#39;ll probably talk a bit about this
+ session though in a later post.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>SIGCSE 2022 AP or not AP</title>
-      <link>https://newblog/post/sigcse-2022-apcs-or-not-ap/</link>
+      <link>https://cestlaz.github.io/post/sigcse-2022-apcs-or-not-ap/</link>
       <pubDate>Wed, 09 Mar 2022 14:26:26 -0400</pubDate>
       
-      <guid>https://newblog/post/sigcse-2022-apcs-or-not-ap/</guid>
-      <description>While my series on APCS-A language choice is done, I wanted to write this brief addendum.
-While reading comments over on Facebook under my APCS posts one caught my eye. There was a comment saying they wished the College Board would create a data science course. I responded, why not create one yourself. The response, shared I&amp;#39;m sure by many is that if a course doesn&amp;#39;t have an AP designation students won&amp;#39;t sign up for it.</description>
+      <guid>https://cestlaz.github.io/post/sigcse-2022-apcs-or-not-ap/</guid>
+      <description>&lt;p&gt;
+While my series on APCS-A language choice is done, I wanted to write
+this brief addendum.&lt;/p&gt;
+&lt;p&gt;
+While reading comments over on Facebook under my APCS posts one caught
+my eye. There was a comment saying they wished the College Board would
+create a data science course. I responded, why not create one
+yourself. The response, shared I&amp;#39;m sure by many is that if a course
+doesn&amp;#39;t have an AP designation students won&amp;#39;t sign up for it.&lt;/p&gt;
+&lt;p&gt;
+This bothered me.&lt;/p&gt;
+&lt;p&gt;
+Now, there are two basic reasons why one can&amp;#39;t create their own
+course. The first is that they don&amp;#39;t have the background to do
+so. Unfortunately, this is frequently the current state of affairs in
+K12 CS. We&amp;#39;re so new and as I mentioned in the earlier post, so many
+of our teachers have been thrown in the deep end and are just learning
+the CS that they need to teach. We can&amp;#39;t expect these teachers to also
+generate new curriculum. This is understandable but unfortunately it also
+led us to where we are today with curriculum being driven largely by
+private parties, most notably the College Board but also other
+independent providers.&lt;/p&gt;
+&lt;p&gt;
+As I said, this is understandable and doesn&amp;#39;t really bother me. It&amp;#39;s
+the other reason that bothers me. It&amp;#39;s that students won&amp;#39;t take a
+class without AP designation or the related, my school won&amp;#39;t let me
+give a class more weight unless it&amp;#39;s AP (even though it may very well
+be more rigorous).&lt;/p&gt;
+&lt;p&gt;
+Over the past decade or so, the College Board has managed to bamboozle
+the public so that they unthinkingly equate AP for good. The truth is,
+some AP classes are good, some are bad and usually it&amp;#39;s the teacher
+that makes it so. The College Board curriculum can nudge the class
+towards better or worse but it&amp;#39;s the teacher that ultimately makes the
+grade. What&amp;#39;s more, in cases like APCS-P the class isn&amp;#39;t even college
+level. I&amp;#39;ve seen APCS-P implementations that were good High School
+courses but I&amp;#39;ve also seen students come out of APCS-P implementations
+which were worse than nothing at all. Then you some of the AP History
+classes which can be passed with drill and kill. At Stuy, for one of
+them at one point you had two possible teachers. One that would
+stretch you and make you think but wouldn&amp;#39;t prepare you for the exam
+at all, that was on you. The other that would set you up for a 5 but
+you wouldn&amp;#39;t really learn that much, mostly memorization. Side note,
+those two teachers are likely long gone so I don&amp;#39;t mean to imply this
+dichotomy exists today.&lt;/p&gt;
+&lt;p&gt;
+Basically, we&amp;#39;ve given the College Board far too much influence and
+control over our High School curricula.&lt;/p&gt;
+&lt;p&gt;
+On the one hand we keep hearing that students should take more and
+more AP classes and on the other, colleges seem to be giving less and
+less credit.&lt;/p&gt;
+&lt;p&gt;
+The truth is, if a student is merely taking a class because it&amp;#39;s AP
+then maybe they shouldn&amp;#39;t be taking it. I know that a student might
+take a class for the wrong reasons and end up loving it and I also get
+it that at the K12 level we have a number of required classes but the
+bar for &amp;#34;good, rigorous course&amp;#34; shouldn&amp;#39;t be AP.&lt;/p&gt;
+&lt;p&gt;
+Over the past couple of years I&amp;#39;ve noticed a bit of a pushback against
+the College Board. The SAT is being questioned so maybe AP is next. We
+can have great classes taught by great teachers developed either in
+house or by engaging a variety of resources. Nothing wrong with the
+College board being one of them but right now their the gorilla in the
+room. Maybe one day we&amp;#39;ll get back to actually trusting teachers and
+letting them drive curriculum  and instruction but I&amp;#39;m not holding my
+breath. &lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>SIGCSE 2022 APCS - Alternate Languages</title>
-      <link>https://newblog/post/sigcse-2022-apcs-alt-langs/</link>
+      <link>https://cestlaz.github.io/post/sigcse-2022-apcs-alt-langs/</link>
       <pubDate>Wed, 09 Mar 2022 11:12:13 -0400</pubDate>
       
-      <guid>https://newblog/post/sigcse-2022-apcs-alt-langs/</guid>
-      <description>I think I&amp;#39;ve hit on the big points on APCS-A language but a couple more remain. This time, let&amp;#39;s look at alternative languages.
-When APCS started in 1984, Pascal probably made sense - it was the primary learning language at the time. It wasn&amp;#39;t really used in industry but it was the language you cut your teeth on. A few years later when I went from college to Goldman Sacks I found very few companies using Pascal.</description>
+      <guid>https://cestlaz.github.io/post/sigcse-2022-apcs-alt-langs/</guid>
+      <description>
+&lt;p&gt;
+I think I&amp;#39;ve hit on the big points on APCS-A language but a couple
+more remain. This time, let&amp;#39;s look at alternative languages.&lt;/p&gt;
+&lt;p&gt;
+When APCS started in 1984, Pascal probably made sense - it was the
+primary learning language at the time. It wasn&amp;#39;t really used in
+industry but it was the language you cut your teeth on. A few years
+later when I went from college to Goldman Sacks I found very few
+companies using Pascal. C was big and there were more than a few
+opportunities using PL/I and of course, lots of COBOL in the business
+world but no Pascal to be found.&lt;/p&gt;
+&lt;p&gt;
+Of course there&amp;#39;s nothing wrong with that. A lot of people claim that
+the language for APCS-A or college CS1 &lt;strong&gt;has&lt;/strong&gt; to be a mainstream
+language used in industry. It really doesn&amp;#39;t. If someone is going to
+continue through a multi-year sequence of classes for CS or a related
+field it&amp;#39;s safe to say they will be exposed to many languages and
+tools and the one you start with isn&amp;#39;t necessarily the one you end
+with. Even if you insist on using an industry language, there are many
+to choose from. Python is big in a number of areas but it isn&amp;#39;t the
+only game in town. Java and C++ are still heavy hitters and will be
+for a long time and many other languages have enough traction to be
+considered commonly used in industry.&lt;/p&gt;
+&lt;p&gt;
+I thought here we could do some quick hits on some possible alternate
+languages.&lt;/p&gt;
+&lt;p&gt;
+For all of these, I&amp;#39;ll be talking about the language as of the last
+time I used it so in some cases, I could be &lt;strong&gt;years&lt;/strong&gt; out of date but I
+think you&amp;#39;ll get the idea as to what I&amp;#39;m driving at.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Racket (nee Scheme).
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+Really quick here. I designed Scheme into my CS0 course at Stuy. I
+think it works very well in that context. That said, it would be a
+tough sell today. Racket/Scheme are not widely used in industry even
+though you will find LISP variants here and there.&lt;/p&gt;
+&lt;p&gt;
+I like it because the syntax is super simple. Just a handful of rules
+and that&amp;#39;s it. I also liked that it&amp;#39;s syntax was different and new -
+it leveled the playing field between people who thought they knew
+something coming in and the rest. On the other hand it is esoteric and
+some find it scary. Back when I created the course with it, MIT was
+still using Scheme for their CS1 so that made it an easier sell as did
+my reputation in the school.&lt;/p&gt;
+&lt;p&gt;
+That said, I don&amp;#39;t think I could start a new program easily with
+Racket and the only place that I know that uses it big time is
+Bootstrap World, a program that I&amp;#39;ve mentioned many times before and
+like very much. It&amp;#39;s not that it&amp;#39;s bad - you can develop wonderful
+courses that use it but rather, there are alternatives that would be
+easier to sell to students, parents, and communities.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+Javascript
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+There&amp;#39;s a vocal contingent for JS as a language in both CS1 and CS0. I
+like JS a lot. In fact I was using it as much as any other language
+until I discovered Clojure and Clojurescript which are now my primary
+personal languages.&lt;/p&gt;
+&lt;p&gt;
+JS fans point out that it&amp;#39;s ubiquitous. If you have a browser, you
+have a JS interpreter. It&amp;#39;s also the front end language of the web
+(although you can transpile other languages like Clojurescript to JS)
+and via Node you can run it server side as well.&lt;/p&gt;
+&lt;p&gt;
+Although I love JS, I disagree with this contingent. First and
+foremost, JS has a number of, well, let&amp;#39;s say, issues. If you haven&amp;#39;t
+seen this video, take a few minutes:
+&lt;a href=&#34;https://www.destroyallsoftware.com/talks/wat&#34;&gt;&lt;a href=&#34;https://www.destroyallsoftware.com/talks/wat&#34;&gt;https://www.destroyallsoftware.com/talks/wat&lt;/a&gt;&lt;/a&gt;.  The JS part starts at
+about 1:20 in. JS has also had issues with types. Now admitedly some
+of these things have been at least partly addressed like using &lt;code&gt;val&lt;/code&gt;
+and &lt;code&gt;var&lt;/code&gt; but I don&amp;#39;t think this is strictly enforced which is
+problematic in a learning language.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve also found the tooling lacking. If you&amp;#39;re doing front end work
+and there&amp;#39;s a problem with your code, if you&amp;#39;re lucky you&amp;#39;ll get some
+feedback but sometimes things just won&amp;#39;t run and won&amp;#39;t get a clue.&lt;/p&gt;
+&lt;p&gt;
+Languages like Typescript could address some of these issues but I&amp;#39;m
+not familiar enough with Typescript to say.&lt;/p&gt;
+&lt;p&gt;
+A final issue wiht JS is the tooling. Sure, you can just inject some
+code in a web page but doing the real deal requires diving into a
+crazy complex ecosystem. Grunt, Gulp, Webpack, Parcel, Rollup, Yeoman and
+these are just the ones I can come up with off the top of my head and
+none of them are trivial to know or to use. Yes, you can kindof just
+take a template and use it but to really understand what&amp;#39;s going on?
+Not so much.&lt;/p&gt;
+&lt;p&gt;
+So, I&amp;#39;ll take a pass on JS as a CS0 or CS1 language. &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-3&#34;&gt;
+Ada
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+This is the language that got me thinking about this post. Adacore has
+been at SIGCSE every time I&amp;#39;ve attended and they push Ada as a
+language. I stopped by to chat with them. Mostly because one of the
+Adacore founders, Robert Dewar, who passed away a few years ago, was a
+big time mentor to me. I just wanted to chat with the people in the
+booth just really to say hi.&lt;/p&gt;
+&lt;p&gt;
+I hadn&amp;#39;t used Ada in decades and probably won&amp;#39;t in the near future but
+the Ada I remember could be a very nice language for a CS1 class. &lt;/p&gt;
+&lt;p&gt;
+Ada&amp;#39;s industrial strength but I seem to recall required less magic to
+get started than Java. It had all the typing you could want for people
+who think that&amp;#39;s important. I also like how it did objects back when I
+used it. Ada back then didn&amp;#39;t have inheritence but was what was called
+Object Typed as opposed to Object Oriented (I think). You could
+essentially use class type constructs for abstraction and to
+encapsulate state but it didn&amp;#39;t have inheritance. To me this is
+perfect. Inheritance is forced in CS1/CS2 and from what I&amp;#39;ve seen is
+really something for tool and library builders and not nearly as  much
+for most people doing day to day programming.&lt;/p&gt;
+&lt;p&gt;
+Ada&amp;#39;s also the first, and maybe only language that I was able to
+consistently write large complex programs and have them work the first
+time. Even with tons of dynamic memory management. This was due to the
+language specification and the compiler. &lt;/p&gt;
+&lt;p&gt;
+Are students going to use Ada in the real world? Perhaps though it&amp;#39;s
+far more likely that they&amp;#39;ll work in Java, C++, Python or JS but that
+doesn&amp;#39;t mean that Ada can&amp;#39;t be a great starting point in CS1 to learn
+important concepts and to develop good habits&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-4&#34;&gt;
+Go
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+Next up, Go. One of the downsides of Go is it&amp;#39;s hard to search for
+unless you specify golang. Other than that, Ada got me thinking of Go
+since I think it shares some traits.&lt;/p&gt;
+&lt;p&gt;
+Go was created to address some of the perceived deficiencies in
+C/C++. A small language with a clean design that could still be used
+for low level tasks. I haven&amp;#39;t used it much, just some fiddling but I
+could see the appeal.&lt;/p&gt;
+&lt;p&gt;
+The language is small and relatively simple so it should be easy to
+learn. It also supports objects but no inheritance which is fine by
+me. Actually, the object model is pretty different from Java or C++
+and I like it a lot. Instead of declaring a Class with variables and
+methods you define a struct with variables and associate methods
+with it via interfaces.&lt;/p&gt;
+&lt;p&gt;
+Go also encourages consistent code. Python does this with
+indentation. Go does it with &lt;code&gt;gofmt&lt;/code&gt; a program that takes Go source
+code and formats it to the Go standard. Editors can hook into gofmt so
+as to call it whenever your program is  saved.&lt;/p&gt;
+&lt;p&gt;
+Go also has a nice model for concurrency but that probably won&amp;#39;t come
+up in a CS1 but then again, it&amp;#39;s so clean in Go, it might.&lt;/p&gt;
+&lt;p&gt;
+Two other features are a super fast compiler - yes this can make a
+difference and a great set of libraries. A friend of mine once
+described Go as a small, clean language with libraries designed by &amp;#34;a
+bunch of really smart programmers with good taste.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+I could think of far worse choices for a CS1 class.&lt;/p&gt;
+&lt;p&gt;
+Interestingly enough, Go was created to replace C/C++ but most of the
+adoption has come from the Python world. I personally know a number of
+software engineers who ported their products from Python to Go. Maybe
+Go could be a sensible alternative to Python as a Java replacement.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-5&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-5&#34;&gt;
+Misc Languages 
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+There are few more languages that I want to briefly mention.&lt;/p&gt;
+&lt;p&gt;
+Java not only provides the language but also the Java Virtual Machine
+and many languages run on the JVM. These include Scala, Kotlin,
+Clojure (my favorite), Groovy and others. I don&amp;#39;t see Clojure as a
+great CS1 choice in most cases and don&amp;#39;t know enough about the others
+to comment other than they all have some level of interoperability.&lt;/p&gt;
+&lt;p&gt;
+Then, you have languages like Haskel or OCAML but I&amp;#39;m just not going
+there.&lt;/p&gt;
+&lt;p&gt;
+Rust is another one to look at. It seems to have all the features but
+is a little more imposing to the beginner - at least that&amp;#39;s what I&amp;#39;m
+thinking from first glance but I want to dive in more sometime in the
+future. &lt;/p&gt;
+&lt;p&gt;
+Finally, a word on Ruby - the other language mentioned in the Wat
+video I linked above. Ruby came around a little after Python. Looking
+at both I decided I was a Python guy and never really pursued Ruby. It
+didn&amp;#39;t talk to me. Years later, Ruby on Rails hit and Ruby
+exploded. Ruby and Rails were HUGE and everywhere in the startup
+world. Bootcamps in fact started to appear left and right and all
+focused on Ruby on Rails.&lt;/p&gt;
+&lt;p&gt;
+A few years later, I started to hear left and right &amp;#34;why don&amp;#39;t you
+teach Ruby in high schools.&amp;#34; The answer was, of course &amp;#34;because in a
+few years, you&amp;#39;ll be asking why we don&amp;#39;t teach some new thing.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+Now, a decade later, Ruby has fallen to the wayside and nobody&amp;#39;s
+demanding that we teach it in high schools.&lt;/p&gt;
+&lt;p&gt;
+Maybe that&amp;#39;s a cautionary tale. We shouldn&amp;#39;t be teaching something,
+particularly in high schol because it&amp;#39;s the hot language or it&amp;#39;s big
+in industry. We come back once again to what&amp;#39;s the goal of the
+course. What do the students need and what&amp;#39;s the best tool to
+accomplish that.&lt;/p&gt;
+&lt;p&gt;
+So, that&amp;#39;s it for this series. I&amp;#39;ll do one more adendum on AP vs non
+Ap but it&amp;#39;s been six posts in six days - that&amp;#39;s a lot for me. I
+hope it spurs some thought and good discussion.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>SIGCSE 2022 APCS-A Costs of changing the language</title>
-      <link>https://newblog/post/sigcse-2022-apcs-costs/</link>
+      <link>https://cestlaz.github.io/post/sigcse-2022-apcs-costs/</link>
       <pubDate>Tue, 08 Mar 2022 07:28:46 -0400</pubDate>
       
-      <guid>https://newblog/post/sigcse-2022-apcs-costs/</guid>
-      <description>One of the arguments for keeping APCS-A as is are the costs to change. There are of course, many kinds of costs.
-The first are the monetary costs. New text book, curricular materials and possibly equipment. The College Board has their development costs but I don&amp;#39;t care about those - they&amp;#39;re raking in money hand over fist anyway. I don&amp;#39;t think these costs amount to much. Companies that sell materials for classes are always trying to make sales and even when subjects don&amp;#39;t change there are always new books and other resources.</description>
+      <guid>https://cestlaz.github.io/post/sigcse-2022-apcs-costs/</guid>
+      <description>&lt;p&gt;
+One of the arguments for keeping APCS-A as is are the costs to
+change. There are of course, many kinds of costs.&lt;/p&gt;
+&lt;p&gt;
+The first are the monetary costs. New text book, curricular materials
+and possibly equipment. The College Board has their development costs
+but I don&amp;#39;t care about those - they&amp;#39;re raking in money hand over fist
+anyway. I don&amp;#39;t think these costs amount to much. Companies that sell
+materials for classes are always trying to make sales and even when
+subjects don&amp;#39;t change there are always new books and other
+resources. So, these costs shouldn&amp;#39;t really figure into switching
+languages.&lt;/p&gt;
+&lt;p&gt;
+Another cost relates to ancillary effects. Does changing the language
+or changing the course have an effect on how well or how poorly
+students are prepared for what&amp;#39;s to come. The argument here for
+keeping Java is that CS2, data structures in most colleges is taught
+in Java or C++ so switching APCS-A to Python wouldn&amp;#39;t prepare students
+as effectively. This may or may not be the case. Students already have
+to deal with the switch from Java to C++ if they go to a C++ school
+adn get placement out of CS1 and some colleges do indeed teach CS1 in
+Python and then switch.&lt;/p&gt;
+&lt;p&gt;
+So, changing languages won&amp;#39;t necessarily hamper students that take
+data structures in a different language in college.&lt;/p&gt;
+&lt;p&gt;
+On the other hand, if the course content changes significantly -
+changing from the A in APCS-A meaning Algorithm to API as Owen
+Astrachan suggested at SIGCSE then that&amp;#39;s a different kettle of fish. &lt;/p&gt;
+&lt;p&gt;
+Digging a little deeper on this front is that when a college designs
+their CS0, CS1, and CS2 classes they should look at the full
+sequence - all three of these classes and beyond. If you change a
+course, you really have to think about how it changes the future
+ones. Hopefully colleges do this when changing curriculum but I did
+talk about how Hunter didn&amp;#39;t when it rebooted their CS0 class. Now,
+this really isn&amp;#39;t a reason to change or not to change since a high
+school can&amp;#39;t really track and pay attention to every colleges CS0,
+CS1, CS2 sequence so I guess it&amp;#39;s neither here nor there.&lt;/p&gt;
+&lt;p&gt;
+I guess the bottom line for this cost is that as long as APCS-A
+remains fundamentally the same content wise it may not matter what the
+language is and if the College Board clearly states that APCS-A is
+&lt;strong&gt;not&lt;/strong&gt; going to be a college CS1 then any language is fair game.&lt;/p&gt;
+&lt;p&gt;
+The biggest cost that people bring up is teacher training. All the
+teachers will have to learn the new language and possibly a new
+paradigm. This one is &lt;strong&gt;huge&lt;/strong&gt;. I work with a lot of teachers who are
+relatively new to CS and some of them are struggling their way through
+APCS-A. These teachers are basically students in CS0 or maybe CS1 and
+just finding there way to and through CS. Switching languages for them
+is no easy feat and concepts in one language don&amp;#39;t necessarily
+translate to another. I&amp;#39;ve seen teachers who claim proficiency with
+Python or JS struggle to write the simplest of Java programs or after
+spending a significant amount of time in Java they have similar
+struggles switching to Python.&lt;/p&gt;
+&lt;p&gt;
+In spite of so many people saying CS is easy and anyone can do it,
+learning new things is in fact hard and takes both time and effort.&lt;/p&gt;
+&lt;p&gt;
+As a side note, this cost flies in the face of every PD provider (I&amp;#39;m
+looking at you code.org) that claims &amp;#34;we&amp;#39;ve trained XXX teachers to be
+CS teachers in just YYY sessions!&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+This is the state we&amp;#39;re in today but this is also a warning. We &lt;strong&gt;have&lt;/strong&gt;
+to do better with respect to teacher training so as to make this cost
+meaningless.&lt;/p&gt;
+&lt;p&gt;
+When I entered teaching, I had been doing C programming professionally
+but knew Pascal along with other languages from college. Teaching APCS-A/B
+in Pascal was easy. Well, the language was easy. I was a new teacher
+so teaching overall was hard but teaching APCS-A/B wasn&amp;#39;t any harder
+than say teaching Trig or Linear Algebra. Actually, maybe it was a
+little easier since I was a CS guy at heart and not a math
+person.&lt;/p&gt;
+&lt;p&gt;
+When the class switched to C++, I figured out C++. I had never done
+OOP before but I figured it out. Switching to Java? Same deal. I also
+taught myself Python, NetLogo and other languages that I had to or wanted
+to teach with.&lt;/p&gt;
+&lt;p&gt;
+The point is, I had a strong CS background so picking up a new
+language wasn&amp;#39;t really a major cost. It wasn&amp;#39;t free - I had to spend
+some time and at times figure out new tooling but it wasn&amp;#39;t this
+insurmountable thing.&lt;/p&gt;
+&lt;p&gt;
+Right now, we&amp;#39;re at a point where we can&amp;#39;t really ask this of our CS
+teachers. Too many are too new but we have to make sure that our
+pre-service training programs and state requirements are such that in
+the future we will have CS teachers that know enough CS so that a
+language switch in a course isn&amp;#39;t a big deal. Rather, a teacher will
+be able to do an analysis of the new tool solely based on asking if
+it&amp;#39;s right for their students.&lt;/p&gt;
+&lt;p&gt;
+So, those are the costs. Are they enough of a reason to keep Java? I
+don&amp;#39;t think so. If you give enough lead time, as pre-service programs
+are getting up to speed you can minimize the training costs. Just
+give it 10 years instead of 5. Of course, you have to be confident
+that Python will be the language that far into the future.&lt;/p&gt;
+&lt;p&gt;
+That said, I&amp;#39;m not advocating for a switch to Python. We still have to
+go back to my first post on this - The College Board has to decide if
+this will be a college CS1 class or something else and only then can
+we do the language vs language analysis.&lt;/p&gt;
+&lt;p&gt;
+Are we done with this thread? Almost but I think it&amp;#39;s worth spending
+some time looking at some possible alternatives to both Java and
+Python.&lt;/p&gt;
+&lt;p&gt;
+That&amp;#39;s next time.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>SIGCSE 2022 - APCS-A Language strengths and weaknesses</title>
-      <link>https://newblog/post/sigcse-2022-apcs-languages/</link>
+      <link>https://cestlaz.github.io/post/sigcse-2022-apcs-languages/</link>
       <pubDate>Mon, 07 Mar 2022 13:54:58 -0400</pubDate>
       
-      <guid>https://newblog/post/sigcse-2022-apcs-languages/</guid>
-      <description>Last time we talked about the intent of APCS-A and without deciding on that we can&amp;#39;t really chose a language. Still, we can talk about strengths and weaknesses of languages. Let&amp;#39;s do that by taking a walk down history.
-APCS started in Pascal. Back then it was a one year course that included CS1 (programming) and CS2 (data structures). Later they offered two exams A (programming) and AB (programming plus data structures).</description>
+      <guid>https://cestlaz.github.io/post/sigcse-2022-apcs-languages/</guid>
+      <description>&lt;p&gt;
+Last time we talked about the &lt;a href=&#34;https://cestlaz.github.io/post/sigcse-2022-apcs-intent/&#34;&gt;intent of APCS-A&lt;/a&gt; and without deciding on
+that we can&amp;#39;t really chose a language. Still, we can talk about
+strengths and weaknesses of languages. Let&amp;#39;s do that by taking a walk
+down history.&lt;/p&gt;
+&lt;p&gt;
+APCS started in Pascal. Back then it was a one year course that
+included CS1 (programming) and CS2 (data structures). Later  they
+offered two exams A (programming) and AB (programming plus data
+structures). The AB exam was last administered in May 2009. In it&amp;#39;s
+last year, only 3,881 students took the AB exam - about 10% of those
+students were from Stuy.&lt;/p&gt;
+&lt;p&gt;
+The exam started in Pascal but switched to C++ in 1999. Why switch? I
+can&amp;#39;t say for sure. I was a young teacher back then. Under 10 years in
+and wasn&amp;#39;t involved in the greater AP scene. Pascal was a nice
+learning language but it had a number of deficiencies. Pascal was
+pretty straight forward, encouraged structured programming, required
+memory management which I say as a plus since it allowed one to study
+it and overall was a strong learning language. On the other hand, programs were
+limited to a single file, there was no standard for graphics or I
+think even file access, and it couldn&amp;#39;t do OOP which was becoming all
+the rage. It also was rarely used in industry even though I did have a
+nice job offer back then from Brown Brothers Harriman &amp;amp; Co. working in
+Turbo Pascal.&lt;/p&gt;
+&lt;p&gt;
+C++ was a hot language, it supported OOP as well as multiple files. It
+had much greater complexity but I guess that wasn&amp;#39;t a deal breaker for
+the College Board. I also have no idea if the conversation was
+switching from Pascal to C++ or if it was switching from Pascal to
+something else and then C++ was chosen.&lt;/p&gt;
+&lt;p&gt;
+In 2004 the exam moved to Java. Again, something gained something
+lost.&lt;/p&gt;
+&lt;p&gt;
+Java was the new hotness so no problem there. What about other
+changes? Java was &lt;strong&gt;much&lt;/strong&gt; simpler. C++ had many ways to do things while
+Java nudged you into the Java way. Java also forced Object Oriented
+Programming which, at the time, I guess people felt was a good
+thing. C++ was more multi-modal and at the time, heck even today, was
+taught more like C with objects. Java also had a standard way to do
+I/O and graphics which, I guess was also a plus.&lt;/p&gt;
+&lt;p&gt;
+What about the downside?&lt;/p&gt;
+&lt;p&gt;
+Personally, I found the forced OOP to be a problem Even though the
+language forced all objects all the time, the nature of problems
+attacked in a CS1 don&amp;#39;t necessarily lend themselves towards Object
+Oriented solutions. This made OOP forced and this is a problem.&lt;/p&gt;
+&lt;p&gt;
+Java also required a lot of &amp;#34;magic:&amp;#34; - ignore the &lt;strong&gt;public static void
+main&lt;/strong&gt; behind the curtain. You&amp;#39;ll understand it later.&lt;/p&gt;
+&lt;p&gt;
+The big loss to me and others pointed to this as a gain was that Java
+took out memory management. I liked that you still had to allocate
+memory using &lt;strong&gt;new&lt;/strong&gt; to create things like nodes for trees and linked
+lists but you didn&amp;#39;t have to manage them yourself.&lt;/p&gt;
+&lt;p&gt;
+True, this is generally a good thing but the problem was that APCS-A/B
+was a class, not the real world. If you were going to take out memory
+management from CS1/CS2 in APCS-A/B then it had to go back in
+somewhere or kids would never get it. This is where looking at a
+course and not the full sequence can be a problem. If you take
+something important out of APCS and then it&amp;#39;s not in the college
+classes later on you&amp;#39;ve taken it out of the students overall
+preparation.&lt;/p&gt;
+&lt;p&gt;
+Based on talking to my tech friends hiring after the switch, this was
+a real problem.&lt;/p&gt;
+&lt;p&gt;
+In any event, the class chugged along, dropping the B part up through
+today.&lt;/p&gt;
+&lt;p&gt;
+So, why consider Python?&lt;/p&gt;
+&lt;p&gt;
+Python goes back to multi-modal and takes away the magic. Hello World
+is just one line. No classes necessary. Python is also, by most
+measures simpler. Python also has tons of libraries. You can use Flask
+to build a web server, NLTK to explore language, Pygame for games and
+on and on. Python is also used by many other fields besides direct CS.&lt;/p&gt;
+&lt;p&gt;
+But there&amp;#39;s always a cost.&lt;/p&gt;
+&lt;p&gt;
+Python&amp;#39;s object model is, to put it kindly, ugly and ackward. Not as
+bad a Perl but having to use self and no real private kind of kills it
+from a teaching point of view. The libraries and use in other fields
+are also less important if the intent is to mirror college CS1 content
+as opposed to rolling a new non major, more general course.&lt;/p&gt;
+&lt;p&gt;
+Another cost is the use of lists rather than arrays. Lists give much
+more power much more quickly but at the cost of teaching array style
+indexed data structures. This isn&amp;#39;t a cost for everyone but it&amp;#39;s
+something to consider. Related to this is that Python doesn&amp;#39;t really
+have a counting loop. It has a &lt;strong&gt;while&lt;/strong&gt; and a &lt;strong&gt;for each&lt;/strong&gt; but not a
+counting &lt;strong&gt;for&lt;/strong&gt;. This may or may not be an issue depending on how you
+feel about traversing data.&lt;/p&gt;
+&lt;p&gt;
+The potential big cost comes down to typing. Sure, writing &lt;code&gt;int a&lt;/code&gt; is
+a pain in statically typed Java vs Python&amp;#39;s dynamic typing but while
+dyanmic is quicker and easier and makes sense given Python&amp;#39;s scripting
+roots, static is safer and makes it easier to write larger more robust
+systems.&lt;/p&gt;
+&lt;p&gt;
+Memory management, is of course still long gone :-(.&lt;/p&gt;
+&lt;p&gt;
+So, what to do? &lt;/p&gt;
+&lt;p&gt;
+Python is used in many fields and is a startup darling but Java is
+still one of the kings, along with C++ in the industrial strength and
+enterprise world. I have mixed feelings and might take a strong stance
+but not yet.&lt;/p&gt;
+&lt;p&gt;
+We still have to look at more aspects of this question. Specifically
+what about the costs of switching from one language to any other
+language and also does the choice of language in CS1 matter with
+respect to CS2.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ll do at least one more post maybe more to address those but I think
+that&amp;#39;s it for today.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>SIGCSE 2022 - What language APCS-A part 1 - the intent</title>
-      <link>https://newblog/post/sigcse-2022-apcs-intent/</link>
+      <link>https://cestlaz.github.io/post/sigcse-2022-apcs-intent/</link>
       <pubDate>Sun, 06 Mar 2022 16:00:07 -0400</pubDate>
       
-      <guid>https://newblog/post/sigcse-2022-apcs-intent/</guid>
-      <description>One of the first sessions of SIGCSE2022 was a panel on the choice of language for APCS-A. Should it continue to use Java or should it shift to Python. This topic comes up from time to time. I didn&amp;#39;t attend this particular session but discussed it at length with a few people who did.
-Truth be told, I wasn&amp;#39;t going to start writing about SIGCSE and APCS-A until I finished a few other SIGCSE posts but my friend Alfred Thompson said he was writing one and was planning on posting it soon.</description>
+      <guid>https://cestlaz.github.io/post/sigcse-2022-apcs-intent/</guid>
+      <description>&lt;p&gt;
+One of the first sessions of SIGCSE2022 was a panel on the choice of
+language for APCS-A. Should it continue to use Java or should it shift
+to Python. This topic comes up from time to time. I didn&amp;#39;t attend this
+particular session but discussed it at length with a few people who
+did.&lt;/p&gt;
+&lt;p&gt;
+Truth be told, I wasn&amp;#39;t going to start writing about SIGCSE and APCS-A
+until I finished a few other SIGCSE posts but my friend &lt;a href=&#34;https://twitter.com/alfredtwo&#34;&gt;Alfred
+Thompson&lt;/a&gt; said he was writing one and was planning on posting it
+soon. I think it&amp;#39;s better when us CS Ed bloggers write about similar
+things at similar times - fosters better discussion so I&amp;#39;m writing
+this today (Sunday) and will post it as soon as I see Alfred&amp;#39;s post.&lt;/p&gt;
+&lt;p&gt;
+There&amp;#39;s a lot to unpack when it comes to language choice for
+APCS-A. Language strengths and weaknesses, ease of learning, tooling
+and training costs and more. I&amp;#39;ll share my feelings on all of these
+and maybe more but before we dig into those I think it&amp;#39;s worth
+thinking about the intent of the course.&lt;/p&gt;
+&lt;p&gt;
+The AP program was originally created to allow advanced high school
+students to get started on college work in their field of interest. An
+AP class would either be the first course in a major or it would be a
+requirement like calculus is for CS majors. There were fewer exams and
+FAR fewer students taking them.&lt;/p&gt;
+&lt;p&gt;
+Over time, things evolved and today that&amp;#39;s not necessarily the
+case. APCS-A, Calc and many others still fit the bill but then you
+have classes like AP Euro - sometimes offered to HS sophomores and is
+really a regurgitation course. Sorry but a class appropriate for HS
+sophomores is not college level. Same for APCS-Principles. Might be
+good, might be bad but it&amp;#39;s not college level.&lt;/p&gt;
+&lt;p&gt;
+So, before deciding on the language you really have to decide on
+intent. If APCS-A is to be the first class in the CS major then the
+college board has to really follow what colleges are doing. Some
+people think that APCS-A should be a course for everybody or for non
+CS majors but if the class is supposed to be a first in major course,
+it &lt;strong&gt;has&lt;/strong&gt; to follow the college lead.&lt;/p&gt;
+&lt;p&gt;
+If colleges decide to make their CS1 a more general course, more about
+APIs, less about either programming or, to it&amp;#39;s already limited extent
+algorithms and data structures, then it&amp;#39;s fine to change but as long as the
+college board is pushing CS1 as a first course in the CS major then
+APCS-A has to follow the general CS1 outline.&lt;/p&gt;
+&lt;p&gt;
+So, assuming this stays the same, you might still argue a change to
+Python. I&amp;#39;ll look at the pros and cons of doing this at a later post but one
+argument against the change is that students having taken CS1 in
+Python have a harder time transitioning to Java (or C++) in CS2.&lt;/p&gt;
+&lt;p&gt;
+Some people say this isn&amp;#39;t an issue but I think it is. APCS-A is
+already frequently a watered down CS1 and students sometimes struggle
+in CS2 even when it&amp;#39;s in the same language. Switching languages will
+result in kids hitting a brick wall. This is an example of a problem
+I&amp;#39;ve seen over and over again - people changing a class because they
+feel there&amp;#39;s a need but not paying attention to the next class let
+alone the full pipeline.&lt;/p&gt;
+&lt;p&gt;
+This happened at Hunter recently - I warned the department that it
+would but nobody listened. Our CS0 course up until my first
+year at Hunter was a pretty bad course It was a random assortment
+of topics with a lot of cruft and it just didn&amp;#39;t serve anybody. In my
+second semester the class was slated to change to a new course. The
+new course was going to have more programming - all in Python - lots
+of small programs. It was a much broader class and we all agreed that
+it would be much better. It was except for one thing. Nobody was
+paying attention to how well it prepared students for our CS1 and that
+first CS1 class after the new CS0 was full of complaints, student
+struggles, and student failures. On the one hand, the new course had
+more programming than the earlier one but since it was only tiny
+programs, students weren&amp;#39;t prepared for CS1 right out of the gate but
+students thought they were prepared. Things have gotten better since then
+but the problem was easily to predict.&lt;/p&gt;
+&lt;p&gt;
+If High Schools move to a less rigorous class with an &amp;#34;easier&amp;#34;
+language like Python great care should be taken to make sure that it
+prepares students to jump into a college CS2 which won&amp;#39;t have nearly
+the supports that are present in high school.&lt;/p&gt;
+&lt;p&gt;
+So that&amp;#39;s it for this installment. Before you can even think about
+language you have to think about class intent. Now that we&amp;#39;ve done
+that we can start looking at language choice. That&amp;#39;s for next time.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>SIGCSE 2022 - Conference format</title>
-      <link>https://newblog/post/sigcse-2022-hybrid/</link>
+      <link>https://cestlaz.github.io/post/sigcse-2022-hybrid/</link>
       <pubDate>Sat, 05 Mar 2022 08:05:15 -0400</pubDate>
       
-      <guid>https://newblog/post/sigcse-2022-hybrid/</guid>
-      <description>Before diving into the content I thought I&amp;#39;d share my thoughts about SIGCSE as a hybrid conference. Prior to Covid, SIGCSE was pushing 2,000 in person participants. This time around ther were a little under 800 in person and a number of hundreds more remote. The in person numbers mirrored what CSTA has grown to. It&amp;#39;s a nice size. Not overwhelming but manageable. It&amp;#39;s at the upper edge of possibly feeling intimate.</description>
+      <guid>https://cestlaz.github.io/post/sigcse-2022-hybrid/</guid>
+      <description>&lt;p&gt;
+Before diving into the content I thought I&amp;#39;d share my thoughts about
+SIGCSE as a hybrid conference. Prior to Covid, SIGCSE was pushing
+2,000 in person participants. This time around ther were a little
+under 800 in person and a number of hundreds more remote. The in
+person numbers mirrored what CSTA has grown to. It&amp;#39;s a nice size. Not
+overwhelming but manageable. It&amp;#39;s at the upper edge of possibly
+feeling intimate. Once you get into the thousands things feel far less
+personal. You can go the entire conference not finding people you want
+to connect with. On the other hand you can also blend into the crowd
+should you choose that route.&lt;/p&gt;
+&lt;p&gt;
+Things basically ran as usual. Opening announcements and keynote,
+coffee break, sessions and so on but remote was interjected
+throughout. There were also remote only sessions but I can&amp;#39;t speak to
+those.&lt;/p&gt;
+&lt;p&gt;
+We started out with the opening keynote. Barbara Liskov Zoomed in from
+her home. She gave a &lt;strong&gt;great&lt;/strong&gt; talk going through her history which in
+many was is &lt;strong&gt;the&lt;/strong&gt; history of some key aspects of computer science,
+programming languages, and programming.&lt;/p&gt;
+&lt;p&gt;
+There was zero downside to having a remote keynote speaker. Barbara
+was intersting and engaging. I was blown away. The only thing I found
+a bit weird was that I kept glancing over to the dias where the
+speaker would normally stand and it was empty. That&amp;#39;s on me though.&lt;/p&gt;
+&lt;p&gt;
+At the end we had Q&amp;amp;A from both people in the live audience and people
+on the remote platform. This was an all around win.&lt;/p&gt;
+&lt;p&gt;
+The first thing that somewhat irked me about virtual was at a paper
+session. The second paper was presented as a video. This part was
+fine, maybe even preferable since it allows the presented to make sure
+the video is set up the way they want and it also keeps within time
+limits. The problem was that there was no Q&amp;amp;A. If you&amp;#39;re going to do a
+video presentation, the presenter should hop on some platform at the
+end for Q&amp;amp;A. There is zero value added to just showing the video. I
+could do that from home.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m not criticizing SIGCSE here. They tried something. In my opinion
+it didn&amp;#39;t work. In the future, I&amp;#39;d love to see video presentations but
+with a live, in person or via some Zoom platform Q&amp;amp;A. In theory there
+could be some &amp;#34;flipped sessions&amp;#34; (although I think a lot of the
+flipped classroom concepts are bunk) where you could watch the video
+or read the paper prior to the session and then have a meaty
+discussion.&lt;/p&gt;
+&lt;p&gt;
+The second hybrid thing that I didn&amp;#39;t like was a hybrid BOF. I just
+think it din&amp;#39;t work. It basically turned into a few small mini
+presentations by the organizers. All the prior SIGCSE BOFs I&amp;#39;ve
+attended had the hosts facilitating a room wide discussion. This was
+similar but slightly more awkward in the few virtual group discussion
+sessions I&amp;#39;ve taken part in. This was a case of hybrid not
+working. With some people in the room and some people at home you just
+couldn&amp;#39;t have meaningful discussion. The people in the room couldn&amp;#39;t
+talk without excluding the remote people and remote conversation
+wasn&amp;#39;t available easily to the in person crowd.&lt;/p&gt;
+&lt;p&gt;
+Birds of a feather just don&amp;#39;t fly mixed. Do them remote or do them in
+person.&lt;/p&gt;
+&lt;p&gt;
+A third thing that didn&amp;#39;t really bother me but I found weird was one
+panel where one person was in person and the rest were remote while I
+knew that at least one of the remote people were attending in
+person. The mix just didn&amp;#39;t flow as well for me. I&amp;#39;ve attende all in
+person panels, all remote panels, and panels where all the panelists
+were in a room together but presenting remotely. All of these formats
+worked. It think the mix of in person and remote was just kindof
+weird. In future, I&amp;#39;d say either have all the presenters in a room
+together at a big table even if it&amp;#39;s remote or have them all &amp;#34;dial
+in.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+Overall the conference was great so these are really nitpicks.&lt;/p&gt;
+&lt;p&gt;
+With this post out of the way I can get to the content posts but I
+feel it would be remiss if I didn&amp;#39;t mention a couple of non content
+related highlights that the SIGCSE organizers provided.&lt;/p&gt;
+&lt;p&gt;
+First, the opening evening reception had a &lt;strong&gt;bacon bar&lt;/strong&gt;. All
+receptions, coffee breaks, snack times, and I&amp;#39;d even say sessions
+should provide bacon.&lt;/p&gt;
+&lt;p&gt;
+The other thing which I&amp;#39;m more serious about is that they provided
+coffee and tea before the opening sessions rather than their usual
+practice of withholding caffeine for the 10:00 break. I can&amp;#39;t imagine
+it would cost much to just put out the urns early.&lt;/p&gt;
+&lt;p&gt;
+Overall, great conference and great job by the organizers.&lt;/p&gt;
+&lt;p&gt;
+Content related posts to come.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Adapting A Nifty Assignment</title>
-      <link>https://newblog/post/adapting-a-nifty-assignment/</link>
+      <link>https://cestlaz.github.io/post/adapting-a-nifty-assignment/</link>
       <pubDate>Sat, 16 Mar 2019 08:20:47 -0400</pubDate>
       
-      <guid>https://newblog/post/adapting-a-nifty-assignment/</guid>
-      <description>&amp;lt;figure class=&amp;#34;z_image_center&amp;#34;&amp;gt;&amp;lt;img src=&amp;#34;&amp;#34;/&amp;gt; &amp;lt;/figure&amp;gt;
-The Nifty Assignments session at SGICSE is always a popular one.
-Go to the site and you&amp;#39;ll find links to all the assignments presented from 1999 to the present year.
-On the one hand, it&amp;#39;s a great resource. On the other, the assignments vary in nifty-ness depending on one&amp;#39;s personal taste. To me, there seemed to be a run of nifty assignments that were really just &amp;#34;take a generic assignment and fancy up the graphics&amp;#34; mixed in with one&amp;#39;s that I found really cool.</description>
+      <guid>https://cestlaz.github.io/post/adapting-a-nifty-assignment/</guid>
+      <description>&lt;p&gt;
+&amp;lt;figure class=&amp;#34;z_image_center&amp;#34;&amp;gt;&amp;lt;img src=&amp;#34;&lt;img src=&#34;http://nifty.stanford.edu/2019/popyack-nifty-post-it/samples/animation/Animated_325.gif&#34; alt=&#34;http://nifty.stanford.edu/2019/popyack-nifty-post-it/samples/animation/Animated_325.gif&#34; title=&#34;http://nifty.stanford.edu/2019/popyack-nifty-post-it/samples/animation/Animated_325.gif&#34; /&gt;&amp;#34;/&amp;gt;
+&amp;lt;/figure&amp;gt;&lt;/p&gt;
+&lt;p&gt;
+The &lt;a href=&#34;http://nifty.stanford.edu/&#34;&gt;Nifty Assignments&lt;/a&gt; session at SGICSE is always a popular one.&lt;/p&gt;
+&lt;p&gt;
+Go to &lt;a href=&#34;http://nifty.stanford.edu/&#34;&gt;the site&lt;/a&gt; and you&amp;#39;ll find links to all the assignments presented
+from 1999 to the present year.&lt;/p&gt;
+&lt;p&gt;
+On the one hand, it&amp;#39;s a great resource. On the other, the assignments
+vary in nifty-ness depending on one&amp;#39;s personal taste. To me, there
+seemed to be a run of nifty assignments that were really just &amp;#34;take a
+generic assignment and fancy up the graphics&amp;#34; mixed in with one&amp;#39;s that
+I found really cool. There&amp;#39;s also no way to really tell if an
+assignment scratches your fancy without clicking through and reading
+all of them.&lt;/p&gt;
+&lt;p&gt;
+I thought I&amp;#39;d talk about one of the assignments presented at this past
+SIGCSE. I don&amp;#39;t think I&amp;#39;ll have an opportunity to use it directly but
+I did find it pretty nifty. I also thought I&amp;#39;d share some tweaks I&amp;#39;d
+consider if I were to use it.&lt;/p&gt;
+&lt;p&gt;
+The assignment is Jeffrey L. Popyack&amp;#39;s &lt;a href=&#34;http://nifty.stanford.edu/2019/popyack-nifty-post-it/&#34;&gt;Post-It Pandemoniim&lt;/a&gt; assignment.&lt;/p&gt;
+&lt;p&gt;
+At first glance, or rather at the start of the presentation it seemed
+a pretty lightweight assignment - kids make a pixelated image by
+putting colored postit notes on a grid. That&amp;#39;s a simple, nice
+intro to 2D arrays but not all that nifty. The nifty part came when
+you drilled down into the details. &lt;/p&gt;
+&lt;p&gt;
+The assignment starts with a GIF image. First you process it  with a program
+provided hich produces sheets describing a 3x5 section of the overall
+image. These sheets are ultimately distributed to the students
+perofming the activity. This still doesn&amp;#39;t sound tremendously deep but
+the activity also lets you talk about file formats with color
+palettes. The idea that instead of storing the rgb triple for each
+pixel you store an index into a palette of 256 colors that&amp;#39;s also
+embedded into the file. This is a great way to introduce indirect
+lookups. Another feature Poplyack spoke about was compression. He
+mentioned the project lending itself to Run Length Encoding. The idea
+that if the image has a run of adjacent pixels of the same color,
+let&amp;#39;s say 9 reds in a row, instead of encoding them as &amp;#34;RRRRRRRRR&amp;#34; you
+would use something like &amp;#34;9R.&amp;#34; Add this all together and it&amp;#39;s pretty
+nifty. &lt;/p&gt;
+&lt;p&gt;
+I did have a problem, though with the compression part. During the
+talk, Poplyack talked about Run Length Encoding which is pretty simple
+and approachable to beginners. GIF, however, as far as I know uses
+Lempel-Ziv compression which is much more complex.&lt;/p&gt;
+&lt;p&gt;
+If I were to use this assignment, I&amp;#39;d probable make a few changes. I&amp;#39;m
+not sure which of the following I&amp;#39;d actually do but here&amp;#39;s what I
+would think about.&lt;/p&gt;
+&lt;p&gt;
+First I would consider using the &lt;a href=&#34;https://en.wikipedia.org/wiki/Netpbm_format&#34;&gt;NetPBM&lt;/a&gt; formats. Some of these formats
+are simple ASCII. You can see some examples on the &lt;a href=&#34;https://en.wikipedia.org/wiki/Netpbm_format&#34;&gt;Wikipedia&lt;/a&gt;
+page. This lets them go directly from the file to the poster. You also
+have binary encoded versions of the format which adds a layer of
+complexity if desired.&lt;/p&gt;
+&lt;p&gt;
+The second thing I would consider is using &lt;a href=&#34;https://en.wikipedia.org/wiki/PCX&#34;&gt;PCX&lt;/a&gt; files instead of
+GIFs. PCX is a pretty simple format. It uses a color palette and also
+RLE compression so while it&amp;#39;s no longer as well known as GIF I think
+it might present a more accessible way of getting to a format with Run
+Length Encoding and a palette.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m not sure of the exact direction I&amp;#39;d go in with this assignment but
+these are the additional things I&amp;#39;d think about. It&amp;#39;s pretty nifty as
+is but as with a lot of nifty assignments, part of the fun is
+customizing it for your situation.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>SIGCSE 2019 - the keynotes</title>
-      <link>https://newblog/post/sigcse-2019-keynotes/</link>
+      <link>https://cestlaz.github.io/post/sigcse-2019-keynotes/</link>
       <pubDate>Mon, 04 Mar 2019 15:25:59 -0400</pubDate>
       
-      <guid>https://newblog/post/sigcse-2019-keynotes/</guid>
-      <description>It&amp;#39;s that time of the year to write a series of blog posts about SIGCSE. I thought I&amp;#39;d start with one on the keynotes. There were four keynote speakers. Marie desJardins, Gloria Townsend, Mark Guzdial, and Blair Taylor. I wasn&amp;#39;t at the first timer&amp;#39;s lunch where Townsend spoke so I won&amp;#39;t talk at all about that keynote.
-I&amp;#39;m also not going to summarize the talks. Andy Ko wrote up a terrific summary of his SIGCSE experience and did a much better job giving overviews to the keynotes than I ever could so I&amp;#39;ll just refer you to Andy&amp;#39;s blog post.</description>
+      <guid>https://cestlaz.github.io/post/sigcse-2019-keynotes/</guid>
+      <description>
+&lt;p&gt;
+It&amp;#39;s that time of the year to write a series of blog posts about
+SIGCSE. I thought I&amp;#39;d start with one on the keynotes. &lt;/p&gt;
+&lt;p&gt;
+There were four keynote speakers. Marie desJardins, Gloria Townsend,
+Mark Guzdial, and Blair Taylor. I wasn&amp;#39;t at the first timer&amp;#39;s lunch
+where Townsend spoke so I won&amp;#39;t talk at all about that keynote.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m also not going to summarize the talks. Andy Ko wrote up a terrific
+summary of his &lt;a href=&#34;https://medium.com/bits-and-behavior/sigcse-2019-trip-report-celebrating-50-years-b3460835a09a&#34;&gt;SIGCSE experience&lt;/a&gt; and did a much better job giving
+overviews to the keynotes than I ever could so I&amp;#39;ll just refer you to
+Andy&amp;#39;s &lt;a href=&#34;https://medium.com/bits-and-behavior/sigcse-2019-trip-report-celebrating-50-years-b3460835a09a&#34;&gt;blog post&lt;/a&gt;. Rather, I&amp;#39;m just going to talk a bit about what they
+left me thinking about. It might be something that&amp;#39;s pretty tangential
+to the actual talk but hey, it&amp;#39;s the direction that the speaker sent
+my brain to follow.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Marie des Jardin - the pinch hitter
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+Marie desJardins wasn&amp;#39;t supposed to be the keynote. She was filling in
+for a flu ridden &lt;a href=&#34;https://en.m.wikipedia.org/wiki/Freeman_A._Hrabowski_III&#34;&gt;Freeman Hrabowski&lt;/a&gt; at the last minute and she did a
+more than admirable job.&lt;/p&gt;
+&lt;p&gt;
+The big line for me was her plea for us not to create &amp;#34;weed out&amp;#34;
+courses but rather to create &amp;#34;launch&amp;#34; courses. I think this resonated
+with many in the audience. It got me thinking about something that&amp;#39;s
+been a concern of mine for a while. We see a lot of examples of making
+student&amp;#39;s first CS experience more gentle and more varied. Probably
+the biggest example is APCS-P but you can also find it in many college
+CS0 classes. Hunter&amp;#39;s no exception - we&amp;#39;re now in the second year of a
+more varied CS0 class (although truth be told, our problem
+wasn&amp;#39;t so much that our old CS0 was a gatekeeper but more that
+students hardly did any programming). &lt;/p&gt;
+&lt;p&gt;
+I started to become aware of the problem as I would hear stories of
+kids who did Girls Who Code programs who then dropped out of CS
+classes that were too hard and then later when my former students at
+Harvard told me that many kids &amp;#34;dropped like flies&amp;#34; in the class after
+CS50. I&amp;#39;ve also seen these problems at Hunter but at least here I know
+we&amp;#39;re working on it. Having a more accessible entry point is terrific
+but not if you just set the kids up to fail one step down the line. It
+seems that not enough people are looking at the complete path: from
+first course to last and the transitions in between. This is a hidden
+danger. We can proudly say that diversity and enrollments are up based
+on those first experiences and no one&amp;#39;s the wiser that we&amp;#39;re killing
+the kids later on. We have to do better.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+Mark Guzdial - the outstanding contributer
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+Mark was this year&amp;#39;s winner of SIGCSE&amp;#39;s Award for Outstanding
+Contribution to CS Education. A well deserved award. Mark&amp;#39;s talk was
+terrific and similar to the one he gave at the Code and Beyond
+conference in NY which I wrote about &lt;a href=&#34;https://cestlaz.github.io/post/thoughts-on-code-and-beyond-ct/&#34;&gt;here&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;
+As with the previous keynote you can get a great summary if you read
+Andy&amp;#39;s post linked above.&lt;/p&gt;
+&lt;p&gt;
+One point Mark made was that he felt that all students should learn
+programming but if I remember the talk correctly he didn&amp;#39;t make a
+strong statement about all students learning CS. He also said that
+first course our CS majors take shouldn&amp;#39;t be the same as the first
+course for non majors. I see where Mark&amp;#39;s coming from I&amp;#39;m not sure I
+agree. Well, I do agree given what a first CS course for a major
+typically looks like versus what a never-CS major might need for life but
+the few CS0 for non major courses I&amp;#39;ve seen don&amp;#39;t leave their students
+with enough to continue on to the CS major or a minor (which could be
+valuable to a HUGE swath of students) so they end up taking the CS0
+for CS majors anyway. This means one more course and one more
+semester. More cost and more time spent. I&amp;#39;ll say that I do agree with
+Mark UNLESS you can design a course that can address the needs of both
+parties and the truth is I think you can. We did it at Stuy. Students
+come back with that having been their only course and talk of its
+usefulness and utility and students come back having used it to launch
+a tech career in later high school, college, and beyond. What we built
+isn&amp;#39;t perfect and is for a particular population but as proof of
+concept it&amp;#39;s convinced me that a single course for both can be done&lt;/p&gt;
+&lt;p&gt;
+Another one of Mark&amp;#39;s big points was taking CS into other subject
+areas. I love this and I love when he said (apologies if the quote&amp;#39;s a
+little off) &amp;#34;They need things and we can build stuff&amp;#34; as a call to
+action to partner with and to develop the languages and tools needed
+to support a new vision of CS embedded in other subject areas.&lt;/p&gt;
+&lt;p&gt;
+My thoughts here are that as a community we are ignoring the realities
+of K12 education. Mark mentioned Bootstrap World, a sprogram both he
+and I like very much. It is embedded in Algebra classes and uses CS in
+Racket (nee Scheme) to support learning said algebra. Mark noted that
+Racket looks like Algebra and that&amp;#39;s one of the reasons Bootstrap
+works. Another fact often left out is that algebra is frequently
+taught either over two years or with a double period allocated to
+it. It is given more time than most classes and that allows teachers to experiment
+a bit more with instruction. Even if we develop more tools like
+Bootstrap that align themselves to teaching other subjects those
+subject teachers might not have the time to dedicate to the new
+tool. Why not? That&amp;#39;s another thing Mark indirectly mentioned. At one
+point he said that we might have to &amp;#34;take a step back&amp;#34; first in terms
+of results and quite frankly, K12 teachers sometimes can&amp;#39;t take that
+chance. In addition to not wanting to give their current students a
+worse experience even with the promise that future classes would get a
+better one they have to face the specter of high stakes testing. If
+I&amp;#39;m using a new CS tool in a history class and my student&amp;#39;s test
+results go down, they might have to repeat the class and the teacher
+could put their license in jeopardy.&lt;/p&gt;
+&lt;p&gt;
+In the end I loved just about everything Mark had to say but it still
+got me thinking about a lot and to me that&amp;#39;s one of the hallmarks of a
+great talk. &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-3&#34;&gt;
+Blair Taylor - the controversy
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+Blair Taylor gave the final keynote and this one had some controversy
+around it. Andy&amp;#39;s blog post again summarizes things well. &lt;/p&gt;
+&lt;p&gt;
+My only take on the content is that the talk was more about
+Dr. Taylor&amp;#39;s journey and less about Cyber Security (I hate it that
+it&amp;#39;s now just being called &amp;#34;cyber&amp;#34;) but that was fine. &lt;/p&gt;
+&lt;p&gt;
+What I want to talk about here is not so much the controversy over how
+some people took parts of Dr. Taylor&amp;#39;s talk and the Q&amp;amp;A at the end but
+rather the fact that more and more recently I&amp;#39;ve felt that as a
+community we can&amp;#39;t talk about difficult issues concerning gender,
+race, and the like. &lt;/p&gt;
+&lt;p&gt;
+I consider myself an ally to under represented and under served groups
+but have found myself in situations recently where unless I 100%
+parrot one side&amp;#39;s extreme view I&amp;#39;m accused of sexism or racism at
+which point ANYTHING I say is treated as such. One is not allowed to
+see any nuance in what is a very complex topic. &lt;/p&gt;
+&lt;p&gt;
+At one point, the speaker made a joke. She prefaced it with something
+like &amp;#34;I&amp;#39;m going to tell this offensive joke&amp;#34; and that she could,
+presumably because she is a women. The joke fell flat (although I&amp;#39;ve
+told the story of the keynote to a few women in tech and they chuckled
+and said they actually kind of liked the joke). My take was that the
+speaker was setting the stage to maybe dive into a difficult
+conversation. My take was also that some members of the audience right
+then and there decided that the speaker was wrong about all things. &lt;/p&gt;
+&lt;p&gt;
+After the talk I was a bit more convinced that this was the case as I
+read a tweet stream explaining what happened that included the joke
+but none of the context for the reader to make an informed decision. &lt;/p&gt;
+&lt;p&gt;
+In the end, I felt that Dr. Taylor has honestly worked for under
+represented groups and while this might be unpopular, her pragmatism of
+sometimes swallowing an insult and &amp;#34;having a sense of humor&amp;#34; is the
+right thing to do. Unfortunately, Dr. Taylor misread the audience and that
+some people decided somewhere in her talk that even though she was
+working to empower women in her own way, it wasn&amp;#39;t &amp;#34;my way&amp;#34; so it was
+wrong. &lt;/p&gt;
+&lt;p&gt;
+The situation was unfortunate and my big fear is that as a community
+we still have a long way to go before we can have these conversations
+and personally, as someone who considers themselves an ally of the
+undeserved I&amp;#39;m becoming more gun shy of partaking in discussions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-4&#34;&gt;
+That&amp;#39;s all for now.
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+So, that&amp;#39;s my take on the keynotes. Much more to come on the
+conference in future posts. &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>
