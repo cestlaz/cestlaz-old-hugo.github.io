@@ -1,0 +1,116 @@
+---
+title: SIGCSE 2023 Microteaching
+date: 2023-03-27T07:44:47-04:00
+tags:
+- SIGCSE
+categories:
+- SIGCSE
+draft: true
+--- 
+
+Okay, back to SIGCSE.
+
+Next up, a session titled Microteaching run by Colleen Lewis. Here's
+the paper: [[https://dl.acm.org/doi/10.1145/3545947.3569593][link]].
+
+Unfortunately, the paper doesn't do the session justice as the paper
+briefly describes a small amount of CS subject matter that each
+session presenter was going to "teach." By "teach," I mean, do a 7
+minute mock version of the lesson for the attendees.  That's all fine
+and good but the thrust wasn't really the actual CS content but how it
+was delivered.
+
+Each presenter would deliver their mini lesson and then Colleen would
+highlight solid pedagogical practices.
+
+This type of session is much needed and as far as I can tell, has been
+missing from SIGCSE.
+
+Let me repeat: This type of session is much needed and as far as I can tell, has been
+missing from SIGCSE.
+
+I'll talk more about my feelings of where this type of session should
+belong along with [[https://cestlaz.github.io/post/sigcse-2023-it-seemed-good-idea/][It seemed like a good idea at the time]] and Nifty
+Assignments in my final SIGCSE post but here I'll stick to this
+session.
+
+As I said, after each mini lesson, Colleen shared what she saw as good
+practices.
+
+ - Using manipulatives
+ - give students time to process questions
+ - give explicit goals
+ - read what's on the board aloud
+ - use activities that involve the students
+ - create interesting motivations that lead to the topic
+ - and more
+   
+All were good, except I have a minor quibble with one that
+I'll get to below. Overall this made me happy. I had never seen a
+SIGCSE session that highlighted basic pedagogical techniques. On the
+other hand, I was a bit sad. Why? Because all the techniques listed
+were super basic - like day 0.5 of basic pedagogy techniques.
+
+Was it really necessary to focus on such basic introductory techniques
+as opposed to, say, questioning techniques - something that has a lot
+more depth than a lot of people realize?
+
+I'm guessing it was. Colleen has spent a lot of time working with
+college faculty members and a good deal of time thinking about these
+things so I'm guessing that if she highlighted something as a best
+practice, she felt it needed to be highlighted.
+
+So, even if the pedagogical level was rather rudimentary, I'd say that
+it's probably needed and that makes it even more important to have
+sessions like this at SIGCSE.
+
+I'll circle back to this and teaching sessions in general in my last
+SIGCSE post - I still have one more to go on Nifty Assignments before
+that one but to close out, I'll talk about my quibble.
+
+It was with the "best practice" of giving explicit goals. This could
+be like a high school teacher to have an explicit *aim* on the board
+prior to the lesson start or it could be on the side of the board
+"students will learn...."
+
+This is frequently taught as a best practice but it isn't. It's often
+a good practice but it's not a universal best one. In fact nothing
+is. The trouble is, it's often taught as a *must follow* practice with
+no exceptions and unfortunately educators buy in. It's frequently
+taught as a must follow because it's least common denominator  - you
+can always do it and it frequently conveys info to the students (and
+your supervisor observing :-) ). It's easy to do and easy to
+"measure."
+
+The problem is, it's not a universal best practice. There are plenty
+of times when you don't want to give away the punchline or you want to
+set up a head fake. 
+
+
+My linked list motivation which I described [[https://cestlaz.github.io/post/sigcse-2023-theater/][here]] is one such case. I
+don't want to write my objective ahead of time because it would take
+away from the activity which would then remove it's value to make
+linked lists clearer and easier.
+
+Incidentally, the one student to drop out of my Advanced Certificate
+teacher program in a huff got all bent out of shape because I woulnd't
+provide every detail of every lesson in advance because to them that
+was the way to do it. Everyone else got it.
+
+As they say, you've got to know when to hold them, know when to fold
+them....
+
+Other times when not giving the objective right up front might be when
+teaching merge or quick sorts, depending on your motivation. In math
+class, I'd say teaching the quadratic formula is better served by
+working the derivation by completing the square prior to revealing why
+you were doing it.
+
+In any event, it was a minor quibble and it wasn't necessarily stated
+as being a best practice but a good practice for the specific mini
+lesson. 
+
+Bottom line this session or a session like this is a great addition to
+SIGCSE and hats off to Colleen and all the presenters.
+
+
