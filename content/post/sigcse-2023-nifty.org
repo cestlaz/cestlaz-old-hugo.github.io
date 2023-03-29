@@ -1,5 +1,5 @@
 ---
-title: Sigcse 2023 Nifty
+title: SIGCSE 2023 - Nifty Assignments
 date: 2023-03-28T08:21:58-04:00
 tags:
 - sigcse
@@ -60,7 +60,6 @@ the assignment.
 
 If you teach CS1, CS2, or even a CS0, take a look at the site. Lots of
 fun stuff there.
-
 
 Nifty, along with ISLaGIATT and Microteaching formed a nice little
 unofficial track for actual teaching and that's what I'll explore in
