@@ -5,7 +5,7 @@ tags:
 - sigcse
 categories:
 - sigcse
-draft: true
+draft: false
 --- 
 
 The final session I wanted to talk about was Nifty Assignments. Nifty
