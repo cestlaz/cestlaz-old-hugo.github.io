@@ -1,0 +1,46 @@
+---
+title: SIGCSE 2023 - final thoughts
+date: 2023-04-02T19:54:05-04:00
+tags:
+- SIGCSE
+categories:
+- SIGCSE
+draft: false
+--- 
+
+Time to wrap up the SIGCSE 2023 posts. Overall a great conference. The
+exhibits room was felt a little sparse but from an attendee point of
+view, not a big deal. Lots of great sessions and got to spend a lot of
+time with some great people. My only semi-serious complaint would be
+that this year, sessions were an all or nothing - that is, there were
+time slots where I wanted to attend two or three sessions and then
+others where very little appealed to me. I think that was just bad
+luck on me though.
+
+My big thought for this year was that the combination of [[https://cestlaz.github.io/post/sigcse-2023-nifty/][Nifty
+Assignments]], [[https://cestlaz.github.io/post/sigcse-2023-microteaching/][Microteaching]], and [[https://cestlaz.github.io/post/sigcse-2023-it-seemed-good-idea/][It seemed like a good idea at the time]]
+combined to make a a really nice teaching track. Nifty will certainly
+be there next year but I hope the other two are as well. Actually, I'd
+really love to see some doubling down on all three of these sessions.
+
+I'd love to see something like Nifty Assignments but for lessons,
+including suggested pedagogical techniques (even though those can be
+very circumstance dependent). Likewise, I'd love to see some "good
+ideas at the time"s which were more about lesson ideas, exercises, or
+motivations or possibly even lesson or unit topics.
+
+For microteaching, I'd love to see a deeper dive into less obvious
+practices. I wouldn't stop covering that basics as were highlighted
+this year but I think a lot of people teaching don't realize how much
+subtlety there can be in teaching. Even things like a teachers body
+positioning and how they move in a classroom can be intentional and
+for a specific effect.
+
+I can't say 100% that I'll be there next year as I won't be teaching
+(at least not full time) but right now I'm thinking I will be.
+
+Now, to start figuring out what failure I should proposed to join in
+on the "good idea at the time" session.
+
+
+
