@@ -4,7 +4,7 @@ date: 2023-04-06T10:22:02-04:00
 tags:
 - curriculum
 - interviews
-- data structures
+- datastructures
 categories:
 - tech
 draft: false
