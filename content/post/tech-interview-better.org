@@ -1,0 +1,109 @@
+---
+title: The Technical Interview - we can do better
+date: 2023-04-06T10:22:02-04:00
+tags:
+- curriculum
+- interviews
+- data structures
+categories:
+- tech
+draft: false
+--- 
+
+I'm spending the week down in Atlanta. Never been before but since
+Batya is spending the semester teaching at Georgia State University,
+it seemed like a good chance to see her teach and check out a new
+town.
+
+That was the plan anyway. At least until I made the unfortunate
+decision to come down with Covid again. Symptoms are mild but I'm
+stuck camping out in our Airbnb while Devorah and Batya can see the
+sights.
+
+So, might as well spend the time writing a post or two.
+
+The other day a younger friend announced that he got a new job on
+LinkedIn. He was caught up in an earlier round of big tech layoffs so
+it was nice to see him landing on his feet rather quickly. Still,
+knowing what he always brought to the table, I was surprised he was
+let go to begin with but then, so many big companies have positively
+moronic layoff policies.
+
+Anyway, my friend was lamenting the technical interview process. As a
+devops person the algorithmic trick questions really don't apply,
+particularly since he already has a track record of actual, you know,
+devops work to point to. He actually called an interviewer on this at
+one point and even though, I'm sure he was 100% right, it did not go
+well. While he didn't go into details he talked about the interview
+process that landed him his forthcoming job and how it was much more
+reasonable and relevant to both the role he was applying for and if it
+and he were a fit.
+
+The technical interview - that algorithmic brain teaser has been
+popular at big tech for a long time now. The big boys - Google,
+Facebook, and the others use it and since tech is a copycat league, so
+do most small houses.
+
+If you're not familiar, the idea is that the candidate is presented
+with a problem to solve - something similar to the problems you'd get
+in a programming competition. It might be something like writing a
+routine to reverse a singly linked list or print the nodes in a binary
+tree level-wise. Of course, they can get much trickier and the
+candidate is doing this under the gun. It's stressful and in my view
+not a great way to assess a candidate.
+
+The truth is, while there are some people who can just solve these
+problems on the fly, the reality is, for most people, they have to
+specifically train for this style of interview. The more problems they
+do, the more likely they'll see something they've already done or
+something similar to what they've already done.
+
+Then it becomes the "can I fake it to make it look like I haven't seen
+this problem before" interview.
+
+This is why schools where students have an easier time getting
+together to work on and share solutions have a huge edge in this
+process (read that as rich elite schools where kids live on campus and
+don't have to work to pay the bills).
+
+This whole process works for the big and/or hot company - the Google's
+of the world because they can afford to miss a huge number of great
+candidates who wash out on the technical interview just so long as
+they fill their quota with candidates who can pass their test. Sure,
+it hurts diversity, equity, and yeah, talent, but if we're really
+being honest, big tech talks the equity and diversity talk much more
+than they walk the walk.
+
+It's bad enough that the big boys use this flawed but convenient for
+them method. It's worse that everyone else feels compelled to do the
+same. It makes for a miserable stressful job search and in the end,
+for the vast majority of tech employees who were hired through this
+process, they never need to think about problems like these again.
+
+I'm reminded of another friend of mine, Dan, who has been CTO / Head
+of Engineering for a number of small to mid size companies. He doesn't
+do a Google style technical interview. He told me once "I can't
+compete with Google. If I do the same interview that they do, I'll
+only get Google washouts - if they can pass the Google interview,
+they'll certainly chose Google over me." He came to the sensible
+conclusion that he needed to come up with another way of assessing
+candidate fit - something that would catch the amazing employee who
+didn't thrive under the algorithmic tech interview. It might make the
+process more complicated for the company or more time consuming but I
+wish more places followed Dan's lead. 
+
+In addition to my friend's post, I've also been thinking about this
+since I've been teaching data structures and specifically run time and
+whenever I do this I mull over where my focus should be. How important
+are the specific data structures we teach given that the minority of
+CS students will ever go on to need to know them at the level of
+detail we teach? Do we need to actually prove the run time of
+algorithms? Should we do more interview type problems because our kids
+by and large need them?
+
+These are questions that should probably be talked about more in
+college CS programs. I'll share my specific thoughts on where I think
+the emphasis should be next time.
+
+
+
