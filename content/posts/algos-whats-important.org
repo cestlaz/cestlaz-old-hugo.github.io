@@ -1,0 +1,76 @@
+---
+title: Data Structres and Algorithms - What's Important
+date: 2023-04-07T09:06:29-04:00
+tags:
+- algorithms
+- datastructures
+- teaching
+- programming
+- cs
+categories:
+- algorithms
+draft: false
+--- 
+
+So, last post I talked about the technical interview and
+unquestionably students at elite private schools have yet another leg
+up on the other folk. Today, let's look at the core subject of those
+interviews and what I think should be emphasized in class.
+
+I want to be clear - I'm only talking about *in class* here. There are
+many things that can be done at public institutions like Hunter to
+help better prepare students for tech careers. I think I've been very
+successful with this at Hunter College and my friend and colleague
+[[https://www.linkedin.com/in/eharris9876/][Elise]] has taken it to another level. Today though, just about in
+the emphasis class.
+
+As I said yesterday, I've been covering run time recently and I always
+thing around this time on how important or unimportant knowing all the
+ins and outs of Big-Oh is  along with proofs of run times, and even
+building all the tools. Another question is if we should actually be
+using interview style questions in class. 
+
+To me, the important thing is that my students be able to understand
+the ramifications of using an algorithm or data structure and be able
+to compose solutions to real problems be that by writing things from
+scratch or by using existing tools. That means they have a feel for
+why something runs in a certain time more so than what that time is.
+
+Yes, they'll know that a mergesort is O(nlgn) and that, for practical
+purposes so is the quicksort but I also want them to consider the
+use. If the application is a large data set that's queried frequently
+but changes infrequently is it better they sort it each time (
+O(nlgn) + kO(nlgn) ) or just sort it once then do one linear pass (
+O(nlgn)+kO(n) ). We know the latter is probably easier and better but
+we know that by knowing the application and understanding what's going
+on and not blindly using the algorithm du jour.
+
+Hash Tables are another one - they're so much of a go to data
+structure these days that they're practically a primitive,
+particularly with languages like Python and Javascript including them
+in the basics along with list or arrays. Hash Tables are great -
+they're easy, powerful, and fast but only if they're sparse and you
+don't have loads of collisions. Of course you won't on toy problems
+and likely on coding interviews but I want my students to understand
+this.
+
+Same for binary search trees. Sure, they won't actually use a straight
+binary search tree - it's a stepping stone data structure to introduce
+a tree structure that can give you logarithmic run times and students
+will move on to use structures that can guarantee better performance
+but the binary search tree allows us to stumble on to the degenerate
+case and see how what's first presented as a good and efficient data
+structure can turn out being not so good.
+
+It's why I do [[https://cestlaz.github.io/posts/2013-03-23-who_won_the_election-quadratic_to_linear_time/][this]] lesson before I explore run time. It gets the kids
+thinking about what makes an algorithm run in a certain time and
+exposes them to hidden complexity. It also shows them how to use a
+data structure, an array, in a manner that most of them had never
+considered before - buckets where the index is the value and the data
+in the cell is how many times that value occurs. It's also why we
+write super bad implementations of the nlgn sorts and then see about
+improving things.
+
+So, that's my focus. I'm not so hung up on the whats but I want my
+kids to internalize the whys and the hows.
+
