@@ -13,13 +13,13 @@ A couple of weeks ago I was catching up with Cai - one of my many
 former students now living in the Bay Area. Cai was back in NY to
 spend time in his company [[https://ironcladapp.com/][Ironclad]]'s NY office. It was great to catch
 up. We went over to a local restaurant and I heard a "hey Z!!" from
-behund me. It was Rodda, younger member of the family. He mentioned
+behind me. It was Rodda, younger member of the family. He mentioned
 that he was at Ramp along with a bunch of other StuyCS folk and that I
 came up in conversation the other day. Yet another former student Zach
 was there, he's one of their investors. I love the Stuy CS family.
 
 Anyway, Rodda mentioned that he started a trend of sophomores taking
-Stuy's APCS class, wich is the old APCS-AB - both programming (college
+Stuy's APCS class, which is the old APCS-AB - both programming (college
 CS1) and data structures (college CS2). I left Stuy before Rodda
 graduated so I don't know if it started a trend but I hope it
 didn't. It got me thinking back on how CS classes at Stuy evolved and
@@ -38,7 +38,7 @@ other "programming" classes now and then, some were out and out jokes
 and others were decent CS0 classes. Once I started, demand jumped -
 not because I was so great - I barely had a rep at that point but
 probably because I made people aware that APCS existed and also they
-knew that a CS guy was teaching it, not a math guy. Also, creating the
+knew that a CS guy was teaching it, not a math guy. Creating the
 post APCS electives also pushed demand.
 
 Still, the class was mostly populated by seniors and juniors. In those
@@ -53,7 +53,7 @@ current APCS-A model where it's a semester college class mapped over a
 full year or sometimes longer.
 
 The seniors had no trouble. Neither did the juniors. The sophomores,
-however, were a mixed bag. Some did fine, in fact great. They got it
+however, were a mixed bag. Some did fine, in fact great. They "got it"
 no problem. Many of those sophomores are thriving in tech today. Some
 were able to do okay - they made it through the class and in fact got
 fours and fives on the AP exam but they didn't really "get it" - they
