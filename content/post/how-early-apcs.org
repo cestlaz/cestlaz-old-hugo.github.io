@@ -1,0 +1,117 @@
+---
+title: How Early Apcs
+date: 2023-04-18T08:35:32-04:00
+tags:
+- CS
+- teaching
+categories:
+- csed
+draft: false
+--- 
+
+A couple of weeks ago I was catching up with Cai - one of my many
+former students now living in the Bay Area. Cai was back in NY to
+spend time in his company [[https://ironcladapp.com/][Ironclad]]'s NY office. It was great to catch
+up. We went over to a local restaurant and I heard a "hey Z!!" from
+behund me. It was Rodda, younger member of the family. He mentioned
+that he was at Ramp along with a bunch of other StuyCS folk and that I
+came up in conversation the other day. Yet another former student Zach
+was there, he's one of their investors. I love the Stuy CS family.
+
+Anyway, Rodda mentioned that he started a trend of sophomores taking
+Stuy's APCS class, wich is the old APCS-AB - both programming (college
+CS1) and data structures (college CS2). I left Stuy before Rodda
+graduated so I don't know if it started a trend but I hope it
+didn't. It got me thinking back on how CS classes at Stuy evolved and
+what was appropriate for students and when.
+
+TL;DR - too many people are in too much of a rush and we end up with
+kids taking classes before they're ready. Better to slow down - do no
+harm. Enrichment is frequently better than acceleration.
+
+Long version:
+
+Back when I started at Stuy, there were no rules for CS - pretty much
+anyone could take APCS whenever it fit into their schedules. Prior to
+my teaching, there was one section each year along with a couple of
+other "programming" classes now and then, some were out and out jokes
+and others were decent CS0 classes. Once I started, demand jumped -
+not because I was so great - I barely had a rep at that point but
+probably because I made people aware that APCS existed and also they
+knew that a CS guy was teaching it, not a math guy. Also, creating the
+post APCS electives also pushed demand.
+
+Still, the class was mostly populated by seniors and juniors. In those
+first few years, though, there were a few sophomores. Freshmen both
+didn't know about the offerings prior to coming in nor did they have
+the flexibility in their schedules to even try to enroll.
+
+Now, at Stuy, we taught and teach  AP classes like legit college classes - that
+is, we worked to cover the same material at the same level of depth
+and we mapped one semester to one semester - very different from the
+current APCS-A model where it's a semester college class mapped over a
+full year or sometimes longer.
+
+The seniors had no trouble. Neither did the juniors. The sophomores,
+however, were a mixed bag. Some did fine, in fact great. They got it
+no problem. Many of those sophomores are thriving in tech today. Some
+were able to do okay - they made it through the class and in fact got
+fours and fives on the AP exam but they didn't really "get it" - they
+weren't ready. They could follow the patterns and mimic responses but
+they were not there yet. Others, just flat out weren't ready. It
+reminded me of some of the math kids I taught at Stuy - they came in
+super accelerated - some were ready for it - those were the math team
+aces. Others were the high achieving student in the weak school so
+they were pushed to the more advanced class. They were able to pass
+the regents exams but they didn't really "get" the math. Invariably,
+these kids hit a wall.
+
+Overall my program was doing fine but I didn't feel good about the
+sophomores. Some made it but deep down I knew that for the majority of
+them, if they waited one year more - just one year more of maturity
+and academic maturity, they would have gotten so much more out of the
+class and perhaps would have gone further. That's when I focused the
+APCS class on juniors - old enough to thrive but early enough so they
+could take our advanced electives. Of course, I let seniors in as well
+if they were unable to take APCS with us in the junior year but it
+became a much more junior dominant class.
+
+For the sophomores, I ultimately designed our intro course which let
+them vet CS and get their feet wet and then take our ACPS-AB when they
+were ready. Sure, some were ready earlier, but what's the rush? A
+student could still take all our offerings before they graduated so
+what did acceleration give other than a greater chance of failure.
+
+That possibility of failure - turning a kid off just because it's too
+early has been a guiding principle for me over the years and that's
+why I always go enrichment over acceleration. As I said before, what's
+the rush.
+
+Too often we try to push kids too fast. Another place I saw this was
+with "physics first" at Stuy. The idea was that there was a feeling
+that not enough students were taking advanced physics classes so if
+you gave our "best" science students (based on standardized measures)
+physics in 9th grade then more would take the advanced classes. This
+sounded good but the truth is, most were not really ready for
+physics. They passed the regents but that was because they could
+recognize and fill in the right formulas. At the end of the day, it
+didn't help get more students taking more advanced physics and truth
+be told, these kids would probably have a better appreciation of
+physics if they took it later, parallel with some of the math that
+complements the subject.
+
+To be honest, when I hear teachers boast about doing college level
+work with early high schoolers or middle school kids, I'm
+skeptical. Sure, there are special cases, like Rodda who are ready,
+can do it, and will thrive but most aren't ready. In those cases, I
+wonder if the teacher boasting is doing it more for the students or
+themselves. It also makes me chuckle when i hear things like APCS-P is
+a college level course and then at the same time hear it's being
+offered to ninth graders who are crushing it.
+
+It would be great if we took a step back and slowed down. Teach kids
+what's appropriate when it's appropriate and not worry about having
+to say "my kids did calculus in the third grade."
+
+
+
