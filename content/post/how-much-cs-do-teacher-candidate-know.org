@@ -1,0 +1,115 @@
+---
+title: How Much CS Do Teacher Candidates Know 
+date: 2023-04-25T07:41:59-04:00
+tags:
+- policy
+- csed
+categories:
+- policy
+draft: false
+--- 
+
+I was talking to the CS chair at Hunter the other day - he's been a
+good friend since I joined Hunter and is also teaching the programming
+course in my teacher ed program this summer. William also taught the
+same class last year.
+
+Due to a shift - we're moving our advanced certificate program from a
+Summer->Fall->Spring schedule to a more traditional
+Fall->Spring->Fall->Spring one, this summer, we're running very small
+sections of our classes specifically for the 4 masters students who
+would be left in the lurch otherwise.
+
+I was telling William that this summer should be pretty easy - 4
+students, give or take and most of them already know the material.
+
+What?
+
+They know the material?
+
+How did we end up with that and what's the point of them taking the
+classes.
+
+It's a great example of New York State's left hand not knowing what
+its right hand is doing or worse, the state not really understanding
+CS Education. I wouldn't be surprised in either case.
+
+When NY created its CS license they decided that programs could *not*
+assume any pre-existing CS background. This was very different for
+other subject areas where you typically need a couple of dozen
+undergrad credits in the field. Why? I'm just conjecturing but one
+reason would be the existing belief that "if they know too much CS
+there's no way they'll go into teaching." Another would be that they
+thought many current teachers - the ones currently teaching CS without
+any background would earn this new additional cert adn we had to meet
+them where the were.
+
+Now, I'm all for a low bar for entry but when you combine this
+position with the state's SOCE (statement of continued eligibility)
+things make less sense.
+
+On the one hand, the state created a system where teachers could
+become re-certified without too much stress but did nothing to make it
+affordable - even at public rates, all the credits will cost around
+$10,000. Combine that with the SOCE which, by filling out a simple
+form allows a teacher to teach CS without demonstrating any CS
+knowledge for another 10 years.
+
+On the masters program side - the pipeline for new teachers, the fear
+that nobody will teach CS if they know CS is nonsense. I wrote about
+it [[https://cestlaz.github.io/posts/draft-will-we-lose-cs-teachers-to-industry/][here]]. Sure, most CS majors will want to go into the tech industry
+but just like mathematicians and scientists, some will want to become
+teachers now that there is a path.
+
+That brings us to why our summer program will be populated with
+students who already know the material.
+
+Even though the state required that our program assume no prior
+knowledge, aspiring teachers don't know what education programs are
+like. They just know (or currently believe) that they want to become
+teachers. If they want to become CS teachers, there's a very high
+likelihood that they already know some CS. Just like other
+subjects. Could you imagine someone wanting to become a biology
+teacher if they had zero knowledge of biology? How about math or any
+other field. If someone wants to become a subject area teacher then
+it's safe to say that:
+
+ 1. They want to teach.
+ 2. They know at least a little about the subject area in which they
+    want to teach.
+
+This has proven to be true, albeit with a small sample size. Every one
+of my Masters program applicants came in with some CS or programming
+background and the vast majority of them either had strong industry
+experience or were a CS major. One I think was a CS minor and another,
+just a hobbyist. Most of them came in with more "core" CS than our or
+any other program in the state offers.
+
+This led us to where we are. Normally, this makes for a nice mix. The
+certificate students (that is, working teachers becoming re-certified)
+bring the teaching experience while the masters candidates bring the
+new energy and CS background.
+
+Now, with the SOCE. I expect the number of teachers seeking the new
+cert to plummet and Hunter and other providers will focus recruiting
+more new, aspiring teachers. Ultimately, this will lead to more course
+offerings as the population comes in with a stronger background but
+that will take time.
+
+In the meantime, due to state requirements and local resources, we'll
+have these small classes this summer with candidates who already know
+most of the material.
+
+In the Fall, we'll start our next cohort of advanced certificate
+students - even with the SOCE I'm hopeful that we'll get a decent
+cohort since we have scholarship money, along with a new handful of
+masters candidates. Once again, the mix should be mutually
+supportive. It will certainly be better overall to be on a normal
+Fall/Spring rotation but beyond that we'll see where things go.
+
+
+
+
+
+
+
