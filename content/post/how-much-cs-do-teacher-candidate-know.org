@@ -41,7 +41,7 @@ undergrad credits in the field. Why? I'm just conjecturing but one
 reason would be the existing belief that "if they know too much CS
 there's no way they'll go into teaching." Another would be that they
 thought many current teachers - the ones currently teaching CS without
-any background would earn this new additional cert adn we had to meet
+any background would earn this new additional cert and we had to meet
 them where the were.
 
 Now, I'm all for a low bar for entry but when you combine this
