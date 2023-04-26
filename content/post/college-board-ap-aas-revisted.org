@@ -1,0 +1,52 @@
+---
+title: The CS community should pay more attention to the college board
+date: 2023-04-25T08:33:18-04:00
+tags:
+- policy
+categories:
+- policy
+draft: false
+--- 
+
+I woke up this morning and as usual, looked over recent postings on
+Diane Ravitch's blog. For those of you who don't know, Diane is an
+education historian and a staunch advocate for public schools. She's
+been outspoken against charters, vouchers, and other privatization
+efforts. What adds to Diane's credibility is that she came over from
+the other side as she was assistant secretary of education under George
+H.W. Bush and originally a charter supporter until she saw through the
+lies.
+
+Anyway, I read [[https://dianeravitch.net/2023/04/24/college-board-announces-plan-to-revise-african-american-ap-course-again/][this]] post on how the College Board is now planning on
+revising AP African American Studies again. As you may recall, a few
+months ago the College Board decided to accede to the demands of
+Florida Governor Ron DeSantis and water down their APCS African
+American Studies (AAS) exam by removing (as reported by actual AAS
+scholars, legitimate important history). I shared my thoughts [[https://cestlaz.github.io/post/college-board-ap-aastudies/][here]].
+
+Now, it seems that they're reconsidering.
+
+I've long said that the CS Education community has been far too
+accepting of the College Board. The bottom line is that the college
+board has always looked out for one thing, their bottom line. CS was
+a new subject area to exploit.
+
+Is this re-examination of APAAS a realization that acceding to
+DeSantis was wrong? Doubtful. More likely this is concern over losing
+money from the rest of their customers.
+
+Will APAAS go back to what it was originally slated to be before the
+DeSantis cuts? I don't know. I wouldn't be surprised if the college
+board tries to roll out two APAAS classes hoping to capture both
+markets. They can have AP-AAS-R (for Red State, Republican, or Racist, take
+your pick) with the DeSantis seal of approval and AP-AAS since that
+one would presumably just be couched in history and the subject matter
+as directed by recognized AAS scholars. If they go that route, we
+shouldn't let them off the hook.
+
+It's long been obvious to those of us paying attention that the
+college board is about money and control, not education. It's time for
+the rest of the education community to start paying attention as well.
+
+
+
