@@ -1,0 +1,65 @@
+---
+title: A couple of nice teaching tidbits
+date: 2023-04-28T08:53:37-04:00
+tags:
+- teaching
+- pedagogy
+categories:
+- teaching
+draft: false
+--- 
+
+One of the things I enjoy about the topics class I'm teaching is that
+for most of the course, the students, teachers in their own rights,
+deliver much of the instruction. Since I have much more CS experience
+than most, maybe all of the students, I usually don't see a great deal
+of new content for me - maybe a touch here or there, but I do get to
+see different approaches and teaching techniques and that can be a lot
+of fun. I also had the opportunity to sit in on some candidate
+interviews at Hunter where the candidates also talked about some of
+their teaching experiences.
+
+I thought I'd share two quick things that came up that I really liked.
+
+First was in the topics class. The subject was Public Key
+Encryption. Not an easy topic particularly if you don't have a math
+inclined audience. One of the concepts is a one way function - easy to
+calculate but hard to reverse. The teachers used the concept of mixing
+paint. I loved it.
+
+If you have to paints, you can mix them in various quantities to make
+a third color. You can send the third color to someone else and unless
+they know one of your two colors, they won't be able to figure out the
+other color - you can't unmix the paint and any given mixture can be
+made from multiple different combinations. Simple, elegant, and if you
+do it live, messy which can also be fun. It got me thinking that there
+might be some Swedish Chef mixing a batter (vs unmixing) motivation
+that could similarly be done. 
+
+The second was in one of the interviews. The candidate was talking
+about how he taught function calls as well as a variety of related
+topics - scope, local variables, control flow etc..
+
+He had a sample program with a bunch of functions, first with no
+parameters, just printing things. Each student was told that they were
+a function, when they were "called" they should stand and do what the
+function said to do. When their function was done, they should sit.
+
+He then took out a ball and said he was main and that he would go
+through main (demonstrating how) and when he got to a function call,
+he tossed the ball to the person who was that function. They stood,
+and started to "execute." When they called a function, they would
+remain standing but toss the ball to the next function
+etc. etc. etc. And hilarity ensued.
+
+Lots of good stuff here. Kids own and undertstand the flow
+control. When a kid first calls a function they'll probably start to
+sit but when they realize they stay standing until the function
+returns and they finish it should really help understanding later of
+the call stack and how advanced concepts like recursion work and of
+course, it's interactive and fun.
+
+So, that's it for today, just a couple of fun tidbits of teaching that
+I saw over the past couple of weeks.
+
+
