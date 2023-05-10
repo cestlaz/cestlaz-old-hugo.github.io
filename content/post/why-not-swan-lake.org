@@ -1,0 +1,85 @@
+---
+title: Why Not Swan Lake, or, stupid data tricks
+date: 2023-05-10T15:56:17-04:00
+tags:
+- data
+categories:
+- data 
+draft: false
+--- 
+
+The other day Natan told me about an upcoming NYC Ballet
+production. A one act adaptation of Tchaikovsky's "Swan Lake" along with
+a ballet set to Mussorgsky's "Pictures at an Exhibition." He thought
+it would speak to me. Swan Lake for reasons we'll get to and the
+Mussorgsky because he already knows I really like the piece but also
+because this production highlights not the works of Viktor Hartmann as
+the piano suite is about but rather of Wassily Kandinsky. He thought
+I'd like it both for the irony and because I like Kandinsky's
+stuff. Right on all counts.
+
+Now, let's talk about Swan Lake and what about those data tricks.
+
+TL;DR - there's all sorts of data out there and all sort of things
+will scratch student itches. Not everything has to be earth shaking or
+even serious in the slightest - read on to see what I'm getting at.
+
+My mom really liked Swan Lake and always lamented over the fact that
+it never got the love it deserved. The Nutcracker suite is an annual 
+holiday season darling and even Sleeping Beauty gets more love. My mom
+would always point out that Swan Lake was musically as beautiful and
+wished it was produced more.
+
+Now, in my family we don't refer to Swan Lake as Swan Lake. For us,
+it's Dracula, the Ballet. Why? See below:
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n6PGnYBHt20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
+It also turns out that the same theme was used in the original "The
+Mummy" with Boris Karloff:
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wraMXLU8iTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
+And Murders in the Rue Morgue:
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HQdvmmkDkns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
+So Natan jokingly referred to the NYC Ballet card as "Drucula the
+Musical and Pictures at an Exhibition but with Kandinsky."
+
+Now Natan, who is know to go down some serious rabbit holes like [[https://seccorecit.blogspot.com/2020/04/the-many-mary-mallons.html][this
+one]] on Typhoid Mary or [[https://seccorecit.blogspot.com/2020/04/these-are-9-most-common-causes-of-death.html][common causes of death in operas]], not to
+mention thoughts on [[https://seccorecit.blogspot.com/2019/12/the-cinderella-problem.html][Cinderella]] and a regular expresison to identify
+[[https://seccorecit.blogspot.com/2019/03/umileah-how-to-identify-disney-princess.html][Disney Princesses]]. He dove in.
+
+This is where the data come in. It turns out you, or your students can
+dive into practically anything these days. Natan decided to see the
+history of performances of Swan Lake vs Tchaikovsky's more popular
+Nutcracker and Sleeping Beauty. There wasn't much historical
+information from Ballet companies - most big ones that currently exist
+seem to have been formed in the late 1930s or beyond but he found that
+while excerpts from Nutcracker and Sleeping Beauty were regularly
+performed by orchestras at the turn of the 20th century, Swan Lake
+wasn't. Swan Lake did, however get a bump in the early 1940s while the
+others held fast and then Swan Lake waned.
+
+Hmm. What was up with that.
+
+Well, it turns out that Dracula came out in 1931 and the other two
+movies a year later. All three featured Swan Lake. Could Dracula have
+revived interest in Swan Lake? It's certainly possible. One would have
+to explain the gap between the movie's release and Swan Lakes surge
+but it is possible. Of course there's no evidence for causation but
+it's fun to think about.
+
+Well, that's it, a silly deep dive into a little data. Nothing serious
+and nothing conclusive but silly and fun. Nothing wrong with your
+students learning how to find and explore on similarly silly data
+sets.
+
