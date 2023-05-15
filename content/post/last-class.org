@@ -18,7 +18,7 @@ Some approximate stats:
 
  - Taught approximately 290 specific course sections (probably a little more)
  - Taught somewhere between 6,000 and 12,000 different students
- - Created more than 12 courses created from whole cloth to go with new
+ - Created more than 12 courses from whole cloth to go with new
    version of a dozen or so more
  - Started three major programs from scratch (StuyCS, Hunter honors CS, Hunter
    CS Teacher Education) along with a non-profit and it's programs
