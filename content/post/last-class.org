@@ -20,7 +20,7 @@ Some approximate stats:
  - Taught somewhere between 6,000 and 12,000 different students
  - Created more than 12 courses created from whole cloth to go with new
    version of a dozen or so more
- - Started thrree major programs from scratch (StuyCS, Hunter honors CS, Hunter
+ - Started three major programs from scratch (StuyCS, Hunter honors CS, Hunter
    CS Teacher Education) along with a non-profit and it's programs
    (CSTUY), Google CAPE, and aided in the design of others.
 
