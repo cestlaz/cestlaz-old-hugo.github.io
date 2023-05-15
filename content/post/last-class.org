@@ -1,0 +1,83 @@
+---
+title: Last Class
+date: 2023-05-15T15:40:32-04:00
+tags:
+- misc
+categories:
+- misc
+draft: false
+--- 
+
+So, this morning I taught my last two classes as a full time
+teacher. I still have grading for a few weeks and then some other
+things to wrap up my programs and, due to my contract and how terminal
+leave works I won't officially be retired for a few more months but
+today was kind of my last day of actual work, work. 
+
+Some approximate stats:
+
+ - Taught approximately 290 specific course sections (probably a little more)
+ - Taught somewhere between 6,000 and 12,000 different students
+ - Created more than 12 courses created from whole cloth to go with new
+   version of a dozen or so more
+ - Started thrree major programs from scratch (StuyCS, Hunter honors CS, Hunter
+   CS Teacher Education) along with a non-profit and it's programs
+   (CSTUY), Google CAPE, and aided in the design of others.
+
+And I'm sure I'm forgetting things.
+
+Today's lesson was pretty cut and dry - managed pointers in C++ and
+some advice for what my first year students could do over the summer
+to prepare for what's next.
+
+I was asked in class if today felt weird, exciting, sad, special or
+anything else given it was a "last" day.
+
+I had to say no. It didn't but maybe that was more of a reflection of
+how I look at things than anything else.
+
+Today really didn't feel much different than any last day of
+semester. Why? Probably because I've never been goal oriented. It's
+always been the journey.
+
+I explained to the class after my student asked that just because I
+was retiring from Hunter and moving on to some other ventures
+(whatever they turn out to be) it really wasn't different from other
+years.
+
+As a teacher, particularly a HS teacher of seniors, every year is an
+ending. Every year, you say goodbye to a crop of students that you've
+invested in, gotten to know, and many times, gotten attached to. Next
+year, you begin again with a new group, or more likely, groups
+overlap.
+
+Of the graduates, some will keep in touch, some won't. For those that
+do stay in touch, the teacher and student continue to have a
+relationship - I've been amazingly fortunate in the students that have
+decided to stay in touch. For those that don't, both sides have
+memories of the shared time together.
+
+When I left Stuy, it was the same as other years. I moved to Hunter
+College and still got to work with terrific young people (and later
+teachers). Of the Stuy kids from the year I left, some are still in my
+circles, some are not - just like every other year.
+
+Now that I'm leaving Hunter, it's the same with my Hunter kids (and
+teachers). the only difference is that I won't have a new crop come
+the Fall and that's alright.
+
+I'm looking forward to some time in the Fall when we'll try to have a
+big get together of my former students and I'm also looking forward to
+whatever I decide to do next. I'll look back, just like I always do
+and think about the students I've taught (and while I can't speak for
+other teachers, yes, I do think about my former students and how their
+doing a fair bit) but now, I'll also look over my career arc as a
+whole.
+
+So, nothing special for today just the next step in the journey. The
+only difference is for the first time in a while I don't know where
+the journey leads.
+
+   
+   
+
