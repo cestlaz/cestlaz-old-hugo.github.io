@@ -21,7 +21,7 @@ getting back an initial grade? How many assessments? And of course,
 how important are grades anyway.
 
 A recent trend has been to move to ungrading or it's relative
-specification grading. There are many more varients and names but the
+specification grading. There are many more variants and names but the
 idea, described here in terms of a programming assignment for
 convenience, is that a student project must check off certain things -
 to be awarded an A grade. The student can update the project over time
