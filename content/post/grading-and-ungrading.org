@@ -8,6 +8,7 @@ categories:
 draft: false
 --- 
 
+
 Classes are done and all that's left is the grading. Grading is
 something I truly hate. Hating grading actually had a lot to do with
 my starting to build CS at Stuy ([[https://cestlaz.github.io/post/quarter-century-courses/][story here]]). I'm glad it's my last
