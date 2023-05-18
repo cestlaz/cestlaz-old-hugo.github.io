@@ -1,0 +1,143 @@
+---
+title: Grading And Ungrading
+date: 2023-05-18T14:12:59-04:00
+tags:
+- grading
+categories:
+- grading
+draft: false
+--- 
+
+Classes are done and all that's left is the grading. Grading is
+something I truly hate. Hating grading actually had a lot to do with
+my starting to build CS at Stuy ([[https://cestlaz.github.io/post/quarter-century-courses/][story here]]). I'm glad it's my last
+grading rodeo but even as I work through assignments for the final
+time after 33 years I still have many questions about the best way to
+do it.
+
+Should we give tests or be project based? What about deadlines? Work
+alone or in a group? Should students be able to update solutions after
+getting back an initial grade? How many assessments? And of course,
+how important are grades anyway.
+
+A recent trend has been to move to ungrading or it's relative
+specification grading. There are many more varients and names but the
+idea, described here in terms of a programming assignment for
+convenience, is that a student project must check off certain things -
+to be awarded an A grade. The student can update the project over time
+and often resubmit it after an initial grading. If a student checks
+off enough items on enough assignments, they get an A for the term.
+
+As a coarse example, in my algorithms class, I gave 8 assignments. If I
+said that any student that completes 4 out of 5 of the "deliverables"
+for each assignment they get an A. Alternatively if the get 5 out of 5
+on, let's say 5 assignments  and 3 out of 5 on the other two they can
+also get an A. Then variations ensue.
+
+I'm not actually doing that this semester. I have 8 projects, each has
+a hard deadline that can be extended upon request. Each gets a
+holistic grade and then I do a hard average. The vast majority of my
+students will be getting an A or A- as a result with most earning an A.
+
+Now, I like the idea of ungrading but I have some real concerns. First
+though, we have to discuss why grades are, or are not important.
+
+In many classes, truth be told, they aren't important. I'd argue that
+this is true for most advanced CS classes and CS electives. Companies
+might use GPA as a first cut for interviews but really most look at
+resumes and a student transcript is not what's used but rather the
+technical interview, which is flawed in its own ways. I guess grad
+school might care more about specific class grades but that's really a
+very small minority of students and so is the tail wagging the dog.
+
+Grades can be important as a baseline of information in classes though
+that have follow ups. If a student got an A or a B in data structures
+it can inform the algorithms teacher about what to expect from those
+students vs a student who squeaked by with a C. On the other hand, do
+college instructors actually look at that information?
+
+At the high school level, teachers will and it can be useful. Not as
+useful as what often happens when teachers have time together and can
+compare notes. I used to trade class lists with colleagues and we'd
+share info. We were all perceptive enough to know that the previous
+teacher might have some biases so we wouldn't hold anything against a
+student but it was helpful to know where kids had challenges and what
+were some tendencies. Grades can do that a little but discussion works
+better.
+
+I didn't know where I'd end up when I started writing this but from
+the importance of grades side, I'm thinking they're not very important
+in the greater scheme of things other than pass/fail with the idea
+that pass means you know what you need to know for the next course.
+
+At Stuy, grades were 55, 65 to 90 in increments of 5 then 90 to 100
+and culturally grades were very important. For our AP classes and
+higher in CS I'd always say that we want to reward a student who's
+trying to do and learn more so be generous with grades. In our intro
+class, the feeder to our AP and advanced classes, I'd say to my
+teachers "if you award under a 90 you're saying that the student will
+struggle in our APCS class. If you award a 90 - 95 you're saying the
+student will do well and if you award 95 or above, the student will
+breeze through the class." That was the purpose of grades so a year
+later when the teacher was unavailable we could still assess the kid
+for placement.
+
+So, one can be lose with grades and take away a fair amount of
+pressure but there are other issues with ungrading.
+
+One issue involves deadlines. I like the idea of ungrading but I also
+think that deadlines are important. While frequently people opposed to
+deadlines will say they're not really important - real world projects
+are frequently delivered late, there are plenty of times where
+deadlines are real - try getting to your plane after they close the
+boarding gate. Doc says come back in 6 months to check that thing and
+you don't for 18, you might be in trouble. Miss that college
+application deadline and you're probably SOL. Some deadlines are
+flexible. Many are not and in any event, I want my former students to
+be the ones who deliver on time. Open deadlines are also bad for
+students who need more structure. Instructors who favor unlimited
+assignment submission and re submission are only catering to students
+who thrive under those circumstances. Also, students who would benefit
+from deadlines can also fall behind and experience a snoball effect in
+cumulative classes - this is not good. Finally, not having deadlines
+results in a massive workload increase on teachers.
+
+At the end of the day, deadlines aren't bad and can be good and
+important but you need to be reasonable and flexible. I talk about
+what I do [[https://cestlaz.github.io/post/deadlines-and-commitments/][here]] and [[https://cestlaz.github.io/post/late-assignments][here]].
+
+Another issue with ungrading. and this might be specific to CS and
+programming classes is that when students can complete things any time
+in any way they might not really learn what they have to learn (with
+of course, the ultimate bad end of this being outright cheating). This
+happened with a small number of teachers in my program. As
+professionals, they were left to do certain things on their own for
+prework and we followed very open deadlines and specification grading
+for our summer courses. Some students benefited from this, others were
+take it or leave it, there were a few, though, who were able to finish
+what had to be finished but since it was as flexible as it was, and
+through the program they saw more code samples, similar code samples,
+etc., at the end of the day they completed what they needed to
+complete but didn't really learn what we wanted them to learn.
+
+In reality, this wasn't a huge deal for my program
+(although one or two teachers actively took advantage of the lose
+policy and while it helped some legitimately and I'm glad for that,
+it pisses me off when people take advantage) since the CS we cover is
+far and away more than the teachers will need but it still didn't sit
+well with me. I wasn't going to change policy for the summer session
+mid stream but it ended up not giving them as much as it should have.
+
+I know other places are trying to implement versions of ungrading and
+I'm guessing they're also seeing mixed results if they track students
+to later classes. Unfortunately, all the experiments I know of are in
+"elite" institutions. I'd be curious if anyone's trying anything in a
+mid-performing public high school or mid tier (perception wise)
+college.
+
+So, now that I've avoided grading for the duration of this post, I
+should probably get back to work and finish looking at those last sets
+of assignment. 
+
+
+
