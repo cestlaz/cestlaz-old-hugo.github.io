@@ -1,0 +1,66 @@
+---
+title: A meetup of NY's first certified CS teachers
+date: 2023-05-25T07:32:39-04:00
+tags:
+- teaching
+categories:
+- teaching
+draft: false
+--- 
+
+Finally, after three years, we had the opportunity for the
+participants in my (Hunter's) CS Teacher Certification program to get
+together in person. Last year, a handful of the cohort 2 members had a
+dinner but never a big gathering across the cohorts.
+
+Not everyone could make it, so yesterday, we had close to 50 teachers
+out of our total 100 across the three cohorts gather at Yext in the
+Meatpacking district to meet each other, talk shop, and celebrate
+being New York State's first certified CS teachers.
+
+Now, of course, meeting in person as opposed to Zoom, as we have been
+these past three years has some obvious advantages but one that never
+fails to amuse me is that we all now know how tall everyone is.
+
+On Zoom, particularly if you see a screen with someone you know,
+everyone gets sized with respect to that person. If I see JonAlf, my
+co-teacher this past semester on the screen and he's about my size,
+everyone else, is relative to his size allowing for camera position.
+
+Quite a surprise for me on for a few people.
+
+Okay, ultimately that's not important but I did geta chuckle out of
+it.
+
+A highlight of the event was that three of our teachers from the
+Dryden School district - a little east of Cayuga lake came
+down. They're in town today and tomorrow to visit the CS classes of
+some of our NY city teachers and we scheduled this meetup so they
+could meet their classmates and the rest of our teachers.
+
+I guess that's really what I was reminded of - meeting other teachers,
+pulling them into your network can be so powerful. Many of the
+teachers last night commented on that. Yes, they commented on the
+content of the program - the CS, the methods, everything we did in the
+classes but they also commented on how they were "it" in their
+school. The lone CS teacher flying solo. Being in the program not only
+introduced them to other teachers in the same boat but over the year
+of the program it built relationships through common experiences and
+the in person meetup just helped cement the relationships.
+
+Moving forward, they'll always have the content but now they're all in
+a network of CS teachers that they legit know, as opposed to just
+seeing at events here and there and I think that's going to be a
+big impact of the program I built moving forward.
+
+What's next? Well, since I'm retiring, one thing I think I might do,
+assuming my friends at companies like Yext and Google and others
+provide space and food is get back to running the PD sessions that I
+ran prior to covid through my non-profit. The teachers last night were
+really enthused about that idea. That'll probably be a good way of
+keeping the community together and able to support each other along
+with our slacks and emails.
+
+
+
+
