@@ -30,11 +30,11 @@ school district. They were asking about my advanced certificate
 program. Having seen that New York state recently published its
 Computer Science standards and had recently created a certification,
 they knew that they would need to deal with the subject area in some
-way or shape. They new that finding a new computer science teacher
+way or shape. They knew that finding a new computer science teacher
 would be very difficult as none of the colleges offering teacher
-certification programs in the area offered CS Ed. They also new that
+certification programs in the area offered CS Ed. They also knew that
 even if they found a new teacher and were able to hire them, that
-would be one lone teacher and a new one at that being soley
+would be one lone teacher and a new one at that being solely
 responsible for the districts direction in computer science.
 
 The could also do what many others have done - send a couple of
@@ -74,7 +74,7 @@ School and spend time with both the teachers and the
 administration. As part of their grant, the three Dryden teachers were
 able to come down to the city. The two Groton teachers couldn't attend
 due to scheduling conflicts. The three came down on Wednesday and were
-able to attend out [[https://cestlaz.github.io/post/certified-teacher-meetup/][meetup]] and connect with other CS
+able to attend our [[https://cestlaz.github.io/post/certified-teacher-meetup/][meetup]] and connect with other CS
 teachers. Thursday, I partnered each with a local CS teacher who was
 doing something similar. One of the Dryden teachers was interested in
 tech/robotics to go with the CS, another also an art teacher and the
