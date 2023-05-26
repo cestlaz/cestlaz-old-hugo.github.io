@@ -1,0 +1,103 @@
+---
+title: A model district for introducing CS education
+date: 2023-05-26T06:49:38-04:00
+tags:
+- teaching
+categories:
+- teaching
+draft: false
+--- 
+
+One of the highlights of this week has been finally [[https://cestlaz.github.io/post/certified-teacher-meetup/][getting together]]
+with a large number of the teachers in my certification
+program. Another was finally being able to once again attend a CSTA-NY
+meeting as they've almost always conflicted with my teaching schedule
+over the past couple of years.
+
+The reason I scheduled my meetup back to back with the CSTA-NY meetup
+was because of another highlight. Five of my Advanced Certificate
+teachers are from the Dryden and Groton school districts, a little
+east and northeast of Cayuga lake near Ithaca. The three Dryden
+teachers were able to come for a visit so I scheduled my meetup so
+that the Dryden folk could attend both and meet a whole bunch of new
+CS teachers.
+
+How this all happened should be a model for other districts across the
+state.
+
+A couple of years ago I got a cold email from someone in the Dryden
+school district. They were asking about my advanced certificate
+program. Having seen that New York state recently published its
+Computer Science standards and had recently created a certification,
+they knew that they would need to deal with the subject area in some
+way or shape. They new that finding a new computer science teacher
+would be very difficult as none of the colleges offering teacher
+certification programs in the area offered CS Ed. They also new that
+even if they found a new teacher and were able to hire them, that
+would be one lone teacher and a new one at that being soley
+responsible for the districts direction in computer science.
+
+The could also do what many others have done - send a couple of
+teachers for short form code.org or similar training. Well, you all
+know my feelings on that.
+
+So, what did they decide to do?
+
+They saw that I offered an advanced cert program - a way to recertify
+some of their current teachers. They were working on a writing an NFS
+grant proposal to support CS education and were thinking about
+including a funding request to send some of their teachers to such a
+program.
+
+It would have to be my program since it was and still is the only such
+program running in the state. We spoke, they liked what I was selling
+program wise and so worked to include it in their grant. I tried to
+lend whatever support I could.
+
+In the mean time, I also had to make sure my program remained remote
+accessible - something I was already fighting for since it can be very
+difficult for a working teacher, particularly one in a transportation
+desert to get to Hunter after a long day. I felt we had a
+responsibility to those local but distant teachers as well as the rest
+of the teachers across the state. My administration agreed and we
+remained remote.
+
+So, by Spring 2022, Dryden, who had teamed up with neighboring Groton
+were awarded the grant and we got five teachers into my cert
+program. All five have been great and it's been really healthy to add
+a handful of non NYC teachers to our already solid mix of current K12
+teachers and aspiring masters students.
+
+This past fall, Devorah and I drove up to their region for a small
+Fall vacation and while there I was able to visit the Dryden High
+School and spend time with both the teachers and the
+administration. As part of their grant, the three Dryden teachers were
+able to come down to the city. The two Groton teachers couldn't attend
+due to scheduling conflicts. The three came down on Wednesday and were
+able to attend out [[https://cestlaz.github.io/post/certified-teacher-meetup/][meetup]] and connect with other CS
+teachers. Thursday, I partnered each with a local CS teacher who was
+doing something similar. One of the Dryden teachers was interested in
+tech/robotics to go with the CS, another also an art teacher and the
+third a generalist.
+
+This was followed by the CSTA-NY meetup which inspired them to see
+about either getting involved in their closest CSTA chapter or if not,
+forming a new one. This was cool to hear.
+
+Now, this morning, they'll be visiting my old haunts at Stuyvesant to
+observe a couple more classes and meet a few more teachers before
+trying to beat the holiday traffic on their way back north.
+
+Moving forward, Dryden and Groton now have a combined 5 qualified,
+certified CS teachers and can now design programs and opportunities
+that best suit their student's needs as opposed to just copying the
+curriculum du jour. I'd be delighted if they include me in that
+process but if they do or don't, Dryden and Groton are in great shape
+for CS education moving forward.
+
+Other districts should follow their lead.
+
+
+
+
+
