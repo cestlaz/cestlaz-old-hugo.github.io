@@ -1,0 +1,62 @@
+---
+title: Worst Practices
+date: 2023-05-30T12:35:12-04:00
+tags:
+- programming
+categories:
+- programmign 
+draft: false
+--- 
+
+I stumbled upon an awesome new YouTube channel for programmers - [[https://www.youtube.com/@WorstPractices][Worst
+ Practices]]. Specifically, Worst Practices in Software
+ Development. The tagline is "we've all heard enough about everyone's
+ best practices in software development, we're here to talk about
+ ... worst practices."
+
+ I've written about "best practices" for teaching [[https://cestlaz.github.io/post/research-vs-practice/][before]] - I don't
+ believe in them - I believe in practices that are good under certain
+ circumstances. Maybe in the majority of circumstances but there's no
+ silver bullet.
+
+ In software development, it's similar. Even though we call certain
+ things best practices, there's no such thing. There's the practice
+ but that has to be tempered with the circumstances - people, project,
+ environment, deadlines and more. Sounds similar to the situation with
+ teaching.
+
+ Now, specifically for the video series, the presented "worst
+ practices" are things that we all do or have done as software
+ developers - debugging with print statements, not reading
+ documentation, using an under-powered editor or not using your
+ editor/ide "correctly" etc. Just like in teaching, a frowned upon
+ practice can be the right one under the right circumstances. In one
+ video, Leah Culver talks about print statement debugging. It's
+ frequently the most sensible and efficient way to go rather than
+ using a debugging tool. Other times, the tool is betetr. As Brian
+ Kernighan said:
+
+#+begin_quote
+The most effective debugging tool is still careful thought, coupled
+with judiciously placed print statements.q
+#+end_quote
+
+Julia Evans doesn't "read the documentation" but I'm guessing her
+approach of using a code sample and building from there has worked for
+her over the years.
+
+Thea Flowers doesn't use package managers. Maybe things are better
+now, but I've been burned with paths and versioning enough times over
+the years to certainly get that one.
+
+Anyway, the series is short right now. Eight videos of about five
+minutes each and they're great. Lots of fun and good material to think about.
+
+As a programmer, I 100% endorse the series. As a teacher, I do as
+well.
+
+
+ 
+ 
+
+
