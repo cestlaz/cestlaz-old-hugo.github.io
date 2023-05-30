@@ -38,7 +38,7 @@ I stumbled upon an awesome new YouTube channel for programmers - [[https://www.y
 
 #+begin_quote
 The most effective debugging tool is still careful thought, coupled
-with judiciously placed print statements.q
+with judiciously placed print statements.
 #+end_quote
 
 Julia Evans doesn't "read the documentation" but I'm guessing her
