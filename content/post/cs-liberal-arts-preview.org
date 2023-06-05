@@ -1,0 +1,72 @@
+---
+title: CS and the liberal arts - my HackNY talk - a preview
+date: 2023-06-05T08:03:11-04:00
+tags:
+- CS and Humanities
+categories: 
+- CS and Humanities
+draft: false
+--- 
+
+So, I went for my walk yesterday and indeed was able to settle on a
+topic for my HackNY talk next week.
+
+HackNY is, for lack of a better description, a support system for
+tech interns in NYC. It started 12 years ago. Back then, a college
+student would apply to HackNY. If accepted, they would be matched with
+a NY based tech startup and they'd be housed, I believe in the NYU
+dorms. HackNY would provide a number of common activities beyond
+communal living - talks and other events. Big tech companies like
+Google were already offering housing, guest talks, and special events
+both  social and technical. HackNY sort of did this across the nY
+tech startup space. You'd intern at whatever small company that could
+provide a great internship experience and HackNY provided the out of
+office side.
+
+It also served as a recruitment and advertising tool for NY Tech which
+was just developing back then.
+
+Tech in NY and the startup scene is very different now and as a
+result, according to the HackNY
+website, the program's changed since then - they still provide
+the housing, talks and events but no longer provide the
+internships. The student must find that on their own prior to starting
+with HackNY over the summer. It could be awesome, with HackNY
+providing a nexus for these students who might otherwise be floating
+without much support - particularly those interning at very small
+companies or it could be that something's lacking without HackNY
+curating the internship experiences. We'll see. 
+
+Anyway, what should I, a career teacher, have to say to these
+students. Sure, I have a unique view - I've worked in industry and I
+think I'm one of the few people out there who's both strong as a
+teacher and technically who's experienced in working with populations
+from elementary school all the way well into the workplace but this
+isn't a room of aspiring teachers.
+
+These kids will still be in college next year, and maybe for three
+more years. I thought, maybe I should talk about the liberal
+arts. Sure, Humanities in tech has gotten a little buzz in the last
+few years, first due to ethical issues and now because of AI but I've
+been talking about why the liberal arts are important for tech majors
+for far longer.
+
+So, I outlined a talk on my walk and now I have to flesh it out. Sure,
+I'll talk a bit about the education scene, I think as New York's CS
+Education Curmudgeon I have to complain about that. I'll also talk
+about the ethics and AI issues but the focus will be on something more
+fundamental. How CS relates to the liberal arts from the humanities
+point of view and how studying liberal arts can enhance a tech person.
+
+Devorah and I will be heading to Philadelphia tomorrow for a brief
+vacation (what is it, we won second place or something in a
+contest [fn:: You know the old joke, the prize for the sweepstakes was
+one week in Philladelphia, second prize, two weeks :-)] but then I'll
+flesh it out. If the talk goes well, I'll write it up sometime
+afterwards. If not, I'll probably still write it up but it'll probably
+be more humorous. 
+
+
+
+
+
