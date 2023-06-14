@@ -1,0 +1,125 @@
+---
+title: Tech and the liberal arts
+date: 2023-06-14T07:12:43-04:00
+tags:
+- liberal arts
+- humanities
+categories:
+- education
+draft: false
+---
+
+
+Last night, I gave a talk to this years [[https://hackny.org/][HackNY]] fellows. It was a lot
+of fun. I was originally going to speak about liberal arts and tech
+education but I was asked to do something more on my professional
+journey as a teacher so I did that. Had a great time but figured I'd
+write about the liberal art stuff here anyway.
+
+Over the last few months, I've noticed a surge in social media pushing
+the humanities in CS education. This has mostly been a reaction to the
+recent AI craze, chatGPT and related ethical concerns. This doubles
+down on the ethics based push for more humanities resulting from all
+of the plain as day ethic issues in the tech world.
+
+I say surge but it's all relative. I haven't seen major initiatives to
+change CS programs or anything like that, just more buzz.
+
+Personally, I've been on the humanities bus for a long time. Going all
+the way back to when I went to a liberal arts school as opposed to an
+engineering school. Here, I'm not going to talk about the humanities
+specifically with respect to ethics or ai, the issues du jour, but rather
+what I've always spoken out on - their value to a student following a
+tech path. I'm also not going to talk about the teaching side of
+things. I'll save that for another day.
+
+On one side, a side that's been covered for years is the whole cross
+and interdisciplinary thing. Even before CS was big in K12 there were
+plenty of efforts of including STEM in humanities classes and the
+humanities in STEM classes. Makes sense. The whole silo thing that
+we've evolved into works in some cases but is lacking in so many
+more. For tech, the truth, contrary to most college CS programs is
+that most CS majors will apply CS to some other field and not go on to
+get PhDs. This means that having CS students with deep exposure to
+other fields is a good thing. It's also easy - opportunities abound
+just by choosing the right problems to explore. One I love is the
+[[https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Termites.nlogo][termite gathering]] model in NetLogo. On it's own, it explores just
+that - termites gathering woods as an emergent behavior. Beyond that,
+though, I've read articles describing the same model as an exploration
+of things as widely disparate as galaxy formation and wealth distribution.
+
+The other side, and more interesting one as far as I'm concerned is
+the value of a liberal arts education to a CS major ignoring the
+above interdisciplinary utility. Disclaimer- I'm going to talk a bit
+about the differences in a liberal arts education vs a more
+engineering one (for lack of a better term). This does *not* mean that
+individuals educated in one way are necessarily in any way lacking in
+the other. That comes down to the individual.
+
+I was once talking to two of my closest friends, independently about
+this. Changing names to ensure privacy, let's call my friend educated
+in a liberal arts school Liberal Arts Larry and my engineer friend,
+Engineering Ed.
+
+Talking about his education, Ed was able to pinpoint where he learned
+specifically useful things for his career. "I really got Fourier
+Transformations when a Took blahblahblah" or "automata really made
+sense after I took compilers."
+
+Larry on the other hand described his experience by saying "I really
+can't say anything specific in any of my core (liberal arts) courses
+but as a whole they've shaped who I am today and at some fundamental
+level they inform so many of my decisions."
+
+Interesting difference, at least between these two. Also, I would be
+remiss if I didn't mention that Ed is very well red in the classics,
+and knowledgeable in music and the arts and on the other side Larry is
+as strong technically as anyone I know. At the same time, both were CS
+majors and both have been very successful over their careers.
+
+We can drill down more on Larry's statement to really think about
+how liberal arts, if taken by a student ready for them, shine. High
+School students frequently tell me they want to work on games. They
+think they need all the science and math, and to a certain extent,
+they might, but I ask them, what is a game really? It's a
+story. Playing a game is being a player in a story. Every game I can
+think of, save one [fn:1] tells a story. Story telling is liberal
+arts. Other aspects that might influence a young individual embarking
+on their tech career? How about psychology - how people
+thing. Certainly a boon in understanding your users and pitching a
+solution. In a similar vein, anthropology. Okay, maybe not the bone
+digging side of physical anthro but certainly cultural anthropology -
+how groups of people live - customs, cultures, taboos
+etc. Understanding people is not part of a CS curriculum but it's
+layered all over the humanities. Of course literature and writing
+quite literally is story telling and art and related fields as well
+and even history, particularly if it's not just a collection of facts
+but more  cause and effect based. 
+
+In short, at least in my opinion, unless you're really going down the
+engineering side rabbit hole a liberal arts education can be super
+beneficial to students moving into tech and so many dismiss BA
+offering schools in favor of a BS. This isn't even getting to the
+ethics and AI side of things but, as I said up top - that's for another post. 
+
+The catch with all of this, though, is that the student must be ready
+for a liberal arts education. Our society pushes really hard on the
+"college is for jobs only" button and while I've argued that a BA can
+in fact be better for a tech career in many cases many dismiss the
+idea. How many students look for the easiest distribution requirements
+and take their liberal arts classes in a vacuum - only about the class
+itself as opposed to how it can grow them as a person. In my
+experience, most colleges don't help matters with professors self
+silo-ing their subjects making matters worse. If a student doesn't
+approach  a liberal arts education with the right attitude and
+investment, much of the value can be lost.
+
+Still, I hope that the pendulum will swing and more people will see
+how a tech education without the humanities is only half an
+education. I've been talking about it for years. I hope others start
+to do the same.
+
+[fn:1] Tetris
+
+
+
