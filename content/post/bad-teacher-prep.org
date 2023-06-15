@@ -5,7 +5,7 @@ tags:
 - teacher education
 categories:
 - teacher education
-draft: true
+draft: false
 ---
 
 Yesterday, someone posted [[https://njctl.org/teacher-education/programs/computer-science-mstl/][this link]]  to the various CS teacher groups
