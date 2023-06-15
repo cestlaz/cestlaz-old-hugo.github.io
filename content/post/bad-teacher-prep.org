@@ -1,0 +1,140 @@
+---
+title: The anatomy of a bad teacher prep program
+date: 2023-06-15T14:04:19-04:00
+tags:
+- teacher education
+categories:
+- teacher education
+draft: true
+---
+
+Yesterday, someone posted [[https://njctl.org/teacher-education/programs/computer-science-mstl/][this link]]  to the various CS teacher groups
+on Facebook. A Masters program in teaching CS. As I usually do, I took
+a look. I've spoken before about the variation of quality in teacher
+certification programs across all subjects. Some are great but many
+(*many*) are bad. I blame this largely on NCLB but that's for another
+day. For CS I've lamented that while I'd like to think that my program
+is strong and I know there are programs like [[https://catalog.siena.edu/preview_program.php?catoid=5&poid=1228][Siena's]] that are great
+but there are others both in NY State and out that are quite frankly,
+certificate mills. It appears to me that the NJCTL program is one of
+those so I thought this was a good opportunity to dissect the program
+as described by their web page.
+
+First - two notes. On each of the posts on Facebook someone responded
+calling the institutions accreditation into question - I don't know about this one
+way or another so I won't speak to that.
+
+Second - I'm only responding to the website based information. I
+haven't spoken to anyone in the program and therefore could be offbase
+on some things. Still, I'll be sharing my initial impressions and
+opinions and barring any new information, well, you know.
+
+Okay. Let's go.
+
+The program is online asynchronous. My program is online with a mix of
+sync and async. I think in person is better for some classes but as
+long as we're the only adv cert program running in the state, we have
+to be online to accommodate teachers who live or teach far away. I do
+think that being entirely async is a problem for a teaching
+program. The program seems to have online discussion groups But I
+don't think alone that's enough.
+
+Still, the format wasn't really what attracted my attention when I
+perused the program site.
+
+The first class is "Secondary PSI Teaching Methods for Compuer
+Science." Okay, sounds good but since it's cross listed for all the
+other curricula areas they offer and the syllabus doesn't seem to
+mention any CS this is not a great start.
+
+Next there's a course in "learning and teaching programming in
+Python." The title is reminiscent to math ed classes like "Geometry
+for math teachers" - when this is offered by an academic department
+rather than as an education course it's historically code for "watered
+down math since real math might be too hard." In this case, I wouldn't
+come down too hard since it's an intro programming experience so it's
+probably fine.
+
+Finally, phase 1 ends the "Learning and Teaching General Computing
+Concepts." Fine but it seems pretty shallow for a 3 credit graduate
+level course and while it's coded as a CS class (CSCI), if the program
+was meatier, the relevant concepts would probably appear in other more
+worthwhile courses.
+
+Phase 2 has three courses. One is field experience and since the
+syllabus being general for all subject areas I couldn't really
+determine if the class is legit or not. The other two Phase 2 classes
+were basically "APCS-P for teachers" parts 1 and 2, three credits
+each.
+
+Okay, here we have a problem. First off, APCS-P isn't a college level
+class to begin with again we're having a CSCI class about how to teach
+CS with early high school CS content. Not good. It really rings of
+weekend PD stretched out for 3 credits. If a teacher actually knows
+their CS, they shouldn't have to actually take a class in APCS-P.
+
+Phase 3? More field experience with the same concerns and 2 semesters
+of "APCS-A for teachers." This might be worse. APCS-A content is early
+level undergraduate CS that's usually taught in 1 semester. Here it's
+taught as it is in HS over a full year.
+
+By contrast, my program provides self study for very rudimentary
+programming and our first course is APCS-A with all the other ones
+being more advanced and all content. We then also have our methods and
+curriculum classes on top of that. We don't spend a year on APCS-P or
+APCS-A but you can bet my grads teaching HS will be able to teach
+either along with a wide range of other classes. 
+
+The final class is basically prep for the praxis exam so are they
+saying that a good practice for a teacher prep program is a test prep
+class for a standardized exam?
+
+I couldn't find out more but these were my personal impressions. I
+looked at all the syllabi and all had faculty listed on the top but I
+sure hope those aren't the actual faculty because all but I think 1
+don't appear to have any CS background (based on looking them up on
+LinkedIn).
+
+Before going on, I want to state that I'm just sharing my impressions
+for information - this program doesn't compete with my program since
+it's not NY State approved and besides, I just retired so it's not
+technically my program anymore anyway.
+
+Continuing, I thought this was worth writing up because there are
+plenty of other programs like this and including some in NY State (and some that
+I think, shockingly, the state approved as certification
+programs). These are programs to look out for. It's also CS Ed going
+the way of all Ed.
+
+When I got my math certification, I needed a certain number of math
+credits and back then there wasn't, or at least, I wasn't aware of the
+"math ed" alternatives. When I got my license in NY City, I had to
+face a "board of examiners" - a principal, a math chair, and some math
+teachers who could grill me both on math and how to teach it. A couple
+of years the city stopped certifying teachers and just followed the
+state's lead. After that NCLB was enacted and all of a sudden instead
+of having to actually know your content you could complete a "math
+ed," "sci ed," or other "ed" program. This opened the door for severely
+watered down content. In fact, before I got my Masters (in straight CS from the
+Courant Institute at NYU), I had colleagues list out programs where I
+could get my masters and my 30 above (for increased salary). Everyone
+knew which programs you'd learn stuff but had to work in and which
+ones were basically pay for the credits, sit back, and relax (and
+yes, I did in fact take a couple of those courses as well to round out
+my 30 above).
+
+It seems that we're going down the same road with CS Ed.
+
+If you're a teacher seeking to add CS certification or even take
+classes to improve your CS knowledge or pedagogical content knowledge,
+buyer beware. There are some great classes out there and great
+programs but there's also a lot of low level PD masquerading as deep
+content.
+
+Sorry if this pisses some people off but you know me, I'm New York's
+resident CS curmudgeon. If I don't rant about these things, who will?
+
+
+
+
+
