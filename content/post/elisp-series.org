@@ -5,7 +5,7 @@ tags:
 - emacs
 categories:
 - emacs
-draft: true
+draft: false
 --- 
 
 It's been quite some time since my last Emacs video. The lack of
