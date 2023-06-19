@@ -1,0 +1,43 @@
+---
+title: Working on a new short Emacs series
+date: 2023-06-17T19:45:19-04:00
+tags:
+- emacs
+categories:
+- emacs
+draft: true
+--- 
+
+It's been quite some time since my last Emacs video. The lack of
+content has been for two reasons. One was my overall feeling of
+burnout and the other was that most of my videos involved looking at
+new packages and I really wasn't playing with anything new.
+
+Now that I've started my retirement the burnout is gone and I'm
+starting to think about what my next adventures will be. As I start
+figuring out the big picture I thought I'd get back to some Emacs
+content.
+
+What's on tap?
+
+I'm thinking about a short series on elisp. Now, I'm no elisp master -
+I've only done enough to get by but I think that could make for some
+nice beginner content and I'm sure I can count on the Emacs community
+to (in a nice way) tweak my content towards best practices.
+
+The plan is to start from the basics and ultimately write a few
+interesting functions. Maybe a minor mode or two. Probably nothing
+hugely useful but something that will illustrate the concepts. That
+said, I want the examples to be at least a little useful and not
+totally contrived.
+
+I also figure that I probably won't be doing laundry lists of
+functions or going over all the different ways of doing things but
+hopefully I can provide pointers and process so other elisp beginners
+can find their way to the info they'll need for their specific
+projects.
+
+So, stay tuned and look for more Emacs content to come.
+
+
+
