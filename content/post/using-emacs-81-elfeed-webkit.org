@@ -1,0 +1,112 @@
+---
+title: Using Emacs 81 Elfeed Webkit
+date: 2023-06-26T15:27:54-04:00
+tags:
+- emacs
+categories:
+- emacs
+draft: false
+--- 
+
+Before I get to my elisp series, I thought I'd do a short video on
+[[https://github.com/fritzgrabo/elfeed-webkit][elfeed-webkit]]. This was suggested to me by [[https://irreal.org/blog/][jcs]]. Even though I think
+elfed-webkit is great - a mini-gamechanger for me, I thought that
+there wasn't enough for a video. Then I realized that in order to run
+elfeed-webkit you need to have xwidgets enabled in your Emacs build. I
+thought I'd make a video on how I build Emacs and enable features like
+xwidgets and then I quickly set up elfeed-webkit.
+
+If you use Emacs and reed rss/atom feeds, you really should check out
+elfeed and if you use elfeed, then elfeed-webkit. It basically allows
+elfeed to render feeds as the appear in a browser right from within Emacs.
+
+
+Here's the writeup with the video at the bottom.
+
+* Building Emacs
+
+I run Linuxmint which is an Ubuntu Linux derivative. To build Emacs
+here, you have to first set up your machine with all the right
+developer tools.
+
+First, you have to go to your software manager and enable software
+sources - I show how to do that in the video.
+
+Then you have to install the build tools. I typed the follownig
+commands.
+
+#+begin_src sh
+  sudo apt update
+  sudo apt install build-essential
+  sudo apt build-dep emacs  
+#+end_src
+
+The first line updates your package repo lists to reflect that you
+turned on the source code repos and the next two install what you
+need.
+
+Next, you have to grab the Emacs source code. I show you how in the
+video using git. Grab it from
+https://savannah.gnu.org/git/?group=emacs. You can also download the
+files old school from the same site.
+
+In the video, I walk through the compile but the basics are:
+
+#+begin_src sh
+  sh autogen.sh
+  ./configure --without-compress-install --with-native-compilation --with-json --with-mailutils --with-tree-sitter --with-xwidgets CC=gcc-10
+  make
+  sudo make install
+
+#+end_src
+
+If the ./configure line gives errors you might need some extra
+libraries - I talk about that in the videos.
+
+Also note that the ./configure line I used above includes extra
+options that I use for tree-sitter - not needed for elfeed-webkit but
+It's another rabbit hole I went down as a result of reading Mickey
+Peterson's [[https://www.masteringemacs.org/article/how-to-get-started-tree-sitter][article]] on it.
+
+Once we've got Emacs with the required features we can move to elfeed
+webkit.
+
+
+* Elfeed and Elfeed Webkit
+
+I already wrote a series of posts with videos on elfeed. If you've
+never used it, check it out - here are links to the older posts.
+
+- https://cestlaz.github.io/posts/using-emacs-29-elfeed/
+- https://cestlaz.github.io/posts/using-emacs-30-elfeed-2/
+- https://cestlaz.github.io/posts/using-emacs-31-elfeed-3/
+- https://cestlaz.github.io/post/using-emacs-72-customizing-elfeed/
+
+The video shows how I set it up and also its use. Basically I just
+copied the config right over from the elfeed-webkit repo but here it
+is for convenience:
+
+#+begin_src emacs-lisp
+  (straight-use-package 'elfeed-webkit) ;; use straight to install
+
+
+  ;; and old-school use-package to configure
+  (use-package elfeed-webkit
+        :straight
+        :demand ;; !
+        :init
+        (setq elfeed-webkit-auto-tags '(webkit comics))
+        :config
+        (elfeed-webkit-auto-enable-by-tag)
+        :bind (:map elfeed-show-mode-map
+                    ("t" . elfeed-webkit-toggle)))
+
+
+#+end_src
+
+So, all of this is in the video. Enjoy:
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GGypKmrOf2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#+end_export
