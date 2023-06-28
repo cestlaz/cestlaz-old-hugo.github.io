@@ -1,0 +1,114 @@
+---
+title: They WILL use AI to come for teachers
+date: 2023-06-28T07:00:25-04:00
+tags:
+- policy
+categories:
+- policy 
+draft: false
+--- 
+
+
+With all the AI hubbub there's been a lot of talk about AI and
+teaching. Will it enhance teaching? Replace teachers? Others? In this
+vein, I saw this tweet by Pat Yongpradit of code.org yesterday
+evening:
+
+#+begin_export html
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I would share the nuance that teachers who don&#39;t use AI might be replaced by teachers who use AI, but honestly we need as many of you as possible. Our students need teachers to expand their effectiveness with AI, even if it just opens up more time for developing student… <a href="https://t.co/NzZGp9m57x">https://t.co/NzZGp9m57x</a></p>&mdash; Pat Yongpradit (@MrYongpradit) <a href="https://twitter.com/MrYongpradit/status/1673796564718964736?ref_src=twsrc%5Etfw">June 27, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+#+end_export
+
+I hope Pat's right but I'm pretty sure he's wrong. While Pat used to
+be a teacher, I feel he's seeing this from an Ed Tech view as code.org
+is in many ways an ed tech / lobbying organization.
+
+As a general rule, if you want to see how tech can be used to enhance
+education just look at the "elite" private schools. In my experience,
+public school teachers are, in general, stronger and more innovative
+than their counterparts in the private schools - they have to be since
+the private schools have super small class sizes and the resources.
+
+On the other hand, tech is most often used to cut costs at the public
+schools or, when policy is set by republicans and neo-liberals, to
+devalue and remove teaching.
+
+Let's look at some pre-AI examples and you'll see why I think that AI
+is likely going to be used the same way.
+
+* Credit Recovery
+
+This has been forced on the NYC public schools since the Bloomberg
+Administration. Schools were and are under intense pressure to get and
+keep graduation rates up and they couldn't just kick kids out like
+Bloomberg's favored charted schools. Programs by which kids would sit
+in front of computers and go through computer based training
+modules. Instead of a teacher they'd have a lower paid aide in the
+room or a teacher in charge of a far greater number of students. The
+adult would trouble shoot the system but not teach.
+
+This was cheaper and pushed kids through the system but it's not
+education. Only recently are we starting to see some pushback on this
+type of garbage but it's a prime example of tech that was meant to be
+used as an "extra" instead being used to cut costs and remove those
+pesky teachers
+
+* Scripted lessons
+
+This is not strictly tech but we've seen a push from ed "reformers"
+towards scripted lessons. This is a favorite of private charter schools,
+organizations like Teach For America, content and curriculum
+providers, and yes code.org. There was even training where a teacher
+had an earpiece during the lesson and an observer would correct the
+teacher if they went off script.
+
+Content providers love this because it streamlines things to a least
+common denominator but it certainly isn't education. Charter schools
+love this because they can hire untrained, unprepared "teachers" who
+can just follow the scripts. Since the charters can just kick kids out
+before standardized tests and they can drill and kill for test prep
+they look good but again, it's garbage education.
+
+Is it really a big step to go from bad scripted lessons to bad AI teachers?
+
+* Cyber Charters
+
+Online or cyber charters are another example. Online schools with
+hundreds of kids per teacher. Lots of tech, little learning. Just look
+them up.
+
+* CS 50
+
+If you've read my blog you know I'm not a fan of CS50 but the latest
+news of them using AI TAs is another example of a level of non-teacher
+hubris that could easily lead to a way to replace teachers.
+
+Instead of addressing fundamental problems with CS50's design or
+delivery, they're implementing AI TAs so that students can get more
+help in the class. Adding an additional resource is, in general a good
+thing but the real answer would be to look inwards and fix the
+problems with the course and then also develop additional tools.
+
+Do you really think that someones going to push for a version of
+CS50 - probably focused on HS which is made up of videos from David
+Malan, the charismatic front man, and computerized AI TAs. No teachers
+necessary. There was a push for this during the MOOC explosion. It'll
+happen again. If not with CS50 then with something else.
+
+The AI TA also brings up tons of questions ranging from how the
+feedback from the students will then feed into future classes to the
+issue of students engaging with automatons rather than people and is
+that, when it gets to a large scale, healthy? 
+
+* Final thoughts
+
+I do fundamentally agree with Pat in that AI will not be able to
+replace teachers in terms of effective education which is why I don't
+think we'll see teacher replacement in the "elite" private
+schools. The rich will provide for their kids and foist the money
+saving experiments on "other peoples kids."
+
+Unless there are major changes in the way teaching and teachers are
+perceived in this country there is no doubt in my mind that there will
+be attempts to replace teachers with AI - it won't improve education
+but it will enrich donors and reduce municipal budgets.
+
