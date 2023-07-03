@@ -1,5 +1,5 @@
 ---
-title: Acps A Hardest Question
+title: APCS A - The Hardest Question
 date: 2023-07-03T07:14:37-04:00
 tags:
 - APCS
