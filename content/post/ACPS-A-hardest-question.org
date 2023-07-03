@@ -1,0 +1,151 @@
+---
+title: Acps A Hardest Question
+date: 2023-07-03T07:14:37-04:00
+tags:
+- APCS
+categories:
+- APCS
+draft: false
+--- 
+
+There was some discussion the other day resulting from some info
+released by the College Board on this past years APCS-A exam.The
+"hardest" question was the 2D Array free response. As it happened, 34%
+of test takers earned 0 out of 9 points on the question. What's
+interesting is that the College Board noted that at the same time,
+students did very well on the multiple choice 2D array questions.
+
+What does that mean and what does that tell us. Let's explore.
+
+You can find the question in the released [[https://apcentral.collegeboard.org/media/pdf/ap23-frq-comp-sci-a.pdf][exam]] questions starting on page 14.
+
+* Was it really a hard question?
+
+In my opinion, not really. APCS-A is supposed to be a college level CS1 class and
+following instructions to traverse or manipulate a 2D array should be
+pretty easily handled by CS1 students.
+
+Once you get to the meat of the question it was pretty
+straightforward. Of course, getting to the meat, particularly under
+time pressure could be a considerable challenge. More on that below. 
+
+The first part of the question was basically just a scan down a column
+and reassign elements with a couple of conditions.  The "to do" items
+were listed pretty clearly in the question so a student would just
+have to take the bulleted instructions as an outline and code it out.
+
+The second part involved scanning through a 2D array. Pretty
+standard stuff but you had to pay attention to the specific order of
+your traversal which was hidden in a mountain of text.
+
+There have certainly been harder and trickier questions in past
+years. I can think of one "encryption" question that I remember to be
+harder and I seem to recall others that required shifted values in a
+2D array which is certainly harder than what was asked here. It would
+be interesting to see the score data on the "hard" question from past
+years and see how they compare. 
+
+
+* Whose fault is it?
+
+One of the comments I read was that if 34% of test takers score 0
+points on a question the test write is at fault. This is probably
+correct but not necessarily because the question was bad or that the
+exam was bad. This is a deeper question. I plan to address this in
+a later post.
+
+* Blank question or blank test?
+
+This question was raised in one of the forums. Each year, so I'm told,
+there are large swaths of AP exams that are just blank. This can be
+for a variety of reason - an unprepared kid, one who never wanted to
+take the exam, cases where the kid's already decided on college (or
+not college at all) and the exam won't do anything for them and
+possibly other reasons. Obviously this question would be blank if the
+entire exam was blank. What percent of otherwise completed tests had
+this question scoring 0 points. Better, but maybe impossible to figure
+out now, how many questions were left blank vs had totally incorrect
+answers? All of this would be interesting. 
+
+* Is this a CS test or is this reading?
+
+Another comment pointed out that this question was a wall of
+text. Hard enough for a native English speaker but a particular
+challenge for an English Language Learner. How badly did this affect
+the results? It took me a reasonable amount of time and effort to make
+sense of the question. It was somewhat contrived and arbitrary and you
+really had to get into the weeds of the text to know exactly what to
+do. How big of an effect was this? Did it cause kids to give up?  Did
+they misinterpret things? Who knows. While understanding a problem
+statement is important, in the real world, a professional programmer
+can always ask for clarification. Not on an exam. I get it - since its
+one way communication, the test writers have to put *everything* in
+the question and leave no ambiguity but if the result is a long winded
+obtuse question, maybe come up with another question. Strip away the
+story and this particular question is pretty easy. With it, it's much
+harder for most high school kids and maybe intractable for an English
+Language learner.
+
+
+* Did they run out of time?
+
+Maybe it wasn't that it was a hard question but seeing the wall of
+text or the topic of 2D arrays, students left it for last. This is
+not an uncommon strategy. For years, across all subjects, teachers
+tell students not to get caught up on one time consuming problem. The
+strategy is to maximize your points. When I taught APCS, my students
+never had trouble with the time for the free response but the multiple
+choice was a race - probably because I never did any explicit prep for
+it. It's frequently better to skip a couple of time consuming ones and get all the
+others right.
+
+Same strategy can be used for the free response. How many students
+focused on getting maximum points on the other questions and just ran
+out of time. This would jive with the fact that students did well on
+the multiple choice 2D array questions. 
+
+* Was it a strategic omission to maximize score?
+
+What if it was left for last and by "it" I mean teaching 2D
+arrays. This has long been a teaching strategy when high stakes tests
+are at play. Arrange the topics taught and the amount of time to
+allocate so as to maximize student performance on the exam.
+
+This seems to have happened far and wide in New York City in
+Geometry. In NY, students have to pass a number of high stakes tests
+called regents exams. Many schools allocate 2 years to Algebra and
+most students pass. Then, they allocate one year to Geometry - a much
+harder, richer curriculum. Based on the design of the exam, teachers
+have realized that in spite of the fact that the course is really
+supposed to be about deductive reasoning and proof, that proof only
+comprises a very small number of points on the exam. So, if you don't
+teach proof - a notoriously hard subject to teach and learn or merely
+pay it lip service, students won't get any points on the proof section
+but the hope is that they'll know the other subjects better and end up
+passing and in fact scoring better overall.
+
+Last time I graded the geometry regents, before I left for Hunter
+College, the number of proof answers that were entirely blank backs
+the theory of this approach.
+
+Now, for geometry this certainly hurts kids down the road since
+deductive reasoning and proof is more fundamental and important than
+say, circle geometry but since teachers and students are being judged
+by standardized test scores you can't really blame them.
+
+Could it be that APCS-A teachers have decided to do something similar
+with 2D arrays. It's even more plausible given that most high school
+CS teachers are currently much newer to and weaker in CS than math
+teachers are to math.
+
+* Final thoughts
+
+As you see, there's a lot to explore based on the simple statistic of
+34% of students scored 0 on a question. There are probably more
+factors and potential explanations than the ones I've shared but the
+next, more interesting question is the one posited at the top - is the
+College Board to blame or someone else? I think it is a College Board
+issue and it's an issue with the basic AP model. I'll explore that in
+a future post.
+
+
