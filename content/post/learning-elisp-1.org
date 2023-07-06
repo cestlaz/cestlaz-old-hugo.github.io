@@ -1,0 +1,53 @@
+---
+title: Learning Elisp 1
+date: 2023-07-06T10:16:49-04:00
+tags: 
+emacs
+elisp
+categories:
+emacs
+draft: false
+--- 
+
+Here's the first video in my learning elisp series.
+
+Elisp is a lisp variant embedded within the Emacs editor. You could
+actually describe Emacs as an "elisp machine" in the same sense of the
+old [[https://en.wikipedia.org/wiki/Lisp_machine][lisp machines]]. It's not quite the same as the way most other
+editors have extension or plugin languages. Other than the core of
+Emacs, which is written in C, everything is elisp. Even when you type
+in a key. For example, when I type in an 'x' on the keyboard, emacs
+actually runs the self-insert-command function. When you open a new
+file, which you might do in another editor using the File menu, you
+actually are running the find-file function in elisp. So instead of
+using the menu or the keybinding to open a new file you can write, in
+emacs (find-file "some-file") and run that function and the file will
+be opened.
+
+In the video, I talk a bit about elisp in general, show how to call
+some built in functions, use the help a bit and then set the stage for
+the rest of the series.
+
+Important functions and keybindings from the video:
+
+| Key     | Function             | Description                          |
+|---------+----------------------+--------------------------------------|
+| C-h i   | info                 | bring up the info (help) system      |
+| C-h k   | describe-key         | bring up info for the next keystroke |
+| C-h f   | describe-function    | bring up help for a function         |
+|---------+----------------------+--------------------------------------|
+| C-x C-e | eval-last-sexp       | evaluates the previous elisp form    |
+|         | eval-print-last-sexp | like above but also print the result |
+
+
+In the next video, we'll learn how to create our own functions,
+explore some fundamental elisp structures and functions, and try to
+write something useful.
+
+Here's the video, enjoy:
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x9Qws7ZOksc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#+end_export
+
