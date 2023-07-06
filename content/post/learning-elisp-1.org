@@ -2,10 +2,10 @@
 title: Learning Elisp 1
 date: 2023-07-06T10:16:49-04:00
 tags: 
-emacs
-elisp
+- emacs
+- elisp
 categories:
-emacs
+- emacs
 draft: false
 --- 
 
