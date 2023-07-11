@@ -1,0 +1,136 @@
+---
+title: What AP Exams Tell Us
+date: 2023-07-11T14:35:26-04:00
+tags:
+- APCS
+categories:
+- APCS
+draft: False
+--- 
+
+I wanted to get back to my post on the "hard" [[https://cestlaz.github.io/post/acps-a-hardest-question/][AP
+question]]. Specifically I wanted to reflect on what AP exams can and
+can't actually tell us and what purpose they serve, can serve, or
+should serve.
+
+First let's make sure we're on the same page about what the College
+Board is offering - they offer single end of semester high stakes
+exams. These exams provide a single number between 1 and 5 that, in
+theory, signify how well an exam taker knows the subject. As it
+happens, many colleges award either credit, placement or both if
+students score high enough.
+
+I'm emphasizing that the college board's offerings are exams because
+that's really the only thing that's different or special about
+them. Calculus existed long before the college board and while
+calculus classes in high school and college vary around the edges, the
+topic matter is essentially the same. If you teach calculus with or
+without the college board you're probably teaching more or less the
+same thing. Same for APCS-A which, while usually taught over the
+course of a full year, is largely similar to a college CS1
+class. APCS Principles and possibly other courses are not facsimiles
+of college courses (and in fact, in my opinion, APCS-P is not college
+level) but even then, the unique part of the College Board's offering
+is the exam. Over the past decade, many colleges have designed or
+redesigned their CS0 offerings. I personally, designed a CS0 for
+Stuyveasnt that became a required class in the late 1990s and I think
+it's much stronger than APCS-P. Other HS teachers have done
+similar. Even with APCS-P, there are numerous independent businesses
+and organizations offering their own APCS-P curricula.
+
+So, at the end of the day, the College Board does one thing - offers
+and grades a high stakes exam. These exams also are limited in
+format. Multiple Choice and long answer questions are the norm. Long
+answer might be an essay in some subjects or word problems in math or
+science. In CS, they're generally programming questions. Some exams
+might have additional components such as the activities that APCS-P
+students do in class which are then submitted for evaluation but we're
+going to stick to APCS-A here.
+
+So, what can and can't the exam do?
+
+To start, it's a single exam at the end of the semester. There's no
+feed forward from current teachers and no feedback afterwards for the
+students. The exam has to be totally self contained. Since the student
+teachers had nothing to do with the creation of the exam, don't
+proctor it, and in fact can't be around the administration, everything
+about the questions has to be in the questions. No ambiguity at
+all. This can frequently lead to the "wall of text" problem I talked
+about in the earlier post.
+
+Since it's a coarse instrument, it also has to try to capture a range
+of results that will map to the final grades between 1 and 5. This
+means you want to try to avoid all or nothing questions where a test
+taker either aces the question or gets a 0. The hope is that if they
+know some concepts leading to a solution they can get some credit.
+
+This, and the format leads to a test of, in my opinion, limited value.
+
+Half the test is multiple choice. Multiple choice questions don't
+usually lend themselves to deep thinking questions. They're more
+suited to rules, regurgitation, and mechanics. You'll see trace
+through the code questions, know the rules questions and definition
+questions. These take time but measure mechanics and memory, not
+problem solving.
+
+Free response isn't much better.  You can find past questions
+[[https://apcentral.collegeboard.org/courses/ap-computer-science-a/exam/past-exam-questions][here]]. Most of the questions are very wordy which is a challenge to
+both native English speakers and English language learners but the
+questions usually either spell out in detail step by step what to do
+or the solution for each part is arrived at by either using a small
+number of calls defined earlier in the question or come from a
+provided reference such as the ArrayList reference. I looked over the
+2021 exam and indeed two of the questions spell out the solutions and
+the other two use the calls from the reference or the question.
+
+In general, just like the multiple choice, the free response questions
+don't really test problem solving. They test reading comprehension and
+a knowledge of the mechanics of fundamental programming. It's coding
+not computer science.
+
+Sometimes it gets a little ridiculous. One year, back in the APCS-AB
+days there was a question that was essentially a mergesort but the
+question itself was a writeup of the psuedocode in outline form.
+
+On the flip side, there sometimes is a deep thinking question. The
+very first year APCS was offered there was a question that essentially
+asked the design of a data structure to store a sparse matrix. I took
+that exam and I'm sure I got that one wrong. It wasn't easy but it
+required problem solving. The problem with those types of questions is
+that they're all or nothing and the College Board, even with the types
+of questions they use receives far too many blank solutions.
+
+So that's the test - it's a test of programming mechanics, rule
+familiarity, and reading. The truth is, that it probably has to be
+this way. A teacher throughout a year can assess a student in a
+variety of ways and should know their students and where they are
+at. Some assessments might cover mechanics and memory but others the
+deeper concepts. It's why, when I decided where to place my incoming
+Hunter freshmen, I didn't care about their AP scores. For APCS-P
+because the class is super uneven - I've met APCS-P students with
+strong backgrounds and others who would have been better of with
+nothing at all in terms of CS learned. For APCS-A, I know plenty of
+students who earned a low score who ended up doing great things in
+CS - since the vast majority of my students were NYC students, I
+generally knew their CS teachers and the classes they taught - that's
+what I went with.
+
+For the AP exam? How valuable can a 5 value scale be in communicating
+what a student knows? Going back to my last post, while the 2D free
+response question had the lowest scores but apparently students scored
+well on the 2D array multiple choice questions. Which is it?
+
+So there it is - high stakes tests are not only bad due to the
+pressure they place kids under but also because they come down to a
+single number and a single number in no way can represent a
+student. Even worse, high stakes exams are very frequently, and I
+don't know if the college board follows this practice, first scored to
+a rubric and then after the fact the raw scores are mapped to a final
+grade. This is a key way New York State manipulates test scores and passing
+rates to suit their needs.
+
+This is just one of the reason I'm down on the College Board - better
+for high schools to partner with local colleges and offer dual credit
+classes. Teach college stuff and get real college credit - not a
+number between 1 and 5.
+
