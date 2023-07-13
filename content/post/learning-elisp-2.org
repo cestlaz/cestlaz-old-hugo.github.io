@@ -1,0 +1,70 @@
+---
+title: Learning Elisp 2 - variables
+date: 2023-07-13T07:46:04-04:00
+tags: 
+- emacs
+- elisp
+categories: 
+- emacs
+draft: false
+---
+
+I was planning on writing this yesterday but caught up in watching
+"Paths of Glory."
+
+The plan was to have each topic revolve around a "real" project but I
+realized that first we have to cover some basics. Specifically,
+variables and functions. I was going to cover them together but the
+video was getting a little long so we're doing variables here and
+writing functions next time.
+
+Like other languages, Emacs uses variables to store values. Also, like
+other, or at least some other languages, there are a number of
+subtleties and variations.
+
+We're keeping things simple for now and will dive deeper as needed in
+the future.
+
+To create a variable in Emacs we use the special form ~defvar~. The
+~defvar~ form defines a symbol as a variable - ~(defvar name)~ or,
+with an initial value ~(defvar name "Tom")~. It turns out, that you
+can keep using ~defvar~ to change values in a variable:
+
+#+begin_src emacs-lisp
+  (defvar name)
+  (defvar name "Tom")
+  (defvar name "Tim")
+#+end_src
+
+I'm unsure of the internal ramifications of this but that's not how
+we're supposed to do things. To change (or set) variables, we're
+supposed to use ~setq~ - ~(setq name "Tammy")~ for instance. Of
+course, to make things less simple, we can use ~setq~ without first
+using ~defvar~.
+
+Now, ~defvar~ in our case, creates global variables but sometimes we
+want something more locally scoped. For that we use the ~let~ form. In
+the following example, we create a "global" variable *name* with
+~defvar~ and then a local one with ~let~:
+
+#+begin_src emacs-lisp
+  (defvar name "Global Gabe")
+  (print name) ;; prints Global Gabe 
+  (let ( (name "Local Larry") )
+    (print name) ;; prints Local Larry
+    (setq name "Local Lisa")
+    (print name) ;; prints Local Lisa - we changed the local one 
+    )
+  (print name) ;; but Global Gabe was unchanged
+
+#+end_src
+
+The video goes over the details and a few more nuances.
+
+#+begin_export html
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eQNqIsyw1mo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
+Video Link: https://www.youtube.com/watch?v=eQNqIsyw1mo
+
