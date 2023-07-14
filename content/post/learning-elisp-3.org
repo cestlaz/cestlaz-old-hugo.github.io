@@ -1,0 +1,72 @@
+---
+title: Learning Elisp 3 - functions
+date: 2023-07-13T15:17:48-04:00
+tags: 
+- emacs
+- elisp
+categories: 
+- emacs
+draft: false
+---
+
+Here's another short video - this one on declaring functions in elisp.
+
+Not much to say about it. It's similar to other languages.
+
+In Python or C++ you might have:
+#+begin_src
+  # Python 
+  def add2(a, b):
+    return a+b
+
+  // C++
+  int add2(int a, int b){
+    return a+b;
+  }
+#+end_src
+
+Elisp is similar:
+
+#+begin_src emacs-lisp
+  (defun add2 (a b)
+    (+ a b))
+
+#+end_src
+
+But it's a little more "mathy." You've got the special form *defun*,
+then the name of the function, parameters in parens and then the
+body - all wrapped in parentheses. Note that you don't explicitly
+write return. It's mroe like a mathematical expression where it
+returns what the function evaluates to.
+
+The video also describes the ~(interactive)~ form. By using it, we can
+call our function as a command and bind a key combination to call it.
+
+I do want to share one quick note on the content though - in the video
+I write ~(dotimes (i 5) (next-line))~ to move down 5 lines. Instead of
+using ~dotimes~ I could have just given a parameter to ~next-line~ -
+that is, wrote ~(next-line 5)~. I chose to use dotimes in order to
+introduce some control code. I wanted newbies to see it here before we
+revisit control structuers more in depth in later videos.
+
+Speaking of later videos, here's whats to come, maybe in a different
+order.
+
+- A video, probably with some internet lore and history on writing
+  arot13 function which is a special case of a Caesar cipher.
+- One on creating a function to make a consistent function header
+- How to create a mode so that when you type an emoji in :'s you get
+  the emoji. So, by typing :elephant: you'd see this: 🐘.
+- A function to use an API to replace a word with a synonym.
+- And maybe a few more along the way.
+
+For now, enjoy this short intro to writing functions:
+
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v3wdkJa87No" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
+Video Link:  https://www.youtube.com/watch?v=v3wdkJa87No
+
+
