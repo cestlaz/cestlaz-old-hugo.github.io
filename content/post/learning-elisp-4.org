@@ -1,0 +1,99 @@
+---
+title: Learning Elisp 4 - Rot13 part 1
+date: 2023-07-25T15:21:56-04:00
+tags: 
+- emacs
+- elisp
+categories: 
+- emacs
+draft: false
+---
+
+It's been a couple of weeks since my last post. Sorry - been
+repainting the apartment so I was limited to my laptop for a while.
+
+Now that we've gone over a few basics we can explore new elisp
+features while building "useful" things. This video has us building
+code to implement [[https://en.wikipedia.org/wiki/ROT13][ROT13]]. ROT13 is a particular instance of a [[https://en.wikipedia.org/wiki/Caesar_cipher][Caesar or
+rotational cipher]]. In a Caesar Cipher, you take each letter and
+"rotate" it by a certain number of places. For example, if you are
+rotating by 2, the string "abcz" would become "cdeb" with each letter
+moving two over. Note that the "z" has to rotate back to the beginning
+of the alphabet and become a "b."
+
+I also put "useful," above in quotes. This is because, while I think
+ROT13 is interesting and will allow us to explore a number of elisp
+concepts, it's actually already built in to Emacs.
+
+In the video, I go on for a while about ROT13 and some internet
+history but if you aren't interested in that, I put a chapter link in
+the video description to skip that part.
+
+* Notes on some of the elisp concepts covered:
+
+** Lists
+
+In elisp, things in parentheses are lists so (+ 2 3) is a list. If you
+have this in a program, however, Emacs will try to evaluate the
+function + on the parameters 2 and 3. In this case, that is what we
+want.
+
+Other times, we want to use a list as pure date, for example the list
+(1 2 3 4 5). To prevent Emacs from evaluating this list we start it
+with a single quote: '(1 2 3 4 5)
+
+** Strings and Characters
+
+In Elisp, things in double quotes are strings so "abc" is a string
+with the three characters a, b, and c. Characters can be written
+individually by preceding them with a question mark - ?a for the
+character a.
+
+In the video, we'll go into details and also see how Emacs will
+interpret a string as a list of characters and how we can then go back
+from a list of characters to a string.
+
+** Mapping functions
+
+In lisp type languages, we use a lot of what are known as mapping
+functions. The function ~mapcar~ in elisp, takes a function and
+applies it to each element of a list. For example, given this code:
+#+begin_src emacs-lisp
+  (defun square (x) (* x x))
+  (mapcar #'square '(1 2 3 4 5))
+
+#+end_src
+
+That mapcar function will return the list '(1 4 9 16 25), the list you
+get by applying the square function we wrote to each element of the
+list. The video goes into more details. Note that we have to precede 
+the function square with #' in the mapcar call
+
+** Lambda
+
+We also cover anonymous functions in the video - it lets you create a
+"throwaway" function.
+
+For example, ~(lambda (x) (* x x))~ returns a function that squares
+its parameter. We can use it to square the number 3 like this: ~(
+(lambda (x) (* x x)) 3)~. In the video we'll show why this is useful
+when combined with functions like mapcar.
+
+* Misc stuff
+
+For some reason, the video is showing for me at low resolution. If
+this happens to you, click on the options wheel and select a higher
+res.
+
+Also, I mentioned rec.humor.spc in the video. I found some old Stupid
+People's Court posts [[https://www.panix.com/~pschleck/spc/][here]]. I thought some of you would enjoy them.
+
+
+* The video
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_3OvTrkSqEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
+Video link: [[https://www.youtube.com/watch?v=_3OvTrkSqEE][https://www.youtube.com/watch?v=_3OvTrkSqEE]]
+
