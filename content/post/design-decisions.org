@@ -1,0 +1,152 @@
+---
+title: Design decisions when planning a class
+date: 2023-07-27T10:31:49-04:00
+tags:
+- education
+categories:
+- education
+draft: false
+---
+
+Now that I've got a little more free time and energey I decided to get
+working on a short video series on elisp - the language that's built
+in to and intertwined with the Emacs editor.
+
+As I've been thinking through and starting the series I started to
+think about the design decisions, big and small, one makes when
+designing a class, unit or lesson.
+
+I know many teachers are forced to teach scripted, canned curricula
+these days but the act of developing something and delivering it is so
+much more interesting and I dare say better for students.
+
+I thought it might be interesting to share a bit of my thought process
+as my little video project takes shape.
+
+On the big side I had to think about overall structure. Who's this
+series for and how should it basically be shaped. Well, primarily,
+this is for me. I thought it would be a good way to dive in to Emacs
+programming a bit more deeply. Of course, others in the Emacs
+community have requested I do something like this and I do hope they
+get something useful out of all of this.
+
+Combining the two groups - the Emacs community and me, I figured that
+most viewers would have at least some programming experience. This led
+me to decide on the format. I wasn't going to go through the language
+and programming from scratch like a CS0 programming intro but rather,
+I'd build small elisp programs and projects to illustrate elisp
+concepts.  I felt that for my potential audience, videos incrementally
+going through language constructs, library calls and features in a
+systematic way would give better coverage but I thought it would be
+more boring. I also thought that having little working code examples
+to modify would probably be more useful for an elisp newbie who wanted
+to noodle around and customize Emacs. Were I teaching a regular
+class - that is something with student feedback or even in person, I
+might have made a different decision.
+
+Similar decisions for a traditional course might be objects first or
+constructs first in APCS-A or whether or not to base a class on
+students writing new code or working in a code base provided by the
+instructor.
+
+Maybe more interesting are the smaller choices. As an example, I just
+did my first video on [[https://cestlaz.github.io/post/learning-elisp-4/][rot13]]. We wrote a function to rotate a
+character, and the one to rotate a word. I decided intentionally to
+leave out two things:
+
+ 1. integrating this into the Emacs interface
+ 2. handling rotating robustly - our solution assumes all lower case
+    letters only.
+
+I decided to leave those two out for a few reasons.
+
+First was video length. The video was going to be about 30 minutes
+which is already longer than I'd like.
+
+Second, the Emacs integration is a rich enough topic that I wanted it
+to have its own video or lesson. That'll be the one I record next.
+
+Finally, making the code robust will allow us to cover conditionals -
+another subject worthy of its own lesson.
+
+By delaying those two concepts I was also able to finish the first
+video with something that worked and if a view wanted, they had
+something that they could explore on their own without too much
+difficulty. 
+
+There were also decisions to be made on specific constructs to
+include. In the video, I talked about the ~mapcar~ function. This is
+similar to the ~map~ function you'll find in many other languages
+today.
+
+#+begin_src emacs-lisp
+  (mapcar func list)
+
+#+end_src
+
+Will apply func to every item in a list so ~(mapcar #'square '(1 2 3
+4))~ yields ~(1 4 9 16)~.
+
+All of the code can be found [[https://gitlab.com/zamansky/learning-elisp-code/-/blob/main/rot13.el?ref_type=heads][here]] but the gist is that I had a
+function to rotate a character by any amount using 2 parameters. I
+then wrote another function that called that function forcing a
+rotation of 13 and then used that in the map.
+
+We could have been finished but I decided to show how elisp uses
+anonymous functions using ~lambda~. This allows one to create a throw
+away function on the fly. 
+
+Alternatively, I could have used Emacs' ~apply-partially~ function to
+take our function with 2 parameters and set one of them to be fixed.
+
+For example, in bad Python pseudocode (and this won't work in Python):
+
+#+begin_src python
+  # assume we have a function rotate(amt,letter) which rotates letter by amount
+
+  rotate-13 = apply-partially(rotate,13)
+
+  # now calling rotate-13('a') would be the same as
+  # rotate(13,'a')
+  # apply-partially, gave us a new function with the first parameter set
+  # at 13.
+
+#+end_src
+
+Pretty cool, right?
+
+I think it is but I also feel that ~lambda~ is more fundamental and
+more widely applied across languages.
+
+I also could have left it out altogether but felt that early
+introduction, even as a little hand wavy extra, would be of benefit
+later on when we use lambda more seriously.
+
+This type of decision is similar to how I usually sequence my data
+structure courses. I usually use this outline:
+
+1. recursion (blind search)
+2. linked lists / dynamic memory
+3. sorting (nlogn)
+4. stacks/queues
+5. trees
+
+We get our feet wet with recursion but after a couple of weeks, we do
+dynamic memory and the recursion can marinate in the subconscious.
+
+Then, we come back to recursion a little more deeply and the dynamic
+data structures marinate.
+
+Rinse and repeat.
+
+So, these are some of the examples of the types of decisions one makes
+when designing instruction. Will I be right? I don't know. If I were
+teaching a real course, I'd figure that out over time and iterate -
+education is playing the long game.
+
+In any event, these should be conscious decisions. Creating a class,
+unit, or lesson shouldn't be just following the text book or the
+content provider but intentional choices based on the content, the
+class, the teacher and the environment.
+
+
