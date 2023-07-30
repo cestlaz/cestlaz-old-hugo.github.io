@@ -8,7 +8,7 @@ categories:
 draft: false
 ---
 
-Now that I've got a little more free time and energey I decided to get
+Now that I've got a little more free time and energy I decided to get
 working on a short video series on elisp - the language that's built
 in to and intertwined with the Emacs editor.
 
