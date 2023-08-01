@@ -1,0 +1,152 @@
+---
+title: Learning Elisp 5 - Rot13 parts 2 and 3
+date: 2023-08-01T10:00:24-04:00
+tags: 
+- emacs
+- elisp
+categories: 
+- emacs
+draft: false
+---
+
+Rather than one long boring video, I thought it would be better to
+split up the remainder of the Rot13 project into 4 shorter boring ones
+:-).
+
+Here are the first two.
+
+
+Before we can really do anything interesting, we need to be able write
+programs that make decisions. For that we need conditionals or ~if~
+statements. That's covered in the first video.
+
+Like other languages, elisp has an ~if~ statement but it's more of an
+~if~ function. Here's the outline:
+
+#+begin_src emacs-lisp
+  (if boolean
+      evaluate_to_this_if_boolean_is_true
+      evaluate_to_this_if_boolean_is_false)
+#+end_src
+
+In this basic form, it essentially has both the if and the else parts
+from languages like Python:
+
+
+#+begin_src python
+  if boolean:
+      evaluate_to_this_if_boolean_is_true
+  else:
+      evaluate_to_this_if_boolean_is_false)
+#+end_src
+
+If you need more than one thing in either the true or false part you
+need another form which we'll cover later.
+
+You can also leave out the false part but again, we'll deal with that
+when it comes up. For now, it's simpler for our application to have
+both.
+
+The basic if will cover you in a lot of cases but if you've got more
+then a true/false decision the code can get ugly:
+
+#+begin_src emacs-lisp
+  (if boolean1
+      true-part-1
+      (if boolean2 ;; this is the false for boolean1
+          true part-2
+          (if boolean3 ;; this is the false for boolean 2
+              true-part
+            false-part))) 
+
+#+end_src
+
+Instead, elisp and many other lisps give us the ~cond~ or
+conditional. The most similar construct in languages like Java or C++
+would be the switch statement but the ~cond~ is much more general and
+much more powerful.
+
+In a switch statement, you list multiple discrete values for a given
+variable and run some code based on that:
+
+#+begin_src java
+  switch (c) {
+      case 1 :
+          do-this-if-c-is-1;
+          break;
+      case 2 :
+          do-this-if-c-is-2;
+          break;
+      case 3 :
+          do-this-if-c-is-3;
+          break;
+       etc.   
+#+end_src
+
+In a cond, you have multiple clauses with arbitrary conditions and
+what to do for each condition.
+
+#+begin_src emacs-lisp
+(let ( (grade 66) )
+(cond ( (< grade 65) "F")
+      ( (< grade 70) "D")
+      ( (< grade 80) "C")
+      ( (< grade 90) "B")
+      ( t "A") ))
+#+end_src
+
+In the above example, there are four independent boolean expressions
+and then the final clause, which will always execute if the code gets
+there because t is always true.
+
+For the cond, once it evaluates a boolean to true, it evaluates to the
+other part of its clause and returns so in the example above, "D"
+would be returned.
+
+Here's the cond from the rot13 code:
+
+#+begin_src emacs-lisp
+   (cond ((and (>= c ?a) (<= c ?z)) (rotate c offset 97) )
+	 ((and (>= c ?A) (<= c ?Z)) (rotate c offset 65) )
+	 (t c)) 
+#+end_src
+
+The top clause tests for a lowercase letter, the next for upper case
+and the default ~t~ clause if it's neither - maybe a space or
+punctuation.
+
+The second video posted here goes over making an interactive rot13
+function using elisp's ~(interactive)~. If a function uses
+~(interactive)~ it can then be called as a command using the M-x
+prefix. It can also be bound to a key combination.
+
+In the next videos we'll see how to modify the ~(interactive)~ form so
+that we can pass what are known as prefix arguments and in the final
+installment of the rot13 project we'll see how we can rot13 a region.
+
+* Code
+
+I finally got around to making a repo. All the code for this series
+will be made available here:
+
+- https://gitlab.com/zamansky/learning-elisp-code
+
+The rot13 code will be in the file rot13.el.
+
+* The videos
+
+Conditionals:
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gT8RBdtZtfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
+Video link: [[https://www.youtube.com/watch?v=gT8RBdtZtfk][https://www.youtube.com/watch?v=gT8RBdtZtfk]]
+
+Interactive:
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WvPXnsNC8JU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
+Video link: [[https://www.youtube.com/watch?v=WvPXnsNC8JU][https://www.youtube.com/watch?v=WvPXnsNC8JU]]
