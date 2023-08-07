@@ -1,0 +1,105 @@
+---
+title: Learning Elisp - Rot13 conclusion
+date: 2023-08-07T11:59:44-04:00
+tags: 
+- emacs
+- elisp
+categories: 
+- emacs
+draft: false
+---
+
+
+Two more videos to finish up the rot13 project.
+
+The first video covers about [[https://www.gnu.org/software/emacs/manual/html_node/elisp/Prefix-Command-Arguments.html][prefix arguments]]. The idea is when
+calling an Emacs function interactively, you can specify a numeric
+argument either by typing ~C-u #~ where ~#~ is a single digit or ~M-x
+##~ where ~##~ is an integer which can be positive, negative, single
+or multiple digits. You then type the key for your command or invoke
+it with its full name ~M-x~. This passes the numeric parameter to the
+function.
+
+In the function, we add a parameter to the ~(interactive)~ form -
+specifically ~(interactive "P")~ which says that the parameter to our
+function will be that number we passed as a prefix argument or nil if
+there was no prefix argument.
+
+We use the prefix argument to determine how much to rotate our
+text. If we don't pass a parameter, we just do a rot13 but if we do,
+we rotate that amount.
+
+The second video shows how we can use see if there's an active region
+and if so, run our rotate function on the text in that region. If not,
+rotate the previous word.
+
+Here are the key Emacs features we instroduce.
+
+| Feature                          | Description                                                |
+|----------------------------------+------------------------------------------------------------|
+| mark-active                      | a built in variable which is true if you've set the mark   |
+| (mark)                           | returns an integer representation of where the mark is set |
+| (point)                          | returns an integer representation of where the cursor is   |
+| (buffer-substring-no-properties) | returns text from the buffer                               |
+|----------------------------------+------------------------------------------------------------|
+
+* Notes from previous videos:
+
+A viewer pointed out that the Emacs if statement can actually have
+multiple forms to its false part.
+
+For example:
+#+begin_src emacs-lisp
+    (if true
+        (print "Hello")
+      (print "Goodbye")
+      )
+#+end_src
+
+will print "Hello" if ~condition~ is true and "Goodbye" if it's fales.
+
+Now, if we have multiple forms int he false part:
+
+#+begin_src emacs-lisp
+  (if conditiotrue
+      (print "Hello")
+    (print "Goodbye")
+    (print "World")
+    )
+#+end_src
+
+then while it will still print "Hello" if ~condition~ is true, it will
+print both "Goodbye" and "World" if it is false.
+
+I didn't know that and appreciated the comment so that I could learn
+something new.
+
+
+Here's the code and video links. 
+
+* Code:
+
+Once again, the code is up online:
+
+- https://gitlab.com/zamansky/learning-elisp-code
+
+The rot13 code will be in the file rot13.el.
+
+* The videos:
+
+Prefix Arguments:
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5oHpxh0JsBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
+Video link: [[https://www.youtube.com/watch?v=5oHpxh0JsBE][https://www.youtube.com/watch?v=5oHpxh0JsBE]]
+
+Rotating a region:
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YzQ8iG3nZQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
+Video link: https://www.youtube.com/watch?v=YzQ8iG3nZQ8
+
