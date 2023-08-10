@@ -1,0 +1,107 @@
+---
+title: Who's the Expert Thought Leader
+date: 2023-08-10T11:26:48-04:00
+tags:
+- education
+categories:
+- education
+draft: false
+--- 
+
+Last weekend I attended the AI X Education Conference - an online
+conference on, well, AI in education. There were some talks about AI
+and generative AI in particular but really the split was that Saturday
+was focused on college education and Sunday on K12.
+
+I only caught a bit of each day but fortunately, the sessions were
+recorded. Two in particular or more specifically two specific
+speakers, one in a K12 STEM education session and another in a
+humanities education session caught my attention. One for good, one
+for bad.
+
+All of the speakers at conferences like these are anointed with
+authority. By being included and given a speaking platform they
+automatically become "experts" and "thought leaders." This has been
+true throughout the decades I've been involved in CS Ed. Sometimes the
+"expert" does indeed the deserve the platform. Far too often, they
+don't.
+
+Let's dive in.
+
+One speaker, let's call him speaker A, spoke about AI. Repeatedly
+stated how we should be using it (I agree, with this one point) but
+also how AI tutors and teachers *will* be better than human
+counterparts. Speaker A also segued into how discovery learning is a
+must and anyone who doesn't approach their classes from that point of
+view isn't doing it right. He went on but it was all in a similar
+vein.
+
+The other speaker, speaker B started by saying he was going to share
+some of the things he (or maybe he said he and his colleagues, I
+forget) were doing and seemed to be having some success. He shared how
+he used generative AI to build scenarios for student activities, for
+example. Speaker B encouraged the audience to try similar but never
+made authoritative statements of "this is the one true way."
+
+Both of these speakers, by virtue of the conference organizers have
+been anointed as "thought leaders" and "experts." Are they?
+
+Maybe.
+
+Speaker B may or may not be an expert but in my opinion, he did it
+right. Here's what we tried. Here's what happens. Our situations might
+differ so your mileage might vary but think about giving it a go.
+
+This was just a report on his experiences but this is what, in my
+opinion, good ed research is like - we tried something, here's what
+happened but there are a million variables we can never account for so
+take it all with a grain of salt.
+
+This is also how I approach preparing teachers - give them the tools
+but emphasize there is no single true way. Speaker B talked of how you
+*have* to teach but he was wrong. Based on circumstance, students,
+environment, and yes, that often omitted aspect - teacher strengths
+and preferences you make the best possible choice. You might want to
+have a discover lesson because it would work with your students and
+you love to do it but your class might be too big or maybe the class
+length isn't long enough or there could be a myriad of other reasons
+why another approach might be better in that particular instance.
+
+Speaking of speaker A, let's revisit him. You already know that I
+wasn't impressed but I decided to dig a little deeper. Best I can
+determine he teaches at a private school with an enrollment of 225,
+resources and small classes. It looks to have a high performing
+population.
+
+*Of course discovery learning works* in that environment. Most things
+are easy if you have a dozen kids who are performing at or above grade
+level. Will that translate to the underfunded overcrowded public
+school? Well, I think you know the answer.
+
+So, we have speaker A - anointed but in my opinion, not worthy. If one
+teaches at a rich private school does that mean they can't be an
+expert or real thought leader? Of course not. But the ones that are
+the real experts know that their school - whatever it is, is not the
+same as the next teachers so, unlike the Sith, they don't talk in
+absolutes. Many teachers in many types of schools - public, private,
+religious, urban, and rural have shared great ideas in education but
+the good ones understand it's not a best practice, just a practice that
+might have been best for them at a certain place and time.
+
+I've learned a lot from many, *many* great people in the CS Ed space
+but I also can't tell you how many times I've sat in on a session and
+just had to shake my head knowing that the "expert" didn't really know
+what they were talking about. Many times we do great but often, I
+think we can do better. 
+
+Anyway, that's my education rant for the day.
+
+I wasn't able to hit all the sessions but overall what I did see was
+enjoyable and worthwhile. It looks like you can request access if you
+want to watch the recordings of the conference [[https://www.aixeducation.com/][here]].
+
+Enjoy.
+
+
+
+
