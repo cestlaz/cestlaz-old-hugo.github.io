@@ -1,0 +1,123 @@
+---
+title: Cleaning out the office
+date: 2023-08-13T15:40:45-04:00
+tags:
+- misc
+categories:
+- misc
+draft: false
+--- 
+
+This morning, Devorah, Batya, and I drove up to Hunter to start to
+clean out my office - the next step in officially becoming retired. I
+wasn't really looking forward to it. When I moved from Stuy to Hunter
+it was something of a rush so I basically boxed everything up that I
+thought I wanted to keep and moved it to the new digs. So, three
+decades worth of accumulated crap to deal with.
+
+I had already gone through all the books trying hard to leave as many
+as possible for other remaining faculty members and students but there
+was still many books, personal computer equipment, puzzles and other
+office decorations, the mini kitchen and more.
+
+Of course, packing up brought many memories and artifacts.
+
+Some of the highlights:
+
+* Yearbooks
+
+Stuy Yearbooks from 1995 - my first CS grads through 2025 and Stuy
+Yearbooks are *big*. I got one every year - a nice keepsake and I also
+had a rule - when a student asked me to sign their yearbook, I told
+them I would but only if the signed mine. The problem? No way do I
+have room in my Manhattan apartment for what would be a HUGE shelve of
+books. I decided to consolodate. The only thing I cared about was what
+the students wrote so I cut out the signature pages and now the whole
+bundle is thinner than one yearbook. Looking over them what's cool is
+just how many of those kids I'm still at least tangentially in touch
+with today.
+
+* Here's me in 1994:
+
+{{< figure width="250"  src="/img/office/churl.jpg"  >}}
+
+
+Okay, not really. This was given to me in the Spring of 1994 by one of
+my math students. He doodled every day but it never prevented him from
+being an active participant in class. Apparently other teachers gave
+him a hard time. He said he appreciated it and gave me the sketch. His
+family moved out of state that summer so I never saw him again but we
+reconnected on Facebook years alter.
+
+* A really old mousepad
+
+{{< figure width="250"  src="/img/office/mousepad.jpg"  >}}
+
+I haven't used a mousepad in decades but still have this one. It's a
+picture of me and three of my students. They're all graduating seniors
+int he picture and I had just taken them out for a congratulatory and
+thank you lunch at one of the 6th street Indian restaurants. Dave's (one
+of the students) father had the mousepads made for all of us. 
+
+All four of those students have gone on to do great and interesting
+things.
+
+* A frustrated student
+
+{{< figure width="250"  src="/img/office/line-drawing.jpg"  >}}
+
+One day one of my students came in to my office rather frustrated and
+this drawing was the result. An amazing student and an amazing person
+who has also gone on to wonderful things.
+
+* A breakthrough
+
+{{< figure width="250"  src="/img/office/sched.jpg"  >}}
+
+I had to commemorate this. For years, I worked to bring CS to Stuy. I
+had some success and some failures. One of the fights was to allow
+Stuy seniors to take our senior post AP CS electives instead of a
+tech/shop class. There were already excemptions from tech/shop classes
+for band, orchestra, and chorus but not for CS. There were and are
+some strong tech/shop classes but some were, quite frankly, joke
+classes. Meanwhile the advanced CS classes were regarded as high level
+and rigorous so this was frustrating.
+
+This changed in February 2010 when we finally got the administration
+to allow the substitution. 
+
+* Ticket printing
+
+{{< figure width="250"  src="/img/office/ticket.jpg"  >}}
+
+This wasn't a Stuy student memory but rather a personal one. At some
+point during my Stuy career students started to invite me to Sing! and
+other student productions. At one point I took notice of the
+tickets. They were computer printed tickets and, as I suspected,
+printed by the company Arcus Simplex Brown. This one was from 2012 but
+I have one from a couple of years later as well.
+
+As it turns out, and this is purely coincidental, I wrote the ticket
+printing program as my first coding gig when I was a senior in HS and
+through college. That was back in 1984. It was written in compiled
+Basic and ran on a small computer running CP/M. It drove a custom line
+printer onto ticket stock.
+
+It was a great real life example of how you never know how long your
+code will be running in the wild.
+
+* Misc stuff
+
+I also found a bunch of old gradesheets from back before I started
+using Google Docs for records as well as a bunch of those letters from
+MIT and other colleges you get when a student identifies you as being
+influential.
+
+I've been spending most of today trying to find places for all the
+stuff and I hope I'll be done soon since I have at least one more car
+load to go:
+
+{{< figure width="250"  src="/img/office/remaining.jpg"  >}}
+
+
+So that's a lot of stuff and a lot of memories. Just wanted to share.
