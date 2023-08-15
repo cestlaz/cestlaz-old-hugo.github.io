@@ -1,0 +1,142 @@
+---
+title: Learning Elisp 7
+date: 2023-08-15T10:51:37-04:00
+tags: 
+- emacs
+- elisp
+categories: 
+- emacs
+draft: false
+---
+
+Our next elisp project us going to write a function that will
+automatically generate function headers. This was actually the first
+useful elisp I ever wrote around thirty years ago. I forget how I
+wrote it then so this is a total rewrite.
+
+Nowadays we have [[https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html][Javadoc]] for java and tools like [[https://www.sphinx-doc.org/en/master/][Sphinx]] for other
+languages. If we write specially formatted comments in our code, these
+tools will pull out the comments and build a web site or document with
+hyperlinked documentation.
+
+
+Here's an example of javadoc commenting that I found online:
+
+#+begin_src java
+  /**
+ * <p>This is a simple description of the method. . .
+ * <a href="http://www.supermanisthegreatest.com">Superman!</a>
+ * </p>
+ * @param incomingDamage the amount of incoming damage
+ * @return the amount of health hero has after attack
+ * @see <a href="http://www.link_to_jira/HERO-402">HERO-402</a>
+ * @since 1.0
+ */
+public int successfullyAttacked(int incomingDamage) {
+    // do things
+    return 0;
+}
+
+#+end_src
+
+Note the extra * on the open comment line. That tells Javadoc to
+process the block and turn it into html. You can look at the online
+Java documentation to see plenty of examples (like [[https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html#indexOf-java.lang.Object-][this]] one).
+
+Back when I was coding professionally, Java didn't exist let alone
+javadoc but programmers like me wrote our own small tools that worked
+similarly. It was just a good idea.
+
+For our elisp, we want to be able to take the top line that declares
+our function:
+
+#+begin_src c
+int add_two(int a,int b){
+#+end_src
+
+And from that isolate the three components:
+- return type (int)
+- function name (add_two)
+- parameters (int a and int b)
+
+
+From there, we can build a comment block like this:
+
+#+begin_src c
+  /*------------------- add_two ------------------
+    Parameters: int a -
+                int b -
+
+    Returns: int
+
+    Description
+
+    MZ
+  */  
+#+end_src
+  
+To isolate those components we're going to use regular expressions.
+
+For those that aren't familiar with them, regular expressions (regex)
+form a language to perform text pattern matching. Think "find and
+replace on steroids." Emacs and most other editing tools, including
+things like spreadsheets all have support for regular experssions.
+
+In this video, we are going to go over the fundamentals in the
+editor. We'll specifically use ~replace-regexp~ and
+~rexep-builder~. In the next video, we'll learn how to do this in
+elisp and then write our function header creator.
+
+Here are some basics:
+
+| regex | will match                             | Example                           |
+|-------+----------------------------------------+-----------------------------------|
+| a     | the letter a                           | the a in *ball*                   |
+| aa    | two in a row                           | the aa at the start of *aardvark* |
+| [a-c] | a b or c                               |                                   |
+| .     | any single character                   |                                   |
+| a.    | the letter a followed by any character |                                   |
+
+And there are tons more urles.
+
+The video goes through a bunch of examples including how to use a
+regex to transform all the money values in your text to $XXX.XX or how
+to convert all the dates in the form month/day/year into
+day-month-year.
+
+You can also dig more deeply by looking at any of these online
+tutorials:
+
+- https://regexone.com/
+- https://github.com/ziishaned/learn-regex/blob/master/README.md
+- https://www.javatpoint.com/regex
+- https://regexlearn.com/
+
+or searching for videos online.
+
+By the end of our video, we have our regex to identify three
+components in a function header but note that I only wrote it for
+lower case letters - we'll fix that when we write the actual
+function next time.
+
+For now, enjoy this one covering the basics:
+
+* Code:
+
+The code for the series is still up here:
+
+- https://gitlab.com/zamansky/learning-elisp-code
+
+but this episode doesn't have any specific code.
+
+* The videos:
+
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-kyJLcsiH_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
+Video link: [[https://www.youtube.com/watch?v=-kyJLcsiH_4][https://www.youtube.com/watch?v=-kyJLcsiH_4]]
+
+
+
