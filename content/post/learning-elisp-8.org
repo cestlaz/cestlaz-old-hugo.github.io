@@ -1,0 +1,154 @@
+---
+title: Learning Elisp 8
+date: 2023-08-21T17:16:45-04:00
+tags: 
+- emacs
+- elisp
+categories: 
+- emacs
+draft: false
+---
+
+Today's video gets us closer to our function header, um, function.
+
+It'll take one more video to get there but today's video goes over the
+programmatic elisp that we'll need.
+
+Before we get to that, a couple of elisp regex niceties. To be honest,
+I didn't know that these existed when I made the last video so thanks
+for those of you who made me aware.
+
+First is the built in ~rx~ macro. It lets you use a more verbose elisp type
+syntax for regular experssions.
+
+For example, instead of "Mr|Ms [A-Z][a-z]+ [A-Z][a-z]+" for a simple
+Mr John Smith or Ms Sarah Stone or similar names, you could write:
+
+#+begin_src emacs-lisp
+  (rx  (seq "Mr|Ms " (any "A-Z") (one-or-more (any "a-z"))
+         " "
+         (any "A-Z")
+         (one-or-more (any "a-z"))))
+#+end_src
+
+which would evaluate to the more terse regular expression string.
+
+On the flip side there's the package ~xr~ ([[https://github.com/mattiase/xr
+][link]]) which does the reverse. You
+give it the standard regex string and it will produce the more verbose
+elisp type syntax.
+
+This verbose elisp regex notation reminds me of a couple of clojure
+tools I use. One is hiccup. That lets you use clojure structures for
+html. For example:
+#+begin_src clojure
+  (hiccup/html [:span {:class "foo"} "bar"])
+#+end_src
+
+would yield "<span class=\"foo\">bar</span>"
+
+There's a similar tool, honeysql that clojurists  can use for sql. 
+
+I'm a big fan of hiccup and related tools but I probably won't be
+using rx and xr moving forward.
+
+Why not?
+
+Context switching.
+
+I'm just or actually more likely to use regular expressions in
+languages other than elisp. In fact, I'll most regularly use them on
+the command line with grep type tools. I'll also use them in other
+programming languages. Since the elisp syntax only exists in elisp,
+there's less of a benefit to me. I do suppose that if I was doing a
+deep dive into writing elisp for a while, it would be more attractive.
+
+The clojure tools show this. When I do webdev, I'm living in one
+ecosystem for all the front end work so it makes sense to use a tool
+like hiccup. Besides, html is multiline so looks particularly ugly
+when embedded in code (jsx notwithstanding). Same for sql.
+
+Still rx and xr are well worth knowing and playing with.
+
+Now for the star attractions - dealing with our regular expressions in
+elisp.
+
+The first call is ~string-match~ which does two things.
+
+First, it returns the index where the match starts (or nil if it isn't
+present) and it also sets up some internal data structure so that you
+can extract the match groups. 
+
+There's also an additional optional third parameter, INHIBIT-MODIFY
+which if it's nil or not present the "match data is changed" and we
+can use the ~match-string~ function to extract our groups. I think I
+garbled that part in the video but this is right from the
+documentation.
+
+For example, in:
+
+#+begin_src emacs-lisp
+  (setq regex "\\([a-z0-9]+\\) +\\([a-zA-Z0-9_]+\\)(\\([a-zA-Z0-9_ ,]+\\)")
+  (setq line "int add_two(int a, int b)")
+
+  (string-match regex line)
+  (setq retval (match-string 1 line))
+  (setq func-name (match-string 2 line))
+  (setq params (match-string 3 line))
+#+end_src
+
+string-match returns 0 since the match starts at the first character.
+
+We then use the match-string function to extract each of the
+parenthesized groups.
+
+We also have to be careful with the match-string function. It's a bit
+fragile. The documentation says that you should call it "close" to the
+call to string-match since the match data might be mutated. That's
+illustrated in the video.
+
+Finally, we cover the ~format~ function which is like C's printf. It
+accepts a format string with placeholders and the additional
+parameters to fill those placeholders.
+
+For example:
+
+#+begin_src emacs-lisp
+  (setq word1 "hello")
+  (setq word2 "world")
+
+  (format "Replace1: %s Replace2: %s" word1 word2)
+
+#+end_src
+
+The format returns "Replace1: hello Replace2: world" having replaced
+the placeholders with parameters. There are also other placeholders
+for different data types.
+
+The video covers all of this in detail.
+
+Next time, we'll put it all together into a working elisp function
+that we can bind to a key
+
+
+
+* Code:
+
+The code for the series is still up here:
+
+- https://gitlab.com/zamansky/learning-elisp-code
+
+but this episode doesn't have any specific code.
+
+* The videos:
+
+
+#+begin_export htm
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2hbX4h4ZdAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
+Video link: https://www.youtube.com/watch?v=2hbX4h4ZdAc
+
+
+
+
