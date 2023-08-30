@@ -1,0 +1,103 @@
+---
+title: Learning Elisp 9
+date: 2023-08-29T12:41:24-04:00
+tags: 
+- emacs
+- elisp
+categories: 
+- emacs
+draft: false
+---
+
+In this video, we're finally putting everything together for the
+function-header project.
+
+for the most part, it's just putting a function wrapper (defun) around
+code we've already written but there area a few new things.
+
+In order to parse the parameter string we use a few interesting
+functions. The parameter string might look something like this "int a,
+double d, int something, char c" - type name pairs separate by a comma
+and space. To parse this into a list, we can use string-split. We use
+~(string-split param-string ", ") which splits around the comma/space
+separators. This gives us a list ~("int a" "double d" "int something"
+"char c")~  In elisp, stuff in parens is a list. We've usually been
+interpreting lists as functions where the first item is the name and
+the rest the parameters but we can also use them strictly as data.
+
+We then revisit the mapcar function that we used in rot13. Mapcar
+takes a function and a list and then returns a new list having applied
+the function to each element. In our case, we use the ~format~
+function we covered last time to reformat each paramter into a javadoc
+string.
+
+Finally, we use ~string-join~ to join all the parameter string
+elements in our list back into one string.
+
+The other new elisp function we look at is ~save-excursion~. It's
+pretty simple but very useful for editor functions. It basically saves
+the location of the point, does everything in its body and then
+restores the point to where it was.
+
+So, if you had this code block:
+
+#+begin_src emacs-lisp
+  (next-line 5)
+  (forward-char 3)
+  (do some stuff)
+#+end_src
+
+Your cursor (point) would have moved down 5 and 3 across and the stuff
+would be done. When the block ends, the point would be wherever it was
+moved to.
+
+If, instead we do this:
+
+
+#+begin_src emacs-lisp
+  (save-excursion
+    (next-line 5)
+    (forward-char 3)
+    (do some stuff))
+#+end_src
+
+Then the same thing happens but at the end, the point is restored to
+where it was when you started.
+
+I also started using [[https://github.com/xiongtx/eros][eros]] mode which temprarily overlays the results of elisp
+forms when you execute them. If you use Cider for Clojure development
+it looks a lot like that. It's easy and very useful for interactive
+development.
+
+Finally, as I mention in the video, I'll be away for a couple of weeks
+at the end of September and into October. Visiting Utrecht, Brussels,
+Antwerp, and Amsterdam so if you've got any hidden gems for us to
+visit please let us know. I really mention this though because it will
+likely affect my video making schedule. Our next project - displaying
+emojis automatically, is going to be three or four videos. Maybe
+more. I don't know if it makes sense to start 1 and then take the big
+break so I might pause this project until I'm back in mid October or
+maybe just do a one off before I go away. We'll seen.
+
+In the meantime, enjoy this one.
+
+* Code:
+
+The code for the series is still up here:
+
+- https://gitlab.com/zamansky/learning-elisp-code
+
+but this episode doesn't have any specific code.
+
+* The videos:
+
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DqHuCePi2FA?si=h56rRPT1gK6hvmB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
+Video link: https://www.youtube.com/watch?v=DqHuCePi2FA
+
+
+
+
