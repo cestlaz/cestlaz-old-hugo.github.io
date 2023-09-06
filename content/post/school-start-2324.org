@@ -1,0 +1,115 @@
+---
+title: A new school year - what's to come
+date: 2023-09-06T06:46:45-04:00
+tags:
+- education
+categories:
+- education
+draft: false
+---
+
+Another school year is starting. Hunter College's classes started last
+week and public school K12 teachers went back yesterday. I've been
+having some "back to school dreams" and, yeah, already missing being
+with the kids but not missing those opening meetings and the rest of
+the nonsense.
+
+Still, I'm thinking about what this school year will bring in terms of
+CS. 
+
+The elephant in the room is just the same as what we closed out with
+last Spring - AI - specifically generative AI.
+
+I think AI is particularly interesting because it's going to be a big
+topic in CS, in other subjects and also in school and district policy.
+
+Unfortunately, we're already seeing the education community - CS and
+otherwise play the usual game - anoint the usual suspects experts and
+give them a platform and eventually those opinions will become the
+"right ones." Please stop. There are AI experts - people who've
+created, worked with, analyzed and studied these systems and they can
+and should be engaged as experts to communicate what we're dealing
+with on a technical level but nobody's been exploring and
+experimenting with these tools long enough in school and class
+settings to be an expert. All we have are people trying some new
+things now. Results will start to come in and we might eventually have
+"experts" in AI in education but we don't know so just stop. I wrote
+about this [[https://cestlaz.github.io/post/expert-thought-leader/][here]] where I was at a conference and there were two
+speakers - both given a platform as "experts." One was way off base
+and should never have been given the platform. The other just shared
+"here's what I'm trying and here's what others are trying - give it a
+go yourself." That second speaker was great.
+
+In non CS classes, I suspect we'll see the usual play out. Some
+teachers and schools will go draconian with concerns over cheating and
+copying and others will come up with clever ways to use generative AI
+to help build classroom exercises and student experiences.
+
+I saw one person talking about redefining how he taught his English
+classes and that concerns me. He said that with generative AI, writing
+is less important so he could now focus on reading.
+
+This is a problem. Already there are too many HS English teachers who
+fancy themselves college literature professors. Writing, as in pen to
+paper or finger to keyboard might change because we have all these
+newfangled tools but it's not really about writing. It's about
+communication. That's the needed skill and that isn't going
+away. Becoming a literature class won't help there and I see this
+attitude as problematic if it takes hold.
+
+I'm also concerned about the AI tutor replacing teachers. This one's
+tricky. On the one hand, automated feedback can be a great addition in
+terms of student support but it can also be used, as I spoke about
+when writing about Harvard's [[https://cestlaz.github.io/post/ai-replace-teaching/][CS50]] and their using AI tutors. This will
+probably be good for the students but it's also a way of glossing over
+serious deficiencies in either course design or delivery. I'm also
+concerned about students - particularly introverts connecting more
+with AIs than with people.
+
+On the CS front, we'll see a rush of new AI units. I haven't had a
+chance to review what's already been put out there but we'll see. It's
+a tough thing to get right for a CS class. K12 students by and large
+won't have the background to get their heads around a lot of what's
+going on so how can you give a fair inkling without overwhelming.
+
+I've seen good and bad with this over the years. A good example in
+another topic is networking - a complex topic that middle school kids
+aren't by and large ready for, at least for a deep dive. That said,
+I've seen teachers do wonderful units where the class becomes a packet
+switching network breaking up messages, writing down packets, putting
+them in envelopes and passing them through the room. In the end they
+can't sit down and code a networking stack but they have a good idea,
+in the general sense, how it works.
+
+On the bad side, was a set of Google lessons that I saw at SIGCSE a
+few years ago. All fancy with graphics and sliders but in the end
+really communicated nothing about how the system (a neural net in this
+case) worked.
+
+It'll be interesting to see what comes but my money is on more weak
+stuff than strong.
+
+Within CS and tech we'll see continuations of the usual issues - lack
+of teachers, digital divide, potential changes in curriculum and the
+like but in education as a whole we'll see some other big issues to
+pay attention to.
+
+The trends in red states like Florida and how their policies are
+downright dangerous to minorities. Book bannings, policies harmful to
+marginalized communities - particularly the Black and LGBTQ
+communities and privatization. The CS community has mostly been silent
+on these with a short lived limited exception when the College Board /
+DeSantis APAAS thing first came up. On the one hand, the CS community
+appears to do lot - in our conferences and events inclusion is a big
+topic but that's coffee cooler talk. To the outside the voices in the
+community are happy to go along to get along. I'd love to see that
+change this year - stronger voices by conference organizers and power
+players. Take a stand - don't give me the CS or education isn't
+political because these days, everything is.
+
+Anyway, before I get myself too riled up, I think I'll stop. It should
+be an interesting school year. I'll be on the outside looking in and
+figuring out how I can remain involved. For those of you in the
+classroom - good luck for your openings, have fun with your kids and
+try not to let the administrations bring you down.
+
