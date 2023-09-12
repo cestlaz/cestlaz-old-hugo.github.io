@@ -1,0 +1,145 @@
+---
+title: Just work on open source
+date: 2023-09-12T07:40:37-04:00
+tags:
+- jobs
+categories:
+- jobs
+draft: false
+--- 
+
+Just work on an open source project. That's a frequent refrain given to
+college students. What's the best way to set yourself up for an
+internship or job?
+
+  - do well in your classes
+  - prepare for the ridiculous technical interviews by doing lots of
+    problems and interview prep
+  - *build a personal project or better yet, contribute to open
+    source*
+
+Everyone gives this advice and and in truth it's good advice. The
+problem is that while this is an easy ask for well to do students at
+"elite" institutions where the majority have little to do
+other than their courseworkand they're mostly living 24/7 on campus
+it's a much bigger ask for the low income student at the commuter
+school.
+
+Even if you look at the privileged student who can dedicate time to a
+side project, diving into open source is harder than it seems. 
+
+To start, you have to know all the tooling required to work on a
+typical open source project. Git with branching and merging and
+dealing with related conflicts. Issues and pull requests,
+forks. Probably the programming language or languages the project uses
+and likely even more.
+
+You've also got to find the project, figure out what it needs and how,
+when you're ready to contribute, that contribution is expected to be
+done. That's a really tricky one because every project has its own
+organization, steps to take, and even culture.
+
+All this and more can be very intimidating even for a student with all
+the free time in the world. 
+
+It's an order of magnitude harder for low income students. To start,
+if you're at a commuter school you're far less likely to have a tech
+or CS community on campus. When you're all living on campus, if
+nothing else, you'll be in the dorms together - easy to hang out, work
+on things late, and in general make use of the school's resources. At
+Hunter, for instance, things are so overcrowded that if you're lucky
+you can find a spot of floor in the hall to work. Not exactly
+conducive to working on side projects and certainly not conducive to
+creating a student culture of support.
+
+Next, low income students, at least many of the ones I've worked with,
+have additional demands that eat up any free time. Many have to work
+to pay tuition or even make rent or help the family make rent. They
+might have limited computer access at home - one computer and younger
+K12 siblings that also need access. They'll have the related challenge
+of connectivity. These are very real problems that were foreign to me when
+I was a student.  It's even more than just a hindrance on working on
+a personal portfolio prjoect. It can prevent a student from taking an
+internship.
+
+Even before the latest tech job crunch a low income student might not
+be able to take a high paying summer internship should they get
+one. The student may very well need year round income which they
+currently have at, let's say Starbucks. Now, you might say that the
+income from the tech internship will be much greater and the student
+will likely get a return offer. The catch is "likely." If you're a
+middle class or upper income student, you can take the "likely." If
+you're absolutely dependent on that year round income, it's a much
+bigger risk.
+
+So, you can see that it's not enough to say "just work on open source"
+even for a well to do student. For a low income student, it's a
+yeoman's ask.
+
+* What can be done?
+
+Still, we can make it better.
+
+A lot can be done within college CS classes but CS programs have to
+buy in. Many of the tech tools can be taught in core CS classes. I've
+done this in my CS0, CS1, and CS2 classes at Hunter College and have
+done the same at Stuyvesant at the High School level. I use git and a
+testing framework instead of an autograder for example. That gives me
+the platform to teach much of what students need without taking away
+much of the time needed from the rest of the curriculum. Similarly you
+can set up projects where students work in each others or other
+peoples code bases. This helps familiarize the students with what they
+will need for both working in open source and likely at their future
+jobs.
+
+CS programs with project courses can also be huge. Hunter has a
+capstone course that's close to being terrific. On the one hand, it
+checks all the boxes - toolsets, teamwork, testing, etc.. The problem
+is that it's a terminal course taken right before graduation. This
+type of course should be taken at least a year earlier - probably
+right after CS2 so that students can learn a bit about software
+development and also develop a team portfolio piece early enough so
+that it can benefit them in interviews.
+
+Space is another big one. Schools have to be able to carve out space
+for students to chill. I was able to get a small room for my
+students - an honors lounge, if you would (but it was really open to
+any interested and active CS student). This gave students a place to
+hang out between classes, get to know each other and if time allowed,
+get together to work on things. You could say - "hey, if anyone's
+available let's go to the lounge every Wednesday at 6:00 to work on
+whatever."
+
+Another big one that's really under the radar is financial support. At
+times Hunter's administration was able to fund stuednts with
+microgrants. Small amounts that would allow a student to work on a
+project or attend a program and the grant would make up the money lost
+from missing a few Starbucks shifts.
+
+What can be done outside of the schools?
+
+First and foremost, be understanding. If a student isn't working on a
+personal project or open source, there might be a good
+reason. Understand that a student with two "professional" parents is
+going to also come across as more polished than a student who may
+never have stepped foot into an office setting.
+
+Next, provide mentorship. This can be one on one or small group but it
+can also be a company program or initiative. Right prior to covid, I
+was working with Cockroach labs on a set of open source workshops to
+address all the problems listed above. I've also worked with other
+companies on mentoring programs that have been very succesful in
+mentoring my Hunter students.
+
+Finishing up, I'd be remiss if I didn't mention [[https://hacktoberfest.com/][Hacktoberfest]]
+sponsored by DigitalOcean. Every October coders are encouraged to dive
+in to open source. Hacktoberfest helps students get started and also
+curates lists of good "first pull requests." Things like documentation
+and testing changes on projects that will be more accessible and
+forgiving for neophytes.
+
+Well, I think that's it. I hope this paints a clearer picture of some
+of the challenges our students, and particularly our low income
+students face and when you wonder why they don't simply "work on open
+source" there's probably a good reason why.
+
