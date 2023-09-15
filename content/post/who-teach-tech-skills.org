@@ -1,0 +1,79 @@
+---
+title: Who Should Teach Tech Job Skills
+date: 2023-09-15T11:52:12-04:00
+tags:
+- tech
+categories:
+- tech
+draft: false
+---
+
+Relating to the linkedin post that spawned my last blog [[https://cestlaz.github.io/post/work-on-open-source/][post]] a friend noted:
+
+#+begin_quote
+... why should it be the burden on companies trying to
+hire folks with those skillsets to also teach those skillsets? Isn’t
+that what educational institutions are supposed to do (git, etc.)?
+#+end_quote
+
+Even though companies, if they actually cared about equity and
+diversity would be better served to take on this burden, the reality
+is that they haven't and it's either left for students on their own,
+or as I commented on in my [[https://cestlaz.github.io/post/work-on-open-source/][post]] colleges.
+
+I get where my friend is coming from but he is much younger than I am
+so he doesn't know that technical training was in fact all on the
+companies but somewhere along the line, probably in search of greater
+corporate profits, they stopped.
+
+When I came out of college at the end of the 80s training programs
+were the norm. The training program could be a couple of weeks or it
+could be many months. You'd learn about the business - Wall Street in
+my case at Goldman and also the technical side. My training program
+had a track where they taught the C language and then my group, once I
+was actually assigned then had training in Windows
+programming. Outside courses were also free for the taking if they
+would make for a more productive employee.
+
+Smaller companies didn't have training programs but they also had much
+simpler requirements. I interviewed at a smaller finance house and the
+only tech I would need was how to use Turbo Pascal. An insurance
+company just required Paradox programming - a popular PC database from
+back in the day. This is a far cry from today where complexity abounds
+and there's probably multiple courses worth of material one needs to
+be productive in the tech world. 
+
+This made sense for the companies at the time and it also made sense how it
+evolved. Prior to CS being "a thing" there was no specific college to
+prepare one for industry and as CS developed, it developed as an
+academic field like say Chemistry, Math, or History. Those subjects
+weren't directly focused on getting jobs so why would CS be? I guess
+finance and accounting in business programs are more job focussed but
+then so is IT (Information Technology) that developed also in business
+schools. IT, however, is not CS and what you learn in an IT major is
+very different other than some of the lower courses than the CS skills
+that are required to get a software engineering job [fn:1]
+
+At some point between when I graduated and I started paying attention
+again the training programs were gone. Sure, companies like Meta still
+have their new hire boot camps but there's an assumption that you know
+far more non-classroom tech than they did back in the day.
+
+[fn:1] I know, a lot of the CS major is not relevant to SWE jobs but
+you do need data structures and algorithms and sometimes more to get
+past the ridiculous interview process.
+
+I'm guessing that moving forward, colleges will teach more of the
+practical side - this has already been happening with new courses like
+web development and new majors like software engineering. It's also
+something that created an opening for code schools and boot camps even
+though I think those are largely flawed.
+
+It also reminds me that in a way things were better back then - a
+young college kid had more doors or at least possible doors open to
+them since the companies would take a more raw candidate but people
+today don't even know what they're missing.
+
+Unfortunately, the same is true for things fare more important than
+learning git.
+
