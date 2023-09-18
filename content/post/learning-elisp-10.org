@@ -1,29 +1,69 @@
 ---
-title: Learning Elisp 10
+title: Learning Elisp 10 - elisp data structures
 date: 2023-09-18T13:57:18-04:00
 tags: 
 - emacs
 - elisp
 categories: 
 - emacs
-draft: true
+draft: false
 ---
 
+I'm leaving our next elisp project for when I get back from my
+vacation but realized I could make a short video with some
+preliminaries - some elisp tools that we'll need that we can get out
+of the way.
 
-list
-car/cdr/first/rest/mapcar/cons/pairs
+Specifically, elisp's built in data structures. 
 
-vector
-(aref a index)
-(aset a index val)
+We've already used the *list* data structure and in this video we go a
+bit more in depth.
 
-(make-hash-table :test 'equal)
-(puthash k v table)
-(gethash k table)
+Lists are great for, well, list processing but they're not great for
+random access. For that we can use vectors. Think of them like arrays
+in other languages but with a functional way of accessing:
 
+#+begin_src emacs-lisp
+  (setq v [10 20 30 40 50]) ;; define a vector
+  (aref v 1) ;; returns the 20, the value in index 1
+  (aset v 1 100) ;; stores 100 in index i
+  ;; the vector will now have [10 100 30 40 50]
 
-alist
-(assoc key list) <- returns paur
+  (mapcar #'1+ v)
+  ;; the above returns a new list with (2 101 31 41 51)
+  
+#+end_src
+
+Note in that last example above we can use mapcar which we covered in
+an earlier video on vectors as well as lists but the return is a new
+list, not a vector.
+
+We also cover elisp hash tables which are similar to python
+dictionaries. With them you can store and retrieve values based on
+keys (key value pairs). We're not actually going to use them in the
+next project so you can see the video for details.
+
+The data structure we will be using are association lists. You can
+think of them as a lightweight hash table. Basically a list of
+pairs. A pair is a special form of a list that only has two items
+(well, not exactly but see the video for details). We write them by
+putting a period between the two elements - ~(1 . 2)~  - that's a pair
+with 1 as the first part and 2 as the second.
+
+Here's an association list and how we use it:
+
+#+begin_src emacs-lisp
+  (setq a '((1 . "one value") (2 . "two value") (3 . "three value")))
+  (assoc 2 a) ;; returns (2 . "two value")
+  (cdr (assoc 2 a)) ;; returns "two value"
+  (rest (assoc 2 a)) ;; also returns "two value"
+
+#+end_src
+
+In our next project, we'll use association lists to store the string
+names for emojis as the keys and the actual emojis for the values.
+
+That's it for now. More in a few weeks.
 
 * Code:
 
