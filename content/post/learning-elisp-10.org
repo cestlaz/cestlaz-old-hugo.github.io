@@ -1,0 +1,49 @@
+---
+title: Learning Elisp 10
+date: 2023-09-18T13:57:18-04:00
+tags: 
+- emacs
+- elisp
+categories: 
+- emacs
+draft: true
+---
+
+
+list
+car/cdr/first/rest/mapcar/cons/pairs
+
+vector
+(aref a index)
+(aset a index val)
+
+(make-hash-table :test 'equal)
+(puthash k v table)
+(gethash k table)
+
+
+alist
+(assoc key list) <- returns paur
+
+* Code:
+
+The code for the series is still up here:
+
+- https://gitlab.com/zamansky/learning-elisp-code
+
+but this episode doesn't have any specific code.
+
+* The videos:
+
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oszVyBvxmzg?si=TMjUlMSI1TQQYnPT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
+Video link: https://youtu.be/oszVyBvxmzg
+
+
+
+
+
+
