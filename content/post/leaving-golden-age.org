@@ -2,9 +2,9 @@
 title: Leaving a golden age for CS self-learners
 date: 2023-09-20T12:33:22-04:00
 tags:
-- learning
+- learningcs
 categories:
-- learning
+- learningcs
 draft: false
 --- 
 
