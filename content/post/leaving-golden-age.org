@@ -1,0 +1,110 @@
+---
+title: Leaving a golden age for CS self-learners
+date: 2023-09-20T12:33:22-04:00
+tags:
+- learning
+categories:
+- learning
+draft: false
+--- 
+
+In many ways we might be entering a golden age for learning CS. After
+years of hard work by many many people, more and more schools are
+offering CS, states are making standards (mixed opinions on these),
+and in some cases, requirements are being implemented.
+
+In one interesting way, though, for the self-learner I'm noticing
+that we're leaving what I think was a golden age. You might say, "but
+Mike, there are online videos and tutorials for almost everything
+these days" and that's true but on the other hand, many types of
+resources that were common around 10 years ago are no longer being
+made available.
+
+When I started to learn about computers back in the 80s there were few
+paths for the self learner. If you were able to afford one you could
+get a personal computer but compilers, if available were crazy
+expensive and there weren't online communities and resources like
+there are now.
+
+A good example of this was databases. You couldn't play with SQL
+unless you were on a job somewhere that had an SQL database serer or
+maybe in a class at the college level. For the most part, if you
+wanted to learn about a relational database, you'd have to "acquire" a
+program like dBase to run locally. Not SQL but it was relational.
+
+This changed a bit as PCs became more prevalent and cheaper. A
+big player in these changes was Borland. They actually made affordable
+tools. Turbo Pascal, C++, Prolog - all affordable to even a college
+aged kid. Add to that Paradox, a relational database, Quattro, a
+spreadsheet, Sprint their word processor, and other tools and a self
+learner could at least have a pretty robust set of CS tools on an
+affordable IBM-PC clone.
+
+Things really got better when the Internet started to hit and Linux
+became available. Free tools galore. SQL became available with MySQL
+and Postgresql (my preference), all the programming languages and
+tools you could ever hope for and so much was open source and free to
+use. We also saw the rise of public code repositories like
+Sourceforge which preceded today's GitHub and GitLab.
+
+Of course, all of these things are available today so why do I say
+we're at the end of a Golden Age? What's going away?
+
+Free tiers for APIs and services. 
+
+As the Web grew, aspiring techies had to move from writing a program
+that ran on their personal computer to something that ran on a
+server - that communicated with other servers and clients running web
+browsers and custom front ends. For the self learner, this wasn't a
+problem because there were tons of services that had free tiers in
+their membership models or at least free starter credits that had a
+generous lifespan.
+
+If you needed to host a project - no problem, spin up a Heroku
+instance. On free it wouldn't be great and you wouldn't want it for a
+commercial service but it was fine for a small personal project or
+just to learn. It was gold for a kid looking to host a project to show
+off to potential hiring officers.
+
+Want to go more bare metal - use the Digital Ocean starter credits -
+enough for a full year on a low end virtual server. Again, nothing
+powerful enough for a business but great for a student or just to
+learn.
+
+Need to work with with sending and receiving sms messages and cell
+phones? Twillio had a great free tier - it was set up so that you
+could learn and play as much as you wanted but it was restricted in a
+way to make it impractical to exploit for a real business. Perfect for
+learners without costing the company.
+
+Need a nosql database - try the MongoDB free tier or just download the
+whole thing onto that Digital Ocean droplet. 
+
+There was pretty much no service, technology or API that you couldn't
+work with for free on your personal computer or using a free tier
+online.
+
+Now that's all changing.
+
+The first thing that got me thinking about this was the current AI
+boom. No longer can you just develop locally. Want to do that new
+fangled AI stuff at home? Good luck young kid starting out at getting
+all that affordable GPU power. Good luck any individual. So since you
+can't do it locally, you've got to find a service. Okay, there are
+some free things out there but more and more the free tiers are drying
+up. I'm seeing more starter credit scenarios but with relative short
+half lives. that's a problem unless you can sign up and do what you
+want to do before the credits expire. That's though if you're bouncing
+from thing to thing and can't necessarily say "okay, these two weeks
+will be all on this service." I get it that some of the entry tier
+rates are very reasonable, at least for someone like me who's at the
+end of my career but I think about the kid I was teaching at Hunter or
+maybe the recent Hunter College graduate who hasn't started in tech
+yet and is really counting the pennies.
+
+We've also seen more restrictions on non AI online services. Both in
+terms of price and complexity (I'm looking at you OAuth2). 
+
+So yeah, some things these days are great for the self-learner but I'm
+really missing those days from about 10 years ago before the web got
+too "civilized."
