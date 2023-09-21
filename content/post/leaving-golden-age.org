@@ -27,7 +27,7 @@ expensive and there weren't online communities and resources like
 there are now.
 
 A good example of this was databases. You couldn't play with SQL
-unless you were on a job somewhere that had an SQL database serer or
+unless you were on a job somewhere that had an SQL database server or
 maybe in a class at the college level. For the most part, if you
 wanted to learn about a relational database, you'd have to "acquire" a
 program like dBase to run locally. Not SQL but it was relational.
