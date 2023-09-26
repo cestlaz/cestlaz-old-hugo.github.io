@@ -1,0 +1,88 @@
+---
+title: ~~Lost in the~~ Locked out of Amazon
+date: 2023-09-26T08:00:07-04:00
+tags:
+- misc
+categories:
+- misc
+draft: true
+---
+
+A friend of mine reached out the other day, it turns out a friend of
+theirs was all of a sudden locked out of Amazon. Couldn't view videos,
+couldn't purchase, as far as I could tell and couldn't get to their
+paid for content.
+
+Amazon said that the user violated their terms of service but didn't
+specify how or when and after a couple of back and forths they
+declared the case closed.
+
+This is actually pretty scary.
+
+Amazon is such a dominant player - there are plenty of things ranging
+from their original content - books to ebooks to daily necessities and
+food and even drugs these days. Just as Walmart has become the only
+option for some, Amazon has become the only option for certain things
+for others and to be summarily locked out with no warning and no
+recourse is both scary and should be alarming.
+
+This is a result of both capitalism and tech. As single big players
+take more and more control and the human element disappears mroe and
+more both due to lack of storefronts and even lack of people
+responding to calls and emails consumers are left in a precarious
+spot.
+
+I haven't been locked out of Amazon but recently had my own similar
+although less potentially damaging incident.
+
+I docked a CitiBike at Union Square. The lock was good but their
+server didn't close the ride. I immediately called. The customer
+support agent noted that the station was offline and that they'd make
+a note of it on my account so that when things cleared up I wouldn't
+be charged.
+
+The next day, I was charged. A couple of hundred dollars + $1000 more
+since they said the bike was never returned.
+
+I spent far too much time emailing and calling and while Lyft,
+CitiBike's parent company readily admitted that my account had the
+notation saying I did it right and that they were in error, they
+refused to do anything. In the old days, you could usually get bumped
+up to a higher level but current systems are much better at preventing
+users from getting to people that can resolve problems.
+
+Ultimately, the only way I as able to get a response and resolution
+was to publicly Tweet to Lyft and CitiBike with the problem and
+complaint. Once I did that the problem was cleared up in minutes.
+
+Now, mind you, the only way this got solved was by publicly shaming
+the company on Twitter. That seems to be the only way to get real
+customer support these days and with Musk killing Twitter that avenue
+is sure to disappear.
+
+This is the state of commerce and in many cases living these days int
+he US and those at the bottom economic rung are the most hurt - they
+don't have friends at companies that can help, alternatives to the
+cheapest services, and can't absorb the hit of "just paying the $2."
+
+Not directly related but it makes me think about how sad things are
+when so much primary health care ends up being GoFundMe campaigns.
+
+We have to do better.
+
+Those of us who teach CS and Technology though have a platform to do
+better. As technology advances we have to ask more if we should rather
+than if we can and as teachers we have to get that mindset into our
+kids. In the short term I'm not hopeful for change but education is
+the long term and we have to do a better job collectively on all those
+things around the tech that drive policy and ways of implementing
+things and ultimately greatly affect lives.
+
+As an unrelated end note I've been trying to post at least once a week
+these past few months. At least one blog post and one emacs
+video. Tomorrow I'll beheaded off to Utrecht, Brussels and Amsterdam
+with my daughter for a couple of weeks so there probably won't be any
+new content until I'm back. Looking forward to the trip - I think this
+will be the longest I've been away from home maybe ever.
+
+
