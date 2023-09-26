@@ -5,7 +5,7 @@ tags:
 - misc
 categories:
 - misc
-draft: true
+draft: false
 ---
 
 A friend of mine reached out the other day, it turns out a friend of
