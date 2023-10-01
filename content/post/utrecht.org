@@ -1,0 +1,127 @@
+---
+title: Utrecht
+date: 2023-10-01T10:38:29-04:00
+tags:
+- travel
+categories:
+- travel
+draft: false
+--- 
+
+So I'm spending these two weeks vacationing in Europe with my
+daughter. She was planning on this trip anyway as part of her work
+"recharge" and is taking me along for a first retirement trip.
+
+So, if you're looking for CS Ed content or Emacs come back in a week
+or two since today is all about travel
+
+We spent the last few days in Utrecht. Why Utrecht? Why not. Also
+Batya has a friend here that she's only met virtually through a
+writers group and this was a chance for them to connect in person.
+
+We were of course zonked from the red-eye flight but wandered a bit by
+one of the canals and managed to stay up until evening.
+
+#+ATTR_HTML: :width 300px
+[[/img/utrecht/canal.jpg]]
+
+We were told that pancakes are a thing in The Netherlands so decided
+on a pancake dinner:
+
+#+ATTR_HTML: :width 300px
+[[/img/utrecht/dosa.jpg]]
+
+Well, Dosa and Uttapam are pancakes :-). Don't worry, we rectified
+this yesterday.
+
+The next day started with a bike tour of the city. I've always felt
+that touring by bike was ideal. Cars move too fast. Even those busses
+and trolleys with the tour guides. You literally only get a "drive
+by." On foot is terrific and we walk miles and miles when visiting new
+places but walking keeps you confined to a small area. By bike you can
+cover a good amount of ground but you can go slow enough to smell the
+flowers. Also stopping and starting is trivial.
+
+We got a good feel for the geography of the city, some history, more
+canals (and a fish doorbell)
+
+#+attr_html: :width 250px
+#+caption: Starting the tour by Dom Tower
+[[/img/utrecht/tour1.jpg]]
+#+attr_html: :width 250px
+#+caption: A cloister by the Dom Church 
+[[/img/utrecht/tour2.jpg]]
+#+attr_html: :width 250px
+#+caption: more canal
+[[/img/utrecht/tour3.jpg]]
+#+attr_html: :width 250px
+#+CAPTION: A Fish Doorbell
+[[/img/utrecht/doorbell.jpg]]
+#+attr_html: :width 250px
+#+caption: down at the water level
+[[/img/utrecht/tour4.jpg]]
+
+We finished the day wandering around. Saw the Stadhuis (city hall)
+which reminded me of the New Amsterdam Stadhuis ruins under 85 broad.
+
+#+attr_html: :width 250px
+[[/img/utrecht/stadhuis.jpg]]
+
+We also passed a number of places that had New York foods:
+
+#+attr_html: :width 250px
+[[/img/utrecht/lox.jpg]]
+
+#+attr_html: :width 250px
+[[/img/utrecht/nyfood.jpg]]
+
+I'm always torn when seeing these. On the one hand, I'm curious on a
+different cultures take on NY foods but I also don't want to waste a
+meal when I could be getting local stuff.
+
+We got a giant Stroop Waffle instead
+
+#+attr_html: :width 250px
+[[/img/utrecht/stroop.jpg]]
+
+The next day we had that pancake meal with Batya's friend and also
+went to the Speelklock musem which is all about self-playing musical
+instruments. Very interesting. Other highlights is finding some
+locally dyed yarn which will later be turned into socks by either
+Batya or Devorah and a flock of sheep (sans Wallace and Gromit).
+
+#+attr_html: :width 250px
+[[/img/utrecht/pancake.jpg]]
+
+#+attr_html: :width 250px
+[[/img/utrecht/music.jpg]]
+
+#+attr_html: :width 250px
+[[/img/utrecht/yarn.jpg]]
+
+#+attr_html: :width 250px
+[[/img/utrecht/sheep.jpg]]
+
+Today we visited their train museum. We loved it since it was a train
+museum but was also reminded of the local history with a sombering
+train car.
+
+#+attr_html: :width 250px
+[[/img/utrecht/train-outside.jpg]]
+
+#+attr_html: :width 250px
+[[/img/utrecht/train-inside.jpg]]
+
+A car used on the rail network in Europe during the Holocaust to
+transport Jews to the concentration camps.
+
+Yes, it brought us down but we were glad it was there.
+
+More wanderings brought us back to our Airbnb where I'm writing this
+now.
+
+Tomorrow we head to Brussels to spend a couple of days with an old
+teaching friend and then to Amsterdam.
+
+
+
