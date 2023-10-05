@@ -1,0 +1,131 @@
+---
+title: Brussels
+date: 2023-10-04T01:29:57-04:00
+tags:
+- misc
+- travel
+categories:
+- travel 
+draft: false
+--- 
+
+We spent the last few days in Brussels. Got in on the Eurostar at
+around 1:00. We were crashing with a good friend - a teacher who
+worked with Devorah back in the day but left NY and is now in
+Brussels. The catch was that she wasn't getting home from work until
+5:00 so we had to occupy ourselves until then. Schelpping around
+rolling suitcases usually isn't a big deal but there were two
+challenges.
+
+First, schlepping around rolling suitcases is much harder on cobbled
+streets, particularly when it's unseasonably warm and most museums -
+you know - tourist attractions with coat rooms are closed in Brussels
+on Mondays.
+
+We ended up at the [[https://www.brussels-comics-figurines-museum.be/en/][Brussels Comics Figurines Museum]].
+
+Very cool. The first featured comic strip was [[https://en.wikipedia.org/wiki/Marsupilami][The Marsupilami]]. 
+
+#+ATTR_HTML: :width 300px
+[[/img/brussels/marsupilami.jpg]]
+
+Lots of figurines and a running cartoon. Fun stuff.
+
+There were lots more:
+
+#+ATTR_HTML: :width 250px
+[[/img/brussels/comic2.jpg]]
+#+ATTR_HTML: :width 250px
+[[/img/brussels/comic4.jpg]]
+#+ATTR_HTML: :width 250px
+[[/img/brussels/comic1.jpg]]
+
+
+Some I knew like Tintin and the Smurfs and some I didn't. Lots of
+interesting backstory.
+
+My favorite was, of course, Asterix (and of course Obelix):
+
+#+ATTR_HTML: :width 300px
+[[/img/brussels/comic3.jpg]]
+
+After the museum we puttered around a bit, refueled on a waffle and
+made it to our host's.
+
+#+ATTR_HTML: :width 300px
+[[/img/brussels/waffle.jpg]]
+
+We started off the next day with a free tour. Well, sort of. We went
+on a [[https://www.neweuropetours.eu/brussels-walking-tours/][Sandeman]] tour. They're free and request you tip based on whatever
+value you feel you received. Devorah and Batya have used them before.
+
+We started at the [[https://en.wikipedia.org/wiki/Grand-Place][Grand Place]] talked a bit about it's and the city's
+history and walked and learned about Brussels for the next almost
+three hours. 
+
+#+ATTR_HTML: :width 300px
+[[/img/brussels/gp3.jpg]]
+
+#+ATTR_HTML: :width 300px
+[[/img/brussels/gp4.jpg]]
+ 
+Batya and I both very much enojyed the tour. 
+
+Next up, the [[https://www.kbr.be/en/ ][KBR]] museum. This was recommended by a friend. There was
+some local history but mostly it was about illuminated manuscripts.
+
+#+ATTR_HTML: :width 300px
+[[/img/brussels/kbr.jpg]]
+
+They had some history on Illuminated Manuscripts as well as on how
+they were made and sported an impressive collection. The oldest we saw
+was form the 900s. Extremely cool.
+
+That evening we got dinner with our friend Helen and a bunch of her
+colleagues. Helen is now teaching in Brussels so I asked her to set up
+a dinner with her CS or related teachers. They don't strictly do CS,
+they do ICT which has some CS and coding in it but also trends to what
+we would cover on the CTE side.
+
+I loved meeting and talking with all of them. Learned a bit about what
+it was like for them and what's going on in CS Ed in their school,
+Belgium and other places in Europe and I hope I was also able to share
+some interesting insights form our side. I might blog more about all
+of this at some later date but it was really a highlight for me.
+
+Yesterday, our last day in Brussels we started at the
+[[https://www.brusselsmuseums.be/en/museums/jewish-museum-of-belgium
+][Jewish]] Museum. It covered the expected intro to Judiasm, had a
+Holocaust section and a few exhibits by and about Jewish artists from
+or related to Belgium. I was particularly interested in the first two
+things - I wanted to see how they were covered in Europe. Very
+interesting and as with everything else we've seen, worth a visit. I
+particularly liked the information about development and histories of
+some of the congregations that formed in Belgium.
+
+For the afternoon we decided to go castle hunting with Helen. First up
+was [[https://www.castles.nl/grimbergen-castle][Grimbergen]]. Cool old castle but mostly ruins. We were able to walk
+around and liked it but it was a short stop - not that much there.
+
+#+ATTR_HTML: :width 300px
+[[/img/brussels/castle1.jpg]]
+
+#+ATTR_HTML: :width 300px
+[[/img/brussels/castle2.jpg]]
+
+We then found our way to Chateau de Bouchout at Plantentuin
+Meise. Cool castle but also in a botanic garden. We walked a couple of
+the sections and went through a pretty amazing greenhouse. Plus
+teachers got free entry. Another win.
+
+#+ATTR_HTML: :width 300px
+[[/img/brussels/castle4.jpg]]
+
+#+ATTR_HTML: :width 300px
+[[/img/brussels/castle3.jpg]]
+
+All in all three successful days of touring.
+
+We almost had an adventure the next day - this morning on our way to
+Antwerp but I'll save that for the next post.
+
