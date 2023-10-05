@@ -94,8 +94,8 @@ some interesting insights form our side. I might blog more about all
 of this at some later date but it was really a highlight for me.
 
 Yesterday, our last day in Brussels we started at the
-[[https://www.brusselsmuseums.be/en/museums/jewish-museum-of-belgium
-][Jewish]] Museum. It covered the expected intro to Judiasm, had a
+[[https://www.brusselsmuseums.be/en/museums/jewish-museum-of-belgium][Jewish]]
+Museum. It covered the expected intro to Judiasm, had a
 Holocaust section and a few exhibits by and about Jewish artists from
 or related to Belgium. I was particularly interested in the first two
 things - I wanted to see how they were covered in Europe. Very
@@ -109,9 +109,6 @@ around and liked it but it was a short stop - not that much there.
 
 #+ATTR_HTML: :width 300px
 [[/img/brussels/castle1.jpg]]
-
-#+ATTR_HTML: :width 300px
-[[/img/brussels/castle2.jpg]]
 
 We then found our way to Chateau de Bouchout at Plantentuin
 Meise. Cool castle but also in a botanic garden. We walked a couple of
