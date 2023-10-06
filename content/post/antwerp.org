@@ -114,7 +114,7 @@ And also elephants:
 [[/img/antwerp/elephants.jpg]]
 
 And many more. There was also a nice little aquarium building where we
-found dory:
+found Dory:
 
 #+ATTR_HTML: :width 250px
 [[/img/antwerp/dory.jpg]]
