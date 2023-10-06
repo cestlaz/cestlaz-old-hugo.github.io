@@ -1,0 +1,134 @@
+---
+title: Antwerp in 24 hours
+date: 2023-10-05T10:10:17-04:00
+tags:
+- misc
+- travel
+categories: 
+- travel
+draft: false
+--- 
+
+Heading to Amsterdam this morning and we'll be here until mid next week.
+
+We spent yesterday in Antwerp but for a while we didn't know if we
+were going to get there. Unbeknownst to us when we planned our trip,
+yesterday was the season's first general strike in Belgium. When we
+found out in Antwerp we weren't sure we'd be able to get out of the
+city at all but it turned out that while the local trains would be out
+the intercity ones were going business as usual. Since we couldn't get
+to the required train station easily our host Helen drove us be she
+had to do so before work. This meant that we arrived in Antwerp at
+around 8:00am. Not a big deal. It was too early to check into our
+hotel but we were able to leave our heavier bags and set out for
+breakfast and a day of exploring.
+
+To start, even before that, we came in to [[https://en.wikipedia.org/wiki/Antwerpen-Centraal_railway_station][Antwerp Central Station]]. 
+
+
+#+ATTR_HTML: :width 300px
+[[/img/antwerp/train1.jpg]]
+
+#+ATTR_HTML: :width 300px
+[[/img/antwerp/train2.jpg]]
+
+It's really amazing. The original station goes back to the mid 19th
+century with the current one replacing it around 50 years later. The
+facade and entry are gorgeous but going back to the track area is
+equally amazing. The [[https://en.wikipedia.org/wiki/Antwerpen-Centraal_railway_station][Wikipedia page]] has more and better images so
+check them out.
+
+There was also this elevator status wall noting the levels:
+
+#+ATTR_HTML: :width 300px
+[[/img/antwerp/zero-index.jpg]]
+
+Gotta love the zero indexing of the floors.
+
+After breakfast we wandered around
+
+#+ATTR_HTML: :width 250px
+[[/img/antwerp/building.jpg]]
+
+#+ATTR_HTML: :width 250px
+[[/img/antwerp/buildings.jpg]]
+
+and among other things found this, the [[https://en.wikipedia.org/wiki/Brabo_Fountain][Brabo Fountain]] in front of city
+hall. 
+
+#+ATTR_HTML: :width 250px
+[[/img/antwerp/statue1.jpg]]
+
+#+ATTR_HTML: :width 250px
+[[/img/antwerp/statue2.jpg]]
+
+Very cool. We also passed the cathedral seen in the background.
+
+On the side, we saw these builders
+
+#+ATTR_HTML: :width 250px
+[[/img/antwerp/builders.jpg]]
+
+and realized why cathedrals, including our local St. John's the
+Unfinished take so long - the builders are made of bronze and don't
+move!!!!!
+
+This was on our way to [[https://en.wikipedia.org/wiki/Het_Steen][Het Steen]] castle.
+
+#+ATTR_HTML: :width 250px
+[[/img/antwerp/selfie-castle.jpg]]
+
+It had an old school instagram frame:
+
+#+ATTR_HTML: :width 250px
+[[/img/antwerp/insta-castle.jpg]]
+#+ATTR_HTML: :width 250px
+[[/img/antwerp/insta.jpg]]
+
+Inside was "The Antwerp Story" which had a nice overview of the city
+and you could climb to the top as well. 
+
+From there we tried to go to the [[https://museumplantinmoretus.be/en/content/welcome-museum-plantin-moretus][Plantin Moretus]] museum but were
+thwarted - it was closed due to the strike.
+
+#+ATTR_HTML: :width 250px
+[[/img/antwerp/closed.jpg]]
+#+ATTR_HTML: :width 250px
+[[/img/antwerp/closed-2.jpg]]
+
+From there it was to the [[https://en.wikipedia.org/wiki/Antwerp_Zoo][Antwerp Zoo]] - the oldest zoo in the
+country. It was right next to the train station and just 10 minutes
+from our hotel.
+
+We saw lots of animals including this meerkat just standing there.
+
+#+ATTR_HTML: :width 250px
+[[/img/antwerp/meerkat.jpg]]
+
+He was just standing there on his hind too legs you know, like that
+guy - you know the one who sands - Rory Calhoun.
+
+And also elephants:
+
+#+ATTR_HTML: :width 250px
+[[/img/antwerp/elephants.jpg]]
+
+And many more. There was also a nice little aquarium building where we
+found dory:
+
+#+ATTR_HTML: :width 250px
+[[/img/antwerp/dory.jpg]]
+
+After all of that we went back to the Hotel but they still didn't have
+our room so we wandered some more - by the Ruben's house which is
+closed for renovations and over to a local park. Then back to the
+Hotel where they screwed up our room but we did finally get it
+partially resolved - at least so that we had a roof over our head for
+the night.
+
+We finished off the day with a pretty awesome Ethiopian meal.
+
+This morning we got some more chocolate for the road and are now on
+the train to Amsterdam where we'll spend the next five days.
+
+
