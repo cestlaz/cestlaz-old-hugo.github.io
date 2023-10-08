@@ -6,10 +6,119 @@
     <description>C&#39;est la Z (SIGCSE)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Mar 2023 07:44:47 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 02 Apr 2023 19:54:05 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/tags/sigcse/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>SIGCSE 2023 - final thoughts</title>
+      <link>https://cestlaz.github.io/post/sigcse-2023-final-thoughts/</link>
+      <pubDate>Sun, 02 Apr 2023 19:54:05 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/sigcse-2023-final-thoughts/</guid>
+      <description>&lt;p&gt;
+Time to wrap up the SIGCSE 2023 posts. Overall a great conference. The
+exhibits room was felt a little sparse but from an attendee point of
+view, not a big deal. Lots of great sessions and got to spend a lot of
+time with some great people. My only semi-serious complaint would be
+that this year, sessions were an all or nothing - that is, there were
+time slots where I wanted to attend two or three sessions and then
+others where very little appealed to me. I think that was just bad
+luck on me though.&lt;/p&gt;
+&lt;p&gt;
+My big thought for this year was that the combination of &lt;a href=&#34;https://cestlaz.github.io/post/sigcse-2023-nifty/&#34;&gt;Nifty
+Assignments&lt;/a&gt;, &lt;a href=&#34;https://cestlaz.github.io/post/sigcse-2023-microteaching/&#34;&gt;Microteaching&lt;/a&gt;, and &lt;a href=&#34;https://cestlaz.github.io/post/sigcse-2023-it-seemed-good-idea/&#34;&gt;It seemed like a good idea at the time&lt;/a&gt;
+combined to make a a really nice teaching track. Nifty will certainly
+be there next year but I hope the other two are as well. Actually, I&amp;#39;d
+really love to see some doubling down on all three of these sessions.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;d love to see something like Nifty Assignments but for lessons,
+including suggested pedagogical techniques (even though those can be
+very circumstance dependent). Likewise, I&amp;#39;d love to see some &amp;#34;good
+ideas at the time&amp;#34;s which were more about lesson ideas, exercises, or
+motivations or possibly even lesson or unit topics.&lt;/p&gt;
+&lt;p&gt;
+For microteaching, I&amp;#39;d love to see a deeper dive into less obvious
+practices. I wouldn&amp;#39;t stop covering that basics as were highlighted
+this year but I think a lot of people teaching don&amp;#39;t realize how much
+subtlety there can be in teaching. Even things like a teachers body
+positioning and how they move in a classroom can be intentional and
+for a specific effect.&lt;/p&gt;
+&lt;p&gt;
+I can&amp;#39;t say 100% that I&amp;#39;ll be there next year as I won&amp;#39;t be teaching
+(at least not full time) but right now I&amp;#39;m thinking I will be.&lt;/p&gt;
+&lt;p&gt;
+Now, to start figuring out what failure I should proposed to join in
+on the &amp;#34;good idea at the time&amp;#34; session.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SIGCSE 2023 - Nifty Assignments</title>
+      <link>https://cestlaz.github.io/post/sigcse-2023-nifty/</link>
+      <pubDate>Tue, 28 Mar 2023 08:21:58 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/sigcse-2023-nifty/</guid>
+      <description>&lt;p&gt;
+The final session I wanted to talk about was Nifty Assignments. Nifty
+has gone from a session that went through the approval process each
+year until it&amp;#39;s popularity ended up with it being a regularly
+scheduled part of the show.&lt;/p&gt;
+&lt;p&gt;
+It used to be my favorite session but it&amp;#39;s slipped behind &amp;#34;It seemed
+like a good idea at the time&amp;#34; and a couple of others this year -
+including &amp;#34;Microteaching.&amp;#34; That&amp;#39;s not a knock on Nifty assignments,
+it&amp;#39;s still a fun session but when you combine the fact that the
+presentations are discrete assignments and Nick Parlante and team have
+both put together a nice web site to present all the assignments and
+have the submissions follow a standardized format, the session has
+become less necessary. Still fun and worthwhile but if I missed it, I
+know I&amp;#39;d be able to get most of the value of the session from the web
+site. Oh, and the site can be found here: &lt;a href=&#34;http://nifty.stanford.edu/&#34;&gt;&lt;a href=&#34;http://nifty.stanford.edu/&#34;&gt;http://nifty.stanford.edu/&lt;/a&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+The session is pretty straightforward. Each speaker walks the audience
+through their assignment. One point that Nick Parlante brought up,
+though, that I never thought about before was that these are all
+packaged assignments - that is, you could adapt them but you could
+also use them as is. This was not about pedagogy or instruction. In
+fact, he said something to the effect of - you&amp;#39;re lectures are your
+lectures just like you&amp;#39;ve always done but you can make part of the
+class memorable with a really nifty assignment. I disagree in that a
+class itself can be interesting, memorable, and even perhaps fun but
+Parlante had a valid point that even if a class is old school lecture
+based, an interesting assignment can always spice things up in a
+positive way.&lt;/p&gt;
+&lt;p&gt;
+Back in the day a lot of Nifty assignments were just take a regular
+assignment and add graphics on top. I guess it was a step in a new
+direction but not really that nifty.&lt;/p&gt;
+&lt;p&gt;
+Now, there&amp;#39;s a much wider range of topics and a wider range of
+&amp;#34;niftiness.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+Some still leveraged graphics, and that&amp;#39;s fine - that will certainly
+motivate a subset of students but it was nice to see other, non
+graphics approaches that will excite others.&lt;/p&gt;
+&lt;p&gt;
+Many of the assignments relied on relating to current real world
+topics or by using real world data. Others, like the Enigma Machine
+simulation was rich with history. Still others used games and one
+focused on music.&lt;/p&gt;
+&lt;p&gt;
+Looking over the web site, most of the assignments are for CS1 but
+there are a bunch for CS2 and some for CS0. Personally, I&amp;#39;ve been
+using the &lt;a href=&#34;http://nifty.stanford.edu/2021/schwarz-linked-list-labyrinth/&#34;&gt;Linked List Labyrinth&lt;/a&gt; with my CS2 students since I first saw
+the assignment. &lt;/p&gt;
+&lt;p&gt;
+If you teach CS1, CS2, or even a CS0, take a look at the site. Lots of
+fun stuff there.&lt;/p&gt;
+&lt;p&gt;
+Nifty, along with ISLaGIATT and Microteaching formed a nice little
+unofficial track for actual teaching and that&amp;#39;s what I&amp;#39;ll explore in
+my final SIGCSE 2023 post.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>SIGCSE 2023 Microteaching</title>
@@ -47,27 +156,13 @@ session.&lt;/p&gt;
 As I said, after each mini lesson, Colleen shared what she saw as good
 practices.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Using manipulatives&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;give students time to process questions&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;give explicit goals&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;read what&amp;#39;s on the board aloud&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;use activities that involve the students&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;create interesting motivations that lead to the topic&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;and more&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Using manipulatives&lt;/li&gt;
+&lt;li&gt;give students time to process questions&lt;/li&gt;
+&lt;li&gt;give explicit goals&lt;/li&gt;
+&lt;li&gt;read what&amp;#39;s on the board aloud&lt;/li&gt;
+&lt;li&gt;use activities that involve the students&lt;/li&gt;
+&lt;li&gt;create interesting motivations that lead to the topic&lt;/li&gt;
+&lt;li&gt;and more&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;All were good, except I have a minor quibble with one that
 I&amp;#39;ll get to below. Overall this made me happy. I had never seen a
@@ -192,16 +287,10 @@ I&amp;#39;ve frequently come out against drag and drop languages but that&amp;#3
 later grades and this is middle school so I&amp;#39;m fine with it here. I do
 have some questions relating to drag and drop in general:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;how do you deal with large programs on small screens?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Is there a difference in learning by dragging blocks vs say typing
-words, vs even writing words?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Jigsaw puzzle programming&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;how do you deal with large programs on small screens?&lt;/li&gt;
+&lt;li&gt;Is there a difference in learning by dragging blocks vs say typing
+words, vs even writing words?&lt;/li&gt;
+&lt;li&gt;Jigsaw puzzle programming&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;but those are questions for another time.&lt;/p&gt;
 &lt;p&gt;
@@ -224,15 +313,9 @@ So that&amp;#39;s it for today.&lt;/p&gt;
 &lt;p&gt;
 Still to come?&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Microteaching&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Nifty Assignments&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;And also some closing thoughts&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Microteaching&lt;/li&gt;
+&lt;li&gt;Nifty Assignments&lt;/li&gt;
+&lt;li&gt;And also some closing thoughts&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -264,21 +347,11 @@ really steal their program and process.&lt;/p&gt;
 To start they have a bunch of instructors bought in and they&amp;#39;re
 integrating writing in five core classes:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;CS 2&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Data Structures&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Computer Architecture&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Theory&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Systems&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;CS 2&lt;/li&gt;
+&lt;li&gt;Data Structures&lt;/li&gt;
+&lt;li&gt;Computer Architecture&lt;/li&gt;
+&lt;li&gt;Theory&lt;/li&gt;
+&lt;li&gt;Systems&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Right off the bat I love this - 5 classes over two, maybe three years
 with different instructors all in agreement that their students have

@@ -6,10 +6,200 @@
     <description>C&#39;est la Z (tech)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Dec 2019 11:56:23 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 15 Sep 2023 11:52:12 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/categories/tech/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>Who Should Teach Tech Job Skills</title>
+      <link>https://cestlaz.github.io/post/who-teach-tech-skills/</link>
+      <pubDate>Fri, 15 Sep 2023 11:52:12 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/who-teach-tech-skills/</guid>
+      <description>&lt;p&gt;
+Relating to the linkedin post that spawned my last blog &lt;a href=&#34;https://cestlaz.github.io/post/work-on-open-source/&#34;&gt;post&lt;/a&gt; a friend noted:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;… why should it be the burden on companies trying to
+hire folks with those skillsets to also teach those skillsets? Isn’t
+that what educational institutions are supposed to do (git, etc.)?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+Even though companies, if they actually cared about equity and
+diversity would be better served to take on this burden, the reality
+is that they haven&amp;#39;t and it&amp;#39;s either left for students on their own,
+or as I commented on in my &lt;a href=&#34;https://cestlaz.github.io/post/work-on-open-source/&#34;&gt;post&lt;/a&gt; colleges.&lt;/p&gt;
+&lt;p&gt;
+I get where my friend is coming from but he is much younger than I am
+so he doesn&amp;#39;t know that technical training was in fact all on the
+companies but somewhere along the line, probably in search of greater
+corporate profits, they stopped.&lt;/p&gt;
+&lt;p&gt;
+When I came out of college at the end of the 80s training programs
+were the norm. The training program could be a couple of weeks or it
+could be many months. You&amp;#39;d learn about the business - Wall Street in
+my case at Goldman and also the technical side. My training program
+had a track where they taught the C language and then my group, once I
+was actually assigned then had training in Windows
+programming. Outside courses were also free for the taking if they
+would make for a more productive employee.&lt;/p&gt;
+&lt;p&gt;
+Smaller companies didn&amp;#39;t have training programs but they also had much
+simpler requirements. I interviewed at a smaller finance house and the
+only tech I would need was how to use Turbo Pascal. An insurance
+company just required Paradox programming - a popular PC database from
+back in the day. This is a far cry from today where complexity abounds
+and there&amp;#39;s probably multiple courses worth of material one needs to
+be productive in the tech world. &lt;/p&gt;
+&lt;p&gt;
+This made sense for the companies at the time and it also made sense how it
+evolved. Prior to CS being &amp;#34;a thing&amp;#34; there was no specific college to
+prepare one for industry and as CS developed, it developed as an
+academic field like say Chemistry, Math, or History. Those subjects
+weren&amp;#39;t directly focused on getting jobs so why would CS be? I guess
+finance and accounting in business programs are more job focussed but
+then so is IT (Information Technology) that developed also in business
+schools. IT, however, is not CS and what you learn in an IT major is
+very different other than some of the lower courses than the CS skills
+that are required to get a software engineering job &lt;sup class=&#34;footnote-reference&#34;&gt;&lt;a id=&#34;footnote-reference-1&#34; href=&#34;#footnote-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;
+At some point between when I graduated and I started paying attention
+again the training programs were gone. Sure, companies like Meta still
+have their new hire boot camps but there&amp;#39;s an assumption that you know
+far more non-classroom tech than they did back in the day.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr class=&#34;footnotes-separatator&#34;&gt;
+&lt;div class=&#34;footnote-definitions&#34;&gt;
+&lt;div class=&#34;footnote-definition&#34;&gt;
+&lt;sup id=&#34;footnote-1&#34;&gt;&lt;a href=&#34;#footnote-reference-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+&lt;div class=&#34;footnote-body&#34;&gt;
+&lt;p&gt;I know, a lot of the CS major is not relevant to SWE jobs but
+you do need data structures and algorithms and sometimes more to get
+past the ridiculous interview process.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m guessing that moving forward, colleges will teach more of the
+practical side - this has already been happening with new courses like
+web development and new majors like software engineering. It&amp;#39;s also
+something that created an opening for code schools and boot camps even
+though I think those are largely flawed.&lt;/p&gt;
+&lt;p&gt;
+It also reminds me that in a way things were better back then - a
+young college kid had more doors or at least possible doors open to
+them since the companies would take a more raw candidate but people
+today don&amp;#39;t even know what they&amp;#39;re missing.&lt;/p&gt;
+&lt;p&gt;
+Unfortunately, the same is true for things fare more important than
+learning git.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Technical Interview - we can do better</title>
+      <link>https://cestlaz.github.io/post/tech-interview-better/</link>
+      <pubDate>Thu, 06 Apr 2023 10:22:02 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/tech-interview-better/</guid>
+      <description>&lt;p&gt;
+I&amp;#39;m spending the week down in Atlanta. Never been before but since
+Batya is spending the semester teaching at Georgia State University,
+it seemed like a good chance to see her teach and check out a new
+town.&lt;/p&gt;
+&lt;p&gt;
+That was the plan anyway. At least until I made the unfortunate
+decision to come down with Covid again. Symptoms are mild but I&amp;#39;m
+stuck camping out in our Airbnb while Devorah and Batya can see the
+sights.&lt;/p&gt;
+&lt;p&gt;
+So, might as well spend the time writing a post or two.&lt;/p&gt;
+&lt;p&gt;
+The other day a younger friend announced that he got a new job on
+LinkedIn. He was caught up in an earlier round of big tech layoffs so
+it was nice to see him landing on his feet rather quickly. Still,
+knowing what he always brought to the table, I was surprised he was
+let go to begin with but then, so many big companies have positively
+moronic layoff policies.&lt;/p&gt;
+&lt;p&gt;
+Anyway, my friend was lamenting the technical interview process. As a
+devops person the algorithmic trick questions really don&amp;#39;t apply,
+particularly since he already has a track record of actual, you know,
+devops work to point to. He actually called an interviewer on this at
+one point and even though, I&amp;#39;m sure he was 100% right, it did not go
+well. While he didn&amp;#39;t go into details he talked about the interview
+process that landed him his forthcoming job and how it was much more
+reasonable and relevant to both the role he was applying for and if it
+and he were a fit.&lt;/p&gt;
+&lt;p&gt;
+The technical interview - that algorithmic brain teaser has been
+popular at big tech for a long time now. The big boys - Google,
+Facebook, and the others use it and since tech is a copycat league, so
+do most small houses.&lt;/p&gt;
+&lt;p&gt;
+If you&amp;#39;re not familiar, the idea is that the candidate is presented
+with a problem to solve - something similar to the problems you&amp;#39;d get
+in a programming competition. It might be something like writing a
+routine to reverse a singly linked list or print the nodes in a binary
+tree level-wise. Of course, they can get much trickier and the
+candidate is doing this under the gun. It&amp;#39;s stressful and in my view
+not a great way to assess a candidate.&lt;/p&gt;
+&lt;p&gt;
+The truth is, while there are some people who can just solve these
+problems on the fly, the reality is, for most people, they have to
+specifically train for this style of interview. The more problems they
+do, the more likely they&amp;#39;ll see something they&amp;#39;ve already done or
+something similar to what they&amp;#39;ve already done.&lt;/p&gt;
+&lt;p&gt;
+Then it becomes the &amp;#34;can I fake it to make it look like I haven&amp;#39;t seen
+this problem before&amp;#34; interview.&lt;/p&gt;
+&lt;p&gt;
+This is why schools where students have an easier time getting
+together to work on and share solutions have a huge edge in this
+process (read that as rich elite schools where kids live on campus and
+don&amp;#39;t have to work to pay the bills).&lt;/p&gt;
+&lt;p&gt;
+This whole process works for the big and/or hot company - the Google&amp;#39;s
+of the world because they can afford to miss a huge number of great
+candidates who wash out on the technical interview just so long as
+they fill their quota with candidates who can pass their test. Sure,
+it hurts diversity, equity, and yeah, talent, but if we&amp;#39;re really
+being honest, big tech talks the equity and diversity talk much more
+than they walk the walk.&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s bad enough that the big boys use this flawed but convenient for
+them method. It&amp;#39;s worse that everyone else feels compelled to do the
+same. It makes for a miserable stressful job search and in the end,
+for the vast majority of tech employees who were hired through this
+process, they never need to think about problems like these again.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m reminded of another friend of mine, Dan, who has been CTO / Head
+of Engineering for a number of small to mid size companies. He doesn&amp;#39;t
+do a Google style technical interview. He told me once &amp;#34;I can&amp;#39;t
+compete with Google. If I do the same interview that they do, I&amp;#39;ll
+only get Google washouts - if they can pass the Google interview,
+they&amp;#39;ll certainly chose Google over me.&amp;#34; He came to the sensible
+conclusion that he needed to come up with another way of assessing
+candidate fit - something that would catch the amazing employee who
+didn&amp;#39;t thrive under the algorithmic tech interview. It might make the
+process more complicated for the company or more time consuming but I
+wish more places followed Dan&amp;#39;s lead. &lt;/p&gt;
+&lt;p&gt;
+In addition to my friend&amp;#39;s post, I&amp;#39;ve also been thinking about this
+since I&amp;#39;ve been teaching data structures and specifically run time and
+whenever I do this I mull over where my focus should be. How important
+are the specific data structures we teach given that the minority of
+CS students will ever go on to need to know them at the level of
+detail we teach? Do we need to actually prove the run time of
+algorithms? Should we do more interview type problems because our kids
+by and large need them?&lt;/p&gt;
+&lt;p&gt;
+These are questions that should probably be talked about more in
+college CS programs. I&amp;#39;ll share my specific thoughts on where I think
+the emphasis should be next time.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Keeping Current Between Semesters</title>

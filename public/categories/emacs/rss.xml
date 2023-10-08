@@ -6,10 +6,1270 @@
     <description>C&#39;est la Z (emacs)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Oct 2021 16:38:20 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 18 Sep 2023 13:57:18 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/categories/emacs/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>Learning Elisp 10 - elisp data structures</title>
+      <link>https://cestlaz.github.io/post/learning-elisp-10/</link>
+      <pubDate>Mon, 18 Sep 2023 13:57:18 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/learning-elisp-10/</guid>
+      <description>
+&lt;p&gt;
+I&amp;#39;m leaving our next elisp project for when I get back from my
+vacation but realized I could make a short video with some
+preliminaries - some elisp tools that we&amp;#39;ll need that we can get out
+of the way.&lt;/p&gt;
+&lt;p&gt;
+Specifically, elisp&amp;#39;s built in data structures. &lt;/p&gt;
+&lt;p&gt;
+We&amp;#39;ve already used the &lt;strong&gt;list&lt;/strong&gt; data structure and in this video we go a
+bit more in depth.&lt;/p&gt;
+&lt;p&gt;
+Lists are great for, well, list processing but they&amp;#39;re not great for
+random access. For that we can use vectors. Think of them like arrays
+in other languages but with a functional way of accessing:&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (setq v [&lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;30&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;40&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;]) &lt;span style=&#34;color:#75715e&#34;&gt;;; define a vector&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (&lt;span style=&#34;color:#a6e22e&#34;&gt;aref&lt;/span&gt; v &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;) &lt;span style=&#34;color:#75715e&#34;&gt;;; returns the 20, the value in index 1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (&lt;span style=&#34;color:#a6e22e&#34;&gt;aset&lt;/span&gt; v &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;) &lt;span style=&#34;color:#75715e&#34;&gt;;; stores 100 in index i&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;;; the vector will now have [10 100 30 40 50]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (&lt;span style=&#34;color:#a6e22e&#34;&gt;mapcar&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;#&amp;#39;1+&lt;/span&gt; v)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;;; the above returns a new list with (2 101 31 41 51)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Note in that last example above we can use mapcar which we covered in
+an earlier video on vectors as well as lists but the return is a new
+list, not a vector.&lt;/p&gt;
+&lt;p&gt;
+We also cover elisp hash tables which are similar to python
+dictionaries. With them you can store and retrieve values based on
+keys (key value pairs). We&amp;#39;re not actually going to use them in the
+next project so you can see the video for details.&lt;/p&gt;
+&lt;p&gt;
+The data structure we will be using are association lists. You can
+think of them as a lightweight hash table. Basically a list of
+pairs. A pair is a special form of a list that only has two items
+(well, not exactly but see the video for details). We write them by
+putting a period between the two elements - &lt;code&gt;(1 . 2)&lt;/code&gt;  - that&amp;#39;s a pair
+with 1 as the first part and 2 as the second.&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s an association list and how we use it:&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (setq a &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#39;&lt;/span&gt;((&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;one value&amp;#34;&lt;/span&gt;) (&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;two value&amp;#34;&lt;/span&gt;) (&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;three value&amp;#34;&lt;/span&gt;)))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (&lt;span style=&#34;color:#a6e22e&#34;&gt;assoc&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; a) &lt;span style=&#34;color:#75715e&#34;&gt;;; returns (2 . &amp;#34;two value&amp;#34;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (&lt;span style=&#34;color:#a6e22e&#34;&gt;cdr&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;assoc&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; a)) &lt;span style=&#34;color:#75715e&#34;&gt;;; returns &amp;#34;two value&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (rest (&lt;span style=&#34;color:#a6e22e&#34;&gt;assoc&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; a)) &lt;span style=&#34;color:#75715e&#34;&gt;;; also returns &amp;#34;two value&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+In our next project, we&amp;#39;ll use association lists to store the string
+names for emojis as the keys and the actual emojis for the values.&lt;/p&gt;
+&lt;p&gt;
+That&amp;#39;s it for now. More in a few weeks.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Code:
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+The code for the series is still up here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.com/zamansky/learning-elisp-code&#34;&gt;https://gitlab.com/zamansky/learning-elisp-code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;but this episode doesn&amp;#39;t have any specific code.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+The videos:
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/oszVyBvxmzg?si=TMjUlMSI1TQQYnPT&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;
+Video link: &lt;a href=&#34;https://youtu.be/oszVyBvxmzg&#34;&gt;https://youtu.be/oszVyBvxmzg&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning Elisp 9</title>
+      <link>https://cestlaz.github.io/post/learning-elisp-9/</link>
+      <pubDate>Tue, 29 Aug 2023 12:41:24 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/learning-elisp-9/</guid>
+      <description>
+&lt;p&gt;
+In this video, we&amp;#39;re finally putting everything together for the
+function-header project.&lt;/p&gt;
+&lt;p&gt;
+for the most part, it&amp;#39;s just putting a function wrapper (defun) around
+code we&amp;#39;ve already written but there area a few new things.&lt;/p&gt;
+&lt;p&gt;
+In order to parse the parameter string we use a few interesting
+functions. The parameter string might look something like this &amp;#34;int a,
+double d, int something, char c&amp;#34; - type name pairs separate by a comma
+and space. To parse this into a list, we can use string-split. We use
+~(string-split param-string &amp;#34;, &amp;#34;) which splits around the comma/space
+separators. This gives us a list &lt;code&gt;(&amp;#34;int a&amp;#34; &amp;#34;double d&amp;#34; &amp;#34;int something&amp;#34;
+&amp;#34;char c&amp;#34;)&lt;/code&gt;  In elisp, stuff in parens is a list. We&amp;#39;ve usually been
+interpreting lists as functions where the first item is the name and
+the rest the parameters but we can also use them strictly as data.&lt;/p&gt;
+&lt;p&gt;
+We then revisit the mapcar function that we used in rot13. Mapcar
+takes a function and a list and then returns a new list having applied
+the function to each element. In our case, we use the &lt;code&gt;format&lt;/code&gt;
+function we covered last time to reformat each paramter into a javadoc
+string.&lt;/p&gt;
+&lt;p&gt;
+Finally, we use &lt;code&gt;string-join&lt;/code&gt; to join all the parameter string
+elements in our list back into one string.&lt;/p&gt;
+&lt;p&gt;
+The other new elisp function we look at is &lt;code&gt;save-excursion&lt;/code&gt;. It&amp;#39;s
+pretty simple but very useful for editor functions. It basically saves
+the location of the point, does everything in its body and then
+restores the point to where it was.&lt;/p&gt;
+&lt;p&gt;
+So, if you had this code block:&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (next-line &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (&lt;span style=&#34;color:#a6e22e&#34;&gt;forward-char&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (do some stuff)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Your cursor (point) would have moved down 5 and 3 across and the stuff
+would be done. When the block ends, the point would be wherever it was
+moved to.&lt;/p&gt;
+&lt;p&gt;
+If, instead we do this:&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (save-excursion
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (next-line &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (&lt;span style=&#34;color:#a6e22e&#34;&gt;forward-char&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (do some stuff))&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Then the same thing happens but at the end, the point is restored to
+where it was when you started.&lt;/p&gt;
+&lt;p&gt;
+I also started using &lt;a href=&#34;https://github.com/xiongtx/eros&#34;&gt;eros&lt;/a&gt; mode which temprarily overlays the results of elisp
+forms when you execute them. If you use Cider for Clojure development
+it looks a lot like that. It&amp;#39;s easy and very useful for interactive
+development.&lt;/p&gt;
+&lt;p&gt;
+Finally, as I mention in the video, I&amp;#39;ll be away for a couple of weeks
+at the end of September and into October. Visiting Utrecht, Brussels,
+Antwerp, and Amsterdam so if you&amp;#39;ve got any hidden gems for us to
+visit please let us know. I really mention this though because it will
+likely affect my video making schedule. Our next project - displaying
+emojis automatically, is going to be three or four videos. Maybe
+more. I don&amp;#39;t know if it makes sense to start 1 and then take the big
+break so I might pause this project until I&amp;#39;m back in mid October or
+maybe just do a one off before I go away. We&amp;#39;ll seen.&lt;/p&gt;
+&lt;p&gt;
+In the meantime, enjoy this one.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Code:
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+The code for the series is still up here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.com/zamansky/learning-elisp-code&#34;&gt;https://gitlab.com/zamansky/learning-elisp-code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;but this episode doesn&amp;#39;t have any specific code.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+The videos:
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/DqHuCePi2FA?si=h56rRPT1gK6hvmB0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;
+Video link: &lt;a href=&#34;https://www.youtube.com/watch?v=DqHuCePi2FA&#34;&gt;https://www.youtube.com/watch?v=DqHuCePi2FA&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning Elisp 8</title>
+      <link>https://cestlaz.github.io/post/learning-elisp-8/</link>
+      <pubDate>Mon, 21 Aug 2023 17:16:45 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/learning-elisp-8/</guid>
+      <description>
+&lt;p&gt;
+Today&amp;#39;s video gets us closer to our function header, um, function.&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;ll take one more video to get there but today&amp;#39;s video goes over the
+programmatic elisp that we&amp;#39;ll need.&lt;/p&gt;
+&lt;p&gt;
+Before we get to that, a couple of elisp regex niceties. To be honest,
+I didn&amp;#39;t know that these existed when I made the last video so thanks
+for those of you who made me aware.&lt;/p&gt;
+&lt;p&gt;
+First is the built in &lt;code&gt;rx&lt;/code&gt; macro. It lets you use a more verbose elisp type
+syntax for regular experssions.&lt;/p&gt;
+&lt;p&gt;
+For example, instead of &amp;#34;Mr|Ms [A-Z][a-z]+ [A-Z][a-z]+&amp;#34; for a simple
+Mr John Smith or Ms Sarah Stone or similar names, you could write:&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (rx  (seq &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Mr|Ms &amp;#34;&lt;/span&gt; (any &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;A-Z&amp;#34;&lt;/span&gt;) (one-or-more (any &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;a-z&amp;#34;&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         (any &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;A-Z&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         (one-or-more (any &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;a-z&amp;#34;&lt;/span&gt;))))&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+which would evaluate to the more terse regular expression string.&lt;/p&gt;
+&lt;p&gt;
+On the flip side there&amp;#39;s the package &lt;code&gt;xr&lt;/code&gt; ([[&lt;a href=&#34;https://github.com/mattiase/xr&#34;&gt;https://github.com/mattiase/xr&lt;/a&gt;
+][link]]) which does the reverse. You
+give it the standard regex string and it will produce the more verbose
+elisp type syntax.&lt;/p&gt;
+&lt;p&gt;
+This verbose elisp regex notation reminds me of a couple of clojure
+tools I use. One is hiccup. That lets you use clojure structures for
+html. For example:&lt;/p&gt;
+&lt;div class=&#34;src src-clojure&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-clojure&#34; data-lang=&#34;clojure&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (&lt;span style=&#34;color:#a6e22e&#34;&gt;hiccup/html&lt;/span&gt; [&lt;span style=&#34;color:#e6db74&#34;&gt;:span&lt;/span&gt; {&lt;span style=&#34;color:#e6db74&#34;&gt;:class&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;foo&amp;#34;&lt;/span&gt;} &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;bar&amp;#34;&lt;/span&gt;])&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+would yield &amp;#34;&amp;lt;span class=\&amp;#34;foo\&amp;#34;&amp;gt;bar&amp;lt;/span&amp;gt;&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+There&amp;#39;s a similar tool, honeysql that clojurists  can use for sql. &lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m a big fan of hiccup and related tools but I probably won&amp;#39;t be
+using rx and xr moving forward.&lt;/p&gt;
+&lt;p&gt;
+Why not?&lt;/p&gt;
+&lt;p&gt;
+Context switching.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m just or actually more likely to use regular expressions in
+languages other than elisp. In fact, I&amp;#39;ll most regularly use them on
+the command line with grep type tools. I&amp;#39;ll also use them in other
+programming languages. Since the elisp syntax only exists in elisp,
+there&amp;#39;s less of a benefit to me. I do suppose that if I was doing a
+deep dive into writing elisp for a while, it would be more attractive.&lt;/p&gt;
+&lt;p&gt;
+The clojure tools show this. When I do webdev, I&amp;#39;m living in one
+ecosystem for all the front end work so it makes sense to use a tool
+like hiccup. Besides, html is multiline so looks particularly ugly
+when embedded in code (jsx notwithstanding). Same for sql.&lt;/p&gt;
+&lt;p&gt;
+Still rx and xr are well worth knowing and playing with.&lt;/p&gt;
+&lt;p&gt;
+Now for the star attractions - dealing with our regular expressions in
+elisp.&lt;/p&gt;
+&lt;p&gt;
+The first call is &lt;code&gt;string-match&lt;/code&gt; which does two things.&lt;/p&gt;
+&lt;p&gt;
+First, it returns the index where the match starts (or nil if it isn&amp;#39;t
+present) and it also sets up some internal data structure so that you
+can extract the match groups. &lt;/p&gt;
+&lt;p&gt;
+There&amp;#39;s also an additional optional third parameter, INHIBIT-MODIFY
+which if it&amp;#39;s nil or not present the &amp;#34;match data is changed&amp;#34; and we
+can use the &lt;code&gt;match-string&lt;/code&gt; function to extract our groups. I think I
+garbled that part in the video but this is right from the
+documentation.&lt;/p&gt;
+&lt;p&gt;
+For example, in:&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (setq regex &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;\\([a-z0-9]+\\) +\\([a-zA-Z0-9_]+\\)(\\([a-zA-Z0-9_ ,]+\\)&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (setq line &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;int add_two(int a, int b)&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (&lt;span style=&#34;color:#a6e22e&#34;&gt;string-match&lt;/span&gt; regex line)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (setq retval (match-string &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; line))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (setq func-name (match-string &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; line))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (setq params (match-string &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt; line))&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+string-match returns 0 since the match starts at the first character.&lt;/p&gt;
+&lt;p&gt;
+We then use the match-string function to extract each of the
+parenthesized groups.&lt;/p&gt;
+&lt;p&gt;
+We also have to be careful with the match-string function. It&amp;#39;s a bit
+fragile. The documentation says that you should call it &amp;#34;close&amp;#34; to the
+call to string-match since the match data might be mutated. That&amp;#39;s
+illustrated in the video.&lt;/p&gt;
+&lt;p&gt;
+Finally, we cover the &lt;code&gt;format&lt;/code&gt; function which is like C&amp;#39;s printf. It
+accepts a format string with placeholders and the additional
+parameters to fill those placeholders.&lt;/p&gt;
+&lt;p&gt;
+For example:&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (setq word1 &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;hello&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (setq word2 &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;world&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (&lt;span style=&#34;color:#a6e22e&#34;&gt;format&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Replace1: %s Replace2: %s&amp;#34;&lt;/span&gt; word1 word2)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+The format returns &amp;#34;Replace1: hello Replace2: world&amp;#34; having replaced
+the placeholders with parameters. There are also other placeholders
+for different data types.&lt;/p&gt;
+&lt;p&gt;
+The video covers all of this in detail.&lt;/p&gt;
+&lt;p&gt;
+Next time, we&amp;#39;ll put it all together into a working elisp function
+that we can bind to a key&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Code:
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+The code for the series is still up here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.com/zamansky/learning-elisp-code&#34;&gt;https://gitlab.com/zamansky/learning-elisp-code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;but this episode doesn&amp;#39;t have any specific code.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+The videos:
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/2hbX4h4ZdAc&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;
+Video link: &lt;a href=&#34;https://www.youtube.com/watch?v=2hbX4h4ZdAc&#34;&gt;https://www.youtube.com/watch?v=2hbX4h4ZdAc&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning Elisp 7</title>
+      <link>https://cestlaz.github.io/post/learning-elisp-7/</link>
+      <pubDate>Tue, 15 Aug 2023 10:51:37 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/learning-elisp-7/</guid>
+      <description>
+&lt;p&gt;
+Our next elisp project us going to write a function that will
+automatically generate function headers. This was actually the first
+useful elisp I ever wrote around thirty years ago. I forget how I
+wrote it then so this is a total rewrite.&lt;/p&gt;
+&lt;p&gt;
+Nowadays we have &lt;a href=&#34;https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html&#34;&gt;Javadoc&lt;/a&gt; for java and tools like &lt;a href=&#34;https://www.sphinx-doc.org/en/master/&#34;&gt;Sphinx&lt;/a&gt; for other
+languages. If we write specially formatted comments in our code, these
+tools will pull out the comments and build a web site or document with
+hyperlinked documentation.&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s an example of javadoc commenting that I found online:&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;/**
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt; * &amp;lt;p&amp;gt;This is a simple description of the method. . .
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt; * &amp;lt;a href=&amp;#34;http://www.supermanisthegreatest.com&amp;#34;&amp;gt;Superman!&amp;lt;/a&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt; * &amp;lt;/p&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt; * @param incomingDamage the amount of incoming damage
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt; * @return the amount of health hero has after attack
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt; * @see &amp;lt;a href=&amp;#34;http://www.link_to_jira/HERO-402&amp;#34;&amp;gt;HERO-402&amp;lt;/a&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt; * @since 1.0
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt; */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;successfullyAttacked&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; incomingDamage&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// do things
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Note the extra * on the open comment line. That tells Javadoc to
+process the block and turn it into html. You can look at the online
+Java documentation to see plenty of examples (like &lt;a href=&#34;https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html#indexOf-java.lang.Object-&#34;&gt;this&lt;/a&gt; one).&lt;/p&gt;
+&lt;p&gt;
+Back when I was coding professionally, Java didn&amp;#39;t exist let alone
+javadoc but programmers like me wrote our own small tools that worked
+similarly. It was just a good idea.&lt;/p&gt;
+&lt;p&gt;
+For our elisp, we want to be able to take the top line that declares
+our function:&lt;/p&gt;
+&lt;div class=&#34;src src-c&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;add_two&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a,&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; b){&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+And from that isolate the three components:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;return type (int)&lt;/li&gt;
+&lt;li&gt;function name (add_two)&lt;/li&gt;
+&lt;li&gt;parameters (int a and int b)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+From there, we can build a comment block like this:&lt;/p&gt;
+&lt;div class=&#34;src src-c&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;/*------------------- add_two ------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;    Parameters: int a -
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;                int b -
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;    Returns: int
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;    Description
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;    MZ
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;  */&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+To isolate those components we&amp;#39;re going to use regular expressions.&lt;/p&gt;
+&lt;p&gt;
+For those that aren&amp;#39;t familiar with them, regular expressions (regex)
+form a language to perform text pattern matching. Think &amp;#34;find and
+replace on steroids.&amp;#34; Emacs and most other editing tools, including
+things like spreadsheets all have support for regular experssions.&lt;/p&gt;
+&lt;p&gt;
+In this video, we are going to go over the fundamentals in the
+editor. We&amp;#39;ll specifically use &lt;code&gt;replace-regexp&lt;/code&gt; and
+&lt;code&gt;rexep-builder&lt;/code&gt;. In the next video, we&amp;#39;ll learn how to do this in
+elisp and then write our function header creator.&lt;/p&gt;
+&lt;p&gt;
+Here are some basics:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;regex&lt;/th&gt;
+&lt;th&gt;will match&lt;/th&gt;
+&lt;th&gt;Example&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;a&lt;/td&gt;
+&lt;td&gt;the letter a&lt;/td&gt;
+&lt;td&gt;the a in &lt;strong&gt;ball&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;aa&lt;/td&gt;
+&lt;td&gt;two in a row&lt;/td&gt;
+&lt;td&gt;the aa at the start of &lt;strong&gt;aardvark&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[a-c]&lt;/td&gt;
+&lt;td&gt;a b or c&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;.&lt;/td&gt;
+&lt;td&gt;any single character&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;a.&lt;/td&gt;
+&lt;td&gt;the letter a followed by any character&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+And there are tons more urles.&lt;/p&gt;
+&lt;p&gt;
+The video goes through a bunch of examples including how to use a
+regex to transform all the money values in your text to $XXX.XX or how
+to convert all the dates in the form month/day/year into
+day-month-year.&lt;/p&gt;
+&lt;p&gt;
+You can also dig more deeply by looking at any of these online
+tutorials:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://regexone.com/&#34;&gt;https://regexone.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ziishaned/learn-regex/blob/master/README.md&#34;&gt;https://github.com/ziishaned/learn-regex/blob/master/README.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.javatpoint.com/regex&#34;&gt;https://www.javatpoint.com/regex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://regexlearn.com/&#34;&gt;https://regexlearn.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;or searching for videos online.&lt;/p&gt;
+&lt;p&gt;
+By the end of our video, we have our regex to identify three
+components in a function header but note that I only wrote it for
+lower case letters - we&amp;#39;ll fix that when we write the actual
+function next time.&lt;/p&gt;
+&lt;p&gt;
+For now, enjoy this one covering the basics:&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Code:
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+The code for the series is still up here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.com/zamansky/learning-elisp-code&#34;&gt;https://gitlab.com/zamansky/learning-elisp-code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;but this episode doesn&amp;#39;t have any specific code.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+The videos:
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/-kyJLcsiH_4&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;
+Video link: &lt;a href=&#34;https://www.youtube.com/watch?v=-kyJLcsiH_4&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=-kyJLcsiH_4&#34;&gt;https://www.youtube.com/watch?v=-kyJLcsiH_4&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning Elisp - Rot13 conclusion</title>
+      <link>https://cestlaz.github.io/post/learning-elisp-6/</link>
+      <pubDate>Mon, 07 Aug 2023 11:59:44 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/learning-elisp-6/</guid>
+      <description>
+&lt;p&gt;
+Two more videos to finish up the rot13 project.&lt;/p&gt;
+&lt;p&gt;
+The first video covers about &lt;a href=&#34;https://www.gnu.org/software/emacs/manual/html_node/elisp/Prefix-Command-Arguments.html&#34;&gt;prefix arguments&lt;/a&gt;. The idea is when
+calling an Emacs function interactively, you can specify a numeric
+argument either by typing &lt;code&gt;C-u #&lt;/code&gt; where &lt;code&gt;#&lt;/code&gt; is a single digit or &lt;code&gt;M-x
+##&lt;/code&gt; where &lt;code&gt;##&lt;/code&gt; is an integer which can be positive, negative, single
+or multiple digits. You then type the key for your command or invoke
+it with its full name &lt;code&gt;M-x&lt;/code&gt;. This passes the numeric parameter to the
+function.&lt;/p&gt;
+&lt;p&gt;
+In the function, we add a parameter to the &lt;code&gt;(interactive)&lt;/code&gt; form -
+specifically &lt;code&gt;(interactive &amp;#34;P&amp;#34;)&lt;/code&gt; which says that the parameter to our
+function will be that number we passed as a prefix argument or nil if
+there was no prefix argument.&lt;/p&gt;
+&lt;p&gt;
+We use the prefix argument to determine how much to rotate our
+text. If we don&amp;#39;t pass a parameter, we just do a rot13 but if we do,
+we rotate that amount.&lt;/p&gt;
+&lt;p&gt;
+The second video shows how we can use see if there&amp;#39;s an active region
+and if so, run our rotate function on the text in that region. If not,
+rotate the previous word.&lt;/p&gt;
+&lt;p&gt;
+Here are the key Emacs features we instroduce.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Feature&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;mark-active&lt;/td&gt;
+&lt;td&gt;a built in variable which is true if you&amp;#39;ve set the mark&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;(mark)&lt;/td&gt;
+&lt;td&gt;returns an integer representation of where the mark is set&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;(point)&lt;/td&gt;
+&lt;td&gt;returns an integer representation of where the cursor is&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;(buffer-substring-no-properties)&lt;/td&gt;
+&lt;td&gt;returns text from the buffer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Notes from previous videos:
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+A viewer pointed out that the Emacs if statement can actually have
+multiple forms to its false part.&lt;/p&gt;
+&lt;p&gt;
+For example:&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (if true
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        (&lt;span style=&#34;color:#a6e22e&#34;&gt;print&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      (&lt;span style=&#34;color:#a6e22e&#34;&gt;print&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Goodbye&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      )&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+will print &amp;#34;Hello&amp;#34; if &lt;code&gt;condition&lt;/code&gt; is true and &amp;#34;Goodbye&amp;#34; if it&amp;#39;s fales.&lt;/p&gt;
+&lt;p&gt;
+Now, if we have multiple forms int he false part:&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (if conditiotrue
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      (&lt;span style=&#34;color:#a6e22e&#34;&gt;print&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (&lt;span style=&#34;color:#a6e22e&#34;&gt;print&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Goodbye&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (&lt;span style=&#34;color:#a6e22e&#34;&gt;print&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;World&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    )&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+then while it will still print &amp;#34;Hello&amp;#34; if &lt;code&gt;condition&lt;/code&gt; is true, it will
+print both &amp;#34;Goodbye&amp;#34; and &amp;#34;World&amp;#34; if it is false.&lt;/p&gt;
+&lt;p&gt;
+I didn&amp;#39;t know that and appreciated the comment so that I could learn
+something new.&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s the code and video links. &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+Code:
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+Once again, the code is up online:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.com/zamansky/learning-elisp-code&#34;&gt;https://gitlab.com/zamansky/learning-elisp-code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The rot13 code will be in the file rot13.el.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-3&#34;&gt;
+The videos:
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+Prefix Arguments:&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/5oHpxh0JsBE&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;
+Video link: &lt;a href=&#34;https://www.youtube.com/watch?v=5oHpxh0JsBE&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=5oHpxh0JsBE&#34;&gt;https://www.youtube.com/watch?v=5oHpxh0JsBE&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+Rotating a region:&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/YzQ8iG3nZQ8&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;
+Video link: &lt;a href=&#34;https://www.youtube.com/watch?v=YzQ8iG3nZQ8&#34;&gt;https://www.youtube.com/watch?v=YzQ8iG3nZQ8&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning Elisp 5 - Rot13 parts 2 and 3</title>
+      <link>https://cestlaz.github.io/post/learning-elisp-5/</link>
+      <pubDate>Tue, 01 Aug 2023 10:00:24 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/learning-elisp-5/</guid>
+      <description>
+&lt;p&gt;
+Rather than one long boring video, I thought it would be better to
+split up the remainder of the Rot13 project into 4 shorter boring ones
+:-).&lt;/p&gt;
+&lt;p&gt;
+Here are the first two.&lt;/p&gt;
+&lt;p&gt;
+Before we can really do anything interesting, we need to be able write
+programs that make decisions. For that we need conditionals or &lt;code&gt;if&lt;/code&gt;
+statements. That&amp;#39;s covered in the first video.&lt;/p&gt;
+&lt;p&gt;
+Like other languages, elisp has an &lt;code&gt;if&lt;/code&gt; statement but it&amp;#39;s more of an
+&lt;code&gt;if&lt;/code&gt; function. Here&amp;#39;s the outline:&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (if boolean
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      evaluate_to_this_if_boolean_is_true
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      evaluate_to_this_if_boolean_is_false)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+In this basic form, it essentially has both the if and the else parts
+from languages like Python:&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; boolean:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      evaluate_to_this_if_boolean_is_true
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      evaluate_to_this_if_boolean_is_false)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+If you need more than one thing in either the true or false part you
+need another form which we&amp;#39;ll cover later.&lt;/p&gt;
+&lt;p&gt;
+You can also leave out the false part but again, we&amp;#39;ll deal with that
+when it comes up. For now, it&amp;#39;s simpler for our application to have
+both.&lt;/p&gt;
+&lt;p&gt;
+The basic if will cover you in a lot of cases but if you&amp;#39;ve got more
+then a true/false decision the code can get ugly:&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (if boolean1
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      true-part-1
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      (if boolean2 &lt;span style=&#34;color:#75715e&#34;&gt;;; this is the false for boolean1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          true part-2
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          (if boolean3 &lt;span style=&#34;color:#75715e&#34;&gt;;; this is the false for boolean 2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;              true-part
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            false-part)))&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Instead, elisp and many other lisps give us the &lt;code&gt;cond&lt;/code&gt; or
+conditional. The most similar construct in languages like Java or C++
+would be the switch statement but the &lt;code&gt;cond&lt;/code&gt; is much more general and
+much more powerful.&lt;/p&gt;
+&lt;p&gt;
+In a switch statement, you list multiple discrete values for a given
+variable and run some code based on that:&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;switch&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;c&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;case&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;c&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;is&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#66d9ef&#34;&gt;break&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;case&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;c&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;is&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#66d9ef&#34;&gt;break&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;case&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;c&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;is&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#66d9ef&#34;&gt;break&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       etc&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+In a cond, you have multiple clauses with arbitrary conditions and
+what to do for each condition.&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(let ( (grade &lt;span style=&#34;color:#ae81ff&#34;&gt;66&lt;/span&gt;) )
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(cond ( (&lt;span style=&#34;color:#a6e22e&#34;&gt;&amp;lt;&lt;/span&gt; grade &lt;span style=&#34;color:#ae81ff&#34;&gt;65&lt;/span&gt;) &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;F&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      ( (&lt;span style=&#34;color:#a6e22e&#34;&gt;&amp;lt;&lt;/span&gt; grade &lt;span style=&#34;color:#ae81ff&#34;&gt;70&lt;/span&gt;) &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;D&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      ( (&lt;span style=&#34;color:#a6e22e&#34;&gt;&amp;lt;&lt;/span&gt; grade &lt;span style=&#34;color:#ae81ff&#34;&gt;80&lt;/span&gt;) &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;C&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      ( (&lt;span style=&#34;color:#a6e22e&#34;&gt;&amp;lt;&lt;/span&gt; grade &lt;span style=&#34;color:#ae81ff&#34;&gt;90&lt;/span&gt;) &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;B&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      ( &lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;A&amp;#34;&lt;/span&gt;) ))&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+In the above example, there are four independent boolean expressions
+and then the final clause, which will always execute if the code gets
+there because t is always true.&lt;/p&gt;
+&lt;p&gt;
+For the cond, once it evaluates a boolean to true, it evaluates to the
+other part of its clause and returns so in the example above, &amp;#34;D&amp;#34;
+would be returned.&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s the cond from the rot13 code:&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   (cond ((and (&lt;span style=&#34;color:#a6e22e&#34;&gt;&amp;gt;=&lt;/span&gt; c &lt;span style=&#34;color:#e6db74&#34;&gt;?a&lt;/span&gt;) (&lt;span style=&#34;color:#a6e22e&#34;&gt;&amp;lt;=&lt;/span&gt; c &lt;span style=&#34;color:#e6db74&#34;&gt;?z&lt;/span&gt;)) (rotate c offset &lt;span style=&#34;color:#ae81ff&#34;&gt;97&lt;/span&gt;) )
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	 ((and (&lt;span style=&#34;color:#a6e22e&#34;&gt;&amp;gt;=&lt;/span&gt; c &lt;span style=&#34;color:#e6db74&#34;&gt;?A&lt;/span&gt;) (&lt;span style=&#34;color:#a6e22e&#34;&gt;&amp;lt;=&lt;/span&gt; c &lt;span style=&#34;color:#e6db74&#34;&gt;?Z&lt;/span&gt;)) (rotate c offset &lt;span style=&#34;color:#ae81ff&#34;&gt;65&lt;/span&gt;) )
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	 (&lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt; c))&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+The top clause tests for a lowercase letter, the next for upper case
+and the default &lt;code&gt;t&lt;/code&gt; clause if it&amp;#39;s neither - maybe a space or
+punctuation.&lt;/p&gt;
+&lt;p&gt;
+The second video posted here goes over making an interactive rot13
+function using elisp&amp;#39;s &lt;code&gt;(interactive)&lt;/code&gt;. If a function uses
+&lt;code&gt;(interactive)&lt;/code&gt; it can then be called as a command using the M-x
+prefix. It can also be bound to a key combination.&lt;/p&gt;
+&lt;p&gt;
+In the next videos we&amp;#39;ll see how to modify the &lt;code&gt;(interactive)&lt;/code&gt; form so
+that we can pass what are known as prefix arguments and in the final
+installment of the rot13 project we&amp;#39;ll see how we can rot13 a region.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Code
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+I finally got around to making a repo. All the code for this series
+will be made available here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.com/zamansky/learning-elisp-code&#34;&gt;https://gitlab.com/zamansky/learning-elisp-code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The rot13 code will be in the file rot13.el.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+The videos
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+Conditionals:&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/gT8RBdtZtfk&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;
+Video link: &lt;a href=&#34;https://www.youtube.com/watch?v=gT8RBdtZtfk&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=gT8RBdtZtfk&#34;&gt;https://www.youtube.com/watch?v=gT8RBdtZtfk&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+Interactive:&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/WvPXnsNC8JU&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;
+Video link: &lt;a href=&#34;https://www.youtube.com/watch?v=WvPXnsNC8JU&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=WvPXnsNC8JU&#34;&gt;https://www.youtube.com/watch?v=WvPXnsNC8JU&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning Elisp 4 - Rot13 part 1</title>
+      <link>https://cestlaz.github.io/post/learning-elisp-4/</link>
+      <pubDate>Tue, 25 Jul 2023 15:21:56 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/learning-elisp-4/</guid>
+      <description>
+&lt;p&gt;
+It&amp;#39;s been a couple of weeks since my last post. Sorry - been
+repainting the apartment so I was limited to my laptop for a while.&lt;/p&gt;
+&lt;p&gt;
+Now that we&amp;#39;ve gone over a few basics we can explore new elisp
+features while building &amp;#34;useful&amp;#34; things. This video has us building
+code to implement &lt;a href=&#34;https://en.wikipedia.org/wiki/ROT13&#34;&gt;ROT13&lt;/a&gt;. ROT13 is a particular instance of a &lt;a href=&#34;https://en.wikipedia.org/wiki/Caesar_cipher&#34;&gt;Caesar or
+rotational cipher&lt;/a&gt;. In a Caesar Cipher, you take each letter and
+&amp;#34;rotate&amp;#34; it by a certain number of places. For example, if you are
+rotating by 2, the string &amp;#34;abcz&amp;#34; would become &amp;#34;cdeb&amp;#34; with each letter
+moving two over. Note that the &amp;#34;z&amp;#34; has to rotate back to the beginning
+of the alphabet and become a &amp;#34;b.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+I also put &amp;#34;useful,&amp;#34; above in quotes. This is because, while I think
+ROT13 is interesting and will allow us to explore a number of elisp
+concepts, it&amp;#39;s actually already built in to Emacs.&lt;/p&gt;
+&lt;p&gt;
+In the video, I go on for a while about ROT13 and some internet
+history but if you aren&amp;#39;t interested in that, I put a chapter link in
+the video description to skip that part.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Notes on some of the elisp concepts covered:
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-2&#34;&gt;
+Lists
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;
+In elisp, things in parentheses are lists so (+ 2 3) is a list. If you
+have this in a program, however, Emacs will try to evaluate the
+function + on the parameters 2 and 3. In this case, that is what we
+want.&lt;/p&gt;
+&lt;p&gt;
+Other times, we want to use a list as pure date, for example the list
+(1 2 3 4 5). To prevent Emacs from evaluating this list we start it
+with a single quote: &amp;#39;(1 2 3 4 5)&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-3&#34;&gt;
+Strings and Characters
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;
+In Elisp, things in double quotes are strings so &amp;#34;abc&amp;#34; is a string
+with the three characters a, b, and c. Characters can be written
+individually by preceding them with a question mark - ?a for the
+character a.&lt;/p&gt;
+&lt;p&gt;
+In the video, we&amp;#39;ll go into details and also see how Emacs will
+interpret a string as a list of characters and how we can then go back
+from a list of characters to a string.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-4&#34;&gt;
+Mapping functions
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;
+In lisp type languages, we use a lot of what are known as mapping
+functions. The function &lt;code&gt;mapcar&lt;/code&gt; in elisp, takes a function and
+applies it to each element of a list. For example, given this code:&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (defun square (x) (&lt;span style=&#34;color:#a6e22e&#34;&gt;*&lt;/span&gt; x x))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (&lt;span style=&#34;color:#a6e22e&#34;&gt;mapcar&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;#&amp;#39;&lt;/span&gt;square &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#39;&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;))&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+That mapcar function will return the list &amp;#39;(1 4 9 16 25), the list you
+get by applying the square function we wrote to each element of the
+list. The video goes into more details. Note that we have to precede 
+the function square with #&amp;#39; in the mapcar call&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-5&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-5&#34;&gt;
+Lambda
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;
+We also cover anonymous functions in the video - it lets you create a
+&amp;#34;throwaway&amp;#34; function.&lt;/p&gt;
+&lt;p&gt;
+For example, &lt;code&gt;(lambda (x) (* x x))&lt;/code&gt; returns a function that squares
+its parameter. We can use it to square the number 3 like this: &lt;code&gt;(
+(lambda (x) (* x x)) 3)&lt;/code&gt;. In the video we&amp;#39;ll show why this is useful
+when combined with functions like mapcar.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-6&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-6&#34;&gt;
+Misc stuff
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-6&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+For some reason, the video is showing for me at low resolution. If
+this happens to you, click on the options wheel and select a higher
+res.&lt;/p&gt;
+&lt;p&gt;
+Also, I mentioned rec.humor.spc in the video. I found some old Stupid
+People&amp;#39;s Court posts &lt;a href=&#34;https://www.panix.com/~pschleck/spc/&#34;&gt;here&lt;/a&gt;. I thought some of you would enjoy them.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-7&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-7&#34;&gt;
+The video
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-7&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/_3OvTrkSqEE&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;
+Video link: &lt;a href=&#34;https://www.youtube.com/watch?v=_3OvTrkSqEE&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=_3OvTrkSqEE&#34;&gt;https://www.youtube.com/watch?v=_3OvTrkSqEE&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning Elisp 3 - functions</title>
+      <link>https://cestlaz.github.io/post/learning-elisp-3/</link>
+      <pubDate>Thu, 13 Jul 2023 15:17:48 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/learning-elisp-3/</guid>
+      <description>&lt;p&gt;
+Here&amp;#39;s another short video - this one on declaring functions in elisp.&lt;/p&gt;
+&lt;p&gt;
+Not much to say about it. It&amp;#39;s similar to other languages.&lt;/p&gt;
+&lt;p&gt;
+In Python or C++ you might have:&lt;/p&gt;
+&lt;div class=&#34;src src-text&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  # Python 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  def add2(a, b):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    return a+b
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  // C++
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  int add2(int a, int b){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    return a+b;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Elisp is similar:&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (defun add2 (a b)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (&lt;span style=&#34;color:#a6e22e&#34;&gt;+&lt;/span&gt; a b))&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+But it&amp;#39;s a little more &amp;#34;mathy.&amp;#34; You&amp;#39;ve got the special form &lt;strong&gt;defun&lt;/strong&gt;,
+then the name of the function, parameters in parens and then the
+body - all wrapped in parentheses. Note that you don&amp;#39;t explicitly
+write return. It&amp;#39;s mroe like a mathematical expression where it
+returns what the function evaluates to.&lt;/p&gt;
+&lt;p&gt;
+The video also describes the &lt;code&gt;(interactive)&lt;/code&gt; form. By using it, we can
+call our function as a command and bind a key combination to call it.&lt;/p&gt;
+&lt;p&gt;
+I do want to share one quick note on the content though - in the video
+I write &lt;code&gt;(dotimes (i 5) (next-line))&lt;/code&gt; to move down 5 lines. Instead of
+using &lt;code&gt;dotimes&lt;/code&gt; I could have just given a parameter to &lt;code&gt;next-line&lt;/code&gt; -
+that is, wrote &lt;code&gt;(next-line 5)&lt;/code&gt;. I chose to use dotimes in order to
+introduce some control code. I wanted newbies to see it here before we
+revisit control structuers more in depth in later videos.&lt;/p&gt;
+&lt;p&gt;
+Speaking of later videos, here&amp;#39;s whats to come, maybe in a different
+order.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A video, probably with some internet lore and history on writing
+arot13 function which is a special case of a Caesar cipher.&lt;/li&gt;
+&lt;li&gt;One on creating a function to make a consistent function header&lt;/li&gt;
+&lt;li&gt;How to create a mode so that when you type an emoji in :&amp;#39;s you get
+the emoji. So, by typing 🐘 you&amp;#39;d see this: 🐘.&lt;/li&gt;
+&lt;li&gt;A function to use an API to replace a word with a synonym.&lt;/li&gt;
+&lt;li&gt;And maybe a few more along the way.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For now, enjoy this short intro to writing functions:&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/v3wdkJa87No&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;
+Video Link:  &lt;a href=&#34;https://www.youtube.com/watch?v=v3wdkJa87No&#34;&gt;https://www.youtube.com/watch?v=v3wdkJa87No&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning Elisp 2 - variables</title>
+      <link>https://cestlaz.github.io/post/learning-elisp-2/</link>
+      <pubDate>Thu, 13 Jul 2023 07:46:04 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/learning-elisp-2/</guid>
+      <description>&lt;p&gt;
+I was planning on writing this yesterday but caught up in watching
+&amp;#34;Paths of Glory.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+The plan was to have each topic revolve around a &amp;#34;real&amp;#34; project but I
+realized that first we have to cover some basics. Specifically,
+variables and functions. I was going to cover them together but the
+video was getting a little long so we&amp;#39;re doing variables here and
+writing functions next time.&lt;/p&gt;
+&lt;p&gt;
+Like other languages, Emacs uses variables to store values. Also, like
+other, or at least some other languages, there are a number of
+subtleties and variations.&lt;/p&gt;
+&lt;p&gt;
+We&amp;#39;re keeping things simple for now and will dive deeper as needed in
+the future.&lt;/p&gt;
+&lt;p&gt;
+To create a variable in Emacs we use the special form &lt;code&gt;defvar&lt;/code&gt;. The
+&lt;code&gt;defvar&lt;/code&gt; form defines a symbol as a variable - &lt;code&gt;(defvar name)&lt;/code&gt; or,
+with an initial value &lt;code&gt;(defvar name &amp;#34;Tom&amp;#34;)&lt;/code&gt;. It turns out, that you
+can keep using &lt;code&gt;defvar&lt;/code&gt; to change values in a variable:&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (defvar name)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (defvar name &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Tom&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (defvar name &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Tim&amp;#34;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+I&amp;#39;m unsure of the internal ramifications of this but that&amp;#39;s not how
+we&amp;#39;re supposed to do things. To change (or set) variables, we&amp;#39;re
+supposed to use &lt;code&gt;setq&lt;/code&gt; - &lt;code&gt;(setq name &amp;#34;Tammy&amp;#34;)&lt;/code&gt; for instance. Of
+course, to make things less simple, we can use &lt;code&gt;setq&lt;/code&gt; without first
+using &lt;code&gt;defvar&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+Now, &lt;code&gt;defvar&lt;/code&gt; in our case, creates global variables but sometimes we
+want something more locally scoped. For that we use the &lt;code&gt;let&lt;/code&gt; form. In
+the following example, we create a &amp;#34;global&amp;#34; variable &lt;strong&gt;name&lt;/strong&gt; with
+&lt;code&gt;defvar&lt;/code&gt; and then a local one with &lt;code&gt;let&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (defvar name &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Global Gabe&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (&lt;span style=&#34;color:#a6e22e&#34;&gt;print&lt;/span&gt; name) &lt;span style=&#34;color:#75715e&#34;&gt;;; prints Global Gabe &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (let ( (name &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Local Larry&amp;#34;&lt;/span&gt;) )
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (&lt;span style=&#34;color:#a6e22e&#34;&gt;print&lt;/span&gt; name) &lt;span style=&#34;color:#75715e&#34;&gt;;; prints Local Larry&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (setq name &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Local Lisa&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (&lt;span style=&#34;color:#a6e22e&#34;&gt;print&lt;/span&gt; name) &lt;span style=&#34;color:#75715e&#34;&gt;;; prints Local Lisa - we changed the local one &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    )
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (&lt;span style=&#34;color:#a6e22e&#34;&gt;print&lt;/span&gt; name) &lt;span style=&#34;color:#75715e&#34;&gt;;; but Global Gabe was unchanged&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+The video goes over the details and a few more nuances.&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/eQNqIsyw1mo&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;
+Video Link: &lt;a href=&#34;https://www.youtube.com/watch?v=eQNqIsyw1mo&#34;&gt;https://www.youtube.com/watch?v=eQNqIsyw1mo&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning Elisp 1</title>
+      <link>https://cestlaz.github.io/post/learning-elisp-1/</link>
+      <pubDate>Thu, 06 Jul 2023 10:16:49 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/learning-elisp-1/</guid>
+      <description>&lt;p&gt;
+Here&amp;#39;s the first video in my learning elisp series.&lt;/p&gt;
+&lt;p&gt;
+Elisp is a lisp variant embedded within the Emacs editor. You could
+actually describe Emacs as an &amp;#34;elisp machine&amp;#34; in the same sense of the
+old &lt;a href=&#34;https://en.wikipedia.org/wiki/Lisp_machine&#34;&gt;lisp machines&lt;/a&gt;. It&amp;#39;s not quite the same as the way most other
+editors have extension or plugin languages. Other than the core of
+Emacs, which is written in C, everything is elisp. Even when you type
+in a key. For example, when I type in an &amp;#39;x&amp;#39; on the keyboard, emacs
+actually runs the self-insert-command function. When you open a new
+file, which you might do in another editor using the File menu, you
+actually are running the find-file function in elisp. So instead of
+using the menu or the keybinding to open a new file you can write, in
+emacs (find-file &amp;#34;some-file&amp;#34;) and run that function and the file will
+be opened.&lt;/p&gt;
+&lt;p&gt;
+In the video, I talk a bit about elisp in general, show how to call
+some built in functions, use the help a bit and then set the stage for
+the rest of the series.&lt;/p&gt;
+&lt;p&gt;
+Important functions and keybindings from the video:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Key&lt;/th&gt;
+&lt;th&gt;Function&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;C-h i&lt;/td&gt;
+&lt;td&gt;info&lt;/td&gt;
+&lt;td&gt;bring up the info (help) system&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-h k&lt;/td&gt;
+&lt;td&gt;describe-key&lt;/td&gt;
+&lt;td&gt;bring up info for the next keystroke&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C-h f&lt;/td&gt;
+&lt;td&gt;describe-function&lt;/td&gt;
+&lt;td&gt;bring up help for a function&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;C-x C-e&lt;/td&gt;
+&lt;td&gt;eval-last-sexp&lt;/td&gt;
+&lt;td&gt;evaluates the previous elisp form&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;eval-print-last-sexp&lt;/td&gt;
+&lt;td&gt;like above but also print the result&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+In the next video, we&amp;#39;ll learn how to create our own functions,
+explore some fundamental elisp structures and functions, and try to
+write something useful.&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s the video, enjoy:&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/x9Qws7ZOksc&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs 81 Elfeed Webkit</title>
+      <link>https://cestlaz.github.io/post/using-emacs-81-elfeed-webkit/</link>
+      <pubDate>Mon, 26 Jun 2023 15:27:54 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-81-elfeed-webkit/</guid>
+      <description>
+&lt;p&gt;
+Before I get to my elisp series, I thought I&amp;#39;d do a short video on
+&lt;a href=&#34;https://github.com/fritzgrabo/elfeed-webkit&#34;&gt;elfeed-webkit&lt;/a&gt;. This was suggested to me by &lt;a href=&#34;https://irreal.org/blog/&#34;&gt;jcs&lt;/a&gt;. Even though I think
+elfed-webkit is great - a mini-gamechanger for me, I thought that
+there wasn&amp;#39;t enough for a video. Then I realized that in order to run
+elfeed-webkit you need to have xwidgets enabled in your Emacs build. I
+thought I&amp;#39;d make a video on how I build Emacs and enable features like
+xwidgets and then I quickly set up elfeed-webkit.&lt;/p&gt;
+&lt;p&gt;
+If you use Emacs and reed rss/atom feeds, you really should check out
+elfeed and if you use elfeed, then elfeed-webkit. It basically allows
+elfeed to render feeds as the appear in a browser right from within Emacs.&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s the writeup with the video at the bottom.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Building Emacs
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+I run Linuxmint which is an Ubuntu Linux derivative. To build Emacs
+here, you have to first set up your machine with all the right
+developer tools.&lt;/p&gt;
+&lt;p&gt;
+First, you have to go to your software manager and enable software
+sources - I show how to do that in the video.&lt;/p&gt;
+&lt;p&gt;
+Then you have to install the build tools. I typed the follownig
+commands.&lt;/p&gt;
+&lt;div class=&#34;src src-sh&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  sudo apt update
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  sudo apt install build-essential
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  sudo apt build-dep emacs&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+The first line updates your package repo lists to reflect that you
+turned on the source code repos and the next two install what you
+need.&lt;/p&gt;
+&lt;p&gt;
+Next, you have to grab the Emacs source code. I show you how in the
+video using git. Grab it from
+&lt;a href=&#34;https://savannah.gnu.org/git/?group=emacs.&#34;&gt;https://savannah.gnu.org/git/?group=emacs.&lt;/a&gt; You can also download the
+files old school from the same site.&lt;/p&gt;
+&lt;p&gt;
+In the video, I walk through the compile but the basics are:&lt;/p&gt;
+&lt;div class=&#34;src src-sh&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  sh autogen.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  ./configure --without-compress-install --with-native-compilation --with-json --with-mailutils --with-tree-sitter --with-xwidgets CC&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;gcc-10
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  make
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  sudo make install&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+If the ./configure line gives errors you might need some extra
+libraries - I talk about that in the videos.&lt;/p&gt;
+&lt;p&gt;
+Also note that the ./configure line I used above includes extra
+options that I use for tree-sitter - not needed for elfeed-webkit but
+It&amp;#39;s another rabbit hole I went down as a result of reading Mickey
+Peterson&amp;#39;s &lt;a href=&#34;https://www.masteringemacs.org/article/how-to-get-started-tree-sitter&#34;&gt;article&lt;/a&gt; on it.&lt;/p&gt;
+&lt;p&gt;
+Once we&amp;#39;ve got Emacs with the required features we can move to elfeed
+webkit.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+Elfeed and Elfeed Webkit
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+I already wrote a series of posts with videos on elfeed. If you&amp;#39;ve
+never used it, check it out - here are links to the older posts.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cestlaz.github.io/posts/using-emacs-29-elfeed/&#34;&gt;https://cestlaz.github.io/posts/using-emacs-29-elfeed/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cestlaz.github.io/posts/using-emacs-30-elfeed-2/&#34;&gt;https://cestlaz.github.io/posts/using-emacs-30-elfeed-2/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cestlaz.github.io/posts/using-emacs-31-elfeed-3/&#34;&gt;https://cestlaz.github.io/posts/using-emacs-31-elfeed-3/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-72-customizing-elfeed/&#34;&gt;https://cestlaz.github.io/post/using-emacs-72-customizing-elfeed/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The video shows how I set it up and also its use. Basically I just
+copied the config right over from the elfeed-webkit repo but here it
+is for convenience:&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (straight-use-package &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;elfeed-webkit&lt;/span&gt;) &lt;span style=&#34;color:#75715e&#34;&gt;;; use straight to install&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;;; and old-school use-package to configure&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (use-package elfeed-webkit
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        :straight
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        :demand &lt;span style=&#34;color:#75715e&#34;&gt;;; !&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        :init
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        (setq elfeed-webkit-auto-tags &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#39;&lt;/span&gt;(webkit comics))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        :config
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        (elfeed-webkit-auto-enable-by-tag)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        :bind (:map elfeed-show-mode-map
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    (&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;t&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt; elfeed-webkit-toggle)))&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+So, all of this is in the video. Enjoy:&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/GGypKmrOf2I&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Working on a new short Emacs series</title>
+      <link>https://cestlaz.github.io/post/elisp-series/</link>
+      <pubDate>Sat, 17 Jun 2023 19:45:19 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/elisp-series/</guid>
+      <description>&lt;p&gt;
+It&amp;#39;s been quite some time since my last Emacs video. The lack of
+content has been for two reasons. One was my overall feeling of
+burnout and the other was that most of my videos involved looking at
+new packages and I really wasn&amp;#39;t playing with anything new.&lt;/p&gt;
+&lt;p&gt;
+Now that I&amp;#39;ve started my retirement the burnout is gone and I&amp;#39;m
+starting to think about what my next adventures will be. As I start
+figuring out the big picture I thought I&amp;#39;d get back to some Emacs
+content.&lt;/p&gt;
+&lt;p&gt;
+What&amp;#39;s on tap?&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m thinking about a short series on elisp. Now, I&amp;#39;m no elisp master -
+I&amp;#39;ve only done enough to get by but I think that could make for some
+nice beginner content and I&amp;#39;m sure I can count on the Emacs community
+to (in a nice way) tweak my content towards best practices.&lt;/p&gt;
+&lt;p&gt;
+The plan is to start from the basics and ultimately write a few
+interesting functions. Maybe a minor mode or two. Probably nothing
+hugely useful but something that will illustrate the concepts. That
+said, I want the examples to be at least a little useful and not
+totally contrived.&lt;/p&gt;
+&lt;p&gt;
+I also figure that I probably won&amp;#39;t be doing laundry lists of
+functions or going over all the different ways of doing things but
+hopefully I can provide pointers and process so other elisp beginners
+can find their way to the info they&amp;#39;ll need for their specific
+projects.&lt;/p&gt;
+&lt;p&gt;
+So, stay tuned and look for more Emacs content to come.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Using Emacs Episode 80 Vertico, Marginalia, Consult, and Embark</title>
@@ -58,30 +1318,14 @@ Finally, and this is the show stopper, the video shows Embark. &lt;/p&gt;
 &lt;p&gt;
 Links:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://cestlaz.github.io/posts/using-emacs-6-swiper/&#34;&gt;My post/video on Ivy/Swiper&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/raxod502/prescient.el&#34;&gt;Prescient&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/oantolin/orderless&#34;&gt;Orderless&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/raxod502/selectrum&#34;&gt;Selectrum&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/minad/vertico&#34;&gt;Vertico&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/minad/marginalia/&#34;&gt;Marginalia&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/minad/consult&#34;&gt;Consult&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/oantolin/embark/&#34;&gt;Embark&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cestlaz.github.io/posts/using-emacs-6-swiper/&#34;&gt;My post/video on Ivy/Swiper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/raxod502/prescient.el&#34;&gt;Prescient&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/oantolin/orderless&#34;&gt;Orderless&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/raxod502/selectrum&#34;&gt;Selectrum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/minad/vertico&#34;&gt;Vertico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/minad/marginalia/&#34;&gt;Marginalia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/minad/consult&#34;&gt;Consult&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/oantolin/embark/&#34;&gt;Embark&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
 and of course, the video:&lt;/p&gt;
@@ -123,34 +1367,18 @@ projectile, it was &lt;code&gt;C-c p&lt;/code&gt; and the default for project.el
 p&lt;/code&gt;. No big difference there. Projectile seems to have many many more
 options but in general, I find that all I need is&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Switch to a project - &lt;code&gt;C-x p p&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Find or open a file in a project - &lt;code&gt;C-x p f&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Switch buffers in a project - &lt;code&gt;C-x p b&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Delete all the project buffers - &lt;code&gt;C-x p k&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;List the project buffers&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Switch to a project - &lt;code&gt;C-x p p&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Find or open a file in a project - &lt;code&gt;C-x p f&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Switch buffers in a project - &lt;code&gt;C-x p b&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Delete all the project buffers - &lt;code&gt;C-x p k&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;List the project buffers&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Project.el has all except listing all the buffers. It also supports a
 few other features that I think I&amp;#39;ll find useful:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;project dired - &lt;code&gt;C-x p d&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;project shell (or eshell) &lt;code&gt;C-x p s&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;project regex search and variants &lt;code&gt;C-x p g&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;project dired - &lt;code&gt;C-x p d&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;project shell (or eshell) &lt;code&gt;C-x p s&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;project regex search and variants &lt;code&gt;C-x p g&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;I&amp;#39;m not sure if projectile has these. It probably does and I could see
 them being useful. I probable won&amp;#39;t use the regex searches much
@@ -236,14 +1464,14 @@ ibuffer I want it to use the whole Emacs frame. Otherwise I just use
 ivy-switch-buffer (or now bufler-switch-buffer). I couldn&amp;#39;t figure out
 a way built in so ended up writing a small function: &lt;/p&gt;
 &lt;p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-lisp&#34; data-lang=&#34;lisp&#34;&gt;(defun mz/bufler-one-window (&lt;span style=&#34;color:#66d9ef&#34;&gt;&amp;amp;optional&lt;/span&gt; force-refresh)
-  (interactive &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;P&amp;#34;&lt;/span&gt;)
-  (bufler-list)
-  (delete-other-windows)
-
-)
-
-(global-set-key (kbd &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;C-x C-b&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;mz/bufler-one-window&lt;/span&gt;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-lisp&#34; data-lang=&#34;lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(defun mz/bufler-one-window (&lt;span style=&#34;color:#66d9ef&#34;&gt;&amp;amp;optional&lt;/span&gt; force-refresh)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (interactive &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;P&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (bufler-list)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (delete-other-windows)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(global-set-key (kbd &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;C-x C-b&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;mz/bufler-one-window&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;
 Check out the video for more details.&lt;/p&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/KqvjeRf84do&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -259,18 +1487,10 @@ Check out the video for more details.&lt;/p&gt;
       <description>&lt;p&gt;
 I primarily program in four languages these days -&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Clojure &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;C++&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Python&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Java&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Clojure &lt;/li&gt;
+&lt;li&gt;C++&lt;/li&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;Java&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;And most of the time, my Emacs configuration has handled each one
 differently. Cider for Clojure, Irony for C++, Elpy and Jedi for
@@ -305,10 +1525,10 @@ the experience I was looking for.&lt;/p&gt;
 &lt;p&gt;
 To start, I set it up for C++ using&lt;/p&gt;
 &lt;div class=&#34;src src-text&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;(use-package eglot :ensure t)
-(add-to-list &amp;#39;eglot-server-programs &amp;#39;((c++-mode c-mode) &amp;#34;clangd-10&amp;#34;))
-(add-hook &amp;#39;c-mode-hook &amp;#39;eglot-ensure)
-(add-hook &amp;#39;c++-mode-hook &amp;#39;eglot-ensure)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(use-package eglot :ensure t)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(add-to-list &amp;#39;eglot-server-programs &amp;#39;((c++-mode c-mode) &amp;#34;clangd-10&amp;#34;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(add-hook &amp;#39;c-mode-hook &amp;#39;eglot-ensure)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(add-hook &amp;#39;c++-mode-hook &amp;#39;eglot-ensure)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 Eglot defaults to &lt;a href=&#34;https://github.com/MaskRay/ccls&#34;&gt;ccls&lt;/a&gt; as a C++ language server. I didn&amp;#39;t want to have
@@ -324,15 +1544,15 @@ Finally, Java was more of an issue I had to get &lt;a href=&#34;https://github.c
 system. It turns out that lsp-mode installed it for me already so I
 just had to point to it:&lt;/p&gt;
 &lt;div class=&#34;src src-text&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;(defconst my-eclipse-jdt-home &amp;#34;/home/zamansky/.emacs.d/.cache/lsp/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.5.800.v20200727-1323.jar&amp;#34;)
-(defun my-eglot-eclipse-jdt-contact (interactive)
-  &amp;#34;Contact with the jdt server input INTERACTIVE.&amp;#34;
-  (let ((cp (getenv &amp;#34;CLASSPATH&amp;#34;)))
-    (setenv &amp;#34;CLASSPATH&amp;#34; (concat cp &amp;#34;:&amp;#34; my-eclipse-jdt-home))
-    (unwind-protect (eglot--eclipse-jdt-contact nil)
-      (setenv &amp;#34;CLASSPATH&amp;#34; cp))))
-(setcdr (assq &amp;#39;java-mode eglot-server-programs) #&amp;#39;my-eglot-eclipse-jdt-contact)
-(add-hook &amp;#39;java-mode-hook &amp;#39;eglot-ensure)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(defconst my-eclipse-jdt-home &amp;#34;/home/zamansky/.emacs.d/.cache/lsp/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.5.800.v20200727-1323.jar&amp;#34;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(defun my-eglot-eclipse-jdt-contact (interactive)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;#34;Contact with the jdt server input INTERACTIVE.&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (let ((cp (getenv &amp;#34;CLASSPATH&amp;#34;)))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (setenv &amp;#34;CLASSPATH&amp;#34; (concat cp &amp;#34;:&amp;#34; my-eclipse-jdt-home))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (unwind-protect (eglot--eclipse-jdt-contact nil)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      (setenv &amp;#34;CLASSPATH&amp;#34; cp))))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(setcdr (assq &amp;#39;java-mode eglot-server-programs) #&amp;#39;my-eglot-eclipse-jdt-contact)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(add-hook &amp;#39;java-mode-hook &amp;#39;eglot-ensure)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 So far, I&amp;#39;m liking eglot very much. I&amp;#39;ll probably check lsp-mode out
@@ -457,12 +1677,8 @@ libreoffice to view and edit docx files and spreadsheets, evince for
 pdf files and imagemagick for image files. Yes, I know I can view all
 of these in Emacs but there are a few limitations:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Emacs chokes on large files&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;I can&amp;#39;t edit the docx file or the image&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Emacs chokes on large files&lt;/li&gt;
+&lt;li&gt;I can&amp;#39;t edit the docx file or the image&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;So, I hop to the shell and launch the program I need on the files in
 question. It&amp;#39;s fine but it does mean I end up with two windows for
@@ -514,22 +1730,22 @@ to my Emacs config file.&lt;/p&gt;
 I followed the instructions in the documentation by typing in these
 lines:&lt;/p&gt;
 &lt;p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gconftool-2 -s /desktop/gnome/url-handlers/org-protocol/command &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/usr/local/bin/emacsclient %s&amp;#39;&lt;/span&gt; --type String
-
-gconftool-2 -s /desktop/gnome/url-handlers/org-protocol/enabled --type Boolean true&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;gconftool-2 -s /desktop/gnome/url-handlers/org-protocol/command &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/usr/local/bin/emacsclient %s&amp;#39;&lt;/span&gt; --type String
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;gconftool-2 -s /desktop/gnome/url-handlers/org-protocol/enabled --type Boolean true&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;
 but that didn&amp;#39;t seem to work.&lt;/p&gt;
 &lt;p&gt;
 I ended up following the instructions I found in &lt;a href=&#34;https://stackoverflow.com/questions/7464951/how-to-make-org-protocol-work&#34;&gt;this post&lt;/a&gt; creating a
 file named &lt;code&gt;org-protocol.desktop&lt;/code&gt; in the folder
  &lt;code&gt;~/.local/share/applications&lt;/code&gt; containing:
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;Desktop Entry&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
-Name&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;org-protocol
-Exec&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;emacsclient %u
-Type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Application
-Terminal&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;false
-Categories&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;System;
-MimeType&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;x-scheme-handler/org-protocol;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;Desktop Entry&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Name&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;org-protocol
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Exec&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;emacsclient %u
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Application
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Terminal&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;false
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Categories&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;System;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;MimeType&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;x-scheme-handler/org-protocol;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;
 and then running &lt;code&gt;update-desktop-database
 ~/.local/share/applications/&lt;/code&gt;.&lt;/p&gt;
@@ -538,8 +1754,8 @@ This seemed to do the trick. &lt;/p&gt;
 &lt;p&gt;
 I also modified my link capture template: &lt;/p&gt;
 &lt;p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-lisp&#34; data-lang=&#34;lisp&#34;&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;l&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Link&amp;#34;&lt;/span&gt; entry (file+headline &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;~/Sync/orgfiles/links.org&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Links&amp;#34;&lt;/span&gt;)
-                    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;* %a %^g\n %?\n %T\n %i&amp;#34;&lt;/span&gt;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-lisp&#34; data-lang=&#34;lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;l&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Link&amp;#34;&lt;/span&gt; entry (file+headline &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;~/Sync/orgfiles/links.org&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Links&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;* %a %^g\n %?\n %T\n %i&amp;#34;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;
 Finally, to get things basically to work, I installed &lt;a href=&#34;https://github.com/sprig/org-capture-extension&#34;&gt;this&lt;/a&gt;
 extension. I configured it to use my &amp;#34;l&amp;#34; or link capture
@@ -561,17 +1777,17 @@ found that I could just create a bookmark.&lt;/p&gt;
 Copied mostly from the docs, I made a bookmark with this as the link
 (all in one line):&lt;/p&gt;
 &lt;p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;javascript&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;location&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;org-protocol://capture://m/&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
-      encodeURIComponent(&lt;span style=&#34;color:#a6e22e&#34;&gt;location&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;href&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
-      encodeURIComponent(document.&lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
-      encodeURIComponent(window.&lt;span style=&#34;color:#a6e22e&#34;&gt;getSelection&lt;/span&gt;())&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;javascript&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;location&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;org-protocol://capture://m/&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      encodeURIComponent(&lt;span style=&#34;color:#a6e22e&#34;&gt;location&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;href&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      encodeURIComponent(document.&lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      encodeURIComponent(window.&lt;span style=&#34;color:#a6e22e&#34;&gt;getSelection&lt;/span&gt;())&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;
 It worked perfectly. &lt;/p&gt;
 &lt;p&gt;
 This time I used this as the template:&lt;/p&gt;
 &lt;p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-lisp&#34; data-lang=&#34;lisp&#34;&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;m&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Mail To Do&amp;#34;&lt;/span&gt; entry (file+headline &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;~/Sync/orgfiles/i.org&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;To Do and Notes&amp;#34;&lt;/span&gt;)
-  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;* TODO %a\n %?&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;:prepend&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-lisp&#34; data-lang=&#34;lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;m&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Mail To Do&amp;#34;&lt;/span&gt; entry (file+headline &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;~/Sync/orgfiles/i.org&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;To Do and Notes&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;* TODO %a\n %?&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;:prepend&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;
 That&amp;#39;s it. Now I can store emails in Emacs or Gmail as well as
 bookmarks without any cut and paste. &lt;/p&gt;
@@ -649,13 +1865,13 @@ not hard.&lt;/p&gt;
 We can turn off the default CSS used by org-mode
 using:&lt;/p&gt;
 &lt;div class=&#34;src src-org&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-org&#34; data-lang=&#34;org&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#+OPTIONS&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;: html-style:nil&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-org&#34; data-lang=&#34;org&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#+OPTIONS&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;: html-style:nil&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 Or if we want add custom CSS using one or more of these:&lt;/p&gt;
 &lt;div class=&#34;src src-org&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-org&#34; data-lang=&#34;org&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#+HTML_HEAD&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;: &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; type=&amp;#34;text/css&amp;#34; href=&amp;#34;style1.css&amp;#34; /&amp;gt;&lt;/span&gt;
-&lt;span style=&#34;color:#75715e&#34;&gt;#+HTML_HEAD_EXTRA&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;: &amp;lt;link rel=&amp;#34;alternate stylesheet&amp;#34; type=&amp;#34;text/css&amp;#34; href=&amp;#34;style2.css&amp;#34; /&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-org&#34; data-lang=&#34;org&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#+HTML_HEAD&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;: &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; type=&amp;#34;text/css&amp;#34; href=&amp;#34;style1.css&amp;#34; /&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#+HTML_HEAD_EXTRA&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;: &amp;lt;link rel=&amp;#34;alternate stylesheet&amp;#34; type=&amp;#34;text/css&amp;#34; href=&amp;#34;style2.css&amp;#34; /&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 We can also embed html and custom CSS in our org-files.&lt;/p&gt;
@@ -742,48 +1958,48 @@ write my own.&lt;/p&gt;
 &lt;p&gt;
 Here&amp;#39;s my current complete eshell config:&lt;/p&gt;
 &lt;p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-elisp&#34; data-lang=&#34;elisp&#34;&gt;(use-package exec-path-from-shell
-  :ensure &lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt;
-  :config
-  (exec-path-from-shell-initialize))
-
-
-    (use-package fish-completion
-    :ensure &lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt;
-    :config
-    (global-fish-completion-mode))
-  &lt;span style=&#34;color:#75715e&#34;&gt;;; (use-package eshell-prompt-extras &lt;/span&gt;
-  &lt;span style=&#34;color:#75715e&#34;&gt;;; :ensure t&lt;/span&gt;
-  &lt;span style=&#34;color:#75715e&#34;&gt;;; :config&lt;/span&gt;
-  &lt;span style=&#34;color:#75715e&#34;&gt;;; (setq epe-show-python-info nil)&lt;/span&gt;
-  &lt;span style=&#34;color:#75715e&#34;&gt;;; )&lt;/span&gt;
-
-  (use-package eshell-git-prompt
-  :ensure &lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt;
-  :config
-  (eshell-git-prompt-use-theme &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;git-radar&lt;/span&gt;)
-  )&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-elisp&#34; data-lang=&#34;elisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(use-package exec-path-from-shell
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  :ensure &lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  :config
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (exec-path-from-shell-initialize))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (use-package fish-completion
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    :ensure &lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    :config
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (global-fish-completion-mode))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;;; (use-package eshell-prompt-extras &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;;; :ensure t&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;;; :config&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;;; (setq epe-show-python-info nil)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;;; )&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (use-package eshell-git-prompt
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  :ensure &lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  :config
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (eshell-git-prompt-use-theme &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;git-radar&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  )&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;
 And here&amp;#39;s the code I ended up with for my shell switcher:&lt;/p&gt;
 &lt;p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-elisp&#34; data-lang=&#34;elisp&#34;&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;#&lt;/span&gt;+BEGIN_SRC emacs-lisp
-  (require &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;cl-lib&lt;/span&gt;)
-  (defun select-or-create (arg)
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Commentary ARG.&amp;#34;&lt;/span&gt;
-    (if (string= arg &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;New eshell&amp;#34;&lt;/span&gt;)
-        (eshell &lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt;)
-      (switch-to-buffer arg)))
-  (defun eshell-switcher (&lt;span style=&#34;color:#66d9ef&#34;&gt;&amp;amp;optional&lt;/span&gt; arg)
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Commentary ARG.&amp;#34;&lt;/span&gt;
-    (interactive)
-    (let* (
-           (buffers (cl-remove-if-not (lambda (n) (&lt;span style=&#34;color:#a6e22e&#34;&gt;eq&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;buffer-local-value&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;major-mode&lt;/span&gt; n) &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;eshell-mode&lt;/span&gt;)) (&lt;span style=&#34;color:#a6e22e&#34;&gt;buffer-list&lt;/span&gt;)) )
-           (names (&lt;span style=&#34;color:#a6e22e&#34;&gt;mapcar&lt;/span&gt; (lambda (n) (&lt;span style=&#34;color:#a6e22e&#34;&gt;buffer-name&lt;/span&gt; n)) buffers))
-           (num-buffers (&lt;span style=&#34;color:#a6e22e&#34;&gt;length&lt;/span&gt; buffers) )
-           (in-eshellp (&lt;span style=&#34;color:#a6e22e&#34;&gt;eq&lt;/span&gt; major-mode &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;eshell-mode&lt;/span&gt;)))
-      (cond ((&lt;span style=&#34;color:#a6e22e&#34;&gt;eq&lt;/span&gt; num-buffers &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;) (eshell (or arg &lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt;)))
-            ((not in-eshellp) (switch-to-buffer (&lt;span style=&#34;color:#a6e22e&#34;&gt;car&lt;/span&gt; buffers)))
-            (&lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt; (select-or-create (&lt;span style=&#34;color:#a6e22e&#34;&gt;completing-read&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Select Shell:&amp;#34;&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;cons&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;New eshell&amp;#34;&lt;/span&gt; names)))))))&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-elisp&#34; data-lang=&#34;elisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;#&lt;/span&gt;+BEGIN_SRC emacs-lisp
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (require &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;cl-lib&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (defun select-or-create (arg)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Commentary ARG.&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (if (string= arg &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;New eshell&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        (eshell &lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      (switch-to-buffer arg)))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (defun eshell-switcher (&lt;span style=&#34;color:#66d9ef&#34;&gt;&amp;amp;optional&lt;/span&gt; arg)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Commentary ARG.&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (interactive)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (let* (
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;           (buffers (cl-remove-if-not (lambda (n) (&lt;span style=&#34;color:#a6e22e&#34;&gt;eq&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;buffer-local-value&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;major-mode&lt;/span&gt; n) &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;eshell-mode&lt;/span&gt;)) (&lt;span style=&#34;color:#a6e22e&#34;&gt;buffer-list&lt;/span&gt;)) )
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;           (names (&lt;span style=&#34;color:#a6e22e&#34;&gt;mapcar&lt;/span&gt; (lambda (n) (&lt;span style=&#34;color:#a6e22e&#34;&gt;buffer-name&lt;/span&gt; n)) buffers))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;           (num-buffers (&lt;span style=&#34;color:#a6e22e&#34;&gt;length&lt;/span&gt; buffers) )
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;           (in-eshellp (&lt;span style=&#34;color:#a6e22e&#34;&gt;eq&lt;/span&gt; major-mode &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;eshell-mode&lt;/span&gt;)))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      (cond ((&lt;span style=&#34;color:#a6e22e&#34;&gt;eq&lt;/span&gt; num-buffers &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;) (eshell (or arg &lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt;)))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            ((not in-eshellp) (switch-to-buffer (&lt;span style=&#34;color:#a6e22e&#34;&gt;car&lt;/span&gt; buffers)))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            (&lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt; (select-or-create (&lt;span style=&#34;color:#a6e22e&#34;&gt;completing-read&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Select Shell:&amp;#34;&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;cons&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;New eshell&amp;#34;&lt;/span&gt; names)))))))&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;
 I currently bound eshell-switcher to &lt;code&gt;CTRL-z e&lt;/code&gt;. &lt;/p&gt;
 &lt;p&gt;
@@ -816,17 +2032,17 @@ it shows you the results in a side window. &lt;/p&gt;
 &lt;p&gt;
 If you type in:&lt;/p&gt;
 &lt;p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;
-b &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;30&lt;/span&gt;
-c &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; b
-print(c&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;c)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;b &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;30&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;c &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; b
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(c&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;c)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;
 The live python window will display something like:&lt;/p&gt;
 &lt;p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;
-b &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;30&lt;/span&gt;
-c &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;
-print(&lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;b &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;30&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;c &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;
 If you change one of the variables, everything updates.&lt;/p&gt;
 &lt;p&gt;
@@ -891,21 +2107,11 @@ Mu4e
 &lt;/h3&gt;
 &lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-3&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Folder based&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Easier to handle separate email accounts (and keep them separate)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Better org-mode integration&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Automatically calls your IMAP sync program&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Changes things on the server (moves, deletes etc.)&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Folder based&lt;/li&gt;
+&lt;li&gt;Easier to handle separate email accounts (and keep them separate)&lt;/li&gt;
+&lt;li&gt;Better org-mode integration&lt;/li&gt;
+&lt;li&gt;Automatically calls your IMAP sync program&lt;/li&gt;
+&lt;li&gt;Changes things on the server (moves, deletes etc.)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -915,16 +2121,10 @@ Notmuch
 &lt;/h3&gt;
 &lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-3&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Tags based&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Doesn&amp;#39;t touch or change anything on the serer (doesn&amp;#39;t delete or
-move things there, just tags locally)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Combines multiple accounts to appear as one&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Tags based&lt;/li&gt;
+&lt;li&gt;Doesn&amp;#39;t touch or change anything on the serer (doesn&amp;#39;t delete or
+move things there, just tags locally)&lt;/li&gt;
+&lt;li&gt;Combines multiple accounts to appear as one&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
 Both have a nice search based interface.&lt;/p&gt;
@@ -982,18 +2182,10 @@ you can find my full config at &lt;a href=&#34;https://github.com/zamansky/dot-e
 I was thinking about also making the following ClojureScript videos if
 the communities find value in them and I have time:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;How to create reusable components like an input field with label.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Creating a simple Electron app using shadow-cljs.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Creating something with both  server side and client side.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Also open to suggestions&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;How to create reusable components like an input field with label.&lt;/li&gt;
+&lt;li&gt;Creating a simple Electron app using shadow-cljs.&lt;/li&gt;
+&lt;li&gt;Creating something with both  server side and client side.&lt;/li&gt;
+&lt;li&gt;Also open to suggestions&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;I don&amp;#39;t pretend to be a cljs or webdev master so please let me know if
 I&amp;#39;m doing anything horribly wrong and let me know if you want more.&lt;/p&gt;
@@ -1050,18 +2242,10 @@ and Gmail for personal. I&amp;#39;ve been thinking of going whole hog to mu4e
 and possibly migrating from Gmail to a new email provider for the
 personal stuff but there are still a few pain points with Emacs email:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;rich text emails (embedded links, images, etc)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;calendar integration&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;contacts &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;periodic Maildir sync problems with mbsync&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;rich text emails (embedded links, images, etc)&lt;/li&gt;
+&lt;li&gt;calendar integration&lt;/li&gt;
+&lt;li&gt;contacts &lt;/li&gt;
+&lt;li&gt;periodic Maildir sync problems with mbsync&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Calendar integration isn&amp;#39;t a make or break issue and contacts with
 mu4e is good enough so that leaves two pain points. Formatted emails
@@ -1229,36 +2413,16 @@ work in. At times I&amp;#39;m working or dabbling in a whole bunch of
 languages. At times, my Emacs configuration has had separate sections
 for each of the following languages:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Emacs Lisp&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Python&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Java&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;C and C++&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Clojure&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Processing&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Scheme&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Haskell&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Rust&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;OCaml&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Emacs Lisp&lt;/li&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;Java&lt;/li&gt;
+&lt;li&gt;C and C++&lt;/li&gt;
+&lt;li&gt;Clojure&lt;/li&gt;
+&lt;li&gt;Processing&lt;/li&gt;
+&lt;li&gt;Scheme&lt;/li&gt;
+&lt;li&gt;Haskell&lt;/li&gt;
+&lt;li&gt;Rust&lt;/li&gt;
+&lt;li&gt;OCaml&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;and more. &lt;/p&gt;
 &lt;p&gt;
@@ -1398,24 +2562,14 @@ Enjoy!&lt;/p&gt;
 I use both org-mode and Google Calendar for scheduling. I like Google
 Calendar because:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;It&amp;#39;s pretty universal so I can issue and accept calendar invites.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;It works well with my phone and other mobile devices.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The rest of my family doesn&amp;#39;t live in Emacs :-(.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;It&amp;#39;s pretty universal so I can issue and accept calendar invites.&lt;/li&gt;
+&lt;li&gt;It works well with my phone and other mobile devices.&lt;/li&gt;
+&lt;li&gt;The rest of my family doesn&amp;#39;t live in Emacs :-(.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;I prefer using org-mode beacuse:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Emacs&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;I prefer, for the most part, to control my data.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Emacs&lt;/li&gt;
+&lt;li&gt;I prefer, for the most part, to control my data.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;I partially sync the two platforms. I&amp;#39;ve already talked about &lt;a href=&#34;https://cestlaz.github.io/posts/using-emacs-26-gcal/&#34;&gt;syncing
 Google Calendar and org-mode&lt;/a&gt;. Right now, I&amp;#39;m just pulling from Google
@@ -1432,25 +2586,19 @@ I&amp;#39;ve set things up to have that droplet send me an email with my
 agenda. It turns out that org has commands to do things with Emacs
 from the command line:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;org-batch-agenda&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;org-batch-store-agenda-views&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;org-batch-agenda-csv &lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;org-batch-agenda&lt;/li&gt;
+&lt;li&gt;org-batch-store-agenda-views&lt;/li&gt;
+&lt;li&gt;org-batch-agenda-csv &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;They can be run from the command line to output a formatted agenda as
 a string:&lt;/p&gt;
 &lt;div class=&#34;src src-sh&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;emacs --batch -l ~/.emacs.d/init.el  -eval &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;(org-batch-agenda &amp;#34;a&amp;#34; org-agenda-span 14)&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;emacs --batch -l ~/.emacs.d/init.el  -eval &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;(org-batch-agenda &amp;#34;a&amp;#34; org-agenda-span 14)&amp;#39;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 or as csv:&lt;/p&gt;
 &lt;div class=&#34;src src-sh&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;emacs --batch -l ~/.emacs.d/init.el  -eval &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;(org-batch-agenda-csv &amp;#34;a&amp;#34; org-agenda-span 14)&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;emacs --batch -l ~/.emacs.d/init.el  -eval &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;(org-batch-agenda-csv &amp;#34;a&amp;#34; org-agenda-span 14)&amp;#39;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;table&gt;
 &lt;tbody&gt;
@@ -1497,7 +2645,7 @@ agenda every morning.&lt;/p&gt;
 &lt;p&gt;
 The command I actually use to send the email is:&lt;/p&gt;
 &lt;div class=&#34;src src-sh&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;/usr/bin/emacs --batch -l ~/.emacs  -eval &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;(org-batch-agenda &amp;#34;a&amp;#34; org-agenda-span 14)&amp;#39;&lt;/span&gt; 2&amp;gt;/dev/null | mail -s &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Mike&amp;#39;s Agenda for &lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;date +&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\%A \%D&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; zamansky@gmail.com&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/usr/bin/emacs --batch -l ~/.emacs  -eval &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;(org-batch-agenda &amp;#34;a&amp;#34; org-agenda-span 14)&amp;#39;&lt;/span&gt; 2&amp;gt;/dev/null | mail -s &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Mike&amp;#39;s Agenda for &lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;date +&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\%A \%D&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; zamansky@gmail.com&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 which I put in a crontab entry to get it to run every day.&lt;/p&gt;
@@ -1568,459 +2716,6 @@ simple commands and you can accomplish a lot.&lt;/p&gt;
 &lt;p&gt;
 I hope you enjoy it.&lt;/p&gt;
   &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/C6nbjqn5Uxw&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Using Emacs Series</title>
-      <link>https://cestlaz.github.io/stories/emacs/</link>
-      <pubDate>Wed, 19 Sep 2018 19:02:09 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/stories/emacs/</guid>
-      <description>
-&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-1&#34;&gt;
-Link to current configuration: &lt;a href=&#34;https://github.com/zamansky/using-emacs&#34;&gt;&lt;a href=&#34;https://github.com/zamansky/dot-emacs&#34;&gt;https://github.com/zamansky/dot-emacs&lt;/a&gt;&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-2&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-introduction&#34;&gt;Introduction&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-3&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-1-setup&#34;&gt;Video 1 - Setting up the package manager&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-4&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-2-org&#34;&gt;Video 2 - Intro to Org Mode&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-5&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-5&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-3-elisp&#34;&gt;Video 3 - How to think about Emacs&lt;/a&gt; 
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-6&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-6&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-4-buffers&#34;&gt;Video 4 - Buffers&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-7&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-7&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-5-windows&#34;&gt;Video 5 - Windows&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-8&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-8&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-6-swiper&#34;&gt;Video 6 - Search / Swiper&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-9&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-9&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-7-avy&#34;&gt;Video 7 - Navigation / avy&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-10&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-10&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-8-autocomplete&#34;&gt;Video 8 - Autocomplete&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-11&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-11&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-9-themes&#34;&gt;Video 9 - Themes&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-12&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-12&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-10-org-init&#34;&gt;Video 10 - Org init files&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-13&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-13&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-11-reveal&#34;&gt;Video 11 - org-reveal / reveal.js&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-14&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-14&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-12-python&#34;&gt;Video 12 - Python, Flycheck, Jedi&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-15&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-15&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-13-yasnippet&#34;&gt;Video 13 - Python, Yasnippet&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-16&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-16&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-14-thoughts&#34;&gt;Video 14 - Thoughts on Using Emacs&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-17&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-17&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-15-macros&#34;&gt;Video 15 - Macros&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-18&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-18&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-16-undo-tree&#34;&gt;Video 16 - Undo Tree&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-19&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-19&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-17-misc&#34;&gt;Video 17 - Small packages&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-20&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-20&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-18-narrow&#34;&gt;Video 18 - narrowing and iedit&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-21&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-21&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-19-live&#34;&gt;Video 19 - moving to a live config&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-22&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-22&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-20-yanking&#34;&gt;Video 20 - Yanking&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-23&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-23&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-21-web-mode&#34;&gt;Video 21-web-mode&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-24&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-24&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-22-emacsclient&#34;&gt;Video 22-emacsclient&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-25&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-25&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-23-capture-1&#34;&gt;Video 23 - capture 1&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-26&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-26&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-24-capture-2&#34;&gt;Video 24 - capture 2&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-27&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-27&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-25-tramp&#34;&gt;Video 25 - Tramp&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-28&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-28&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-26-gcal&#34;&gt;Video 26 - Google Calendar and Org Agenda&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-29&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-29&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-27-shell&#34;&gt;Video 27 - Shell and eshell&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-30&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-30&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-28-rectangles&#34;&gt;Video 28 - Rectangles&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-31&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-31&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-29-elfeed&#34;&gt;Video 29 - elfeed 1 &lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-32&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-32&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-30-elfeed-2&#34;&gt;Video 30 - elfeed 2 - Hydras &lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-33&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-33&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-31-elfeed-3&#34;&gt;Video 31 - elfeed 3 - macros&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-34&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-34&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-32-cpp&#34;&gt;Video 32 - C++&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-35&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-35&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-33-projectile-jump&#34;&gt;Video 33 - Projectile Dumb-jump&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-36&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-36&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-34-ibuffer-emmet&#34;&gt;Video 34 - ibuffer and emmet&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-37&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-37&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-35-blogging&#34;&gt;Video 35 - blogging&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-38&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-38&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-36-touch-of-elisp&#34;&gt;Video 36 - A Touch of Elisp&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-39&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-39&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-37-treemacs&#34;&gt;Video 37 - Treemacs file browser&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-40&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-40&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-38-dired&#34;&gt;Video 38 - dired&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-41&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-41&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-39-mu4e&#34;&gt;Video 39 - mu4e&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-42&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-42&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-40-atomic-chrome&#34;&gt;Video 40 - Atomic chrome&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-43&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-43&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-41-pandoc&#34;&gt;Video 41 - Pandoc&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-44&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-44&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-42-git-gutter&#34;&gt;Video 42 - Git Gutter and Timemachine&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-45&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-45&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-43-music&#34;&gt;Video 43 - Music&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-46&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-46&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-44-pdf&#34;&gt;Video 44 - pdf&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-47&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-47&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-45-company&#34;&gt;Video 45 - Company or Autocomplete&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-48&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-48&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-46-auto-yasnippets&#34;&gt;Video 46 - auto yasnippets&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-49&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-49&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-47-magit&#34;&gt;Video 47 - Magit&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-50&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-50&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-48-silversearcher&#34;&gt;Video 48 - silversearcher&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-51&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-51&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-49-mu4e-conversation&#34;&gt;Video 49 - mu4e conversation&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-52&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-52&#34;&gt;
-&lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-50-presentations&#34;&gt;Video 50 - presentations&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-53&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-53&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-51-dtd-org&#34;&gt;Video 51 - Day to day with org-mode&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-54&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-54&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-52-eyebrowse&#34;&gt;Video 52 - eyebrowse&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-55&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-55&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-53-emailing-org-agenda&#34;&gt;Video 53 - Emailing org-agenda&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-56&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-56&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-54-org-tables&#34;&gt;Video 54 - Org Tables&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-57&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-57&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-55-irony-completions&#34;&gt;Video 55 - Irony Completions&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-58&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-58&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-56-dictionaries&#34;&gt;Video 56 - Dictionaries&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-59&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-59&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-57-dired-narrow&#34;&gt;Video 57 - Dired Narrow&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-60&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-60&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-58-lsp-mode&#34;&gt;Video 58 - lsp-mode&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-61&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-61&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-59-markdown&#34;&gt;Video 59 - markdown&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-62&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-62&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-60-restclient&#34;&gt;Video 60 - restclient&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-63&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-63&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-61-org-msg&#34;&gt;Video 61 - org-msg&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-64&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-64&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-62-magit-forge&#34;&gt;Video 62 - Magit Forge&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-65&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-65&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-63-clojurescript&#34;&gt;Video 63 - ClojureScript&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-66&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-66&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-64-notmuch&#34;&gt;Video 64 - Notmuch&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-67&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-67&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-65-live-python&#34;&gt;Video 65 - Live Python&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-68&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-68&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-66-eshell-elisp&#34;&gt;Video 66 - Eshell - Elisp&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-69&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-69&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-67-emacs-rant&#34;&gt;Video 67 - Emacs vs Vi(m)&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-70&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-70&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-68-tramp-org-publish&#34;&gt;Video 68 - Tramp and org-publish&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-71&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-71&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-69-floobits&#34;&gt;Video 69 - Floobits&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-72&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-72&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-70-org-protocol&#34;&gt;Video 70 - org-protocol&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-73&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-73&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-71-openwith&#34;&gt;Video 71 - openwith&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-74&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-74&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-72-customizing-elfeed&#34;&gt;Video 72 - customizing elfeed&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-75&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-75&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-72-rg&#34;&gt;Video 73 - RipGrep&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-76&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-76&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-74-eglot&#34;&gt;Video 74 - Eglot&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-77&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-77&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-75-bufler&#34;&gt;Video 75 - bufler&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-78&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-78&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-76-bookmarks-burly&#34;&gt;Video 76 - Bookmarks and Burly&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-79&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-79&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/advent-2020-day03&#34;&gt;Video 77 - Advent of Code 2020 day 3&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-80&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-80&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-78-grading&#34;&gt;Video 78 - Grading workflow&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-81&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-81&#34;&gt;
-&lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-79-project&#34;&gt;Video 79 - Project&lt;/a&gt;
-&lt;/h3&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Using Emacs 76 Bookmarks and Burly</title>
-      <link>https://cestlaz.github.io/post/using-emacs-76-bookmarks-burly/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/using-emacs-76-bookmarks-burly/</guid>
-      <description>&lt;p&gt;
-I read a post on &lt;a href=&#34;https://www.reddit.com/r/emacs/&#34;&gt;/r/emacs&lt;/a&gt; the other day asking if people used Emacs
-bookmarks among other things. I thought about it for a bit and
-wondered why I didn&amp;#39;t use Bookmarks? I did set a few bindings to load
-frequently used files and those are like bookmarks but I have to set
-those up in my configuration. It turns out that Emacs bookmarks are
-pretty easy and effective and work right out of the box. I cover the
-basics in the video and you can also check the documentation &lt;a href=&#34;https://www.gnu.org/software/emacs/manual/html_node/emacs/Bookmarks.html&#34;&gt;here&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;
-In the video I mention that the bookmark bindings are part of the
-bindings used for registers which also include rectangles. If you&amp;#39;re
-interested in those aspects you can find out all about registers by
-viewing &lt;a href=&#34;https://www.youtube.com/watch?v=u1YoF4ycLTY&#34;&gt;this nice video&lt;/a&gt; by Prot and I cover rectangle editing &lt;a href=&#34;https://cestlaz.github.io/posts/using-emacs-28-rectangles/&#34;&gt;here&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;
-I also noticed another post on /r/emacs about &lt;a href=&#34;https://github.com/alphapapa/burly.el&#34;&gt;burly&lt;/a&gt; - a package for
-managing windows and their associated buffers. It&amp;#39;s pretty cool. In
-the video I confused myself and thought it might be mapping the
-buffers to windows wrong but that was just me confusing myself. &lt;/p&gt;
-&lt;p&gt;
-Burly uses bookmarks to store the configurations which is cool and it
-was much easier for me to get my head around it than other
-solutions. Burly&amp;#39;s install instructions use &lt;a href=&#34;https://github.com/quelpa/quelpa&#34;&gt;quelpa&lt;/a&gt; and
-&lt;a href=&#34;https://github.com/quelpa/quelpa-use-package&#34;&gt;quelpa-use-package&lt;/a&gt; so now it looks like I&amp;#39;ll have to figure those out
-as well :-).&lt;/p&gt;
-&lt;p&gt;
-The run through is all in the video.&lt;/p&gt;
-&lt;p&gt;
-Enjoy.&lt;/p&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/JVFnaQVNEE0&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 </description>
     </item>
     

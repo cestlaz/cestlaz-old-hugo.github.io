@@ -6,10 +6,114 @@
     <description>C&#39;est la Z (interviews)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Apr 2019 11:27:46 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 06 Apr 2023 10:22:02 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/tags/interviews/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>The Technical Interview - we can do better</title>
+      <link>https://cestlaz.github.io/post/tech-interview-better/</link>
+      <pubDate>Thu, 06 Apr 2023 10:22:02 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/tech-interview-better/</guid>
+      <description>&lt;p&gt;
+I&amp;#39;m spending the week down in Atlanta. Never been before but since
+Batya is spending the semester teaching at Georgia State University,
+it seemed like a good chance to see her teach and check out a new
+town.&lt;/p&gt;
+&lt;p&gt;
+That was the plan anyway. At least until I made the unfortunate
+decision to come down with Covid again. Symptoms are mild but I&amp;#39;m
+stuck camping out in our Airbnb while Devorah and Batya can see the
+sights.&lt;/p&gt;
+&lt;p&gt;
+So, might as well spend the time writing a post or two.&lt;/p&gt;
+&lt;p&gt;
+The other day a younger friend announced that he got a new job on
+LinkedIn. He was caught up in an earlier round of big tech layoffs so
+it was nice to see him landing on his feet rather quickly. Still,
+knowing what he always brought to the table, I was surprised he was
+let go to begin with but then, so many big companies have positively
+moronic layoff policies.&lt;/p&gt;
+&lt;p&gt;
+Anyway, my friend was lamenting the technical interview process. As a
+devops person the algorithmic trick questions really don&amp;#39;t apply,
+particularly since he already has a track record of actual, you know,
+devops work to point to. He actually called an interviewer on this at
+one point and even though, I&amp;#39;m sure he was 100% right, it did not go
+well. While he didn&amp;#39;t go into details he talked about the interview
+process that landed him his forthcoming job and how it was much more
+reasonable and relevant to both the role he was applying for and if it
+and he were a fit.&lt;/p&gt;
+&lt;p&gt;
+The technical interview - that algorithmic brain teaser has been
+popular at big tech for a long time now. The big boys - Google,
+Facebook, and the others use it and since tech is a copycat league, so
+do most small houses.&lt;/p&gt;
+&lt;p&gt;
+If you&amp;#39;re not familiar, the idea is that the candidate is presented
+with a problem to solve - something similar to the problems you&amp;#39;d get
+in a programming competition. It might be something like writing a
+routine to reverse a singly linked list or print the nodes in a binary
+tree level-wise. Of course, they can get much trickier and the
+candidate is doing this under the gun. It&amp;#39;s stressful and in my view
+not a great way to assess a candidate.&lt;/p&gt;
+&lt;p&gt;
+The truth is, while there are some people who can just solve these
+problems on the fly, the reality is, for most people, they have to
+specifically train for this style of interview. The more problems they
+do, the more likely they&amp;#39;ll see something they&amp;#39;ve already done or
+something similar to what they&amp;#39;ve already done.&lt;/p&gt;
+&lt;p&gt;
+Then it becomes the &amp;#34;can I fake it to make it look like I haven&amp;#39;t seen
+this problem before&amp;#34; interview.&lt;/p&gt;
+&lt;p&gt;
+This is why schools where students have an easier time getting
+together to work on and share solutions have a huge edge in this
+process (read that as rich elite schools where kids live on campus and
+don&amp;#39;t have to work to pay the bills).&lt;/p&gt;
+&lt;p&gt;
+This whole process works for the big and/or hot company - the Google&amp;#39;s
+of the world because they can afford to miss a huge number of great
+candidates who wash out on the technical interview just so long as
+they fill their quota with candidates who can pass their test. Sure,
+it hurts diversity, equity, and yeah, talent, but if we&amp;#39;re really
+being honest, big tech talks the equity and diversity talk much more
+than they walk the walk.&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s bad enough that the big boys use this flawed but convenient for
+them method. It&amp;#39;s worse that everyone else feels compelled to do the
+same. It makes for a miserable stressful job search and in the end,
+for the vast majority of tech employees who were hired through this
+process, they never need to think about problems like these again.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m reminded of another friend of mine, Dan, who has been CTO / Head
+of Engineering for a number of small to mid size companies. He doesn&amp;#39;t
+do a Google style technical interview. He told me once &amp;#34;I can&amp;#39;t
+compete with Google. If I do the same interview that they do, I&amp;#39;ll
+only get Google washouts - if they can pass the Google interview,
+they&amp;#39;ll certainly chose Google over me.&amp;#34; He came to the sensible
+conclusion that he needed to come up with another way of assessing
+candidate fit - something that would catch the amazing employee who
+didn&amp;#39;t thrive under the algorithmic tech interview. It might make the
+process more complicated for the company or more time consuming but I
+wish more places followed Dan&amp;#39;s lead. &lt;/p&gt;
+&lt;p&gt;
+In addition to my friend&amp;#39;s post, I&amp;#39;ve also been thinking about this
+since I&amp;#39;ve been teaching data structures and specifically run time and
+whenever I do this I mull over where my focus should be. How important
+are the specific data structures we teach given that the minority of
+CS students will ever go on to need to know them at the level of
+detail we teach? Do we need to actually prove the run time of
+algorithms? Should we do more interview type problems because our kids
+by and large need them?&lt;/p&gt;
+&lt;p&gt;
+These are questions that should probably be talked about more in
+college CS programs. I&amp;#39;ll share my specific thoughts on where I think
+the emphasis should be next time.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>On Technical Interviews And Diversity</title>

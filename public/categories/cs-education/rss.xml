@@ -6,10 +6,110 @@
     <description>C&#39;est la Z (CS Education)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Feb 2023 06:48:49 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 27 Jun 2023 08:06:43 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/categories/cs-education/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>Do you really need a degree for tech - an MLH podcast</title>
+      <link>https://cestlaz.github.io/post/degree-for-tech/</link>
+      <pubDate>Tue, 27 Jun 2023 08:06:43 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/degree-for-tech/</guid>
+      <description>&lt;p&gt;
+Yesterday, I noticed a LinkedIn post by my friend &lt;a href=&#34;https://www.linkedin.com/in/jonmarkgo/&#34;&gt;Jonathan Gottfried&lt;/a&gt;
+of &lt;a href=&#34;https://mlh.io/&#34;&gt;Major League Hacking&lt;/a&gt; about an MLH podcast, &lt;a href=&#34;https://podcasts.bcast.fm/the-state-of-developer-education&#34;&gt;The State of Developer
+Education&lt;/a&gt;. The episode he shared caught my eye. It was titled &amp;#34;Do you
+Really Need a Degree for Tech?&amp;#34; Here&amp;#39;s the YouTube &lt;a href=&#34;https://www.youtube.com/watch?v=agD0Q4vhi6w&#34;&gt;link&lt;/a&gt;. It featured
+Lauren Schaeffer, Developer Advocate for Grammarly.&lt;/p&gt;
+&lt;p&gt;
+I enjoyed listening to Jon and Lauren&amp;#39;s conversation and recommend
+that you too take a listen, Lauren talked a bit about her journey and
+highlighted some happenings and practices along the way in school,
+IBM, MongoDB, and finally Grammarly. Truth be told, though, I didn&amp;#39;t
+feel that they really dove into the title question of &amp;#34;Do you really
+need a degree for tech?&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+The podcast did make me think a bit more about the title question and
+we&amp;#39;ll get to that later but I wanted to riff on one point Lauren made
+that struck a chord with me. After pivoting from a straight
+engineering role to a DevRel role, she worked it so that she could
+spend one quarter a year working on an eng team. I love this. Really
+smart. It can only help a customer if their DevRel people keep their
+tech skills sharp and are in the trenches with the developers and
+likewise the transfer of knowledge the other way has got to help the
+straight dev teams. I don&amp;#39;t think this could be a universal practice
+though because I&amp;#39;ve met many DevRel people and while some, like
+Lauren, clearly have the engineering chops, others I&amp;#39;ve met don&amp;#39;t, or
+at least don&amp;#39;t yet have a strong enough tech background to be dumped
+in to an eng team for a quarter and be productive.&lt;/p&gt;
+&lt;p&gt;
+Besides loving the idea, even with the limitations, it&amp;#39;s something I
+thought about with respect to teaching. When I was working on putting
+together my teacher certification programs I thought about tech
+internships for teachers as a sabbatical solution or summer
+enrichment. Teachers would be certified through a strong CS Ed program
+and then later, when they are ready for a sabbatical or a summer
+boost, and this would mostly be aimed at high school teachers, they
+could do a tech internship set up for them. I even talked to a number
+of tech leaders who seemed to like the idea.&lt;/p&gt;
+&lt;p&gt;
+It made all the sens in the world to me. A high school teacher in the
+sciences might work in a lab during their summers but for a high
+school CS teacher working with a CS researcher would be pretty
+worthless. Very little, if anything would end up enhancing that
+teacher&amp;#39;s in class performance when they were back to teaching. A tech
+internship, on the other hand would up their software engineering
+game, bring them up to speed with best and industry practices, and
+even give them the platform to tell their kids about how &amp;#34;when they
+were there.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+Unfortunately, I think that&amp;#39;s a program that will never come to
+light or at least it won&amp;#39;t for a good long time. Now that we&amp;#39;re seeing
+cert programs pop up, we&amp;#39;re getting what I feared. A few solid
+programs and many more weak certification mills. Teachers going
+through the latter will in no way be prepared for a tech internship
+and their students will be the worse for it. For a teacher tech
+internship program to exist, we&amp;#39;ll need to wait for the next few crops of
+teachers to work their way to their licenses and hope that they select
+the strong certification programs.&lt;/p&gt;
+&lt;p&gt;
+So, that was my big takeaway from the podcast but I do encourage you
+to listen to the whole thing.&lt;/p&gt;
+&lt;p&gt;
+To get back to the title question of &amp;#34;is a degree necessary?&amp;#34; - that&amp;#39;s
+a debate that&amp;#39;s gone on for a while now and it frequently focuses on
+code school vs college. I think there are a couple of additional
+wrinkles to add.&lt;/p&gt;
+&lt;p&gt;
+Are we talking about K12 –&amp;gt; Code school –&amp;gt; workforce or are we
+talking about K12 –&amp;gt; college for non CS –&amp;gt; Code school –&amp;gt; &amp;gt;
+workforce. These are two very different things. I recently wrote about
+&lt;a href=&#34;https://cestlaz.github.io/post/tech-and-lib-arts/&#34;&gt;liberal arts&lt;/a&gt; education and how I feel that a BA in CS can be more
+valuable than a BS in CS for many people and that the liberal arts, if
+taken the right way by a student that&amp;#39;s ready for them can be a big
+boon to our society as we try to get a handle on the ethical and AI
+related issues that have been too long ignored since we decided that
+education should only be for jobs.&lt;/p&gt;
+&lt;p&gt;
+The code school in some ways can be viewed as a lightweight CS minor
+focused on industry so is it really different than someone doing an
+undergrad in anything and taking enough CS for a job? Probably
+not. The CS major probably gives the student more adaptability and
+grounded base knowledge but then the CS major also requires a lot of
+cruft only useful for the future PhD candidate.&lt;/p&gt;
+&lt;p&gt;
+On the other hand, K12 right to the code school, particularly given
+the damage caused by common core, NCLB and the like will miss serious
+opportunities on the &amp;#34;soft&amp;#34; side from college and yes, the humanities.&lt;/p&gt;
+&lt;p&gt;
+No answers here but more to think about.&lt;/p&gt;
+&lt;p&gt;
+So, once again, check out the &lt;a href=&#34;https://www.youtube.com/watch?v=agD0Q4vhi6w&#34;&gt;podcast&lt;/a&gt;. I&amp;#39;m going to have to look at
+the other released episodes myself when I get a chance.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A poor craftsman blames his tools</title>
@@ -178,18 +278,10 @@ doing fine and that&amp;#39;s a problem.&lt;/p&gt;
 Before getting to the specifics of CS PD let&amp;#39;s think about PD in
 general. There are different types of PDs.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Teachers sharing practices&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;conferences and meetings that teachers choose to attend&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;PD run by content providers, that is, people selling something&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;PD required by schools and districts&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Teachers sharing practices&lt;/li&gt;
+&lt;li&gt;conferences and meetings that teachers choose to attend&lt;/li&gt;
+&lt;li&gt;PD run by content providers, that is, people selling something&lt;/li&gt;
+&lt;li&gt;PD required by schools and districts&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The first two types are usually considered good, the third, sometimes
 but not as often. The fourth, fuggedaboudit.&lt;/p&gt;
@@ -953,21 +1045,11 @@ check us out. You can find more info &lt;a href=&#34;https://education.hunter.cu
 Out of class student communication is always a challenge. There are
 plenty of options:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Piazza&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Facebook group&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Slack, Discord, or other chat system&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Discourse, Vanilla or other discussion forum system&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Mailing list&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Piazza&lt;/li&gt;
+&lt;li&gt;Facebook group&lt;/li&gt;
+&lt;li&gt;Slack, Discord, or other chat system&lt;/li&gt;
+&lt;li&gt;Discourse, Vanilla or other discussion forum system&lt;/li&gt;
+&lt;li&gt;Mailing list&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;but all have warts. &lt;/p&gt;
 &lt;p&gt;
@@ -1012,24 +1094,14 @@ a chain of messages (thread). You can tag them, filter them, and when
 you&amp;#39;re done, close them (and reopen them later if needs be). The big
 plusses are that:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;People who are subscribed to the repo (assignment, web page, etc.)
-automatically get email alerts on the issues.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;You can explicitly tag people to force them to get alerts.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;You can directly reply via email so you don&amp;#39;t need to go to
-GitHub.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Everything related to a given project or repo is self contained.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;If you&amp;#39;re using GitHub / GitHub classroom you can use issues to
-create a logged communication with your students on specific assignments.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;People who are subscribed to the repo (assignment, web page, etc.)
+automatically get email alerts on the issues.&lt;/li&gt;
+&lt;li&gt;You can explicitly tag people to force them to get alerts.&lt;/li&gt;
+&lt;li&gt;You can directly reply via email so you don&amp;#39;t need to go to
+GitHub.&lt;/li&gt;
+&lt;li&gt;Everything related to a given project or repo is self contained.&lt;/li&gt;
+&lt;li&gt;If you&amp;#39;re using GitHub / GitHub classroom you can use issues to
+create a logged communication with your students on specific assignments.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 I haven&amp;#39;t used this class wide yet - just experimented a bit but I
@@ -1213,40 +1285,32 @@ enough to believe there isn&amp;#39;t any cheating in my classes.&lt;/p&gt;
 I don&amp;#39;t go nuts looking out for cheating but there are a number of
 things I do to try to help keep the students honest.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Class time. More often than not students have some time in class to
+&lt;li&gt;Class time. More often than not students have some time in class to
 work on any given project. This lets me get a handle on what they
 actually know since I can interact with the student or team and
 observe them interacting with each other. Even if a particular
 project is all done out of class, over the course of the semester
 you can get a pretty good idea as to what a student will produce on
-their own.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Project quizzes. For a big project, I&amp;#39;ll sometimes give a quiz on
+their own.&lt;/li&gt;
+&lt;li&gt;Project quizzes. For a big project, I&amp;#39;ll sometimes give a quiz on
 the day it&amp;#39;s due. The quiz will be tied to the project - describe
 a data structure or algorithm you used. If the student wrote the
 project it&amp;#39;s free points, if not they&amp;#39;ll have problems. Of course,
 this only requires that a student understands their project not
-that they actually wrote it but at least that&amp;#39;s something.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Git logs. I get my students on GitHub early and that lets me look
+that they actually wrote it but at least that&amp;#39;s something.&lt;/li&gt;
+&lt;li&gt;Git logs. I get my students on GitHub early and that lets me look
 at the commit logs for any given project. This usually can&amp;#39;t be
-used to find cheating but it lets me see what was committed when. &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Be reasonable in terms of workload and expectations. &lt;strong&gt;This is a
+used to find cheating but it lets me see what was committed when. &lt;/li&gt;
+&lt;li&gt;Be reasonable in terms of workload and expectations. &lt;strong&gt;This is a
 really important one&lt;/strong&gt;. Back at Stuy, it was made clear to me many
 times that many students feel forced to cheat due to teachers
 expecting far too much from them. If you&amp;#39;re take 6 classes a day
-and each gives you two hours of homework somethings got to give.&lt;/p&gt;
-&lt;p&gt;
+and each gives you two hours of homework somethings got to give.
+
 I always try to give a fair amount of work and only if I think it&amp;#39;s
 necessary and makes sense and as long a a student is up front about
 any issues that arise I&amp;#39;ll try to work with them on deadlines and
-requirements.&lt;/p&gt;
-&lt;/li&gt;
+requirements.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 I could use a code plagiarism tester like &lt;a href=&#34;https://theory.stanford.edu/~aiken/moss/&#34;&gt;Moss&lt;/a&gt; but I usually don&amp;#39;t
@@ -1293,20 +1357,14 @@ functions and if statements but there is some depth to the unit.&lt;/p&gt;
 &lt;p&gt;
 We start with simplified rules:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;If the word starts with a vowel, add &amp;#34;ay&amp;#34; to the end of the word&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;If it starts with a consonant move the first latter to the end and
-add &amp;#34;ay&amp;#34;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;don&amp;#39;t worry about anything else&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;If the word starts with a vowel, add &amp;#34;ay&amp;#34; to the end of the word&lt;/li&gt;
+&lt;li&gt;If it starts with a consonant move the first latter to the end and
+add &amp;#34;ay&amp;#34;&lt;/li&gt;
+&lt;li&gt;don&amp;#39;t worry about anything else&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Students usually start with something like this:&lt;/p&gt;
 &lt;div class=&#34;src src-python&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 as students realize it&amp;#39;s much easier to check for vowels rather than
@@ -1315,7 +1373,7 @@ consonants. &lt;/p&gt;
 Some students discover that you can do any of the following instead of
 the big compound &lt;strong&gt;or&lt;/strong&gt; :&lt;/p&gt;
 &lt;div class=&#34;src src-python&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 This allows us to talk a little about lists (and tuples if you like)
@@ -1328,7 +1386,7 @@ then talk about using python&amp;#39;s &lt;code&gt;split()&lt;/code&gt; method t
 on whitespace. We also talk about the &lt;code&gt;for&lt;/code&gt; loop. Ultimately this
 leads us to writing a function to convert a sentence into Pig Latin:&lt;/p&gt;
 &lt;div class=&#34;src src-python&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 But this doesn&amp;#39;t work with real sentences. Let&amp;#39;s focus on two
@@ -1343,7 +1401,7 @@ This is where things get fun. &lt;/p&gt;
 To handle the period, students frequently jump to modifying the &lt;strong&gt;if&lt;/strong&gt; 
 conditions in &lt;code&gt;piglatinify&lt;/code&gt; :&lt;/p&gt;
 &lt;div class=&#34;src src-python&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 or something similar.&lt;/p&gt;
@@ -1355,13 +1413,13 @@ posts &lt;a href=&#34;https://cestlaz.github.io/posts/2014-02-26-change-the-data
 If we take out the period we can do our regular piglatinify and then
 add it back in. This leads us to a solution like this:&lt;/p&gt;
 &lt;div class=&#34;src src-python&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 We can do something similar to deal with words that start with upper
 case letters:&lt;/p&gt;
 &lt;div class=&#34;src src-python&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 You can approach other special cases similarly.&lt;/p&gt;
@@ -1959,18 +2017,10 @@ sort or doing a unit on inheritance you probably should have your
 ownb written solutions but there are a whole bunch of topics which
 lend themselves to doing things on the fly:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;debugging&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;software engineering practices&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;how to approach &amp;#34;random&amp;#34; problems&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;practical &amp;#34;programming&amp;#34; techniques&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;debugging&lt;/li&gt;
+&lt;li&gt;software engineering practices&lt;/li&gt;
+&lt;li&gt;how to approach &amp;#34;random&amp;#34; problems&lt;/li&gt;
+&lt;li&gt;practical &amp;#34;programming&amp;#34; techniques&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;can all benefit from an on the fly lesson. &lt;/p&gt;
 &lt;p&gt;

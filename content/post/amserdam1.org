@@ -1,0 +1,136 @@
+---
+title: Amsterdam, the first two days
+date: 2023-10-07T11:36:18-04:00
+tags:
+- travel
+- misc  
+categories:
+- travel
+draft: false 
+--- 
+
+Final leg of the trip in Amsterdam. Train ride and hotel went smoothly
+but we were hungry so got a quick bite across from the Rembranthuis
+
+#+ATTR_HTML: :width 250px
+[[/img/amsterdam/rembranthuis.jpg]]
+
+After some wandering
+
+#+ATTR_HTML: :width 250px
+[[/img/amsterdam/market.jpg]]
+#+ATTR_HTML: :width 250px
+[[/img/amsterdam/canal.jpg]]
+
+#+ATTR_HTML: :width 250px
+[[/img/amsterdam/amsterdam-selfie.jpg]]
+
+we found our way to the [[https://www.verzetsmuseum.org/][WWII Dutch Resistance Museum]].
+
+Great plcae to go if you want to be both proud and inspired and
+depressed at the same time.
+
+It contained propaganda from both sides
+
+#+ATTR_HTML: :width 250px
+[[/img/amsterdam/posters.jpg]]
+#+ATTR_HTML: :width 250px
+[[/img/amsterdam/foldup.jpg]]
+
+Photos of hiding people and equipment:
+
+
+#+ATTR_HTML: :width 250px
+[[/img/amsterdam/hiding1.jpg]]
+#+ATTR_HTML: :width 250px
+[[/img/amsterdam/hiding2.jpg]]
+#+ATTR_HTML: :width 250px
+[[/img/amsterdam/hiding3.jpg]]
+#+ATTR_HTML: :width 250px
+[[/img/amsterdam/hiding4.jpg]]
+#+ATTR_HTML: :width 250px
+[[/img/amsterdam/giraffe.jpg]]
+
+and relayed the horror and tragedy that occurred during the Holocaust
+highlighting the brave acts of many to try to save lives as well as
+the stories of those who acquiesced and for the most part, regretted
+it.
+
+It left an impact and if you're in Amsterdam I highly recommend it,
+particularly give the direction of things with the Republicans in the
+United States these days.
+
+Dinner after that was a real treat. Batya and I got dinner with my old
+student Artem.
+
+#+ATTR_HTML: :width 250px
+[[/img/amsterdam/artem.jpg]]
+
+Artem graduated Stuy in I think 2000 and I was marginally in touch but
+hadn't seen him since the early part of this century. When I announced
+to my alumni community that I was heading to the Netherlands and
+asking for recs, Artem chimed in and we coordinated. Such a treat to
+reconnect with a former student in person. To be able to see him doing
+well in life so many years later.
+
+We got dinner at Entrepot and it was one of the best meals I've had in
+years.
+
+#+ATTR_HTML: :width 250px
+[[/img/amsterdam/dinner.jpg]]
+
+That was it for day 1.
+
+Day 2 started with another Sandeman tour. Got an overview of the city
+and learned some interesting things. One stood out. We learned about
+these [[https://en.wikipedia.org/wiki/Stolperstein][Stumbling Stones]]
+
+#+ATTR_HTML: :width 250px
+[[/img/amsterdam/stumble-stones.jpg]]
+
+placed in front of houses
+
+#+ATTR_HTML: :width 250px
+[[/img/amsterdam/ss-building.jpg]]
+
+memorializing victims of the Holocaust. 
+
+We also stopped by the former home of the Dutch West India Company
+
+#+ATTR_HTML: :width 250px
+[[/img/amsterdam/west-indies.jpg]]
+
+and talked about Dutch colonial times including New Amsterdam. It was
+cool that our guide was into the Amsterdam/New Amsterdam thing and was
+currently reading "The Island at the Center of the World" and had it
+in his bag.
+
+After that lunch at a pancake restaurant recommended by Artem. It was
+in a repurposed carousel.
+
+#+ATTR_HTML: :width 250px
+[[/img/amsterdam/carousel.jpg]]
+
+Next up the [[https://www.rijksmuseum.nl/nl][Rijksmuseum]]. Many amazing artworks including
+[[https://www.rijksmuseum.nl/nl][The Night Watch]] but here is a less famous one.
+
+
+#+ATTR_HTML: :width 250px
+[[/img/amsterdam/riijks2.jpg]]
+
+All I can say is amazing place. Also props to the designers on the
+wooden floors - much easier on the feet than stone.
+
+As a final treat we saw [[https://www.grachtenrace.amsterdam/][De Grachtenrace Amsterdam]] - a rowing race in
+the canals. We wanted to catcht it but didn't know exactly where or
+when it was running - just the day. We saw around 20 boats race by
+right after we left the museum
+
+#+ATTR_HTML: :width 250px
+[[/img/amsterdam/rowing.jpg]]
+
+Batya and I did this type of rowing and racing withe the [[https://villagecommunityboathouse.org/][Village
+Community Boathouse]] out of pier 40 when she was at Stuy.
+
+That was it for our first couple of days in Amsterdam with a lot more
+to come.

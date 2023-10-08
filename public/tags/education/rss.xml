@@ -6,10 +6,620 @@
     <description>C&#39;est la Z (education)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Jan 2022 08:53:28 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 06 Sep 2023 06:46:45 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/tags/education/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>A new school year - what&#39;s to come</title>
+      <link>https://cestlaz.github.io/post/school-start-2324/</link>
+      <pubDate>Wed, 06 Sep 2023 06:46:45 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/school-start-2324/</guid>
+      <description>&lt;p&gt;
+Another school year is starting. Hunter College&amp;#39;s classes started last
+week and public school K12 teachers went back yesterday. I&amp;#39;ve been
+having some &amp;#34;back to school dreams&amp;#34; and, yeah, already missing being
+with the kids but not missing those opening meetings and the rest of
+the nonsense.&lt;/p&gt;
+&lt;p&gt;
+Still, I&amp;#39;m thinking about what this school year will bring in terms of
+CS. &lt;/p&gt;
+&lt;p&gt;
+The elephant in the room is just the same as what we closed out with
+last Spring - AI - specifically generative AI.&lt;/p&gt;
+&lt;p&gt;
+I think AI is particularly interesting because it&amp;#39;s going to be a big
+topic in CS, in other subjects and also in school and district policy.&lt;/p&gt;
+&lt;p&gt;
+Unfortunately, we&amp;#39;re already seeing the education community - CS and
+otherwise play the usual game - anoint the usual suspects experts and
+give them a platform and eventually those opinions will become the
+&amp;#34;right ones.&amp;#34; Please stop. There are AI experts - people who&amp;#39;ve
+created, worked with, analyzed and studied these systems and they can
+and should be engaged as experts to communicate what we&amp;#39;re dealing
+with on a technical level but nobody&amp;#39;s been exploring and
+experimenting with these tools long enough in school and class
+settings to be an expert. All we have are people trying some new
+things now. Results will start to come in and we might eventually have
+&amp;#34;experts&amp;#34; in AI in education but we don&amp;#39;t know so just stop. I wrote
+about this &lt;a href=&#34;https://cestlaz.github.io/post/expert-thought-leader/&#34;&gt;here&lt;/a&gt; where I was at a conference and there were two
+speakers - both given a platform as &amp;#34;experts.&amp;#34; One was way off base
+and should never have been given the platform. The other just shared
+&amp;#34;here&amp;#39;s what I&amp;#39;m trying and here&amp;#39;s what others are trying - give it a
+go yourself.&amp;#34; That second speaker was great.&lt;/p&gt;
+&lt;p&gt;
+In non CS classes, I suspect we&amp;#39;ll see the usual play out. Some
+teachers and schools will go draconian with concerns over cheating and
+copying and others will come up with clever ways to use generative AI
+to help build classroom exercises and student experiences.&lt;/p&gt;
+&lt;p&gt;
+I saw one person talking about redefining how he taught his English
+classes and that concerns me. He said that with generative AI, writing
+is less important so he could now focus on reading.&lt;/p&gt;
+&lt;p&gt;
+This is a problem. Already there are too many HS English teachers who
+fancy themselves college literature professors. Writing, as in pen to
+paper or finger to keyboard might change because we have all these
+newfangled tools but it&amp;#39;s not really about writing. It&amp;#39;s about
+communication. That&amp;#39;s the needed skill and that isn&amp;#39;t going
+away. Becoming a literature class won&amp;#39;t help there and I see this
+attitude as problematic if it takes hold.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m also concerned about the AI tutor replacing teachers. This one&amp;#39;s
+tricky. On the one hand, automated feedback can be a great addition in
+terms of student support but it can also be used, as I spoke about
+when writing about Harvard&amp;#39;s &lt;a href=&#34;https://cestlaz.github.io/post/ai-replace-teaching/&#34;&gt;CS50&lt;/a&gt; and their using AI tutors. This will
+probably be good for the students but it&amp;#39;s also a way of glossing over
+serious deficiencies in either course design or delivery. I&amp;#39;m also
+concerned about students - particularly introverts connecting more
+with AIs than with people.&lt;/p&gt;
+&lt;p&gt;
+On the CS front, we&amp;#39;ll see a rush of new AI units. I haven&amp;#39;t had a
+chance to review what&amp;#39;s already been put out there but we&amp;#39;ll see. It&amp;#39;s
+a tough thing to get right for a CS class. K12 students by and large
+won&amp;#39;t have the background to get their heads around a lot of what&amp;#39;s
+going on so how can you give a fair inkling without overwhelming.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve seen good and bad with this over the years. A good example in
+another topic is networking - a complex topic that middle school kids
+aren&amp;#39;t by and large ready for, at least for a deep dive. That said,
+I&amp;#39;ve seen teachers do wonderful units where the class becomes a packet
+switching network breaking up messages, writing down packets, putting
+them in envelopes and passing them through the room. In the end they
+can&amp;#39;t sit down and code a networking stack but they have a good idea,
+in the general sense, how it works.&lt;/p&gt;
+&lt;p&gt;
+On the bad side, was a set of Google lessons that I saw at SIGCSE a
+few years ago. All fancy with graphics and sliders but in the end
+really communicated nothing about how the system (a neural net in this
+case) worked.&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;ll be interesting to see what comes but my money is on more weak
+stuff than strong.&lt;/p&gt;
+&lt;p&gt;
+Within CS and tech we&amp;#39;ll see continuations of the usual issues - lack
+of teachers, digital divide, potential changes in curriculum and the
+like but in education as a whole we&amp;#39;ll see some other big issues to
+pay attention to.&lt;/p&gt;
+&lt;p&gt;
+The trends in red states like Florida and how their policies are
+downright dangerous to minorities. Book bannings, policies harmful to
+marginalized communities - particularly the Black and LGBTQ
+communities and privatization. The CS community has mostly been silent
+on these with a short lived limited exception when the College Board /
+DeSantis APAAS thing first came up. On the one hand, the CS community
+appears to do lot - in our conferences and events inclusion is a big
+topic but that&amp;#39;s coffee cooler talk. To the outside the voices in the
+community are happy to go along to get along. I&amp;#39;d love to see that
+change this year - stronger voices by conference organizers and power
+players. Take a stand - don&amp;#39;t give me the CS or education isn&amp;#39;t
+political because these days, everything is.&lt;/p&gt;
+&lt;p&gt;
+Anyway, before I get myself too riled up, I think I&amp;#39;ll stop. It should
+be an interesting school year. I&amp;#39;ll be on the outside looking in and
+figuring out how I can remain involved. For those of you in the
+classroom - good luck for your openings, have fun with your kids and
+try not to let the administrations bring you down.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Teacher Movies</title>
+      <link>https://cestlaz.github.io/post/teacher-movies/</link>
+      <pubDate>Tue, 29 Aug 2023 08:36:17 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/teacher-movies/</guid>
+      <description>
+&lt;p&gt;
+It&amp;#39;s back to school time and in addition to all the usual back to
+school angst and excitement it&amp;#39;s also time for the networks to stream
+all those teacher movies.&lt;/p&gt;
+&lt;p&gt;
+Lots of a-list actors have been in teacher movies and many are really
+entertaining but I&amp;#39;ve also found many of them to be problematic.&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s not because many of them are &amp;#34;white savior&amp;#34; films, even though,
+yeah, that too, but rather because many are indirectly demeaning to
+teachers and the teaching profession in general.&lt;/p&gt;
+&lt;p&gt;
+The typical trope is non teacher with no teaching background gets job
+in hard school. Teacher struggles. Amazingly, teacher with no
+background wins over their students and performs miracles. Many of
+these movies are &amp;#34;based on a true story.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+Other highlighted tropes are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;None of the experienced career teachers are any good. Their all
+horrible by every account.&lt;/li&gt;
+&lt;li&gt;The administrations are also similarly bad. &lt;/li&gt;
+&lt;li&gt;As a result, the teacher rescues their class all by themselves.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Also interesting is that the star teacher in all the movies only ever
+seems to teach one class.&lt;/p&gt;
+&lt;p&gt;
+Another interesting thing is that when reading the movie post-text or
+looking up the teacher afterwards, they almost invariably left
+education soon after - frequently it seems to cash in on the fame
+resulting from the movie.&lt;/p&gt;
+&lt;p&gt;
+If you think about it, this sends a horrible message - well prepared,
+trained, dedicated teachers are all bad. No administrators care for
+the students and it takes these miracle workers to swoop in.&lt;/p&gt;
+&lt;p&gt;
+Nonsense - education is hard and is the long game and just like every
+profession - there are a few stars and a few rotten apples and bunch
+of hard working solid professionals in between.&lt;/p&gt;
+&lt;p&gt;
+Another truth is that, at least in the few instances I know of, where
+there was a success it was actually with the support of other teachers
+and/or the administration.&lt;/p&gt;
+&lt;p&gt;
+My first exposure to this was from &amp;#34;Small Victories.&amp;#34; A book - never
+made into a movie. It focused on a teacher at Seward Park High School
+and was published right before I started there (my first teaching
+gig). It wasn&amp;#39;t a miracle story but focused on how the teacher in
+question embraced the students with challenges and they found many
+&amp;#34;small victories&amp;#34; helping these students in their lives. The teacher,
+Jessica Siegel was in her 10th year teaching which is pretty good but
+she left soon after the book came out - right before I came on
+board. The book mentioned many other teachers but the focus was on
+her. The reality was that it was much more of a team effort. I got to
+know many of the players briefly mentioned in the book and indeed I
+can see that was the truth. Honestly, though, I don&amp;#39;t want to detract
+from Jessica Siegel&amp;#39;s work there - my best guess it was an ensemble
+effort in the school but as expected the author felt he had to focus on
+somebody.&lt;/p&gt;
+&lt;p&gt;
+The next was &amp;#34;Stand and Deliver&amp;#34; with Edward James Olmos as Jaome
+Escalante - the miracle teacher who overcame a school full of
+loser teachers. From what I was told by teachers with more of an
+inside view was that while Mr. Escalante did some great stuff it was a
+team effort. Makes for a better story but it demeans the rest of the
+hard working teachers in the school. I&amp;#39;m reminded of a piece a read
+about how Dan Devine - the former Notre Dame coach was hurt when he
+saw how he was portrayed in the movie &amp;#34;Rudy.&amp;#34; He was made the heavy
+who was going to deny Rudy his shot. The reality was apparently
+otherwise with Dan Devine being rather supportive.&lt;/p&gt;
+&lt;p&gt;
+Escalante and Siegel differ from many of the other miracle teacher
+stories in that they both taught for at least 10 years. &lt;/p&gt;
+&lt;p&gt;
+Of course, not all teacher movies are bad and even the bad ones can be
+entertaining and many were created as fiction and are not based on a
+true story.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Here are some that have school elements that I like:
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-2&#34;&gt;
+Lean on me
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;
+Based on Joe Clark - a no excuses principal in New Jersey. I&amp;#39;m not
+particularly a Joe Clark fan but there were a number of things I liked
+about the movie.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It showed both supportive and antagonistic parents, administrators,
+and influences.&lt;/li&gt;
+&lt;li&gt;By the end, Joe Clark acknowledged that he needed and appreciated the
+hard work and dedication of his staff.&lt;/li&gt;
+&lt;li&gt;It highlighted how educators are frequently between a rock and a
+hard place - you&amp;#39;ve got to keep the drug dealers out but you can&amp;#39;t
+lock the doors.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Again, not a Joe Clark fan but if you pay attention there&amp;#39;s some good
+balance here and it&amp;#39;s early Morgan Friedman so that&amp;#39;s always a plus.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-3&#34;&gt;
+To Sir with Love
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;
+I mean, Sidney Poitier so that&amp;#39;s enough reason to watch. It&amp;#39;s
+interesting because it&amp;#39;s kindof a reverse &amp;#34;White Savior&amp;#34; story with
+Poitier being black and his class mostly poor white. It&amp;#39;s got plenty
+of faults - he only appears to teach one class and he never does
+anything academic but it&amp;#39;s got good balance. There&amp;#39;s a bad teacher
+who&amp;#39;s the heavy but there are also good supportive teachers and
+administrators. Poitier faces real challenges and even loses his cool,
+gets advice from other teachers and finds his way.&lt;/p&gt;
+&lt;p&gt;
+This is a good one.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-4&#34;&gt;
+Dead Poets Society
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;
+I mention this as an aside. I think it&amp;#39;s interesting because the
+teacher in question John Keating comes in with credentials. He also
+isn&amp;#39;t saving the students in the same sense - I mean it is an elite
+private boarding school. The other educators are a mixed bag and
+that&amp;#39;s realistic and I think the description of the school is
+reasonably accurate given the time and place.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-5&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-5&#34;&gt;
+And maybe my favorite
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+One of the best teacher movies and a great one to watch at this time
+of years is &amp;#34;Mr. Holland&amp;#39;s Opus.&amp;#34; Richard Dreyfuss, Olympia Dukakis,
+and others. Frustrated musician takes a teaching job to pay the bills
+and indeed becomes that influential teacher. Never shown as the super
+charismatic miracle worker but a dedicated pro who would do anything
+to reach his students and help them to love music. It&amp;#39;s a movie about
+any of us, all of us who&amp;#39;ve pushed through the decades to work for our
+students without the limelight but in the end, as Mr Holland got to
+see, made a great difference in many lives.&lt;/p&gt;
+&lt;p&gt;
+So, as the school year starts, enjoy the teacher movies - the good,
+the bad, and the fun.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Passing The Torch</title>
+      <link>https://cestlaz.github.io/post/passing-the-torch/</link>
+      <pubDate>Mon, 21 Aug 2023 12:52:19 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/passing-the-torch/</guid>
+      <description>&lt;p&gt;
+Passing another miletone on the way to retirement this week. I didn&amp;#39;t
+think it would be this many steps - I figured I&amp;#39;d say I&amp;#39;m retiring,
+fill out a form, and be done.&lt;/p&gt;
+&lt;p&gt;
+It turns out it&amp;#39;s a multi stage process.&lt;/p&gt;
+&lt;p&gt;
+This week, my contract with Hunter officially ends and as of Friday
+I&amp;#39;m on Travia leave - that&amp;#39;s terminal leave to public school
+teachers. I basically get full pay and benefits while my reserved sick
+days get used up at a 2 sick for one real day rate. In about 2 weeks, I can
+finally file my retirement forms and then on Dec 4th or so, it&amp;#39;s all
+over.&lt;/p&gt;
+&lt;p&gt;
+More importantly, my replacements are now both, well, in place.&lt;/p&gt;
+&lt;p&gt;
+On the Daedalus honors undergraduate CS side, Hunter hired my
+replacement about month ago. A terrific instructor who already, as an
+adjunct has proven herself both in terms of teaching and also in
+connecting with her students. She&amp;#39;s terrific but we only knew each
+other because we were both at Hunter. I have no doubt that she&amp;#39;ll take
+the Daedalus program to the next level but due to personal
+connections, I&amp;#39;m more excited about the new hire for my education
+school work.&lt;/p&gt;
+&lt;p&gt;
+On that side, to run Hunters CS Teacher Education programs, they&amp;#39;ve
+brought on Edgar Troudt. Edgar&amp;#39;s spent a good amount of his career in
+the CUNY system but has also made stops at LIU and Vaughn
+College. Like my Daedalus successor, Edgar is a highly regarded
+classroom teacher, is a strong computer scientist and brings a lot of
+extras to the table.&lt;/p&gt;
+&lt;p&gt;
+For me though, it&amp;#39;s extra special because I&amp;#39;ve known Edgar for
+years. Back in the day, he was in my CS classes when he was a student
+at Stuyvesant (note: I was not on the hiring committee so other than
+telling Edgar and a few other people to apply, I had nothing to do
+with the process). Since then, we&amp;#39;ve become friends and we&amp;#39;ve
+worked together on a couple of projects.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m particularly excited because Edgar brings things to the position
+that I lacked. We both have strong CS backgrounds but where my other
+strength is K12 education and pipeline from start to industry, Edgar&amp;#39;s
+spent his career not only creating but more importantly growing
+programs with a focus on entrepreneurship.&lt;/p&gt;
+&lt;p&gt;
+That background in program growth is what Hunter and in fact, NY needs
+now. I planted the seed and got things off the ground but now the
+program needs someone adept at growth and sustainability and that&amp;#39;s
+a special that Edgar brings to the table. I started the Masters in
+CS Ed program but it&amp;#39;s in a seedling state. A handful of students a
+year. The next step for Hunter is to nurture it and grow it. At the
+same time, the advanced certificate program will probably see reduced
+demand but I&amp;#39;ve written on that before.&lt;/p&gt;
+&lt;p&gt;
+What gets me excited about Hunter&amp;#39;s programs futures is that the
+person they chose to succeed me has the unique skill set to take the
+programs to the next levels. Something that maybe I could have done,
+maybe I couldn&amp;#39;t but passing the torch to someone with  a history of
+program growth is the right move.&lt;/p&gt;
+&lt;p&gt;
+Nine years ago, it was time for me to leave Stuyvesant. I had done my
+thing there, for better or worse and it was time for someone else to
+take the reins. There and then it was JonAlf who I describe as being
+very similar to me but with a better big picture view and a higher
+upside. He hasn&amp;#39;t disappointed in the role. I was happy then that he
+succeeded me and just as delighted now. Same with Edgar.&lt;/p&gt;
+&lt;p&gt;
+I left Stuy confident that I left the program there in better
+hands. Now that my successors at Hunter are both in place, I feel the
+same way.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Who&#39;s the Expert Thought Leader</title>
+      <link>https://cestlaz.github.io/post/expert-thought-leader/</link>
+      <pubDate>Thu, 10 Aug 2023 11:26:48 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/expert-thought-leader/</guid>
+      <description>&lt;p&gt;
+Last weekend I attended the AI X Education Conference - an online
+conference on, well, AI in education. There were some talks about AI
+and generative AI in particular but really the split was that Saturday
+was focused on college education and Sunday on K12.&lt;/p&gt;
+&lt;p&gt;
+I only caught a bit of each day but fortunately, the sessions were
+recorded. Two in particular or more specifically two specific
+speakers, one in a K12 STEM education session and another in a
+humanities education session caught my attention. One for good, one
+for bad.&lt;/p&gt;
+&lt;p&gt;
+All of the speakers at conferences like these are anointed with
+authority. By being included and given a speaking platform they
+automatically become &amp;#34;experts&amp;#34; and &amp;#34;thought leaders.&amp;#34; This has been
+true throughout the decades I&amp;#39;ve been involved in CS Ed. Sometimes the
+&amp;#34;expert&amp;#34; does indeed the deserve the platform. Far too often, they
+don&amp;#39;t.&lt;/p&gt;
+&lt;p&gt;
+Let&amp;#39;s dive in.&lt;/p&gt;
+&lt;p&gt;
+One speaker, let&amp;#39;s call him speaker A, spoke about AI. Repeatedly
+stated how we should be using it (I agree, with this one point) but
+also how AI tutors and teachers &lt;strong&gt;will&lt;/strong&gt; be better than human
+counterparts. Speaker A also segued into how discovery learning is a
+must and anyone who doesn&amp;#39;t approach their classes from that point of
+view isn&amp;#39;t doing it right. He went on but it was all in a similar
+vein.&lt;/p&gt;
+&lt;p&gt;
+The other speaker, speaker B started by saying he was going to share
+some of the things he (or maybe he said he and his colleagues, I
+forget) were doing and seemed to be having some success. He shared how
+he used generative AI to build scenarios for student activities, for
+example. Speaker B encouraged the audience to try similar but never
+made authoritative statements of &amp;#34;this is the one true way.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+Both of these speakers, by virtue of the conference organizers have
+been anointed as &amp;#34;thought leaders&amp;#34; and &amp;#34;experts.&amp;#34; Are they?&lt;/p&gt;
+&lt;p&gt;
+Maybe.&lt;/p&gt;
+&lt;p&gt;
+Speaker B may or may not be an expert but in my opinion, he did it
+right. Here&amp;#39;s what we tried. Here&amp;#39;s what happens. Our situations might
+differ so your mileage might vary but think about giving it a go.&lt;/p&gt;
+&lt;p&gt;
+This was just a report on his experiences but this is what, in my
+opinion, good ed research is like - we tried something, here&amp;#39;s what
+happened but there are a million variables we can never account for so
+take it all with a grain of salt.&lt;/p&gt;
+&lt;p&gt;
+This is also how I approach preparing teachers - give them the tools
+but emphasize there is no single true way. Speaker A talked of how you
+&lt;strong&gt;have&lt;/strong&gt; to teach but he was wrong. Based on circumstance, students,
+environment, and yes, that often omitted aspect - teacher strengths
+and preferences you make the best possible choice. You might want to
+have a discover lesson because it would work with your students and
+you love to do it but your class might be too big or maybe the class
+length isn&amp;#39;t long enough or there could be a myriad of other reasons
+why another approach might be better in that particular instance.&lt;/p&gt;
+&lt;p&gt;
+Speaking of speaker A, let&amp;#39;s revisit him. You already know that I
+wasn&amp;#39;t impressed but I decided to dig a little deeper. Best I can
+determine he teaches at a private school with an enrollment of 225,
+resources and small classes. It looks to have a high performing
+population.&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Of course discovery learning works&lt;/strong&gt; in that environment. Most things
+are easy if you have a dozen kids who are performing at or above grade
+level. Will that translate to the underfunded overcrowded public
+school? Well, I think you know the answer.&lt;/p&gt;
+&lt;p&gt;
+So, we have speaker A - anointed but in my opinion, not worthy. If one
+teaches at a rich private school does that mean they can&amp;#39;t be an
+expert or real thought leader? Of course not. But the ones that are
+the real experts know that their school - whatever it is, is not the
+same as the next teachers so, unlike the Sith, they don&amp;#39;t talk in
+absolutes. Many teachers in many types of schools - public, private,
+religious, urban, and rural have shared great ideas in education but
+the good ones understand it&amp;#39;s not a best practice, just a practice that
+might have been best for them at a certain place and time.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve learned a lot from many, &lt;strong&gt;many&lt;/strong&gt; great people in the CS Ed space
+but I also can&amp;#39;t tell you how many times I&amp;#39;ve sat in on a session and
+just had to shake my head knowing that the &amp;#34;expert&amp;#34; didn&amp;#39;t really know
+what they were talking about. Many times we do great but often, I
+think we can do better. &lt;/p&gt;
+&lt;p&gt;
+Anyway, that&amp;#39;s my education rant for the day.&lt;/p&gt;
+&lt;p&gt;
+I wasn&amp;#39;t able to hit all the sessions but overall what I did see was
+enjoyable and worthwhile. It looks like you can request access if you
+want to watch the recordings of the conference &lt;a href=&#34;https://www.aixeducation.com/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+Enjoy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Design decisions when planning a class</title>
+      <link>https://cestlaz.github.io/post/design-decisions/</link>
+      <pubDate>Thu, 27 Jul 2023 10:31:49 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/design-decisions/</guid>
+      <description>&lt;p&gt;
+Now that I&amp;#39;ve got a little more free time and energy I decided to get
+working on a short video series on elisp - the language that&amp;#39;s built
+in to and intertwined with the Emacs editor.&lt;/p&gt;
+&lt;p&gt;
+As I&amp;#39;ve been thinking through and starting the series I started to
+think about the design decisions, big and small, one makes when
+designing a class, unit or lesson.&lt;/p&gt;
+&lt;p&gt;
+I know many teachers are forced to teach scripted, canned curricula
+these days but the act of developing something and delivering it is so
+much more interesting and I dare say better for students.&lt;/p&gt;
+&lt;p&gt;
+I thought it might be interesting to share a bit of my thought process
+as my little video project takes shape.&lt;/p&gt;
+&lt;p&gt;
+On the big side I had to think about overall structure. Who&amp;#39;s this
+series for and how should it basically be shaped. Well, primarily,
+this is for me. I thought it would be a good way to dive in to Emacs
+programming a bit more deeply. Of course, others in the Emacs
+community have requested I do something like this and I do hope they
+get something useful out of all of this.&lt;/p&gt;
+&lt;p&gt;
+Combining the two groups - the Emacs community and me, I figured that
+most viewers would have at least some programming experience. This led
+me to decide on the format. I wasn&amp;#39;t going to go through the language
+and programming from scratch like a CS0 programming intro but rather,
+I&amp;#39;d build small elisp programs and projects to illustrate elisp
+concepts.  I felt that for my potential audience, videos incrementally
+going through language constructs, library calls and features in a
+systematic way would give better coverage but I thought it would be
+more boring. I also thought that having little working code examples
+to modify would probably be more useful for an elisp newbie who wanted
+to noodle around and customize Emacs. Were I teaching a regular
+class - that is something with student feedback or even in person, I
+might have made a different decision.&lt;/p&gt;
+&lt;p&gt;
+Similar decisions for a traditional course might be objects first or
+constructs first in APCS-A or whether or not to base a class on
+students writing new code or working in a code base provided by the
+instructor.&lt;/p&gt;
+&lt;p&gt;
+Maybe more interesting are the smaller choices. As an example, I just
+did my first video on &lt;a href=&#34;https://cestlaz.github.io/post/learning-elisp-4/&#34;&gt;rot13&lt;/a&gt;. We wrote a function to rotate a
+character, and the one to rotate a word. I decided intentionally to
+leave out two things:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;integrating this into the Emacs interface&lt;/li&gt;
+&lt;li&gt;handling rotating robustly - our solution assumes all lower case
+letters only.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I decided to leave those two out for a few reasons.&lt;/p&gt;
+&lt;p&gt;
+First was video length. The video was going to be about 30 minutes
+which is already longer than I&amp;#39;d like.&lt;/p&gt;
+&lt;p&gt;
+Second, the Emacs integration is a rich enough topic that I wanted it
+to have its own video or lesson. That&amp;#39;ll be the one I record next.&lt;/p&gt;
+&lt;p&gt;
+Finally, making the code robust will allow us to cover conditionals -
+another subject worthy of its own lesson.&lt;/p&gt;
+&lt;p&gt;
+By delaying those two concepts I was also able to finish the first
+video with something that worked and if a view wanted, they had
+something that they could explore on their own without too much
+difficulty. &lt;/p&gt;
+&lt;p&gt;
+There were also decisions to be made on specific constructs to
+include. In the video, I talked about the &lt;code&gt;mapcar&lt;/code&gt; function. This is
+similar to the &lt;code&gt;map&lt;/code&gt; function you&amp;#39;ll find in many other languages
+today.&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (&lt;span style=&#34;color:#a6e22e&#34;&gt;mapcar&lt;/span&gt; func &lt;span style=&#34;color:#a6e22e&#34;&gt;list&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Will apply func to every item in a list so &lt;code&gt;(mapcar #&amp;#39;square &amp;#39;(1 2 3
+4))&lt;/code&gt; yields &lt;code&gt;(1 4 9 16)&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+All of the code can be found &lt;a href=&#34;https://gitlab.com/zamansky/learning-elisp-code/-/blob/main/rot13.el?ref_type=heads&#34;&gt;here&lt;/a&gt; but the gist is that I had a
+function to rotate a character by any amount using 2 parameters. I
+then wrote another function that called that function forcing a
+rotation of 13 and then used that in the map.&lt;/p&gt;
+&lt;p&gt;
+We could have been finished but I decided to show how elisp uses
+anonymous functions using &lt;code&gt;lambda&lt;/code&gt;. This allows one to create a throw
+away function on the fly. &lt;/p&gt;
+&lt;p&gt;
+Alternatively, I could have used Emacs&amp;#39; &lt;code&gt;apply-partially&lt;/code&gt; function to
+take our function with 2 parameters and set one of them to be fixed.&lt;/p&gt;
+&lt;p&gt;
+For example, in bad Python pseudocode (and this won&amp;#39;t work in Python):&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# assume we have a function rotate(amt,letter) which rotates letter by amount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  rotate&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;13&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; apply&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;partially(rotate,&lt;span style=&#34;color:#ae81ff&#34;&gt;13&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# now calling rotate-13(&amp;#39;a&amp;#39;) would be the same as&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# rotate(13,&amp;#39;a&amp;#39;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# apply-partially, gave us a new function with the first parameter set&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# at 13.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Pretty cool, right?&lt;/p&gt;
+&lt;p&gt;
+I think it is but I also feel that &lt;code&gt;lambda&lt;/code&gt; is more fundamental and
+more widely applied across languages.&lt;/p&gt;
+&lt;p&gt;
+I also could have left it out altogether but felt that early
+introduction, even as a little hand wavy extra, would be of benefit
+later on when we use lambda more seriously.&lt;/p&gt;
+&lt;p&gt;
+This type of decision is similar to how I usually sequence my data
+structure courses. I usually use this outline:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;recursion (blind search)&lt;/li&gt;
+&lt;li&gt;linked lists / dynamic memory&lt;/li&gt;
+&lt;li&gt;sorting (nlogn)&lt;/li&gt;
+&lt;li&gt;stacks/queues&lt;/li&gt;
+&lt;li&gt;trees&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;We get our feet wet with recursion but after a couple of weeks, we do
+dynamic memory and the recursion can marinate in the subconscious.&lt;/p&gt;
+&lt;p&gt;
+Then, we come back to recursion a little more deeply and the dynamic
+data structures marinate.&lt;/p&gt;
+&lt;p&gt;
+Rinse and repeat.&lt;/p&gt;
+&lt;p&gt;
+So, these are some of the examples of the types of decisions one makes
+when designing instruction. Will I be right? I don&amp;#39;t know. If I were
+teaching a real course, I&amp;#39;d figure that out over time and iterate -
+education is playing the long game.&lt;/p&gt;
+&lt;p&gt;
+In any event, these should be conscious decisions. Creating a class,
+unit, or lesson shouldn&amp;#39;t be just following the text book or the
+content provider but intentional choices based on the content, the
+class, the teacher and the environment.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>How Will Online Influence Teaching</title>
@@ -366,24 +976,12 @@ and concentrations notwithstanding, a degree in CS seems to have
 largely stayed the same from the early/mid 1980s when I got my BA to
 today. There are variations but it was and still is largely&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;programming–&amp;gt;data structures–&amp;gt;algorithms&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;some systems or OS stuff&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;some theory &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;math: calc 1, calc 2, discrete, linear, maybe stats&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;another requirement or two which might differ based on institution&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;electives&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;programming–&amp;gt;data structures–&amp;gt;algorithms&lt;/li&gt;
+&lt;li&gt;some systems or OS stuff&lt;/li&gt;
+&lt;li&gt;some theory &lt;/li&gt;
+&lt;li&gt;math: calc 1, calc 2, discrete, linear, maybe stats&lt;/li&gt;
+&lt;li&gt;another requirement or two which might differ based on institution&lt;/li&gt;
+&lt;li&gt;electives&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Sure, programs have changed over the years. At one point, computer
 graphics was hot. Now, not so much. Courses like compilers also used
@@ -523,36 +1121,16 @@ Now though we can sit back and enjoy some presentations by some great
 teachers and provide some meaningful feedback. We&amp;#39;ve got a nice list
 of topics.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Blockchain&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Genetic Algorithms&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Data Mining&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Machine Learning&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Natural Language Processing&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Public Key Encryption&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Data Visualization&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Classic AI - Decision Trees&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Classic AI - search&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Databases / SQL&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Blockchain&lt;/li&gt;
+&lt;li&gt;Genetic Algorithms&lt;/li&gt;
+&lt;li&gt;Data Mining&lt;/li&gt;
+&lt;li&gt;Machine Learning&lt;/li&gt;
+&lt;li&gt;Natural Language Processing&lt;/li&gt;
+&lt;li&gt;Public Key Encryption&lt;/li&gt;
+&lt;li&gt;Data Visualization&lt;/li&gt;
+&lt;li&gt;Classic AI - Decision Trees&lt;/li&gt;
+&lt;li&gt;Classic AI - search&lt;/li&gt;
+&lt;li&gt;Databases / SQL&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Obviously we&amp;#39;re not going to learn everything about topics like NLP or
 ML but rather a single unit that can be done in a lass.&lt;/p&gt;
@@ -1622,18 +2200,12 @@ school mailing list. For years I used &lt;a href=&#34;http://www.list.org/&#34;&
 been using Google Groups. I always give my students the rules at the
 beginning of the class:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;The list can be used for anything related to class or CS.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Things that are interesting to the community but not class or CS
+&lt;li&gt;The list can be used for anything related to class or CS.&lt;/li&gt;
+&lt;li&gt;Things that are interesting to the community but not class or CS
 related are also OK. Things like if a student is on a team that has
 a big competition coming up or that there are free or cheap tickets
-to a show or museum are also ok.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The usual rules for civility and respect.&lt;/p&gt;
-&lt;/li&gt;
+to a show or museum are also ok.&lt;/li&gt;
+&lt;li&gt;The usual rules for civility and respect.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;It&amp;#39;s all pretty low key, informal and open.&lt;/p&gt;
 &lt;p&gt;
@@ -1644,19 +2216,13 @@ recommendation letter etc.. If it&amp;#39;s a question about the class
 material, the tools, etc. I expect the email to go to the list not
 me. I give three reasons for this&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Other class members could benefit from the question and answers.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;If you email me only I can answer the question and only when I get
+&lt;li&gt;Other class members could benefit from the question and answers.&lt;/li&gt;
+&lt;li&gt;If you email me only I can answer the question and only when I get
   to it. If you email the list, there are many more people who can
-  potentially answer.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;If it&amp;#39;s a tools question, particularly Mac related It&amp;#39;s unlikely
+  potentially answer.&lt;/li&gt;
+&lt;li&gt;If it&amp;#39;s a tools question, particularly Mac related It&amp;#39;s unlikely
 I&amp;#39;ll know the answer but almost certainly someone in the class
-will,&lt;/p&gt;
-&lt;/li&gt;
+will,&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;I tell my classes that if they email me directly with something that
 should go to the mailing list, I&amp;#39;ll ignore the email.&lt;/p&gt;
@@ -1882,30 +2448,20 @@ they want.&lt;/p&gt;
 &lt;p&gt;
 Here are some of the key points:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Seats would ultimately go to the top 5 to 7 percent of each middle school&amp;#39;s&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Seats would ultimately go to the top 5 to 7 percent of each middle school&amp;#39;s&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;class.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;These students would have to also be classified in the top 25% city wide.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Top is defined by a composite score of multiple measures as&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;These students would have to also be classified in the top 25% city wide.&lt;/li&gt;
+&lt;li&gt;Top is defined by a composite score of multiple measures as&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;determined by the chancellor which means anything goes.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Remaining seats will be filled by&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Remaining seats will be filled by&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;lottery of all students with a 3.7 GPA or greater.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;It&amp;#39;s not clear how the students would be allocated to each of the&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;It&amp;#39;s not clear how the students would be allocated to each of the&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;specialized schools.&lt;/p&gt;
 &lt;p&gt;
@@ -2205,24 +2761,16 @@ Twenty one middle schools produce over half the students that
 ultimately are accepted to the specialized schools. For the rest,
 there are a few reasons&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Many students don&amp;#39;t take the SHSAT.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;There have been stories of schools steering kids away from the&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Many students don&amp;#39;t take the SHSAT.&lt;/li&gt;
+&lt;li&gt;There have been stories of schools steering kids away from the&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;specialized schools.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;There&amp;#39;s no culture in those schools of striving for specialized&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;There&amp;#39;s no culture in those schools of striving for specialized&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;school acceptance or attendance.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;The academic programs at those schools don&amp;#39;t prepare students for&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;The academic programs at those schools don&amp;#39;t prepare students for&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;the SHSAT exam for reasons that we&amp;#39;re not going to delve into here.&lt;/p&gt;
 &lt;p&gt;
@@ -2437,45 +2985,29 @@ knowledge and thought process.&lt;/p&gt;
 &lt;p&gt;
 Some things that I consider when putting together a test:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Does it ramp up in difficulty - that is, are there some &amp;#34;gimme&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Does it ramp up in difficulty - that is, are there some &amp;#34;gimme&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;questions&amp;#34; and some challenges.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Are questions all or nothing - if a kid doesn&amp;#39;t see things my way&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Are questions all or nothing - if a kid doesn&amp;#39;t see things my way&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;are they dead in the water.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Will the test repeatedly penalize or reward the same concept over&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Will the test repeatedly penalize or reward the same concept over&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;and over again on the test.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Do I cover all the concepts I want to assess.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Do you make kids waste time with boilerplate code.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Do the questions take so long to read and digest that there&amp;#39;s little&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Do I cover all the concepts I want to assess.&lt;/li&gt;
+&lt;li&gt;Do you make kids waste time with boilerplate code.&lt;/li&gt;
+&lt;li&gt;Do the questions take so long to read and digest that there&amp;#39;s little&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;time to form and write down answers.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Do the answers convey anything about the students thought process or&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Do the answers convey anything about the students thought process or&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;just correctness.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Is it easy or impossible to grade and grade fairly.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Is it easy or impossible to grade and grade fairly.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;What about length? To me a well crafted test should be completed by
 the average student with a few minutes to spare - enough time to check
@@ -2550,18 +3082,10 @@ into why the got them wrong.&lt;/p&gt;
 &lt;p&gt;
 In an early class you might notice things like:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;kids printing rather than returning answers&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;kids not understanding scope&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;kids having difficulty with idioms like &lt;code&gt;i=i+1&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;kids needing more scaffolding to approach a problem&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;kids printing rather than returning answers&lt;/li&gt;
+&lt;li&gt;kids not understanding scope&lt;/li&gt;
+&lt;li&gt;kids having difficulty with idioms like &lt;code&gt;i=i+1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;kids needing more scaffolding to approach a problem&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;This can drive instruction moving forward.&lt;/p&gt;
 &lt;p&gt;
@@ -2717,12 +3241,8 @@ enough to make a difference.&lt;/p&gt;
 When teaching a course, teachers cover the curriculum but when you
 drill down to where they focus their time, it comes down to:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;what they think is important for the kids to know.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;what they think the kids will need for that high stakes exam.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;what they think is important for the kids to know.&lt;/li&gt;
+&lt;li&gt;what they think the kids will need for that high stakes exam.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;If a teacher feels embedding ethical concerns is important they&amp;#39;ll
 spend time on it, if not, it will be lip service. Even if it&amp;#39;s on the
@@ -2995,21 +3515,11 @@ the true way worked, circumstances were right and the technique
 aligned with the teacher&amp;#39;s natural tendencies. When it didn&amp;#39;t, why
 not? Many reasons.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;lack of prep time.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;too many students (per class, per day, per term)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;different populations than the one researched&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;factors the researcher didn&amp;#39;t include (and there are tons of them)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;teachers with different personalities and skill sets&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;lack of prep time.&lt;/li&gt;
+&lt;li&gt;too many students (per class, per day, per term)&lt;/li&gt;
+&lt;li&gt;different populations than the one researched&lt;/li&gt;
+&lt;li&gt;factors the researcher didn&amp;#39;t include (and there are tons of them)&lt;/li&gt;
+&lt;li&gt;teachers with different personalities and skill sets&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;and each of the above points opens up to scores of specifics.&lt;/p&gt;
 &lt;p&gt;
@@ -3180,35 +3690,25 @@ quite simple.&lt;/p&gt;
 Start by recognizing that ALL the money comes from the DOE. Once you
 do that you can address the problem:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Assign the ATR to a school&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;If the school likes the ATR and the ATR likes the school, they keep&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Assign the ATR to a school&lt;/li&gt;
+&lt;li&gt;If the school likes the ATR and the ATR likes the school, they keep&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;them and the DOE picks up the tab or rather adjusts the schools
 budget to compensate. The DOE will continue to do so until a real
 opening occurs at the school in the ATR&amp;#39;s area at which point the
 ATR fills the position officially and the budget is readjusted.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;If the school or ATR don&amp;#39;t like each other the ATR gets rotated,&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;If the school or ATR don&amp;#39;t like each other the ATR gets rotated,&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;however you create a 3 strikes (or maybe 2 or 4 or some number)
 rule.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;If the school keeps sending away ATRs semester after semester hit&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;If the school keeps sending away ATRs semester after semester hit&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;them with a penalty or force an ATR placement when they have an
 opening (assuming the ATR is amenable).&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;If the ATR keeps declining positions after a set number of&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;If the ATR keeps declining positions after a set number of&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;schools force the placement.&lt;/p&gt;
 &lt;p&gt;
@@ -3252,42 +3752,28 @@ looks like we&amp;#39;ll have a pathway towards certification for CS teachers.&l
 I haven&amp;#39;t had a chance to dive into the details but at the meeting a
 few key points came up:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;As the proposal indicates this will be a subject area in which a&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;As the proposal indicates this will be a subject area in which a&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;teacher can be certified and be awarded tenure.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;There will be a traditional pathway for new teachers - Bachelors /&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;There will be a traditional pathway for new teachers - Bachelors /&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Masters degree&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;There will be an alternative pathway for people entering from the&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;There will be an alternative pathway for people entering from the&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;workforce&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;There will be an extension for teachers with another license so they&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;There will be an extension for teachers with another license so they&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;won&amp;#39;t have to give up tenure in their current license.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;There will be an &amp;#34;individual evaluation&amp;#34; pathway which sounds to me&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;There will be an &amp;#34;individual evaluation&amp;#34; pathway which sounds to me&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;like it could catch people who fall through the cracks.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;There looks to be a sensible ramp up period - until September 2022&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;There&amp;#39;s a grandfathering provision that looks to last 10 years.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;There looks to be a sensible ramp up period - until September 2022&lt;/li&gt;
+&lt;li&gt;There&amp;#39;s a grandfathering provision that looks to last 10 years.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;This sounds like a smart sensible plan. Multiple pathways, shallow
 ramp up and provisions to protect existing teachers.&lt;/p&gt;
@@ -3372,24 +3858,12 @@ seventeen teachers.&lt;/p&gt;
 &lt;p&gt;
 The original agenda was:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;09:00 - 10:00 : Each school describes it&amp;#39;s program and courses&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;10:00 - 11:00 : An intro to Git and GitHub for the classroom&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;10:00 - 11:45 : Sharing neat lessons&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;11:45 - 12:00 : Presentation by &lt;a href=&#34;http://chicktech.org&#34;&gt;ChickTech&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;12:00 - 01:00 : Lunch&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;01:00 - End   : Small group lesson and curriculum work&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;09:00 - 10:00 : Each school describes it&amp;#39;s program and courses&lt;/li&gt;
+&lt;li&gt;10:00 - 11:00 : An intro to Git and GitHub for the classroom&lt;/li&gt;
+&lt;li&gt;10:00 - 11:45 : Sharing neat lessons&lt;/li&gt;
+&lt;li&gt;11:45 - 12:00 : Presentation by &lt;a href=&#34;http://chicktech.org&#34;&gt;ChickTech&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;12:00 - 01:00 : Lunch&lt;/li&gt;
+&lt;li&gt;01:00 - End   : Small group lesson and curriculum work&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Oh boy did I mess up on the timing. The description and
 discussion of school programs took all morning. It was interesting to
@@ -3453,30 +3927,22 @@ As with the last time, the students  had already written code to find
 the largest value in a list and also to find the frequency of an item
 in a list.&lt;/p&gt;
 &lt;div class=&#34;src src-python&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 They had to write mode prior to the class. In the past, students would
 generally come up with something like this:&lt;/p&gt;
 &lt;div class=&#34;src src-python&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 They&amp;#39;d use their existing knowledge and the &amp;#39;find the largest&amp;#39; idiom
 to find the mode by:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;find the frequency of the first item and assume it&amp;#39;s the mode so far&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;for each item in the list&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;find the frequency of that idem&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;if it occurs more than the mode so far then it becomes the new&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;find the frequency of the first item and assume it&amp;#39;s the mode so far&lt;/li&gt;
+&lt;li&gt;for each item in the list&lt;/li&gt;
+&lt;li&gt;find the frequency of that idem&lt;/li&gt;
+&lt;li&gt;if it occurs more than the mode so far then it becomes the new&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;mode so far&lt;/p&gt;
 &lt;p&gt;
@@ -3497,7 +3963,7 @@ buckets. You can read more about that in the &lt;a href=&#34;https://cestlaz.git
 What was interesting this time around was that most of the kids came
 up with a solution more like this:&lt;/p&gt;
 &lt;div class=&#34;src src-python&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 Instead of calculating the frequency inside the loop they made a list
@@ -3587,33 +4053,17 @@ regardless of curriculum or PD (see my recent &lt;a href=&#34;http://cestlaz.git
 An AP test measures one thing - how well the student did on the AP
 test. There are so many variables that go into a class:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Is it first period at 8:00am?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Is it the last class of the day?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Is it before lunch or right afterwards?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;What about right after Gym.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;What&amp;#39;s the mix of students - every class is different&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Is the teacher teaching the subject once a day? Two times? Five&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Is it first period at 8:00am?&lt;/li&gt;
+&lt;li&gt;Is it the last class of the day?&lt;/li&gt;
+&lt;li&gt;Is it before lunch or right afterwards?&lt;/li&gt;
+&lt;li&gt;What about right after Gym.&lt;/li&gt;
+&lt;li&gt;What&amp;#39;s the mix of students - every class is different&lt;/li&gt;
+&lt;li&gt;Is the teacher teaching the subject once a day? Two times? Five&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;times?&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;How large is the class&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;How many other classes are the kids taking?&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;How large is the class&lt;/li&gt;
+&lt;li&gt;How many other classes are the kids taking?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The list goes on and on. There are so many contributing factors that
 you just can&amp;#39;t say &amp;#34;Good test results = good curriculum&amp;#34; or &amp;#34;good test
@@ -3675,500 +4125,6 @@ subject matter they should but the good ones do.]&lt;/p&gt;
 I think it&amp;#39;s insulting to say that CS teachers aren&amp;#39;t capable of doing
 the same in their subject area.
 &amp;#39;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Is the new Secret Sauce ever better?</title>
-      <link>https://cestlaz.github.io/posts/is-the-new-secret-sauce-ever-better/</link>
-      <pubDate>Fri, 08 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://cestlaz.github.io/posts/is-the-new-secret-sauce-ever-better/</guid>
-      <description>&lt;p&gt;
-I read &lt;a href=&#34;http://nancyebailey.com/2017/09/05/xq-super-schools-business-working-to-end-public-high-schools/&#34;&gt;this&lt;/a&gt; piece earlier today on &lt;a href=&#34;https://twitter.com/NancyEBailey1&#34;&gt;Nancy Bailey&lt;/a&gt;&amp;#39;s blog.&lt;/p&gt;
-&lt;p&gt;
-TL;DR (although it really isn&amp;#39;t too long so you should read it) - it&amp;#39;s
-on Laurene Powell Jobs, her efforts to &amp;#34;reform&amp;#34; education and why
-she&amp;#39;s misguided as are most of the well to do non-educators working
-hard to change and in many cases privatize public education.&lt;/p&gt;
-&lt;p&gt;
-Laura posts a nice list of simple, common sense ways to improve
-education. I&amp;#39;ll repost them here:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;For years, research has shown that high school students need more sleep. They should have later start times. .&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Smaller class sizes would help.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Make sure teachers don’t have so many preparation plans.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;End advanced placement classes (IMHO).&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Improve career-technical classes.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Provide rich extra-curricular activities.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Bring back life skill classes.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Include a social justice curriculum.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Include students on the disciplinary board.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Provide civics education.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Make sure students get opportunities to participate in the arts.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Work to include the community.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Ensure students have access to counselors, and school support staff.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Every high school should have a great library, a real librarian, and technology and books.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Looks very much like what those elite private schools that those rich
-non-educators send their kids to.&lt;/p&gt;
-&lt;p&gt;
-The other day I also overheard a conversation between two
-professors. One noted that they had just taught a course totally
-online for the first time and that the professor really had fun doing
-it.&lt;/p&gt;
-&lt;p&gt;
-These got me thinking more about all the secret sauce and magic
-bullets coming from tech to save education - things like MOOCS or  &amp;#34;personalized&amp;#34;
-learning system.&lt;/p&gt;
-&lt;p&gt;
-I started to wonder - have these &lt;strong&gt;&lt;strong&gt;ever&lt;/strong&gt;&lt;/strong&gt; been pushed on public
-schools because they&amp;#39;re better or rather because they cut costs (or in
-the slightly better case to reach a student that otherwise wouldn&amp;#39;t
-have any opportunity which, in a way is generally cost related).&lt;/p&gt;
-&lt;p&gt;
-I couldn&amp;#39;t come up with a single instance. They&amp;#39;re always a way to
-replace what I consider personalized instruction – you know, when a
-teacher has a small class and can personally deal with, learn about,
-interact with, and teach the child. Kids spend hours in front of a
-screen instead of working with others. Kids do a MOOC (or maybe drop
-out of a MOOC) so that you can have your student/teacher ratio reach
-ridiculous levels. I&amp;#39;ve never seen any tech solution rolled out to
-public schools because it&amp;#39;s better. Only to cut costs.&lt;/p&gt;
-&lt;p&gt;
-How do I know that it&amp;#39;s not better? Well, we have Nancy&amp;#39;s list
-above. It&amp;#39;s what those rich people pay all that money to the elite
-private schools for.  If all these solutions the Jobs and Gates of the
-world were so much better, wouldn&amp;#39;t they insist upon them  for their
-own children?&lt;/p&gt;
-&lt;p&gt;
-Just some Friday food for thought.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Teaching APCS-A for the first time</title>
-      <link>https://cestlaz.github.io/posts/teaching-ap-first-time/</link>
-      <pubDate>Wed, 23 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://cestlaz.github.io/posts/teaching-ap-first-time/</guid>
-      <description>&lt;p&gt;
-I got  an email from a friend the other day. Among other things, he
-mentioned that he would be teaching APCS-A for the first time this
-year. He&amp;#39;s a little trepidatious. He knows his stuff but he hasn&amp;#39;t
-really done much using Java.&lt;/p&gt;
-&lt;p&gt;
-I was going to respond in an email but thought I might share here
-instead.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;TL;DR - for all you APCS teachers who are new or new to Java - learn
-your core CS, lean on your resources and support and it&amp;#39;s OK to tell
-your kids &amp;#34;I don&amp;#39;t know, I&amp;#39;ll get back to you.&amp;#34;. Don&amp;#39;t worry, you&amp;#39;ll be great.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;
-The first time I taught APCS was some time around 1991 or 1992. It was at
-&lt;a href=&#34;http://www.sewardparkhs.com/Famous-Alumni/&#34;&gt;Seward Park&lt;/a&gt; &lt;a href=&#34;http://www.sewardparkhs.com/History/&#34;&gt;High School&lt;/a&gt;. It was the AB curriculum - that is one
-semester of programming in Pascal and one semester of Data Structures
-and Algorithms.  Being a computer science major the core material was
-never a concern. I had taken APCS the first time it was offered in May
-1984 in Pascal and while most of my college and pre-teaching professional work
-was in C, my college started it&amp;#39;s CS sequence with Pascal. I was more
-concerned with the actual teaching part. I had taught math for a year
-and a half at that point but never CS and by any measure I was still
-wet behind the ears. I never finished that first experience because I
-was excessed to Stuy mid semester. I wasn&amp;#39;t particularly happy with my
-performance but looking back, I think I did a pretty good job given
-the situation and my experience.&lt;/p&gt;
-&lt;p&gt;
-After teaching math for a year and a half I was back in APCS at
-Stuy. Still in Pascal. I spent the next few years figuring out how to
-teach CS and APCS in particular along with starting a couple of new
-classes. When the College Board decided to move the AP class to C++ I
-was happy, sad and a little worried. Pascal had a bunch of limitations
-but I had never used C++. True, I was a C programmer at heart but I
-had never really done the OOP thing. I did, as it turned out, design a
-number of my C systems in an Object Typed design: I would use a single
-file per &amp;#34;class&amp;#34; where local variables were de facto instance
-variables and functions in the file were methods and each file was a
-singleton class. I read &lt;a href=&#34;https://www.amazon.com/Object-Oriented-Analysis-Design-Applications-3rd/dp/020189551X/ref=sr_1_1?ie=UTF8&amp;amp;qid=1503519770&amp;amp;sr=8-1&amp;amp;keywords=Grady+Booch&#34;&gt;Booch&lt;/a&gt; and &lt;a href=&#34;https://www.amazon.com/Object-Oriented-Software-Construction-Book-CD-ROM/dp/0136291554/ref=asap_bc?ie=UTF8&#34;&gt;Meyer&lt;/a&gt; on my own but I had no
-schooling in OOP and no professional experience.&lt;/p&gt;
-&lt;p&gt;
-As it turned out, I didn&amp;#39;t have to worry. I knew my CS and while it
-took me a while to become comfortable with OOP, the class, and of
-course I knew this from the get go, started from nothing and built
-up complexity a step at a time. The worst that might have happened is
-that some of my solutions might have been more C-esque than C++.&lt;/p&gt;
-&lt;p&gt;
-The move to Java was a little more jarring. Now we had a totally new
-language. I couldn&amp;#39;t fall back on C. It removed memory management and
-explicit pointers and it had to be used in an Object Oriented
-manner. I remember asking Mike Schidlowsky, a former student turned
-friend who was the Java consultant on the Java edition of Sedgewick&amp;#39;s
-&lt;a href=&#34;https://www.amazon.com/Robert-Sedgewick-Algorithms-Fundamentals-Structures/dp/B008VR3ZH4/ref=sr_1_4?ie=UTF8&amp;amp;qid=1503520269&amp;amp;sr=8-4&amp;amp;keywords=schidlowsky&#34;&gt;Algorithms&lt;/a&gt; book how to do something. It had to do with passing and
-modifying arrays. In C there were a number of ways to accomplish what
-I wanted to do. In Java, I couldn&amp;#39;t figure out how to do it the way I
-wanted. My friend Mike told me &amp;#34;you just don&amp;#39;t do it that way in
-Java.&amp;#34; Again, it turned out that I didn&amp;#39;t have to worry. The basic
-coding was still the same as were the data structures and
-algorithms. The only challenge was that I had to get into a Java OOP
-mindset which it turned out wasn&amp;#39;t that hard.&lt;/p&gt;
-&lt;p&gt;
-While I never really warmed up to OOP - I find other paradigms more
-natural for me, I knew my CS and got more and more comfortable with
-the Java (or C++) way of doing things as time wore on. Sometimes I
-would say &amp;#34;I don&amp;#39;t know&amp;#34; or &amp;#34;let&amp;#39;s figure it out&amp;#34; but that&amp;#39;s OK.&lt;/p&gt;
-&lt;p&gt;
-Nowadays, there are many more resources available for CS teachers. If
-you&amp;#39;re new, lean on them. Use the mailing lists, stackexchange,
-facebook groups. Online resources like repl.it, codehs.com etc. Yes,
-it&amp;#39;s true that you&amp;#39;ll be better next time around and even better years
-down the road but right now, you&amp;#39;re probably better than you think.&lt;/p&gt;
-&lt;p&gt;
-A number of my former students volunteer for &lt;a href=&#34;https://www.tealsk12.org/&#34;&gt;TEALS&lt;/a&gt; - a really great
-program that brings software engineers into the classroom to work with
-non-CS teachers to deliver instruction. A number of my kids have
-shared the following sentiment:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-I don&amp;#39;t know if I&amp;#39;m really helping
-the teacher to become self sufficient or if I&amp;#39;m a great teacher but I
-do know one thing - while I&amp;#39;m there, the kids are getting a hell of a
-lot more than if I wasn&amp;#39;t there.&amp;#34;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;
-– Remember that as well.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Cost of AP Exams</title>
-      <link>https://cestlaz.github.io/posts/cost-of-ap-exams/</link>
-      <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://cestlaz.github.io/posts/cost-of-ap-exams/</guid>
-      <description>&lt;p&gt;
-Now that I&amp;#39;m back from vacation and summer&amp;#39;s winding down I thought
-I&amp;#39;d start getting back to more classroom related posts. I still have a
-few summer topics I want to write about – standards and side projects
-in particular but I&amp;#39;m also looking forward to talking more about the
-classroom since, after all, at my core, I&amp;#39;m a teacher. When I saw &lt;a href=&#34;http://www.slate.com/articles/technology/future_tense/2017/08/how_online_textbooks_could_help_more_students_take_ap_exams.html&#34;&gt;this&lt;/a&gt;
-article in my inbox this morning I thought I&amp;#39;d talk about it.&lt;/p&gt;
-&lt;p&gt;
-In the piece, Lindsey Tepe since more kids are taking AP classes and
-they&amp;#39;re very expensive, schools should look to lower other costs
-related to AP classes so as to provide financial support so that
-students can take that oh so important end of year exam:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;While the College Board continues to reimburse about one-third of the
-test cost for eligible low-income students, only about half of states
-are now offering any further financial assistance for students.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;
-Ms. Tepe&amp;#39;s solution? Lower text book costs. As a way of lowering
-school costs, I&amp;#39;m all for it. I&amp;#39;ve used free online resources in lieu
-of textbooks for years but the savings should go somewhere where it
-can make a difference. Perhaps lowering class sizes. The fatal flaw in
-Ms. Teps&amp;#39;s piece is that it continues spinning the misplaced narrative
-that AP Exams are a very important part of a child&amp;#39;s education.&lt;/p&gt;
-&lt;p&gt;
-Let&amp;#39;s be reminded of something: The AP Exam is one thing - an exam - a
-single test at the end of the year.&lt;/p&gt;
-&lt;p&gt;
-The narrative is that students should take more and more AP classes,
-that they&amp;#39;re somehow better for kids. Part of this is due to the
-potential college credit and part is because the public has been
-bamboozled by the ridiculous school ratings that give credit for AP
-classes taken. Back in &amp;#34;the day,&amp;#34; AP classes were basically early
-college. You could then argue that they were the most rigorous classes
-offered in a school. AP Calc was basically college Calc. Same for
-APCS-AB, AP-Bio and the rest. Now, with classes like APCS-P aimed to
-be accessible to typical high school students in the lower grades,
-they can&amp;#39;t (but still will) make that claim. In fact, at Stuy, my
-former school, there are plenty of non AP classes that are more
-rigorous than AP classes and the best AP teachers don&amp;#39;t always cover
-the whole syllabus because they&amp;#39;re more concerned with their students
-actually learning rather than scoring 5 on an exam.&lt;/p&gt;
-&lt;p&gt;
-On the college credit front, if a student has a high probability of
-saving money through AP credit then I&amp;#39;m all for it but otherwise, it&amp;#39;s
-just money going to the college board.&lt;/p&gt;
-&lt;p&gt;
-It seems ridiculous for me to have to write this but the important
-part of a class is, you know, the class. Not the single exam given by
-an outside agency at the end and graded after the semester concludes.&lt;/p&gt;
-&lt;p&gt;
-My suggestion? Offer college level work to students that are ready for
-it but don&amp;#39;t push the AP exam. This would save a ton of money. What value
-does the college board actually bring to the table? Remember, they&amp;#39;re
-making a pretty penny on all of this testing. A math teacher should be
-able to teach calculus with or without AP. A good text being used by
-that teacher in class - be it free or paid for is actually much more
-important to a student learning calculus than a single exam taken at
-the end of the year. I&amp;#39;d go further and say that I&amp;#39;d trust the
-teacher&amp;#39;s exam more than the college board&amp;#39;s. If a teacher knows the
-math but needs to see some sample syllabi, they&amp;#39;re a web search
-way. The same is true for most other college courses that have AP
-equivalents and maybe even more so for computer science.&lt;/p&gt;
-&lt;p&gt;
-At the end of the day it should be about students learning not about
-students taking high stakes exams.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Ethics, Cybersecurity, ethics, curricula  and standards</title>
-      <link>https://cestlaz.github.io/posts/ethics-cybersecurity-curricla-standards/</link>
-      <pubDate>Wed, 02 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://cestlaz.github.io/posts/ethics-cybersecurity-curricla-standards/</guid>
-      <description>&lt;p&gt;
-This morning, I read &lt;a href=&#34;https://twitter.com/alfredtwo&#34;&gt;Alfred Thompson&lt;/a&gt;&amp;#39;s post on &lt;a href=&#34;http://blog.acthompson.net/2017/08/cybersecuritythis-summers-computer.html&#34;&gt;teaching
-cybersecurity&lt;/a&gt;. as Alfred says, it&amp;#39;s something of a CS Ed buzzword this
-summer.&lt;/p&gt;
-&lt;p&gt;
-Another hot topic in K12 CS Ed this summer is the inclusion of ethics
-in our CS courses courtesy of efforts like the #ethicalCS twitter chat every
-Wednesday at 8:00 Eastern time  hosted by &lt;a href=&#34;https://twitter.com/ed_saber&#34;&gt;Saber Khan&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;
-Discussions about both topics include &amp;#34;where should we be doing this?&amp;#34;
-&amp;#34;What should we be doing?&amp;#34; and of course &amp;#34;How?&amp;#34; &lt;/p&gt;
-&lt;p&gt;
-This got me thinking about designing curriculum from the top down -
-that is, as dictated by outside forces: principals, superintendents,
-states, industry or bottom up: a teacher sees a need and designs
-something for their students.&lt;/p&gt;
-&lt;p&gt;
-The best classes I&amp;#39;ve seen are those designed by a passionate teacher
-from the ground up. I met  &lt;a href=&#34;https://twitter.com/dougbergmanUSA&#34;&gt;Doug Bergman&lt;/a&gt; at this past year&amp;#39;s CSTA conference. He&amp;#39;s terrific. I
-think he came to the conference wanting to find out more about what
-cybersecurity really meant. By the second day, he was raving about all
-the amazing possibilities. I&amp;#39;d love to be in the class he develops.&lt;/p&gt;
-&lt;p&gt;
-On the other hand, when topics or standards are forced down from
-above, I&amp;#39;ve seen something entirely different.&lt;/p&gt;
-&lt;p&gt;
-I&amp;#39;ve observed and been involved in cybersecurity discussions  with CS
-teachers. The discussion goes something like this:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Well, we do memory allocation in course XYZ so we can give a
-homework assignment there.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;We can rewrite the story (theme) for the assignment in our data
-structures class.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;We already do a crypto assignment in algorithms so we&amp;#39;re already
-doing it.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;
-I&amp;#39;ve seen the same with groups of math teachers discussing
-implementing common core. They talk about resequencing topics,
-rewriting a few word problems or homework assignments but at the core,
-the feeling is &amp;#34;we already know how to teach math.&amp;#34;&lt;/p&gt;
-&lt;p&gt;
-It gets worse when there&amp;#39;s a standardized or high stakes test at the
-end of the tunnel and you get the &amp;#34;you need this for the test&amp;#34; type
-units.&lt;/p&gt;
-&lt;p&gt;
-This might not be as big of a problem in K12 CS right now because so many
-teachers are just learning their craft but in established fields such
-as math or college CS, when an edict comes from above telling a
-teacher how to teach, unless the teacher really believes in it, the
-teacher will only pay lip service to it. If it isn&amp;#39;t an issue in CS Ed
-right now, it will eventually become one as our field develops legs.&lt;/p&gt;
-&lt;p&gt;
-This is arguably a bigger issue with Ethical CS than cybersecurity. If
-the teacher doesn&amp;#39;t really believe it&amp;#39;s an important topic, we&amp;#39;ll get
-lip service at best and in the case of ethics, unless the teacher
-really believes it and models it, the students will be able to tell
-that it&amp;#39;s a show.&lt;/p&gt;
-&lt;p&gt;
-I don&amp;#39;t have an answer other than what my friend and mentor Herb
-Greenhut told me many years ago &amp;#34;Solving the education problem is
-easy. Hire good teachers and get the f*ck out of the way.&amp;#34;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://cestlaz.github.io/posts/grit-kind-word-gun/</link>
-      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://cestlaz.github.io/posts/grit-kind-word-gun/</guid>
-      <description>&lt;p&gt;
-Back in May, I read this &lt;a href=&#34;http://avc.com/2017/05/grit/&#34;&gt;post&lt;/a&gt; about Angela Duckworth and &lt;a href=&#34;https://www.amazon.com/Grit-Passion-Perseverance-Angela-Duckworth-ebook/dp/B010MH9V3W/ref=sr_1_1?ie=UTF8&amp;amp;qid=1501543669&amp;amp;sr=8-1&amp;amp;keywords=Grit&#34;&gt;Grit&lt;/a&gt;. Grit
-has become an education buzzword in the past few years so I figured I
-should read Duckworth&amp;#39;s book. It took this long because there was a
-long waiting list at the New York Public Library to get the ebook. I&amp;#39;m
-still not quite finished with the book but I thought I&amp;#39;d share some of
-my thoughts on the book and the buzz.&lt;/p&gt;
-&lt;p&gt;
-The first big takeaway is &amp;#34;you can get much further with a kind word
-and a gun than with a kind word alone.&amp;#34; Or in grit terms Duckworth
-says a number of times that Grit is important but that other factors
-such as talent do indeed come into play and towards the end of the
-book she lists other character qualities that are arguably more
-important than grit. I&amp;#39;ll get back to grit + other qualities towards
-the end of this post.  On the buzz side, all of that&amp;#39;s forgotten - in
-the ed reform world it&amp;#39;s all grit all the time. We must teach it at
-our low income schools and we should include grit in our evaluation of
-teachers and schools.&lt;/p&gt;
-&lt;p&gt;
-Duckworth recently has come out to say grit shouldn&amp;#39;t be used in
-evaluating schools and teachers but as I mentioned &lt;a href=&#34;http://cestlaz.github.io/posts/outside-influences-on-cs-ed/&#34;&gt;a few days ago&lt;/a&gt;,
-ed reformers have ways of taking arguably good ideas and using them towards
-awful ends.&lt;/p&gt;
-&lt;p&gt;
-So we have a basic premise that hard work and sticktoitiveness is
-important but so is talent. Talent alone won&amp;#39;t get you as far as
-talent and grit.&lt;/p&gt;
-&lt;p&gt;
-So in spite of the &amp;#34;ed reformers&amp;#34; take on grit, given Duckworth&amp;#39;s
-balanced perspective, I was hooked.&lt;/p&gt;
-&lt;p&gt;
-Where Duckworth started to lose me, however is when she dove into the
-education landscape for examples.&lt;/p&gt;
-&lt;p&gt;
-First up is Teach for America. Certainly the founder, Wendy Kopp is
-full of grit and Duckworth talks about teachers needing to be gritty
-but when you talk about TFA, you&amp;#39;re talking about a group that:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;has a 5 week training program - not nearly enough to learn to teach&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;has a 2 year commitment before moving to &amp;#34;better things&amp;#34;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;encourages practices like scripted lessons&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;None of this sounds particularly gritty to me.&lt;/p&gt;
-&lt;p&gt;
-Duckworth also highlights the KIPP charter chain as an terrific
-example of grit and the success that follows. She touts KIPP&amp;#39;s
-graduation rate neglecting to mention that like most other charters
-claiming miracles, KIPP&amp;#39;s stats should be eyed with scrutiny (&lt;a href=&#34;http://garyrubinstein.teachforus.org/2011/07/08/kipp-on-trickin-looking-at-the-raw-data/&#34;&gt;link&lt;/a&gt;, &lt;a href=&#34;https://garyrubinstein.wordpress.com/2016/01/22/whatever-happened-to-kipp/%0A&#34;&gt;link&lt;/a&gt;,
-&lt;a href=&#34;https://garyrubinstein.wordpress.com/2017/04/28/4th-best-high-school-in-new-york-is-a-kipp-school-that-doesnt-exist/&#34;&gt;link&lt;/a&gt;). I would have expected a researcher to dig a little deeper.&lt;/p&gt;
-&lt;p&gt;
-My friend, former colleague, and TFA alum Gary Rubinstein visited a
-KIPP school in NY a few years ago. His take:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;So what I saw there was not very impressive.  I didn’t see any classes
-where teachers were getting that mythical period and half of growth in
-one period.  I saw some good teaching, mostly average teaching, and
-even some very bad teaching.  I saw a novice teacher struggle to
-control a class of nine students.  They were walking all over him and
-accomplished very little that period.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;
-And in terms of KIPP&amp;#39;s grit training:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-I also saw the ‘grit’ training program which amounted to the students
-getting the teacher to define very clearly how little homework they
-would have to do to still get their candy bar rewards.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;
-Finally, Duckworth holds up Geoffrey Canada&amp;#39;s as another shiny example
-failing to notice that again, the &lt;a href=&#34;http://garyrubinstein.teachforus.org/2013/05/12/canadas-legend-ary-ted-talk-lie/&#34;&gt;Emperor has no clothes&lt;/a&gt; and if you
-look at attrition, the results are far from stellar.&lt;/p&gt;
-&lt;p&gt;
-All of this left me thinking that if Duckworth was so off base with
-these three example where I have some details of the behind the scenes
-going on, how much can I trust the rest of the book?&lt;/p&gt;
-&lt;p&gt;
-In spite of this, I still agreed with Duckworth&amp;#39;s basic premise so I
-read on.&lt;/p&gt;
-&lt;p&gt;
-Later in the book, Duckworth talks about developing grit. This quote struck me:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Like a lot of parents I had a strong intuition that grit is enahnced
-by doing activities like ballet… or piano … or football…&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;
-It struck me because it seemed funny coming from a researcher. It
-reminded me of Christopher Alexander&amp;#39;s &amp;#34;A Timeless Way of Building,&amp;#34; a
-book on architecture that is sometimes credit as the root source for
-Object Oriented Programming. Alexander talks about how societies
-throughout history and throughout the world &amp;#34;knew&amp;#34; how to build
-certain structures – barns, homes with certain features, even
-towns. Back in the day we didn&amp;#39;t have engineering and architecture
-schools but we figured out how to do these things and we figured it
-out pretty much universally. Duckworth is basically saying &amp;#34;parents
-know.&amp;#34; It reminded me of my belief - &amp;#34;teachers know.&amp;#34; This applies to
-teaching content and teaching skills like grit. You can&amp;#39;t script a
-grit lesson. A good teacher knows when a student needs encouragement,
-when a student needs to be coddled and when a student needs to be
-redirected.&lt;/p&gt;
-&lt;p&gt;
-This post has been something of a ramble but I want to get back to
-grit and other qualities and how people are talking about grit as the
-be all and end all and not just a component.&lt;/p&gt;
-&lt;p&gt;
-Over on &lt;a href=&#34;http://avc.com&#34;&gt;AVC&lt;/a&gt;, in the post that got me to read Grit, Fred closed with:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-If you hire and manage people, if you run start and run companies, if
-you invest in people and their projects, then Grit is a book you
-should read.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;
-He&amp;#39;s absolutely right but remember the whole person and what you&amp;#39;ve
-prescreened for before you consider grit.&lt;/p&gt;
-&lt;p&gt;
-Way back when discussions were ongoing about the design for &lt;a href=&#34;https://www.afsenyc.org/&#34;&gt;AFSE&lt;/a&gt; -
-before the DOE stopped returning my emails and froze me out of the
-process I was at am meeting. A bunch of tech industry heavy hitters
-were there. We were arguing over admission screening - did the school
-need one. My position was that if you wanted to produce &amp;#34;Google ready&amp;#34;
-engineers after high school you needed one. If that wasn&amp;#39;t the goal
-you didn&amp;#39;t. One of the DOE representatives posed a question to the
-tech people: &amp;#34;what qualities do you look for in a hire?&amp;#34; This elicited
-responses like hard working, able to work with others, able to
-communicate. The DOE person was proud to have made his point that
-these tech companies weren&amp;#39;t looking for talent, advanced skills
-anything similar - grit was all you needed. I followed up - &amp;#34;and from
-what schools do you look for the kids with these qualities?&amp;#34; - MIT,
-Harvard, Cornell… and the tech people got it - they were already
-screening for the academic stuff so all that was left to look for were
-the other skills.&lt;/p&gt;
-&lt;p&gt;
-Should we look at grit? Certainly. Just remember that it&amp;#39;s a piece of
-the puzzle just like everything else.&lt;/p&gt;
 </description>
     </item>
     

@@ -6,10 +6,160 @@
     <description>C&#39;est la Z (jobs)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Apr 2022 14:41:05 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 12 Sep 2023 07:40:37 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/categories/jobs/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>Just work on open source</title>
+      <link>https://cestlaz.github.io/post/work-on-open-source/</link>
+      <pubDate>Tue, 12 Sep 2023 07:40:37 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/work-on-open-source/</guid>
+      <description>
+&lt;p&gt;
+Just work on an open source project. That&amp;#39;s a frequent refrain given to
+college students. What&amp;#39;s the best way to set yourself up for an
+internship or job?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;do well in your classes&lt;/li&gt;
+&lt;li&gt;prepare for the ridiculous technical interviews by doing lots of
+problems and interview prep&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;build a personal project or better yet, contribute to open
+source&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Everyone gives this advice and and in truth it&amp;#39;s good advice. The
+problem is that while this is an easy ask for well to do students at
+&amp;#34;elite&amp;#34; institutions where the majority have little to do
+other than their courseworkand they&amp;#39;re mostly living 24/7 on campus
+it&amp;#39;s a much bigger ask for the low income student at the commuter
+school.&lt;/p&gt;
+&lt;p&gt;
+Even if you look at the privileged student who can dedicate time to a
+side project, diving into open source is harder than it seems. &lt;/p&gt;
+&lt;p&gt;
+To start, you have to know all the tooling required to work on a
+typical open source project. Git with branching and merging and
+dealing with related conflicts. Issues and pull requests,
+forks. Probably the programming language or languages the project uses
+and likely even more.&lt;/p&gt;
+&lt;p&gt;
+You&amp;#39;ve also got to find the project, figure out what it needs and how,
+when you&amp;#39;re ready to contribute, that contribution is expected to be
+done. That&amp;#39;s a really tricky one because every project has its own
+organization, steps to take, and even culture.&lt;/p&gt;
+&lt;p&gt;
+All this and more can be very intimidating even for a student with all
+the free time in the world. &lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s an order of magnitude harder for low income students. To start,
+if you&amp;#39;re at a commuter school you&amp;#39;re far less likely to have a tech
+or CS community on campus. When you&amp;#39;re all living on campus, if
+nothing else, you&amp;#39;ll be in the dorms together - easy to hang out, work
+on things late, and in general make use of the school&amp;#39;s resources. At
+Hunter, for instance, things are so overcrowded that if you&amp;#39;re lucky
+you can find a spot of floor in the hall to work. Not exactly
+conducive to working on side projects and certainly not conducive to
+creating a student culture of support.&lt;/p&gt;
+&lt;p&gt;
+Next, low income students, at least many of the ones I&amp;#39;ve worked with,
+have additional demands that eat up any free time. Many have to work
+to pay tuition or even make rent or help the family make rent. They
+might have limited computer access at home - one computer and younger
+K12 siblings that also need access. They&amp;#39;ll have the related challenge
+of connectivity. These are very real problems that were foreign to me when
+I was a student.  It&amp;#39;s even more than just a hindrance on working on
+a personal portfolio prjoect. It can prevent a student from taking an
+internship.&lt;/p&gt;
+&lt;p&gt;
+Even before the latest tech job crunch a low income student might not
+be able to take a high paying summer internship should they get
+one. The student may very well need year round income which they
+currently have at, let&amp;#39;s say Starbucks. Now, you might say that the
+income from the tech internship will be much greater and the student
+will likely get a return offer. The catch is &amp;#34;likely.&amp;#34; If you&amp;#39;re a
+middle class or upper income student, you can take the &amp;#34;likely.&amp;#34; If
+you&amp;#39;re absolutely dependent on that year round income, it&amp;#39;s a much
+bigger risk.&lt;/p&gt;
+&lt;p&gt;
+So, you can see that it&amp;#39;s not enough to say &amp;#34;just work on open source&amp;#34;
+even for a well to do student. For a low income student, it&amp;#39;s a
+yeoman&amp;#39;s ask.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+What can be done?
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+Still, we can make it better.&lt;/p&gt;
+&lt;p&gt;
+A lot can be done within college CS classes but CS programs have to
+buy in. Many of the tech tools can be taught in core CS classes. I&amp;#39;ve
+done this in my CS0, CS1, and CS2 classes at Hunter College and have
+done the same at Stuyvesant at the High School level. I use git and a
+testing framework instead of an autograder for example. That gives me
+the platform to teach much of what students need without taking away
+much of the time needed from the rest of the curriculum. Similarly you
+can set up projects where students work in each others or other
+peoples code bases. This helps familiarize the students with what they
+will need for both working in open source and likely at their future
+jobs.&lt;/p&gt;
+&lt;p&gt;
+CS programs with project courses can also be huge. Hunter has a
+capstone course that&amp;#39;s close to being terrific. On the one hand, it
+checks all the boxes - toolsets, teamwork, testing, etc.. The problem
+is that it&amp;#39;s a terminal course taken right before graduation. This
+type of course should be taken at least a year earlier - probably
+right after CS2 so that students can learn a bit about software
+development and also develop a team portfolio piece early enough so
+that it can benefit them in interviews.&lt;/p&gt;
+&lt;p&gt;
+Space is another big one. Schools have to be able to carve out space
+for students to chill. I was able to get a small room for my
+students - an honors lounge, if you would (but it was really open to
+any interested and active CS student). This gave students a place to
+hang out between classes, get to know each other and if time allowed,
+get together to work on things. You could say - &amp;#34;hey, if anyone&amp;#39;s
+available let&amp;#39;s go to the lounge every Wednesday at 6:00 to work on
+whatever.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+Another big one that&amp;#39;s really under the radar is financial support. At
+times Hunter&amp;#39;s administration was able to fund students with
+microgrants. Small amounts that would allow a student to work on a
+project or attend a program and the grant would make up the money lost
+from missing a few Starbucks shifts.&lt;/p&gt;
+&lt;p&gt;
+What can be done outside of the schools?&lt;/p&gt;
+&lt;p&gt;
+First and foremost, be understanding. If a student isn&amp;#39;t working on a
+personal project or open source, there might be a good
+reason. Understand that a student with two &amp;#34;professional&amp;#34; parents is
+going to also come across as more polished than a student who may
+never have stepped foot into an office setting.&lt;/p&gt;
+&lt;p&gt;
+Next, provide mentorship. This can be one on one or small group but it
+can also be a company program or initiative. Right prior to covid, I
+was working with Cockroach labs on a set of open source workshops to
+address all the problems listed above. I&amp;#39;ve also worked with other
+companies on mentoring programs that have been very succesful in
+mentoring my Hunter students.&lt;/p&gt;
+&lt;p&gt;
+Finishing up, I&amp;#39;d be remiss if I didn&amp;#39;t mention &lt;a href=&#34;https://hacktoberfest.com/&#34;&gt;Hacktoberfest&lt;/a&gt;
+sponsored by DigitalOcean. Every October coders are encouraged to dive
+in to open source. Hacktoberfest helps students get started and also
+curates lists of good &amp;#34;first pull requests.&amp;#34; Things like documentation
+and testing changes on projects that will be more accessible and
+forgiving for neophytes.&lt;/p&gt;
+&lt;p&gt;
+Well, I think that&amp;#39;s it. I hope this paints a clearer picture of some
+of the challenges our students, and particularly our low income
+students face and when you wonder why they don&amp;#39;t simply &amp;#34;work on open
+source&amp;#34; there&amp;#39;s probably a good reason why.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Should CSforAll focus on entrepreneurship and jobs?</title>

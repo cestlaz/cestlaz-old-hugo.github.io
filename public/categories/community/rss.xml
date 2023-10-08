@@ -59,30 +59,30 @@ arrays, one with frequencies and one with durations.&lt;/p&gt;
 &lt;p&gt;
 Something like: &lt;/p&gt;
 &lt;p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;notes&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;[&lt;span style=&#34;color:#ae81ff&#34;&gt;440&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;523&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;440&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;659&lt;/span&gt;,&lt;span style=&#34;color:#f92672&#34;&gt;...&lt;/span&gt;]
-durations&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;[&lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;15&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;30&lt;/span&gt;,&lt;span style=&#34;color:#f92672&#34;&gt;...&lt;/span&gt;]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;notes&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;[&lt;span style=&#34;color:#ae81ff&#34;&gt;440&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;523&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;440&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;659&lt;/span&gt;,&lt;span style=&#34;color:#f92672&#34;&gt;...&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;durations&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;[&lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;15&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;30&lt;/span&gt;,&lt;span style=&#34;color:#f92672&#34;&gt;...&lt;/span&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;
 Then for the game loop&lt;/p&gt;
 &lt;p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#+begin_src python&lt;/span&gt;
-
-  current_note&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;
-  note &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; notes[current_note]
-  duration &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; durations[current_note]
-  play(note) &lt;span style=&#34;color:#75715e&#34;&gt;# starts the note playing until you change or stop it&lt;/span&gt;
-  &lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; game_not_over:
-      duration &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; duration &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
-      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; duration &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;:
-          current_note &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; (current_note&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt;length(notes)
-          note &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; notes[current_note]
-          duration &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; durations[current_note]
-          play(note) &lt;span style=&#34;color:#75715e&#34;&gt;# starts the note playing until you change or stop it&lt;/span&gt;
-      &lt;span style=&#34;color:#75715e&#34;&gt;# the rest of the game loop&lt;/span&gt;
-  stop_playing() &lt;span style=&#34;color:#75715e&#34;&gt;# stop the speaker&lt;/span&gt;
-
-    
-
-&lt;span style=&#34;color:#75715e&#34;&gt;#+end_src&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#+begin_src python&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  current_note&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  note &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; notes[current_note]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  duration &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; durations[current_note]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  play(note) &lt;span style=&#34;color:#75715e&#34;&gt;# starts the note playing until you change or stop it&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; game_not_over:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      duration &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; duration &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; duration &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          current_note &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; (current_note&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt;length(notes)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          note &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; notes[current_note]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          duration &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; durations[current_note]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          play(note) &lt;span style=&#34;color:#75715e&#34;&gt;# starts the note playing until you change or stop it&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#75715e&#34;&gt;# the rest of the game loop&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  stop_playing() &lt;span style=&#34;color:#75715e&#34;&gt;# stop the speaker&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#+end_src&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;
 Still, he had to figure out all the frequencies and durations for
 &amp;#34;Korobeiniki,&amp;#34; the tetris song. The class was more than happy to help.&lt;/p&gt;
@@ -474,18 +474,10 @@ that can be pretty cool even if you just limit yourself to looking at
 the schools. A few of the schools I visited in the last couple of
 weeks before the new year were self contained whole building schools:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;James Madison&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Goddard High School&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;FDR HS&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Midwood HS&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;James Madison&lt;/li&gt;
+&lt;li&gt;Goddard High School&lt;/li&gt;
+&lt;li&gt;FDR HS&lt;/li&gt;
+&lt;li&gt;Midwood HS&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Goddard was interesting because it was founded in 2008 and grew out of
 the middle school in the same building. FDR was also interesting. It
@@ -511,18 +503,10 @@ The other schools I visited in that span were all housed in schools
 that had been closed during the Bloomberg/Klein years and new small
 schools created in their place. The original buildings were:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Thomas Jefferson&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Franklin K Lane&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Christopher Columbus&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Andrew Jackson&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Thomas Jefferson&lt;/li&gt;
+&lt;li&gt;Franklin K Lane&lt;/li&gt;
+&lt;li&gt;Christopher Columbus&lt;/li&gt;
+&lt;li&gt;Andrew Jackson&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;One of the coolest parts about visiting the older buildings is that
 they were built in a different time. You have elaborate lobbies of
@@ -577,8 +561,7 @@ because they were easy to find.&lt;/p&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -692,15 +675,9 @@ To start, it&amp;#39;s a great first conference for the students. It only has
 one track so no choices and the talks look really interesting this
 year. Some of the ones I&amp;#39;m looking forward to are:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Designing for Access first&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Behind the Tech: Emoji&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Leaning into uncertainty&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Designing for Access first&lt;/li&gt;
+&lt;li&gt;Behind the Tech: Emoji&lt;/li&gt;
+&lt;li&gt;Leaning into uncertainty&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The full schedule is &lt;a href=&#34;https://catskillsconf.com/schedule/&#34;&gt;here&lt;/a&gt;. &lt;/p&gt;
 &lt;p&gt;

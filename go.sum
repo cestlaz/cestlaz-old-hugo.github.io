@@ -126,6 +126,8 @@ github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym
 github.com/GoogleCloudPlatform/cloudsql-proxy v1.24.0/go.mod h1:3tx938GhY4FC+E1KT/jNjDw7Z5qxAEtIiERJ2sXjnII=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230303133243-95a8df754cd9 h1:fsVhv+VSdDbZb7eNSsi43iFvG6J5/349og1o04LJCZQ=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230303133243-95a8df754cd9/go.mod h1:FKD3NbdsQzL+cXsC3x99XD/t/Rd5EyhDlNBAxQhULbo=
+github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230918182456-01c3a53f124c h1:ExzBis1WDt0gqG8jGpMmio6oCmx8r7MTu6dvp9Gc/g0=
+github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230918182456-01c3a53f124c/go.mod h1:FKD3NbdsQzL+cXsC3x99XD/t/Rd5EyhDlNBAxQhULbo=
 github.com/OneOfOne/xxhash v1.2.2/go.mod h1:HSdplMjZKSmBqAxg5vPj2TmRDmfkzw+cTzAElWljhcU=
 github.com/PuerkitoBio/purell v1.1.1 h1:WEQqlqaGbrPkxLJWfBwQmfEAE1Z7ONdDLqrN38tNFfI=
 github.com/PuerkitoBio/purell v1.1.1/go.mod h1:c11w/QuzBsJSee3cPx9rAFu61PvFxuPbtSwDGJws/X0=

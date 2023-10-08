@@ -50,21 +50,11 @@ solutions up on &lt;a href=&#34;https://github.com/zamansky?utf8=%25E2%259C%2593
 Finally, you can get to the challenges from previous years by just
 adding the year to the url, that is:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;http://adventofcode/2019&#34;&gt;&lt;a href=&#34;http://adventofcode.com/2019&#34;&gt;http://adventofcode.com/2019&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;http://adventofcode.com/2018&#34;&gt;http://adventofcode.com/2018&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;http://adventofcode.com/2017&#34;&gt;http://adventofcode.com/2017&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;http://adventofcode.com/2016&#34;&gt;http://adventofcode.com/2016&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;http://adventofcode.com/2015&#34;&gt;http://adventofcode.com/2015&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://adventofcode/2019&#34;&gt;&lt;a href=&#34;http://adventofcode.com/2019&#34;&gt;http://adventofcode.com/2019&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://adventofcode.com/2018&#34;&gt;http://adventofcode.com/2018&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://adventofcode.com/2017&#34;&gt;http://adventofcode.com/2017&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://adventofcode.com/2016&#34;&gt;http://adventofcode.com/2016&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://adventofcode.com/2015&#34;&gt;http://adventofcode.com/2015&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
 Finally, here&amp;#39;s a really interesting video by Eric on the whole AoC
@@ -286,11 +276,11 @@ diagonals of a bounding rectangle and then compare areas of these
 rectangles. They should decrease at first and then eventually
 increase. &lt;/p&gt;
 &lt;p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; time &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,some_large_value,stepsize):
-      new_pts &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; transform(pts,time) 
-      bbox &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; bounding_box(new_pts)
-      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (area(bbox) &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; area(previous_bbox)):
-          &lt;span style=&#34;color:#66d9ef&#34;&gt;break&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;//&lt;/span&gt; we&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;re close to or at the smallest bounding box&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; time &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,some_large_value,stepsize):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      new_pts &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; transform(pts,time) 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      bbox &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; bounding_box(new_pts)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (area(bbox) &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; area(previous_bbox)):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#66d9ef&#34;&gt;break&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;//&lt;/span&gt; we&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;re close to or at the smallest bounding box&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;
 We can start with a big &lt;code&gt;stepsize&lt;/code&gt; and then refine it down until we
 hone in on the smallest bounding box.&lt;/p&gt;
@@ -316,39 +306,29 @@ clojurescript html5 canvas visualization:&lt;/p&gt;
 So there it is. It&amp;#39;s not a trivial problem for beginners but it is doable. There&amp;#39;s a
 lot to deal with:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;parse the data&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;parse the data&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 This isn&amp;#39;t too bad. You could cover regular expressions but even
 without it isn&amp;#39;t too big of a deal. You could also just use an editor
 to extract the important data or preprocess this for the kids.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Figure out how to transform the points.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Figure out how to transform the points.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;This also isn&amp;#39;t too bad. Just loop over all the points with &lt;code&gt;newpoint
 = oldpoint + t * velocity&lt;/code&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Figure out the bounding boxes&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Figure out the bounding boxes&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Also not too bad. Loop over all the points to find the smallest and
 largest x and y coordinates&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Set up a loop to find the smallest bounding box and hence the time
-that the message will appear.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Set up a loop to find the smallest bounding box and hence the time
+that the message will appear.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;and then finally:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;draw the points to visually inspect the answer.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;draw the points to visually inspect the answer.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;This might be the most persnickety part. When I first coded it my
 output was upside down and backwards but good enough.&lt;/p&gt;

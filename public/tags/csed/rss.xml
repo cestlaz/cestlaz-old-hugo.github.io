@@ -6,10 +6,117 @@
     <description>C&#39;est la Z (csed)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Jan 2022 06:47:18 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 25 Apr 2023 07:41:59 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/tags/csed/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>How Much CS Do Teacher Candidates Know</title>
+      <link>https://cestlaz.github.io/post/how-much-cs-do-teacher-candidate-know/</link>
+      <pubDate>Tue, 25 Apr 2023 07:41:59 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/how-much-cs-do-teacher-candidate-know/</guid>
+      <description>&lt;p&gt;
+I was talking to the CS chair at Hunter the other day - he&amp;#39;s been a
+good friend since I joined Hunter and is also teaching the programming
+course in my teacher ed program this summer. William also taught the
+same class last year.&lt;/p&gt;
+&lt;p&gt;
+Due to a shift - we&amp;#39;re moving our advanced certificate program from a
+Summer-&amp;gt;Fall-&amp;gt;Spring schedule to a more traditional
+Fall-&amp;gt;Spring-&amp;gt;Fall-&amp;gt;Spring one, this summer, we&amp;#39;re running very small
+sections of our classes specifically for the 4 masters students who
+would be left in the lurch otherwise.&lt;/p&gt;
+&lt;p&gt;
+I was telling William that this summer should be pretty easy - 4
+students, give or take and most of them already know the material.&lt;/p&gt;
+&lt;p&gt;
+What?&lt;/p&gt;
+&lt;p&gt;
+They know the material?&lt;/p&gt;
+&lt;p&gt;
+How did we end up with that and what&amp;#39;s the point of them taking the
+classes.&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s a great example of New York State&amp;#39;s left hand not knowing what
+its right hand is doing or worse, the state not really understanding
+CS Education. I wouldn&amp;#39;t be surprised in either case.&lt;/p&gt;
+&lt;p&gt;
+When NY created its CS license they decided that programs could &lt;strong&gt;not&lt;/strong&gt;
+assume any pre-existing CS background. This was very different for
+other subject areas where you typically need a couple of dozen
+undergrad credits in the field. Why? I&amp;#39;m just conjecturing but one
+reason would be the existing belief that &amp;#34;if they know too much CS
+there&amp;#39;s no way they&amp;#39;ll go into teaching.&amp;#34; Another would be that they
+thought many current teachers - the ones currently teaching CS without
+any background would earn this new additional cert and we had to meet
+them where the were.&lt;/p&gt;
+&lt;p&gt;
+Now, I&amp;#39;m all for a low bar for entry but when you combine this
+position with the state&amp;#39;s SOCE (statement of continued eligibility)
+things make less sense.&lt;/p&gt;
+&lt;p&gt;
+On the one hand, the state created a system where teachers could
+become re-certified without too much stress but did nothing to make it
+affordable - even at public rates, all the credits will cost around
+$10,000. Combine that with the SOCE which, by filling out a simple
+form allows a teacher to teach CS without demonstrating any CS
+knowledge for another 10 years.&lt;/p&gt;
+&lt;p&gt;
+On the masters program side - the pipeline for new teachers, the fear
+that nobody will teach CS if they know CS is nonsense. I wrote about
+it &lt;a href=&#34;https://cestlaz.github.io/posts/draft-will-we-lose-cs-teachers-to-industry/&#34;&gt;here&lt;/a&gt;. Sure, most CS majors will want to go into the tech industry
+but just like mathematicians and scientists, some will want to become
+teachers now that there is a path.&lt;/p&gt;
+&lt;p&gt;
+That brings us to why our summer program will be populated with
+students who already know the material.&lt;/p&gt;
+&lt;p&gt;
+Even though the state required that our program assume no prior
+knowledge, aspiring teachers don&amp;#39;t know what education programs are
+like. They just know (or currently believe) that they want to become
+teachers. If they want to become CS teachers, there&amp;#39;s a very high
+likelihood that they already know some CS. Just like other
+subjects. Could you imagine someone wanting to become a biology
+teacher if they had zero knowledge of biology? How about math or any
+other field. If someone wants to become a subject area teacher then
+it&amp;#39;s safe to say that:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;They want to teach.&lt;/li&gt;
+&lt;li&gt;They know at least a little about the subject area in which they
+want to teach.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This has proven to be true, albeit with a small sample size. Every one
+of my Masters program applicants came in with some CS or programming
+background and the vast majority of them either had strong industry
+experience or were a CS major. One I think was a CS minor and another,
+just a hobbyist. Most of them came in with more &amp;#34;core&amp;#34; CS than our or
+any other program in the state offers.&lt;/p&gt;
+&lt;p&gt;
+This led us to where we are. Normally, this makes for a nice mix. The
+certificate students (that is, working teachers becoming re-certified)
+bring the teaching experience while the masters candidates bring the
+new energy and CS background.&lt;/p&gt;
+&lt;p&gt;
+Now, with the SOCE. I expect the number of teachers seeking the new
+cert to plummet and Hunter and other providers will focus recruiting
+more new, aspiring teachers. Ultimately, this will lead to more course
+offerings as the population comes in with a stronger background but
+that will take time.&lt;/p&gt;
+&lt;p&gt;
+In the meantime, due to state requirements and local resources, we&amp;#39;ll
+have these small classes this summer with candidates who already know
+most of the material.&lt;/p&gt;
+&lt;p&gt;
+In the Fall, we&amp;#39;ll start our next cohort of advanced certificate
+students - even with the SOCE I&amp;#39;m hopeful that we&amp;#39;ll get a decent
+cohort since we have scholarship money, along with a new handful of
+masters candidates. Once again, the mix should be mutually
+supportive. It will certainly be better overall to be on a normal
+Fall/Spring rotation but beyond that we&amp;#39;ll see where things go.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Do you need to know assembly to be a computer scientist?</title>
@@ -284,37 +391,23 @@ were going to run things.&lt;/p&gt;
 &lt;p&gt;
 We decided to go with the following:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Zoom for live meetings &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Slack for chat&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Zoom for live meetings &lt;/li&gt;
+&lt;li&gt;Slack for chat&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Git and GitHub&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;GitHub classroom for assignments &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;GitHub repos for code distribution, class website and resource
-sharing. &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;GitHub discussions for off hour and long form discussion&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;GitHub classroom for assignments &lt;/li&gt;
+&lt;li&gt;GitHub repos for code distribution, class website and resource
+sharing. &lt;/li&gt;
+&lt;li&gt;GitHub discussions for off hour and long form discussion&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;While Zoom is a great platform it was lacking in a few areas so we
 also ended up using: &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://padlet.com&#34;&gt;Padlet&lt;/a&gt; as a collaborative writing space for groups&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Assorted whiteboarding tools.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://padlet.com&#34;&gt;Padlet&lt;/a&gt; as a collaborative writing space for groups&lt;/li&gt;
+&lt;li&gt;Assorted whiteboarding tools.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Here&amp;#39;s the breakdown.&lt;/p&gt;
 &lt;p&gt;
@@ -539,20 +632,12 @@ exposed to the idea. Still, we, or more accurately, Topher, who&amp;#39;s had
 great success getting student buy in did do a brief talk on the
 subject. Some of the things we covered were: &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;How to motivate pair programming in a collaborative way&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;What activities can you give the navigator while the driver&amp;#39;s
-setting up the environment to involve them.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;How in the &amp;#34;real world&amp;#34; some developers love PP and some hate it
-and that there are many variations on the theme.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;You&amp;#39;d not always going to get student buy in.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;How to motivate pair programming in a collaborative way&lt;/li&gt;
+&lt;li&gt;What activities can you give the navigator while the driver&amp;#39;s
+setting up the environment to involve them.&lt;/li&gt;
+&lt;li&gt;How in the &amp;#34;real world&amp;#34; some developers love PP and some hate it
+and that there are many variations on the theme.&lt;/li&gt;
+&lt;li&gt;You&amp;#39;d not always going to get student buy in.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;That last point is &lt;strong&gt;very&lt;/strong&gt; important. Teachers are going to try things
 that don&amp;#39;t always work and unfortunately, the system of evaluation
@@ -614,36 +699,16 @@ work.&lt;/p&gt;
 &lt;p&gt;
 The topics they selected were:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Data Mining&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Public Key Encryption&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Blockchain&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Natural Language Processing&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Classic AI - Decision Trees&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;SQL / Cyber Security&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Visualization&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Machine Learning / Cipher Decryption&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Genetic Algorithms&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Classic AI - Search&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Data Mining&lt;/li&gt;
+&lt;li&gt;Public Key Encryption&lt;/li&gt;
+&lt;li&gt;Blockchain&lt;/li&gt;
+&lt;li&gt;Natural Language Processing&lt;/li&gt;
+&lt;li&gt;Classic AI - Decision Trees&lt;/li&gt;
+&lt;li&gt;SQL / Cyber Security&lt;/li&gt;
+&lt;li&gt;Visualization&lt;/li&gt;
+&lt;li&gt;Machine Learning / Cipher Decryption&lt;/li&gt;
+&lt;li&gt;Genetic Algorithms&lt;/li&gt;
+&lt;li&gt;Classic AI - Search&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;We weren&amp;#39;t sure exactly what to expect but we were blown away both in
 terms of the CS content as well as what they prepared in terms of
@@ -673,18 +738,10 @@ these, check them out.&lt;/p&gt;
 Our summer intensive was, well, pretty intensive. We met all day every
 day for a month and knocked out four classes. &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Programming (CS1)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Data Structures&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Topics&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Methods&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Programming (CS1)&lt;/li&gt;
+&lt;li&gt;Data Structures&lt;/li&gt;
+&lt;li&gt;Topics&lt;/li&gt;
+&lt;li&gt;Methods&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;If you ever took or taught a summer session class, you know that time
 is tight and generally you cover a little less than in a fall or
@@ -728,45 +785,19 @@ populations. &lt;/p&gt;
 &lt;p&gt;
 Some of the methods we discussed included: &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Live Coding &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Subgoal labeling&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Make predictions&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Modifying existing code&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;code tracing&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;diagramming&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;scaffolded assignments (code skeletons)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Rubber Duck Debugging&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Code sharing (presenting)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;writing implementations of library code&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;slack techniques (reacts polls, channels, ) &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;thought-grooming/sparking warm-up Qs/tasks&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;relevant quotes at warm-up&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Live Coding &lt;/li&gt;
+&lt;li&gt;Subgoal labeling&lt;/li&gt;
+&lt;li&gt;Make predictions&lt;/li&gt;
+&lt;li&gt;Modifying existing code&lt;/li&gt;
+&lt;li&gt;code tracing&lt;/li&gt;
+&lt;li&gt;diagramming&lt;/li&gt;
+&lt;li&gt;scaffolded assignments (code skeletons)&lt;/li&gt;
+&lt;li&gt;Rubber Duck Debugging&lt;/li&gt;
+&lt;li&gt;Code sharing (presenting)&lt;/li&gt;
+&lt;li&gt;writing implementations of library code&lt;/li&gt;
+&lt;li&gt;slack techniques (reacts polls, channels, ) &lt;/li&gt;
+&lt;li&gt;thought-grooming/sparking warm-up Qs/tasks&lt;/li&gt;
+&lt;li&gt;relevant quotes at warm-up&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;and more but the list doesn&amp;#39;t really do the discussion justice. Take
 &amp;#34;live coding&amp;#34; for example - that&amp;#39;s not just writing code in front of
@@ -817,20 +848,12 @@ The certificate program consists of a bunch of graduate classes plus
 field work which is required by the state. Over the summer we covered
 four of the classes. &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Programming - essentially a CS1 type course.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Data Structures - since K12 teachers should go deeper than the last
-HS course which is typically APCS-A.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Topcs in Compute rScience - since K12 teachers need a wide breadth
-of CS knowledge.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Methods - since teachers need to know how to teach CS.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Programming - essentially a CS1 type course.&lt;/li&gt;
+&lt;li&gt;Data Structures - since K12 teachers should go deeper than the last
+HS course which is typically APCS-A.&lt;/li&gt;
+&lt;li&gt;Topcs in Compute rScience - since K12 teachers need a wide breadth
+of CS knowledge.&lt;/li&gt;
+&lt;li&gt;Methods - since teachers need to know how to teach CS.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;In the fall, we&amp;#39;ll continue with Ethics in Computer Science and
 Curriculum Development which also includes the field work.&lt;/p&gt;
@@ -863,21 +886,11 @@ structure classes except possibly through the methods eye because both
 of those courses are pretty well established and cut and dry but I do
 plan to write at least the following: &lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;The methods course &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;More on the methods course &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The topics course &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Use of tools for remote teaching &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Our overall philosophy in designing and running the program.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;The methods course &lt;/li&gt;
+&lt;li&gt;More on the methods course &lt;/li&gt;
+&lt;li&gt;The topics course &lt;/li&gt;
+&lt;li&gt;Use of tools for remote teaching &lt;/li&gt;
+&lt;li&gt;Our overall philosophy in designing and running the program.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;So, stay tuned for more.&lt;/p&gt;
 </description>
@@ -952,18 +965,10 @@ sort or doing a unit on inheritance you probably should have your
 ownb written solutions but there are a whole bunch of topics which
 lend themselves to doing things on the fly:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;debugging&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;software engineering practices&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;how to approach &amp;#34;random&amp;#34; problems&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;practical &amp;#34;programming&amp;#34; techniques&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;debugging&lt;/li&gt;
+&lt;li&gt;software engineering practices&lt;/li&gt;
+&lt;li&gt;how to approach &amp;#34;random&amp;#34; problems&lt;/li&gt;
+&lt;li&gt;practical &amp;#34;programming&amp;#34; techniques&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;can all benefit from an on the fly lesson. &lt;/p&gt;
 &lt;p&gt;
@@ -1043,24 +1048,16 @@ something different a week later? Write it up. Rinse and repeat.&lt;/p&gt;
 &lt;p&gt;
 Why have I found writing a blog to be good self-PD?&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Writing the experience or the lesson makes me think through it
-again. What worked, what didn&amp;#39;t.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;When I do a similar lesson in the future, I can look back on what I
-did. It helps in iterating towards becoming a better teacher.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;I get to see how I&amp;#39;ve evolved as a teacher over time. You don&amp;#39;t get
+&lt;li&gt;Writing the experience or the lesson makes me think through it
+again. What worked, what didn&amp;#39;t.&lt;/li&gt;
+&lt;li&gt;When I do a similar lesson in the future, I can look back on what I
+did. It helps in iterating towards becoming a better teacher.&lt;/li&gt;
+&lt;li&gt;I get to see how I&amp;#39;ve evolved as a teacher over time. You don&amp;#39;t get
 this immediately but blog for a few years and then reread some early
-posts. &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;You could get some comments. I don&amp;#39;t get a lot but the ones people
+posts. &lt;/li&gt;
+&lt;li&gt;You could get some comments. I don&amp;#39;t get a lot but the ones people
 have left have proven useful to me. Some of the ones from people who
-disagree have been the most useful.&lt;/p&gt;
-&lt;/li&gt;
+disagree have been the most useful.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;On top of this, some other new teacher might discover something you
 wrote up and find inspiration from it. &lt;/p&gt;
@@ -1101,7 +1098,7 @@ used correctly it can create clearer code. Let&amp;#39;s look at a related
 situation. Suppose you write a function to find and return some item
 from  a data set (in pseudocode):&lt;/p&gt;
 &lt;div class=&#34;src src-java&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 You could tighten it up a bit but there are two things that I don&amp;#39;t
@@ -1109,12 +1106,12 @@ like about the above solution. First, it goes through the entire data
 set even if the item you&amp;#39;re searching for is near the beginning. You
 could fix that by putting in a more complex loop boolean:&lt;/p&gt;
 &lt;p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;i&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;0&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; numitems &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;!&lt;/span&gt;found &lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt; i&lt;span style=&#34;color:#f92672&#34;&gt;++)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;...&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;i&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; numitems &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;!&lt;/span&gt;found &lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt; i&lt;span style=&#34;color:#f92672&#34;&gt;++)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;...&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;
 Second. you&amp;#39;ve got the conditional after the loop. I find the
 following much clearer:&lt;/p&gt;
 &lt;div class=&#34;src src-java&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 To me this is perfectly clear. Look for an item, if and when we find
@@ -1125,12 +1122,12 @@ understand, and potentially a little faster.&lt;/p&gt;
 You have a similar situation with &lt;code&gt;break&lt;/code&gt;. Without it you might have
 code like this:&lt;/p&gt;
 &lt;div class=&#34;src src-java&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 And with:&lt;/p&gt;
 &lt;div class=&#34;src src-java&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 Not significantly different. &lt;/p&gt;
@@ -1146,12 +1143,12 @@ more dangerous way than break and continue can.&lt;/p&gt;
 &lt;p&gt;
 Here&amp;#39;s an example with continue:&lt;/p&gt;
 &lt;div class=&#34;src src-java&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;    &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 as opposed to:&lt;/p&gt;
 &lt;div class=&#34;src src-java&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;    &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 Which is better? It&amp;#39;s purely subjective. Nothing wrong with either.&lt;/p&gt;
@@ -1161,7 +1158,7 @@ I&amp;#39;ll share a final example. This one lifted from an &lt;a href=&#34;http
 the exit event in the loop boolean but I find including it
 as a case using a &lt;code&gt;break&lt;/code&gt; to be cleaner:&lt;/p&gt;
 &lt;div class=&#34;src src-c++&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 At the end of the day, &lt;code&gt;break&lt;/code&gt; and &lt;code&gt;continue&lt;/code&gt;, like most langauge
@@ -1276,11 +1273,11 @@ subproblem solution rather than recalculating it.&lt;/p&gt;
 Probably the easiest example is Fibonacci numbers. You can generate
 Fibonacci numbers recursively using something like this:&lt;/p&gt;
 &lt;div class=&#34;src src-python&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fib&lt;/span&gt;(n):
-      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; n&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;:
-          &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
-      &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:
-          &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; fib(n&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;fib(n&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fib&lt;/span&gt;(n):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; n&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; fib(n&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;fib(n&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 It&amp;#39;s very simple but it gets very slow very fast. That&amp;#39;s because it
@@ -1289,17 +1286,17 @@ keeps recalculating the same subproblems over and over and over.&lt;/p&gt;
 You can &amp;#34;fix&amp;#34; this by creating a list of previously found Fibonacci 
 numbers and just return them rather than recalculating:&lt;/p&gt;
 &lt;div class=&#34;src src-python&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;  fibs &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;]&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1000&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;# make room for 1000 fib numbers&lt;/span&gt;
-
-  &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fib&lt;/span&gt;(n):
-      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; fibs[n] &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;:
-          &lt;span style=&#34;color:#75715e&#34;&gt;# we already have the answer, just return it&lt;/span&gt;
-          &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; fibs[n]
-      &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:
-          &lt;span style=&#34;color:#75715e&#34;&gt;# otherwise, calculate it, store it, return it&lt;/span&gt;
-          f &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; fib(n&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;fib(n&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)
-          fibs[n]&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;f
-          &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; f&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  fibs &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;]&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1000&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;# make room for 1000 fib numbers&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fib&lt;/span&gt;(n):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; fibs[n] &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#75715e&#34;&gt;# we already have the answer, just return it&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; fibs[n]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#75715e&#34;&gt;# otherwise, calculate it, store it, return it&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          f &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; fib(n&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;fib(n&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          fibs[n]&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;f
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; f&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 and that&amp;#39;s a dynamic programming solution for Fibonacci numbers,
@@ -1690,24 +1687,12 @@ Editors
 &lt;/h4&gt;
 &lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-4&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Emacs&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Gedit&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Vim&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Sublime Text&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Atom&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Jedit&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Emacs&lt;/li&gt;
+&lt;li&gt;Gedit&lt;/li&gt;
+&lt;li&gt;Vim&lt;/li&gt;
+&lt;li&gt;Sublime Text&lt;/li&gt;
+&lt;li&gt;Atom&lt;/li&gt;
+&lt;li&gt;Jedit&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1717,27 +1702,13 @@ IDES
 &lt;/h4&gt;
 &lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-4&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Eclipse&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;DrJava&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Geany&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;BlueJ&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;IntelliJ&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;VSCode&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;JGrasp&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Eclipse&lt;/li&gt;
+&lt;li&gt;DrJava&lt;/li&gt;
+&lt;li&gt;Geany&lt;/li&gt;
+&lt;li&gt;BlueJ&lt;/li&gt;
+&lt;li&gt;IntelliJ&lt;/li&gt;
+&lt;li&gt;VSCode&lt;/li&gt;
+&lt;li&gt;JGrasp&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -2435,9 +2406,7 @@ a specific language such as Lisp for AI you&amp;#39;d probably use
 Pascal. I learned C early on in my college career and also took
 classes that used Ada, and 8088 Assembly. I mostly tried to stick with&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;It was the hot language at the time and all the cool kids were&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;It was the hot language at the time and all the cool kids were&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;using it. Some kids continued to use Pascal but it was universally
 derided. It wasn&amp;#39;t a &amp;#34;real language.&amp;#34; Nobody used it for anything
@@ -2713,29 +2682,29 @@ At the core of the problem you have to maintain a list of items
 inserting and deleting items at assorted locations. I threw together
 this solution:&lt;/p&gt;
 &lt;p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;num_players &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;431&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;# 9&lt;/span&gt;
-last_score &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;70950&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;# 255&lt;/span&gt;
-players &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(num_players&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)]
-
-player&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;
-board&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;]
-next_marble &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;
-index&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
-&lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; next_marble &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; last_score:
-    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; next_marble &lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;23&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;:
-        &lt;span style=&#34;color:#75715e&#34;&gt;#regular insert&lt;/span&gt;
-        L &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; len(board)
-        index&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;(index&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt;L
-        index&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;(index&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt;L
-        board&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;insert(index,next_marble)
-    &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:
-        players[player]&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;players[player]&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; next_marble
-        index&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;(index&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;7&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt;len(board)
-        players[player]&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;players[player]&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;board[index]
-        &lt;span style=&#34;color:#66d9ef&#34;&gt;del&lt;/span&gt; board[index]
-    player&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;(player&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt;num_players
-    next_marble &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; next_marble &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
-print(max(players))&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;num_players &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;431&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;# 9&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;last_score &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;70950&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;# 255&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;players &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(num_players&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;player&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;board&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;next_marble &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;index&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; next_marble &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; last_score:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; next_marble &lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;23&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;#regular insert&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        L &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; len(board)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        index&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;(index&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt;L
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        index&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;(index&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt;L
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        board&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;insert(index,next_marble)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        players[player]&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;players[player]&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; next_marble
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        index&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;(index&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;7&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt;len(board)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        players[player]&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;players[player]&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;board[index]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;del&lt;/span&gt; board[index]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    player&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;(player&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt;num_players
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    next_marble &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; next_marble &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(max(players))&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;
 It worked and I got my first star. This unlocked part 2 which changed
 the number of marbles in the game from 70950 to 70950&amp;lt;b&amp;gt;00&amp;lt;/b&amp;gt;. This
@@ -2903,18 +2872,12 @@ dinner the teachers talked shop. In addition to getting to know each
 other, their programs, and their classes we also asked them to
 consider these three items:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;What are things that cause you difficulty that you&amp;#39;d like us to
-cover?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;What are things you wish you knew about that you&amp;#39;d like us to
-cover?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;What are things you&amp;#39;re comfortable with that you&amp;#39;d be willing to
-share with the group?&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;What are things that cause you difficulty that you&amp;#39;d like us to
+cover?&lt;/li&gt;
+&lt;li&gt;What are things you wish you knew about that you&amp;#39;d like us to
+cover?&lt;/li&gt;
+&lt;li&gt;What are things you&amp;#39;re comfortable with that you&amp;#39;d be willing to
+share with the group?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;After dinner we circled up and JonAlf presented the way he set up
 student note taking in his class.&lt;/p&gt;
@@ -2986,18 +2949,18 @@ about &lt;a href=&#34;https://cestlaz.github.io/oldblog/2013-03-23-who_won_the_e
 up a sorting type algorithm (excuse any little Java errors, I&amp;#39;ve been
 teaching this in C++ for the past 3 years):&lt;/p&gt;
 &lt;div class=&#34;src src-java&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;  ArrayList&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;Integer&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sort&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;ArrayList&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;Integer&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; a&lt;span style=&#34;color:#f92672&#34;&gt;){&lt;/span&gt;
-      ArrayList&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;Integer&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; result &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; ArrayList&lt;span style=&#34;color:#f92672&#34;&gt;();&lt;/span&gt;
-      &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; min_index&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
-      &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; value&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
-      &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 0&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; a&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;length&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;();&lt;/span&gt;i&lt;span style=&#34;color:#f92672&#34;&gt;++)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
-          min_index &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; findMinIndex&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;a&lt;span style=&#34;color:#f92672&#34;&gt;);&lt;/span&gt;
-          value &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; a&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;get&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;min_index&lt;span style=&#34;color:#f92672&#34;&gt;);&lt;/span&gt;
-          a&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;remove&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;min_index&lt;span style=&#34;color:#f92672&#34;&gt;);&lt;/span&gt;
-          result&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;append&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;value&lt;span style=&#34;color:#f92672&#34;&gt;);&lt;/span&gt;
-      &lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
-      &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; result&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
-  &lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  ArrayList&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;Integer&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sort&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;ArrayList&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;Integer&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; a&lt;span style=&#34;color:#f92672&#34;&gt;){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      ArrayList&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;Integer&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; result &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; ArrayList&lt;span style=&#34;color:#f92672&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; min_index&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; value&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; a&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;length&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;();&lt;/span&gt;i&lt;span style=&#34;color:#f92672&#34;&gt;++)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          min_index &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; findMinIndex&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;a&lt;span style=&#34;color:#f92672&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          value &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; a&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;get&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;min_index&lt;span style=&#34;color:#f92672&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          a&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;remove&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;min_index&lt;span style=&#34;color:#f92672&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          result&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;append&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;value&lt;span style=&#34;color:#f92672&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; result&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 This won&amp;#39;t be efficient due to &lt;a href=&#34;https://cestlaz.github.io/posts/2014-11-17-hidden-complexity/&#34;&gt;hidden complexity&lt;/a&gt; but it&amp;#39;s very easy to
@@ -3006,13 +2969,13 @@ write and understand the algorithm&lt;/p&gt;
 From here it&amp;#39;s a simple matter to code this algorithm in place -
 swapping the next smallest item each time. This time coded with an array::&lt;/p&gt;
 &lt;div class=&#34;src src-java&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; min_index&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
-  &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; value&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
-  &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 0&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; a&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;length&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;();&lt;/span&gt;i&lt;span style=&#34;color:#f92672&#34;&gt;++)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
-      min_index &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; findMinIndex&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;a&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt;1&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt;a&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;length&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;());&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;// find min excluding what&amp;#39;s sorted so far
-&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;      value &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; a&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;get&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;min_index&lt;span style=&#34;color:#f92672&#34;&gt;);&lt;/span&gt;
-      swap&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;a&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;i&lt;span style=&#34;color:#f92672&#34;&gt;],&lt;/span&gt;a&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;min_index&lt;span style=&#34;color:#f92672&#34;&gt;]);&lt;/span&gt;
-  &lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; min_index&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; value&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; a&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;length&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;();&lt;/span&gt;i&lt;span style=&#34;color:#f92672&#34;&gt;++)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      min_index &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; findMinIndex&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;a&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt;a&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;length&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;());&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;// find min excluding what&amp;#39;s sorted so far
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;      value &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; a&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;get&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;min_index&lt;span style=&#34;color:#f92672&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      swap&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;a&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;i&lt;span style=&#34;color:#f92672&#34;&gt;],&lt;/span&gt;a&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;min_index&lt;span style=&#34;color:#f92672&#34;&gt;]);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 If you want, you can then break out the findMinIndex routine and the
@@ -3080,31 +3043,15 @@ lesson but more often than not I&amp;#39;ll just go in with a bullet list.&lt;/p
 &lt;p&gt;
 Here&amp;#39;s my plan for a recent lesson:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Go over cipher soution&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;How to we solve if already ciphered?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Rotate 26 times.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;What about using stats&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Frequency of letters - look up&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Find freq of letter in string then use distance formula against
-model&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Get frequencies from a book&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;try it in another language&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Go over cipher soution&lt;/li&gt;
+&lt;li&gt;How to we solve if already ciphered?&lt;/li&gt;
+&lt;li&gt;Rotate 26 times.&lt;/li&gt;
+&lt;li&gt;What about using stats&lt;/li&gt;
+&lt;li&gt;Frequency of letters - look up&lt;/li&gt;
+&lt;li&gt;Find freq of letter in string then use distance formula against
+model&lt;/li&gt;
+&lt;li&gt;Get frequencies from a book&lt;/li&gt;
+&lt;li&gt;try it in another language&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;We didn&amp;#39;t get to the last two bullet items so that&amp;#39;s where we&amp;#39;ll start
 off on Monday. This plan was all I needed but it in no way tells the
@@ -3188,12 +3135,8 @@ Parts 1 and 2
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://cestlaz.github.io/post/who-played-spiderman/&#34;&gt;Part 1&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://cestlaz.github.io/post/who-played-spiderman-2/&#34;&gt;Part 2&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cestlaz.github.io/post/who-played-spiderman/&#34;&gt;Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cestlaz.github.io/post/who-played-spiderman-2/&#34;&gt;Part 2&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -3232,27 +3175,15 @@ mention the query terms. Then you look for dates. Dates can be even
 easier to search for than names. Particularly if your students know
 regular expressions. Dates could be things like:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;two digits / two digits / two digits&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Month name number, number&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;etc.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;two digits / two digits / two digits&lt;/li&gt;
+&lt;li&gt;Month name number, number&lt;/li&gt;
+&lt;li&gt;etc.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;or in regular expressions, something like:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;[0-9]{2}/[0-9]{2}/[0-9]{2}/&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;(Jan|Feb|Mar…)[0-9]{2}, {0-9]{4}}&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;etc.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;[0-9]{2}/[0-9]{2}/[0-9]{2}/&lt;/li&gt;
+&lt;li&gt;(Jan|Feb|Mar…)[0-9]{2}, {0-9]{4}}&lt;/li&gt;
+&lt;li&gt;etc.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Just as with &amp;#34;who&amp;#34; queries there are issues to deal with - searching
 for &amp;#34;when did Elvis die&amp;#34; might give you when Elvis was born instead
@@ -3282,12 +3213,8 @@ Parts 1 and 2
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://cestlaz.github.io/post/who-played-spiderman/&#34;&gt;Part 1&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://cestlaz.github.io/post/who-played-spiderman-2/&#34;&gt;Part 2&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cestlaz.github.io/post/who-played-spiderman/&#34;&gt;Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cestlaz.github.io/post/who-played-spiderman-2/&#34;&gt;Part 2&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -3307,12 +3234,8 @@ Parts 1 and 3
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://cestlaz.github.io/post/who-played-spiderman/&#34;&gt;Part 1&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://cestlaz.github.io/post/who-played-spiderman-3/&#34;&gt;Part 3&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cestlaz.github.io/post/who-played-spiderman/&#34;&gt;Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cestlaz.github.io/post/who-played-spiderman-3/&#34;&gt;Part 3&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -3332,16 +3255,10 @@ Since we&amp;#39;re doing a &amp;#34;who&amp;#34; query  we want to find all the
 the documents. This leads to a class discussion on how to find names
 in a large string. They&amp;#39;ll come up with rules like:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;two adjacent words each with a capital first letter.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;an honorific (Mr, Ms, etc.) followed by a capitalized word&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;A word that matches a name from a &amp;#34;popular name&amp;#34; list followed by a
-capitalized word.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;two adjacent words each with a capital first letter.&lt;/li&gt;
+&lt;li&gt;an honorific (Mr, Ms, etc.) followed by a capitalized word&lt;/li&gt;
+&lt;li&gt;A word that matches a name from a &amp;#34;popular name&amp;#34; list followed by a
+capitalized word.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The class might come up with different or additional rules. Actually
 writing the code to pull out the names is an nice little assignment
@@ -3371,12 +3288,8 @@ Parts 1 and 3
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://cestlaz.github.io/post/who-played-spiderman/&#34;&gt;Part 1&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://cestlaz.github.io/post/who-played-spiderman-3/&#34;&gt;Part 3&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cestlaz.github.io/post/who-played-spiderman/&#34;&gt;Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cestlaz.github.io/post/who-played-spiderman-3/&#34;&gt;Part 3&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -3396,12 +3309,8 @@ Parts 2 and 3
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;[[/post/who-played-spiderman-2/][Part 2]&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://cestlaz.github.io/post/who-played-spiderman-2/&#34;&gt;Part 3&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;[[/post/who-played-spiderman-2/][Part 2]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cestlaz.github.io/post/who-played-spiderman-2/&#34;&gt;Part 3&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;I wasn&amp;#39;t going to teach this lesson today. I was planning on starting
 a multi day project starting with an exercise in specification writing
@@ -3499,12 +3408,8 @@ Parts 2 and 3
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;[[/post/who-played-spiderman-2/][Part 2]&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://cestlaz.github.io/post/who-played-spiderman-2/&#34;&gt;Part 3&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;[[/post/who-played-spiderman-2/][Part 2]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cestlaz.github.io/post/who-played-spiderman-2/&#34;&gt;Part 3&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -3519,12 +3424,8 @@ Parts 2 and 3
       <guid>https://cestlaz.github.io/post/globals-breaks-and-returns/</guid>
       <description>
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Never use global variables&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Never break out of a loop&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Never use global variables&lt;/li&gt;
+&lt;li&gt;Never break out of a loop&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;These are two &amp;#34;best practices&amp;#34; that are frequently touted in early CS
 classes both at the high school and college level.&lt;/p&gt;
@@ -3541,11 +3442,11 @@ The discussion on the APCS-A group started with a discussion of this
 code and its &lt;code&gt;break&lt;/code&gt; statement as opposed to having the loop&amp;#39;s exit
 condition in the boolean up top:&lt;/p&gt;
 &lt;div class=&#34;src src-java&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
-      &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
-          &lt;span style=&#34;color:#75715e&#34;&gt;// do stuff
-&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;          &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;condition&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;break&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
-      &lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#75715e&#34;&gt;// do stuff
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;          &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;condition&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;break&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 These two &amp;#34;best practices&amp;#34; - not using globals and not breaking out of
@@ -3557,20 +3458,20 @@ Actually, these aren&amp;#39;t even universally best practices.&lt;/p&gt;
 Looking at the while loop, You might have event driven code with a
 while loop acting as a dispatcher:&lt;/p&gt;
 &lt;div class=&#34;src src-java&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;){&lt;/span&gt;
-      &lt;span style=&#34;color:#75715e&#34;&gt;// do stuff
-&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
-      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;some event&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
-          &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; that event&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
-
-      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;some other event&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
-          &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; that event&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
-
-      &lt;span style=&#34;color:#75715e&#34;&gt;// etc
-&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
-      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;exit event&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
-          &lt;span style=&#34;color:#66d9ef&#34;&gt;break&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
-  &lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#75715e&#34;&gt;// do stuff
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;some event&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; that event&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;some other event&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; that event&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#75715e&#34;&gt;// etc
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;exit event&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#66d9ef&#34;&gt;break&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
 Nothing wrong with that structure. It&amp;#39;s clean, easy to read and easy
@@ -3790,15 +3691,9 @@ interwebs.&lt;/p&gt;
 &lt;p&gt;
 Some of the questions and concerns that I&amp;#39;ve seen recently include:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;What is CT??&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Will rich schools get CS and poor only CT?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Will rich schools get CS and poor on coding?&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;What is CT??&lt;/li&gt;
+&lt;li&gt;Will rich schools get CS and poor only CT?&lt;/li&gt;
+&lt;li&gt;Will rich schools get CS and poor on coding?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The first question is a big one and as a community we haven&amp;#39;t answered
 it yet. I think about it as including things like algorithmic
@@ -4143,55 +4038,6 @@ great teacher. He&amp;#39;s basically Mr. PBL and he does it right.  If you&amp;
 and if you&amp;#39;re new to teaching, you&amp;#39;ll be developing your chops for
 your entire career but it&amp;#39;s a great resource to get you and then your
 kids started on the journey.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Time To Create An Ethics Course</title>
-      <link>https://cestlaz.github.io/posts/time-to-create-an-ethics-course/</link>
-      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://cestlaz.github.io/posts/time-to-create-an-ethics-course/</guid>
-      <description>&lt;p&gt;
-I think it&amp;#39;s time for me to start developing a CS Ethics class.&lt;/p&gt;
-&lt;p&gt;
-An ethics course isn&amp;#39;t a replacement for having teachers that live and
-model good behavior and weave ethical issues throughout the curriculum
-but still, adding a separate course on top of that has its merits.&lt;/p&gt;
-&lt;p&gt;
-I&amp;#39;m not in a rush to create this course. I might be done in a month or
-it might take a couple of years. When I&amp;#39;m done, I&amp;#39;ll add it as an
-option in my CS Teacher education programs but hopefully it will be an
-attractive course for undergrad CS majors as well.&lt;/p&gt;
-&lt;p&gt;
-While it&amp;#39;s easy enough to come up with possible topics - privacy,
-moral responsibilities, biased algorithms, net neutrality and on and
-on I&amp;#39;m looking for this course to have a serious coding component. I
-want the students to build things to really understand the
-implications of what they&amp;#39;re studying.&lt;/p&gt;
-&lt;p&gt;
-One topic I definitely want to cover is &lt;a href=&#34;https://news.harvard.edu/gazette/story/2011/10/youre-not-so-anonymous/&#34;&gt;anonimity&lt;/a&gt;. I&amp;#39;d love to find
-the right combination of data sets and have the class discover that
-some hidden information in the sets isn&amp;#39;t nearly as hidden as it seems
-to be. When I was at Stuy, I was thinking about
-having the kids give me permission to use their class schedules since
-even with names removed we could probably identify many kids by
-electives and overlapping classes. I have no idea what I&amp;#39;ll be able to
-do at Hunter. If I can come up with something good I think this will
-form the basis of a pretty amazing part of the class.&lt;/p&gt;
-&lt;p&gt;
-Another project I&amp;#39;d love to put together is something dealing with a
-biased algorithm. Again, I don&amp;#39;t know where this will go, maybe
-something where I can seed the class so that different groups
-implement some project differently and we can then analyze each groups
-biases, hidden or otherwise.&lt;/p&gt;
-&lt;p&gt;
-Beyond these two, I&amp;#39;m not sure.&lt;/p&gt;
-&lt;p&gt;
-How about you? Anyone out there have any good ideas for programming
-projects for an ethical CS course? If so, please share. It might be a
-while but when I do finish putting this together I&amp;#39;ll be sure to
-publish whatever the end result is.&lt;/p&gt;
 </description>
     </item>
     
