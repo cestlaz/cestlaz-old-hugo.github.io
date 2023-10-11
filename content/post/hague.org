@@ -22,7 +22,7 @@ For some reason I couldn't get this song out of my head
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kIFN13-a1iA?si=mKvczkvG-QG_6WJP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 #+end_export
 
-We had some time to do some wanderig
+We had some time to do some wandering
 
 #+ATTR_HTML: :width 250px
 [[/img/hague/hague-canal.jpg]]
