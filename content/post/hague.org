@@ -1,0 +1,87 @@
+---
+title: The Hague and an extra day
+date: 2023-10-11T11:18:26-04:00
+tags:
+- travel
+- misc  
+categories:
+- travel
+draft: false
+--- 
+
+Last day of the trip we decided to take a day trip to The Hague. On
+the way we passed through Haarlem
+
+
+#+ATTR_HTML: :width 250px
+[[/img/hague/haarlem.jpg]]
+
+For some reason I couldn't get this song out of my head
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kIFN13-a1iA?si=mKvczkvG-QG_6WJP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
+We had some time to do some wanderig
+
+#+ATTR_HTML: :width 250px
+[[/img/hague/hague-canal.jpg]]
+
+
+#+ATTR_HTML: :width 250px
+[[/img/hague/palace.jpg]]
+
+and even stumbled upon their Chinatown:
+
+#+ATTR_HTML: :width 250px
+[[/img/hague/chinatown-hague.jpg]]
+
+but the reason for the trip was the Escher museum
+
+#+ATTR_HTML: :width 250px
+[[/img/hague/museum.jpg]]
+
+Cool museum in a beautiful mansion.
+
+#+ATTR_HTML: :width 250px
+[[/img/hague/echser1.jpg]]
+#+ATTR_HTML: :width 250px
+[[/img/hague/escher2.jpg]]
+
+It had tons of Escher's work along with his story.
+
+#+ATTR_HTML: :width 250px
+[[/img/hague/escher3.jpg]]
+#+ATTR_HTML: :width 250px
+[[/img/hague/escher4.jpg]]
+
+I particularly liked that it had a lot of works that weren't the usual
+tessellations and impossible figures but of course it had those as well.
+
+#+ATTR_HTML: :width 250px
+[[/img/hague/escher5.jpg]]
+#+ATTR_HTML: :width 250px
+[[/img/hague/escher6.jpg]]
+
+Getting back to Amsterdam we wandered around for a final time and
+found their Chinatown as well
+
+#+ATTR_HTML: :width 250px
+[[/img/hague/chinatown-amsterdam.jpg]]
+
+Finally, we settled in to the hotel.
+
+We were supposed to come home today so we got to the airport nice and
+early. No problem, at least until we boarded. Three hours later it was
+determined that the plane had a bad part and they didn't have a
+spare. Even if they did it would have taken a few hours to replace.
+
+So, we're spending another night in Amsterdam. Just at a hotel airport
+so that's a little annoying. Not really the worst thing in the world
+though. The hotel is fine, I'm assuming dinner and breakfast here will
+be as well and these things happen.
+
+I was just hoping to get back home to Devorah and Natan after two
+weeks and Batya's probably sick of me already.
+
+
