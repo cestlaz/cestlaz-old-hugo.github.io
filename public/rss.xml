@@ -6,10 +6,249 @@
     <description>C&#39;est la Z</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Oct 2023 11:36:18 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 16 Oct 2023 09:22:58 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>The State of Developer Education podcast</title>
+      <link>https://cestlaz.github.io/post/dev-educator-podcast/</link>
+      <pubDate>Mon, 16 Oct 2023 09:22:58 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/dev-educator-podcast/</guid>
+      <description>&lt;p&gt;
+Now that I&amp;#39;m back from my trip (and the subsequent cold that I&amp;#39;ve
+battled for the past few days), time to get back to &amp;#34;work.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+About a month ago, my friend &lt;a href=&#34;https://www.linkedin.com/in/jonmarkgo/&#34;&gt;Jonathan Gottfied&lt;/a&gt; interviewed me for his
+&lt;a href=&#34;https://deveducation.fm/e/r8krr96n-mike-zamansky&#34;&gt;State of Developer Education&lt;/a&gt; podcast. It&amp;#39;s an hour plus dive into CS /
+Tech education. It dropped when I was on the plane back to NY last
+Thursday. I meant to write this on Friday but my cold took me out
+until today.&lt;/p&gt;
+&lt;p&gt;
+It was a thrill to be asked and fun to do - as you know, I love
+talking shop. I&amp;#39;ve known the host, Jon, for years, I think we met when
+he was at Twilio. For the past almost decade though, Jon has been
+building &lt;a href=&#34;https://mlh.io/&#34;&gt;Major League Hacking&lt;/a&gt; - &lt;strong&gt;the&lt;/strong&gt; organization to support
+college hackathons. While I&amp;#39;m not  sold on the 30+ hours straight
+format, a hackathon can be great tech extracurricular and MLH has done
+so much to add structure and support for them. One of the things I
+love about hackathons is that they&amp;#39;re tech education adjacent and can
+fill in missing pieces for students - networking with others, a social
+activity, project creation, and outside personal learning. All great
+things. Running an organization like MLH can also give people like Jon
+a valuable &amp;#34;outsiders&amp;#34; view of what&amp;#39;s coming out of the classroom. To
+clarify, I say outsider to mean someone not employed as a teacher or
+instructor. &lt;/p&gt;
+&lt;p&gt;
+As to the episode of the podcast I was on, you can check it out here:&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/rvTBhZo6rks?si=93vXdEqRZ0QRze3N&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;
+or in podcast form here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://podcasts.apple.com/us/podcast/the-evolving-landscape-of-computer-science/id1658813805?i=1000631091275&#34;&gt;https://podcasts.apple.com/us/podcast/the-evolving-landscape-of-computer-science/id1658813805?i=1000631091275&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://open.spotify.com/episode/576l1rFDpAQhaSHSgLd15H&#34;&gt;https://open.spotify.com/episode/576l1rFDpAQhaSHSgLd15H&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For teachers who read this blog, I&amp;#39;d recommend checking out the
+podcast series in general. I&amp;#39;ve listened to a bunch and found them
+both interesting and valuable. Most of the episodes I&amp;#39;ve listened to
+are of professionals in the devrel space. Some come from traditional
+CS backgrounds, some don&amp;#39;t. As teachers, we can learn from their
+perspectives and also gain insights into the professional tech
+world beyond just being a traditional software engineer.&lt;/p&gt;
+&lt;p&gt;
+So, I&amp;#39;d encourage you all to check out the series here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://deveducation.fm/&#34;&gt;https://deveducation.fm/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLPDgudJ_VDUdqDSSq6-zmgeIWwULGQX7R&#34;&gt;https://www.youtube.com/playlist?list=PLPDgudJ_VDUdqDSSq6-zmgeIWwULGQX7R&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Enjoy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Hague and an extra day</title>
+      <link>https://cestlaz.github.io/post/hague/</link>
+      <pubDate>Wed, 11 Oct 2023 11:18:26 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/hague/</guid>
+      <description>&lt;p&gt;
+Last day of the trip we decided to take a day trip to The Hague. On
+the way we passed through Haarlem&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/hague/haarlem.jpg&#34; alt=&#34;/img/hague/haarlem.jpg&#34; title=&#34;/img/hague/haarlem.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+For some reason I couldn&amp;#39;t get this song out of my head&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/kIFN13-a1iA?si=mKvczkvG-QG_6WJP&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;
+We had some time to do some wandering&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/hague/hague-canal.jpg&#34; alt=&#34;/img/hague/hague-canal.jpg&#34; title=&#34;/img/hague/hague-canal.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/hague/palace.jpg&#34; alt=&#34;/img/hague/palace.jpg&#34; title=&#34;/img/hague/palace.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+and even stumbled upon their Chinatown:&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/hague/chinatown-hague.jpg&#34; alt=&#34;/img/hague/chinatown-hague.jpg&#34; title=&#34;/img/hague/chinatown-hague.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+but the reason for the trip was the Escher museum&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/hague/museum.jpg&#34; alt=&#34;/img/hague/museum.jpg&#34; title=&#34;/img/hague/museum.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+Cool museum in a beautiful mansion.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/hague/echser1.jpg&#34; alt=&#34;/img/hague/echser1.jpg&#34; title=&#34;/img/hague/echser1.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/hague/escher2.jpg&#34; alt=&#34;/img/hague/escher2.jpg&#34; title=&#34;/img/hague/escher2.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+It had tons of Escher&amp;#39;s work along with his story.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/hague/escher3.jpg&#34; alt=&#34;/img/hague/escher3.jpg&#34; title=&#34;/img/hague/escher3.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/hague/escher4.jpg&#34; alt=&#34;/img/hague/escher4.jpg&#34; title=&#34;/img/hague/escher4.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+I particularly liked that it had a lot of works that weren&amp;#39;t the usual
+tessellations and impossible figures but of course it had those as well.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/hague/escher5.jpg&#34; alt=&#34;/img/hague/escher5.jpg&#34; title=&#34;/img/hague/escher5.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/hague/escher6.jpg&#34; alt=&#34;/img/hague/escher6.jpg&#34; title=&#34;/img/hague/escher6.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+Getting back to Amsterdam we wandered around for a final time and
+found their Chinatown as well&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/hague/chinatown-amsterdam.jpg&#34; alt=&#34;/img/hague/chinatown-amsterdam.jpg&#34; title=&#34;/img/hague/chinatown-amsterdam.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+Finally, we settled in to the hotel.&lt;/p&gt;
+&lt;p&gt;
+We were supposed to come home today so we got to the airport nice and
+early. No problem, at least until we boarded. Three hours later it was
+determined that the plane had a bad part and they didn&amp;#39;t have a
+spare. Even if they did it would have taken a few hours to replace.&lt;/p&gt;
+&lt;p&gt;
+So, we&amp;#39;re spending another night in Amsterdam. Just at a hotel airport
+so that&amp;#39;s a little annoying. Not really the worst thing in the world
+though. The hotel is fine, I&amp;#39;m assuming dinner and breakfast here will
+be as well and these things happen.&lt;/p&gt;
+&lt;p&gt;
+I was just hoping to get back home to Devorah and Natan after two
+weeks and Batya&amp;#39;s probably sick of me already.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Amsterdam days 3 and 4</title>
+      <link>https://cestlaz.github.io/post/amsterdam2/</link>
+      <pubDate>Mon, 09 Oct 2023 09:35:10 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/amsterdam2/</guid>
+      <description>&lt;p&gt;
+We started walking from our hotel to the &lt;a href=&#34;https://www.vangoghmuseum.nl/en&#34;&gt;Van Gogh&lt;/a&gt; museum. On the way
+we passed the &lt;a href=&#34;https://cowmuseum.amsterdam/&#34;&gt;Cow Parade&lt;/a&gt; store. This was pretty cool since we remember
+the Cow Parade from back when it was in New York decades ago. Big
+fiberglass painted cows at random spots in the city.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam/cows.jpg&#34; alt=&#34;/img/amsterdam/cows.jpg&#34; title=&#34;/img/amsterdam/cows.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+The Van Gogh museum was pretty amazing (and also had wood
+floors). While most of his best known works might be in other museums
+around the world there were plenty of great ones to view and admire.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam/van-gogh.jpg&#34; alt=&#34;/img/amsterdam/van-gogh.jpg&#34; title=&#34;/img/amsterdam/van-gogh.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+There were also plenty of work from his contemporaries&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam/monet.jpg&#34; alt=&#34;/img/amsterdam/monet.jpg&#34; title=&#34;/img/amsterdam/monet.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+It was particularly interesting to see things like a gallery of his
+influences or walls with his works surrounded by similar works by his
+contemporaries.&lt;/p&gt;
+&lt;p&gt;
+Like the Rijksmuseum this is a must see. We did hear a couple comment
+though while standing online that it always sells out so maybe book
+tickets in advance.&lt;/p&gt;
+&lt;p&gt;
+From there we wanted to see the Ann Frank house&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam/ann-frank.jpg&#34; alt=&#34;/img/amsterdam/ann-frank.jpg&#34; title=&#34;/img/amsterdam/ann-frank.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+With so much else to do we decided not to book the tour in advance and
+that we&amp;#39;d just walk by. We already knew the story so thought we&amp;#39;d
+rather spend the time in the WWII Resistance museum and the Jewish
+Museum to learn about things we were less familiar with but would walk
+by the house to see it and the neighborhood.&lt;/p&gt;
+&lt;p&gt;
+On the way we needed sustenance so we sought out a highly recommended
+cookie shop but were thwarted by a &lt;strong&gt;huge&lt;/strong&gt; line.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam/cookies.jpg&#34; alt=&#34;/img/amsterdam/cookies.jpg&#34; title=&#34;/img/amsterdam/cookies.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+It looked like it would be well over a 45 minute wait. Sorry, we don&amp;#39;t
+do that anymore. We found something else, walked by the Ann Frank
+house, did some more wandering, had a great light lunch then took a
+break back at our hotel.&lt;/p&gt;
+&lt;p&gt;
+Then the Jewish Museum. It had two parts with two additional ones
+opening in March - the museum, on the site of former Ashkenazi
+synagogues, the Portuguese Synagogue across the street and the two to
+come pieces, the &lt;a href=&#34;https://jck.nl/en/location/hollandsche-schouwburg&#34;&gt;Hollandsche Schouwburg&lt;/a&gt; and the &lt;a href=&#34;https://jck.nl/en/location/national-holocaust-museum&#34;&gt;National Holocoust
+Museum&lt;/a&gt;. The next post will cover the Portuguese Synagogue but to be
+honest, the museum didn&amp;#39;t thrill either of us. The general Judaism
+section was fine but not inspirational and the organization had you
+jumping from station to station in what appeared to be random
+order. They had some interesting artifacts and we learned a bit but it
+wasn&amp;#39;t super engaging to us. The Holocaust section also was pretty
+subdued. To be honest, the WWII Resistance museum painted a better
+picture of the Holocaust as did the Brussels museum. I&amp;#39;d also rank the
+NY and DC ones better. As to the straight Jewish part we also liked the
+Brussels museum more and I&amp;#39;ll put in a plug here for the
+&lt;a href=&#34;https://theweitzman.org/&#34;&gt;Weitzman Museum&lt;/a&gt; in Philly.&lt;/p&gt;
+&lt;p&gt;
+In all fairness though this isn&amp;#39;t counting the Portuguese Synagogue
+which was included in admission but we couldn&amp;#39;t go to yet since it was
+closed for Simchat Torah and who knows what the forthcoming two sites
+will add to the overall experience&lt;/p&gt;
+&lt;p&gt;
+Staying on our cultural theme, we&amp;#39;ve been noticing many bagel shops in
+Amsterdam so we thought we&amp;#39;d try one.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam/bagel.jpg&#34; alt=&#34;/img/amsterdam/bagel.jpg&#34; title=&#34;/img/amsterdam/bagel.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+We ended up taking out form &lt;a href=&#34;https://soupenzo.nl/&#34;&gt;Soup En Zo&lt;/a&gt;, a really good soup place
+and pairing the soups with Bagels from Tony&amp;#39;s NY Bagels across the
+street. The soups were great and the bagels were surprisingly
+good. Not too large, good chew - better than some lesser NY ones.&lt;/p&gt;
+&lt;p&gt;
+That was it for day 3. Day 4 started with the Amsterdam
+&lt;a href=&#34;https://www.hetscheepvaartmuseum.com/&#34;&gt;Maritime Museum&lt;/a&gt;. Really interesting. Some good history of the region
+as well as boat and boat history. I really liked the modalities
+used. Many galleries combined wonderful art - paintings in particular
+to tell the story of Amsterdam&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam/maritme.jpg&#34; alt=&#34;/img/amsterdam/maritme.jpg&#34; title=&#34;/img/amsterdam/maritme.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+They also had a replica of an old 18th century trade ship that you
+could explore.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam/smallroom.jpg&#34; alt=&#34;/img/amsterdam/smallroom.jpg&#34; title=&#34;/img/amsterdam/smallroom.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+Pretty cramped particularly when you consider that statistically
+people form the Netherlands are the tallest in the world.&lt;/p&gt;
+&lt;p&gt;
+They also had old maps:&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam/map.jpg&#34; alt=&#34;/img/amsterdam/map.jpg&#34; title=&#34;/img/amsterdam/map.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam/maps.jpg&#34; alt=&#34;/img/amsterdam/maps.jpg&#34; title=&#34;/img/amsterdam/maps.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+Ship models:&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam/gig.jpg&#34; alt=&#34;/img/amsterdam/gig.jpg&#34; title=&#34;/img/amsterdam/gig.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+and much more.&lt;/p&gt;
+&lt;p&gt;
+For lunch we then walked out to &lt;a href=&#34;https://en.wikipedia.org/wiki/Java-eiland&#34;&gt;Java Eiland&lt;/a&gt; where we passed the Meta
+offices but Batya didn&amp;#39;t go in.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam/meta.jpg&#34; alt=&#34;/img/amsterdam/meta.jpg&#34; title=&#34;/img/amsterdam/meta.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+And then back near the Hotel to finally visit the Portuguese Synagogue.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam/synagogue.jpg&#34; alt=&#34;/img/amsterdam/synagogue.jpg&#34; title=&#34;/img/amsterdam/synagogue.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam/synagogue2.jpg&#34; alt=&#34;/img/amsterdam/synagogue2.jpg&#34; title=&#34;/img/amsterdam/synagogue2.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+Wow. While we were disappointed in the Jewish Museum, this part, which
+was right across the street made it super worth it. You basically
+walked around the outer perimeter of the site going in and out of
+buildings where various religious functions occurred and got to hear
+about the function and specific history from past congregations. We
+also went in to explore the sanctuary. Again, wow. Big, beautiful,
+candle lit (that is, no electricity) and in fact is still functioning.&lt;/p&gt;
+&lt;p&gt;
+As much as the previous days museum visit was meh, this pushed the
+overall experience over the top.&lt;/p&gt;
+&lt;p&gt;
+That&amp;#39;s it for today except for a new place for dinner which we&amp;#39;ll head
+out for soon. Tomorrow, the plan is to go to the Hague for the Escher
+Museum and then Wednesday, back to NYC.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Amsterdam, the first two days</title>
@@ -29,7 +268,7 @@ After some wandering&lt;/p&gt;
 &lt;p&gt;
 we found our way to the &lt;a href=&#34;https://www.verzetsmuseum.org/&#34;&gt;WWII Dutch Resistance Museum&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;
-Great plcae to go if you want to be both proud and inspired and
+Great place to go if you want to be both proud and inspired and
 depressed at the same time.&lt;/p&gt;
 &lt;p&gt;
 It contained propaganda from both sides&lt;/p&gt;
@@ -92,9 +331,8 @@ in a repurposed carousel.&lt;/p&gt;
 &lt;img src=&#34;https://cestlaz.github.io/img/amsterdam/carousel.jpg&#34; alt=&#34;/img/amsterdam/carousel.jpg&#34; title=&#34;/img/amsterdam/carousel.jpg&#34; width=&#34;250px&#34;/&gt;
 &lt;p&gt;
 Next up the &lt;a href=&#34;https://www.rijksmuseum.nl/nl&#34;&gt;Rijksmuseum&lt;/a&gt;. Many amazing artworks including
-&lt;a href=&#34;https://www.rijksmuseum.nl/nl&#34;&gt;The Night Watch&lt;/a&gt; but here are a couple of &amp;#34;less famous&amp;#34; ones.&lt;/p&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam/rijks1.jpg&#34; alt=&#34;/img/amsterdam/rijks1.jpg&#34; title=&#34;/img/amsterdam/rijks1.jpg&#34; width=&#34;250px&#34;/&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam/rijks2.jpg&#34; alt=&#34;/img/amsterdam/rijks2.jpg&#34; title=&#34;/img/amsterdam/rijks2.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;a href=&#34;https://www.rijksmuseum.nl/nl&#34;&gt;The Night Watch&lt;/a&gt; but here is a less famous one.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam/riijks2.jpg&#34; alt=&#34;/img/amsterdam/riijks2.jpg&#34; title=&#34;/img/amsterdam/riijks2.jpg&#34; width=&#34;250px&#34;/&gt;
 &lt;p&gt;
 All I can say is amazing place. Also props to the designers on the
 wooden floors - much easier on the feet than stone.&lt;/p&gt;
@@ -4109,306 +4347,6 @@ As a programmer, I 100% endorse the series. As a teacher, I do as
 well.&lt;/p&gt;
 &lt;p&gt;
 Here&amp;#39;s the link: &lt;a href=&#34;https://www.youtube.com/@WorstPractices&#34;&gt;&lt;a href=&#34;https://www.youtube.com/@WorstPractices&#34;&gt;https://www.youtube.com/@WorstPractices&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A model district for introducing CS education</title>
-      <link>https://cestlaz.github.io/post/model-district/</link>
-      <pubDate>Fri, 26 May 2023 06:49:38 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/model-district/</guid>
-      <description>&lt;p&gt;
-One of the highlights of this week has been finally &lt;a href=&#34;https://cestlaz.github.io/post/certified-teacher-meetup/&#34;&gt;getting together&lt;/a&gt;
-with a large number of the teachers in my certification
-program. Another was finally being able to once again attend a CSTA-NY
-meeting as they&amp;#39;ve almost always conflicted with my teaching schedule
-over the past couple of years.&lt;/p&gt;
-&lt;p&gt;
-The reason I scheduled my meetup back to back with the CSTA-NY meetup
-was because of another highlight. Five of my Advanced Certificate
-teachers are from the Dryden and Groton school districts, a little
-east and northeast of Cayuga lake near Ithaca. The three Dryden
-teachers were able to come for a visit so I scheduled my meetup so
-that the Dryden folk could attend both and meet a whole bunch of new
-CS teachers.&lt;/p&gt;
-&lt;p&gt;
-How this all happened should be a model for other districts across the
-state.&lt;/p&gt;
-&lt;p&gt;
-A couple of years ago I got a cold email from someone in the Dryden
-school district. They were asking about my advanced certificate
-program. Having seen that New York state recently published its
-Computer Science standards and had recently created a certification,
-they knew that they would need to deal with the subject area in some
-way or shape. They knew that finding a new computer science teacher
-would be very difficult as none of the colleges offering teacher
-certification programs in the area offered CS Ed. They also knew that
-even if they found a new teacher and were able to hire them, that
-would be one lone teacher and a new one at that being solely
-responsible for the districts direction in computer science.&lt;/p&gt;
-&lt;p&gt;
-The could also do what many others have done - send a couple of
-teachers for short form code.org or similar training. Well, you all
-know my feelings on that.&lt;/p&gt;
-&lt;p&gt;
-So, what did they decide to do?&lt;/p&gt;
-&lt;p&gt;
-They saw that I offered an advanced cert program - a way to recertify
-some of their current teachers. They were working on a writing an NFS
-grant proposal to support CS education and were thinking about
-including a funding request to send some of their teachers to such a
-program.&lt;/p&gt;
-&lt;p&gt;
-It would have to be my program since it was and still is the only such
-program running in the state. We spoke, they liked what I was selling
-program wise and so worked to include it in their grant. I tried to
-lend whatever support I could.&lt;/p&gt;
-&lt;p&gt;
-In the mean time, I also had to make sure my program remained remote
-accessible - something I was already fighting for since it can be very
-difficult for a working teacher, particularly one in a transportation
-desert to get to Hunter after a long day. I felt we had a
-responsibility to those local but distant teachers as well as the rest
-of the teachers across the state. My administration agreed and we
-remained remote.&lt;/p&gt;
-&lt;p&gt;
-So, by Spring 2022, Dryden, who had teamed up with neighboring Groton
-were awarded the grant and we got five teachers into my cert
-program. All five have been great and it&amp;#39;s been really healthy to add
-a handful of non NYC teachers to our already solid mix of current K12
-teachers and aspiring masters students.&lt;/p&gt;
-&lt;p&gt;
-This past fall, Devorah and I drove up to their region for a small
-Fall vacation and while there I was able to visit the Dryden High
-School and spend time with both the teachers and the
-administration. As part of their grant, the three Dryden teachers were
-able to come down to the city. The two Groton teachers couldn&amp;#39;t attend
-due to scheduling conflicts. The three came down on Wednesday and were
-able to attend our &lt;a href=&#34;https://cestlaz.github.io/post/certified-teacher-meetup/&#34;&gt;meetup&lt;/a&gt; and connect with other CS
-teachers. Thursday, I partnered each with a local CS teacher who was
-doing something similar. One of the Dryden teachers was interested in
-tech/robotics to go with the CS, another also an art teacher and the
-third a generalist.&lt;/p&gt;
-&lt;p&gt;
-This was followed by the CSTA-NY meetup which inspired them to see
-about either getting involved in their closest CSTA chapter or if not,
-forming a new one. This was cool to hear.&lt;/p&gt;
-&lt;p&gt;
-Now, this morning, they&amp;#39;ll be visiting my old haunts at Stuyvesant to
-observe a couple more classes and meet a few more teachers before
-trying to beat the holiday traffic on their way back north.&lt;/p&gt;
-&lt;p&gt;
-Moving forward, Dryden and Groton now have a combined 5 qualified,
-certified CS teachers and can now design programs and opportunities
-that best suit their student&amp;#39;s needs as opposed to just copying the
-curriculum du jour. I&amp;#39;d be delighted if they include me in that
-process but if they do or don&amp;#39;t, Dryden and Groton are in great shape
-for CS education moving forward.&lt;/p&gt;
-&lt;p&gt;
-Other districts should follow their lead.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A meetup of NY&#39;s first certified CS teachers</title>
-      <link>https://cestlaz.github.io/post/certified-teacher-meetup/</link>
-      <pubDate>Thu, 25 May 2023 07:32:39 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/certified-teacher-meetup/</guid>
-      <description>&lt;p&gt;
-Finally, after three years, we had the opportunity for the
-participants in my (Hunter&amp;#39;s) CS Teacher Certification program to get
-together in person. Last year, a handful of the cohort 2 members had a
-dinner but never a big gathering across the cohorts.&lt;/p&gt;
-&lt;p&gt;
-Not everyone could make it, so yesterday, we had close to 50 teachers
-out of our total 100 across the three cohorts gather at Yext in the
-Meatpacking district to meet each other, talk shop, and celebrate
-being New York State&amp;#39;s first certified CS teachers.&lt;/p&gt;
-&lt;p&gt;
-Now, of course, meeting in person as opposed to Zoom, as we have been
-these past three years has some obvious advantages but one that never
-fails to amuse me is that we all now know how tall everyone is.&lt;/p&gt;
-&lt;p&gt;
-On Zoom, particularly if you see a screen with someone you know,
-everyone gets sized with respect to that person. If I see JonAlf, my
-co-teacher this past semester on the screen and he&amp;#39;s about my size,
-everyone else, is relative to his size allowing for camera position.&lt;/p&gt;
-&lt;p&gt;
-Quite a surprise for me on for a few people.&lt;/p&gt;
-&lt;p&gt;
-Okay, ultimately that&amp;#39;s not important but I did geta chuckle out of
-it.&lt;/p&gt;
-&lt;p&gt;
-A highlight of the event was that three of our teachers from the
-Dryden School district - a little east of Cayuga lake came
-down. They&amp;#39;re in town today and tomorrow to visit the CS classes of
-some of our NY city teachers and we scheduled this meetup so they
-could meet their classmates and the rest of our teachers.&lt;/p&gt;
-&lt;p&gt;
-I guess that&amp;#39;s really what I was reminded of - meeting other teachers,
-pulling them into your network can be so powerful. Many of the
-teachers last night commented on that. Yes, they commented on the
-content of the program - the CS, the methods, everything we did in the
-classes but they also commented on how they were &amp;#34;it&amp;#34; in their
-school. The lone CS teacher flying solo. Being in the program not only
-introduced them to other teachers in the same boat but over the year
-of the program it built relationships through common experiences and
-the in person meetup just helped cement the relationships.&lt;/p&gt;
-&lt;p&gt;
-Moving forward, they&amp;#39;ll always have the content but now they&amp;#39;re all in
-a network of CS teachers that they legit know, as opposed to just
-seeing at events here and there and I think that&amp;#39;s going to be a
-big impact of the program I built moving forward.&lt;/p&gt;
-&lt;p&gt;
-What&amp;#39;s next? Well, since I&amp;#39;m retiring, one thing I think I might do,
-assuming my friends at companies like Yext and Google and others
-provide space and food is get back to running the PD sessions that I
-ran prior to covid through my non-profit. The teachers last night were
-really enthused about that idea. That&amp;#39;ll probably be a good way of
-keeping the community together and able to support each other along
-with our slacks and emails.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Grading And Ungrading</title>
-      <link>https://cestlaz.github.io/post/grading-and-ungrading/</link>
-      <pubDate>Thu, 18 May 2023 14:12:59 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/grading-and-ungrading/</guid>
-      <description>&lt;p&gt;
-Classes are done and all that&amp;#39;s left is the grading. Grading is
-something I truly hate. Hating grading actually had a lot to do with
-my starting to build CS at Stuy (&lt;a href=&#34;https://cestlaz.github.io/post/quarter-century-courses/&#34;&gt;story here&lt;/a&gt;). I&amp;#39;m glad it&amp;#39;s my last
-grading rodeo but even as I work through assignments for the final
-time after 33 years I still have many questions about the best way to
-do it.&lt;/p&gt;
-&lt;p&gt;
-Should we give tests or be project based? What about deadlines? Work
-alone or in a group? Should students be able to update solutions after
-getting back an initial grade? How many assessments? And of course,
-how important are grades anyway.&lt;/p&gt;
-&lt;p&gt;
-A recent trend has been to move to ungrading or it&amp;#39;s relative
-specification grading. There are many more variants and names but the
-idea, described here in terms of a programming assignment for
-convenience, is that a student project must check off certain things -
-to be awarded an A grade. The student can update the project over time
-and often resubmit it after an initial grading. If a student checks
-off enough items on enough assignments, they get an A for the term.&lt;/p&gt;
-&lt;p&gt;
-As a coarse example, in my algorithms class, I gave 8 assignments. If I
-said that any student that completes 4 out of 5 of the &amp;#34;deliverables&amp;#34;
-for each assignment they get an A. Alternatively if the get 5 out of 5
-on, let&amp;#39;s say 5 assignments  and 3 out of 5 on the other two they can
-also get an A. Then variations ensue.&lt;/p&gt;
-&lt;p&gt;
-I&amp;#39;m not actually doing that this semester. I have 8 projects, each has
-a hard deadline that can be extended upon request. Each gets a
-holistic grade and then I do a hard average. The vast majority of my
-students will be getting an A or A- as a result with most earning an A.&lt;/p&gt;
-&lt;p&gt;
-Now, I like the idea of ungrading but I have some real concerns. First
-though, we have to discuss why grades are, or are not important.&lt;/p&gt;
-&lt;p&gt;
-In many classes, truth be told, they aren&amp;#39;t important. I&amp;#39;d argue that
-this is true for most advanced CS classes and CS electives. Companies
-might use GPA as a first cut for interviews but really most look at
-resumes and a student transcript is not what&amp;#39;s used but rather the
-technical interview, which is flawed in its own ways. I guess grad
-school might care more about specific class grades but that&amp;#39;s really a
-very small minority of students and so is the tail wagging the dog.&lt;/p&gt;
-&lt;p&gt;
-Grades can be important as a baseline of information in classes though
-that have follow ups. If a student got an A or a B in data structures
-it can inform the algorithms teacher about what to expect from those
-students vs a student who squeaked by with a C. On the other hand, do
-college instructors actually look at that information?&lt;/p&gt;
-&lt;p&gt;
-At the high school level, teachers will and it can be useful. Not as
-useful as what often happens when teachers have time together and can
-compare notes. I used to trade class lists with colleagues and we&amp;#39;d
-share info. We were all perceptive enough to know that the previous
-teacher might have some biases so we wouldn&amp;#39;t hold anything against a
-student but it was helpful to know where kids had challenges and what
-were some tendencies. Grades can do that a little but discussion works
-better.&lt;/p&gt;
-&lt;p&gt;
-I didn&amp;#39;t know where I&amp;#39;d end up when I started writing this but from
-the importance of grades side, I&amp;#39;m thinking they&amp;#39;re not very important
-in the greater scheme of things other than pass/fail with the idea
-that pass means you know what you need to know for the next course.&lt;/p&gt;
-&lt;p&gt;
-At Stuy, grades were 55, 65 to 90 in increments of 5 then 90 to 100
-and culturally grades were very important. For our AP classes and
-higher in CS I&amp;#39;d always say that we want to reward a student who&amp;#39;s
-trying to do and learn more so be generous with grades. In our intro
-class, the feeder to our AP and advanced classes, I&amp;#39;d say to my
-teachers &amp;#34;if you award under a 90 you&amp;#39;re saying that the student will
-struggle in our APCS class. If you award a 90 - 95 you&amp;#39;re saying the
-student will do well and if you award 95 or above, the student will
-breeze through the class.&amp;#34; That was the purpose of grades so a year
-later when the teacher was unavailable we could still assess the kid
-for placement.&lt;/p&gt;
-&lt;p&gt;
-So, one can be lose with grades and take away a fair amount of
-pressure but there are other issues with ungrading.&lt;/p&gt;
-&lt;p&gt;
-One issue involves deadlines. I like the idea of ungrading but I also
-think that deadlines are important. While frequently people opposed to
-deadlines will say they&amp;#39;re not really important - real world projects
-are frequently delivered late, there are plenty of times where
-deadlines are real - try getting to your plane after they close the
-boarding gate. Doc says come back in 6 months to check that thing and
-you don&amp;#39;t for 18, you might be in trouble. Miss that college
-application deadline and you&amp;#39;re probably SOL. Some deadlines are
-flexible. Many are not and in any event, I want my former students to
-be the ones who deliver on time. Open deadlines are also bad for
-students who need more structure. Instructors who favor unlimited
-assignment submission and re submission are only catering to students
-who thrive under those circumstances. Also, students who would benefit
-from deadlines can also fall behind and experience a snoball effect in
-cumulative classes - this is not good. Finally, not having deadlines
-results in a massive workload increase on teachers.&lt;/p&gt;
-&lt;p&gt;
-At the end of the day, deadlines aren&amp;#39;t bad and can be good and
-important but you need to be reasonable and flexible. I talk about
-what I do &lt;a href=&#34;https://cestlaz.github.io/post/deadlines-and-commitments/&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://cestlaz.github.io/post/late-assignments&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;
-Another issue with ungrading. and this might be specific to CS and
-programming classes is that when students can complete things any time
-in any way they might not really learn what they have to learn (with
-of course, the ultimate bad end of this being outright cheating). This
-happened with a small number of teachers in my program. As
-professionals, they were left to do certain things on their own for
-prework and we followed very open deadlines and specification grading
-for our summer courses. Some students benefited from this, others were
-take it or leave it, there were a few, though, who were able to finish
-what had to be finished but since it was as flexible as it was, and
-through the program they saw more code samples, similar code samples,
-etc., at the end of the day they completed what they needed to
-complete but didn&amp;#39;t really learn what we wanted them to learn.&lt;/p&gt;
-&lt;p&gt;
-In reality, this wasn&amp;#39;t a huge deal for my program
-(although one or two teachers actively took advantage of the lose
-policy and while it helped some legitimately and I&amp;#39;m glad for that,
-it pisses me off when people take advantage) since the CS we cover is
-far and away more than the teachers will need but it still didn&amp;#39;t sit
-well with me. I wasn&amp;#39;t going to change policy for the summer session
-mid stream but it ended up not giving them as much as it should have.&lt;/p&gt;
-&lt;p&gt;
-I know other places are trying to implement versions of ungrading and
-I&amp;#39;m guessing they&amp;#39;re also seeing mixed results if they track students
-to later classes. Unfortunately, all the experiments I know of are in
-&amp;#34;elite&amp;#34; institutions. I&amp;#39;d be curious if anyone&amp;#39;s trying anything in a
-mid-performing public high school or mid tier (perception wise)
-college.&lt;/p&gt;
-&lt;p&gt;
-So, now that I&amp;#39;ve avoided grading for the duration of this post, I
-should probably get back to work and finish looking at those last sets
-of assignment. &lt;/p&gt;
 </description>
     </item>
     

@@ -2,28 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cestlaz.github.io/post/amserdam1/</loc>
-    <lastmod>2023-10-07T11:36:18-04:00</lastmod>
-  </url><url>
     <loc>https://cestlaz.github.io/</loc>
-    <lastmod>2023-10-07T11:36:18-04:00</lastmod>
+    <lastmod>2023-10-16T09:22:58-04:00</lastmod>
   </url><url>
     <loc>https://cestlaz.github.io/categories/</loc>
-    <lastmod>2023-10-07T11:36:18-04:00</lastmod>
+    <lastmod>2023-10-16T09:22:58-04:00</lastmod>
   </url><url>
-    <loc>https://cestlaz.github.io/tags/misc/</loc>
-    <lastmod>2023-10-07T11:36:18-04:00</lastmod>
+    <loc>https://cestlaz.github.io/tags/csed/</loc>
+    <lastmod>2023-10-16T09:22:58-04:00</lastmod>
+  </url><url>
+    <loc>https://cestlaz.github.io/tags/education/</loc>
+    <lastmod>2023-10-16T09:22:58-04:00</lastmod>
+  </url><url>
+    <loc>https://cestlaz.github.io/categories/education/</loc>
+    <lastmod>2023-10-16T09:22:58-04:00</lastmod>
   </url><url>
     <loc>https://cestlaz.github.io/post/</loc>
-    <lastmod>2023-10-07T11:36:18-04:00</lastmod>
+    <lastmod>2023-10-16T09:22:58-04:00</lastmod>
   </url><url>
     <loc>https://cestlaz.github.io/tags/</loc>
-    <lastmod>2023-10-07T11:36:18-04:00</lastmod>
+    <lastmod>2023-10-16T09:22:58-04:00</lastmod>
+  </url><url>
+    <loc>https://cestlaz.github.io/post/dev-educator-podcast/</loc>
+    <lastmod>2023-10-16T09:22:58-04:00</lastmod>
+  </url><url>
+    <loc>https://cestlaz.github.io/tags/misc/</loc>
+    <lastmod>2023-10-11T11:18:26-04:00</lastmod>
+  </url><url>
+    <loc>https://cestlaz.github.io/post/hague/</loc>
+    <lastmod>2023-10-11T11:18:26-04:00</lastmod>
   </url><url>
     <loc>https://cestlaz.github.io/tags/travel/</loc>
-    <lastmod>2023-10-07T11:36:18-04:00</lastmod>
+    <lastmod>2023-10-11T11:18:26-04:00</lastmod>
   </url><url>
     <loc>https://cestlaz.github.io/categories/travel/</loc>
+    <lastmod>2023-10-11T11:18:26-04:00</lastmod>
+  </url><url>
+    <loc>https://cestlaz.github.io/post/amsterdam2/</loc>
+    <lastmod>2023-10-09T09:35:10-04:00</lastmod>
+  </url><url>
+    <loc>https://cestlaz.github.io/post/amserdam1/</loc>
     <lastmod>2023-10-07T11:36:18-04:00</lastmod>
   </url><url>
     <loc>https://cestlaz.github.io/post/antwerp/</loc>
@@ -84,12 +102,6 @@
     <lastmod>2023-09-12T07:40:37-04:00</lastmod>
   </url><url>
     <loc>https://cestlaz.github.io/post/school-start-2324/</loc>
-    <lastmod>2023-09-06T06:46:45-04:00</lastmod>
-  </url><url>
-    <loc>https://cestlaz.github.io/tags/education/</loc>
-    <lastmod>2023-09-06T06:46:45-04:00</lastmod>
-  </url><url>
-    <loc>https://cestlaz.github.io/categories/education/</loc>
     <lastmod>2023-09-06T06:46:45-04:00</lastmod>
   </url><url>
     <loc>https://cestlaz.github.io/post/learning-elisp-9/</loc>
@@ -262,9 +274,6 @@
   </url><url>
     <loc>https://cestlaz.github.io/post/college-board-ap-aas-revisted/</loc>
     <lastmod>2023-04-25T08:33:18-04:00</lastmod>
-  </url><url>
-    <loc>https://cestlaz.github.io/tags/csed/</loc>
-    <lastmod>2023-04-25T07:41:59-04:00</lastmod>
   </url><url>
     <loc>https://cestlaz.github.io/post/how-much-cs-do-teacher-candidate-know/</loc>
     <lastmod>2023-04-25T07:41:59-04:00</lastmod>

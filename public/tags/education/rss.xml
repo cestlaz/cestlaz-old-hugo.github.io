@@ -6,10 +6,66 @@
     <description>C&#39;est la Z (education)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Sep 2023 06:46:45 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 16 Oct 2023 09:22:58 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/tags/education/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>The State of Developer Education podcast</title>
+      <link>https://cestlaz.github.io/post/dev-educator-podcast/</link>
+      <pubDate>Mon, 16 Oct 2023 09:22:58 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/dev-educator-podcast/</guid>
+      <description>&lt;p&gt;
+Now that I&amp;#39;m back from my trip (and the subsequent cold that I&amp;#39;ve
+battled for the past few days), time to get back to &amp;#34;work.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+About a month ago, my friend &lt;a href=&#34;https://www.linkedin.com/in/jonmarkgo/&#34;&gt;Jonathan Gottfied&lt;/a&gt; interviewed me for his
+&lt;a href=&#34;https://deveducation.fm/e/r8krr96n-mike-zamansky&#34;&gt;State of Developer Education&lt;/a&gt; podcast. It&amp;#39;s an hour plus dive into CS /
+Tech education. It dropped when I was on the plane back to NY last
+Thursday. I meant to write this on Friday but my cold took me out
+until today.&lt;/p&gt;
+&lt;p&gt;
+It was a thrill to be asked and fun to do - as you know, I love
+talking shop. I&amp;#39;ve known the host, Jon, for years, I think we met when
+he was at Twilio. For the past almost decade though, Jon has been
+building &lt;a href=&#34;https://mlh.io/&#34;&gt;Major League Hacking&lt;/a&gt; - &lt;strong&gt;the&lt;/strong&gt; organization to support
+college hackathons. While I&amp;#39;m not  sold on the 30+ hours straight
+format, a hackathon can be great tech extracurricular and MLH has done
+so much to add structure and support for them. One of the things I
+love about hackathons is that they&amp;#39;re tech education adjacent and can
+fill in missing pieces for students - networking with others, a social
+activity, project creation, and outside personal learning. All great
+things. Running an organization like MLH can also give people like Jon
+a valuable &amp;#34;outsiders&amp;#34; view of what&amp;#39;s coming out of the classroom. To
+clarify, I say outsider to mean someone not employed as a teacher or
+instructor. &lt;/p&gt;
+&lt;p&gt;
+As to the episode of the podcast I was on, you can check it out here:&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/rvTBhZo6rks?si=93vXdEqRZ0QRze3N&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;
+or in podcast form here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://podcasts.apple.com/us/podcast/the-evolving-landscape-of-computer-science/id1658813805?i=1000631091275&#34;&gt;https://podcasts.apple.com/us/podcast/the-evolving-landscape-of-computer-science/id1658813805?i=1000631091275&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://open.spotify.com/episode/576l1rFDpAQhaSHSgLd15H&#34;&gt;https://open.spotify.com/episode/576l1rFDpAQhaSHSgLd15H&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For teachers who read this blog, I&amp;#39;d recommend checking out the
+podcast series in general. I&amp;#39;ve listened to a bunch and found them
+both interesting and valuable. Most of the episodes I&amp;#39;ve listened to
+are of professionals in the devrel space. Some come from traditional
+CS backgrounds, some don&amp;#39;t. As teachers, we can learn from their
+perspectives and also gain insights into the professional tech
+world beyond just being a traditional software engineer.&lt;/p&gt;
+&lt;p&gt;
+So, I&amp;#39;d encourage you all to check out the series here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://deveducation.fm/&#34;&gt;https://deveducation.fm/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLPDgudJ_VDUdqDSSq6-zmgeIWwULGQX7R&#34;&gt;https://www.youtube.com/playlist?list=PLPDgudJ_VDUdqDSSq6-zmgeIWwULGQX7R&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Enjoy.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A new school year - what&#39;s to come</title>
@@ -4077,54 +4133,6 @@ Teachers know education a lot better than test makers, curriculum
 developers and PD providers. How about listening to them for a change?&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>I Believe CS Teachers are Smart and Capable</title>
-      <link>https://cestlaz.github.io/posts/cs-teachers-smart/</link>
-      <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://cestlaz.github.io/posts/cs-teachers-smart/</guid>
-      <description>&lt;p&gt;
-People sometimes accuse me of being an elitist CS snob that I feel that CS
-teachers have to have advanced CS degrees.&lt;/p&gt;
-&lt;p&gt;
-It&amp;#39;s not that at all. Rather, I feel that CS teachers are smart and
-capable. Circumstances frequently result in a teacher in front of a CS
-class with limited content and pedagogical content knowledge. It&amp;#39;s not
-ideal but it&amp;#39;s reality. Of course I feel that we should do everything
-to support and encourage these teachers but we should also insist that
-after a reasonable period of time, they know their stuff.&lt;/p&gt;
-&lt;p&gt;
-This is why I hate it when I hear people in the CS Ed community say
-something is too hard. Git&amp;#39;s too hard. The command line is too
-hard. Functional programming&amp;#39;s too hard [fn::whether or not any of
-these topics are appropriate for a particular course is discussion for
-another time]. That&amp;#39;s all nonsense. At last
-year&amp;#39;s SIGCSE conference people from a state, I forget which, was
-considering not using the Praxis exam for CS teacher certification
-even though the state uses the Praxis exam for other subject
-areas. They claimed that the praxis was too hard for CS teachers.&lt;/p&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/praxis.jpg&#34; alt=&#34;/img/praxis.jpg&#34; title=&#34;/img/praxis.jpg&#34; align=&#34;center&#34;/&gt;
-&lt;p&gt;
-I haven&amp;#39;t taken the Praxis exam but some friends have. It doesn&amp;#39;t
-appear to be unreasonable at all[fn::although I&amp;#39;m not a big believer
-in standardized exams for certification or in general.].&lt;/p&gt;
-&lt;p&gt;
-While I can certainly understand a teacher not knowing much when they
-start - thrown in due to necessity I think it&amp;#39;s ridiculous not to
-insist that they ultimately get to real mastery.&lt;/p&gt;
-&lt;p&gt;
-A math teacher generally has to know math beyond calculus. Science
-teachers have to have gotten through Orgo. English teachers have to
-understand Joyce. &lt;strong&gt;&lt;strong&gt;THIS IS HARD STUFF!!!!&lt;/strong&gt;&lt;/strong&gt;[fn::There are plenty of
-lousy teacher prep programs that don&amp;#39;t ensure teachers learn the
-subject matter they should but the good ones do.]&lt;/p&gt;
-&lt;p&gt;
-I think it&amp;#39;s insulting to say that CS teachers aren&amp;#39;t capable of doing
-the same in their subject area.
-&amp;#39;&lt;/p&gt;
 </description>
     </item>
     
