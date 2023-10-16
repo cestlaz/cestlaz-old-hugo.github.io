@@ -12,6 +12,7 @@ draft: false
 Now that I'm back from my trip (and the subsequent cold that I've
 battled for the past few days), time to get back to "work."
 
+
 About a month ago, my friend [[https://www.linkedin.com/in/jonmarkgo/][Jonathan Gottfied]] interviewed me for his
 [[https://deveducation.fm/e/r8krr96n-mike-zamansky][State of Developer Education]] podcast. It's an hour plus dive into CS /
 Tech education. It dropped when I was on the plane back to NY last
