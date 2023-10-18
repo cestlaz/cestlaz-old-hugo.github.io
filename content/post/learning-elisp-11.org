@@ -1,0 +1,60 @@
+---
+title: Learning Elisp 11 - Emoji Replace Part 1
+date: 2023-10-18T13:57:18-04:00
+tags: 
+- emacs
+- elisp
+categories: 
+- emacs
+draft: false
+---
+
+Back from my trip and ready to continue the elisp series.
+
+Today we're starting our emoji project. When we're done we'll have a
+minor mode where we can type in something like :elephant: in a buffer
+and Emacs will replace it with the elephant emoji 🐘. That's part
+one. We'll then learn how to overlay the emoji over the text so that
+while it will appear as the emoji (🐘) the actual text of :elephant:
+will still be in the buffer and file if you save it. The former,
+replacing the text with the emoji is useful if you actually want the
+emoji in the file. I'm using it to create emoji based polls that I can
+cut and paste into Slack or Zulip. The overlay idea is useful when you
+want the emoji to display for visual effect but you don't want it in
+the actual file.
+
+There's no new elisp in this first video - we're going to put together
+a function that sees if you type an emoji name before the current
+point (cursor) and if so, replaces it with the emoji. The function
+pulls together a lot of what was covered in earlier videos.
+
+So, no code explanations here. The second video will deal with hooks -
+the way we'll make this all happen "automatically" and then we'll
+cover the overlays and then finally making minor mode and
+configuration.
+
+Enjoy.
+
+
+* Code:
+
+The code for the series is still up here:
+
+- https://gitlab.com/zamansky/learning-elisp-code
+
+
+* The videos:
+
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DvFjCVHpoyk?si=b7YeY71Lwl1TBBua" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
+Video link: https://www.youtube.com/watch?v=DvFjCVHpoyk
+
+
+
+
+
+
+
