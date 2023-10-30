@@ -1,0 +1,103 @@
+---
+title: Learning Elisp 12 - Emoji Replace part 2
+date: 2023-10-30T13:15:42-04:00
+tags: 
+- emacs
+- elisp
+categories: 
+- emacs
+draft: false
+---
+
+Here's the next part of our emoji project. In this video, we make the
+magic automatically happen. That is, when the user types an emoji in
+quotes - like :elephant:, Emacs will automatically replace it with the
+emoji, 🐘.
+
+Now, mind you, the way we're doing it isn't the best way. In fact,
+after I posted the previous video, Micky Peterson linked to an article
+he wrote on using [[https://www.masteringemacs.org/article/inserting-emoji-input-methods][input methods]] to insert emoji. Using input methods
+would be much cleaner but this series isn't necessarily about doing
+something the best way but rather exploring and playing with elisp in
+a way that hopefully will empower readers and viewers to build
+whatever they need.
+
+The magic to making our version work is by using Emacs Hooks. You can
+think of hooks like events if you've done GUI or web programming. In a
+web interface you might make a button and set an event so that
+whenever the button is pressed some function is called or you make a
+text input field and set an event so that whenever the content of that
+input field changes, some function is called.
+
+Hooks are like that and there are tons fo them.
+
+In the video, I use this simple example:
+
+#+begin_src emacs-lisp
+
+  (defun redact ()
+    (save-excursion
+     (goto-char 0)
+     (replace-string "secret" "REDACTED")))
+
+  (add-hook 'before-save-hook #'redact)
+#+end_src
+
+The function simply replaces all occurrences of the string "secret"
+and changes it to "REDACTED." The before-save-hook runs associated
+functions before saving a file so in the above code sample, once the
+hook is added, whenever you save a file, the redact function will run
+and all occurrences of "secret" will be changed.
+
+This is a silly example but a more useful one for this hook would be
+to run a code autoformatter.
+
+To remove the hook we would use:
+
+#+begin_src emacs-lisp
+  (remove-hook 'before-save-function #'redact)
+#+end_src
+
+Note that the ~add-hook~ function also has options to decide if the
+hook is for the buffer or everywhere.
+
+For the emoji project, we'll use the ~after-change-functions~ hook
+which lets us call a function whenever the buffer is changed.
+
+The video goes into all the details. 
+
+Next up, we'll see how we can overlay an emoji over text instead of
+replacing.
+
+
+
+* Code:
+
+The code for the series is still up here:
+
+- https://gitlab.com/zamansky/learning-elisp-code
+
+
+* The videos:
+
+
+#+begin_export html
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/6h4KngDdsbo?si=BUqK5052J4GgLWgP"
+title="YouTube video player" frameborder="0" allow="accelerometer;
+autoplay; clipboard-write; encrypted-media; gyroscope;
+picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
+Video link: https://www.youtube.com/watch?v=6h4KngDdsbo
+
+
+
+
+
+
+
+
+
+
+
