@@ -61,7 +61,7 @@ another advantage over even an online textbook - easier bookmarking
 and random access. You can't easily flip back and forth online.
 
 What about programming language based classes. I recently looked over
-some older programming bokos I have. C, C++, Go, Clojure, Java,
+some older programming books I have. C, C++, Go, Clojure, Java,
 Javascript. Ocaml, Haskel, Lisp, Racket, and Prolog. While the books
 vary in overall quality from meh to great they'd all still be
 perfectly servicable as class texts. Languages just don't change that
