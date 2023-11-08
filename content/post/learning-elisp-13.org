@@ -1,0 +1,96 @@
+---
+title: Learning Elisp 13 - Text Properties 
+date: 2023-11-08T11:09:46-04:00
+tags: 
+- emacs
+- elisp
+categories: 
+- emacs
+draft: false
+---
+
+Today's a short 10 minute video as we continue to work on the emoji
+project.
+
+In the last episode we replaced text in the form :emoji-name: with the
+emoji. This time, we're doing it a little differently - we're going to
+overlay the text with the emoji. This way we see the emoji but the
+underlying text is still present. This is kind of like when
+programming in a language that supports ~lambda~, in many editors you
+can type ~lambda~ but it appears as the symbol: λ (note that the
+previous symbol is not an emoji but was entered using the RFC1345
+input method).
+
+The important difference with this method is that when you save and
+later load the file, the original characters are still there the
+symbols are only visual sugar.
+
+We accomplish this overlaying with text properties. Specifically the
+~display~ property. Here's a sample call:
+
+#+begin_src emacs-lisp
+  (put-text-property beginning end 'display "WHAT TO DISPLAY")
+#+end_src
+
+The first two parameters - ~beginning~ and ~end~ form the region where
+you're setting the property. Recall that the upper left of a buffer is
+location 1 and it increments as you move into the document. So, for
+example, if your buffer had:
+
+#+begin_src
+Here are a couple of lines of
+text in an emacs buffer
+#+end_src
+
+and we used this call:
+
+#+begin_src emacs-lisp
+  (put-text-property 6 9 'display "OVERLAY")
+#+end_src
+
+your buffer would look like this:
+
+#+begin_src
+Here OVERLAY a couple of lines of
+text in an emacs buffer
+#+end_src
+
+If you add text before OVERLAY it shifts over just as the original
+text would. If you save the buffer though, the original text (are) is
+what's saved.
+
+It's pretty cool.
+
+The video shows how we can use this to overlay our emojis.
+
+Next time, we'll turn it into a mode.
+
+* Code:
+
+The code for the series is still up here:
+
+- https://gitlab.com/zamansky/learning-elisp-code
+
+
+* The videos:
+
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x9eFxYS-hzw?si=BGFC_bmYJlDYqex6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
+Video link: https://www.youtube.com/watch?v=x9eFxYS-hzw
+
+
+
+
+
+
+
+
+
+
+
+
+
+
