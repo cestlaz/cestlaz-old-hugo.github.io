@@ -1,0 +1,118 @@
+---
+title: Learning Elisp 15 - cleaning up our minor mode
+date: 2023-11-29T11:44:55-04:00
+tags: 
+- emacs
+- elisp
+categories: 
+- emacs
+draft: false
+---
+
+Today we're finishing off our emoji project. This video covers two
+quick things.
+
+The first is how we can make the mode use either of our replacement
+methods - one that actually replaces the text with the emoji and the
+other that uses text properties to overlay the emoji without changing
+the text.
+
+This is done with a variable that we can set telling us which function
+to call. We used one named ~emoji-replace-by-insert~. If it's ~t~ (true)
+we use the replace method, if it's ~nil~ we use the overlay one.
+
+We could just use an if statement in our define minor mode but I
+decided to use this as an opportunity to show how we can assign a
+function to a variable which might be new to some readers/viewers.
+
+Let's say we want to create a variable named ~my_function_variable~
+and have it stand in for, let's say the built in ~1+~ function that
+increments a value. We could do a simple assignment:
+
+
+#+begin_src emacs-lisp
+  (setq my_function_variable #'1+)
+#+end_src
+
+Unfortunately, in Elisp we can't just call our new variable as a
+function straight out but rather must call it using funcall, like
+this:
+
+#+begin_src emacs-lisp
+  (funcall my_variable_function 5) ;; this returns 6, just like (1+ 5) would
+#+end_src
+
+In other languages we could just call the function directly. In the
+case of defining our mode, we can just throw in the variable once we
+assign it. Here's the code:
+
+#+begin_src eamcs-lisp
+(define-minor-mode emoji-replace-mode
+  "fill in the docstring later"
+  :lighter " ER"
+  (let ((func (if emoji-replace-by-insert
+		  #'emoji-replace-insert
+		#'emoji-replace-overlay)))
+  (if emoji-replace-mode
+      (add-hook 'after-change-functions func nil t)
+    (remove-hook 'after-change-functions func))))
+
+#+end_src
+
+We use the ~let~ form to assign our variable ~func~ to the appropriate
+function and then just pass along ~func~ when we use ~add-hook~ and
+~remove-hook~.
+
+That's it.
+
+The other thing we cover involves cleaning up our variables. In
+earlier videos we used ~setq~ but also showed ~defvar~ with the
+practical difference being that ~defvar~ had a docstring.
+
+In this video, we look at ~defcustom~ which looks like ~defvar~ but
+also lets you change the variable value using emacs'
+~customize-variable~ command and interface. Further, if we do change
+the variable this way and save it through the interface, it will save
+the change in your ~init.el~ file for future use. It's a nice touch
+when making a complete "package."
+
+That's it for this project. I might do one more on setting things up
+for installation using straight or something similar. If not, it'll be
+on to the next project which I think will be a thesaurus moed.
+
+
+
+
+* Code:
+
+The code for the series is still up here:
+
+- https://gitlab.com/zamansky/learning-elisp-code
+
+
+* The videos:
+
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y9TPHo33Y1Y?si=fG4a5XbFnx6yS11J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
+Video link: https://www.youtube.com/watch?v=Y9TPHo33Y1Y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
