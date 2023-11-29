@@ -1,6 +1,6 @@
 +++
 title = "Learning Elisp Series"
-date = 2023-11-29T19:02:09-04:00
+date = 2023-11-28T19:02:09-04:00
 draft = false
 tags = ["emacs","tools","elisp"]
 categories = ["emacs"]
