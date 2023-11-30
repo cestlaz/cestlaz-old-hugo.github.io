@@ -1,11 +1,39 @@
 +++
-title = "Using Emacs Series"
+title = "Using Emacs and Learning Elisp Series"
 date = 2018-09-19T19:02:09-04:00
 draft = false
 tags = ["emacs","tools"]
 categories = ["emacs"]
 disable_comments = true
 +++
+
+* Elisp Videos
+
+** Link to source code: https://gitlab.com/zamansky/learning-elisp-code
+
+
+** [[https://cestlaz.github.io/posts/learning-elisp-1][Intro]]
+** [[https://cestlaz.github.io/posts/learning-elisp-2][Variables]]
+** [[https://cestlaz.github.io/posts/learning-elisp-3][Functions]]
+** [[https://cestlaz.github.io/posts/learning-elisp-4][Rot13 part 1]]
+** [[https://cestlaz.github.io/posts/learning-elisp-5][Rot13 parts 2 and 3]]
+** [[https://cestlaz.github.io/posts/learning-elisp-6][Rot13 Conclusion ]]
+** [[https://cestlaz.github.io/posts/learning-elisp-7][Regular Expressions part 2]]
+** [[https://cestlaz.github.io/posts/learning-elisp-8][Regular Expressions part 2]]
+** [[https://cestlaz.github.io/posts/learning-elisp-9][Regex conclusion]]
+** [[https://cestlaz.github.io/posts/learning-elisp-10][Elisp Data Structures]]
+** [[https://cestlaz.github.io/posts/learning-elisp-11][Emoji Replace part 1]]
+** [[https://cestlaz.github.io/posts/learning-elisp-12][Emoji Replace part 2 - hooks]]
+** [[https://cestlaz.github.io/posts/learning-elisp-13][Emoji Replace part 3 - text properties]]
+** [[https://cestlaz.github.io/posts/learning-elisp-14][Emoji Replace part 4 - defining a minor mode]]
+** [[https://cestlaz.github.io/posts/learning-elisp-15][Emoji Replace part 5 - defcustom and cleaning up our mode]]
+
+
+
+
+
+* Emacs Videos
+
 
 ** Link to current configuration: [[https://github.com/zamansky/using-emacs][https://github.com/zamansky/dot-emacs]]
 
