@@ -1,0 +1,121 @@
+---
+title: Advent of Code 2023 Day 01
+date: 2023-12-01T09:28:02-04:00
+tags:
+- Advent of Code
+categories:
+- Advent of Code
+draft: false
+---
+
+It's that time again. [[https://adventofcode.com/][Advent of Code]] 2023. A new two part programming
+problem each day from now through December 25th.
+
+Since 2015 I've looked forward to the event, taken part, and posted at
+least a few write ups here on my blog. I figured this year would be
+the same.
+
+Of course, it does end up putting a crunch in my routine. Usually each
+morning I wake up, work out, usually a run unless the weather's bad,
+have my coffee, do the puzzle, read blogs and other content over
+breakfast and then I'm ready for the rest of my day.
+
+Advent of Code adds another morning activity. Actually, maybe not this
+year since I broke a toe last week and am not allowed to work out for
+the foreseeable future.
+
+So, this morning, I woke up, made coffee, worked on the puzzle (not
+quite done yet) and then looked at [[https://adventofcode.com/2023/day/1][today's problem]]. 
+
+To be honest, I was a little surprised. After reading it it seemed
+somewhat harder than past day 1 questions. It might have to do with
+the fact that I haven't programmed at all since last years event and
+really not much in the past couple of years but still.
+
+Usually the first days problem involves some straight through
+processing of the data without a whole lot of thought. After I
+completed today's problem I looked back on past years adn actually,
+while this one is a bit more involved, it really isn't that different.
+
+Part 1 of today's problem was a straightforward as past year. You've
+got a bunch of lines each with some digits interspersed:
+
+#+begin_src
+1bcc2
+a1b2c3fgh4
+etc.
+#+end_src
+
+You have to find the first and last digits in each line and take them
+as a number. For the above you'd have 12 for the first line and 14 for
+the second. You then had to sum all of those numbers up.
+
+I thought the most straightforward way to do this was to go through
+the data and keep only the digits.
+
+While I wrote my solution in Clojure, in Python for each line you
+could use an expression like this:
+
+#+begin_src python
+[x for x in l if x>'0' and x<='9']
+#+end_src
+
+Then you can just take the first and last items in the list, put them
+together and convert to a number:
+
+#+begin_src 
+int(x[0]+x[-1]) 
+#+end_src
+
+Finally, add all the lines together and you're done.
+
+Part 2 threw a wrench in the works.
+
+Now, in addition to the digits counting as digits, spelled out digits
+(one, two, etc.) had to count as digits as well. Looking at the sample
+data, no problem:
+
+#+begin_src
+two1nine
+eightwothree
+abcone2threexyz
+xtwone3four
+4nineeightseven2
+zoneight234
+7pqrstsixteen
+#+end_src
+
+One could just replace all occurences of "one" with "1," "two" with
+"2," and so on.
+
+The catch was that you could also have overlapping numbers:
+
+#+begin_src
+9oneighthree9
+#+end_src
+
+Should that be converted to "91839," "91igh39," "9on8hree9," or
+"91839."
+
+This made things trickier - first, how do you interpret it and then
+how do you solve.
+
+It turned out that you had to allow for overlapping words so the above
+example would translate to 91839.
+
+My solution, in Clojure, which you can find [[https://gitlab.com/zamansky/advent2023/-/blob/main/src/day01.clj?ref_type=heads][here]] involves using
+overlapping regular expressions - I didn't know about them so it took
+a while to figure that out.
+
+Another approach, at least I think would be to replace the strings one
+at a time (first do the "one" occurences, then "two" etc.) but replace
+them with the digit within the original text. So, "one" would be
+replaced by "o1ne" or something similar. This way, if the final "e"
+was next to an "ight" you'd get that "eight" when you replaced for
+"eight."
+
+All of this isn't too bad but probably required more thought than your
+typical advent of code day 1.
+
+Still, a fun morning activity.
+
