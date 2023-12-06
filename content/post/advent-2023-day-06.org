@@ -24,6 +24,8 @@ if you're interested, keep reading.
 
 Here's a link to the problem: [[https://adventofcode.com/2023/day/6]]
 
+And my solution(s) are [[https://gitlab.com/zamansky/advent2023/-/tree/main/src?ref_type=heads][here]].
+
 What I liked about today's problem is that there are various, let's
 say levels to the solution(s).
 
