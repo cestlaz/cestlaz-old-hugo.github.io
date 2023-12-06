@@ -52,7 +52,7 @@ for 3 your speed becomes 3 but you only have 4 seconds to travel so 12
 distance. etc.
 
 You have to figure out how many "press" options yield a distance
-grated than the distance they specify. In our case, they specified a
+greater than the distance they specify. In our case, they specified a
 distance of 9 so there are 4 times that are greater.
 
 You're given a list of races, each with a time limit and a record
