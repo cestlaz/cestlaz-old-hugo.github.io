@@ -1,0 +1,133 @@
+---
+title: Advent 2023 Day 06 - multiple approaches to a problem
+date: 2023-12-06T09:37:31-04:00
+tags:
+- advent of code
+categories:
+- advent of code
+draft: false
+--- 
+
+
+#+begin_export html
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+#+end_export
+
+
+I haven't and probably won't write up problems 2 through 5 and to be
+honest, don't know how many days I'll go on solving this year. I
+thought that [[thought today's ][today's problem]] was interesting enough for a write up so
+if you're interested, keep reading. 
+
+Here's a link to the problem: [[https://adventofcode.com/2023/day/6]]
+
+What I liked about today's problem is that there are various, let's
+say levels to the solution(s).
+
+For part 1 you have a series of races. Each race has a time length and
+the record distance. You press the "accelerate" button for as long as
+you want and then release it which releases your toy boat.
+
+In the example they give, the time is 7 and the record distance is 9.
+
+| Time you press | Distance traveled |
+|----------------+-------------------|
+|              0 |                 0 |
+|              1 |                 6 |
+|              2 |                10 |
+|              3 |                12 |
+|              4 |                12 |
+|              5 |                10 |
+|              6 |                 6 |
+|              7 |                 0 |
+
+So, if you press for 2, you only can travel for the remaining 5
+seconds but your speed will be 2, hence 10 traveled. When you press
+for 3 your speed becomes 3 but you only have 4 seconds to travel so 12
+distance. etc.
+
+You have to figure out how many "press" options yield a distance
+grated than the distance they specify. In our case, they specified a
+distance of 9 so there are 4 times that are greater.
+
+You're given a list of races, each with a time limit and a record
+distance you're trying to beat. 
+
+The first way a student might solve this is with straight
+simulation. Loop over each race and then for each race, loop over the
+distance to calculate the time. Straightforward and works and a "math
+phobic" student can get the job done.
+
+The second way is by using a little math. One might notice that the
+distance traveled given the amount of time you *press* and the *time*
+of the race can be calculated using \(distance = press * (time - press)\)
+
+Then for each race, you can loop over each time and use the
+equation. A small improvement and also a gentle introduction to how
+some basic math can clean things up.
+
+Finally, one might notice that using that equation we're looking to
+solve this relationship:
+
+#+begin_latex
+\(press * (time - press) < record\)
+#+end_latex
+
+Which we can write as:
+
+#+begin_equation
+\(press*time - press^2 < record\)
+
+or
+
+\(-press^2 + press*time - record < 0\)
+#+end_equation
+
+Which is a quadratic equation. If you look at the chart you'll notice
+that the distance traveled start at 0, go up, and then return to 0. A
+parabola - the shape graphed by a quadratic.
+
+We can map the above variable names to the more familiar
+\(ax^2+bx+c=0\) representation as follows:
+
+| Our variable | Quad variable |
+|--------------+---------------|
+| x            | press         |
+| a            | -1            |
+| b            | time          |
+| c            | record        |
+
+If one knows the quadratic equation, they can solve for the two
+roots. The solutions to our problem will be in between them. Yes, you
+have to be careful on the floating point issues with solving but
+it means just plugging in to a formula for each race.
+
+The nice thing about this problem is it can be attacked in a few
+different ways. It also relates the CS solution to HS math and is a
+really nice way of showing how a quadratic can be useful.
+
+Here's the plan:
+ 1. Have the students make a chart of time and distance  like we did up top
+ 2. Chart the graph
+ 3. Note it's a parabola
+ 4. Derive the first equation
+ 5. Show how it's a quadratic
+ 6. Hilarity ensues
+
+Of course you could switch the order of a few steps, do it
+differently, or branch off afterwards.
+
+Now, if a teacher doesn't know the quadratic formula or about
+quadratics they couldn't teach this way and that's a limitation and a
+problem. Should a CS teacher know quadratics? Maybe, maybe not. I'd
+personally say they should. Regardless how much and what a teacher
+should know should be a bigger deal than it currently is, particularly
+in CS where there is far too much teaching to the script.
+
+That, however, is for another day.
+
+
+
