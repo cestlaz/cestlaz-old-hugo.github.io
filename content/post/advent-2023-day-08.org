@@ -1,0 +1,80 @@
+---
+title: Advent 2023 Day 08 - Ghost paths
+date: 2023-12-08T08:25:27-04:00
+tags:
+- advent of code
+categories:
+- advent of code
+draft: false
+--- 
+
+Today's puzzle was just what I needed this morning. Made me think, but
+not too much :-).
+
+You can find the problem [[https://adventofcode.com/2023/day/8][here]].
+
+Part 1 was pretty straightforward. You had a set of locations and for
+each location you could go left or right. So, for example, if node ~AAA~
+is defined as ~AAA = (BBB,CCC)~ then, if your next instruction was ~L~
+or left, you'd go to BBB, if it was ~R~, then CCC. You had to follow
+the instruction list item by item and keep going until you got to node
+~ZZZ~. If you got past the last instruction, you just repeat the
+instruction list again.
+
+As I said, pretty straightforward. Just loop over the instructions
+updating your current location until you get to ~ZZZ~. The only minor
+issue is that managing your current instruction and looping back to
+the start again could be a bit hairy. Fortunately, in Clojure, we can
+just use the ~cycle~ function which gives us an infinite sequence. For
+example if you run ~(cycle "LRL")~ you'll get ~LRLLRLLRL...~.
+
+The ultimate ask was for the length of the path from AAA to ZZZ.
+
+Here's the core code I used:
+#+begin_src clojure
+
+  (loop [dirs (cycle direction-list)
+             current "AAA"
+             count 0
+             ]
+        (if (=  current "ZZZ")
+          count
+          (let [move   (first dirs)
+                [l r]  (graph current)
+                next (if (= move \L) l r)]
+            (recur (rest dirs) next  (inc count)))))
+#+end_src
+
+Part two was a nice twist. Instead of going from AAA to ZZZ you had
+multiple starting paths - nodes that ended in ~A~ and multiple ending
+nodes - nodes that ended in a ~Z~~. If you started a ghost at each of the
+"starting nodes" simultaneously and had them follow the instructions,
+at what step will they all get to a (possibly different) ending node
+together.
+
+Clearly the search space was too big for brute force.
+
+I thought about searching backwards for a minute but remembered that
+there were multiple "end" nodes so that wouldn't do it but then I
+thought about cycles. Maybe this was just leaning on past Advent of
+Code problems but I figured that each start would cycle at some
+point. It had to since all the starts wouldn't hit a Z initially at
+the same time - that would be too easy. I also figured that each start
+would cycle on the first "end" it hit and not go through multiple
+"end" nodes.
+
+With that, the solution was easy. I reused my part 1 solution, just
+tweaking the start point and end conditions. That gave me the cycle
+length (which was easy to confirm).
+
+I then found the cycle length for each starting node and foundthe
+least common multiple among them.
+
+Problem solved.
+
+Really enjoyed this one - required some thought but unlike a couple of
+earlier days am able to wrap things up before breakfast.
+
+The complete code can be found [[https://gitlab.com/zamansky/advent2023/-/blob/main/src/day08.clj?ref_type=heads][here]].
+
+
