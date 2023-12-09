@@ -5,7 +5,7 @@ tags:
 - advent of code
 categories:
 - advent of code
-draft: true
+draft: false
 ---
 
 I wanted to add a bit to [[https://cestlaz.github.io/post/advent-2023-day-08/][yesterday's]] post.
