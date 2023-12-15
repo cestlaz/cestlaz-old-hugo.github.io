@@ -11,7 +11,7 @@ draft: false
 Haven't written up the last few days but I thought [[https://adventofcode.com/2023/day/15][today's]] Advent of
 Code problem was worth a few words. I might still go back and write up
 a few other ones, and who knows if I'll finish any more problems - Is
-stopped around here last yer. We'll see.
+stopped around here last year. We'll see.
 
 I liked today's challenge because it was a nice introduction to hash
 tables. Specifically, to solve the problem, you implement a simple
