@@ -1,0 +1,59 @@
+---
+title: Advent 2023 Day 15 - hash tables 
+date: 2023-12-15T14:40:23-04:00
+tags:
+- advent of code
+categories:
+- advent of code
+draft: false
+---
+
+Haven't written up the last few days but I thought [[https://adventofcode.com/2023/day/15][today's]] Advent of
+Code problem was worth a few words. I might still go back and write up
+a few other ones, and who knows if I'll finish any more problems - Is
+stopped around here last yer. We'll see.
+
+I liked today's challenge because it was a nice introduction to hash
+tables. Specifically, to solve the problem, you implement a simple
+open hash table. In some cases, you could use your languages built in
+hash table but then you'd have to already know something about it.
+
+
+Part 1 had you do some parsing and calculating a hash function.
+
+Part 2 required building a table of 256 items where each item held an
+unknown list of data items. Based on your input data, you had to
+either add a new item, delete an ite, or update the value of an item
+already in the table.
+
+Basically a hash table.  Even though the question doesn't explicitly
+say "hash table" it does define *HASH* function* and calls the process
+you are going to perform the "Holiday ASCII String Helper Manual
+Arrangement Procedure, or *HASHMAP* for short."
+
+Why do I like this problem. First off, it's a nice and different way
+to introduce hash tables in a data structure classes but more
+importantly I think this type of approach can be used as a unit in a
+boot camp type class.
+
+I can't tell you how many boot camp developed programmers and PD
+trained teachers use built in hash tables with no understanding of
+their limitations or in some cases real power. They use them because
+they were taught them and they're "easy." Dictionaries in Python or
+Javascript become the universal hammer.
+
+An approach like this can be built by a relative beginner in Python,
+Javascript or similar using the basic constructs, including built in
+dictionaries but then can give a platform to explore has tables more
+deeply. It can also be a platform to discuss variant data structures -
+a hash table, but you can't just use the built in Python dictionary.
+
+So, I'd recommend checking this one out.
+
+The problem, once again can be found [[https://adventofcode.com/2023/day/15][here]] and my solution (in
+Clojure), [[https://gitlab.com/zamansky/advent2023/-/blob/main/src/day15.clj?ref_type=heads][here]].
+
+
+
+
+
