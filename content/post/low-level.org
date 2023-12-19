@@ -1,0 +1,124 @@
+---
+title: Low Level CS in HS
+date: 2023-12-19T09:31:44-04:00
+tags:
+- CS Ed
+categories:
+- CS Ed
+draft: false
+--- 
+
+There's been discussion recently about current CS student's knowledge,
+or lack thereof of hardware. The discussion was spurred when [[https://www.magesguild.io/the-decline-of-hardware-knowledge-in-the-era-of-cloud-native-compute/][this]]
+article made it's round in the CS Ed communities. My friend and fellow
+CS Ed Blogger Alfred Thompson gave his take [[https://blog.acthompson.net/2023/12/how-much-hardware-knowledge-to-cs.html?spref=fb ][on his blog]]. I thought I'd
+share mine here.
+
+First, let's get some definitions straight. The original article
+wasn't really talking about hardware. The author was really talking
+about what I'd call "low level" computer and programming
+concepts. Things like bit level operations, the internals of memory
+management and in fact memory management altogether, and things like
+interrupts and how system calls work.
+
+When we're talking hardware, we could be talking about a couple of
+things. It could be Information Technology (IT) hardware - putting
+together computers. Knowing interface standards like EIDE or the older
+SCSI. Networking technologies. We could also be talking about things
+that should be covered in robotics - wiring and programming an ATMEL, the
+processor under the hood on an arduino directly to control a device
+for example. Robotics, however, at the K12 level is usually more of an
+intro programming class with physical output instead of merely visual
+on a screen.
+
+The question that arose was this: should any of these be covered in
+K12?
+
+Let's look at each in turn.
+
+IT Hardware? Probably not, at least not across the board in all CS
+classes. Building computers and wiring your own networks were big in
+the 90s and turn of the century. Not so much anymore. You used to be
+able to purchase components at a variety of places but now, vendors
+have dwindled. At the same time, the market has consolidated and moved
+more towards laptops or smaller - platforms students can't easily work
+on. On the other hand, this can be and should be a fun and great
+elective.
+
+Low level robotics type hardware? Also, not in required classes but
+would be a great elective.
+
+That brings us to the low level programming concepts. Once again, as
+an elective this can be great. In addition to covering some of this in
+the classes I designed at Stuy, I created and offered a System Level
+programming class that covered a lot of this. It was popular among the
+CS students and from what I was told, super worthwhile for those who
+went on to study CS or a related field in college.
+
+What about for everyone else?
+
+That's the question. On the one hand, time is very limited. If a
+school offers or requires CS it might just be one semester or one
+year. You can't cover everything in that amount of time. Also, as
+Alfred pointed out in his post, we don't currently even have nearly
+enough knowledgable K12 CS teachers to teach the basics.
+
+I'd like to try to make a case though for including some of it.
+
+Even though everyone uses computers these days, they can certainly be
+intimidating and feel like magic. People have no idea how they work. I
+joke with my students that if they unplug the keyboard quickly while
+typing they can shake some characters out of the cable. Teaching some
+low level CS concepts can demystify computers. Take away the
+fear. Just as learning some programming and algorithms can demystify
+the "magic" of recommendation systems and high level wonders, some low
+level knowledge can demytify how these computer things work inthe
+first place.
+
+I'm not talking about going all [[https://www.nand2tetris.org/][Nand to Tetris]]. I'm also not talking
+about dropping in topics out of context. The College Board did this
+famously with binary, decimal, and hex. Without context it's
+meaningless and worthless. Hunter, where I last taught did the same
+thing. They required binary, decimal, and hex in their CS0 course. I
+ignored it. The argument the professors gave was that the kids needed
+it when they took their first systems/architecture course. I asked
+them, "well, for all the students in all the other CS0 classes, they
+did cover the topic, did it really help?" The answer was "no, they all
+forgot and we had to reteach it." So much for it being important in
+CS0.
+
+I'm talking about a unit where you can get far enough to understand
+something memorable. I brought a bunch of HS students to a 45 minute
+talk once explaining how solid state memory worked. These kids had
+zero background and the speaker kept things at an informal level but
+after the 45 minutes, those kids understood at a basic level, how a
+flash drive stored information.
+
+Another example is a unit developed for my intro course. The heavy
+lifting was done by a colleague and friend of mine - I can't take the
+credit. The unit centered around a small assembly interpreter that he
+designed and built a web emulator for. Kids learned some logic gates,
+how you could do arithmetic and were also able to see how memory
+worked. The kids got to look behind the curtain. Sure, their laptop
+was a bazillion times more complicated but at their cores the same
+things were happening.
+
+Now, the rub comes with resources and bang for your buck. Can you
+spend a couple of week on something like that? Do you have teachers
+who know enough to do it? If you do it, what other topic(s) can't you
+cover.
+
+If you've only got one semester with the kids, you've got to call your
+shots. I can't say that low level CS is the most important thing to
+cover there but when there is time, I think it's certainly
+worthwhile. On the other hand, if you have a year or more with your
+students, I'm pretty sure a creative teacher can come up with a way to
+get the basics in.
+
+
+
+
+
+
+
+
