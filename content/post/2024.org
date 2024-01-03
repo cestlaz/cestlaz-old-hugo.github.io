@@ -9,7 +9,7 @@ draft: false
 ---
 
 Time to kick off 2024. I closed out 2023 the way I usually do - going
-to be early but I didn't start 2024 with a run like last year. I'm
+to bed early but I didn't start 2024 with a run like last year. I'm
 still nursing a broken toe and it'll be a couple more weeks before I'm
 cleared for full activity.
 
@@ -30,7 +30,7 @@ surface as AI IDEs become more commonplace. Of course, in addition to
 the technical AI issues, the ethical ones ranging from uses to
 using private data for training are sure to be hot topics. 
 
-Going back to School programming environments, that's something else
+1Going back to School programming environments, that's something else
 that I'll be looking at. Over the past few years, tools like repl.it
 became extremely popular. A few months ago, though, repl.it removed
 it's educational features leaving many teachers in the lurch. Repl.it
