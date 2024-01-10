@@ -1,0 +1,80 @@
+---
+title: Teaching using manipulatives
+date: 2024-01-10T11:08:04-04:00
+tags:
+- teaching
+- pedagogy
+categories:
+- teaching
+draft: false
+--- 
+
+Listened to the latest episode of the [[https://csedpodcast.org/][CS Ed Podcast]] yesterday. It
+featured Colleen Lewis, of [[https://www.csteachingtips.org/][CS Teaching Tips]] fame talking about how she
+uses manipulatives. Much like Colleens session last SIGCSE on
+[[https://cestlaz.github.io/post/sigcse-2023-microteaching/][microteaching]] this episode made me both happy and sad.
+
+Happy because it's awesome that Colleen is bringing attention to
+strong classroom teaching practices and she's sharing good stuff. Sad
+because these are things rarely talked about in teaching CS or college
+level teaching in general.
+
+In the podcast Colleen mentioned manipulatives like physical pockets
+to represent variables and also discusses how she gets her classes on
+board. I recommend you give a listen ([[https://csedpodcast.org/blog/s4e2_tpb_physical_java_models/][link]]).
+
+The sad part is that using manipulatives is day one methods class
+stuff. I'm reminded of this clip from Mr. Holland's Opus - a teacher
+movie I really like:
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wUJzk-m98Ek?si=U1ipQLys8umb9p2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
+A well prepared teacher has a tool belt full of options and isn't
+afraid to drag any of them out and use them as appropriate.
+
+When I took math methods classes, manipulatives were day 1. Base 10
+blocks, linking cubes, pattern blocks, cuisenaire rods, and more. From
+store bought to adapting free materials on hand. Of course, math
+manipulatives are frequently used in earlier grades by students for
+hands on exercises but they're also great for demonstrations and whole
+class activities and yes, even in High School or College.
+
+While some teachers, particularly from what I've seen, at the college
+level, are gatekeepers, it's our jobs to make simple the complex. If
+diagrams help, we should use them. In class "games" - well why not,
+and certainly manipulatives. Colleen set up pockets for variables
+and in fact, on her site you can request a set but you can create your
+own. I mean, I'm sure all our schools have piles of those interoffice
+mail folders that don't get used anymore. Folders, or envelopes can
+also be used to teach message passing and networking concepts. How
+about a cardboard box for a literal "black box." Even props.  I know
+that not everybody has custom made recursive sock puppets,
+
+#+ATTR_HTML: :width 300px
+[[/img/sock-puppets.jpg]]
+
+and few people have the production budget like say a class like
+CS50,but even lame makeshift ideas like drawing two dots for eyes on
+your hand can be used for positive effect.
+
+For other ideas, how about having the class step through a program
+passing a ball around as a "talking stick." The student with the ball
+"executes" the line (or function or whatever). How about a physical
+stack for stacks or having the students line up for a list and then
+give them a "reference" to who's after them (on a postit for example)
+for a linked list activity. The ideas are out there if you look for them.
+
+So don't be afraid to try out using physical tools, or manipulatives
+and if you've got an interesting one, I'm sure everyone would love to
+hear about it.
+
+Circling back to the podcast and what Colleen shared, here are a
+couple of links to learn more:
+
+- https://docs.google.com/document/d/1hk98trfOiU3CyPyJ07fGfql2mYaWf8qGZ0fS8FhDVwg/edit#heading=h.5i5t4kfuu5b5
+- https://www.csteachingtips.org/3D
+
+Enjoy.
+
