@@ -1,0 +1,128 @@
+---
+title: Learning Elisp 16 - using a web API
+date: 2023-11-29T11:44:55-04:00
+tags: 
+- emacs
+- elisp
+categories: 
+- emacs
+draft: false
+---
+
+Sorry for the long break. Once December started, I spent the first few
+weeks spending my coding time on [[https://adventofcode.com/][Advent of Code]], then just got
+sidetracked but now it's time to get going again.
+
+This is the last elisp topic I specifically wanted to cover so this
+and the next video mmight be the end of this series, we'll see.
+
+What are we doing today? Using a web API. Basically, if we want to use
+some external data source or facility a typical way to make that
+happen is through a web API. We could write our own, but for today
+we're going to use a free to use online thesaurus service. The idea is
+that we can send it a word and we'll get back synonyms. The end result
+will be, as we're writing, we hit the magic key, get a list of
+alternative words and then select one, or not.
+
+The API we'll be using is at https://dictionaryapi.com/. It's part of 
+Merriam-Webster's set of free to use tools. To use it, we have to go
+to [[https://dictionaryapi.com/register/index][this]] page and register to get an API key, then to use it to get
+synonyms for a word, you go to a url formatted like this:
+
+#+begin_export html
+
+https://dictionaryapi.com/api/v3/references/thesaurus/json/<b>word</b>?key=<b>MYKEY</b>
+
+#+end_export
+
+where *word* is the word you want to lookup and *MYKEY* is the key you
+got when registering.
+
+The result will be a string of data representing the [[https://json.org][JSON]] formatted
+response.
+
+How do we do this?
+
+First, to get the data, we can use elisp's
+~url-retreive-synchronously~. This takes a string with our url and
+returns a buffer with the results. In the video, we first show that we
+can use the ~switch-to-buffer~ function to go to the buffer with the
+results:
+
+#+begin_src emacs-lisp
+  (defvar key "mykey")
+  (defvar base-url "https://dictionaryapi.com/api/v3/references/thesaurus/json/")
+  (switch-to-buffer (url-retrieve-synchronously (concat base-url "polite" "?key=" key)))
+#+end_src
+
+and then show how we can use ~with-current-buffer~ to take the buffer
+with our data and manipulate it before using the ~buffer-string~
+function to return what we want.
+
+Finally, we convert the json string into an elisp data structure, an
+array of arrays and hash tables using ~json-parse-string~.
+
+Here's the complete code:
+#+begin_src emacs-lisp
+    
+  (defvar key "mykey")
+  (defvar base-url "https://dictionaryapi.com/api/v3/references/thesaurus/json/")
+
+  ;; Example using switch-to-buffer
+  ;; (switch-to-buffer
+  ;; (url-retrieve-synchronously (concat base-url "umpire" "?key=" key)))
+
+  (defun get-synonyms (word)
+    (let* ((url (concat base-url word "?key=" key))
+  	 (resp (with-current-buffer (url-retrieve-synchronously url)
+  		 (goto-char (point-min))
+  		 (re-search-forward "^$")
+  		 (delete-region (point) (point-min))
+  		 (buffer-string)))
+  	 (json-resp (json-parse-string resp))
+  	 )
+      json-resp))
+
+  (get-synonyms "umpire")
+
+
+#+end_src
+
+The video covers all the details. In the next installment, we'll see
+how we can take this json response, pull out the synonyms and easily
+replace the current word with one.
+
+* Code:
+
+The code for the series is still up here:
+
+- https://gitlab.com/zamansky/learning-elisp-code
+
+
+* The videos:
+
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tGZNhJmZ_2M?si=QHZ176EWF8OdodLg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
+Video link: https://www.youtube.com/watch?v=tGZNhJmZ_2M
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
