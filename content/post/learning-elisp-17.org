@@ -1,0 +1,111 @@
+---
+title: Learning Elisp 17 - a thesaurus mode
+date: 2024-01-25T08:45:52-04:00
+tags: 
+- emacs
+- elisp
+categories: 
+- emacs
+draft: false
+---
+
+
+
+
+When we last left our heroes we had made the API call to
+dictionaryapi.com, gotten the response and coverted the json string
+into elisp data. Specifically an array that contained a hash table.
+
+Today's video will take us the rest of the way to our thesaurus mode -
+run the function and we'll get a list of synonyms for the word we're
+currently at.
+
+First, we had to pull out the synonyms from the response. To do that
+we used basic elisp data manipulation. We used *(aref json-resp 0)* to
+pull out the hash table, which was the 0^{th}  element of the array
+response, then wrap that in *(gethash "meta"...)* to pull out the
+"meta" hash entry. That's a hash table in its own right so we then
+pull out the "syns" element with another *gethash* and then finally,
+since that's an array with an array in it, another *aref*. The
+complete code is up at gitlab but it's essentially:
+
+#+begin_src emacs-lisp
+ (aref (gethash "syns" (gethash "meta"  (aref json-resp 0))) 0)
+#+end_src
+
+This gives us an array of synonym strings but we want it to be a list
+so we used *mapcar* to convert.
+
+#+begin_src emacs-lisp
+  (mapcar #'identity word-list)
+#+end_src
+
+There's probably a better way to do this but that's what came to mind.
+
+From there, the actual function to replace the word under the cursor
+with its synonym is pretty straightforward:
+
+#+begin_src emacs-lisp
+(defun word-to-syn (n)
+  ""
+  (interactive "p")
+  (let* ( (word (current-word))
+          (word-list (get-synonyms word))
+          (new-word (completing-read "Replacement:" word-list)))
+    (backward-word)
+    (kill-word 1)
+    (insert new-word)))
+#+end_src
+
+The *current-word* function returns the word at or before the cursor
+location. We then use the *get-synonyms* function that we just
+completed and then use *completing-read* which lets us select a word
+from the synonym list.
+
+Once we have the replacement word, it's just buffer manipulations to
+delete the old word and insert the new one.
+
+The rest of the video shows turning this into a mode and binding the
+function to a key.
+
+So, that's it for the elisp series for now. I'll do more if I can
+think of interesting and fun things to do but no promises.
+
+You can get all the code at the repo linked below:
+
+* Code:
+
+The code for the series is still up here:
+
+- https://gitlab.com/zamansky/learning-elisp-code
+
+
+* The videos:
+
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZBN4Kphv-ac?si=lMyYassaUwz6ia8g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#+end_export
+
+Video link: https://www.youtube.com/watch?v=ZBN4Kphv-ac
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
