@@ -8,7 +8,7 @@ tags:
 - conda
 categories:
 - emacs
-draft: true
+draft: false
 --- 
 
 One of the things I want to do now that I have some time is get my
