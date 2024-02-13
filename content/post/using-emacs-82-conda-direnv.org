@@ -1,0 +1,160 @@
+---
+title: Using Emacs 82 - Conda and Direnv
+date: 2024-02-13T11:31:06-04:00
+tags:
+- emacs
+- python
+- direnv
+- conda
+categories:
+- emacs
+draft: true
+--- 
+
+One of the things I want to do now that I have some time is get my
+head around all the modern AI stuff. I'm starting with a review or
+things I've already done  by going through Andrew Ng's Coursera ML
+class. I'll probably continue with his courses but I'm certainly open
+to any suggestions (specifically for a CS guy who's not so strong on
+the math side).
+
+This means diving back into Python even though Clojure is usually my
+weapon of choice. I thought I'd see how the platform has changed.
+
+First up [[https://www.anaconda.com/][Anaconda]] which is a platform and package manager for
+Python. I opted for [[https://docs.anaconda.com/free/miniconda/index.html][Miniconda]] which just gives the basics and I can
+always add anything missing later.
+
+See the previous two links to install Anaconda or Miniconda. The video
+goes over basic use. It's a lot like virtualenv. You can set up an
+Python environment with specific packages and then activate or
+deactivate whichever environment you wish to work under.
+
+On the Emacs side, I installed the package conda as follows:
+
+#+begin_src emacs-lisp
+      (use-package conda :straight t
+        :config
+        (conda-env-initialize-interactive-shells)
+        (conda-env-initialize-eshell))  
+#+end_src
+
+And that was pretty much it. To activate an particular environment we
+just use ~conda-env-actiate~. Again, this is covered in the video.
+
+Next up is [[https://direnv.net/][direnv]]. This lets you customize your environment per
+directory. You can do things like set specific environment variables
+or even, in our case, activate a conda environment just by going into
+a project directory. Basic installation instructions can be found on
+the home page.
+
+To set up direnv to work with Anaconda/Miniconda though took a bit of
+work. Between a few web sites and videos, I found that this worked.
+
+First, I had to create a file named ~.direnvrc~ in my home directory
+with these contents:
+
+#+begin_src emacs-lisp
+  layout_conda() {
+    # Ref Url: https://github.com/direnv/direnv/wiki/Python
+    # local ANACONDA_HOME=”${HOME}/anaconda3"
+    # PATH_add “$ANACONDA_HOME”/bin1
+    if [ -n "$1" ]; then
+    # Explicit environment name from layout command.
+    local env_name="$1"
+    source activate ${env_name}
+    elif (grep -q name: environment.yml); then
+    # Detect environment name from `environment.yml` file in `.envrc` directory
+    source activate `grep name: environment.yml | sed -e ‘s/name: //’ | cut -d
+    "‘" -f 2 | cut -d ‘"‘ -f 2`
+    else
+    (>&2 echo No environment specified);
+    exit 1;
+    fi;
+    }
+#+end_src
+
+You might have to play with it if you're not using the miniconda
+installation defaults.
+
+Next, I had to edit my .zshrc:
+
+#+begin_src sh
+    
+    export iam="$(whoami)"
+    export CONDA_HOME="/home/${iam}/miniconda3"
+
+    [[ ":${PATH}:" != *":${CONDA_HOME}/bin:"* ]] && export PATH="${CONDA_HOME}/bin:${PATH}"
+
+    # <<< my export init <<<
+
+    # >>> conda initialize >>>
+    # !! Contents within this block are managed by 'conda init' !!
+    __conda_setup="$('/home/zamansky/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+    if [ $? -eq 0 ]; then
+        eval "$__conda_setup"
+    else
+        if [ -f "/home/zamansky/miniconda3/etc/profile.d/conda.sh" ]; then
+            . "/home/zamansky/miniconda3/etc/profile.d/conda.sh"
+        else
+            export PATH="/home/zamansky/miniconda3/bin:$PATH"
+        fi
+    fi
+    unset __conda_setup
+    # <<< conda initialize <<<
+
+    export LANG=en_US.UTF-8
+    eval "$(direnv hook zsh)"
+
+
+
+#+end_src
+
+Some of that was added when I installed direnv and followed those
+directions. I think for the direnv Anaconda support I added the first
+two lines and the last one.
+
+Finally, in your project's root directory create a file named ~.envrc~
+which contains the line ~layout conda name~ where *name* is replaced with
+the name of the conda environment you want.
+
+The first time you go into the directory it will tell you that you
+haven't allowed direnv to work there yet and you have to enter ~direnv
+allow~. After you do that, every time you enter that directory it will
+activate your conda environment, leave it, it will deactivate it.
+
+In Emacs, I found two packages that worked pretty much the same. One
+named ~direnv~ and the other ~envrc~. I opted for envrc.
+
+You simply add:
+#+begin_src emacs-lisp
+  (use-package envrc :straight t
+    :config (envrc-global-mode))
+#+end_src
+
+to your config and when you open a file in that directory, it will
+use direnv.
+
+*Important note:*
+
+That's pretty much it. This all worked on my desktop but it's giving
+me problems on my laptop. It appears that conda mode isn't working. It
+allows me to select the environment but it doesn't actually activate
+it. I think it's a path issue even though I think both my desktop and
+laptop are the same. I'll update this once I figure out what's up on
+the laptop side.
+
+All in all, I'm pretty happy with this. I love that I can
+automatically start an environment just by accessing a file in the
+directory. Too many times, I forget and mess things up.
+
+The video steps through everything and demos both packages:
+
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UrJoBaJv5kA?si=_W-OU3RG7o3K5LQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#+end_export
+
+Enjoy!
+
