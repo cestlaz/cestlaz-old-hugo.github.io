@@ -119,7 +119,7 @@ to do or not to do on their own.
 With this system, there's absolutely no reason not to have a teaching
 career path with the entry point being sufficient CS knowledge. I'd
 prefer that plus some background in how to teach it but that's likely
-a bridge to far for now.
+a bridge too far for now.
 
 Even had I not been an experienced teacher, the biggest difference
 between me with my Masters in CS and the PhD's I worked with is that
