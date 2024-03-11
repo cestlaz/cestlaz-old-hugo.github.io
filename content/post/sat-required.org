@@ -1,5 +1,5 @@
 ---
-title: The SAT - should it be reqiured
+title: The SAT - should it be required
 date: 2024-03-11T15:15:57-04:00
 tags:
 - testing
