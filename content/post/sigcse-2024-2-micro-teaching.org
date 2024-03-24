@@ -10,7 +10,7 @@ draft: false
 --- 
 
 We stayed an extra day in Portland to do some site seeing. I'll write
-about the tourist side in m final SIGCSE2024 post. Right now, we're
+about the tourist side in my final SIGCSE2024 post. Right now, we're
 back in the hotel resting before dinner so I thought I'd start the
 next part of my SIGCSE2024 report.
 
@@ -43,7 +43,7 @@ because it wasn't a core lesson in his class but rather a fun side
 topic to set the stage for the cybersecurity work yet to come. He
 elicited suggestions from the class how they could first crack a safe
 (using the typical movie trope of listening with a stethoscope) and
-how to crack a keypad lock by looking at the warn out keys of a
+how to crack a keypad lock by looking at the worn out keys on the
 keypad. This led to a class "lab" where we had to figure out which
 mystery toy was in an egg shell without opening it. All of this was to
 teach the class about side channel attacks. It was terrific.
@@ -63,7 +63,7 @@ putting the name in to the tree (along with priority values) was a
 strong technique as was later removing them. I partially agreed with
 this but also felt that removing the names could also have weakened
 the lesson. We didn't have full context so I can't be sure. In any
-event, this could have ed to some really rich discussion.
+event, this could have led to some really rich discussion.
 
 A second example, and one I loved was when one teacher engaged the
 "class" prior to the lesson. He asked a student their future plans and
