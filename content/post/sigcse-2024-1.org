@@ -1,0 +1,111 @@
+---
+title: SIGCSE 2024 - Opening Day
+date: 2024-03-23T22:34:50-04:00
+tags:
+- SIGCSE
+categories:
+- SIGCSE
+draft: false
+--- 
+
+Last time I was in Portland Oregon was March 2020. Came in for SIGCSE - the
+big CS Education conference. Got in a couple of days early, played
+tourist, and then morning of, everything was canceled. Flew back to
+NYC on a near empty jet and Covid became very, very real.
+
+March 2024 and I'm back in Portland and SIGCSE's giving it another
+go. This time I came out with my daughter Batya who's developed an
+interest in CS education and my wife Devorah who's been playing
+tourist while we've been conferencing. 
+
+The conference kicked off with a keynote by [[https://www.linkedin.com/in/todd-zakrajsek-4b3654/][Todd Zakrajsek]] of UNC. I
+was ready to be disappointed. A researcher, that is, not a teacher
+who's spent decades all day every day in the classroom, who's
+published lots of books about how to teach and he's going to tell me
+how to teach.
+
+I couldn't have been more wrong. Content wise, he was spot on. Maybe
+the bet SIGCSE keynote I've attended. Delivery? He was great there as
+well.
+
+He gave some backstory - first in family to go to college. Almost
+flunked out, wanted to be a cop - never thought of becoming an
+educator and over the talk also kept hitting a few key points.
+
+One of the overarching themes was that there is no single true
+way. Right from the start, he emphasized, for instance that lecturing
+wasn't necessarily bad and that active learning wasn't always
+necessarily the best. Lecturing can be effective but good lecturing
+with some good active learning smatterred in can be even more
+effective. He later said "I love constructivism *when I have the time*."
+I loved that. I spent five or six years around a decade ago hearing
+from the "experts" that constructivism was the one true way ignoring
+the fact that it was neither practical for most public school CS
+teachers nor was it optimal due to a variety of constraints. It was
+refreshing to hear this expert say what my team and I have been saying
+for years. There are lots of ways to teach and what's best at any
+given time depends on a lot of factors and the most effective teachers
+figure out what tool to use when and where.
+
+Related to this, Zakrajsek emphasized that failure was a combination
+of student and teacher. It's not solely the student's fault nor solely
+the teacher's. This is related to another pedagogical thought I've
+long pitched - the best technique to use at any given time is best
+determined by evaluating a combination of student needs and situation,
+teacher's strengths, and contextual circumstances.
+
+Even though this first theme considered both teacher and student, it
+came across to me as a teacher issue - ultimately, it was how to
+teach. Another theme I felt was much more student centered.
+
+The focus was introvert and extrovert.
+
+Group work? Another "one true way" to teach that has been foisted upon
+teachers on and off for decades. Zakrajsek claimed, and I agreed, that
+while some students love and thrive under it, some hate it. Similarly
+some like and do much better with lectures.
+
+He also spoke of the extrovert who would raise their hand before the
+question was even finished vs the introvert who took their time and
+pondered before even considering responding and that as teachers we
+must work to accommodate both.
+
+I chuckled when he told a story of when he was a guest speaker in a
+class and when a student kept raising his hand before the question was
+even finished, he'd call on him and ask him to answer. I chuckled
+because what he did was very similar to how I handled a similar
+student in my class.
+
+Back to the group work, another theme was that students don't know how
+to do it unless you teach them - the hidden curriculum and that's
+frequently ignored.
+
+This led Zakrajsek to another theme - that when he started he thought
+teaching was about content but later he realized it was about learning
+to learn.
+
+This resonated with me. Zakrajsek was 100% right but it's 100% *not* how
+teachers are prepared today. Too often teachers are *not* given the
+toolbox of methods and the deep content knowledge to develop
+educational experiences appropriate for their populations. Rather
+their given canned curricula, scripts, and instructions - what to
+teach and how to teach it. Far too many of today's teachers are
+trained to deliver specific content in a specific way and far too few
+are prepared to teach students how to learn how to learn.
+
+Todd Zakrajsek's keynote was really amazing. Maybe I'm just saying it
+because it echoed so many of my thoughts about teaching and teacher
+preparation and he was really entertaining but I'll stand by that
+statement.
+
+It was a great way to kick off the conference. There was a lot more to
+come on day 1. A great session on teaching, some papers on software
+engineering, lightening talks, and then a god BOF and a really bad
+one.
+
+I'll save those for my next couple of posts.
+
+For now, I'll just say, if and when Todd Zakrajsek's keynote is made
+available online, watch it.
+
+
