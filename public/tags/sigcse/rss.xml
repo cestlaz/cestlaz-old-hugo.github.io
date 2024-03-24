@@ -6,10 +6,119 @@
     <description>C&#39;est la Z (SIGCSE)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Apr 2023 19:54:05 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 23 Mar 2024 22:34:50 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/tags/sigcse/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>SIGCSE 2024 - Opening Day</title>
+      <link>https://cestlaz.github.io/post/sigcse-2024-1/</link>
+      <pubDate>Sat, 23 Mar 2024 22:34:50 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/sigcse-2024-1/</guid>
+      <description>&lt;p&gt;
+Last time I was in Portland Oregon was March 2020. Came in for SIGCSE - the
+big CS Education conference. Got in a couple of days early, played
+tourist, and then morning of, everything was canceled. Flew back to
+NYC on a near empty jet and Covid became very, very real.&lt;/p&gt;
+&lt;p&gt;
+March 2024 and I&amp;#39;m back in Portland and SIGCSE&amp;#39;s giving it another
+go. This time I came out with my daughter Batya who&amp;#39;s developed an
+interest in CS education and my wife Devorah who&amp;#39;s been playing
+tourist while we&amp;#39;ve been conferencing. &lt;/p&gt;
+&lt;p&gt;
+The conference kicked off with a keynote by &lt;a href=&#34;https://www.linkedin.com/in/todd-zakrajsek-4b3654/&#34;&gt;Todd Zakrajsek&lt;/a&gt; of UNC. I
+was ready to be disappointed. A researcher, that is, not a teacher
+who&amp;#39;s spent decades all day every day in the classroom, who&amp;#39;s
+published lots of books about how to teach and he&amp;#39;s going to tell me
+how to teach.&lt;/p&gt;
+&lt;p&gt;
+I couldn&amp;#39;t have been more wrong. Content wise, he was spot on. Maybe
+the bet SIGCSE keynote I&amp;#39;ve attended. Delivery? He was great there as
+well.&lt;/p&gt;
+&lt;p&gt;
+He gave some backstory - first in family to go to college. Almost
+flunked out, wanted to be a cop - never thought of becoming an
+educator and over the talk also kept hitting a few key points.&lt;/p&gt;
+&lt;p&gt;
+One of the overarching themes was that there is no single true
+way. Right from the start, he emphasized, for instance that lecturing
+wasn&amp;#39;t necessarily bad and that active learning wasn&amp;#39;t always
+necessarily the best. Lecturing can be effective but good lecturing
+with some good active learning smatterred in can be even more
+effective. He later said &amp;#34;I love constructivism &lt;strong&gt;when I have the time&lt;/strong&gt;.&amp;#34;
+I loved that. I spent five or six years around a decade ago hearing
+from the &amp;#34;experts&amp;#34; that constructivism was the one true way ignoring
+the fact that it was neither practical for most public school CS
+teachers nor was it optimal due to a variety of constraints. It was
+refreshing to hear this expert say what my team and I have been saying
+for years. There are lots of ways to teach and what&amp;#39;s best at any
+given time depends on a lot of factors and the most effective teachers
+figure out what tool to use when and where.&lt;/p&gt;
+&lt;p&gt;
+Related to this, Zakrajsek emphasized that failure was a combination
+of student and teacher. It&amp;#39;s not solely the student&amp;#39;s fault nor solely
+the teacher&amp;#39;s. This is related to another pedagogical thought I&amp;#39;ve
+long pitched - the best technique to use at any given time is best
+determined by evaluating a combination of student needs and situation,
+teacher&amp;#39;s strengths, and contextual circumstances.&lt;/p&gt;
+&lt;p&gt;
+Even though this first theme considered both teacher and student, it
+came across to me as a teacher issue - ultimately, it was how to
+teach. Another theme I felt was much more student centered.&lt;/p&gt;
+&lt;p&gt;
+The focus was introvert and extrovert.&lt;/p&gt;
+&lt;p&gt;
+Group work? Another &amp;#34;one true way&amp;#34; to teach that has been foisted upon
+teachers on and off for decades. Zakrajsek claimed, and I agreed, that
+while some students love and thrive under it, some hate it. Similarly
+some like and do much better with lectures.&lt;/p&gt;
+&lt;p&gt;
+He also spoke of the extrovert who would raise their hand before the
+question was even finished vs the introvert who took their time and
+pondered before even considering responding and that as teachers we
+must work to accommodate both.&lt;/p&gt;
+&lt;p&gt;
+I chuckled when he told a story of when he was a guest speaker in a
+class and when a student kept raising his hand before the question was
+even finished, he&amp;#39;d call on him and ask him to answer. I chuckled
+because what he did was very similar to how I handled a similar
+student in my class.&lt;/p&gt;
+&lt;p&gt;
+Back to the group work, another theme was that students don&amp;#39;t know how
+to do it unless you teach them - the hidden curriculum and that&amp;#39;s
+frequently ignored.&lt;/p&gt;
+&lt;p&gt;
+This led Zakrajsek to another theme - that when he started he thought
+teaching was about content but later he realized it was about learning
+to learn.&lt;/p&gt;
+&lt;p&gt;
+This resonated with me. Zakrajsek was 100% right but it&amp;#39;s 100% &lt;strong&gt;not&lt;/strong&gt; how
+teachers are prepared today. Too often teachers are &lt;strong&gt;not&lt;/strong&gt; given the
+toolbox of methods and the deep content knowledge to develop
+educational experiences appropriate for their populations. Rather
+their given canned curricula, scripts, and instructions - what to
+teach and how to teach it. Far too many of today&amp;#39;s teachers are
+trained to deliver specific content in a specific way and far too few
+are prepared to teach students how to learn how to learn.&lt;/p&gt;
+&lt;p&gt;
+Todd Zakrajsek&amp;#39;s keynote was really amazing. Maybe I&amp;#39;m just saying it
+because it echoed so many of my thoughts about teaching and teacher
+preparation and he was really entertaining but I&amp;#39;ll stand by that
+statement.&lt;/p&gt;
+&lt;p&gt;
+It was a great way to kick off the conference. There was a lot more to
+come on day 1. A great session on teaching, some papers on software
+engineering, lightening talks, and then a god BOF and a really bad
+one.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ll save those for my next couple of posts.&lt;/p&gt;
+&lt;p&gt;
+For now, I&amp;#39;ll just say, if and when Todd Zakrajsek&amp;#39;s keynote is made
+available online, watch it.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>SIGCSE 2023 - final thoughts</title>

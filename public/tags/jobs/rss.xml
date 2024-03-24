@@ -6,10 +6,320 @@
     <description>C&#39;est la Z (jobs)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Sep 2023 07:40:37 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/tags/jobs/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>Just work on open source</title>
+      <link>https://cestlaz.github.io/post/work-on-open-source/</link>
+      <pubDate>Tue, 12 Sep 2023 07:40:37 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/work-on-open-source/</guid>
+      <description>
+&lt;p&gt;
+Just work on an open source project. That&amp;#39;s a frequent refrain given to
+college students. What&amp;#39;s the best way to set yourself up for an
+internship or job?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;do well in your classes&lt;/li&gt;
+&lt;li&gt;prepare for the ridiculous technical interviews by doing lots of
+problems and interview prep&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;build a personal project or better yet, contribute to open
+source&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Everyone gives this advice and and in truth it&amp;#39;s good advice. The
+problem is that while this is an easy ask for well to do students at
+&amp;#34;elite&amp;#34; institutions where the majority have little to do
+other than their courseworkand they&amp;#39;re mostly living 24/7 on campus
+it&amp;#39;s a much bigger ask for the low income student at the commuter
+school.&lt;/p&gt;
+&lt;p&gt;
+Even if you look at the privileged student who can dedicate time to a
+side project, diving into open source is harder than it seems. &lt;/p&gt;
+&lt;p&gt;
+To start, you have to know all the tooling required to work on a
+typical open source project. Git with branching and merging and
+dealing with related conflicts. Issues and pull requests,
+forks. Probably the programming language or languages the project uses
+and likely even more.&lt;/p&gt;
+&lt;p&gt;
+You&amp;#39;ve also got to find the project, figure out what it needs and how,
+when you&amp;#39;re ready to contribute, that contribution is expected to be
+done. That&amp;#39;s a really tricky one because every project has its own
+organization, steps to take, and even culture.&lt;/p&gt;
+&lt;p&gt;
+All this and more can be very intimidating even for a student with all
+the free time in the world. &lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s an order of magnitude harder for low income students. To start,
+if you&amp;#39;re at a commuter school you&amp;#39;re far less likely to have a tech
+or CS community on campus. When you&amp;#39;re all living on campus, if
+nothing else, you&amp;#39;ll be in the dorms together - easy to hang out, work
+on things late, and in general make use of the school&amp;#39;s resources. At
+Hunter, for instance, things are so overcrowded that if you&amp;#39;re lucky
+you can find a spot of floor in the hall to work. Not exactly
+conducive to working on side projects and certainly not conducive to
+creating a student culture of support.&lt;/p&gt;
+&lt;p&gt;
+Next, low income students, at least many of the ones I&amp;#39;ve worked with,
+have additional demands that eat up any free time. Many have to work
+to pay tuition or even make rent or help the family make rent. They
+might have limited computer access at home - one computer and younger
+K12 siblings that also need access. They&amp;#39;ll have the related challenge
+of connectivity. These are very real problems that were foreign to me when
+I was a student.  It&amp;#39;s even more than just a hindrance on working on
+a personal portfolio prjoect. It can prevent a student from taking an
+internship.&lt;/p&gt;
+&lt;p&gt;
+Even before the latest tech job crunch a low income student might not
+be able to take a high paying summer internship should they get
+one. The student may very well need year round income which they
+currently have at, let&amp;#39;s say Starbucks. Now, you might say that the
+income from the tech internship will be much greater and the student
+will likely get a return offer. The catch is &amp;#34;likely.&amp;#34; If you&amp;#39;re a
+middle class or upper income student, you can take the &amp;#34;likely.&amp;#34; If
+you&amp;#39;re absolutely dependent on that year round income, it&amp;#39;s a much
+bigger risk.&lt;/p&gt;
+&lt;p&gt;
+So, you can see that it&amp;#39;s not enough to say &amp;#34;just work on open source&amp;#34;
+even for a well to do student. For a low income student, it&amp;#39;s a
+yeoman&amp;#39;s ask.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+What can be done?
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+Still, we can make it better.&lt;/p&gt;
+&lt;p&gt;
+A lot can be done within college CS classes but CS programs have to
+buy in. Many of the tech tools can be taught in core CS classes. I&amp;#39;ve
+done this in my CS0, CS1, and CS2 classes at Hunter College and have
+done the same at Stuyvesant at the High School level. I use git and a
+testing framework instead of an autograder for example. That gives me
+the platform to teach much of what students need without taking away
+much of the time needed from the rest of the curriculum. Similarly you
+can set up projects where students work in each others or other
+peoples code bases. This helps familiarize the students with what they
+will need for both working in open source and likely at their future
+jobs.&lt;/p&gt;
+&lt;p&gt;
+CS programs with project courses can also be huge. Hunter has a
+capstone course that&amp;#39;s close to being terrific. On the one hand, it
+checks all the boxes - toolsets, teamwork, testing, etc.. The problem
+is that it&amp;#39;s a terminal course taken right before graduation. This
+type of course should be taken at least a year earlier - probably
+right after CS2 so that students can learn a bit about software
+development and also develop a team portfolio piece early enough so
+that it can benefit them in interviews.&lt;/p&gt;
+&lt;p&gt;
+Space is another big one. Schools have to be able to carve out space
+for students to chill. I was able to get a small room for my
+students - an honors lounge, if you would (but it was really open to
+any interested and active CS student). This gave students a place to
+hang out between classes, get to know each other and if time allowed,
+get together to work on things. You could say - &amp;#34;hey, if anyone&amp;#39;s
+available let&amp;#39;s go to the lounge every Wednesday at 6:00 to work on
+whatever.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+Another big one that&amp;#39;s really under the radar is financial support. At
+times Hunter&amp;#39;s administration was able to fund students with
+microgrants. Small amounts that would allow a student to work on a
+project or attend a program and the grant would make up the money lost
+from missing a few Starbucks shifts.&lt;/p&gt;
+&lt;p&gt;
+What can be done outside of the schools?&lt;/p&gt;
+&lt;p&gt;
+First and foremost, be understanding. If a student isn&amp;#39;t working on a
+personal project or open source, there might be a good
+reason. Understand that a student with two &amp;#34;professional&amp;#34; parents is
+going to also come across as more polished than a student who may
+never have stepped foot into an office setting.&lt;/p&gt;
+&lt;p&gt;
+Next, provide mentorship. This can be one on one or small group but it
+can also be a company program or initiative. Right prior to covid, I
+was working with Cockroach labs on a set of open source workshops to
+address all the problems listed above. I&amp;#39;ve also worked with other
+companies on mentoring programs that have been very succesful in
+mentoring my Hunter students.&lt;/p&gt;
+&lt;p&gt;
+Finishing up, I&amp;#39;d be remiss if I didn&amp;#39;t mention &lt;a href=&#34;https://hacktoberfest.com/&#34;&gt;Hacktoberfest&lt;/a&gt;
+sponsored by DigitalOcean. Every October coders are encouraged to dive
+in to open source. Hacktoberfest helps students get started and also
+curates lists of good &amp;#34;first pull requests.&amp;#34; Things like documentation
+and testing changes on projects that will be more accessible and
+forgiving for neophytes.&lt;/p&gt;
+&lt;p&gt;
+Well, I think that&amp;#39;s it. I hope this paints a clearer picture of some
+of the challenges our students, and particularly our low income
+students face and when you wonder why they don&amp;#39;t simply &amp;#34;work on open
+source&amp;#34; there&amp;#39;s probably a good reason why.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Should CSforAll focus on entrepreneurship and jobs?</title>
+      <link>https://cestlaz.github.io/post/cs-for-jobs/</link>
+      <pubDate>Thu, 14 Apr 2022 14:41:05 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/cs-for-jobs/</guid>
+      <description>&lt;p&gt;
+Is CSforAll a jobs program? This came up again the other day.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;I&amp;#39;m using a recent review as an excuse to ask more general questions.&lt;br&gt;&lt;br&gt;Is &lt;a href=&#34;https://twitter.com/hashtag/CSforAll?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#CSforAll&lt;/a&gt; a jobs program or preparing future citizens? &lt;br&gt;&lt;br&gt;Does learning about CS belong just to STEM education?&lt;br&gt;&lt;br&gt;Should we only teach CS to Ss with math background, or can we teach CS to Ss who hate math? &lt;a href=&#34;https://t.co/k030BHoZ93&#34;&gt;https://t.co/k030BHoZ93&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mark Guzdial (@guzdial) &lt;a href=&#34;https://twitter.com/guzdial/status/1511340494462279684?ref_src=twsrc%5Etfw&#34;&gt;April 5, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;
+With one of the referenced tweets talking about CS salaries.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Median pay in tech jobs:&lt;br&gt;&lt;br&gt;Snap: $327,710&lt;br&gt;Google (Alphabet): $295,884&lt;br&gt;Facebook (Meta): $292,785&lt;br&gt;&lt;br&gt;All the more reason for public schools to teach computer science so that underserved populations have a chance at these jobs.&lt;/p&gt;&amp;mdash; Hadi Partovi (@hadip) &lt;a href=&#34;https://twitter.com/hadip/status/1512592779083280388?ref_src=twsrc%5Etfw&#34;&gt;April 9, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;
+I think Hadi&amp;#39;s numbers are a little high but that&amp;#39;s not really the
+point.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve actually been meaning to write about this for a while going back
+to &lt;a href=&#34;https://www.thisisgoingtobebig.com/blog/2019/1/6/sevens-dont-get-funded&#34;&gt;this really great post&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/ceonyc&#34;&gt;Charlie O&amp;#39;Donnell&lt;/a&gt; titled &lt;a href=&#34;https://www.thisisgoingtobebig.com/blog/2019/1/6/sevens-dont-get-funded&#34;&gt;Sevens Don&amp;#39;t Get
+Funded&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve seen arguments on all sides of this issue. On the one hand,
+people in the tech industry are big on the jobs side of things. This
+is in part because the more people who go into tech the more resources
+they have for their companies. I also think that a lot of the people
+on the tech side have seen tech work for them and allow for successful
+careers so they see CS education as providing others with a similar
+path. I also see a number of teachers with this view - they&amp;#39;re
+teaching kids in poverty and see this as a potential way out. Nothing
+wrong with this point of view and for CSforAll to really get anywhere
+it&amp;#39;s certainly helpful to have a region&amp;#39;s business leaders on board.&lt;/p&gt;
+&lt;p&gt;
+On the other side, I have many colleagues at Hunter and other
+intuitions who get offended at the merest mention that anything we
+teach be in any way practical as it hurts the purity of our academic
+mission. Needless to say, I&amp;#39;m not in  this extreme camp but I do think
+that CS should be much more than a jobs program.&lt;/p&gt;
+&lt;p&gt;
+This tension has been there from the begining. Are we teaching K12 CS
+for aspiring CS majors who will go into academia? Those who will be
+software engineers? Everybody else? Or a combination.&lt;/p&gt;
+&lt;p&gt;
+To complicate matters, at least in my experience is that the business
+push very frequently comes with a push for entrepreneurship. We need
+more kids starting their own tech companies. I suspect much of this is
+well meaning. They see the next big thing and would love to see a
+group of founders from the other side of the tracks figure it out.&lt;/p&gt;
+&lt;p&gt;
+In my time in CS Ed in NYC I&amp;#39;ve seen a tremendous push for
+entrepreneurship. Many programs that have touted themselves as CS
+programs were really entrepreneurship programs with a little tech and
+this concerns me.&lt;/p&gt;
+&lt;p&gt;
+This is where Charlie&amp;#39;s piece got me thinking.&lt;/p&gt;
+&lt;p&gt;
+Charlie says he gets around 2000 pitches in his inbox a year but only
+makes around 10 investments. This seems consistent with ratios I&amp;#39;ve
+seen for other venture capitalists. This means if you&amp;#39;re going to get
+that investment on your startup idea you&amp;#39;ve got to really stand out or
+to quote the article:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It might be that your company is a seven (out of 10)  — a perfectly acceptable, but
+not particularly exciting seven.&lt;/p&gt;
+&lt;p&gt;
+If you’re trying to be one of the best ten things I see in a
+year—worth risking LP capital on, then a seven just isn’t going to
+make it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+Even if you are funded, the majority of startups don&amp;#39;t succeed. I&amp;#39;ve
+read that 10% of startups provide nearly all the returns for a fund
+and other similar numbers indicating that failure is much more likely
+than success.&lt;/p&gt;
+&lt;p&gt;
+Now, if you&amp;#39;re a venture capitalist and looking at the big picture
+from the top, the more entrepreneurs the better but if you&amp;#39;re a kid
+from the lower economic rungs I don&amp;#39;t know if we should be pushing
+entrepreneurship as the ticket out.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m reminded of a friend of mine who does outreach, recruiting, and
+interviewing for his alma mater which is  one of the hardest
+institutions to gain acceptance to in the USA. On the one hand, he had
+a great experience and wants to share that with others. On the other
+hand, he also recognizes that for even the best student he pitches to,
+he&amp;#39;s likely to be building them up for disappointment.&lt;/p&gt;
+&lt;p&gt;
+As a teacher who&amp;#39;s worked with fragile kids, I can tell you that
+you&amp;#39;ve got to tread lightly here. Setting kids up for failure is more
+than bad, it&amp;#39;s dangerous.&lt;/p&gt;
+&lt;p&gt;
+If it were up to me, I&amp;#39;d put the &amp;#34;you can start a company&amp;#34; out there
+but in the background and if you want to focus on jobs then put the
+focus there, on the job - the fact that you&amp;#39;ll be able to put bread
+on the table regardless of how the economy turns and yes, you will be
+able to start your dream company if you want but you don&amp;#39;t have to do
+it out of the gate. Build your network, your skills, and, very
+importantly for kids climbing out of poverty, your safety nets and
+then start that company.&lt;/p&gt;
+&lt;p&gt;
+So, where do I stand overall with this? Basically the same place I
+stood when I designed Stuy&amp;#39;s intro to CS course or, as more than a
+couple of friends have termed the course &amp;#34;stuff Z likes.&amp;#34; Yes, I want
+to motivate kids to go further in CS but I know the majority won&amp;#39;t and
+probably shouldn&amp;#39;t, after all, it takes a village. I want to provide
+that motivation while also providing value to the rest. &lt;/p&gt;
+&lt;p&gt;
+At a very broad, basic level, people in different disciplines look at
+the world through different lenses. K12 CS should expose students with
+what the world can look like through a CS lens and how all the
+different lenses can relate, complement, and support each other. It
+should also teach practical tech related skills that should benefit
+all students. I&amp;#39;m not talking &amp;#34;using a word processor&amp;#34; here but more
+so programming. Digital citizenship should also be included. With all
+this it should also expose all the students with enough info so that
+those that want to go further in tech or CS are both excited to and
+prepared to do so.&lt;/p&gt;
+&lt;p&gt;
+At Stuy, we found that this could be done in a one semester 10th grade
+class. We&amp;#39;ve hand a huge number of kids end up going into tech and CS
+and come back later to tell us that it wasn&amp;#39;t on their radar at all
+until they took the required course. I&amp;#39;ve also had plenty of kids who
+went into other fields proclaim that their intro CS experience at Stuy
+was still one of their most valuable classes ever. Of course, if
+you&amp;#39;re offering more classes over more grade it opens many other
+possibilities - embedding in other subjects, integrating classes and
+more.&lt;/p&gt;
+&lt;p&gt;
+At the end of the day we&amp;#39;ll have a larger pool and a more diverse pool
+of students going into tech and for the majority of students, who
+won&amp;#39;t do pure tech, they&amp;#39;ll be more tech savvy, be able to use the
+mental and practical tools of the trade to suport them in whatever
+their endeavors turn out to be. &lt;/p&gt;
+&lt;p&gt;
+So, CSforAll in K12 isn&amp;#39;t about jobs. It&amp;#39;s about exposure and teaching
+some fundamentals. Setting kids up so that they will have a better
+idea as to if they want to go into tech and if they do they&amp;#39;ll be
+better prepared while at the same time giving all students the
+fundamentals of CS both in terms of problem solving and looking at the
+world and practical skills. &lt;/p&gt;
+&lt;p&gt;
+The funny thing, is that on the higher ed side, I think they have to
+go the other way and become more responsive to job demands. In spite
+of the way so many CS programs are designed, the majority of kids have
+no intention of going on to a higher degree and CS is one of the few
+disciplines where there is a direct path from college to a well paying
+job and that shouldn&amp;#39;t be ignored. You can keep your academic rigor
+and purity but at the same time the programs that acknowledge that
+the majority of their students will benefit from specific tools and
+skills will better serve their students. Practical and real world are
+not dirty words.&lt;/p&gt;
+&lt;p&gt;
+So, I&amp;#39;ve rambled on for a while and probably been a little all over
+the place but you know what, education is all over the place. We&amp;#39;re
+talking about taking young people and preparing them for life and
+their life journeys. That means different things for different people
+and so it should be with K12 CS. Not entirely a jobs program but yes,
+jobs are on the radar. Not entirely CS for CS but that&amp;#39;s there too. So
+is integration and support of other subject areas and more.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Whiteboard interviews</title>

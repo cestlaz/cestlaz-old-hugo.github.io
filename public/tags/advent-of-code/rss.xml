@@ -6,10 +6,480 @@
     <description>C&#39;est la Z (Advent of Code)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Dec 2022 10:13:56 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 15 Dec 2023 14:40:23 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/tags/advent-of-code/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>Advent 2023 Day 15 - hash tables</title>
+      <link>https://cestlaz.github.io/post/advent-2023-day15/</link>
+      <pubDate>Fri, 15 Dec 2023 14:40:23 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/advent-2023-day15/</guid>
+      <description>&lt;p&gt;
+Haven&amp;#39;t written up the last few days but I thought &lt;a href=&#34;https://adventofcode.com/2023/day/15&#34;&gt;today&amp;#39;s&lt;/a&gt; Advent of
+Code problem was worth a few words. I might still go back and write up
+a few other ones, and who knows if I&amp;#39;ll finish any more problems - Is
+stopped around here last year. We&amp;#39;ll see.&lt;/p&gt;
+&lt;p&gt;
+I liked today&amp;#39;s challenge because it was a nice introduction to hash
+tables. Specifically, to solve the problem, you implement a simple
+open hash table. In some cases, you could use your languages built in
+hash table but then you&amp;#39;d have to already know something about it.&lt;/p&gt;
+&lt;p&gt;
+Part 1 had you do some parsing and calculating a hash function.&lt;/p&gt;
+&lt;p&gt;
+Part 2 required building a table of 256 items where each item held an
+unknown list of data items. Based on your input data, you had to
+either add a new item, delete an ite, or update the value of an item
+already in the table.&lt;/p&gt;
+&lt;p&gt;
+Basically a hash table.  Even though the question doesn&amp;#39;t explicitly
+say &amp;#34;hash table&amp;#34; it does define &lt;strong&gt;HASH&lt;/strong&gt; function* and calls the process
+you are going to perform the &amp;#34;Holiday ASCII String Helper Manual
+Arrangement Procedure, or &lt;strong&gt;HASHMAP&lt;/strong&gt; for short.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+Why do I like this problem. First off, it&amp;#39;s a nice and different way
+to introduce hash tables in a data structure classes but more
+importantly I think this type of approach can be used as a unit in a
+boot camp type class.&lt;/p&gt;
+&lt;p&gt;
+I can&amp;#39;t tell you how many boot camp developed programmers and PD
+trained teachers use built in hash tables with no understanding of
+their limitations or in some cases real power. They use them because
+they were taught them and they&amp;#39;re &amp;#34;easy.&amp;#34; Dictionaries in Python or
+Javascript become the universal hammer.&lt;/p&gt;
+&lt;p&gt;
+An approach like this can be built by a relative beginner in Python,
+Javascript or similar using the basic constructs, including built in
+dictionaries but then can give a platform to explore has tables more
+deeply. It can also be a platform to discuss variant data structures -
+a hash table, but you can&amp;#39;t just use the built in Python dictionary.&lt;/p&gt;
+&lt;p&gt;
+So, I&amp;#39;d recommend checking this one out.&lt;/p&gt;
+&lt;p&gt;
+The problem, once again can be found &lt;a href=&#34;https://adventofcode.com/2023/day/15&#34;&gt;here&lt;/a&gt; and my solution (in
+Clojure), &lt;a href=&#34;https://gitlab.com/zamansky/advent2023/-/blob/main/src/day15.clj?ref_type=heads&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advent 2023 Day 08 2 - checking the data</title>
+      <link>https://cestlaz.github.io/post/advent-2023-day-08-2/</link>
+      <pubDate>Fri, 08 Dec 2023 18:57:16 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/advent-2023-day-08-2/</guid>
+      <description>&lt;p&gt;
+I wanted to add a bit to &lt;a href=&#34;https://cestlaz.github.io/post/advent-2023-day-08/&#34;&gt;yesterday&amp;#39;s&lt;/a&gt; post.&lt;/p&gt;
+&lt;p&gt;
+Yesterday I wrote that for part 2 I just counted the cycles from each
+starting point. If you looked at my &lt;a href=&#34;https://gitlab.com/zamansky/advent2023/-/blob/main/src/day08.clj?ref_type=heads&#34;&gt;code&lt;/a&gt; you&amp;#39;d notice that I didn&amp;#39;t
+actually do that.&lt;/p&gt;
+&lt;p&gt;
+If you recall, nodes were identified by 3 letter codes. All nodes that
+end in an &lt;code&gt;A&lt;/code&gt; like AAA or BBA are start nodes and all nodes that end
+in a &lt;code&gt;Z&lt;/code&gt; are end nodes and we had to find the step, when starting
+simultaneously at all start nodes, that they all get to end nodes.&lt;/p&gt;
+&lt;p&gt;
+To actually find a cycle for a given start point we&amp;#39;d have to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Start at the start node&lt;/li&gt;
+&lt;li&gt;Follow the path until you get to an end node&lt;/li&gt;
+&lt;li&gt;Continue following until you get back to that first end node&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+I didn&amp;#39;t do that - my solution was simpler but it still
+worked. Further, if you read the problem statement, my solution
+shouldn&amp;#39;t have worked for all cases.&lt;/p&gt;
+&lt;p&gt;
+Why did I write it and why did it work?&lt;/p&gt;
+&lt;p&gt;
+Because we were able to explore our data before solving the problem.&lt;/p&gt;
+&lt;p&gt;
+That&amp;#39;s another thing I liked about this problem.&lt;/p&gt;
+&lt;p&gt;
+Sure, there are times when we&amp;#39;re writing a program to solve for some
+unknown but often we have data, or at least some of the data and we
+can explore it to help shape our programs.&lt;/p&gt;
+&lt;p&gt;
+In this case we can grab a start node and track it using our part 1
+solution, see how one or more &amp;#34;path&amp;#34; behaves and ultimately learn
+enough about the data to solve our problem.&lt;/p&gt;
+&lt;p&gt;
+I don&amp;#39;t know how often teachers get to work with students on problems
+where they can use data exploration to tune their solutions, This is a
+great example of one.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advent 2023 Day 08 - Ghost paths</title>
+      <link>https://cestlaz.github.io/post/advent-2023-day-08/</link>
+      <pubDate>Fri, 08 Dec 2023 08:25:27 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/advent-2023-day-08/</guid>
+      <description>&lt;p&gt;
+Today&amp;#39;s puzzle was just what I needed this morning. Made me think, but
+not too much :-).&lt;/p&gt;
+&lt;p&gt;
+You can find the problem &lt;a href=&#34;https://adventofcode.com/2023/day/8&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+Part 1 was pretty straightforward. You had a set of locations and for
+each location you could go left or right. So, for example, if node &lt;code&gt;AAA&lt;/code&gt;
+is defined as &lt;code&gt;AAA = (BBB,CCC)&lt;/code&gt; then, if your next instruction was &lt;code&gt;L&lt;/code&gt;
+or left, you&amp;#39;d go to BBB, if it was &lt;code&gt;R&lt;/code&gt;, then CCC. You had to follow
+the instruction list item by item and keep going until you got to node
+&lt;code&gt;ZZZ&lt;/code&gt;. If you got past the last instruction, you just repeat the
+instruction list again.&lt;/p&gt;
+&lt;p&gt;
+As I said, pretty straightforward. Just loop over the instructions
+updating your current location until you get to &lt;code&gt;ZZZ&lt;/code&gt;. The only minor
+issue is that managing your current instruction and looping back to
+the start again could be a bit hairy. Fortunately, in Clojure, we can
+just use the &lt;code&gt;cycle&lt;/code&gt; function which gives us an infinite sequence. For
+example if you run &lt;code&gt;(cycle &amp;#34;LRL&amp;#34;)&lt;/code&gt; you&amp;#39;ll get &lt;code&gt;LRLLRLLRL...&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+The ultimate ask was for the length of the path from AAA to ZZZ.&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s the core code I used:&lt;/p&gt;
+&lt;div class=&#34;src src-clojure&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-clojure&#34; data-lang=&#34;clojure&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (&lt;span style=&#34;color:#66d9ef&#34;&gt;loop &lt;/span&gt;[dirs (cycle direction-list)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;             current &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;AAA&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;             count &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;             ]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        (&lt;span style=&#34;color:#66d9ef&#34;&gt;if &lt;/span&gt;(=  current &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ZZZ&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          count
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          (&lt;span style=&#34;color:#66d9ef&#34;&gt;let &lt;/span&gt;[move   (first dirs)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                [l r]  (&lt;span style=&#34;color:#a6e22e&#34;&gt;graph&lt;/span&gt; current)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                next (&lt;span style=&#34;color:#66d9ef&#34;&gt;if &lt;/span&gt;(= move &lt;span style=&#34;color:#e6db74&#34;&gt;\L&lt;/span&gt;) l r)]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            (&lt;span style=&#34;color:#a6e22e&#34;&gt;recur&lt;/span&gt; (rest dirs) next  (inc count)))))&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Part two was a nice twist. Instead of going from AAA to ZZZ you had
+multiple starting paths - nodes that ended in &lt;code&gt;A&lt;/code&gt; and multiple ending
+nodes - nodes that ended in a &lt;code&gt;Z~&lt;/code&gt;. If you started a ghost at each of the
+&amp;#34;starting nodes&amp;#34; simultaneously and had them follow the instructions,
+at what step will they all get to a (possibly different) ending node
+together.&lt;/p&gt;
+&lt;p&gt;
+Clearly the search space was too big for brute force.&lt;/p&gt;
+&lt;p&gt;
+I thought about searching backwards for a minute but remembered that
+there were multiple &amp;#34;end&amp;#34; nodes so that wouldn&amp;#39;t do it but then I
+thought about cycles. Maybe this was just leaning on past Advent of
+Code problems but I figured that each start would cycle at some
+point. It had to since all the starts wouldn&amp;#39;t hit a Z initially at
+the same time - that would be too easy. I also figured that each start
+would cycle on the first &amp;#34;end&amp;#34; it hit and not go through multiple
+&amp;#34;end&amp;#34; nodes.&lt;/p&gt;
+&lt;p&gt;
+With that, the solution was easy. I reused my part 1 solution, just
+tweaking the start point and end conditions. That gave me the cycle
+length (which was easy to confirm).&lt;/p&gt;
+&lt;p&gt;
+I then found the cycle length for each starting node and foundthe
+least common multiple among them.&lt;/p&gt;
+&lt;p&gt;
+Problem solved.&lt;/p&gt;
+&lt;p&gt;
+Really enjoyed this one - required some thought but unlike a couple of
+earlier days am able to wrap things up before breakfast.&lt;/p&gt;
+&lt;p&gt;
+The complete code can be found &lt;a href=&#34;https://gitlab.com/zamansky/advent2023/-/blob/main/src/day08.clj?ref_type=heads&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advent 2023 Day 06 - multiple approaches to a problem</title>
+      <link>https://cestlaz.github.io/post/advent-2023-day-06/</link>
+      <pubDate>Wed, 06 Dec 2023 09:37:31 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/advent-2023-day-06/</guid>
+      <description>&lt;script type=&#34;text/javascript&#34;
+  src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&#34;&gt;
+&lt;/script&gt;
+&lt;p&gt;
+I haven&amp;#39;t and probably won&amp;#39;t write up problems 2 through 5 and to be
+honest, don&amp;#39;t know how many days I&amp;#39;ll go on solving this year. I
+thought that &lt;a href=&#34;thought today&amp;#39;s &#34;&gt;today&amp;#39;s problem&lt;/a&gt; was interesting enough for a write up so
+if you&amp;#39;re interested, keep reading. &lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s a link to the problem: &lt;a href=&#34;https://adventofcode.com/2023/day/6&#34;&gt;https://adventofcode.com/2023/day/6&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+And my solution(s) are &lt;a href=&#34;https://gitlab.com/zamansky/advent2023/-/tree/main/src?ref_type=heads&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+What I liked about today&amp;#39;s problem is that there are various, let&amp;#39;s
+say levels to the solution(s).&lt;/p&gt;
+&lt;p&gt;
+For part 1 you have a series of races. Each race has a time length and
+the record distance. You press the &amp;#34;accelerate&amp;#34; button for as long as
+you want and then release it which releases your toy boat.&lt;/p&gt;
+&lt;p&gt;
+In the example they give, the time is 7 and the record distance is 9.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th class=&#34;align-right&#34;&gt;Time you press&lt;/th&gt;
+&lt;th class=&#34;align-right&#34;&gt;Distance traveled&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&#34;align-right&#34;&gt;0&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;align-right&#34;&gt;1&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;align-right&#34;&gt;2&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;align-right&#34;&gt;3&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;align-right&#34;&gt;4&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;align-right&#34;&gt;5&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;align-right&#34;&gt;6&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;align-right&#34;&gt;7&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+So, if you press for 2, you only can travel for the remaining 5
+seconds but your speed will be 2, hence 10 traveled. When you press
+for 3 your speed becomes 3 but you only have 4 seconds to travel so 12
+distance. etc.&lt;/p&gt;
+&lt;p&gt;
+You have to figure out how many &amp;#34;press&amp;#34; options yield a distance
+greater than the distance they specify. In our case, they specified a
+distance of 9 so there are 4 times that are greater.&lt;/p&gt;
+&lt;p&gt;
+You&amp;#39;re given a list of races, each with a time limit and a record
+distance you&amp;#39;re trying to beat. &lt;/p&gt;
+&lt;p&gt;
+The first way a student might solve this is with straight
+simulation. Loop over each race and then for each race, loop over the
+distance to calculate the time. Straightforward and works and a &amp;#34;math
+phobic&amp;#34; student can get the job done.&lt;/p&gt;
+&lt;p&gt;
+The second way is by using a little math. One might notice that the
+distance traveled given the amount of time you &lt;strong&gt;press&lt;/strong&gt; and the &lt;strong&gt;time&lt;/strong&gt;
+of the race can be calculated using \(distance = press * (time - press)\)&lt;/p&gt;
+&lt;p&gt;
+Then for each race, you can loop over each time and use the
+equation. A small improvement and also a gentle introduction to how
+some basic math can clean things up.&lt;/p&gt;
+&lt;p&gt;
+Finally, one might notice that using that equation we&amp;#39;re looking to
+solve this relationship:&lt;/p&gt;
+&lt;div class=&#34;latex-block&#34;&gt;
+&lt;p&gt;\(press * (time - press) &amp;lt; record\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Which we can write as:&lt;/p&gt;
+&lt;div class=&#34;equation-block&#34;&gt;
+&lt;p&gt;\(press*time - press^2 &amp;lt; record\)&lt;/p&gt;
+&lt;p&gt;
+or&lt;/p&gt;
+&lt;p&gt;
+\(-press^2 + press*time - record &amp;lt; 0\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Which is a quadratic equation. If you look at the chart you&amp;#39;ll notice
+that the distance traveled start at 0, go up, and then return to 0. A
+parabola - the shape graphed by a quadratic.&lt;/p&gt;
+&lt;p&gt;
+We can map the above variable names to the more familiar
+\(ax^2+bx+c=0\) representation as follows:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Our variable&lt;/th&gt;
+&lt;th&gt;Quad variable&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;x&lt;/td&gt;
+&lt;td&gt;press&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;a&lt;/td&gt;
+&lt;td&gt;-1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;b&lt;/td&gt;
+&lt;td&gt;time&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;c&lt;/td&gt;
+&lt;td&gt;record&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+If one knows the quadratic equation, they can solve for the two
+roots. The solutions to our problem will be in between them. Yes, you
+have to be careful on the floating point issues with solving but
+it means just plugging in to a formula for each race.&lt;/p&gt;
+&lt;p&gt;
+The nice thing about this problem is it can be attacked in a few
+different ways. It also relates the CS solution to HS math and is a
+really nice way of showing how a quadratic can be useful.&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s the plan:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Have the students make a chart of time and distance  like we did up top&lt;/li&gt;
+&lt;li&gt;Chart the graph&lt;/li&gt;
+&lt;li&gt;Note it&amp;#39;s a parabola&lt;/li&gt;
+&lt;li&gt;Derive the first equation&lt;/li&gt;
+&lt;li&gt;Show how it&amp;#39;s a quadratic&lt;/li&gt;
+&lt;li&gt;Hilarity ensues&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Of course you could switch the order of a few steps, do it
+differently, or branch off afterwards.&lt;/p&gt;
+&lt;p&gt;
+Now, if a teacher doesn&amp;#39;t know the quadratic formula or about
+quadratics they couldn&amp;#39;t teach this way and that&amp;#39;s a limitation and a
+problem. Should a CS teacher know quadratics? Maybe, maybe not. I&amp;#39;d
+personally say they should. Regardless how much and what a teacher
+should know should be a bigger deal than it currently is, particularly
+in CS where there is far too much teaching to the script.&lt;/p&gt;
+&lt;p&gt;
+That, however, is for another day.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advent of Code 2023 Day 01</title>
+      <link>https://cestlaz.github.io/post/advent-2023-day-01/</link>
+      <pubDate>Fri, 01 Dec 2023 09:28:02 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/advent-2023-day-01/</guid>
+      <description>&lt;p&gt;
+It&amp;#39;s that time again. &lt;a href=&#34;https://adventofcode.com/&#34;&gt;Advent of Code&lt;/a&gt; 2023. A new two part programming
+problem each day from now through December 25th.&lt;/p&gt;
+&lt;p&gt;
+Since 2015 I&amp;#39;ve looked forward to the event, taken part, and posted at
+least a few write ups here on my blog. I figured this year would be
+the same.&lt;/p&gt;
+&lt;p&gt;
+Of course, it does end up putting a crunch in my routine. Usually each
+morning I wake up, work out, usually a run unless the weather&amp;#39;s bad,
+have my coffee, do the puzzle, read blogs and other content over
+breakfast and then I&amp;#39;m ready for the rest of my day.&lt;/p&gt;
+&lt;p&gt;
+Advent of Code adds another morning activity. Actually, maybe not this
+year since I broke a toe last week and am not allowed to work out for
+the foreseeable future.&lt;/p&gt;
+&lt;p&gt;
+So, this morning, I woke up, made coffee, worked on the puzzle (not
+quite done yet) and then looked at &lt;a href=&#34;https://adventofcode.com/2023/day/1&#34;&gt;today&amp;#39;s problem&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;
+To be honest, I was a little surprised. After reading it it seemed
+somewhat harder than past day 1 questions. It might have to do with
+the fact that I haven&amp;#39;t programmed at all since last years event and
+really not much in the past couple of years but still.&lt;/p&gt;
+&lt;p&gt;
+Usually the first days problem involves some straight through
+processing of the data without a whole lot of thought. After I
+completed today&amp;#39;s problem I looked back on past years adn actually,
+while this one is a bit more involved, it really isn&amp;#39;t that different.&lt;/p&gt;
+&lt;p&gt;
+Part 1 of today&amp;#39;s problem was a straightforward as past year. You&amp;#39;ve
+got a bunch of lines each with some digits interspersed:&lt;/p&gt;
+&lt;div class=&#34;src src-text&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;1bcc2
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;a1b2c3fgh4
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;etc.&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+You have to find the first and last digits in each line and take them
+as a number. For the above you&amp;#39;d have 12 for the first line and 14 for
+the second. You then had to sum all of those numbers up.&lt;/p&gt;
+&lt;p&gt;
+I thought the most straightforward way to do this was to go through
+the data and keep only the digits.&lt;/p&gt;
+&lt;p&gt;
+While I wrote my solution in Clojure, in Python for each line you
+could use an expression like this:&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[x &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; l &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; x&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;0&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;and&lt;/span&gt; x&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;9&amp;#39;&lt;/span&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Then you can just take the first and last items in the list, put them
+together and convert to a number:&lt;/p&gt;
+&lt;div class=&#34;src src-text&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;int(x[0]+x[-1])&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Finally, add all the lines together and you&amp;#39;re done.&lt;/p&gt;
+&lt;p&gt;
+Part 2 threw a wrench in the works.&lt;/p&gt;
+&lt;p&gt;
+Now, in addition to the digits counting as digits, spelled out digits
+(one, two, etc.) had to count as digits as well. Looking at the sample
+data, no problem:&lt;/p&gt;
+&lt;div class=&#34;src src-text&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;two1nine
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;eightwothree
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;abcone2threexyz
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xtwone3four
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;4nineeightseven2
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;zoneight234
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;7pqrstsixteen&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+One could just replace all occurences of &amp;#34;one&amp;#34; with &amp;#34;1,&amp;#34; &amp;#34;two&amp;#34; with
+&amp;#34;2,&amp;#34; and so on.&lt;/p&gt;
+&lt;p&gt;
+The catch was that you could also have overlapping numbers:&lt;/p&gt;
+&lt;div class=&#34;src src-text&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;9oneighthree9&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Should that be converted to &amp;#34;91839,&amp;#34; &amp;#34;91igh39,&amp;#34; &amp;#34;9on8hree9,&amp;#34; or
+&amp;#34;91839.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+This made things trickier - first, how do you interpret it and then
+how do you solve.&lt;/p&gt;
+&lt;p&gt;
+It turned out that you had to allow for overlapping words so the above
+example would translate to 91839.&lt;/p&gt;
+&lt;p&gt;
+My solution, in Clojure, which you can find &lt;a href=&#34;https://gitlab.com/zamansky/advent2023/-/blob/main/src/day01.clj?ref_type=heads&#34;&gt;here&lt;/a&gt; involves using
+overlapping regular expressions - I didn&amp;#39;t know about them so it took
+a while to figure that out.&lt;/p&gt;
+&lt;p&gt;
+Another approach, at least I think would be to replace the strings one
+at a time (first do the &amp;#34;one&amp;#34; occurences, then &amp;#34;two&amp;#34; etc.) but replace
+them with the digit within the original text. So, &amp;#34;one&amp;#34; would be
+replaced by &amp;#34;o1ne&amp;#34; or something similar. This way, if the final &amp;#34;e&amp;#34;
+was next to an &amp;#34;ight&amp;#34; you&amp;#39;d get that &amp;#34;eight&amp;#34; when you replaced for
+&amp;#34;eight.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+All of this isn&amp;#39;t too bad but probably required more thought than your
+typical advent of code day 1.&lt;/p&gt;
+&lt;p&gt;
+Still, a fun morning activity.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Advent 2022 - day 3 - sets</title>

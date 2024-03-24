@@ -6,10 +6,105 @@
     <description>C&#39;est la Z (projects)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Feb 2024 12:48:54 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/tags/projects/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>Real world projects or made up ones?</title>
+      <link>https://cestlaz.github.io/post/real-world-projects/</link>
+      <pubDate>Thu, 29 Feb 2024 12:48:54 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/real-world-projects/</guid>
+      <description>&lt;p&gt;
+There was a discussion to day on a the Facebook CS Educators group
+about project based learning. This was initiated based on the College
+Board&amp;#39;s desire to more more project work in some classes including
+APCS-A.&lt;/p&gt;
+&lt;p&gt;
+Most, actually I think all of the  educators on the forum agreed that
+students creating projects are a good idea but the bone of contention
+was over real world projects vs what I&amp;#39;ll call practice projects.&lt;/p&gt;
+&lt;p&gt;
+The thought is that a real world project would be a program that they
+might do if they were at a business - a complete web app for instance
+or a game, soup to nuts. A made up project might be implementing a
+sort or a data structure.&lt;/p&gt;
+&lt;p&gt;
+In the discussion some felt that all projects should be real world
+arguing that students will be more engaged. Others felt that while real
+world projects should be a goal, made up projects were more
+appropriate at times - like how you&amp;#39;ll practice etudes on a musical
+instrument when developing your chops rather than only ever working on
+a piece.&lt;/p&gt;
+&lt;p&gt;
+I don&amp;#39;t agree with the stance that real world projects are more
+engaging. Let&amp;#39;s take games - something always paraded out as real
+world and engaging. Sure, to kids who like computer gaming. Not so
+much for everyone else. Personally, I&amp;#39;m not huge on gaming and neither
+were many of my students. That said, enough were so that it made sense
+to explore game projects in some classes and to certainly allow them
+on appropriate open ended projects.&lt;/p&gt;
+&lt;p&gt;
+Let&amp;#39;s contrast that to made up projects. I&amp;#39;ve done assorted graphics
+projects and many had zero real world ramifications but many (not
+all) students found them super engaging. I&amp;#39;ve also frequently done a
+computer Caesar Cipher decoder. Many students found it very
+engaging. It wasn&amp;#39;t real world but it gave a level appropriate
+foreshadowing of a lot to come - proto-AI, proto-math, proto-stats.&lt;/p&gt;
+&lt;p&gt;
+Not real world but very engaging and I&amp;#39;d argue, more valuable than
+forcing a real world project that was less appropriate for what we
+were learning.&lt;/p&gt;
+&lt;p&gt;
+Besides, let&amp;#39;s look at some real, real world projects. Here are some
+projects that software engineers I know have worked on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;make a round button that launches an already built feature of our
+platform.&lt;/li&gt;
+&lt;li&gt;I changed my mind, make it more of a rectangle with rounded
+courners.&lt;/li&gt;
+&lt;li&gt;Move that UI component down 3 pixels and over 5.&lt;/li&gt;
+&lt;li&gt;Change all the calls in our code base to function f so that it no
+longer passes null as the final parameter so that it matches the
+new API spec.&lt;/li&gt;
+&lt;li&gt;Write a function to check a string to make sure it conforms to our
+input specification.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The list goes on. The truth is more real world programmers work on
+small bits of a larger system. They&amp;#39;re working in teams (something I
+think our students have to learn about, but not exclusively) on large
+systems. Very rarely does someone in the real world go from concept to
+completion all by themselves, although I think CS programs would
+better serve their students if they did teach this manner of &amp;#34;software
+architecting.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+So, really, real world can be fine but it&amp;#39;s not the be all and end
+all.&lt;/p&gt;
+&lt;p&gt;
+Some might mean &amp;#34;uses real world data&amp;#34; for real world and this can
+certainly work. I frequently assign data based projects - find a data
+source, collect it, clean it, and do something with it. If the
+students can find data they like that can be super motivating but
+again, it&amp;#39;s not a be all and end all. I&amp;#39;ve had students go nuts over
+writing a Mandelbrot set explorer - no data there and not real world
+but super exciting for some.&lt;/p&gt;
+&lt;p&gt;
+I haven&amp;#39;t even really addressed group work or solo but I think this
+post is long enough as it is.&lt;/p&gt;
+&lt;p&gt;
+The truth is, authentic assignments come in all shapes and sizes and
+can be inspired by all sorts of things. Real world, whatever that
+means can be great but are not always appropriate. In K12, most
+schools top out with CS0 (APCS-P or similar) or CS1 (APCS-A or
+similar) not much in the real world is CS0 level - real world data,
+real world ideas, yes but not real, real world. Made up assignments
+can be as good or better and freed from the constraints of real world
+can be much more appropriate for a students development and just as if
+not more motivating.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Rite Of Passage Projects</title>

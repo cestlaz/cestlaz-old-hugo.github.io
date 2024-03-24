@@ -6,10 +6,264 @@
     <description>C&#39;est la Z (CS Ed)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Aug 2022 15:38:55 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 09 Mar 2024 09:20:03 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/categories/cs-ed/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>The CS-Ed podcast - teaching college without a PhD</title>
+      <link>https://cestlaz.github.io/post/csed-podcast-teaching-with-masters/</link>
+      <pubDate>Sat, 09 Mar 2024 09:20:03 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/csed-podcast-teaching-with-masters/</guid>
+      <description>&lt;p&gt;
+It&amp;#39;s our third day in Charleston and we&amp;#39;re stuck in our hotel. Stormy
+rains and strong winds and a coastal flood alert telling everyone to
+stay home. Our car is in the parking lot with water halfway up the
+wheels.&lt;/p&gt;
+&lt;p&gt;
+We had tickets to go to the &lt;a href=&#34;https://iaamuseum.org/&#34;&gt;International African American Museum&lt;/a&gt; this
+morning but got an email saying they won&amp;#39;t be open until the afternoon
+and that our tickets would automatically be refunded.&lt;/p&gt;
+&lt;p&gt;
+So while waiting and hoping that the rain subsides and the parking lot
+drains I decided to listen to the latest episode of the &lt;a href=&#34;https://csedpodcast.org/ &#34;&gt;CS-Ed podcast&lt;/a&gt;
+hosted by Kristin Stephens-Martinez with guest Adam Blank. The title
+was &amp;#34;What is in a Teaching Faculty Job Title?&amp;#34; but it was really about
+teaching at the college level without a PhD. Adam, the guest, has been
+teaching full time at the college level with &amp;#34;only&amp;#34; a Masters. I say
+&amp;#34;only&amp;#34; because faculty without a PhD isn&amp;#39;t the norm. I in no way mean to belittle his
+degree or situation. I too &amp;#34;only&amp;#34; have a Masters in CS but, to be
+honest, as soon as I joined Hunter College&amp;#39;s faculty, I was the
+strongest teacher in the department and likely one of the strongest in
+the whole faculty. Maybe not the nicest, most popular, or charismatic
+but the strongest. Yeah, that maybe sounds a bit arrogant and
+egotistical but after my 26 years of self reflection and work to
+improve at my craft at the high school leve, I can say I&amp;#39;m one of the
+better teachers overall out there and K12 teachers, by and large are
+much better teachers than college faculty.&lt;/p&gt;
+&lt;p&gt;
+Anyway, you should give the podcast a listen, here&amp;#39;s a direct link to
+the episode (&lt;a href=&#34;https://csedpodcast.org/blog/s4e3_teaching_faculty_job_title/&#34;&gt;link&lt;/a&gt;) and here are some of my thoughts.&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Disclaimer:&lt;/strong&gt; Some of the things said on the podcast were given as the
+opinions of the host or the guest and at other times they were stating
+things that others have said. I&amp;#39;m doing my best not to mix those
+things up but apologize in advance if I do.&lt;/p&gt;
+&lt;p&gt;
+Both Kristin and Adam seem to believe that having a PhD doesn&amp;#39;t make
+you a better prepared teacher than just having a Masters. I
+wholeheartedly agree.&lt;/p&gt;
+&lt;p&gt;
+I agree with the sentiment but Kristin pushed back saying that one
+could get a PhD in CS Education.&lt;/p&gt;
+&lt;p&gt;
+I disagree with that push back on a number of fronts. First off,
+there&amp;#39;s still limited opportunities to do a PhD in CS Education,
+second, education degrees, at least in the circles I&amp;#39;ve been exposed
+to are sometimes not treated with the same respect as straight old
+hardcore CS degrees and that brings us back to the whole point of the
+podcast that a college instructor without a PhD shouldn&amp;#39;t be a second
+class citizen. Finally, there&amp;#39;s the whole problem with education
+education and education research.&lt;/p&gt;
+&lt;p&gt;
+Both Adam and Kristin felt that you can&amp;#39;t understand the
+research on education if you haven&amp;#39;t done any research and this
+understanding leads to one being a better teacher.&lt;/p&gt;
+&lt;p&gt;
+I guess it can, but much better is actually teaching and reflecting
+and acting on those reflections.&lt;/p&gt;
+&lt;p&gt;
+In general, education research is held in very low regard. It&amp;#39;s
+rarely reproduced and hardly ever accounts for the myriad variables
+that influence a class. An education researcher looks in from the
+outside and says &amp;#34;oh, this seems to work.&amp;#34; A teacher lives it and
+either adapts or dies (1/3 of teachers leave the profession within 3 years).&lt;/p&gt;
+&lt;p&gt;
+To put it another way. I like classic movies. I watch many of
+them. I&amp;#39;ve read analyses and taken classes. I&amp;#39;ve criticized
+performances and directorial choices. None of this will make me a good
+or even bettor actor, director, or cinematographer.&lt;/p&gt;
+&lt;p&gt;
+Even closer to home for me is that I was a competitive fencer. I
+watched other people train and bout and even studied film. None of
+that improved me. At best, it would inform me as to what to work on
+when I took lessons, practiced and competed but only with that
+practice and competition did I really improve.&lt;/p&gt;
+&lt;p&gt;
+Want to become a better teacher? Teach, get feedback, reflect, improve.&lt;/p&gt;
+&lt;p&gt;
+Something else that got me thinking along these lines was a comment
+Kristin made asking if teachers really needed to be up on the latest
+research or if it were enough for them to wait until that research
+were distilled into a teaching handbook.&lt;/p&gt;
+&lt;p&gt;
+It got me thinking on how many times I was given a different &amp;#34;true
+way&amp;#34; to teach based on the research.&amp;#39;&lt;/p&gt;
+&lt;p&gt;
+It also got me thinking about the typical teacher career
+path. Teachers are most &amp;#34;up&amp;#34; on the research when the graduate from
+their teacher education programs. When they&amp;#39;re new. It&amp;#39;s also when
+they&amp;#39;re at their worst as teachers. They quickly learn that their best
+instructors were the ones that said &amp;#34;this is what the research says,
+this is what your supervisor wants to see, and now we&amp;#39;ll talk about
+the reality of what you need in the classroom.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+The teachers that get better might read the current research but more
+likely they work on their craft, self reflect, and work with other,
+frequently more experienced teachers. Teaching is very much a craft
+and most of the master teachers you&amp;#39;ll find won&amp;#39;t be quoting the
+research but developed in this way.&lt;/p&gt;
+&lt;p&gt;
+This brings me back to the subject of the podcast. Our entire higher
+ed system has evolved into a hierarchical system focused on
+research. Even if you&amp;#39;re &amp;#34;teaching faculty&amp;#34; and don&amp;#39;t have many or any
+research obligations, there exists this caste system and there&amp;#39;s
+rarely anything in an institutions organizational structure to support
+faculty members becoming better teachers. Sure, some faculty members
+are great teachers and many work on their craft but it seems that
+teacher development is normally something that an instructor is left
+to do or not to do on their own.&lt;/p&gt;
+&lt;p&gt;
+With this system, there&amp;#39;s absolutely no reason not to have a teaching
+career path with the entry point being sufficient CS knowledge. I&amp;#39;d
+prefer that plus some background in how to teach it but that&amp;#39;s likely
+a bridge too far for now.&lt;/p&gt;
+&lt;p&gt;
+Even had I not been an experienced teacher, the biggest difference
+between me with my Masters in CS and the PhD&amp;#39;s I worked with is that
+they had super deep knowledge in some very narrow area of CS. This
+meant that maybe I couldn&amp;#39;t teach a small handful of super specialized
+400 level electives but in practice I could teach many of them and as
+my education and experience was more of a generalist, I could
+generally teach a wider swath of classes at the entry to mid level
+than many super specialized researchers.&lt;/p&gt;
+&lt;p&gt;
+The PhD is nothing special, or maybe it is special but no more so than
+someone who dedicated an equivalent number of years towards being a
+great teacher, a great software engineer, or a great a lot of other
+things.&lt;/p&gt;
+&lt;p&gt;
+Hopefully one day higher education will realize this.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Low Level CS in HS</title>
+      <link>https://cestlaz.github.io/post/low-level/</link>
+      <pubDate>Tue, 19 Dec 2023 09:31:44 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/low-level/</guid>
+      <description>&lt;p&gt;
+There&amp;#39;s been discussion recently about current CS student&amp;#39;s knowledge,
+or lack thereof of hardware. The discussion was spurred when &lt;a href=&#34;https://www.magesguild.io/the-decline-of-hardware-knowledge-in-the-era-of-cloud-native-compute/&#34;&gt;this&lt;/a&gt;
+article made it&amp;#39;s round in the CS Ed communities. My friend and fellow
+CS Ed Blogger Alfred Thompson gave his take &lt;a href=&#34;https://blog.acthompson.net/2023/12/how-much-hardware-knowledge-to-cs.html?spref=fb &#34;&gt;on his blog&lt;/a&gt;. I thought I&amp;#39;d
+share mine here.&lt;/p&gt;
+&lt;p&gt;
+First, let&amp;#39;s get some definitions straight. The original article
+wasn&amp;#39;t really talking about hardware. The author was really talking
+about what I&amp;#39;d call &amp;#34;low level&amp;#34; computer and programming
+concepts. Things like bit level operations, the internals of memory
+management and in fact memory management altogether, and things like
+interrupts and how system calls work.&lt;/p&gt;
+&lt;p&gt;
+When we&amp;#39;re talking hardware, we could be talking about a couple of
+things. It could be Information Technology (IT) hardware - putting
+together computers. Knowing interface standards like EIDE or the older
+SCSI. Networking technologies. We could also be talking about things
+that should be covered in robotics - wiring and programming an ATMEL, the
+processor under the hood on an arduino directly to control a device
+for example. Robotics, however, at the K12 level is usually more of an
+intro programming class with physical output instead of merely visual
+on a screen.&lt;/p&gt;
+&lt;p&gt;
+The question that arose was this: should any of these be covered in
+K12?&lt;/p&gt;
+&lt;p&gt;
+Let&amp;#39;s look at each in turn.&lt;/p&gt;
+&lt;p&gt;
+IT Hardware? Probably not, at least not across the board in all CS
+classes. Building computers and wiring your own networks were big in
+the 90s and turn of the century. Not so much anymore. You used to be
+able to purchase components at a variety of places but now, vendors
+have dwindled. At the same time, the market has consolidated and moved
+more towards laptops or smaller - platforms students can&amp;#39;t easily work
+on. On the other hand, this can be and should be a fun and great
+elective.&lt;/p&gt;
+&lt;p&gt;
+Low level robotics type hardware? Also, not in required classes but
+would be a great elective.&lt;/p&gt;
+&lt;p&gt;
+That brings us to the low level programming concepts. Once again, as
+an elective this can be great. In addition to covering some of this in
+the classes I designed at Stuy, I created and offered a System Level
+programming class that covered a lot of this. It was popular among the
+CS students and from what I was told, super worthwhile for those who
+went on to study CS or a related field in college.&lt;/p&gt;
+&lt;p&gt;
+What about for everyone else?&lt;/p&gt;
+&lt;p&gt;
+That&amp;#39;s the question. On the one hand, time is very limited. If a
+school offers or requires CS it might just be one semester or one
+year. You can&amp;#39;t cover everything in that amount of time. Also, as
+Alfred pointed out in his post, we don&amp;#39;t currently even have nearly
+enough knowledgable K12 CS teachers to teach the basics.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;d like to try to make a case though for including some of it.&lt;/p&gt;
+&lt;p&gt;
+Even though everyone uses computers these days, they can certainly be
+intimidating and feel like magic. People have no idea how they work. I
+joke with my students that if they unplug the keyboard quickly while
+typing they can shake some characters out of the cable. Teaching some
+low level CS concepts can demystify computers. Take away the
+fear. Just as learning some programming and algorithms can demystify
+the &amp;#34;magic&amp;#34; of recommendation systems and high level wonders, some low
+level knowledge can demytify how these computer things work inthe
+first place.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m not talking about going all &lt;a href=&#34;https://www.nand2tetris.org/&#34;&gt;Nand to Tetris&lt;/a&gt;. I&amp;#39;m also not talking
+about dropping in topics out of context. The College Board did this
+famously with binary, decimal, and hex. Without context it&amp;#39;s
+meaningless and worthless. Hunter, where I last taught did the same
+thing. They required binary, decimal, and hex in their CS0 course. I
+ignored it. The argument the professors gave was that the kids needed
+it when they took their first systems/architecture course. I asked
+them, &amp;#34;well, for all the students in all the other CS0 classes, they
+did cover the topic, did it really help?&amp;#34; The answer was &amp;#34;no, they all
+forgot and we had to reteach it.&amp;#34; So much for it being important in
+CS0.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m talking about a unit where you can get far enough to understand
+something memorable. I brought a bunch of HS students to a 45 minute
+talk once explaining how solid state memory worked. These kids had
+zero background and the speaker kept things at an informal level but
+after the 45 minutes, those kids understood at a basic level, how a
+flash drive stored information.&lt;/p&gt;
+&lt;p&gt;
+Another example is a unit developed for my intro course. The heavy
+lifting was done by a colleague and friend of mine - I can&amp;#39;t take the
+credit. The unit centered around a small assembly interpreter that he
+designed and built a web emulator for. Kids learned some logic gates,
+how you could do arithmetic and were also able to see how memory
+worked. The kids got to look behind the curtain. Sure, their laptop
+was a bazillion times more complicated but at their cores the same
+things were happening.&lt;/p&gt;
+&lt;p&gt;
+Now, the rub comes with resources and bang for your buck. Can you
+spend a couple of week on something like that? Do you have teachers
+who know enough to do it? If you do it, what other topic(s) can&amp;#39;t you
+cover.&lt;/p&gt;
+&lt;p&gt;
+If you&amp;#39;ve only got one semester with the kids, you&amp;#39;ve got to call your
+shots. I can&amp;#39;t say that low level CS is the most important thing to
+cover there but when there is time, I think it&amp;#39;s certainly
+worthwhile. On the other hand, if you have a year or more with your
+students, I&amp;#39;m pretty sure a creative teacher can come up with a way to
+get the basics in.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Teaching CS - How early and how often?</title>

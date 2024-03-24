@@ -6,10 +6,81 @@
     <description>C&#39;est la Z (predictions)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2023 10:47:39 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jan 2024 09:54:20 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/categories/predictions/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>Kicking off 2024</title>
+      <link>https://cestlaz.github.io/post/2024/</link>
+      <pubDate>Tue, 02 Jan 2024 09:54:20 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/2024/</guid>
+      <description>&lt;p&gt;
+Time to kick off 2024. I closed out 2023 the way I usually do - going
+to bed early but I didn&amp;#39;t start 2024 with a run like last year. I&amp;#39;m
+still nursing a broken toe and it&amp;#39;ll be a couple more weeks before I&amp;#39;m
+cleared for full activity.&lt;/p&gt;
+&lt;p&gt;
+I won&amp;#39;t make any predictions on what&amp;#39;s to come in CS Education in 2024
+but I thought I&amp;#39;d share a few things I&amp;#39;d be looking at.&lt;/p&gt;
+&lt;p&gt;
+The hot topic in and out of education last year was AI and that looks
+to continue throughout 2024. For general education the issue will be
+cheating on one side an how to leverage the technology on the
+other. For CS an interesting twist will be how teachers deal with AI
+enhanced programming environments. The interesting questions will be
+not only be how we either limit or enable to the tools but also we&amp;#39;ll
+probably see the start of a long term conversation as to what it means
+to teach programming. Nothing huge will change in this coming year but
+issues like the importance or lack thereof of understanding algorithms
+and data structures as opposed to using AI completion will start to
+surface as AI IDEs become more commonplace. Of course, in addition to
+the technical AI issues, the ethical ones ranging from uses to
+using private data for training are sure to be hot topics. &lt;/p&gt;
+&lt;p&gt;
+1Going back to School programming environments, that&amp;#39;s something else
+that I&amp;#39;ll be looking at. Over the past few years, tools like repl.it
+became extremely popular. A few months ago, though, repl.it removed
+it&amp;#39;s educational features leaving many teachers in the lurch. Repl.it
+was a hit because it could work on a chromebook, was free, and had
+great classroom features. It turns out that putting ones trust in a
+private company&amp;#39;s largess was probably not a great idea.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve always been wary of making my teaching reliant on outside
+entities and that&amp;#39;s something that I hope the greater CS community
+takes more seriously. I get it that many schools have few options -
+they have to use chromebooks and only approved software but having a
+well educated vocal community would be a start. &lt;/p&gt;
+&lt;p&gt;
+Speaking of educated communities, that&amp;#39;s a big one that I&amp;#39;ll be
+looking at - the preparedness of K12 CS teachers. This has been a drum
+I&amp;#39;ve been banging for a long time and will continue to do so.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve always believed that K12 CS teachers need to have a decent
+background in CS - something like a strong undergrad CS minor that
+goes at least a course beyond APCS-A and has some breadth. That&amp;#39;s how
+I designed Hunter&amp;#39;s CS teacher certification program.&lt;/p&gt;
+&lt;p&gt;
+It appears, however that I&amp;#39;m not the norm. NYSED created a system by
+which CS teachers with no knowledge can continue to teach CS for the
+next decade. I wrote about that &lt;a href=&#34;https://cestlaz.github.io/post/soce/&#34;&gt;here&lt;/a&gt;. I&amp;#39;ve also seen plenty of new
+certification programs come online that require no real CS knowledge
+in order for the participants to complete the programs.&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s alarming but deep down I think the ship has sailed.&lt;/p&gt;
+&lt;p&gt;
+There will be a few pockets of excellence in terms of preparing pre
+service teachers and a few deep CS professional development options
+out there but we&amp;#39;ll more often than not see weak CS accompanied by
+tangential education issues.&lt;/p&gt;
+&lt;p&gt;
+Right now, I think those will be the things I&amp;#39;ll be keeping my eye out
+for but who knows. Before ChatGPT hit, AI wasn&amp;#39;t on educators radar so
+you never know.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Kicking off 2023</title>

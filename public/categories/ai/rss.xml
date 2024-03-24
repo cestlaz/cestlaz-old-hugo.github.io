@@ -6,10 +6,211 @@
     <description>C&#39;est la Z (AI)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jan 2020 07:00:01 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 05 Mar 2024 09:58:42 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/categories/ai/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>Teachers want to teach AI but how will we teach the teachers?</title>
+      <link>https://cestlaz.github.io/post/teach-ai-teachers/</link>
+      <pubDate>Tue, 05 Mar 2024 09:58:42 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/teach-ai-teachers/</guid>
+      <description>&lt;p&gt;
+Saw &lt;a href=&#34;https://www.edweek.org/technology/how-young-is-too-young-to-teach-students-about-ai-survey-reveals-differing-opinions/2024/02&#34;&gt;this&lt;/a&gt; earlier as posted on Linkedin by Pat Yongpradit of
+code.org. According to the article, nine out of ten educators think
+that students should be taught how AI works prior to graduating from
+high school. How it works, not just how to use it. This is a good
+thing. Sure, opinions vary as to when to teach it - elementary, high
+school, or across the board but still, a good thing.&lt;/p&gt;
+&lt;p&gt;
+It did make me think though about a few things.&lt;/p&gt;
+&lt;p&gt;
+First, in a way this is really just saying &amp;#34;kids should learn computer
+science.&amp;#34; This too is a good thing but the bad thing is that a lot of
+people talking about learning about AI don&amp;#39;t get this.&lt;/p&gt;
+&lt;p&gt;
+AI isn&amp;#39;t some new magic mystically appearing. It&amp;#39;s algorithms applied
+on data on computers with a user interface. Sounds like CS to me, more
+specifically a subset of CS. Sure the data sets are HUGE and the
+algorithms, more complex than the bubble sort but at a technical
+level, it&amp;#39;s a next step.&lt;/p&gt;
+&lt;p&gt;
+AI applications can do some really impressive things but then so could
+earlier computer solutions.&lt;/p&gt;
+&lt;p&gt;
+AI can be filled with bias but computer systems have always been
+infused with our societal biases (and we have to do better).&lt;/p&gt;
+&lt;p&gt;
+AI can either take away jobs or enhance productivity but the same can
+be said with earlier computer innovations.&lt;/p&gt;
+&lt;p&gt;
+So, the call to teach how AI works is a good one but there&amp;#39;s a level
+of concern that people don&amp;#39;t see that in a lot of ways this isn&amp;#39;t a
+revolution but a next step and as my readers know, I fell we&amp;#39;ve gotten
+some serious things wrong in the roll out of teaching CS, without
+acknowledging that this comes from CS begs the question, what will we
+do differently, or more specifically better. &lt;/p&gt;
+&lt;p&gt;
+This brings me to my next thought, and this is the bigger one - if
+teachers are going to teach all our students how AI works, how are we
+going to teach all those teachers?&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s clear, at least to me, that the professional development, short
+form training model favored by so many for CSforAll efforts is far
+from ideal. It sets up content providers and politicians to be able to
+say &amp;#34;we&amp;#39;ve trained all our teachers in just &lt;code&gt;n&lt;/code&gt; years&amp;#34; with &lt;code&gt;n&lt;/code&gt; being
+some small number but the truth is, those teachers don&amp;#39;t really know
+what they&amp;#39;re teaching and are doing a disservice to their students in
+the long run &lt;sup class=&#34;footnote-reference&#34;&gt;&lt;a id=&#34;footnote-reference-1&#34; href=&#34;#footnote-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. We also see Computational Thinking efforts where
+elementary school teachers relabel things they already do with CT
+labels - debugging for error fixing, for example. This can be a
+stepping stone to true CT and CS concepts but I&amp;#39;ve seen
+implementations where just the labeling is considered good
+enough. Worse, at times the teachers delivering these CT enhanced
+lessons aren&amp;#39;t using the CT definitions correctly.&lt;/p&gt;
+&lt;p&gt;
+CSforAll in New York City has been going on for nine years. Some
+states are further along in bringing CS to their schools and some
+started later. Still, after a decade, we have an extremely &lt;strong&gt;long&lt;/strong&gt; way to
+go. The number of high school teachers that have a deep knowledge of
+CS and how to teach it still pales in comparison to other subject
+areas and while elementary school teachers don&amp;#39;t require the same
+depth of knowledge, they, in my opinion, as a group are also far
+behind where they should be when CS is a subject equal to all the
+others.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m not blaming anyone for this (other than what I already said about
+the acceptance and in fact enthusiasm of the short term PD model) but
+rather noting that creating a new subject area from whole cloth where
+those you intend to teach it never studied the subject themselves is a
+multi decade process.&lt;/p&gt;
+&lt;p&gt;
+What&amp;#39;s worth thinking about now though, is what are we going to do
+with AI? Are we going to double down on short form PD and pay lip
+service to this emerging technology? Are we going to make some serious
+decisions and decide that some meaty material has to be included in
+per service programs?&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m a skeptic. In a country where public school teaching is regularly
+derided and even in New York there&amp;#39;s talk about removing the Masters
+degree requirements I&amp;#39;m not hopeful. Will we, as a society, decide to
+do what&amp;#39;s right for all of our students or will we pay lip service
+while those who are well resources continue to get further ahead.&lt;/p&gt;
+&lt;p&gt;
+Time will tell.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr class=&#34;footnotes-separatator&#34;&gt;
+&lt;div class=&#34;footnote-definitions&#34;&gt;
+&lt;div class=&#34;footnote-definition&#34;&gt;
+&lt;sup id=&#34;footnote-1&#34;&gt;&lt;a href=&#34;#footnote-reference-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+&lt;div class=&#34;footnote-body&#34;&gt;
+&lt;p&gt;PD as a first step is often necessary and can be a good start
+but without meaningful long form preparation as a follow up it&amp;#39;s pure style over substance] &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hosting an AI panel at Stuy</title>
+      <link>https://cestlaz.github.io/post/ai-panel/</link>
+      <pubDate>Fri, 09 Feb 2024 11:15:47 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/ai-panel/</guid>
+      <description>&lt;p&gt;
+Went back to school yesterday. Specifically, I was back at Stuy
+running an AI panel discussion for the Stuy HS Alumni Association. I
+figured it&amp;#39;s time for me to get back in the CS / CS Ed game.&lt;/p&gt;
+&lt;p&gt;
+Plans started a few months ago when a member of my Stuy CS family
+who&amp;#39;s also in the SHSAA board asked about doing something. I was game
+but a little apprehensive, mostly because there have been, let&amp;#39;s say,
+issues with the way the SHSAA had operated in the past. Still, this
+was a new board with a new staff so I figured, worth exploring.&lt;/p&gt;
+&lt;p&gt;
+Turns out the new Alumni Association ED is a former student of mine so
+that rocketed the trust level of the association way up and we were
+off to the races.&lt;/p&gt;
+&lt;p&gt;
+Setting up any panel or tech event can be tricky. If you&amp;#39;re doing
+something for your own classes it&amp;#39;s much easier - you&amp;#39;ve got a good
+idea as to the classes experience as well as interest in whatever
+event you&amp;#39;re planning. A panel like this, not so much. I had no idea
+on the audience size but since it would be mostly Stuy grads along
+with a few Stuy students and a low cost or free event it meant that
+the room would be filled with nimble minds. The challenge was that
+those nimble minds would be all over the place with regards to tech
+experience. I was guessing we&amp;#39;d have adult tech pros and hard core CS
+people, students who were into CS just finding their way, adults
+wanting to learn more but who had no background in either CS or AI,
+and probably a few alumna who just wanted to show up for an alumni
+event. Turns out I think I got the audience range right.&lt;/p&gt;
+&lt;p&gt;
+How to make a panel for that? You want to be able to do something of a
+deep technical dive but you don&amp;#39;t want to lose the non-techies. You
+also want to spend time on all sorts of societal issues - talking AI
+is a lot more than just tensor flow, neural nets, transformers, and
+LLMs.&lt;/p&gt;
+&lt;p&gt;
+I reached out the my StuyCS family, my alumni network for four
+specific individuals. Oh, if you&amp;#39;re an AI person and part of the
+family and wondering why I didn&amp;#39;t ask you - remember - this was a live
+NY event so all you Pittsburgh, Seattle, and California AI folks,
+sorry - geography made that decision.&lt;/p&gt;
+&lt;p&gt;
+Alphabetically, first up was Ben - he was one of my technical
+heavyweights. I was confident he could handle any technical curveballs
+from the audience. He also has worked at both large companies and has
+built startups so he could also give some management and
+entrepreneurial context. Next, Doug - strong tech background but a lot of
+experience as a technical manager. Been at a number of major and minor
+companies from small to large. I figured he would anchor the
+business/manager side.  Eugene was third - another technical anchor to
+balance Ben but Eugene has more formal academic training and also
+spent his entire career in a single major tech company. Finally,
+Jamil who also brought startup and small/mid company experience but
+has always been big on civic tech and equity related issues.&lt;/p&gt;
+&lt;p&gt;
+Of course, all four overlapped. I joked that Jamil was the conscience
+of the panel but truthfully those societal issues were important to
+all of us. Likewise, all have had some managerial experience etc.&lt;/p&gt;
+&lt;p&gt;
+From the limited feedback I got so far, I think the mix worked. We
+started &amp;#34;defining&amp;#34; AI, modern AI, LLMs (in lay terms) etc. and then
+shifted to issues like the use of other peoples data in training, bias
+in AI, and of course, recommendations for the youngsters just getting
+started. The audience Q and A got more deeply into these issues along
+with future jobs issues and if it&amp;#39;s even worth learning to code
+anymore.&lt;/p&gt;
+&lt;p&gt;
+I won&amp;#39;t recap all the specifics but a highlight to me was how the
+panel painted the picture to show that while AI was new and shiny and
+is opening new doors with both opportunities and challenges, at the
+core, so many of the important issues are societal based, not
+technical. Ben mentioning that in a startup the big cost drivers are still
+things like personnel and that we&amp;#39;re still very much in the same
+startup/funding/scaling model just with new tech and Jamil and others
+emphasizing that it&amp;#39;s not that there are these new potential dangers
+with bias, for instance with AI but rather that the bias is already
+baked into our system and AI is the next frontier - a wake up call
+that we can&amp;#39;t just sprinkle some equity sugar on AI but rather have to
+deal with the hard societal issues.&lt;/p&gt;
+&lt;p&gt;
+All in all, I think it was a terrific event.&lt;/p&gt;
+&lt;p&gt;
+At the end I had a chance to informally spend time with both panelists
+and audience and it was great to see a number of old friends. Between
+the panelists and audience, I had students from the class of &amp;#39;95 up to
+some of my most recent graduates.&lt;/p&gt;
+&lt;p&gt;
+It was a fun first event to come out of my retirement hibernation. Not
+sure whats next but this one was both educational and fun.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>AI For All</title>

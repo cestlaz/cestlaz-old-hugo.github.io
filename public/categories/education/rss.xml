@@ -6,10 +6,82 @@
     <description>C&#39;est la Z (education)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Oct 2023 09:22:58 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 20 Feb 2024 15:49:24 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/categories/education/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>AI in the classroom - it really isn&#39;t that simple</title>
+      <link>https://cestlaz.github.io/post/ai-in-class-not-simple/</link>
+      <pubDate>Tue, 20 Feb 2024 15:49:24 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/ai-in-class-not-simple/</guid>
+      <description>&lt;p&gt;
+Earlier today, I saw a linkedin post by Code.org&amp;#39;s &lt;a href=&#34;https://www.linkedin.com/in/patyongpradit/&#34;&gt;Pat Yongpradit&lt;/a&gt;
+summarizing a series of articles on AI in K12 classrooms in Ed Week. I
+couldn&amp;#39;t get far into the articles due to paywall restrictions but
+Pat&amp;#39;s summary and the ensuing comments and discussion let me to
+writing this.&lt;/p&gt;
+&lt;p&gt;
+One thing that stuck out in the comments, and this has been a
+recurring theme in AI in K12 classroom discussions is that a teacher
+who allows students to use AI, teaches AI, etc. will be more effective
+than one who doesn&amp;#39;t.&lt;/p&gt;
+&lt;p&gt;
+While I&amp;#39;m against an AI ban and if I were still in the classroom I
+don&amp;#39;t doubt that I&amp;#39;d be exploring the tools, it&amp;#39;s not that simple.&lt;/p&gt;
+&lt;p&gt;
+Let&amp;#39;s look at elementary math education. When I was in grade school in
+the 70s, we learned our math facts, long division, and all sorts of
+things that were positively uncool when my kids were in school in the
+early 2000s. They didn&amp;#39;t learn there math facts and teachers had very
+different ways of approaching most of the topics. This struck me as,
+well, not good, so I started to talking to my students who had gone
+through this &amp;#34;new math&amp;#34; education as well as to parents.&lt;/p&gt;
+&lt;p&gt;
+While this wasn&amp;#39;t an official study, it certainly appeared that by the
+time kids who were educated in this newfangled way using all the new
+tools and tech were by and large more poorly prepared than students
+who either had an old school teacher who bucked the trend and did
+things the old way or had parents who supplemented on their own.&lt;/p&gt;
+&lt;p&gt;
+How does this relate to AI in the classroom? Well, a teacher only has
+so much time with their students and way more to teach than can
+realistically be done in the time allotted. So, teacher A focuses on
+the new hotness. Goes all in on AI - well, that&amp;#39;s great but
+something&amp;#39;s got to give. At the same time, teacher B doesn&amp;#39;t do the AI
+but goes old school - pen and paper and really focuses on teaching the
+kids to write - that is - communicate effectively.&lt;/p&gt;
+&lt;p&gt;
+Fast forward a few years and teacher A&amp;#39;s kids are proficient in what
+was modern AI a few years ago. Maybe this will be a tremendous boon
+but maybe we&amp;#39;ve moved on to the next thing. Teacher B&amp;#39;s kids, on the
+other hand are stronger communicators regardless of medium.&lt;/p&gt;
+&lt;p&gt;
+Who&amp;#39;s better off? Maybe A&amp;#39;s kids, Maybe B&amp;#39;s.&lt;/p&gt;
+&lt;p&gt;
+To make things more complicated, teachers have not been educated in AT
+and neither have administrators and just adding more and more to
+teachers plates is both unjust and not sustainable. &lt;/p&gt;
+&lt;p&gt;
+This hypothetical has played out before - with elementary math,
+calculators, writing across the curriculum, CS4All and more. Over and
+over again. There&amp;#39;s no simple answer. I wasn&amp;#39;t sure that calculators
+were the way to go back when they came in. I&amp;#39;m still not and even if
+they were the right move, why are kids and schools still forking money
+over to TI when there are free and better alternatives on phones and
+computers? Writing across the curriculum? Great idea but nobody carved
+out anything from my required curricula to make room for it and while
+I&amp;#39;d like to think I could do it, I&amp;#39;ve got nothing to show in my work
+history or education to say that I was qualified to teach effective
+writing.&lt;/p&gt;
+&lt;p&gt;
+Yes - let&amp;#39;s work on AI policies - hopefully informed by people who
+know both the tech an the teaching but let&amp;#39;s not be so fast to say
+that a teacher who embraces AI is good while one who does not is bad.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The State of Developer Education podcast</title>

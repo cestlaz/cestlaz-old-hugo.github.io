@@ -6,10 +6,220 @@
     <description>C&#39;est la Z (testing)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 Mar 2024 15:15:57 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/tags/testing/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>The SAT - should it be required</title>
+      <link>https://cestlaz.github.io/post/sat-required/</link>
+      <pubDate>Mon, 11 Mar 2024 15:15:57 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/sat-required/</guid>
+      <description>&lt;p&gt;
+I saw a few days ago that Yale was reinstating the SAT. They&amp;#39;re
+joining Dartmouth and Brown of the Ivies as well as MIT. I have no
+idea what percent of applicants, let alone percent those receiving
+offers, took the exam anyway for other school applications.&lt;/p&gt;
+&lt;p&gt;
+Some of my friends thought this was great - a return to standards!!!!
+Others felt it was a regressive move and it will hurt diversity and equity.&lt;/p&gt;
+&lt;p&gt;
+For me, I think it&amp;#39;s all about branding.&lt;/p&gt;
+&lt;p&gt;
+As my friends know, I&amp;#39;m no fan of the college board. They make
+standardized tests and do their best to both make money and to influence
+education through programs like the SAT/PSAT and the AP
+program. Many have noted that a high SAT score is &lt;strong&gt;not&lt;/strong&gt; a reflection of
+intelligence but rather of income. This makes sense. Children from
+well to do backgrounds will have better educational opportunities,
+more support at home, and be better prepared for a standardized
+test. It also makes sense that these students will be better prepared
+to face college where life is less forgiving than high school. It&amp;#39;s
+not fair and it&amp;#39;s not right, but well to do kids are better set up for
+college success.&lt;/p&gt;
+&lt;p&gt;
+If I had my druthers, both the SAT and the College Board would just go
+away.&lt;/p&gt;
+&lt;p&gt;
+That said, let&amp;#39;s dive in to why I believe that the whole SAT required vs SAT
+optional isn&amp;#39;t really about building an incoming class, equitable or
+otherwise, but rather about image and branding.&lt;/p&gt;
+&lt;p&gt;
+For &amp;#34;elite&amp;#34; institutions, image and branding is huge. The truth is,
+you can get a class for class equivalent education from a second or
+third tier school as you can from Harvard at a fraction of the
+cost. You can&amp;#39;t get the resources that Harvard provides due to its
+immense wealth nor can you get the old boys club connections nor the
+name that opens doors even if you&amp;#39;re less than competent. I&amp;#39;ve seen
+this time and time again in industry where a candidate from an Ivy or
+similar will get offers, opportunities and promotions while just not
+being that good whereas someone from a no-name school has to actually
+be good (yes, I know plenty of Ivy students are actually quite good
+but I&amp;#39;ve met plenty of dopes).&lt;/p&gt;
+&lt;p&gt;
+Go SAT optional and you appease your more liberal fans. SAT required?
+The elitists and &amp;#34;meritocracy&amp;#34; crowd will cheer.&lt;/p&gt;
+&lt;p&gt;
+Image and PR win the day.&lt;/p&gt;
+&lt;p&gt;
+Take CS50 for example. It&amp;#39;s the golden CS0 course with all the hype
+but if you look more closely it&amp;#39;s a flawed implementation of a flawed
+course. Not horrible but nothing special. It wins because it&amp;#39;s from
+Harvard&amp;#39;s rep and ballyhoo - a charismatic barker at the helm and a
+class filled with students preculled to succeed by Harvard&amp;#39;s admission
+process. Nevermind the huge waits for TAs when projects are due or all
+that cheating we heard about a couple of years ago. It&amp;#39;s Harvard and
+it has hype so it&amp;#39;s good.&lt;/p&gt;
+&lt;p&gt;
+Same for the SAT. You&amp;#39;ve got a high SAT cut off? You must be elite!!!&lt;/p&gt;
+&lt;p&gt;
+Elite institutions can shape their incoming classes however they
+want. A few years ago Harvey Mudd proudly achieved gender parity in
+CS. Now, Harvey Mudd could have and probably did make some changes in
+what they did once students were in their walls, but let&amp;#39;s look at
+shaping the incoming class.&lt;/p&gt;
+&lt;p&gt;
+I found data for  accepted students for Harvey Mudd online. I didn&amp;#39;t check the
+year - it doesn&amp;#39;t matter. Here are the raw numbers:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th class=&#34;align-right&#34;&gt;Applied&lt;/th&gt;
+&lt;th class=&#34;align-right&#34;&gt;Offered&lt;/th&gt;
+&lt;th class=&#34;align-right&#34;&gt;Enrolled&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Men&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;2931&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;271&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;116&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Women&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;1509&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;322&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;121&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+That&amp;#39;s  13% acceptance rate and a 40% yield.&lt;/p&gt;
+&lt;p&gt;
+They also boasted a 3.96 GPA and an average SAT score of 1520.&lt;/p&gt;
+&lt;p&gt;
+Note that more women were both offered and accepted in spite of only roughly
+half the number applying. I don&amp;#39;t have older stats but I guess 10
+years ago the offers skewed more male.&lt;/p&gt;
+&lt;p&gt;
+With just a 13% acceptance rate and Harvey Mudd&amp;#39;s reputation it&amp;#39;s easy
+to imagine that a HUGE number of qualified applicants were rejected. I&amp;#39;ve never
+looked at the numbers for Harvey Mudd applicants from Stuy but
+typically, for elite schools, far more qualified applicants are
+rejected from Stuy than are accepted. In any year, I might have five
+students accepted to say MIT, another 20 or more  that were clearly qualified
+and capable of doing great and a handful that probably were right to
+be rejected. What&amp;#39;s more, each year there were some rejected and the
+teachers all wondered, how did person &lt;strong&gt;A&lt;/strong&gt; get accepted when person &lt;strong&gt;B&lt;/strong&gt; didn&amp;#39;t.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m betting it&amp;#39;s the same in general for the application pools for all
+&amp;#34;elite&amp;#34; institutions. All Harvey Mudd had to do was skew their offers
+more female noting that the applicants they offer should have an
+inclination to go the CS route. They could do the same for minority
+applicants. None of this really changes the big picture. They&amp;#39;re just
+rearranging the deck chairs on the titanic - grabbing the high
+performing CS inclined women who might otherwise go to, let&amp;#39;s say
+Stanford or Berkeley.&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s like a friend who once lamented to me that even though the FANG
+companies (yes, old acronym - old conversation) made all sorts of
+claims about equity and diversity, their equity hiring program though
+consisted of out battling the other FANG companies for the handful of
+black CS students at &amp;#34;elite&amp;#34; universities.&lt;/p&gt;
+&lt;p&gt;
+Harvey Mudd or any of these institutions could probably keep the
+handful of &amp;#34;superachievers&amp;#34; - Westinghouse winners, IOI and IMO team
+members etc. from their class offers, throw everyone else out take the
+next &lt;code&gt;n&lt;/code&gt; students in and the class would probably be remarkably similar
+and perform just as well. They could probably even do this a second
+and maybe a third time.&lt;/p&gt;
+&lt;p&gt;
+They can shape the classes however they want to achieve whatever look
+or result they want.&lt;/p&gt;
+&lt;p&gt;
+They can even let in students that require more academic support and
+still end up fine. All those division one athletes that didn&amp;#39;t &amp;#34;come
+here to play school&amp;#34; are prime examples (of course, there are plenty of
+D1 athletes that &lt;strong&gt;did&lt;/strong&gt; come to play school and are terrific students) -
+they&amp;#39;re shunted to easier majors and receive &lt;strong&gt;huge&lt;/strong&gt; amounts of support
+that regular students can&amp;#39;t dream of.&lt;/p&gt;
+&lt;p&gt;
+Malcom Gladwell once wrote that the only fair way to form Harvard&amp;#39;s
+incoming class would be for them to take &lt;strong&gt;all&lt;/strong&gt; the qualified applicants,
+put them in a hat, and randomly select the offers. He was right and
+given the way colleges run their processes they can do what they want
+and come up with whatever they want, SAT or not.&lt;/p&gt;
+&lt;p&gt;
+Okay, so given this, it should be clear that requiring the SAT or not
+is really a nothingburger but I&amp;#39;ll go further and say all requiring it
+does is that it puts stress on high school students and money into the coffers
+of the college board. It doesn&amp;#39;t really give you a &amp;#34;stronger&amp;#34; incoming
+class, at least not if your admissions office is actually doing its
+job.&lt;/p&gt;
+&lt;p&gt;
+I spent my years at Hunter reading applications for my undergraduate
+CS honors program. I also spent a few years reading applications for
+the Macaulay Honors College - CUNY&amp;#39;s elite branch.&lt;/p&gt;
+&lt;p&gt;
+For the first few years, we looked at SAT scores. For me, they were
+only useful for one thing - a very coarse math cull. My students were
+all coming in as intended CS majors. That meant they would have to
+take calc 1, calc 2, discrete, linear and a couple more math
+classes. If a student had a very low SAT math score, it was a red
+flag. SAT score didn&amp;#39;t really tell me more than that.&lt;/p&gt;
+&lt;p&gt;
+Even then, I had to match this against transcript data. If a kid was
+struggling with geometry in 11th grade, they&amp;#39;ll probably struggle with
+calc as a freshman so maybe not a good fit for my program. In fact,
+the transcript information - what class, what grade, and what year was
+&lt;strong&gt;far&lt;/strong&gt; more valuable than SAT score in determining if a student was
+prepared for my program.&lt;/p&gt;
+&lt;p&gt;
+Now you might argue that high school grades are inconsistent and not
+every state has course level standardized testing like the New York
+State Regents Exams. I&amp;#39;ll tell you what, it doesn&amp;#39;t matter.&lt;/p&gt;
+&lt;p&gt;
+In very short order, I got to know schools and classes. I also got to
+know recommendation writers. By year three I knew what a grade in a
+given class meant for most schools in my applicant pool and how to
+read the recs. Sure, I&amp;#39;d have to merge in students from unknown
+schools but after a while you get a feel. The SAT was a nice little
+crutch but wholly unnecessary.&lt;/p&gt;
+&lt;p&gt;
+But, you say - you only had a few hundred applications and they were
+mostly local. Harvard and MIT have applicants from all over the world.&lt;/p&gt;
+&lt;p&gt;
+Yeah, they also have big admission offices with full staffs. I know
+that the &amp;#34;elite&amp;#34; colleges have specific people who read applications
+for sets of schools. Over the years, I&amp;#39;ve met the people who read
+Stuyvesant&amp;#39;s applications from a few of these institutions. Like me,
+they knew what the courses meant at Stuy and their other schools and
+they also knew the recommenders - who were straight shooters, who
+dialed it in etc…. As they say &amp;#34;you gotta know the territory&amp;#34; and they
+did. I won&amp;#39;t name  names or schools but I bet if you honestly asked
+these readers that I&amp;#39;ve met if they really needed SAT scores to make a
+decision, they&amp;#39;d say no.&lt;/p&gt;
+&lt;p&gt;
+So, there you have it. SAT or no SAT? I&amp;#39;d be happy to get rid of it
+but everyone should recognize that it&amp;#39;s really about image and not
+about forming an equitable and/or diverse incoming class. Colleges can do that
+already it&amp;#39;s just that many don&amp;#39;t really care to.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Unit Tests Grading Workflow</title>
