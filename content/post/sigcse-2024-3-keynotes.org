@@ -1,0 +1,98 @@
+---
+title: SIGCSE 2024 - keynotes
+date: 2024-03-24T10:29:30-04:00
+tags:
+- SIGCSE
+categories:
+- SIGCSE
+draft: false
+--- 
+
+I wrote about the first keynote in my [[/post/sigcse-2024-1/][day 1 post]]. Today I'll talk
+about two more. There were two additional keynotes during luncheons
+but I didn't attend those.
+
+First up was Jane Plane titled "Find Your Drop and Add to the River." Strong
+keynote but it spoke to me in a very different way than the fist
+keynote. The first keynote was maybe the first talk I've heard by
+someone thought of as an education expert who actually spoke the
+measured truth rather than eduspeak propaganda. This keynote resonated
+as I've recently been thinking a lot about the drops I've either
+contributed or failed to contribute to the CS Education cause.
+
+"Drop by drop a river is made" was the lead quote. It's a translation
+of an Afghan proverb. Plane's plea was for us all to find our drops to
+contribute and when dealing with CS Educations major issues -
+diversity, equity, and inclusion - it's going to take all of us adding
+our drops and while any one action might seem insignificant, they add
+up over time.
+
+The talk started with Plane's journey. How she had the opportunity to
+and then actually built the first Masters in CS program in Africa and
+then later did built similar programs in Afghanistan. She also spoke
+of the drops she added at Maryland and now in Wisconsin. One might say
+that not everyone will have those opportunities but the truth is, most
+people, if they did have them, probably wouldn't have taken them nor
+accomplished as much. Regardless, even more mundane sounding drops can
+big time contribute to the river.
+
+In the first keynote, Todd Zakrajsek told of how he almost dropped out
+of college but the right words at the right time from one single
+professor changed the course of his life. Without those words, none of
+his drops would have been added.
+
+In the micro-teaching session, one instructor mimed an interaction he
+had with a student. Before "class" he asked what the student planned
+to do after college. She said, she wasn't sure. The instructor
+encouraged her to come to office hours to discuss. The "student" was
+at my table and said afterwards that the interaction was real and
+ultimately it what led to her becoming a CS educator. That's a lot
+more drops.
+
+The other day I noticed a comment on LinkedIn by my friend Leigh Ann
+DeLyser. Leigh Ann commented about the number of "multipliers" at
+SIGCSE. Made me think of the fact that teachers in general are
+tremendous multipliers. One word can send a child in one direction or
+another and the drops we add can turn into streams or more. As a high
+school teacher, I was charged with 150 or so students each
+semester. If even a small number, say, become teachers themselves, or
+go into tech and as a result of my classes pay more attention to DEI,
+well, that's one drop that's turned into a steady flow. We might not
+all be creating new programs in other countries but every teacher has
+an opportunity to be a tremendous influencer. We just don't get credit
+on the internet.
+
+The other keynote I attended was given by Rachel Rose of ILM. The talk
+started as a journey talk - from early interests through college and
+ultimately to ILM. One point was when Rose emphasized that
+she collaborated more in her CS classes than in her other
+classes. This was interesting. It makes sense - particularly in
+project based courses but flies in the face of the stereotypes. It's
+also interesting in light of the ongoing tensions in schools between
+collaboration, individual assessment, and academic honesty.
+
+The second part of the talk was a showcase and inside look into the
+technologies Rose's team developed at ILM for use in productions like
+"The Mandalorean", "Solo," and others.
+
+Next up was a talk about the Academy Software Foundation. How the
+movie industry banded together to form a foundation and how each major
+studio contributed open source platforms. Now the industry can use
+standards and tools like materialx, opencolorio, and openfx. You can
+chcek out ASFW [[https://www.aswf.io/][here]]. Looks really cool and having all the major
+players rally around the virtues of open source is really cool. My
+only issue with them is that their logo has an open comment with no
+close comment and that just bothers me.
+
+The final theme, which appeared throughout the talk was the industry's
+work to increase diversity. A major point Rose made was that
+youngsters have no idea as to what they can do within the movie
+industry. Neither do they understand the educational path from school
+to Hollywood be it in tech, the arts, or some hybrid of both. 
+
+All three keynotes were strong. All conveyed worthwhile messages and
+all were delivered in an entertaining way.
+
+Good job SIGCSE2024!!!!
+
+Still to come - BOFS, Panels, and Paper sessions.
