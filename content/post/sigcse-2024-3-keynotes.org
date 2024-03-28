@@ -13,7 +13,7 @@ about two more. There were two additional keynotes during luncheons
 but I didn't attend those.
 
 First up was Jane Plane titled "Find Your Drop and Add to the River." Strong
-keynote but it spoke to me in a very different way than the fist
+keynote but it spoke to me in a very different way than the first
 keynote. The first keynote was maybe the first talk I've heard by
 someone thought of as an education expert who actually spoke the
 measured truth rather than eduspeak propaganda. This keynote resonated
@@ -79,7 +79,7 @@ Next up was a talk about the Academy Software Foundation. How the
 movie industry banded together to form a foundation and how each major
 studio contributed open source platforms. Now the industry can use
 standards and tools like materialx, opencolorio, and openfx. You can
-chcek out ASFW [[https://www.aswf.io/][here]]. Looks really cool and having all the major
+check out ASFW [[https://www.aswf.io/][here]]. Looks really cool and having all the major
 players rally around the virtues of open source is really cool. My
 only issue with them is that their logo has an open comment with no
 close comment and that just bothers me.
