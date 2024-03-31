@@ -1,0 +1,144 @@
+---
+title: SIGCSE 2024 - Panels
+date: 2024-03-25T14:23:03-04:00
+tags:
+- SIGCSE
+categories:
+- SIGCSE
+draft: false
+--- 
+
+I generally enjoy both panels and special sessions at SIGCSE over
+paper sessions. Don't get me wrong, paper sessions can be great but
+with those you can always read the paper and all to frequently there's
+not a lot of value added beyond the paper itself. Panels and special
+sessions can't just be read in the proceedings.
+
+For one panel session I had to choose between
+
+#+begin_quote
+Enduring Lessons from ‘Computer Science for All’ for AI Education in Schools
+#+end_quote
+
+and
+
+#+begin_quote
+AI in Computing Education from Research to Practice
+#+end_quote
+
+I opted for the latter. The panel was interesting but not what I
+expected it to be based on the title and description. The moderator
+provided a list of questions and the audience voted to order them
+using an app. The moderator then asked the top ranked questions along
+with additional audience questions.
+
+Many of the questions went over what is now well trodden ground - will
+kids go into CS if AI will take their jobs? How can kids be motivated
+to learn to program since they have AI assistents? How can we detect
+the use of AI tools in assignments? What are useful current AI tools?
+Not a lot new here.
+
+Still there were some interesting points that came up.
+
+One panelist discussed how through the use of AI early CS classes, CS0
+and CS1 can get much further - student can do more advanced work more
+quickly. I started to wonder - has anyone actually checked this? I
+mean, yes it's easy to see that they can get through more material but
+do they learn it? Have the later courses been adjusted to accomodate?
+Has anyone studied the AI enhanced CS0/1 students vs those without it
+in CS2?
+
+I've seen countless times where students seemingly achieve advanced
+results through the use of libraries and other tools along with
+extreme coaching. Many code schools as well as some highly lauded
+youth programs do this but the students invariable have little
+retention and hit a wall or regress soon after the class or camp ends.
+
+Now I'm not saying that you can't make a better early CS experience
+with AI. I'm just saying that one, it's not as easy as saying "they
+can do more" and two, the jury's still out.
+
+Another "positive" the panel brought up was that LLMS can help or
+guide students at scale - LLM based TAs and tutors. Now, I'm all for
+adding resources for students but people can be so hyped for some new
+technology they miss the problems. In this case, adding LLM based
+tutors to hide a courses shortcomings - something I wrote about
+dealing with CS50 [[https://cestlaz.github.io/post/ai-replace-teaching/][here]]. Another potential danger I see is using LLM
+based teachers and tutors to replace human interaction.
+
+Another concern that came out of the panel when a panelist claimed
+that AI tools will allow for the creation of a "curriculum in a box" -
+the panelist framed this as a good thing - a school could offer a
+class they otherwise couldn't but I read it as another sign of the
+deterioration of the craft of teaching.
+
+I'll end my thoughts on this panel though with an LLM strength - that
+they can be multilingual. I haven't seen this exploited yet but this
+could certainly be a boon.
+
+My second panel was
+
+#+begin_quote
+Data Science and Computer Science in K-12
+#+end_quote
+
+The panel started with an interesting fact. In 2020 no states had
+anything in their requirements or standards dealing with data
+science. Now in 2024, nineteen do. That's some pretty fast growth.
+
+The panelists brought up a number of issues:
+
+- Data Science and Computer Science frequently overlap
+- Data Science provides opportunities to develop CS skills
+- CS has DS in their standards but frequently they need to be expanded
+  on
+- The question as to if DS (and CS) should be standalone classes or
+  embedded in other subject areas
+
+It's doubtful that data science will spin off into its own discipline
+in K12. It's much more likely to be integrated into other subjects but
+the placement of data science and computer science is an interesting
+one. Currently, the trend in the early grades is integration. In the
+later K12 grades you've got mainstream players like the College Board
+with standalone classes like APCS-A and APCS Principals but also
+integration efforts like [[https://www.bootstrapworld.org/][Bootstrap]] which integrates into classes like
+high school algebra.
+
+Now, in general I'd love to see more subject integration but looking
+at CS in particular, at least at the high school level, I've always
+pushed for separate classes.
+
+Why? Well, first off, separate classes means separate teachers and
+ultimately departments. Yes, this further silos the system but without
+it, schools won't have long term advocates for compute science and the
+subject will be permanently relegated to second class citizen.
+
+Another problem with integration is that subject teachers are
+overloaded as it is. Now, a science teacher or history teacher might
+already be doing some data science and can just relable things but CS
+is another matter.
+
+At the panel, I thought of another reason. What happens when the
+curriculum changes? Bootstrap is integrated into a typical algebra
+curriculum. What happens when the curriculum changes. On the one hand,
+if the curriculum is just tweaked, things will probably be fine but
+what if there are bigger changes. Over the course of my career there
+were changes to both the Geometry and Algebra 2 and Trig
+curricula. Big enough that if the embedded curriculum is scripted and
+the teacher doesn't really know the CS well, that add on is going out
+the window. This will likely be the case with minor changes - moving
+or removing a single unit or changing an emphasis but what about
+bigger changes - adding calculators in math or the types of changes
+we've seen in APCS-A over the years.
+
+This isn't even counting major changes like when we went from Algebra
+to integrated math to a new version of integrated math back to Algebra
+all in my career.
+
+This is all to say that integration probably isn't sustainable if you're just
+providing a drop in and some PD. It can work if the teachers are truly trained to
+know both their core subject and the CS or DS but that's a big ask.
+
+So those are my thoughts on the two panels I attended. Good stuff and
+good food for thought. Next up paper sessions.
+
