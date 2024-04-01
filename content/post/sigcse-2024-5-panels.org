@@ -100,7 +100,7 @@ in K12. It's much more likely to be integrated into other subjects but
 the placement of data science and computer science is an interesting
 one. Currently, the trend in the early grades is integration. In the
 later K12 grades you've got mainstream players like the College Board
-with standalone classes like APCS-A and APCS Principals but also
+with standalone classes like APCS-A and APCS Principles but also
 integration efforts like [[https://www.bootstrapworld.org/][Bootstrap]] which integrates into classes like
 high school algebra.
 
