@@ -5,7 +5,7 @@ tags:
 - certification
 categories:
 - certification
-draft: true
+draft: false
 --- 
 
 Over the past few years, a number of states have acknowledged Computer
