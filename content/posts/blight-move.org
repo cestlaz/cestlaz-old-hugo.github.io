@@ -11,7 +11,7 @@ friends. Others, I knew but hadn't kept up with.
 
 I was with a cluster of guests and for some reason the conversation
 turned to chess computers. I started telling a  story about the my former
-teacher [[https://cestlaz.github.io/posts/2012-05-09-my-favorite-year-teacher.html][Herb Greenhut]]'s Talking Chess Challenger computer. You would
+teacher [[https://cestlaz.github.io/posts/2012-05-09-my-favorite-year-teacher][Herb Greenhut]]'s Talking Chess Challenger computer. You would
 type in your move using modern algebraic chess notation using a kaypad
 and the program would not only respond by displaying it's move in said
 notation but also speak it in it's best [[https://www.imdb.com/title/tt0086567/][War Games]] voice.
@@ -77,7 +77,7 @@ feel much of an impact in terms of how I made them feel.
 On the other hand, it's pretty amazing the range of things they do
 remember. Some academic, some ancillary, some just plain silly.
 
-I heard through a secondary source that Liz, mamy years out still
+I heard through a secondary source that Liz, many years out still
 remembers the recursive sock puppets I use. Since Liz is a successful
 software engineer I'm guessing she remembers the recursion as well.
 
