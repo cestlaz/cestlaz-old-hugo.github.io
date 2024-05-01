@@ -1,0 +1,78 @@
+---
+title: Should we use MongoDB in High School
+date: 2024-05-01T11:14:59-04:00
+tags:
+- CS education
+categories:
+- CS education
+draft: false
+--- 
+
+Should we use MongoDB in High School? That's the question. Usually
+when I give a post such a title, I already have an opinion - it'll be
+a yes or no and if it's yes, I'll have a plan.
+
+Not this time. My gut tells me there's a place for it but I'm not sure
+where. Besides, that's not what this post is really about.
+
+At one point during SIGCSE 2023, I stopped by the MongoDB booth. Had a
+couple of great conversations with the people there. I wasn't looking
+for how I might use it in my classes - I knew I'd be retiring soon but
+I did want to convey how much I liked the product and how supportive
+they've been towards some of my efforts both K12 and while I was at
+Hunter, I mean I still have more MongoDB shirts than pretty much any
+other type of swag shirt from when they donated so many for some high
+school hackathons I've run.
+
+This year, at SIGCSE, I reconnected with my new MongoDB friends from
+2023 and we started asking if there were a place for MongoDB in a
+typical High School. Clearly there was at Stuy but I covered MongoDB
+there in a senior elective after the kids had already finished a CS0
+class as well as a college CS1 and CS2.
+
+Now MongoDB is much more advanced than when I started using it but
+even back then there was a lot to like. It stored documents
+essentially in dictionaries which made things much simpler than
+SQL. You also formed dictionaries to form queries which might have
+been trickier to "get' than SQL with things like "SELECT NAME from
+PEOPLE where AGE=30" or something like that but much easier to debug
+and automate since one deals with a data structure to do it in MongoDB
+as opposed to string manipulation for old school SQL. It was also
+helped from the fact that most student projects didn't benefit from
+the relational SQL model. There was also an open source server you
+could install and self host.  Nowadays MongoDB is much more capable
+for example it's [[https://www.mongodb.com/resources/basics/databases/data-lake-vs-data-warehouse-vs-database][data lake]] features.
+
+I don't think MongoDB is *the* tool to universally use in High School but
+my gut tells me there's a place for it.
+
+The cool thing to me is that we're now exploring this. Me, a
+few teachers I've gathered, and some new friends at MongoDB. The
+interesting thing is how it came about. Many of the K12 company based
+initiatives were the result of the company (or college) deciding that
+they wanted to do something in the K12 space. This frequently comes
+with a certain level of hubris that they can do it better. Not always,
+but frequently. The small companies and startups then work to generate
+interest and ultimately market share. The big boys are more frequently
+anointed since so few K12 CS educators are currently armed to really
+evaluate what they're seeing.
+
+This was different. Nothing coming from the top. What started as a
+serindipidous conversation between someone on the education team at
+Mongo and me, an old education curmudgeon. We both asked "does it make
+sense?" We didn't know the answer so we're exploring.
+
+Tomorrow morning I'll be going to MongoDB World Local in New York and
+hope to meet a couple more people on the MongoDB team. In the next few
+weeks, I'll be talking to some teachers who also hope to explore the
+MongoDB in high school question. After that, maybe not until the Fall
+if people are away for the summer, we'll get together and start to get
+to work.
+
+Either we'll see that MongoDB probably doesn't make sense in high
+school or we'll figure out where and how. It'll be a fun process and
+if we do figure it out, you can bet it'll make more sense than any of
+the typical initiatives that come from above.
+
+
+
