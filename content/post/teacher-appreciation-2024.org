@@ -1,0 +1,79 @@
+---
+title: It's teacher appreciation week again
+date: 2024-05-08T11:34:06-04:00
+tags:
+- teaching
+categories:
+- teaching
+draft: false
+--- 
+
+It's teacher appreciation week again so I thought I'd show some
+appreciation.
+
+In the past, I've specifically [[https://cestlaz.github.io/posts/2012-05-09-my-favorite-year-teacher/][written]] about some of the teachers who
+were particularly influential on me growing up. I've also [[https://cestlaz.github.io/post/teacher-appreciation-week/][written]] about
+how I'm not a huge fan of teacher appreciation week as a whole. Today,
+I wanted to talk about colleagues who deserve more appreciation from
+their students and schools than they might be getting. Now, this isn't
+to say that they're not getting the love but I wanted to add my two
+cents to make sure.
+
+First, my partners in crime from my days at Stuy. People like JonAlf
+Dyrland-Weaver, Sam Konstantinovich, and Topher Mykolyk. Not only are
+they great teachers but whenever I've had a project that benefited
+either kids or other teachers, they've gone above and beyond. Those
+three were instrumental in helping build and run my teacher
+certification program at Hunter college. They were way underpaid, way
+overworked, and in some (but not) cases, underappreciated by some of
+the students. Most of the students in the program were great but the
+third cohort, if I'm to be honest, had a few, let's say, challenging
+participants and I'll always appreciated my big three for working
+through and providing the best experience possible for the majority of
+students.
+
+Now, I also had a number of other great teacher colleagues through the
+years and I do appreciate them but I wanted to single out DW, Mr K,
+and Topher (why am I blanking on what the kids call him now?).
+
+The other teachers I wanted to single out today are the teachers who
+went through my certification program. We had 20 in the first cohort,
+20 more int he second, then 60 in the third. The program continues on
+under the expert guidance of my friend and former student Edgar Troudt
+but I'm focusing on the three cohorts I worked with.
+
+Yes, all my advanced cert teachers received scholerships to cover
+tuition but they *all* decided to give up a summer and spend all day
+every day in July with me and my motley crew to learn more CS and how
+to teach it. They then spent the following school year taking courses
+as well as recording their classes, remote observing their fellow CS
+teachers and in general supporting each other as they all worked to be
+the best teachers and the best CS teachers they could become. They
+worked hard and learned a lot. The teachers who participated who came
+in with less CS content experience spent countless out of class hours
+with classmates, TAs and instructors to develop their skills.
+
+As it turned out, with the State's SOCE, it turns out that some, maybe
+even most of these teachers didn't and might not need the actual
+certification but they all took it upon themselves to work on
+improving their content knowledge and their refining their pedagogical
+techniques so they could be the best version of themselves for their
+students. It's also worth noting that they all elected to take on my
+program which I feel is pretty rigorous. At the time, we were the only
+game in town but if they decided to enroll in a certification program
+now, they'd have the option of rigorous programs, like mine and a
+couple of others or by taking one of the less rigorous programs that
+have since been approved by the state which barely cover any legit CS.
+
+I don't know if their students really know or appreciate that these
+teachers have really gone above and beyond for them and I'm sure will
+continue to do so.
+
+So, hat's off to them. A bunch of great teachers super worthy of
+appreciation. Not just this week but throughout the year.
+
+
+
+
+
+
