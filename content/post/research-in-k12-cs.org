@@ -1,0 +1,116 @@
+---
+title: CS Research by HS Students
+date: 2024-05-28T14:02:01-04:00
+tags:
+- research
+- CS Education
+categories:
+- CS Education
+draft: false
+--- 
+
+Last week Devorah and I attended the Stuyvesant High School Alumni
+Association's annual fundraising gala. We were there as guests of the
+Alumni Association since, as retired teachers, gala tickets are
+generally out of our budget range. 
+
+We had a great time. I spent time with a bunch of former students
+spanning the years, some current teachers I hadn't seen since I left
+Stuy, as well as new Stuy alums and current students. I had a great
+conversation with one particular young man, a graduating Stuy senior,
+who's working on an interesting app. He asked if he could contact me
+to talk about it. I told him, I'd love to so I hope he reaches out.
+
+At one point, I was talking to a current Stuy tearching involved in
+their research program - that is, the STEM research program, primarily
+focused around the Regeneron Science Talent Search - Westinghouse to
+us old timers. She lamented to me that she wished she could get one of
+the CS teachers into the fold - to basically run a CS version of the
+other research classes that already exist for Biology, Chemistry,
+Physics, and Mathematics. Each of those classes target students in
+their Junior years, hook them up with a researcher, and shepherd them
+through the process of ultimately submitting a project to the big
+competition.
+
+I had to explain that I actually did run a CS "research" course back
+in the day but it was actually a bogus cover course since I didn't
+think that high school students, even with Stuyvesant's multi-year
+program had sufficient CS and Math to by and large do good research.
+
+The class was created primarily because, at the time, I had set up and
+was running Stuy's network. I got neither pay nor time compensation
+for this. I also typically worked with a handful of students. They
+learned a lot about Linux and networking and helped keep things
+running. They also got nothing for their troubles - no grade, no
+pay.
+
+The deal was that we'd create the class, they'd learn the networking
+stuff and we'd all have some time to keep things running. The kids
+would also get a nice high grade rewarding their work. They also had
+to cobble together a "research" project that they could enter into
+Westinghouse/Intel/Siemans/Regeneron.
+
+Over the years, the class had some students who wanted to do the
+research thing and were not so much there for the networking
+side. Those kids had to do a more legit research project. Now,
+occasionally I had a kid who was able to do an excellent
+project. Spike's Sporknet project which was a design for a scalable,
+anonymous network. Really good work and ahead of his time. Brad's work
+on Captcha was also really great. The thing is, though, that most kids
+just didn't have the background to do solid CS research.
+
+Even though Stuy's program was and is arguably the most rigorous HS CS
+program in the country, by second term Junior year, they're just
+finishing up CS1 (APCS-A). They'd be studying data structures during
+the second half of 11th grade. Since the research projects were always
+due in the early November, senior year courses don't have much affect.
+
+On the math side, some might be taking calculus during their junior
+year but many will be in precalc. Few will have taken statistics and
+none will have taken discrete math or linear algebra.
+
+These kids were and are tremendously talented but they just don't have
+the knowledge base yet. On top of that, on the programming side, they
+haven't yet gotten to the point where they can write large complex
+programs reasonably quickly. That doesn't typically happen until some
+time senior year, or the semester after data structures.
+
+Now, in the sciences, the kids were always hooked up with a researcher in a
+lab. In the best case, they can do legit research. At Stuy, in all
+areas, including CS, there are usually a couple of outlier kids who
+had exposure early on and come in with a wealth of experience in their
+resaerch field. In the worse case though, these kids become glorified
+lab assistants. The thing is, though, this can be a really good
+experience. They are there for the entire process and learn a lot. In
+CS, the equivalent is basically having the kids implement an already
+designed algorithm or create part of a software system that isn't
+really showing them the research process. From what I saw, it just
+wasn't as rich of an experience. 
+
+After a few years, I dropped the network - too many headaches and soon
+after, got rid of the "research" course. I think it was the right
+choice. The research course could have continued and been a good
+experience for the couple of outlier kids each year who came in super
+strong but that wouldn't be a sensible use of resources with each
+class having over 1000 students.
+
+So, unfortunately, I wasn't able to help this Stuy research teachers
+case for CS research in high school. I did point out that the kids
+might be able to leverage their CS and coding skills in their research
+in other areas. I had one student who ultimately did Physics research
+who made extensive use of his CS skills for data analysis and
+visualization. I believe he was a semi-finalist. I've also had
+former students do Astronomy research in college and grad school using
+CS skills they got at Stuy.
+
+So, I guess that's it. Am I wrong on this? I certainly could be. Maybe
+I wasn't back then but times have changed. Sure, if a school had
+unlimited resources for unlimited classes, having a CS research class
+would be great even if it only had a handful of students. With budget
+and space constraints though, I think a full class of another advanced
+elective is more valuable.
+
+All this said, I'd love to hear differing opinions.
+
+
+
