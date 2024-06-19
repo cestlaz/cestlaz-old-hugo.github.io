@@ -1,0 +1,125 @@
+---
+title: What I have (and haven't) been up to
+date: 2024-06-19T11:42:10-04:00
+tags:
+- misc
+categories:
+- misc
+draft: false
+--- 
+
+It's been about a year since I taught my last class. I miss working
+with the kids and truth be told, I do miss working with other
+educators and tech professionals on programs, policy items and related
+but I don't miss any of the bureaucratic nonsense, policies made by
+people who don't know what they're doing, nor the record keeping, grading or
+paperwork.
+
+I spent the first few months in what I've been calling my retirement
+hibernation but more recently it's been time to emerge. Time to see
+where, if anywhere, I now fit in the CS/Ed/Tech space moving
+forward. That's both in terms of where I'd like to be involved and of
+course the flip side, if those places or people want me involved.
+
+So, what have I been doing in that regards?
+
+Connecting.
+
+Not me connecting with new people (although I love doing that, just
+haven't had new opportunities) but connecting other people. A big part
+of this is connecting younger former students with older, more
+experienced ones - frequently for referrals. I like doing this but to
+be honest, I can no longer keep track of who's where -- too many
+former students at too many companies. Still, this is an aspect of the
+StuyCS and how HunterCS families that I'm really proud of building and
+I really get nachas when more experienced family members are there for
+the younger ones.
+
+I also had a former student who decided to spend this summer mentoring
+college kids who couldn't get an internship - he's between jobs and
+wanted to give something back. Trouble is, he wanted to work with too
+many kids than would fit in his apartment. Fortunately, I was
+introduced a couple of months ago to someone who just opened a new
+co-working/learning space and was looking to support worthwhile
+projects. I put them together and it's been a win win.
+
+I've been enjoying doing things like that.
+
+Advising.
+
+This is interesting, because I generally don't actually give advice. I
+try to repaint the picture of the advisee so as to be sure I
+understand it and then I generally talk about the questions I would
+ask if I were in that situation.
+
+In one case, I was put in touch with a team building a workforce
+exposure/entry experience for NYC high school students. They had a lot
+of workforce program experience but little tech experience. I think I
+was able to add value to their efforts given my tech background and
+educational experience.
+
+In another instance, a friend has been working on a new school
+proposal. Now, I never actually started a new school but have been
+involved in school design a few times and have certainly built out a
+number of programs. It was a lot of fun talking to him about his
+vision and school's aspirations and to share with him my perspectives.
+
+One other recent conversation was between me and a friend who's been
+building a company to help in both hiring and in leveling up
+employees. This is someone who I really enjoy working with. She cold
+emailed me around nine years ago when she was starting a direct CS
+Education program and we've been friends ever since. I really enjoyed
+this conversation because it wasn't the usual "I want to start a
+coding program" but was still something that, with my education
+background and range from small kids through workforce, I think left
+me with something of value to add.
+
+I enjoy this type of "advising" or rather, as I look at it, talking
+shop and I do think that my background - having been in multiple
+levels of education from early grades through college as well as in
+industry and having also build numerous programs lets me add
+value. Maybe I should try to set it up as a consulting thing rather
+than just being there for friends.
+
+On the other hand, then there's what I'm not doing.
+
+I think I'll be less and less involved with the national aspect of the
+CSTA. Note I'm talking here about the national CSTA. I'm looking
+forward to continue to work with my local NYC and regional CSTA people
+whom I both like and respect.
+
+A couple of interactions this past year really rubbed me the
+wrong way. Last year, they were looking for people to join their new
+Imagining CS Pathways effort. I applied for one of the roles. I wasn't
+selected. Now, that's fine. I mean, I personally felt, after I heard
+who was selected, that I had more to offer than many but that could
+just be my ego. What bothered me was that I was then sent an email
+asking if I was interesting in participating in a capacity that I had
+explicitly said I wasn't. I also wasn't particularly impressed with
+the report once it came out. I felt it was lacking in actual
+CS. Although I didn't think about this at the time, I suspect the
+people who built the committee already had an opinion as to what the
+end report should look like and built the committee to match. If true,
+not cool.
+
+Later, I decided to throw my hat into the ring to run as an at large
+member for the CSTA board. Now, again, I didn't figure I'd be
+elected - I think I've pissed off a number of people over the years
+but I was put off when I got an email saying that they elected to
+place other people on the ballot. Why did this bother me? Because it
+says that there are people within the organization who can basically
+shape the board by only allowing certain people on the ballot. Again,
+not cool.
+
+Now, CSTA can of course do what they want. They're the big players who
+get the Google money. I'm just a retired educator but since the
+organization appears to be going in directions that I think are wrong,
+there's no reason for me to continue my involvement or show support.
+
+So, that's what I won't be doing. I guess it also appears that I'm
+blogging less frequently but that seems to be the norm these
+days. I'll probably continue apace until something clicks and I'll
+do a deep dive somewhere.
+
+
+
