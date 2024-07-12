@@ -1,0 +1,43 @@
+---
+title: The Dino Podcast
+date: 2024-07-12T16:57:44-04:00
+tags:
+- education
+categories:
+- education
+draft: false
+--- 
+
+I love talking shop but I don't have the opportunity to do so as much
+now that I'm retired. So, when my former student [[https://www.linkedin.com/in/dino-beslic-1b761a63/][Dino Beslic]] emailed
+me and asked if I wanted to be on his podcast, [[https://open.spotify.com/show/6dJKlNZKxdaN6D6yrtDHBq][The Dino Podcast]], I was
+both honored and excited.
+
+Dino was a student of mine in the early 2000s but we haven't been in
+touch for years. I reached out to his brother Denis, also a student of
+mine, in order to connect yet another student to him for a job
+referral. Denis talked to Dino and that ended up in me being invited
+on the show. Of course, I'm also excited about being reconnected with
+both Denis and Dino.
+
+Dino's a Tech CFO and investor and his podcast is about "business,
+technology, and geopolitics."
+
+The tech job market has been in a downturn for the past couple of
+years and at the same time, we've seen a rise in AI an AI based
+programming assistants and related technologies. Dino and I spent a
+little over an hour talking about reasons for the downturn, if and how
+AI and the downturn were affecting the market and education. We also
+projected a bit into the future and made some recommendations for
+youngsters starting out.
+
+I particularly enjoyed the fact that we were talking about education
+at the college level up into the workforce - most of my recent shop
+talks have focused on K12 and while I'm passionate about my work
+there, I've also done a lot with preparing students for the tech
+workforce and navigating early careers and am wondering if that's an
+area I'll go back to focusing on for my next adventure.
+
+So, if you've got the time, check out the Dino Podcast. Here's a link
+to the episode I'm on: [[https://open.spotify.com/episode/1MktTuxoD0QoWbwSh060CF][link]]
+
