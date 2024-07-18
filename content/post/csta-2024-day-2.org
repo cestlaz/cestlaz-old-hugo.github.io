@@ -1,0 +1,177 @@
+---
+title: CSTA 2024 day 2
+date: 2024-07-17T23:01:02-04:00
+tags:
+- CS Education
+categories:
+- CS Education
+draft: false
+---
+
+What, no day 1? Well, day one was all workshops followed by a keynote
+and a reception. I generally don't do workshops and got in too late
+for the keynote but I did hit the reception but not too much to write
+about there.
+
+This year the CSTA conference is in Las Vegas. I've never been to
+Vegas and there's not really much of a draw here for me. I'm not into
+gambling, the food, for a New Yorker is nothing special and while
+there are a number of shows that are unique to Vegas, again, as a New
+Yorker, it's not like I'm lacking for local entertainment
+options. That said, there are some things I'll enjoy taking in while
+I'm here - the spectacle of everything, the Mob museum, Hoover Dam,
+and Red Rock Canyon in particular.
+
+To be honest, though, I really don't get putting a teacher conference
+here. Everything is *so* expensive. The rooms were reasonable (even with
+the resort fee) but everything is nickle and dime. The room only comes
+with 2 WIFI connections so if you're 2 teachers sharing a room and
+each need a phone and computer on WIFI, that's $30 extra a day. Then
+you've got food. A medium coffee in the morning is going to set you
+back $7 or $8 and today lunch cost me around $25 for a mediocre
+sandwich and a cannoli - around $10 more than I'd pay in NYC which is
+not a cheap town.
+
+So, I don't get the location but I still really enjoyed the opening
+reception, had a blast today as well and am a big fan of the CSTA
+conference.
+
+To start out the day I sat in on John Dutton's session "Creating a
+toolkit for all CS learners." I was hoping to avoid an AI talk since I
+knew I'd get plenty of those later on but I really wasn't sure where
+this session would lead. It turns out I didn't avoid an AI talk but
+that was okay.
+
+The first half of John's talk was on how he set up his class culture -
+something that's both very important and also frequently neglected. He
+spoke about empowering the class by asking them how they would like
+this class to be different than others they've had - it reminded me of
+my friend and former student Davin, who, whenever he starts a new
+company spends time with the founding team discussing what they did
+and didn't like about the culture of their past companies and then
+uses their combined experiences to make a strong positive culture for
+their new venture. John' talks about student "jobs" in the class and
+more. I ran into John at lunch later and we chatted a bit. I felt that
+our thoughts are pretty aligned on class culture being really
+important but also confirmed my suspicion that he only had around 14
+kids per class which affords him more opportunities to set a positive
+culture than a teacher of say 34 per class in a crowded room. This is
+not to take away anything from his work as he's aware of this
+advantage and appreciates it.
+
+John also talked about some CS teaching techniques. Well, they're not
+really CS specific techniques but CS teachers frequently use them -
+rubber duck debugging, asking classmates before asking the teacher and
+a few other strategies. Then, the main event, a template to set up an
+assignment that then used a script that used AI to take the data in
+the form and create multiple, differentiated versions of the lesson.
+
+To be honest, there wasn't a lot in this session for me given that I'm
+not teaching right now but for a new CS teacher, I could see a lot of
+value. I think I thought there would be more actual CS in the
+presentation but that's neither here nor there. John shared [[https://drive.google.com/drive/folders/1bUW03Qwvy2LvvUAIeH5j2n-K5jMxNk-M][this]] link
+with materials which includes along with his lesson template, lists of
+frameworks and other resources, and a whole lot more. If you're
+relatively new to teaching CS I'd strongly recommend you click on the
+link and check out everything provided.
+
+Next up was a teacher certification talk given by three educators fro
+Gwinnett County Georgia. The talk covered the state of things in
+Georgia and what they've been doing. I learned that in Georgia, one
+has to have certification (or rather, an endorsement) to teach
+CS. This can be earned either by taking an exam or by earning an
+endorsement through an approved program. This group from Gwinnett
+designed a one year and also acquired funding to cover costs. I like a
+lot of what they're trying to do. The Gwinnett team developed a one
+year boot camp for current teachers and area trying to emphasize a
+community model along with mentorship. Philosophically, at least from
+the pedagogy and implementation side, their program sounds similar to
+what I designed at Hunter in New York. My concern has to do with the
+depth of CS knowledge they're covering. This isn't necessarily the
+fault of the Gwinnett team though, it appears this is what Georgia's
+requiring and if they require content far deeper than Georgia
+requires, the state might not approve of their program and teachers
+might not attend. Their program maxes out at APCS-P which to me, is
+way to elementary for a certified High School CS teacher. Those
+teachers need, in my opinion, at least a bit beyond APCS-A along with
+a good deal of breadth.
+
+It was interesting to hear about what was going on in another state
+and while it sounds like Gwinnett County Schools are doing some pretty
+good work within the framework and constraints their state provides, I
+fear that by setting the CS bar so low, Georgia is shortchanging their
+students.
+
+After lunch, I attended John Chapin's session on "Machine Learning
+Made (more) simple." I loved this session. John's material is all
+[[http://bit.ly/CSTA-ML][here]]. John described and walked us through how he teachers linear
+regression. His goal was to teach us (his students) how it works
+rather than just use a library or black box toolkit. I'm 100% behind
+this. Now, it is true that John's at a public magnet school with high
+achieving students just like I was at Stuyvesant and what he
+presented, out of the box, probably can't be  implemented in a typical
+school but the approach and attitude certainly can and should.
+
+John motivated the problem by asking what data would be helpful in
+predicting home prices, he then had his class (us) work for a time in
+groups to try to figure out relationships and even models to go from
+the data to something to predict prices. He then stepped us through
+unplugged hands on exercises that led us to and through gradient
+descent. This in turn led to code and in the end, the class had both
+written and understood a key machine learning technique.
+
+Great session and I hope the attendees take this approach in some of
+their CS classes. As I said, I don't think this specific assignment
+will go over well as is with all populations but I think the approach
+can. I've successfully done similar things both my AP classes and in
+pre AP programming classes like when I cover writing a Caesar Cipher
+decryption program. The difference is that in the Linear Regression
+lesson the class is learning a specific machine learning technique
+that requires a certain level of mathematical sophistication to really
+"get" while in my case, we do a simpler problem that uses many similar
+techniques but with simpler mathematics and simpler application. My
+problem sets the stage for that ML lesson a couple of years later. I
+also do something similar in my "who played Spiderman" unit.
+
+Great session. I was concerned that all of the AI sessions - and there
+are many - will all be, taking out policy sessions about using
+existing tools and libraries and not result in students really
+understand what's going on under the hood. This talk allayed that
+concern.
+
+I just hit the posters and exhibits for the last sessions and then
+attended the closing keynote delivered by Gholdy Muhammid -
+"Cultivating Genius and Joy in Education Through Culturally and
+Historically Responsive Pedagogies." I thoroughly enjoyed the
+talk. Muhammid is an engaging, entertaining and funny speaker. My
+takeaway was that our teaching should be evaluated by the Joy in the
+classroom and the pursuit of knowledge as opposed to just the standards
+based evaluation currently used which just measures facts and only
+facts. Note that I say "just the standards..." and not instead of
+them. To her credit Ms. Muhammid noted that standards - the specifics,
+the skills, the facts are important as well. This is critical. One of
+my annoyances at a lot of the K12 CS movement is that there's
+frequently only emphasis on the joy and they ignore the facts that at
+the end of the day the teacher must know some, I don't know, actual CS
+and that students must learn it as well.
+
+That said, Ms. Muhammid's talk was really all about the type of
+education reform we really need in our schools. I had a couple of
+quibbles but it was a great talk. If CSTA releases a video, take the
+time to watch it.
+
+The day ended with Devorah, who played tourist by day, and I went for
+drinks and some light dinner with the New York contingent at the
+conference. A highlight was getting together with four students from
+my CS certification program at Hunter including Marisa - a CSTA Equity
+Fellow and incoming CSTA-NYC board member, Jessica and Josh - both CSTA-NYC
+board members, and Victoria - the first person in New York State to
+earn a Masters in CS Education from an approved certification program
+and earn the associated license. So proud to have been privileged to
+work with all four of them.
+
+
+[[/img/csta-2024.jpg]]
+
+
+
