@@ -5,7 +5,7 @@ tags:
 - cs education
 categories:
 - cs education
-draft: true
+draft: false
 --- 
 
 So, I stopped my [[https://cestlaz.github.io/post/csta-2024-day-3/][previous post]] after my thoughts on the DEI talk. The actual
