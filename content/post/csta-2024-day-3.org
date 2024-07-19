@@ -1,0 +1,140 @@
+---
+title: CSTA 2024 day 3
+date: 2024-07-18T17:37:43-04:00
+tags:
+- cs education
+categories:
+- cs education
+draft: false
+--- 
+
+Started out today in a session titled "Keep Calm and AI on." The panel
+was made up of CSTA Equity Fellows. It turned out that the session
+wasn't what I was looking for. According to the description the panel
+was supposed to cover "the promise and the challenges of various
+artificial intelligence tools, especially generative AI tools such as
+ChatGPT, Copilot, and Bard." Instead it was a general panel and
+discussion of the use of AI. To be frank, the session wasn't really
+focused on CS educators at all and could just as easily been plopped
+down int a PD session for any subject or grade level. Now, that's not
+necessarily bad but it just wasn't what I was hoping for.
+
+The panel consisted of a number of questions where each panelist had
+their say and then the moderator, also a panelist solicited thoughts
+from the audience.  The questions they asked were:
+
+ 1. What ethical concerns do you have?
+ 2. In your setting, how is AI used?
+ 3. What's one piece of advice you'd share?
+ 4. What work have you seen being done for AI in education?
+ 5. What is your call to action?
+
+The moderator ran the panel well and we got to share many points of
+view. Personally, I was hoping for a discussion of some specifics with
+using CS specific tools like copilot or issues or possibilities with
+applying ore general tools like ChatGPT in a CS classroom or lesson
+but I suspect that the panel as it went own was probably pretty
+valuable to a lot of people in the audience
+
+My second session was "The Power of Words in CS Education" - another
+panel. As per the description, "this panel discussion aims to explore
+the intricacies of intercommunication and confront uncomfortable
+conversations" with the key word being DEI.
+
+The questions were:
+
+ 1. What comes to mind when you hear the term DEI?
+ 2. Who can talk about DEI?
+ 3. What issues have you had speaking your truth in this space?
+ 4. Do we need DEI offices and spaces?
+ 5. Who owns this space?
+
+Due to time constraints, the panel never got to the last two quesitons
+(other than a quick mention of question 4 where the consensus answer
+in the room was "yes").
+
+The panel was run much like the AI session I described with the
+panelists sharing their thoughts and then the moderator (again, also a
+panelist) solicited audience input and again the session was run
+smoothly and effectively.
+
+I want to highlight some thoughts that came out on question 2 - who
+can talk about DEI as well some thoughts I had based on something one
+of the panelists said.
+
+One panelist commented that anyone can talk about DEI but talk is
+cheap, we have to look at actions. My take is that you've got to walk
+the walk and thought about all the companies who crow about their DEI
+programs but really just pay lip service. Companies who claim they're
+pushing say black SWE hires but really only fight with with the other
+top companies to monopolize the candidates from say Stanford. They
+talk the talk but aren't really doing anything to improve the
+situation but rather they're just trying to gobble up the low hanging
+fruit.
+
+Another panelist mentioned that we need white people involved
+but they need to know when to step back. This is a tricky one. I get
+it - I can't understand the life experiences, situation, or needs of
+say a black person in the USA and I certainly shouldn't be telling one
+what they should feel or what they need but on the other hand I might
+actually have some background where I should be stepping in in a
+complementary way or might be raising a relevant issue. 
+
+I'll share two personal situations where I was frozen out of a
+community for not "stepping back." One was a conversation with some
+people about the LGBTQ+ pride parade in NYC. My position was that
+while I'm all for the parade, I had a problem with what I saw at the
+parade a number of years ago - near naked people on floats essentially
+performing simulated sex. Apparently I wasn't stepping back. Now to
+me, I wasn't telling anyone in this young subset of the LGBTQ+
+community how to celebrate or behave and I wasn't telling the members
+of this set of LBGTQ+ community members how to live their lives. I
+was conveying my opinion that as a parent I really didn't want to have to start
+explaining people having simulated sex mid day on a float to my young
+kids. Please note, my objection wasn't specific to this parade, I've
+had the same complaint to other non LGBTQ+ parades that cut through
+family areas during the day. Was I out of line? 
+
+The other time was in a discussion of the SHSAT - the exam you take
+for admission to Stuy/Science/Tech etc.. There's long been a problem
+with the low number of black students being admitted to these schools
+and Stuy in particular. A number of ideas have been floated including
+one particularly bad one - admit the valedictorian of each middle
+school. I asserted why this was a horribly bad idea. I as accused of
+being a racist and frozen out. To them, I wasn't standing back. To me,
+I was pointing out the reality that this solution didn't get to the
+root cause of the problem and also wouldn't end well. I obviously
+can't walk in the footsteps of a black middle school student or their
+parents but I had much greater knowledge of the test and test process,
+what Stuy was like and how it operated and think I had and have a much
+better understanding of what the outcome would be from this plan.
+
+Was I out of line and should have stepped back or was I appropriately
+contributing to the discussion. It can get complicated, particularly
+if recognize that many of these situations are pretty nuanced. 
+
+A final comment I'll make is that one of the panelists mentioned that
+they don't want allies, they want co-conspirators. The difference
+being that a co-conspirator will step in front of a car for them. I
+get this and agree but it also irritated me. Not about the speaker or
+the panel but something I've noticed going on with some subsets of DEI
+supporting communities. I'm hoping that these subsets are small but
+vocal minorities but it's hard to believe that given what I've seen in
+the media. 
+
+I'm a white male Jew. Back in the day Jews were recognized as
+co-conspirators with the black community and the LGBTQ+ community. We
+would not only figuratively step in front of a car for those
+communities but at times literally do so. Recently I've noticed the
+rise of antisemitic voices coming from some of those communities. This
+forces me to examine my relationship with these communities and makes
+me sad.
+
+I really enjoyed this session but think it's important to note that
+this was another session that really had no focus on CS.
+
+I still want to write about one more session I attended as well as the
+Thursday keynote and the exhibit halls (including a bit on Kira
+Learning) not to mention tomorrow but I think this is long enough for
+today's post. I'll cover the rest in the next few days.
+
