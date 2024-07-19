@@ -1,0 +1,246 @@
+---
+title: CSTA 2024 day 3 part 2 - AI and a keynote panel
+date: 2024-07-19T09:56:09-04:00
+tags:
+- cs education
+categories:
+- cs education
+draft: true
+--- 
+
+So, I stopped my [[https://cestlaz.github.io/post/csta-2024-day-3/][previous post]] after my thoughts on the DEI talk. The actual
+post wasn't all that long, the reason I said for stopping the post but
+rather because writing that post was emotionally draining. Can I talk
+about that stuff? Will people interpret it the way I intended. Will
+people who I don't want to offend and don't think I'm offending, will
+they be offended? Will the people I want to offend not be offended
+(okay, just joking here). It's really hard for people to have these
+conversations and too many people these days don't allow for nuance
+but I felt it important to get my thoughts out there. Not so much
+because my thoughts are anything special or that they're right or
+wrong but one, because the session was terrific and I am documenting
+my conference experience and two because having these conversations
+won't get easier unless people are willing to put themselves out
+there.
+
+Anyway, back to our regular programming.
+
+
+Thursday afternoon I sat in on "AI Lessons using Machine Learning for
+Kids." [[https://machinelearningforkids.co.uk/#!/login][Machine Learning for Kids]] is a site/platform that allows people
+to set up and train machine learning models. The speaker's slide deck
+with links to resources can be found [[https://docs.google.com/presentation/d/1AJ5sfkMVzl_JNnnVeTOnEZD__fe8b7LN_2sPTpFLH44/edit#slide=id.g272ca406bce_0_21][here]].
+
+The speaker walked us through how she used ML for kids with her
+class. She basically teaches a typical Machine Learning pipeline, that
+is:
+
+#+begin_quote
+collect data --> prepare/clean --> select model --> train --> validate
+--> predict
+#+end_quote
+
+Her specific project was sentiment analysis of text. The platform can also
+work with images, sounds, and numbers. After logging in (or clicking
+to try without registering) you start a project. You select the model
+you're using, "recognizing text" in this case. You then use their
+interface to add data. The instructor, of course, would have to
+provide guidance so that a student would know what and how to enter.
+
+When finished, you click the train button and the platform builds the
+model. I'm pretty sure you can then play with the model but I didn't
+actually test that. The cool thing, to me was that you can then have
+the platform generate code - scratch, python, and a couple of other
+platforms. I clicked the generate button and all of a sudden I got a
+chunk of Python code that I could embed in a program. Specifically,
+the code let you use your now trained model as a library (or more
+specifically, web based API) and make calls with data and get your
+results.
+
+While this is *very* cool, it raised some questions. The big one for me
+is that you can go through all of this and have almost zero knowledge
+of the underlying machine learning. Contrast that with the session I
+wrote up a couple of days ago where the students learned all the
+little details of gradient descent for linear regression (more on this
+later).
+
+Is this really the right way to go?
+
+The instructor noted that when we use a tool like ChatGPT we're using
+an already trained model so this is no different. That's true but in a
+class learning about, say sentiment analysis as an ML technique, I
+think students should learn how the sausage is made. 
+
+Now, this approach of leaving the actual ML as a black box does still
+allow for some good learning to go on.  Students will learn the
+pipeline. They can also discuss issues like false positives and true
+negatives - the effects of different training data, over training and
+much more. They could also see, from a user point of view if different
+models produce different results. A teacher might also have constraints
+to keep them from diving deeper - insufficient time, toolset limits,
+student backgrounds and I'm sure others.
+
+That said, I'm a firm believer in seeing what's under the hood.
+
+Now, going back to the Linear Regression talk from Wednesday, that
+might be too much for an average high school class and almost
+certainly too much for a pre APCS-A class so where do you draw the
+line?
+
+It turns out that in a CS0 class using a text based language like
+Python, students can pretty easily write a simple sentiment analysis
+system. You can also scaffold pretty thoroughly.
+
+The basic gist is:
+ 1. Make two lists, one of positive words, one of negative
+ 2. Read in the text you want to test
+ 3. Split the text into words
+ 4. Count how many words are in the positive list and how many in the
+    negative.
+ 5. If there are more positive than negative, it's a positive piece,
+    otherwise negative.
+
+This is extremely bare bones and has issues. For instance if a
+document has "not bad" in it it'll just see the word bad and classify
+as negative but that's something the class can talk about. The project
+can also be easily extended in any number of ways. You can also
+include all of the good things from the speakers lesson design - the
+pipeline, different training sets, etc.. The important thing is that
+the students will have a stronger understanding of how sentiment
+analysis actually works.
+
+While this was a strong session, I'm a big believer in students
+understanding the inner workings of things and I think this is going
+to be even more important with the current AI craze - this is
+something one of the end of day keynote panelists actually pointed out
+(more on that down below). Of course, you have to know your
+population, where they're at, and what your restrictions are.
+
+In middle school with scratch, the black box approach is most likely
+the way to go, particularly since ML for kids hooks in to
+scratch. Teaching a High School class using Python? You should
+probably do a unit where your class codes the whole thing.
+
+Just my opinion and approach.
+
+One final note before moving on to the rest of the day. I've noticed
+that while there are plenty of sessions that, by description, talk
+about ChatGPT tools - what's considered the cutting edge of the AI
+fad, there have been a few sessions on Machine Learning and more
+traditional AI. This has been great to see as so much of what runs and
+what will run the world operates using these techniques and
+technologies and it's important not to drop them in education for the
+flavor of the month.
+
+That was it for the Thursday sessions for me, I spent the rest of the
+session time looking at the posters and the hallway track.
+
+
+The Thursday keynote was a panel moderated by education journalist
+Natasha Singer. The panelists were (as seated left to right):
+
+ - Christy Crawford of the New York City Board of Ed's CSforAll initiative
+ - Maggie Johnson, Global head and VP, Google.org
+ - Mehram Sahami, Chair of the CS department, Stanford University
+ - Kip Glazer, Principal, Mountain View High School 
+
+Before diving in to the panel, I've got to express more pride in my
+Hunter CS Teacher Cert program graduates. While delivering some
+opening comments, Natasha Singer gave a shout out to another Hunter CS
+Certified teacher, Marisa Shuman citing some of the work Marisa's done
+bringing AI to her students in New York. Here's Natasha's article
+about it: [[https://www.sanjuandailystar.com/post/at-this-school-computer-science-class-now-includes-critiquing-chatbots][link]]
+
+Now to the panel. Overall it was a great session but I did notice one
+thing missing. There were no actual teachers on the panel. Maggie
+Johnson's from Google and he background's in higher ed as is Mehram
+Sahami's. Christy Crawford doesn't show any classroom teaching
+experience on her linkedin. Only Kip Glazer listed any K12 teaching
+experience on linkedin and that ended back in 2016 - about 11 years
+total which is a nice chunk but in my mind generally not anywhere near
+the time needed for mastery.
+
+It would have been nice to have at least one actual K12 teacher up
+there. Even better if it were an experienced CS teacher who also had
+strong content knowledge.
+
+The first question was on the overall impact of AI in
+education. Mehram was first to respond and hit the nail on the head -
+AI can't transform education, only people (teachers can transform
+education. Bravo. He added that AI can enhance teachers ability to
+transform education but it's just a tool. As a side note, I really
+felt that Mehram was pretty much spot on throughout. I was very
+impressed with his responses.
+
+Christy chimed in with a common teacher's fear - will AI replace them.
+
+I think this was an interesting juxtaposition. You have the academic
+speaking the truth of how things should be and the person immersed in
+K12 noting the unfortunate reality that the politicians and private
+interests are always looking to save money and turn a buck by cutting
+teachers and directing money to private companies to "compensate."
+
+The next question asked were coding should live in K12 with tools like
+copilot and other code generating LLMs.
+
+Maggie noted that even if AI can generate code, it still needs to be
+understood, checked, tested, extended, and embedded. She said she
+didn't know how much coding would be necessary but certainly it's
+something we much teach in K12.
+
+Mehran noted that teaching coding syntax is still important and that
+we can use tools like chatGPT like a code library or API to enhance
+our student's work. This echoed something I wrote about when I wrote
+up this year's SIGCSE experience.
+
+In response to Natasha Singer asking if there should be limits on
+AI on AI Maggie spoke on how it's something that Google talks about
+top to bottom every day. When she followed up with "what about in the
+classroom" Christy chimed in yes but added an oh so important "but not
+on the backs of the teachers." I do lament that there wasn't an actual
+teacher on the panel but applaud Christy for consistently having
+teacher's backs throughout the panel. It's not a surprise, she's
+always had teacher's backs in her role at CSforAll. I wish others in
+the NY DOE would follow her lead more.
+
+Natasha also asked about corporate influences on curriculum as this is
+something somewhat unique to CS. As a new field and a new field in
+K12, few teachers and schools knew what to teach so for better or
+worse, outsiders filled the void. That's the college board, code.org,
+organizations like PLTW, companies liked CODEHS. This doesn't happen
+in other older fields. A friend of mine later pointed out that it sort
+of does but the outside influencers are the book publishers. Anyway,
+Maggie posited that technology changes so fast that industry is needed
+to keep curriculum up to date. I think she misinterpreted the question
+though. I  believe Natasha was specifically talking about content
+providers like those I listed above while Maggie was thinking about
+pure tech companies informing curriculum which, if they did and if
+they "stepped back" to go back to yesterday's post would be great.
+
+I think Mehram also misinterpreted the question as he talked of the
+symbiotic relationship between industry and education. I think he was
+thinking more about the university industry relationship.
+
+Once again, though, Christy had the teacher's backs when she on the
+one hand noted how important industry can be - they can inform,
+provide opportunities like mentoring, and support but there has to be
+a hard line. They should not be driving curriculum or
+education. Again, bravo.
+
+At this point, we ran out of time. Great panel. As I said, I
+particularly liked Mehram's comments which included a number I didn't
+mention here as well as Christy's constant defense of teachers but
+everyone was terrific.
+
+That's it for day 3.
+
+In the next day or so I'll get to day 4, the exhibitors, and some
+closing thoughts.
+
+
+
+
+
+ 
+
+ 
