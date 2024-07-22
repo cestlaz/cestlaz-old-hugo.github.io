@@ -1,0 +1,77 @@
+---
+title: CSTA 2024 - the final day
+date: 2024-07-21T19:51:07-04:00
+tags:
+- cs education
+categories:
+- cs education
+draft: false
+--- 
+
+The conference ended this past Friday. After a couple of morning
+sessions I started to play tourist which included spending more time
+in the 100+ degree out doors. Fun stuff that I'll talk about later but
+left me too drained Friday and Saturday evening to continue my write
+ups.
+
+First up was another AI session "Unlocking AI: Teaching Artificial
+Intelligence in K12." Slides and other materials can be found
+[[https://docs.google.com/presentation/d/121zotqh5_kr7jSP3HdUQue-vyT-goWznqFvjTbyvcWE/edit#slide=id.g2df995fa4b0_0_417][here]]. The speakers were Nora Burkhauser who gave the talk on "Machine
+Learning for Kids" and Nick Yates. The talk focused on two
+professional development opportunities they've developed to bring K12
+teachers of all grade levels and all subjects up to speed on
+Artificial Intelligence. Well really one PD opportunity split into two
+part.
+
+Part one, offered via remote sessions with interspersed assignments
+followed by in person PD covered the basics. Basic definitions,
+classic ML and AI, a typical AI pipeline. From where I sat, it looked
+like this course provided a good overview for any teacher new to
+AI. It didn't, in my opinion cover enough for a CS teacher in a HS
+class to do a full AI unit but given time constraints of a typical PD,
+it's a great start and looks like it provides plenty for the early
+grade teachers and the non CS teachers while at least getting the CS
+teachers on the road.
+
+Part 2 goes over available AI curricula, touches on modern AI -
+generative AI, neural nets etc., and also goes over applying AI. In
+fact, they presented the same lesson, more or less, as was presented
+in the "Machine Learning for Kids" talk I attended on Thursday. This
+part 2 course certainly adds to the foundation for the early grade
+teacher on non CS teacher, but still wouldn't be enough, in my opinion
+for the HS teacher. I understand that the speakers can only do so
+much - they can't offer one or more college or graduate level courses
+in AI - they have to work within their state's professional
+development system but we have to become vocal about the fact that so
+long as our CS teachers are not coming in with strong content
+knowledge, add on professional development isn't a solution, it's just
+window dressing. Sure, right now it's frequently the best we can do
+but more people have to start banging the drum that we *need* our CS
+teachers to actually have a good amount of knowledge in, you know, CS.
+
+Before moving on, I do want to say again that this was another strong
+session and the speakers are doing great work, they're just trying to
+do their best within the limitations of the system under which they
+work.
+
+After this AI talk I attended some lightening talks. The first was
+given by a new teacher on  her just barely staying ahead of her
+class. It was a nice talk but got me thinking that it might be useful
+for CSTA to specifically set up an affinity meeting that combined
+brand new CS teachers (particularly those with limited content
+knowledge) and match them with groups of slightly more experienced
+teachers - say those with 3 or 4 years experience. Teachers with
+enough mileage so that they can provide encouragement and guidance to
+the neophytes but not with so much experience that they've forgotten
+the struggle.
+
+Another lightening talk was about creating a social media presence. I
+was interested in this because the speaker was going to talk about
+making short form videos and I've spent the past decade+ in the world
+of blogs. Unfortunately, the talk was really more about how to tweak
+your already existing video content to maximize viewers. Valuable if
+you've already got a video presence but not the info I was hoping for.
+
+I didn't attend the last keynote so that was it for me but that's not
+it for my SIGCSE post. Next up, the exhibitors, Las Vegas and final
+thoughts on the conference.
