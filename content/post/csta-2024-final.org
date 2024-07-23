@@ -1,0 +1,118 @@
+---
+title: CSTA 2024 final thoughts
+date: 2024-07-23T15:10:14-04:00
+tags:
+- cs education
+categories:
+- cs education
+draft: false
+---
+
+Got home last night. Only delayed a couple of hours so we were much
+luckier than many friends who had to scramble and deal with canceled
+flights. It helped that we flew JetBlue, an airline not affected by
+the CrowdStrike issues and also because we were staying until Monday
+anyway so as to play tourist.
+
+What's left to cover. Let's start with the exhibition hall with all
+the vendors. There were the big companies - Google, Amazon, and
+Microsoft, curriculum provers like CodeHS and CMU (CS Academy), and
+lots of robots and robotics companies. There were a few others mixed
+in as well.
+
+I didn't speak to too many vendors though as I'm not particularly
+interested in using someone else curriculum and while some of the
+robotics stuff looked very cool, it's not something I'll be using
+since I'm no longer in a classroom and any toys I do want to play with
+have to fit in my Manhattan apartment.
+
+I did spend some time with the people in the [[https://www.kira-learning.com/][Kira]] booth. I thought I'd
+check them out since they seem to be getting a bit of buzz
+recently. Their home page touts Kira as "The AI platform for schools."
+There are courses which seem to basically be MOOCS, although they can
+be used (and appear to be meant to be used) as a tool by a teacher
+with a class. There are pre-made courses and units and teachers can
+also build their own content. This all looks fine but seems similar to
+other course platforms.
+
+They seem to want to differentiate themselves with their AI
+piece. This comes as an auto-grader which I didn't get to see along
+with an AI tutor for the students. It looks cool but to be honest, I
+don't know if it's even a good idea as a classroom tool. I think I'd
+rather have a student talk with a neighbor first. I plan to do a
+deeper dive into Kira sometime soon and then will probably report
+back. Right now, if they keep the buzz, they'll sell well but I'm not
+yet sold. If I were still in the classroom, I think I'd stick to my
+old school ways.
+
+To me, CSTA has always been a people conference rather than a session
+conference and this year was no exception. I got to see and spend time
+with many old friends and met a couple of new ones. For the sessions
+though, while I found a couple of great ones, many didn't do much for
+me. That's not to say they were bad sessions. I think I even noted
+that in my previous posts where I felt that a session would be great
+for a teacher at another point in their career but it didn't scratch
+my itch.
+
+Of course, given that any attendee can only go to one session per slot
+and since descriptions don't always tell the whole story, perceptions
+vary. I just read Amy Ko's [[https://medium.com/bits-and-behavior/csta-2024-trip-report-mixed-messages-20222112a788][CSTA report]] and Amy lamented the lack of
+equity and justice focus. I felt there was good coverage there. I on
+the other hand felt that there should have been more coverage on
+actual content and pedagogy. Both of us could be right, both of us
+could be wrong. At the end of the day though, CSTA provided a platform
+with CS teachers from across the country could discuss whatever issues
+they desired with a diverse range of colleagues and that's a pretty
+special thing.
+
+I'd be remiss if I didn't close with a few words on my tourist time. I
+wasn't excited to come to Las Vegas - I'm not into casinos and coming
+from New York I've got better and cheaper food options as well as
+pretty much any entertainment I want. In NY I also don't feel like
+then entire town is trying to scam me for my money. I don't want to
+come down though on residents of Las Vegas though since I do know a
+couple of great people who live there so I'm sure people there are
+just like everywhere else it's just that the tourist industry there
+isn't for me.
+
+That said, we did do a number of things we enjoyed.
+
+We did a couple of day trips with Pink Jeep tours - one to Hoover Dam
+and the other to Red Rock Canyon. Our Red Rock tour guide was the
+better of the two but both were solid and both trips 100% worthwhile.
+
+We also visited the Atomic Testing Museum and the Mob Museum. Both
+were really interesting. I've always been interested in the mob thing,
+particularly the Jewish Mob in New York so the Mob Museum was a
+particular hit for me.
+
+We walked Freemont Street, which was basically another touristy strip
+but got a great apple fritter at a donut shop across from one of the
+ends.
+
+On our last afternoon, after our Red Rock tour we grabbed lunch at
+[[https://www.sayulitaseats.com/][Sayulitas]] - a hole in the wall burrito place. I've got to say -
+probably our best meal in Vegas.  All the strip stuff was overpriced
+although some was tasty but Sayulitas was dynamite. When we got in, we
+were concerned about the lack of seating but there was a huge crowd of
+locals and pretty much no English being spoken - all good
+signs. Hadn't had burritos that good in decades.
+
+From there we went to the [[https://www.pinballmuseum.org/][Pinball Hall of Fame]]. While I'm not into
+casinos, I love pinball. Basically a pinball parlor with machines
+ranging from the early days up until today. Also a bunch of novelty
+machines like a vertical circus game with three mini pinball games in
+it and a couple of two player games where each player is on opposite
+sides and the playfield tilts back and forth. Super cool. Price per
+game range from a quarter for some of the old machines to a dollar for
+the new ones. Devorah and I spent a couple of hours and $20 and had a
+super fun time.
+
+So that's CSTA 2024. Before flying to Las Vegas, I was already not hot
+on the town and also not so hot on some aspects of CSTA, the national
+organization. I think the most positive thing I can say is that I left
+the conference not only energized but thinking about proposing a
+session or two for next year.
+
+
+
