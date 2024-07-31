@@ -1,0 +1,168 @@
+---
+title: Teachers learning, using, and teaching AI
+date: 2024-07-31T16:33:08-04:00
+tags:
+- AI, teacher training
+categories:
+- AI
+draft: false
+--- 
+
+How do we prepare teachers to teach AI to their students, teach their
+students to use AI effectively, and how to effectively use AI
+themselves.
+
+I was having this discussion with a friend this morning and I'm sure
+many educators have been having this and similar conversations over
+the past year or so.
+
+While the discussion around AI is different from the discussion of CS,
+after all an AI writing assistant can be used with zero understanding
+of AI and in any subject area but AI is a subset of CS and there are a
+number of parallels when thinking about preparing teachers in both
+cases. Unfortunately, we're still having the same discussions about CS
+so while we can look at what's been done so far, everything's still
+too new to know what works or not.
+
+Should students learn about AI in all of their classes or in specific
+AI or CS focused classes? What about in a specific "Using AI" class?
+Can "all teachers" learn sufficient AI to teach their students or do
+we need specialists? Are the answers different for the early grades
+than from high school? Will teachers learn on their own? Should we
+provide professional development? What would that look like? Or, do we
+need to integrate all of this into our teacher preparation programs. 
+
+These are all issues we've been dealing with in CS education and we
+don't have any definitive answer.
+
+I don't have any final answers but I though I'd share some of my
+current thoughts both on delivery and also on training content.
+
+In terms of delivery, the two options are Professional Development
+(PD) or preservice coursework.
+
+While PD can be very valuable, quality PD is extremely rare, at least
+if you listen to teachers. On the other hand, if you're in a state
+with minimal teach requirements or the powers that be can't convince
+the colleges and universities that prepare teachers to bring in AI (or
+CS for that matter), then you're left with PD.
+
+A local department of education, even one as large as NYC can also
+roll out PD much more quickly and at a wide scale like what NYC has
+done in their CSforAll program without requiring any changes at the
+state level, in legislation or by including colleges or universities.
+
+A good example of some good work being done here is what Nora
+Burkhauser and Nick Yates are doing in Maryland. I wrote a bit about
+it [[https://cestlaz.github.io/post/csta-2024-day-4/][here]]. They run a 2 part PD series. It doesn't prepare teachers to
+use AI effectively as it's meant to educate them on what AI is but it
+looks to do a great job at that. Part 1 is a great introduction for
+non CS teachers of all grades and part 2 goes even further. Ideally
+there would be even more for CS teachers, as I wrote about in my
+earlier post, but that's a limitation of the PD model and they're
+doing all they can do under their current system. They're also doing
+more than so many others.
+
+On the other hand, I've had an opportunity to really see the pros and
+cons of the PD offered in NYC for their CSforAll program - here PD is
+generally offered by a PD provide - that is, someone like code.org or
+the College Board.
+
+I got to do a deep dive when I evaluated applications for the CS
+Certification programs at Hunter College. I reviewed hundreds of
+applications over a three year period. If I remember correctly over
+100 each year and close to 200 multiple times. There was a small
+amount of overlap each year in applicants but not much.
+
+Applicants needed rudimentary programming knowledge in any text based
+language. Write a program that used a loop, had variables, a
+conditional, a function, and used an array or list. That's it.
+
+The vast majority of the applicants had NYC CSforAll training and
+many, if not most had multiple years of this PD.
+
+In years one and two I could barely accept 20 per year. In the third
+year I was able to accept close to 50 but that was by additionally
+offering multiple bootcamp sessions.
+
+Clearly, the PD model wasn't working. We had a large number of
+teachers having gone through multiple years of training by the big
+name players in the field yet far too many couldn't tell the
+difference between a for loop and a forklift.
+
+Sometimes PD is the best you can do and often it's all you can do
+*right now* but it's not the long term answer.
+
+If this doesn't convince you I'll add that we all know that the
+attrition rate for teachers is among the highest of all professions
+and every time a teacher leaves the profession after two or three
+years, all that effort is lost. A PD model at best is a never ending
+treadmill.
+
+On the other hand, if you work AI into your preservice courses, you
+have more time to cover it, the students (teachers) have some accountability
+(which rarely exists in PD sessions as one basically becomes certified
+by just showing up), and teachers enter the profession with AI as part
+of their skill set. Of course, ongoing PD after that then becomes a
+bonus.
+
+Of course the challenge then becomes convincing states to require it
+and educational institutions to offer it.
+
+In my Hunter programs, there's certainly room for both AI as a CS
+subject and also how to leverage using AI but my program is really
+made for high school CS teachers. I've had elementary school teachers
+but it goes so far beyond what they need to know in terms of content
+and there's less focus on their needs. It's also made for CS
+specialists so we'll never get the history teacher for example.
+
+That said, the topics and ethics CS classes both give platforms to
+learn about AI. Even in 2020 we had a unit in the topics class on
+neural nets and many in the ethics class on bias. Meanwhile the
+methods classes and curriculum development class give a platform for
+exploring and using the tools, although, again the focus in on a CS
+class.
+
+I can see a number of places we could work AI, from a generalists
+point of view into a typical preservice program and, between you and
+me, there's enough cruft in most programs that nothing would be
+lost. Even if you do have to cut something, AI isn't going anywhere
+so methods classes, for example, really will have to deal with AI
+tools if they really want to prepare teachers.
+
+In any case, the next question is what to teach the teachers. I can
+think of a number of activities, both on the computer and unplugged
+which would give teachers a basic understanding of some key AI
+concepts. While not AI, a Markov Chain text generator show how you can
+use statistics and probability to generate text. Now and LLM is much
+more complex and uses a neural net on the inside but an unplugged
+activity around this simple generator can go a long way in
+demystifying an LLM and once demystified, they can be used more safely
+and more effectively.
+
+I've done a number of other proto-AI lessons like "Who Played
+Spiderman?" or my Caesar Cipher unit which can be converted into
+unplugged activities to demystify other aspects of AI.
+
+There's also a good amount of low hanging fruit for other uses of AI
+like generating discussion topics or having groups of students using
+AI to generate or research content and then have them discuss or
+debate.
+
+Another advantage of doing this in preservice is that you can spread
+the AI over many courses and you'll have the time to also discuss
+issues like bias and dangers like using an AI tutor at the expense of
+developing teamwork and interpersonal skills with your classmates. In
+A PD time is much more limited and while there's good work like the
+Maryland project I spoke of above, far too much is given by vendors
+who's bottom line is selling a product. On top of that, things like
+bias is really beyond AI - yes, AI exhibits all sort of bias but the
+root is societal bias and where an AI PD is unlikely to be able to
+sufficiently handle that, an entire masters program can at least make
+a dent.
+
+So, those are my thoughts for now. They'll probably change and evolve
+and in any case, given my current role as "retired guy" I'm not sure
+when I'll be able to act on any of this, though I do have some
+thoughts.
+
