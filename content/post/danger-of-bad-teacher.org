@@ -1,0 +1,91 @@
+---
+title: The Danger of a Bad Teacher
+date: 2024-08-14T10:51:51-04:00
+tags:
+- teacher prep
+categories:
+- teacher prep
+draft: false
+--- 
+
+For years I've been one of the few people banging the "CS teachers
+must know CS" drum. There have been a few others out there but in
+terms of being vocal about it, we're in the minority. I get it. There
+are many teachers who volunteered to teach CS and are working hard to
+acquire the knowledge needed. There are also those who were voluntold
+who are trying just as hard.
+
+The problem is, at least from what I've seen, there are far too many
+CS teachers who after years of training still can't navigate CS1 or
+sometimes even CS0 level code and have very limited context when it
+comes to CS. They know the bullet points in the scripted curriculum
+they're using but that's about it.
+
+I also get that it's not easy to be vocal about it. When I talk about
+this, it can seem like I'm calling out my CS teaching colleagues and
+while in a way I am, I'm talking about those who've stayed at barely
+CS0 for multiple years, not those working to improve their CS
+knowledge. 
+
+I was reminded today why this is a problem, why people should be
+paying more attention to it and why more should be calling it out.
+
+I was chatting with a young man today. He has a Math and CS
+  background - was a double major, and is considering a career change from a non
+  teaching job in to either teaching or something education adjacent.
+
+One thing that came up in our conversation was that he took a CS class
+in high school and that almost caused him to drop the field. My new
+friend mentioned that the teacher in question was a math teacher and a
+pretty good one at that but noted that in addition to not knowing the
+CS, the teacher didn't know how to teach a CS class. Of course, my
+friend acknowledged that he's not a teacher himself but the end
+result to him as a student was that he was turned off.
+
+In college, in spite of that bad experience, he decided to try CS
+again and after a couple of nondescript courses he took one that he
+described as life changing. A great instructor that reignited his love
+for the subject.
+
+This happened to me as well but on the math side. I was always pretty
+good at math and enjoyed it, until I wasn't - this was Calc II. I
+thought I just hit my wall and I started to dread math even though I
+knew I'd need some to be a CS major. I figured it must be me. I
+slogged through my required courses in college barely getting by until
+I took Discrete Math - the instructor was "just" a grad student but he
+was terrific. Turned me back on to math. I realized I could do this
+stuff. A couple of years later, I realized that my problem wasn't that
+I was stupid but I had a bad teacher who didn't teach me what I needed
+to know to succeed in Calc II.
+
+We always here about that small handful of teachers that many of us
+had who inspired us or set us up for our futures but there are also
+many tales of that bad experience. That reason why someone is math
+phobic or why they abandoned some prior passion. Maybe it was a bad
+teacher, maybe a good teacher severely out of their element but
+throwing kids into a CS class with an unprepared teacher just to say
+they got to take CS might not be the best idea. We might be exposing
+them to the field but we also might not and worse, we might be turning
+them off. If the teacher is well
+prepared, all good. If the teacher isn't but recognizes
+their deficiencies they can still pretty much ensure that they won't
+be harming students and some good will likely come out of the class.
+An ill prepared teacher who doesn't know any better can be a
+dangerous thing.
+
+This of course isn't to say that there's one way to prepare a teacher
+or for a teacher to be prepared and certainly there are many ways for
+said teacher to run their class. In my conversation today, my new
+young friend shared thoughts on a few of his CS teachers noting how
+many of them did things very differently from each other but they each
+played to their strengths and to my friend's view, the were effective. 
+
+I'd like to think that this situation will ultimately work itself out,
+at least in states that have strong credentialing but even there, we
+could have issues as I've seen CS credentialing programs that barely
+cover CS0. If we want to make sure that ALL students receive strong CS
+education, it's up to all of us in the community to call out the
+situations preventing that and that includes calling out bad prep
+programs, bad PD, and schools and districts that tolerate or even
+encourage CS teachers who don't know CS.
+
