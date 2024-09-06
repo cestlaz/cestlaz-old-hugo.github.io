@@ -1,0 +1,131 @@
+---
+title: What they remember
+date: 2024-09-06T15:10:30-04:00
+tags:
+- misc
+categories:
+- misc
+draft: false
+--- 
+
+I haven't blogged for a few weeks. Part of the reason is that I
+haven't felt that I've had too much to say. That's in part because
+it's summer time and in part because I'm no longer teaching so that
+means no new experiences with students, no new stories, and, at least
+right now, no new CS education adventures. Part of it could also just
+be that I'm following the trend - fewer CS Ed bloggers blogging less
+frequently.
+
+Another part of why I haven't blogged for a few weeks is that I've
+decided to try to write a book. Since retiring I've had a few people
+mention it to me so I thought I'd give it a go.
+
+I've been writing a few sample chapters over the last there weeks
+(around 35,000 words , 75 pages so far). The plan is to alternate
+chapters - one with a story from my career followed by one on teaching
+something in CS or some CS pedagogical technique. Rinse and
+repeat. The "story" chapters will also have some educational message
+but it won't be topic or in class specific.
+
+We'll see where it goes. Even if it comes together I have no idea how
+I would go about trying to get it published
+
+Since my memory isn't what it was and even if it was, our memories are
+malleable I decided to reach out to my network of former students. I
+know that overall I've done a solid job as a CS teacher but what
+specifically was memorable. I might have loved a topic or something I
+did but maybe it was a flop. On the flip side, maybe there were things
+that had a major impact - good or bad and I thought they were just
+throwaways. I sent an email to my alumni list and posted to Facebook
+asking for the stories.
+
+What I got as a result is what made me think about the title for this
+post.
+
+Some of what I got wasn't a surprise. The competitive kids enjoyed
+things related to the USACO. Some talked about some of the bigger
+themes in the advanced classes. Everyone loved Halloween!!!
+
+I was surprised though with other things that came up.
+
+A surprisingly large number of responses singled out my "Homer the
+robot" lesson - my day one or two activity for new CS students. I used
+to do "Homer the Robot" in APCS when students took AP without any
+prior class and then moved it to Intro once that class was established
+and a requirement.
+
+Basically, I would play the part of Homer the Robot, named after Homer
+Simpson, largely due to Homer's well known mental capacity and also
+because I've always been a huge Simpsons fan - remember I started
+teaching this lesson or a variant of it back in the mid to late
+90s. I'd set up a simple scenario - instruct Homer so that he writes
+today's *aim* on the board.
+
+They would shout out instructions and hilarity would ensue.
+
+The idea of course was to show that computers follow simple
+instructions and follow them literally. As I always tell my classes
+"computers are horrible at doing what you want them to do but they're
+great at doing what you tell them to do."
+
+I'd interpret or rather, misinterpret the class's instructions but
+eventually we'd get an aim on the board.
+
+Now, I know this isn't a unique idea. I'm sure while I was coming up
+with it in the 90s in New York City others were doing similar things
+elsewhere. It's like pair programming. Industry "invented" the idea as
+part of agile programming but just about every CS teacher ever
+invented a variation of pair programming prior to industry ever
+dreaming of two people on one computer every time that teacher was in
+a computer lab with more students than working machines.
+
+Nowadays you can find similar unplugged exercises a simple web search
+away - things like "the paper plane exercise" or the "peanut butter
+and jelly sandwich exercise" come to mind. Still, I prefer my version
+but if you want to know why, you'll have to read my book if it ever
+comes out :-).
+
+When reading my student messages, I was surprised how often Homer came
+up. Sure, it was fun and the class always got laughs but there were
+plenty of other classes with more laughs. Maybe because it set the
+stage. Many of the students who were subject to that lesson ended up
+taking two and a half years of CS and many classes with me. Maybe
+because it started to demystify computing. I can't say for sure but
+it's something I've been thinking about. Why that lesson and not any
+of the hundreds to follow.
+
+As I said, it's interesting what they remember.
+
+Another theme that came up in more responses than I would have
+expected didn't refer to a lesson, any particular activity, or
+story. It had to do with the CS class, or in many cases, the CS office
+area - room 301, being a "safe space." Interesting because I don't
+think people even used that term back in the day. I found that
+interesting because first, it again came from more students than I
+would have expected. Second, it also came from some people who were
+never my student but are now in my network. They were never in my
+class but still found there way to the CS corner of Stuy. Third, I
+never thought I did anything special or even really thought about
+making a "safe space," particularly since that can mean very different
+things to different people.
+
+Those were the two biggest surprises. Not that they were mentioned but
+that they were mentioned more than I would have expected.
+
+There were plenty of other responses. Some I expected and some not and
+lots of good memory triggers as I stroll down memory lane.
+
+With the new semester starting for teachers around the country it's
+worth spending a minute thinking about it - you'll all have an impact
+teaching your subject area but you'll also have an impact in ways you
+probably wouldn't think about.
+
+Have a great semester everybody!!!!
+
+
+
+
+
+
+
+
