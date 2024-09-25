@@ -1,0 +1,155 @@
+---
+title: Enemy Of The Good
+date: 2024-09-25T11:14:27-04:00
+tags:
+- misc
+categories:
+- misc 
+draft: false
+--- 
+
+I usually listen to podcasts on my morning run. For the past couple of
+weeks I've been listening to [[https://99percentinvisible.org/][99% Invisible]]'s series on [[https://99percentinvisible.org/club/][The Power
+Broker]], Robert Caro's incredible biography of Robert Moses. Arguably
+the best book on New York City not to mention urban planning and
+politics.  Amazing book. I read it a few years ago, well, actually
+listened to it at the same time as Natan - our own personal father son
+book club. We've done it with a few tomes  - [[https://www.robertcaro.org/the-power-broker][The Power Broker]], [[https://en.wikipedia.org/wiki/Don_Quixote][Don
+Quixote]], and most recently [[https://www.nytimes.com/2020/09/16/books/review/wagnerism-alex-ross.html][Wagnerism]]. 
+
+I highly recommend both the book and the podcast series but I'm not
+going to talk about either really today. As part of the series, each
+episode includes an interview with a guest. One guest was Michael
+Schur, co-creator of [[https://en.wikipedia.org/wiki/Parks_and_Recreation][Parks and Rec]]. During the podcast, he told a
+story about how, when working on Parks and Rec, they interviewed a
+city bureaucrat or civil servant. He wanted to rebuild a small local
+park. He had all sorts of plans to return the park to its original
+glory including magnificent columns. Schur noted that since we live in
+a democracy, he couldn't just start building but rather all sorts of
+constituents had to weigh in. One group wanted less grass, another
+objected to the ornateness of the columns and so it went on and on. By
+the time the park was actually finished, it was a pale imitation of
+the original plans. Sure, it was a new, rebuilt park, but the
+ plans had been gutted, scaled back and otherwise twisted.
+
+In spite of this, when asked, the civil servant said he was happy with
+the results. Sure, he wanted his plans but he also knew how government
+worked and in the end, he as happy that there was some progress.
+
+I see the same thing happen time and time again. Traffic calming
+efforts that would improve safety, air quality, and quality of life in
+general for many New Yorkers shot down because a small group of people
+(usually rich white ones) insist that the city can't remove the free
+public parking in front of their buildings. I won't even get started
+on the housing crisis in the city. If following our cited civil
+servant's point of view, the people pushing the positive changes in
+the city should be happy with their baby step successes. 
+
+I've always had difficulty with this point of view. 
+
+I'm not saying it has to be "go big or go home" but I've always tried
+to do it right rather than do it enough to check the checkbox.
+
+I remember when New York City was creating AFSE (The Academy for
+Software Engineering). I was involved for a while until the Department
+of Ed froze me out. The DOE insisted that the goal of the school was to
+create industry ready software engineers right out of high school
+based on what I had built at Stuy. I said "great, but to do that you
+need to have an academic screen to get in"  knowing that you can't get
+to industry ready if the kids are coming in multiple years behind,
+particularly in math. I also said that they could go without a screen
+but they'd have to adjust their expectations (as well as messaging)
+since without the screen and with students coming in at all levels,
+the best they would be able to do is give some exposure to computer
+science and if they did it right, prepare them for college CS or a
+boot camp after high school.
+
+I said they could go either way but I was pushing for the entrance
+screen. Not anything like the Stuy test, but something to make sure
+the kids entered with enough of a math background so that the school
+could accomplish its goals. I really believed with a modest math
+screen and the right resources, the school could be something special.
+
+At the end of the day, I lost that one. The DOE froze me out. The
+created an unscreened school (again, I'm not saying this in and of
+itself was bad) but they maintained the messaging that the kids would
+get that top level software engineering preparation.
+
+Of course the students didn't. The school was fine as a generic school
+but in terms of Software Engineering and CS Prep, looking back, I'd
+actually say that there were public NYC schools that already existed
+that were doing as well or arguably better and I'm not talking about
+test schools like Stuy here.
+
+In discussing this was friends, I was commonly told "don't let the
+perfect be the enemy of the good." I get it but it's something that
+I've long struggled with.
+
+At the end of the day, I think I was right about AFSE for the students
+that went there. If the school was honest about what it was, I think
+it could have served its kids better. Alternatively, if it added a
+nominal screen it could have fulfilled its stated objective.
+
+On the other hand, I was also wrong. The schools existence along with
+the Public Relations push and industry hype, all under the Bloomberg
+administration probably helped pave the way for Bill de Blasio's
+CSforAll initiative in New York City.
+
+So, was I right or was I wrong? I don't know. Without AFSE we might
+not have had CSforAll so I was most likely wrong but part of me still
+believes that they could have done the school right and at the same
+time still built the hype.
+
+I've also been similarly on both CSforAll and CS teacher prep
+programs. My position has always been that we need knowledgeable CS
+teachers in CS classes and that knowledgeable means actually knowing a
+fair amount of CS. Of course this would mean a long term ramp up and
+funding to actually pay to prepare the teachers. The majority trend
+and view is quite different - start teaching CS now even if teachers
+don't really know what they're doing and we might work things out at
+some later point.
+
+I'm not going to address the people who feel that short form PD is
+enough to make a strong high school CS teacher other than to say
+they're flat out wrong.
+
+My view is wrong in that the ramp up would take years - probably
+decades. That means that potentially another generation of kids would
+be denied any CS education. On top of that, the amount of time needed
+would be far longer than typical government office terms and who knows
+if initiatives would survive from one administration to another.
+
+On the other hand, doing it quick and dirty can also be wrong. I've
+seen both teachers and schools who believe that once they have someone
+in an APCS-P class - regardless of that teacher's ability to actually
+teach CS - as long as they have the seal of approval of having gone
+through some rudimentary code.org style training, it's good enough and
+the school is set for life.
+
+This is also a problem.
+
+An even worse problem is when a school is teaching CS badly and
+either turning off students or teaching them things that are just
+wrong resulting in kids getting turned off later on. I've seen this as
+well.
+
+So, I'm still muddled on this. I find it very frustrating when I see
+CS education at the school, district, city, state, or national level
+moving in a direction that I think is, not wrong, but not optimal even
+though I try to console myself with the fact that the movement is
+positive in a lot of ways.
+
+I also remind myself of something Pete Seeger frequently said,
+attributing it to Rene Dubos - "think globally, act locally." I take
+great pride in the results I've gotten when I have been able to do
+projects my way with my team - Hunter, Stuyvesant, and an assortment
+of others. That reminds me of something that a very smart friend once
+told me years ago when the K12 CS movement was just starting. He
+predicted that "there will be small pockets of excellence" - referring
+to places such as Stuy but the mainstream will be mediocre at best. I
+think the mainstream overall is doing a fair deal better than mediocre
+but I think his point of view was pretty prescient. 
+
+In any case, I do wear my naysayer hat as a badge of honor. I think
+the movement needs people like me to try to keep the mainstream
+honest. 

@@ -6,10 +6,937 @@
     <description>C&#39;est la Z (CS Education)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Feb 2024 14:03:17 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jul 2024 15:10:14 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/tags/cs-education/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>CSTA 2024 final thoughts</title>
+      <link>https://cestlaz.github.io/post/csta-2024-final/</link>
+      <pubDate>Tue, 23 Jul 2024 15:10:14 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/csta-2024-final/</guid>
+      <description>&lt;p&gt;
+Got home last night. Only delayed a couple of hours so we were much
+luckier than many friends who had to scramble and deal with canceled
+flights. It helped that we flew JetBlue, an airline not affected by
+the CrowdStrike issues and also because we were staying until Monday
+anyway so as to play tourist.&lt;/p&gt;
+&lt;p&gt;
+What&amp;#39;s left to cover. Let&amp;#39;s start with the exhibition hall with all
+the vendors. There were the big companies - Google, Amazon, and
+Microsoft, curriculum provers like CodeHS and CMU (CS Academy), and
+lots of robots and robotics companies. There were a few others mixed
+in as well.&lt;/p&gt;
+&lt;p&gt;
+I didn&amp;#39;t speak to too many vendors though as I&amp;#39;m not particularly
+interested in using someone else curriculum and while some of the
+robotics stuff looked very cool, it&amp;#39;s not something I&amp;#39;ll be using
+since I&amp;#39;m no longer in a classroom and any toys I do want to play with
+have to fit in my Manhattan apartment.&lt;/p&gt;
+&lt;p&gt;
+I did spend some time with the people in the &lt;a href=&#34;https://www.kira-learning.com/&#34;&gt;Kira&lt;/a&gt; booth. I thought I&amp;#39;d
+check them out since they seem to be getting a bit of buzz
+recently. Their home page touts Kira as &amp;#34;The AI platform for schools.&amp;#34;
+There are courses which seem to basically be MOOCS, although they can
+be used (and appear to be meant to be used) as a tool by a teacher
+with a class. There are pre-made courses and units and teachers can
+also build their own content. This all looks fine but seems similar to
+other course platforms.&lt;/p&gt;
+&lt;p&gt;
+They seem to want to differentiate themselves with their AI
+piece. This comes as an auto-grader which I didn&amp;#39;t get to see along
+with an AI tutor for the students. It looks cool but to be honest, I
+don&amp;#39;t know if it&amp;#39;s even a good idea as a classroom tool. I think I&amp;#39;d
+rather have a student talk with a neighbor first. I plan to do a
+deeper dive into Kira sometime soon and then will probably report
+back. Right now, if they keep the buzz, they&amp;#39;ll sell well but I&amp;#39;m not
+yet sold. If I were still in the classroom, I think I&amp;#39;d stick to my
+old school ways.&lt;/p&gt;
+&lt;p&gt;
+To me, CSTA has always been a people conference rather than a session
+conference and this year was no exception. I got to see and spend time
+with many old friends and met a couple of new ones. For the sessions
+though, while I found a couple of great ones, many didn&amp;#39;t do much for
+me. That&amp;#39;s not to say they were bad sessions. I think I even noted
+that in my previous posts where I felt that a session would be great
+for a teacher at another point in their career but it didn&amp;#39;t scratch
+my itch.&lt;/p&gt;
+&lt;p&gt;
+Of course, given that any attendee can only go to one session per slot
+and since descriptions don&amp;#39;t always tell the whole story, perceptions
+vary. I just read Amy Ko&amp;#39;s &lt;a href=&#34;https://medium.com/bits-and-behavior/csta-2024-trip-report-mixed-messages-20222112a788&#34;&gt;CSTA report&lt;/a&gt; and Amy lamented the lack of
+equity and justice focus. I felt there was good coverage there. I on
+the other hand felt that there should have been more coverage on
+actual content and pedagogy. Both of us could be right, both of us
+could be wrong. At the end of the day though, CSTA provided a platform
+with CS teachers from across the country could discuss whatever issues
+they desired with a diverse range of colleagues and that&amp;#39;s a pretty
+special thing.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;d be remiss if I didn&amp;#39;t close with a few words on my tourist time. I
+wasn&amp;#39;t excited to come to Las Vegas - I&amp;#39;m not into casinos and coming
+from New York I&amp;#39;ve got better and cheaper food options as well as
+pretty much any entertainment I want. In NY I also don&amp;#39;t feel like
+then entire town is trying to scam me for my money. I don&amp;#39;t want to
+come down though on residents of Las Vegas though since I do know a
+couple of great people who live there so I&amp;#39;m sure people there are
+just like everywhere else it&amp;#39;s just that the tourist industry there
+isn&amp;#39;t for me.&lt;/p&gt;
+&lt;p&gt;
+That said, we did do a number of things we enjoyed.&lt;/p&gt;
+&lt;p&gt;
+We did a couple of day trips with Pink Jeep tours - one to Hoover Dam
+and the other to Red Rock Canyon. Our Red Rock tour guide was the
+better of the two but both were solid and both trips 100% worthwhile.&lt;/p&gt;
+&lt;p&gt;
+We also visited the Atomic Testing Museum and the Mob Museum. Both
+were really interesting. I&amp;#39;ve always been interested in the mob thing,
+particularly the Jewish Mob in New York so the Mob Museum was a
+particular hit for me.&lt;/p&gt;
+&lt;p&gt;
+We walked Freemont Street, which was basically another touristy strip
+but got a great apple fritter at a donut shop across from one of the
+ends.&lt;/p&gt;
+&lt;p&gt;
+On our last afternoon, after our Red Rock tour we grabbed lunch at
+&lt;a href=&#34;https://www.sayulitaseats.com/&#34;&gt;Sayulitas&lt;/a&gt; - a hole in the wall burrito place. I&amp;#39;ve got to say -
+probably our best meal in Vegas.  All the strip stuff was overpriced
+although some was tasty but Sayulitas was dynamite. When we got in, we
+were concerned about the lack of seating but there was a huge crowd of
+locals and pretty much no English being spoken - all good
+signs. Hadn&amp;#39;t had burritos that good in decades.&lt;/p&gt;
+&lt;p&gt;
+From there we went to the &lt;a href=&#34;https://www.pinballmuseum.org/&#34;&gt;Pinball Hall of Fame&lt;/a&gt;. While I&amp;#39;m not into
+casinos, I love pinball. Basically a pinball parlor with machines
+ranging from the early days up until today. Also a bunch of novelty
+machines like a vertical circus game with three mini pinball games in
+it and a couple of two player games where each player is on opposite
+sides and the playfield tilts back and forth. Super cool. Price per
+game range from a quarter for some of the old machines to a dollar for
+the new ones. Devorah and I spent a couple of hours and $20 and had a
+super fun time.&lt;/p&gt;
+&lt;p&gt;
+So that&amp;#39;s CSTA 2024. Before flying to Las Vegas, I was already not hot
+on the town and also not so hot on some aspects of CSTA, the national
+organization. I think the most positive thing I can say is that I left
+the conference not only energized but thinking about proposing a
+session or two for next year.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CSTA 2024 - the final day</title>
+      <link>https://cestlaz.github.io/post/csta-2024-day-4/</link>
+      <pubDate>Sun, 21 Jul 2024 19:51:07 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/csta-2024-day-4/</guid>
+      <description>&lt;p&gt;
+The conference ended this past Friday. After a couple of morning
+sessions I started to play tourist which included spending more time
+in the 100+ degree out doors. Fun stuff that I&amp;#39;ll talk about later but
+left me too drained Friday and Saturday evening to continue my write
+ups.&lt;/p&gt;
+&lt;p&gt;
+First up was another AI session &amp;#34;Unlocking AI: Teaching Artificial
+Intelligence in K12.&amp;#34; Slides and other materials can be found
+&lt;a href=&#34;https://docs.google.com/presentation/d/121zotqh5_kr7jSP3HdUQue-vyT-goWznqFvjTbyvcWE/edit#slide=id.g2df995fa4b0_0_417&#34;&gt;here&lt;/a&gt;. The speakers were Nora Burkhauser who gave the talk on &amp;#34;Machine
+Learning for Kids&amp;#34; and Nick Yates. The talk focused on two
+professional development opportunities they&amp;#39;ve developed to bring K12
+teachers of all grade levels and all subjects up to speed on
+Artificial Intelligence. Well really one PD opportunity split into two
+part.&lt;/p&gt;
+&lt;p&gt;
+Part one, offered via remote sessions with interspersed assignments
+followed by in person PD covered the basics. Basic definitions,
+classic ML and AI, a typical AI pipeline. From where I sat, it looked
+like this course provided a good overview for any teacher new to
+AI. It didn&amp;#39;t, in my opinion cover enough for a CS teacher in a HS
+class to do a full AI unit but given time constraints of a typical PD,
+it&amp;#39;s a great start and looks like it provides plenty for the early
+grade teachers and the non CS teachers while at least getting the CS
+teachers on the road.&lt;/p&gt;
+&lt;p&gt;
+Part 2 goes over available AI curricula, touches on modern AI -
+generative AI, neural nets etc., and also goes over applying AI. In
+fact, they presented the same lesson, more or less, as was presented
+in the &amp;#34;Machine Learning for Kids&amp;#34; talk I attended on Thursday. This
+part 2 course certainly adds to the foundation for the early grade
+teacher on non CS teacher, but still wouldn&amp;#39;t be enough, in my opinion
+for the HS teacher. I understand that the speakers can only do so
+much - they can&amp;#39;t offer one or more college or graduate level courses
+in AI - they have to work within their state&amp;#39;s professional
+development system but we have to become vocal about the fact that so
+long as our CS teachers are not coming in with strong content
+knowledge, add on professional development isn&amp;#39;t a solution, it&amp;#39;s just
+window dressing. Sure, right now it&amp;#39;s frequently the best we can do
+but more people have to start banging the drum that we &lt;strong&gt;need&lt;/strong&gt; our CS
+teachers to actually have a good amount of knowledge in, you know, CS.&lt;/p&gt;
+&lt;p&gt;
+Before moving on, I do want to say again that this was another strong
+session and the speakers are doing great work, they&amp;#39;re just trying to
+do their best within the limitations of the system under which they
+work.&lt;/p&gt;
+&lt;p&gt;
+After this AI talk I attended some lightening talks. The first was
+given by a new teacher on  her just barely staying ahead of her
+class. It was a nice talk but got me thinking that it might be useful
+for CSTA to specifically set up an affinity meeting that combined
+brand new CS teachers (particularly those with limited content
+knowledge) and match them with groups of slightly more experienced
+teachers - say those with 3 or 4 years experience. Teachers with
+enough mileage so that they can provide encouragement and guidance to
+the neophytes but not with so much experience that they&amp;#39;ve forgotten
+the struggle.&lt;/p&gt;
+&lt;p&gt;
+Another lightening talk was about creating a social media presence. I
+was interested in this because the speaker was going to talk about
+making short form videos and I&amp;#39;ve spent the past decade+ in the world
+of blogs. Unfortunately, the talk was really more about how to tweak
+your already existing video content to maximize viewers. Valuable if
+you&amp;#39;ve already got a video presence but not the info I was hoping for.&lt;/p&gt;
+&lt;p&gt;
+I didn&amp;#39;t attend the last keynote so that was it for me but that&amp;#39;s not
+it for my SIGCSE post. Next up, the exhibitors, Las Vegas and final
+thoughts on the conference.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CSTA 2024 day 3 part 2 - AI and a keynote panel</title>
+      <link>https://cestlaz.github.io/post/csta-2024-day-3-2/</link>
+      <pubDate>Fri, 19 Jul 2024 09:56:09 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/csta-2024-day-3-2/</guid>
+      <description>&lt;p&gt;
+So, I stopped my &lt;a href=&#34;https://cestlaz.github.io/post/csta-2024-day-3/&#34;&gt;previous post&lt;/a&gt; after my thoughts on the DEI talk. The actual
+post wasn&amp;#39;t all that long, the reason I said for stopping the post but
+rather because writing that post was emotionally draining. Can I talk
+about that stuff? Will people interpret it the way I intended. Will
+people who I don&amp;#39;t want to offend and don&amp;#39;t think I&amp;#39;m offending, will
+they be offended? Will the people I want to offend not be offended
+(okay, just joking here). It&amp;#39;s really hard for people to have these
+conversations and too many people these days don&amp;#39;t allow for nuance
+but I felt it important to get my thoughts out there. Not so much
+because my thoughts are anything special or that they&amp;#39;re right or
+wrong but one, because the session was terrific and I am documenting
+my conference experience and two because having these conversations
+won&amp;#39;t get easier unless people are willing to put themselves out
+there.&lt;/p&gt;
+&lt;p&gt;
+Anyway, back to our regular programming.&lt;/p&gt;
+&lt;p&gt;
+Thursday afternoon I sat in on &amp;#34;AI Lessons using Machine Learning for
+Kids.&amp;#34; &lt;a href=&#34;https://machinelearningforkids.co.uk/#!/login&#34;&gt;Machine Learning for Kids&lt;/a&gt; is a site/platform that allows people
+to set up and train machine learning models. The speaker&amp;#39;s slide deck
+with links to resources can be found &lt;a href=&#34;https://docs.google.com/presentation/d/1AJ5sfkMVzl_JNnnVeTOnEZD__fe8b7LN_2sPTpFLH44/edit#slide=id.g272ca406bce_0_21&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+The speaker walked us through how she used ML for kids with her
+class. She basically teaches a typical Machine Learning pipeline, that
+is:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;collect data –&amp;gt; prepare/clean –&amp;gt; select model –&amp;gt; train –&amp;gt; validate
+–&amp;gt; predict&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+Her specific project was sentiment analysis of text. The platform can also
+work with images, sounds, and numbers. After logging in (or clicking
+to try without registering) you start a project. You select the model
+you&amp;#39;re using, &amp;#34;recognizing text&amp;#34; in this case. You then use their
+interface to add data. The instructor, of course, would have to
+provide guidance so that a student would know what and how to enter.&lt;/p&gt;
+&lt;p&gt;
+When finished, you click the train button and the platform builds the
+model. I&amp;#39;m pretty sure you can then play with the model but I didn&amp;#39;t
+actually test that. The cool thing, to me was that you can then have
+the platform generate code - scratch, python, and a couple of other
+platforms. I clicked the generate button and all of a sudden I got a
+chunk of Python code that I could embed in a program. Specifically,
+the code let you use your now trained model as a library (or more
+specifically, web based API) and make calls with data and get your
+results.&lt;/p&gt;
+&lt;p&gt;
+While this is &lt;strong&gt;very&lt;/strong&gt; cool, it raised some questions. The big one for me
+is that you can go through all of this and have almost zero knowledge
+of the underlying machine learning. Contrast that with the session I
+wrote up a couple of days ago where the students learned all the
+little details of gradient descent for linear regression (more on this
+later).&lt;/p&gt;
+&lt;p&gt;
+Is this really the right way to go?&lt;/p&gt;
+&lt;p&gt;
+The instructor noted that when we use a tool like ChatGPT we&amp;#39;re using
+an already trained model so this is no different. That&amp;#39;s true but in a
+class learning about, say sentiment analysis as an ML technique, I
+think students should learn how the sausage is made. &lt;/p&gt;
+&lt;p&gt;
+Now, this approach of leaving the actual ML as a black box does still
+allow for some good learning to go on.  Students will learn the
+pipeline. They can also discuss issues like false positives and true
+negatives - the effects of different training data, over training and
+much more. They could also see, from a user point of view if different
+models produce different results. A teacher might also have constraints
+to keep them from diving deeper - insufficient time, toolset limits,
+student backgrounds and I&amp;#39;m sure others.&lt;/p&gt;
+&lt;p&gt;
+That said, I&amp;#39;m a firm believer in seeing what&amp;#39;s under the hood.&lt;/p&gt;
+&lt;p&gt;
+Now, going back to the Linear Regression talk from Wednesday, that
+might be too much for an average high school class and almost
+certainly too much for a pre APCS-A class so where do you draw the
+line?&lt;/p&gt;
+&lt;p&gt;
+It turns out that in a CS0 class using a text based language like
+Python, students can pretty easily write a simple sentiment analysis
+system. You can also scaffold pretty thoroughly.&lt;/p&gt;
+&lt;p&gt;
+The basic gist is:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Make two lists, one of positive words, one of negative&lt;/li&gt;
+&lt;li&gt;Read in the text you want to test&lt;/li&gt;
+&lt;li&gt;Split the text into words&lt;/li&gt;
+&lt;li&gt;Count how many words are in the positive list and how many in the
+negative.&lt;/li&gt;
+&lt;li&gt;If there are more positive than negative, it&amp;#39;s a positive piece,
+otherwise negative.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This is extremely bare bones and has issues. For instance if a
+document has &amp;#34;not bad&amp;#34; in it it&amp;#39;ll just see the word bad and classify
+as negative but that&amp;#39;s something the class can talk about. The project
+can also be easily extended in any number of ways. You can also
+include all of the good things from the speakers lesson design - the
+pipeline, different training sets, etc.. The important thing is that
+the students will have a stronger understanding of how sentiment
+analysis actually works.&lt;/p&gt;
+&lt;p&gt;
+While this was a strong session, I&amp;#39;m a big believer in students
+understanding the inner workings of things and I think this is going
+to be even more important with the current AI craze - this is
+something one of the end of day keynote panelists actually pointed out
+(more on that down below). Of course, you have to know your
+population, where they&amp;#39;re at, and what your restrictions are.&lt;/p&gt;
+&lt;p&gt;
+In middle school with scratch, the black box approach is most likely
+the way to go, particularly since ML for kids hooks in to
+scratch. Teaching a High School class using Python? You should
+probably do a unit where your class codes the whole thing.&lt;/p&gt;
+&lt;p&gt;
+Just my opinion and approach.&lt;/p&gt;
+&lt;p&gt;
+One final note before moving on to the rest of the day. I&amp;#39;ve noticed
+that while there are plenty of sessions that, by description, talk
+about ChatGPT tools - what&amp;#39;s considered the cutting edge of the AI
+fad, there have been a few sessions on Machine Learning and more
+traditional AI. This has been great to see as so much of what runs and
+what will run the world operates using these techniques and
+technologies and it&amp;#39;s important not to drop them in education for the
+flavor of the month.&lt;/p&gt;
+&lt;p&gt;
+That was it for the Thursday sessions for me, I spent the rest of the
+session time looking at the posters and the hallway track.&lt;/p&gt;
+&lt;p&gt;
+The Thursday keynote was a panel moderated by education journalist
+Natasha Singer. The panelists were (as seated left to right):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Christy Crawford of the New York City Board of Ed&amp;#39;s CSforAll initiative&lt;/li&gt;
+&lt;li&gt;Maggie Johnson, Global head and VP, Google.org&lt;/li&gt;
+&lt;li&gt;Mehram Sahami, Chair of the CS department, Stanford University&lt;/li&gt;
+&lt;li&gt;Kip Glazer, Principal, Mountain View High School &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Before diving in to the panel, I&amp;#39;ve got to express more pride in my
+Hunter CS Teacher Cert program graduates. While delivering some
+opening comments, Natasha Singer gave a shout out to another Hunter CS
+Certified teacher, Marisa Shuman citing some of the work Marisa&amp;#39;s done
+bringing AI to her students in New York. Here&amp;#39;s Natasha&amp;#39;s article
+about it: &lt;a href=&#34;https://www.sanjuandailystar.com/post/at-this-school-computer-science-class-now-includes-critiquing-chatbots&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+Now to the panel. Overall it was a great session but I did notice one
+thing missing. There were no actual teachers on the panel. Maggie
+Johnson&amp;#39;s from Google and he background&amp;#39;s in higher ed as is Mehram
+Sahami&amp;#39;s. Christy Crawford doesn&amp;#39;t show any classroom teaching
+experience on her linkedin. Only Kip Glazer listed any K12 teaching
+experience on linkedin and that ended back in 2016 - about 11 years
+total which is a nice chunk but in my mind generally not anywhere near
+the time needed for mastery.&lt;/p&gt;
+&lt;p&gt;
+It would have been nice to have at least one actual K12 teacher up
+there. Even better if it were an experienced CS teacher who also had
+strong content knowledge.&lt;/p&gt;
+&lt;p&gt;
+The first question was on the overall impact of AI in
+education. Mehram was first to respond and hit the nail on the head -
+AI can&amp;#39;t transform education, only people (teachers can transform
+education. Bravo. He added that AI can enhance teachers ability to
+transform education but it&amp;#39;s just a tool. As a side note, I really
+felt that Mehram was pretty much spot on throughout. I was very
+impressed with his responses.&lt;/p&gt;
+&lt;p&gt;
+Christy chimed in with a common teacher&amp;#39;s fear - will AI replace them.&lt;/p&gt;
+&lt;p&gt;
+I think this was an interesting juxtaposition. You have the academic
+speaking the truth of how things should be and the person immersed in
+K12 noting the unfortunate reality that the politicians and private
+interests are always looking to save money and turn a buck by cutting
+teachers and directing money to private companies to &amp;#34;compensate.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+The next question asked were coding should live in K12 with tools like
+copilot and other code generating LLMs.&lt;/p&gt;
+&lt;p&gt;
+Maggie noted that even if AI can generate code, it still needs to be
+understood, checked, tested, extended, and embedded. She said she
+didn&amp;#39;t know how much coding would be necessary but certainly it&amp;#39;s
+something we much teach in K12.&lt;/p&gt;
+&lt;p&gt;
+Mehran noted that teaching coding syntax is still important and that
+we can use tools like chatGPT like a code library or API to enhance
+our student&amp;#39;s work. This echoed something I wrote about when I wrote
+up this year&amp;#39;s SIGCSE experience.&lt;/p&gt;
+&lt;p&gt;
+In response to Natasha Singer asking if there should be limits on
+AI on AI Maggie spoke on how it&amp;#39;s something that Google talks about
+top to bottom every day. When she followed up with &amp;#34;what about in the
+classroom&amp;#34; Christy chimed in yes but added an oh so important &amp;#34;but not
+on the backs of the teachers.&amp;#34; I do lament that there wasn&amp;#39;t an actual
+teacher on the panel but applaud Christy for consistently having
+teacher&amp;#39;s backs throughout the panel. It&amp;#39;s not a surprise, she&amp;#39;s
+always had teacher&amp;#39;s backs in her role at CSforAll. I wish others in
+the NY DOE would follow her lead more.&lt;/p&gt;
+&lt;p&gt;
+Natasha also asked about corporate influences on curriculum as this is
+something somewhat unique to CS. As a new field and a new field in
+K12, few teachers and schools knew what to teach so for better or
+worse, outsiders filled the void. That&amp;#39;s the college board, code.org,
+organizations like PLTW, companies liked CODEHS. This doesn&amp;#39;t happen
+in other older fields. A friend of mine later pointed out that it sort
+of does but the outside influencers are the book publishers. Anyway,
+Maggie posited that technology changes so fast that industry is needed
+to keep curriculum up to date. I think she misinterpreted the question
+though. I  believe Natasha was specifically talking about content
+providers like those I listed above while Maggie was thinking about
+pure tech companies informing curriculum which, if they did and if
+they &amp;#34;stepped back&amp;#34; to go back to yesterday&amp;#39;s post would be great.&lt;/p&gt;
+&lt;p&gt;
+I think Mehram also misinterpreted the question as he talked of the
+symbiotic relationship between industry and education. I think he was
+thinking more about the university industry relationship.&lt;/p&gt;
+&lt;p&gt;
+Once again, though, Christy had the teacher&amp;#39;s backs when she on the
+one hand noted how important industry can be - they can inform,
+provide opportunities like mentoring, and support but there has to be
+a hard line. They should not be driving curriculum or
+education. Again, bravo.&lt;/p&gt;
+&lt;p&gt;
+At this point, we ran out of time. Great panel. As I said, I
+particularly liked Mehram&amp;#39;s comments which included a number I didn&amp;#39;t
+mention here as well as Christy&amp;#39;s constant defense of teachers but
+everyone was terrific.&lt;/p&gt;
+&lt;p&gt;
+That&amp;#39;s it for day 3.&lt;/p&gt;
+&lt;p&gt;
+In the next day or so I&amp;#39;ll get to day 4, the exhibitors, and some
+closing thoughts.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CSTA 2024 day 3</title>
+      <link>https://cestlaz.github.io/post/csta-2024-day-3/</link>
+      <pubDate>Thu, 18 Jul 2024 17:37:43 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/csta-2024-day-3/</guid>
+      <description>&lt;p&gt;
+Started out today in a session titled &amp;#34;Keep Calm and AI on.&amp;#34; The panel
+was made up of CSTA Equity Fellows. It turned out that the session
+wasn&amp;#39;t what I was looking for. According to the description the panel
+was supposed to cover &amp;#34;the promise and the challenges of various
+artificial intelligence tools, especially generative AI tools such as
+ChatGPT, Copilot, and Bard.&amp;#34; Instead it was a general panel and
+discussion of the use of AI. To be frank, the session wasn&amp;#39;t really
+focused on CS educators at all and could just as easily been plopped
+down int a PD session for any subject or grade level. Now, that&amp;#39;s not
+necessarily bad but it just wasn&amp;#39;t what I was hoping for.&lt;/p&gt;
+&lt;p&gt;
+The panel consisted of a number of questions where each panelist had
+their say and then the moderator, also a panelist solicited thoughts
+from the audience.  The questions they asked were:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;What ethical concerns do you have?&lt;/li&gt;
+&lt;li&gt;In your setting, how is AI used?&lt;/li&gt;
+&lt;li&gt;What&amp;#39;s one piece of advice you&amp;#39;d share?&lt;/li&gt;
+&lt;li&gt;What work have you seen being done for AI in education?&lt;/li&gt;
+&lt;li&gt;What is your call to action?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The moderator ran the panel well and we got to share many points of
+view. Personally, I was hoping for a discussion of some specifics with
+using CS specific tools like copilot or issues or possibilities with
+applying ore general tools like ChatGPT in a CS classroom or lesson
+but I suspect that the panel as it went own was probably pretty
+valuable to a lot of people in the audience&lt;/p&gt;
+&lt;p&gt;
+My second session was &amp;#34;The Power of Words in CS Education&amp;#34; - another
+panel. As per the description, &amp;#34;this panel discussion aims to explore
+the intricacies of intercommunication and confront uncomfortable
+conversations&amp;#34; with the key word being DEI.&lt;/p&gt;
+&lt;p&gt;
+The questions were:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;What comes to mind when you hear the term DEI?&lt;/li&gt;
+&lt;li&gt;Who can talk about DEI?&lt;/li&gt;
+&lt;li&gt;What issues have you had speaking your truth in this space?&lt;/li&gt;
+&lt;li&gt;Do we need DEI offices and spaces?&lt;/li&gt;
+&lt;li&gt;Who owns this space?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Due to time constraints, the panel never got to the last two quesitons
+(other than a quick mention of question 4 where the consensus answer
+in the room was &amp;#34;yes&amp;#34;).&lt;/p&gt;
+&lt;p&gt;
+The panel was run much like the AI session I described with the
+panelists sharing their thoughts and then the moderator (again, also a
+panelist) solicited audience input and again the session was run
+smoothly and effectively.&lt;/p&gt;
+&lt;p&gt;
+I want to highlight some thoughts that came out on question 2 - who
+can talk about DEI as well some thoughts I had based on something one
+of the panelists said.&lt;/p&gt;
+&lt;p&gt;
+One panelist commented that anyone can talk about DEI but talk is
+cheap, we have to look at actions. My take is that you&amp;#39;ve got to walk
+the walk and thought about all the companies who crow about their DEI
+programs but really just pay lip service. Companies who claim they&amp;#39;re
+pushing say black SWE hires but really only fight with with the other
+top companies to monopolize the candidates from say Stanford. They
+talk the talk but aren&amp;#39;t really doing anything to improve the
+situation but rather they&amp;#39;re just trying to gobble up the low hanging
+fruit.&lt;/p&gt;
+&lt;p&gt;
+Another panelist mentioned that we need white people involved
+but they need to know when to step back. This is a tricky one. I get
+it - I can&amp;#39;t understand the life experiences, situation, or needs of
+say a black person in the USA and I certainly shouldn&amp;#39;t be telling one
+what they should feel or what they need but on the other hand I might
+actually have some background where I should be stepping in in a
+complementary way or might be raising a relevant issue. &lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ll share two personal situations where I was frozen out of a
+community for not &amp;#34;stepping back.&amp;#34; One was a conversation with some
+people about the LGBTQ+ pride parade in NYC. My position was that
+while I&amp;#39;m all for the parade, I had a problem with what I saw at the
+parade a number of years ago - near naked people on floats essentially
+performing simulated sex. Apparently I wasn&amp;#39;t stepping back. Now to
+me, I wasn&amp;#39;t telling anyone in this young subset of the LGBTQ+
+community how to celebrate or behave and I wasn&amp;#39;t telling the members
+of this set of LBGTQ+ community members how to live their lives. I
+was conveying my opinion that as a parent I really didn&amp;#39;t want to have to start
+explaining people having simulated sex mid day on a float to my young
+kids. Please note, my objection wasn&amp;#39;t specific to this parade, I&amp;#39;ve
+had the same complaint to other non LGBTQ+ parades that cut through
+family areas during the day. Was I out of line? &lt;/p&gt;
+&lt;p&gt;
+The other time was in a discussion of the SHSAT - the exam you take
+for admission to Stuy/Science/Tech etc.. There&amp;#39;s long been a problem
+with the low number of black students being admitted to these schools
+and Stuy in particular. A number of ideas have been floated including
+one particularly bad one - admit the valedictorian of each middle
+school. I asserted why this was a horribly bad idea. I as accused of
+being a racist and frozen out. To them, I wasn&amp;#39;t standing back. To me,
+I was pointing out the reality that this solution didn&amp;#39;t get to the
+root cause of the problem and also wouldn&amp;#39;t end well. I obviously
+can&amp;#39;t walk in the footsteps of a black middle school student or their
+parents but I had much greater knowledge of the test and test process,
+what Stuy was like and how it operated and think I had and have a much
+better understanding of what the outcome would be from this plan.&lt;/p&gt;
+&lt;p&gt;
+Was I out of line and should have stepped back or was I appropriately
+contributing to the discussion. It can get complicated, particularly
+if recognize that many of these situations are pretty nuanced. &lt;/p&gt;
+&lt;p&gt;
+A final comment I&amp;#39;ll make is that one of the panelists mentioned that
+they don&amp;#39;t want allies, they want co-conspirators. The difference
+being that a co-conspirator will step in front of a car for them. I
+get this and agree but it also irritated me. Not about the speaker or
+the panel but something I&amp;#39;ve noticed going on with some subsets of DEI
+supporting communities. I&amp;#39;m hoping that these subsets are small but
+vocal minorities but it&amp;#39;s hard to believe that given what I&amp;#39;ve seen in
+the media. &lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m a white male Jew. Back in the day Jews were recognized as
+co-conspirators with the black community and the LGBTQ+ community. We
+would not only figuratively step in front of a car for those
+communities but at times literally do so. Recently I&amp;#39;ve noticed the
+rise of antisemitic voices coming from some of those communities. This
+forces me to examine my relationship with these communities and makes
+me sad.&lt;/p&gt;
+&lt;p&gt;
+I really enjoyed this session but think it&amp;#39;s important to note that
+this was another session that really had no focus on CS.&lt;/p&gt;
+&lt;p&gt;
+I still want to write about one more session I attended as well as the
+Thursday keynote and the exhibit halls (including a bit on Kira
+Learning) not to mention tomorrow but I think this is long enough for
+today&amp;#39;s post. I&amp;#39;ll cover the rest in the next few days.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CSTA 2024 day 2</title>
+      <link>https://cestlaz.github.io/post/csta-2024-day-2/</link>
+      <pubDate>Wed, 17 Jul 2024 23:01:02 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/csta-2024-day-2/</guid>
+      <description>&lt;p&gt;
+What, no day 1? Well, day one was all workshops followed by a keynote
+and a reception. I generally don&amp;#39;t do workshops and got in too late
+for the keynote but I did hit the reception but not too much to write
+about there.&lt;/p&gt;
+&lt;p&gt;
+This year the CSTA conference is in Las Vegas. I&amp;#39;ve never been to
+Vegas and there&amp;#39;s not really much of a draw here for me. I&amp;#39;m not into
+gambling, the food, for a New Yorker is nothing special and while
+there are a number of shows that are unique to Vegas, again, as a New
+Yorker, it&amp;#39;s not like I&amp;#39;m lacking for local entertainment
+options. That said, there are some things I&amp;#39;ll enjoy taking in while
+I&amp;#39;m here - the spectacle of everything, the Mob museum, Hoover Dam,
+and Red Rock Canyon in particular.&lt;/p&gt;
+&lt;p&gt;
+To be honest, though, I really don&amp;#39;t get putting a teacher conference
+here. Everything is &lt;strong&gt;so&lt;/strong&gt; expensive. The rooms were reasonable (even with
+the resort fee) but everything is nickle and dime. The room only comes
+with 2 WIFI connections so if you&amp;#39;re 2 teachers sharing a room and
+each need a phone and computer on WIFI, that&amp;#39;s $30 extra a day. Then
+you&amp;#39;ve got food. A medium coffee in the morning is going to set you
+back $7 or $8 and today lunch cost me around $25 for a mediocre
+sandwich and a cannoli - around $10 more than I&amp;#39;d pay in NYC which is
+not a cheap town.&lt;/p&gt;
+&lt;p&gt;
+So, I don&amp;#39;t get the location but I still really enjoyed the opening
+reception, had a blast today as well and am a big fan of the CSTA
+conference.&lt;/p&gt;
+&lt;p&gt;
+To start out the day I sat in on John Dutton&amp;#39;s session &amp;#34;Creating a
+toolkit for all CS learners.&amp;#34; I was hoping to avoid an AI talk since I
+knew I&amp;#39;d get plenty of those later on but I really wasn&amp;#39;t sure where
+this session would lead. It turns out I didn&amp;#39;t avoid an AI talk but
+that was okay.&lt;/p&gt;
+&lt;p&gt;
+The first half of John&amp;#39;s talk was on how he set up his class culture -
+something that&amp;#39;s both very important and also frequently neglected. He
+spoke about empowering the class by asking them how they would like
+this class to be different than others they&amp;#39;ve had - it reminded me of
+my friend and former student Davin, who, whenever he starts a new
+company spends time with the founding team discussing what they did
+and didn&amp;#39;t like about the culture of their past companies and then
+uses their combined experiences to make a strong positive culture for
+their new venture. John&amp;#39; talks about student &amp;#34;jobs&amp;#34; in the class and
+more. I ran into John at lunch later and we chatted a bit. I felt that
+our thoughts are pretty aligned on class culture being really
+important but also confirmed my suspicion that he only had around 14
+kids per class which affords him more opportunities to set a positive
+culture than a teacher of say 34 per class in a crowded room. This is
+not to take away anything from his work as he&amp;#39;s aware of this
+advantage and appreciates it.&lt;/p&gt;
+&lt;p&gt;
+John also talked about some CS teaching techniques. Well, they&amp;#39;re not
+really CS specific techniques but CS teachers frequently use them -
+rubber duck debugging, asking classmates before asking the teacher and
+a few other strategies. Then, the main event, a template to set up an
+assignment that then used a script that used AI to take the data in
+the form and create multiple, differentiated versions of the lesson.&lt;/p&gt;
+&lt;p&gt;
+To be honest, there wasn&amp;#39;t a lot in this session for me given that I&amp;#39;m
+not teaching right now but for a new CS teacher, I could see a lot of
+value. I think I thought there would be more actual CS in the
+presentation but that&amp;#39;s neither here nor there. John shared &lt;a href=&#34;https://drive.google.com/drive/folders/1bUW03Qwvy2LvvUAIeH5j2n-K5jMxNk-M&#34;&gt;this&lt;/a&gt; link
+with materials which includes along with his lesson template, lists of
+frameworks and other resources, and a whole lot more. If you&amp;#39;re
+relatively new to teaching CS I&amp;#39;d strongly recommend you click on the
+link and check out everything provided.&lt;/p&gt;
+&lt;p&gt;
+Next up was a teacher certification talk given by three educators fro
+Gwinnett County Georgia. The talk covered the state of things in
+Georgia and what they&amp;#39;ve been doing. I learned that in Georgia, one
+has to have certification (or rather, an endorsement) to teach
+CS. This can be earned either by taking an exam or by earning an
+endorsement through an approved program. This group from Gwinnett
+designed a one year and also acquired funding to cover costs. I like a
+lot of what they&amp;#39;re trying to do. The Gwinnett team developed a one
+year boot camp for current teachers and area trying to emphasize a
+community model along with mentorship. Philosophically, at least from
+the pedagogy and implementation side, their program sounds similar to
+what I designed at Hunter in New York. My concern has to do with the
+depth of CS knowledge they&amp;#39;re covering. This isn&amp;#39;t necessarily the
+fault of the Gwinnett team though, it appears this is what Georgia&amp;#39;s
+requiring and if they require content far deeper than Georgia
+requires, the state might not approve of their program and teachers
+might not attend. Their program maxes out at APCS-P which to me, is
+way to elementary for a certified High School CS teacher. Those
+teachers need, in my opinion, at least a bit beyond APCS-A along with
+a good deal of breadth.&lt;/p&gt;
+&lt;p&gt;
+It was interesting to hear about what was going on in another state
+and while it sounds like Gwinnett County Schools are doing some pretty
+good work within the framework and constraints their state provides, I
+fear that by setting the CS bar so low, Georgia is shortchanging their
+students.&lt;/p&gt;
+&lt;p&gt;
+After lunch, I attended John Chapin&amp;#39;s session on &amp;#34;Machine Learning
+Made (more) simple.&amp;#34; I loved this session. John&amp;#39;s material is all
+&lt;a href=&#34;http://bit.ly/CSTA-ML&#34;&gt;here&lt;/a&gt;. John described and walked us through how he teachers linear
+regression. His goal was to teach us (his students) how it works
+rather than just use a library or black box toolkit. I&amp;#39;m 100% behind
+this. Now, it is true that John&amp;#39;s at a public magnet school with high
+achieving students just like I was at Stuyvesant and what he
+presented, out of the box, probably can&amp;#39;t be  implemented in a typical
+school but the approach and attitude certainly can and should.&lt;/p&gt;
+&lt;p&gt;
+John motivated the problem by asking what data would be helpful in
+predicting home prices, he then had his class (us) work for a time in
+groups to try to figure out relationships and even models to go from
+the data to something to predict prices. He then stepped us through
+unplugged hands on exercises that led us to and through gradient
+descent. This in turn led to code and in the end, the class had both
+written and understood a key machine learning technique.&lt;/p&gt;
+&lt;p&gt;
+Great session and I hope the attendees take this approach in some of
+their CS classes. As I said, I don&amp;#39;t think this specific assignment
+will go over well as is with all populations but I think the approach
+can. I&amp;#39;ve successfully done similar things both my AP classes and in
+pre AP programming classes like when I cover writing a Caesar Cipher
+decryption program. The difference is that in the Linear Regression
+lesson the class is learning a specific machine learning technique
+that requires a certain level of mathematical sophistication to really
+&amp;#34;get&amp;#34; while in my case, we do a simpler problem that uses many similar
+techniques but with simpler mathematics and simpler application. My
+problem sets the stage for that ML lesson a couple of years later. I
+also do something similar in my &amp;#34;who played Spiderman&amp;#34; unit.&lt;/p&gt;
+&lt;p&gt;
+Great session. I was concerned that all of the AI sessions - and there
+are many - will all be, taking out policy sessions about using
+existing tools and libraries and not result in students really
+understand what&amp;#39;s going on under the hood. This talk allayed that
+concern.&lt;/p&gt;
+&lt;p&gt;
+I just hit the posters and exhibits for the last sessions and then
+attended the closing keynote delivered by Gholdy Muhammid -
+&amp;#34;Cultivating Genius and Joy in Education Through Culturally and
+Historically Responsive Pedagogies.&amp;#34; I thoroughly enjoyed the
+talk. Muhammid is an engaging, entertaining and funny speaker. My
+takeaway was that our teaching should be evaluated by the Joy in the
+classroom and the pursuit of knowledge as opposed to just the standards
+based evaluation currently used which just measures facts and only
+facts. Note that I say &amp;#34;just the standards…&amp;#34; and not instead of
+them. To her credit Ms. Muhammid noted that standards - the specifics,
+the skills, the facts are important as well. This is critical. One of
+my annoyances at a lot of the K12 CS movement is that there&amp;#39;s
+frequently only emphasis on the joy and they ignore the facts that at
+the end of the day the teacher must know some, I don&amp;#39;t know, actual CS
+and that students must learn it as well.&lt;/p&gt;
+&lt;p&gt;
+That said, Ms. Muhammid&amp;#39;s talk was really all about the type of
+education reform we really need in our schools. I had a couple of
+quibbles but it was a great talk. If CSTA releases a video, take the
+time to watch it.&lt;/p&gt;
+&lt;p&gt;
+The day ended with Devorah, who played tourist by day, and I went for
+drinks and some light dinner with the New York contingent at the
+conference. A highlight was getting together with four students from
+my CS certification program at Hunter including Marisa - a CSTA Equity
+Fellow and incoming CSTA-NYC board member, Jessica and Josh - both CSTA-NYC
+board members, and Victoria - the first person in New York State to
+earn a Masters in CS Education from an approved certification program
+and earn the associated license. So proud to have been privileged to
+work with all four of them.&lt;/p&gt;
+&lt;p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/csta-2024.jpg&#34; alt=&#34;/img/csta-2024.jpg&#34; title=&#34;/img/csta-2024.jpg&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CS Research by HS Students</title>
+      <link>https://cestlaz.github.io/post/research-in-k12-cs/</link>
+      <pubDate>Tue, 28 May 2024 14:02:01 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/research-in-k12-cs/</guid>
+      <description>&lt;p&gt;
+Last week Devorah and I attended the Stuyvesant High School Alumni
+Association&amp;#39;s annual fundraising gala. We were there as guests of the
+Alumni Association since, as retired teachers, gala tickets are
+generally out of our budget range. &lt;/p&gt;
+&lt;p&gt;
+We had a great time. I spent time with a bunch of former students
+spanning the years, some current teachers I hadn&amp;#39;t seen since I left
+Stuy, as well as new Stuy alums and current students. I had a great
+conversation with one particular young man, a graduating Stuy senior,
+who&amp;#39;s working on an interesting app. He asked if he could contact me
+to talk about it. I told him, I&amp;#39;d love to so I hope he reaches out.&lt;/p&gt;
+&lt;p&gt;
+At one point, I was talking to a current Stuy teaching involved in
+their research program - that is, the STEM research program, primarily
+focused around the Regeneron Science Talent Search - Westinghouse to
+us old timers. She lamented to me that she wished she could get one of
+the CS teachers into the fold - to basically run a CS version of the
+other research classes that already exist for Biology, Chemistry,
+Physics, and Mathematics. Each of those classes target students in
+their Junior years, hook them up with a researcher, and shepherd them
+through the process of ultimately submitting a project to the big
+competition.&lt;/p&gt;
+&lt;p&gt;
+I had to explain that I actually did run a CS &amp;#34;research&amp;#34; course back
+in the day but it was actually a bogus cover course since I didn&amp;#39;t
+think that high school students, even with Stuyvesant&amp;#39;s multi-year
+program had sufficient CS and Math to by and large do good research.&lt;/p&gt;
+&lt;p&gt;
+The class was created primarily because, at the time, I had set up and
+was running Stuy&amp;#39;s network. I got neither pay nor time compensation
+for this. I also typically worked with a handful of students. They
+learned a lot about Linux and networking and helped keep things
+running. They also got nothing for their troubles - no grade, no
+pay.&lt;/p&gt;
+&lt;p&gt;
+The deal was that we&amp;#39;d create the class, they&amp;#39;d learn the networking
+stuff and we&amp;#39;d all have some time to keep things running. The kids
+would also get a nice high grade rewarding their work. They also had
+to cobble together a &amp;#34;research&amp;#34; project that they could enter into
+Westinghouse/Intel/Siemans/Regeneron.&lt;/p&gt;
+&lt;p&gt;
+Over the years, the class had some students who wanted to do the
+research thing and were not so much there for the networking
+side. Those kids had to do a more legit research project. Now,
+occasionally I had a kid who was able to do an excellent
+project. Spike&amp;#39;s Sporknet project which was a design for a scalable,
+anonymous network. Really good work and ahead of his time. Brad&amp;#39;s work
+on Captcha was also really great. The thing is, though, that most kids
+just didn&amp;#39;t have the background to do solid CS research.&lt;/p&gt;
+&lt;p&gt;
+Even though Stuy&amp;#39;s program was and is arguably the most rigorous HS CS
+program in the country, by second term Junior year, they&amp;#39;re just
+finishing up CS1 (APCS-A). They&amp;#39;d be studying data structures during
+the second half of 11th grade. Since the research projects were always
+due in the early November, senior year courses don&amp;#39;t have much affect.&lt;/p&gt;
+&lt;p&gt;
+On the math side, some might be taking calculus during their junior
+year but many will be in precalc. Few will have taken statistics and
+none will have taken discrete math or linear algebra.&lt;/p&gt;
+&lt;p&gt;
+These kids were and are tremendously talented but they just don&amp;#39;t have
+the knowledge base yet. On top of that, on the programming side, they
+haven&amp;#39;t yet gotten to the point where they can write large complex
+programs reasonably quickly. That doesn&amp;#39;t typically happen until some
+time senior year, or the semester after data structures.&lt;/p&gt;
+&lt;p&gt;
+Now, in the sciences, the kids were always hooked up with a researcher in a
+lab. In the best case, they can do legit research. At Stuy, in all
+areas, including CS, there are usually a couple of outlier kids who
+had exposure early on and come in with a wealth of experience in their
+resaerch field. In the worse case though, these kids become glorified
+lab assistants. The thing is, though, this can be a really good
+experience. They are there for the entire process and learn a lot. In
+CS, the equivalent is basically having the kids implement an already
+designed algorithm or create part of a software system that isn&amp;#39;t
+really showing them the research process. From what I saw, it just
+wasn&amp;#39;t as rich of an experience. &lt;/p&gt;
+&lt;p&gt;
+After a few years, I dropped the network - too many headaches and soon
+after, got rid of the &amp;#34;research&amp;#34; course. I think it was the right
+choice. The research course could have continued and been a good
+experience for the couple of outlier kids each year who came in super
+strong but that wouldn&amp;#39;t be a sensible use of resources with each
+class having over 1000 students.&lt;/p&gt;
+&lt;p&gt;
+So, unfortunately, I wasn&amp;#39;t able to help this Stuy research teachers
+case for CS research in high school. I did point out that the kids
+might be able to leverage their CS and coding skills in their research
+in other areas. I had one student who ultimately did Physics research
+who made extensive use of his CS skills for data analysis and
+visualization. I believe he was a semi-finalist. I&amp;#39;ve also had
+former students do Astronomy research in college and grad school using
+CS skills they got at Stuy.&lt;/p&gt;
+&lt;p&gt;
+So, I guess that&amp;#39;s it. Am I wrong on this? I certainly could be. Maybe
+I wasn&amp;#39;t back then but times have changed. Sure, if a school had
+unlimited resources for unlimited classes, having a CS research class
+would be great even if it only had a handful of students. With budget
+and space constraints though, I think a full class of another advanced
+elective is more valuable.&lt;/p&gt;
+&lt;p&gt;
+All this said, I&amp;#39;d love to hear differing opinions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Should we use MongoDB in High School</title>
+      <link>https://cestlaz.github.io/post/mongodb-hs/</link>
+      <pubDate>Wed, 01 May 2024 11:14:59 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/mongodb-hs/</guid>
+      <description>&lt;p&gt;
+Should we use MongoDB in High School? That&amp;#39;s the question. Usually
+when I give a post such a title, I already have an opinion - it&amp;#39;ll be
+a yes or no and if it&amp;#39;s yes, I&amp;#39;ll have a plan.&lt;/p&gt;
+&lt;p&gt;
+Not this time. My gut tells me there&amp;#39;s a place for it but I&amp;#39;m not sure
+where. Besides, that&amp;#39;s not what this post is really about.&lt;/p&gt;
+&lt;p&gt;
+At one point during SIGCSE 2023, I stopped by the MongoDB booth. Had a
+couple of great conversations with the people there. I wasn&amp;#39;t looking
+for how I might use it in my classes - I knew I&amp;#39;d be retiring soon but
+I did want to convey how much I liked the product and how supportive
+they&amp;#39;ve been towards some of my efforts both K12 and while I was at
+Hunter, I mean I still have more MongoDB shirts than pretty much any
+other type of swag shirt from when they donated so many for some high
+school hackathons I&amp;#39;ve run.&lt;/p&gt;
+&lt;p&gt;
+This year, at SIGCSE, I reconnected with my new MongoDB friends from
+2023 and we started asking if there were a place for MongoDB in a
+typical High School. Clearly there was at Stuy but I covered MongoDB
+there in a senior elective after the kids had already finished a CS0
+class as well as a college CS1 and CS2.&lt;/p&gt;
+&lt;p&gt;
+Now MongoDB is much more advanced than when I started using it but
+even back then there was a lot to like. It stored documents
+essentially in dictionaries which made things much simpler than
+SQL. You also formed dictionaries to form queries which might have
+been trickier to &amp;#34;get&amp;#39; than SQL with things like &amp;#34;SELECT NAME from
+PEOPLE where AGE=30&amp;#34; or something like that but much easier to debug
+and automate since one deals with a data structure to do it in MongoDB
+as opposed to string manipulation for old school SQL. It was also
+helped from the fact that most student projects didn&amp;#39;t benefit from
+the relational SQL model. There was also an open source server you
+could install and self host.  Nowadays MongoDB is much more capable
+for example it&amp;#39;s &lt;a href=&#34;https://www.mongodb.com/resources/basics/databases/data-lake-vs-data-warehouse-vs-database&#34;&gt;data lake&lt;/a&gt; features.&lt;/p&gt;
+&lt;p&gt;
+I don&amp;#39;t think MongoDB is &lt;strong&gt;the&lt;/strong&gt; tool to universally use in High School but
+my gut tells me there&amp;#39;s a place for it.&lt;/p&gt;
+&lt;p&gt;
+The cool thing to me is that we&amp;#39;re now exploring this. Me, a
+few teachers I&amp;#39;ve gathered, and some new friends at MongoDB. The
+interesting thing is how it came about. Many of the K12 company based
+initiatives were the result of the company (or college) deciding that
+they wanted to do something in the K12 space. This frequently comes
+with a certain level of hubris that they can do it better. Not always,
+but frequently. The small companies and startups then work to generate
+interest and ultimately market share. The big boys are more frequently
+anointed since so few K12 CS educators are currently armed to really
+evaluate what they&amp;#39;re seeing.&lt;/p&gt;
+&lt;p&gt;
+This was different. Nothing coming from the top. What started as a
+serindipidous conversation between someone on the education team at
+Mongo and me, an old education curmudgeon. We both asked &amp;#34;does it make
+sense?&amp;#34; We didn&amp;#39;t know the answer so we&amp;#39;re exploring.&lt;/p&gt;
+&lt;p&gt;
+Tomorrow morning I&amp;#39;ll be going to MongoDB World Local in New York and
+hope to meet a couple more people on the MongoDB team. In the next few
+weeks, I&amp;#39;ll be talking to some teachers who also hope to explore the
+MongoDB in high school question. After that, maybe not until the Fall
+if people are away for the summer, we&amp;#39;ll get together and start to get
+to work.&lt;/p&gt;
+&lt;p&gt;
+Either we&amp;#39;ll see that MongoDB probably doesn&amp;#39;t make sense in high
+school or we&amp;#39;ll figure out where and how. It&amp;#39;ll be a fun process and
+if we do figure it out, you can bet it&amp;#39;ll make more sense than any of
+the typical initiatives that come from above.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>New York - where actual teacher preparation in optional.</title>

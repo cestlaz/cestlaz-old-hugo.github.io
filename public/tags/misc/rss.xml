@@ -6,10 +6,429 @@
     <description>C&#39;est la Z (misc)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Mar 2024 15:11:50 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 06 Sep 2024 15:10:30 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/tags/misc/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>What they remember</title>
+      <link>https://cestlaz.github.io/post/what-they-remember/</link>
+      <pubDate>Fri, 06 Sep 2024 15:10:30 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/what-they-remember/</guid>
+      <description>&lt;p&gt;
+I haven&amp;#39;t blogged for a few weeks. Part of the reason is that I
+haven&amp;#39;t felt that I&amp;#39;ve had too much to say. That&amp;#39;s in part because
+it&amp;#39;s summer time and in part because I&amp;#39;m no longer teaching so that
+means no new experiences with students, no new stories, and, at least
+right now, no new CS education adventures. Part of it could also just
+be that I&amp;#39;m following the trend - fewer CS Ed bloggers blogging less
+frequently.&lt;/p&gt;
+&lt;p&gt;
+Another part of why I haven&amp;#39;t blogged for a few weeks is that I&amp;#39;ve
+decided to try to write a book. Since retiring I&amp;#39;ve had a few people
+mention it to me so I thought I&amp;#39;d give it a go.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve been writing a few sample chapters over the last there weeks
+(around 35,000 words , 75 pages so far). The plan is to alternate
+chapters - one with a story from my career followed by one on teaching
+something in CS or some CS pedagogical technique. Rinse and
+repeat. The &amp;#34;story&amp;#34; chapters will also have some educational message
+but it won&amp;#39;t be topic or in class specific.&lt;/p&gt;
+&lt;p&gt;
+We&amp;#39;ll see where it goes. Even if it comes together I have no idea how
+I would go about trying to get it published&lt;/p&gt;
+&lt;p&gt;
+Since my memory isn&amp;#39;t what it was and even if it was, our memories are
+malleable I decided to reach out to my network of former students. I
+know that overall I&amp;#39;ve done a solid job as a CS teacher but what
+specifically was memorable. I might have loved a topic or something I
+did but maybe it was a flop. On the flip side, maybe there were things
+that had a major impact - good or bad and I thought they were just
+throwaways. I sent an email to my alumni list and posted to Facebook
+asking for the stories.&lt;/p&gt;
+&lt;p&gt;
+What I got as a result is what made me think about the title for this
+post.&lt;/p&gt;
+&lt;p&gt;
+Some of what I got wasn&amp;#39;t a surprise. The competitive kids enjoyed
+things related to the USACO. Some talked about some of the bigger
+themes in the advanced classes. Everyone loved Halloween!!!&lt;/p&gt;
+&lt;p&gt;
+I was surprised though with other things that came up.&lt;/p&gt;
+&lt;p&gt;
+A surprisingly large number of responses singled out my &amp;#34;Homer the
+robot&amp;#34; lesson - my day one or two activity for new CS students. I used
+to do &amp;#34;Homer the Robot&amp;#34; in APCS when students took AP without any
+prior class and then moved it to Intro once that class was established
+and a requirement.&lt;/p&gt;
+&lt;p&gt;
+Basically, I would play the part of Homer the Robot, named after Homer
+Simpson, largely due to Homer&amp;#39;s well known mental capacity and also
+because I&amp;#39;ve always been a huge Simpsons fan - remember I started
+teaching this lesson or a variant of it back in the mid to late
+90s. I&amp;#39;d set up a simple scenario - instruct Homer so that he writes
+today&amp;#39;s &lt;strong&gt;aim&lt;/strong&gt; on the board.&lt;/p&gt;
+&lt;p&gt;
+They would shout out instructions and hilarity would ensue.&lt;/p&gt;
+&lt;p&gt;
+The idea of course was to show that computers follow simple
+instructions and follow them literally. As I always tell my classes
+&amp;#34;computers are horrible at doing what you want them to do but they&amp;#39;re
+great at doing what you tell them to do.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;d interpret or rather, misinterpret the class&amp;#39;s instructions but
+eventually we&amp;#39;d get an aim on the board.&lt;/p&gt;
+&lt;p&gt;
+Now, I know this isn&amp;#39;t a unique idea. I&amp;#39;m sure while I was coming up
+with it in the 90s in New York City others were doing similar things
+elsewhere. It&amp;#39;s like pair programming. Industry &amp;#34;invented&amp;#34; the idea as
+part of agile programming but just about every CS teacher ever
+invented a variation of pair programming prior to industry ever
+dreaming of two people on one computer every time that teacher was in
+a computer lab with more students than working machines.&lt;/p&gt;
+&lt;p&gt;
+Nowadays you can find similar unplugged exercises a simple web search
+away - things like &amp;#34;the paper plane exercise&amp;#34; or the &amp;#34;peanut butter
+and jelly sandwich exercise&amp;#34; come to mind. Still, I prefer my version
+but if you want to know why, you&amp;#39;ll have to read my book if it ever
+comes out :-).&lt;/p&gt;
+&lt;p&gt;
+When reading my student messages, I was surprised how often Homer came
+up. Sure, it was fun and the class always got laughs but there were
+plenty of other classes with more laughs. Maybe because it set the
+stage. Many of the students who were subject to that lesson ended up
+taking two and a half years of CS and many classes with me. Maybe
+because it started to demystify computing. I can&amp;#39;t say for sure but
+it&amp;#39;s something I&amp;#39;ve been thinking about. Why that lesson and not any
+of the hundreds to follow.&lt;/p&gt;
+&lt;p&gt;
+As I said, it&amp;#39;s interesting what they remember.&lt;/p&gt;
+&lt;p&gt;
+Another theme that came up in more responses than I would have
+expected didn&amp;#39;t refer to a lesson, any particular activity, or
+story. It had to do with the CS class, or in many cases, the CS office
+area - room 301, being a &amp;#34;safe space.&amp;#34; Interesting because I don&amp;#39;t
+think people even used that term back in the day. I found that
+interesting because first, it again came from more students than I
+would have expected. Second, it also came from some people who were
+never my student but are now in my network. They were never in my
+class but still found there way to the CS corner of Stuy. Third, I
+never thought I did anything special or even really thought about
+making a &amp;#34;safe space,&amp;#34; particularly since that can mean very different
+things to different people.&lt;/p&gt;
+&lt;p&gt;
+Those were the two biggest surprises. Not that they were mentioned but
+that they were mentioned more than I would have expected.&lt;/p&gt;
+&lt;p&gt;
+There were plenty of other responses. Some I expected and some not and
+lots of good memory triggers as I stroll down memory lane.&lt;/p&gt;
+&lt;p&gt;
+With the new semester starting for teachers around the country it&amp;#39;s
+worth spending a minute thinking about it - you&amp;#39;ll all have an impact
+teaching your subject area but you&amp;#39;ll also have an impact in ways you
+probably wouldn&amp;#39;t think about.&lt;/p&gt;
+&lt;p&gt;
+Have a great semester everybody!!!!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hidden Communities of New York</title>
+      <link>https://cestlaz.github.io/post/hidden-communities/</link>
+      <pubDate>Mon, 08 Jul 2024 15:09:27 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/hidden-communities/</guid>
+      <description>&lt;p&gt;
+Now that I&amp;#39;m not teaching CS every day, I find the desire to maybe
+write about some other things. I&amp;#39;ve still got a bunch of CS and
+education posts lined up, but for today, something different.&lt;/p&gt;
+&lt;p&gt;
+I was out for my morning run a couple of days ago. I usually leave my
+apartment between 5:00 and 5:45, go to the Hudson River and run an out
+and back. It&amp;#39;s still pretty quiet at that time. When I leave later,
+the park is much more filled with runners, running groups, and bike
+commuters.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m heading south and walking north is an older couple. I
+say older couple but let&amp;#39;s be fair, They&amp;#39;re probably around my age and
+I&amp;#39;m just older than I care to admit although based on my current pace
+and recovery time, I should know better.&lt;/p&gt;
+&lt;p&gt;
+We wave good morning to each other and keep on our way. A little
+later, I see a younger man walking and running south (it was really
+hot and humid). We cross paths regularly but since we were going in
+the same direction and frequently wave, I slowed to join him. I said
+that after waving high for a couple of years, we might as well learn
+each other&amp;#39;s names. We fist bumped, or rather he went for the bump, I
+went for the handshake, we switched but then finally synced. So,
+that&amp;#39;s how I met Chris. We chatted for a few minutes - we both live in
+Chelsea, how we both get an energy boost whenever we see our &amp;#34;running
+buddies&amp;#34; in the morning, and also about some of the other early
+morning runners we&amp;#39;ve met.&lt;/p&gt;
+&lt;p&gt;
+He named Vicky, who I&amp;#39;ve been waving to for three or four years. Then
+I gave him Suki - the first person I started saying hello
+to. Suki and I would cross paths near Stuy, her walking north, me
+running south. She would greet &lt;strong&gt;everybody&lt;/strong&gt; with a warm smile, a wave and
+a strong Good Morning! After a while, I slowed my run one day to get
+to know here. We also talked about Priscilla, the Mayor of Hudson
+River Park - at least to us early risers. Priscilla would always be
+walking or running on the path along with her magnificent dog
+Buddy. Unfortunately, Buddy passed about a year ago. We both lamented
+that we haven&amp;#39;t seen Priscilla lately and we both hope it&amp;#39;s because
+our schedules have changed.&lt;/p&gt;
+&lt;p&gt;
+We talked of a few others and I noted that I really have to introduce
+myself to that couple I passed earlier and then went we on to complete
+our individual morning workouts.&lt;/p&gt;
+&lt;p&gt;
+I got to thinking about this community. It&amp;#39;s not a normal
+community. We don&amp;#39;t all know each others names and really very little
+about each other but every morning, or at least a few times a week
+we&amp;#39;ve come to expect to see each other and greet each other with a
+smile, a happy hello, or a thumbs up or some other encouragement. We
+get a boost when we do but we grow concerned when we don&amp;#39;t see our
+morning amigos.&lt;/p&gt;
+&lt;p&gt;
+In New York, we don&amp;#39;t have that small town everyone knows their neighbors
+thing. Heck, I live in a 20 story apartment building and barely know
+my neighbors. We also don&amp;#39;t have neighborhood schools and the mom and
+pop store everywhere is a dying breed. Yet, we still have these weird
+little communities that crop up. I look forward to seeing my running
+buddies again early tomorrow morning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What I have (and haven&#39;t) been up to</title>
+      <link>https://cestlaz.github.io/post/what-ive-been-doing/</link>
+      <pubDate>Wed, 19 Jun 2024 11:42:10 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/what-ive-been-doing/</guid>
+      <description>&lt;p&gt;
+It&amp;#39;s been about a year since I taught my last class. I miss working
+with the kids and truth be told, I do miss working with other
+educators and tech professionals on programs, policy items and related
+but I don&amp;#39;t miss any of the bureaucratic nonsense, policies made by
+people who don&amp;#39;t know what they&amp;#39;re doing, nor the record keeping, grading or
+paperwork.&lt;/p&gt;
+&lt;p&gt;
+I spent the first few months in what I&amp;#39;ve been calling my retirement
+hibernation but more recently it&amp;#39;s been time to emerge. Time to see
+where, if anywhere, I now fit in the CS/Ed/Tech space moving
+forward. That&amp;#39;s both in terms of where I&amp;#39;d like to be involved and of
+course the flip side, if those places or people want me involved.&lt;/p&gt;
+&lt;p&gt;
+So, what have I been doing in that regards?&lt;/p&gt;
+&lt;p&gt;
+Connecting.&lt;/p&gt;
+&lt;p&gt;
+Not me connecting with new people (although I love doing that, just
+haven&amp;#39;t had new opportunities) but connecting other people. A big part
+of this is connecting younger former students with older, more
+experienced ones - frequently for referrals. I like doing this but to
+be honest, I can no longer keep track of who&amp;#39;s where – too many
+former students at too many companies. Still, this is an aspect of the
+StuyCS and how HunterCS families that I&amp;#39;m really proud of building and
+I really get nachas when more experienced family members are there for
+the younger ones.&lt;/p&gt;
+&lt;p&gt;
+I also had a former student who decided to spend this summer mentoring
+college kids who couldn&amp;#39;t get an internship - he&amp;#39;s between jobs and
+wanted to give something back. Trouble is, he wanted to work with too
+many kids than would fit in his apartment. Fortunately, I was
+introduced a couple of months ago to someone who just opened a new
+co-working/learning space and was looking to support worthwhile
+projects. I put them together and it&amp;#39;s been a win win.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve been enjoying doing things like that.&lt;/p&gt;
+&lt;p&gt;
+Advising.&lt;/p&gt;
+&lt;p&gt;
+This is interesting, because I generally don&amp;#39;t actually give advice. I
+try to repaint the picture of the advisee so as to be sure I
+understand it and then I generally talk about the questions I would
+ask if I were in that situation.&lt;/p&gt;
+&lt;p&gt;
+In one case, I was put in touch with a team building a workforce
+exposure/entry experience for NYC high school students. They had a lot
+of workforce program experience but little tech experience. I think I
+was able to add value to their efforts given my tech background and
+educational experience.&lt;/p&gt;
+&lt;p&gt;
+In another instance, a friend has been working on a new school
+proposal. Now, I never actually started a new school but have been
+involved in school design a few times and have certainly built out a
+number of programs. It was a lot of fun talking to him about his
+vision and school&amp;#39;s aspirations and to share with him my perspectives.&lt;/p&gt;
+&lt;p&gt;
+One other recent conversation was between me and a friend who&amp;#39;s been
+building a company to help in both hiring and in leveling up
+employees. This is someone who I really enjoy working with. She cold
+emailed me around nine years ago when she was starting a direct CS
+Education program and we&amp;#39;ve been friends ever since. I really enjoyed
+this conversation because it wasn&amp;#39;t the usual &amp;#34;I want to start a
+coding program&amp;#34; but was still something that, with my education
+background and range from small kids through workforce, I think left
+me with something of value to add.&lt;/p&gt;
+&lt;p&gt;
+I enjoy this type of &amp;#34;advising&amp;#34; or rather, as I look at it, talking
+shop and I do think that my background - having been in multiple
+levels of education from early grades through college as well as in
+industry and having also build numerous programs lets me add
+value. Maybe I should try to set it up as a consulting thing rather
+than just being there for friends.&lt;/p&gt;
+&lt;p&gt;
+On the other hand, then there&amp;#39;s what I&amp;#39;m not doing.&lt;/p&gt;
+&lt;p&gt;
+I think I&amp;#39;ll be less and less involved with the national aspect of the
+CSTA. Note I&amp;#39;m talking here about the national CSTA. I&amp;#39;m looking
+forward to continue to work with my local NYC and regional CSTA people
+whom I both like and respect.&lt;/p&gt;
+&lt;p&gt;
+A couple of interactions this past year really rubbed me the
+wrong way. Last year, they were looking for people to join their new
+Imagining CS Pathways effort. I applied for one of the roles. I wasn&amp;#39;t
+selected. Now, that&amp;#39;s fine. I mean, I personally felt, after I heard
+who was selected, that I had more to offer than many but that could
+just be my ego. What bothered me was that I was then sent an email
+asking if I was interesting in participating in a capacity that I had
+explicitly said I wasn&amp;#39;t. I also wasn&amp;#39;t particularly impressed with
+the report once it came out. I felt it was lacking in actual
+CS. Although I didn&amp;#39;t think about this at the time, I suspect the
+people who built the committee already had an opinion as to what the
+end report should look like and built the committee to match. If true,
+not cool.&lt;/p&gt;
+&lt;p&gt;
+Later, I decided to throw my hat into the ring to run as an at large
+member for the CSTA board. Now, again, I didn&amp;#39;t figure I&amp;#39;d be
+elected - I think I&amp;#39;ve pissed off a number of people over the years
+but I was put off when I got an email saying that they elected to
+place other people on the ballot. Why did this bother me? Because it
+says that there are people within the organization who can basically
+shape the board by only allowing certain people on the ballot. Again,
+not cool.&lt;/p&gt;
+&lt;p&gt;
+Now, CSTA can of course do what they want. They&amp;#39;re the big players who
+get the Google money. I&amp;#39;m just a retired educator but since the
+organization appears to be going in directions that I think are wrong,
+there&amp;#39;s no reason for me to continue my involvement or show support.&lt;/p&gt;
+&lt;p&gt;
+So, that&amp;#39;s what I won&amp;#39;t be doing. I guess it also appears that I&amp;#39;m
+blogging less frequently but that seems to be the norm these
+days. I&amp;#39;ll probably continue apace until something clicks and I&amp;#39;ll
+do a deep dive somewhere.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Philadelphia Freedom</title>
+      <link>https://cestlaz.github.io/post/philly-6-2024/</link>
+      <pubDate>Thu, 06 Jun 2024 19:02:04 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/philly-6-2024/</guid>
+      <description>&lt;p&gt;
+Time for another travel post. Figured that by posting here there&amp;#39;s
+more permanence and search-ability than a Facebook or other post.&lt;/p&gt;
+&lt;p&gt;
+So, Devorah and I are spending a few days in Philly. We started coming
+down here a year or so ago and this is our third trip. It&amp;#39;s a nearby
+getaway from NYC and we&amp;#39;ve got friends here that we rarely get to see.&lt;/p&gt;
+&lt;p&gt;
+Sports fans notwithstanding I&amp;#39;m surprised that Philly doesn&amp;#39;t get more
+love from NYC people looking for relatively nearby travel. It&amp;#39;s under
+2 hours away, is a very walkable city, and has the things we love, in
+no particular order - food, culture, history, art, architecture, and
+neighborhoods.&lt;/p&gt;
+&lt;p&gt;
+We did a lot of the mainstream history, rah rah America stuff in our
+last couple of visits along with such gems as the &lt;a href=&#34;https://www.barnesfoundation.org/&#34;&gt;Barnes Foundation&lt;/a&gt;
+and the &lt;a href=&#34;https://www.easternstate.org/&#34;&gt;Eastern State Penitentiary&lt;/a&gt; so this time we&amp;#39;ve been looking at
+some less mainstream attractions so I thought I&amp;#39;d share.&lt;/p&gt;
+&lt;p&gt;
+On the way in, we stopped at the &lt;a href=&#34;https://www.americanswedish.org/&#34;&gt;American Swedish Historical Museum&lt;/a&gt; in
+South Philly. Great museum in a gorgeous 100 year old building. The
+museum covered the early Swedish/New World history (including, for New
+Yorkers like me, interesting tie ins with Peter Minuet and Peter
+Stuyvesant) but had so much more. They had a room on inventor John
+Ericsson and another on Swedish Nightingale, Jenny Lind, brought over
+to the USA by P.T. Barnum and played all over including at Castle
+Garden (nee Fort/Castle Clinton) in lower Manhattan. Also lots more
+including some sketches by painter Anders Zorn and a whole bunch of
+artifacts. There was also a special exhibit on Swedish candy.&lt;/p&gt;
+&lt;p&gt;
+The highlight for Devorah was an exhibit on Swedish weaving:&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/philly/swedish1.jpg&#34; alt=&#34;/img/philly/swedish1.jpg&#34; title=&#34;/img/philly/swedish1.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/philly/swedish2.jpg&#34; alt=&#34;/img/philly/swedish2.jpg&#34; title=&#34;/img/philly/swedish2.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/philly/swedish3.jpg&#34; alt=&#34;/img/philly/swedish3.jpg&#34; title=&#34;/img/philly/swedish3.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+Today we started off at the &lt;a href=&#34;https://www.nps.gov/inde/planyourvisit/benjaminfranklinmuseum.htm&#34;&gt;Ben Franklin Museum&lt;/a&gt;. Pretty cool but
+nothing unexpected. I recently watched Ken Burn&amp;#39;s documentary on
+Franklin so I was up on his life but it&amp;#39;s a nice little museum with
+some neat artifacts and it was only $5.&lt;/p&gt;
+&lt;p&gt;
+Next up was a real gem - the &lt;a href=&#34;https://www.sciencehistory.org/&#34;&gt;Science History Institute&lt;/a&gt;. This free
+museum has artifacts and the development of science from alchemy
+through modern day.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/philly/science.jpg&#34; alt=&#34;/img/philly/science.jpg&#34; title=&#34;/img/philly/science.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/philly/science2.jpg&#34; alt=&#34;/img/philly/science2.jpg&#34; title=&#34;/img/philly/science2.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+A special exhibit on dyes:&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/philly/science-dye.jpg&#34; alt=&#34;/img/philly/science-dye.jpg&#34; title=&#34;/img/philly/science-dye.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+And education in science:&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/philly/science-kits.jpg&#34; alt=&#34;/img/philly/science-kits.jpg&#34; title=&#34;/img/philly/science-kits.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/philly/science-books.jpg&#34; alt=&#34;/img/philly/science-books.jpg&#34; title=&#34;/img/philly/science-books.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+Of course, Devorah found the knitting:&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/philly/science-knitting.jpg&#34; alt=&#34;/img/philly/science-knitting.jpg&#34; title=&#34;/img/philly/science-knitting.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+We were a little &amp;#34;museumed out&amp;#34; by the end so will have to come back
+but this is a must visit museum!!!&lt;/p&gt;
+&lt;p&gt;
+Next up, a pit stop. We ended up at &lt;a href=&#34;https://shanecandies.com/&#34;&gt;Shane Confectionary&lt;/a&gt;. America&amp;#39;s
+oldest continuously running candy store. They had some old-timey
+candies but they&amp;#39;re really a chocolate place, making products from
+bean to bar so to speak.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/philly/shane3.jpg&#34; alt=&#34;/img/philly/shane3.jpg&#34; title=&#34;/img/philly/shane3.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/philly/shane2.jpg&#34; alt=&#34;/img/philly/shane2.jpg&#34; title=&#34;/img/philly/shane2.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+Had a great conversation with the person
+working there, purchased way too much chocolate and headed off to our
+next stop - another gem - &lt;a href=&#34;https://museumforartinwood.org/&#34;&gt;The Museum for Art in Wood&lt;/a&gt; - also another
+freebie ($5 suggested donation).&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/philly/wood.jpg&#34; alt=&#34;/img/philly/wood.jpg&#34; title=&#34;/img/philly/wood.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/philly/wood3.jpg&#34; alt=&#34;/img/philly/wood3.jpg&#34; title=&#34;/img/philly/wood3.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/philly/wood4.jpg&#34; alt=&#34;/img/philly/wood4.jpg&#34; title=&#34;/img/philly/wood4.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+Finally, lunch time. We went to a hand pulled noodle shop that we had
+visited two years ago. Really tasty and super inexpensive:&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/philly/noodles.jpg&#34; alt=&#34;/img/philly/noodles.jpg&#34; title=&#34;/img/philly/noodles.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+Our final stop was the &lt;a href=&#34;https://fabricworkshopandmuseum.org/&#34;&gt;Fabric Workshop Museum&lt;/a&gt;. Lots of interesting
+stuff going on behind the scenes but for tourists like us, think of it
+as a general art gallery where the medium is fabric. There were a
+couple of really neat exhibits and again, free ($5 suggested). Another
+winner.&lt;/p&gt;
+&lt;p&gt;
+We then picked up doughnuts for later at the Reading terminal market and
+wandered back to our AirBnB. On the way, we saw a number of murals:&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/philly/mural.jpg&#34; alt=&#34;/img/philly/mural.jpg&#34; title=&#34;/img/philly/mural.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+And also these people holding up a skybridge:&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/philly/bridge.jpg&#34; alt=&#34;/img/philly/bridge.jpg&#34; title=&#34;/img/philly/bridge.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+Spent the evening relaxing, having reheated leftovers for dinner from
+yesterday.&lt;/p&gt;
+&lt;p&gt;
+Hope you enjoy some of these less known Philly attractions when you
+get to town. Tomorrow we&amp;#39;re going back to the Philadelphia Museum of
+Art for their special exhibit on Mary Cassatt and will also probabyl
+hit the Rodin museum and then we&amp;#39;ll figure out Saturday.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Charleston days 3 and 4 - Plantation visits and more food</title>
@@ -3224,270 +3643,6 @@ As to the rest of the day, we&amp;#39;ll see. I&amp;#39;ll probably spend most o
 trying to set up virtual school visits.  Looking forward to the family
 dinner - Natan&amp;#39;s cooking tonight as he does often so I know it&amp;#39;ll be
 tasty.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Unplugging with Bob Ross</title>
-      <link>https://cestlaz.github.io/post/unplugging-bob-ross/</link>
-      <pubDate>Tue, 25 Aug 2020 08:56:04 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/unplugging-bob-ross/</guid>
-      <description>&lt;img width=&#34;75%&#34; src=&#34;https://cestlaz.github.io/img/bobross/practice.jpg&#34;&gt;
-&lt;p&gt;
-It&amp;#39;s been a long year since March. Many of us have not really been
-able to leave NYC for a variety of reasons - financial, professional,
-or family to name a few.&lt;/p&gt;
-&lt;p&gt;
-Other than a couple of small escapes in the last two weeks we&amp;#39;ve been
-home and working from home in our Manhattan apartment since this all
-started. Early on we didn&amp;#39;t get out much and we still aren&amp;#39;t and that
-does take its toll. You have to go out to shop but walking the same
-streets over and over is a bit monotonous and far too few people seem
-to understand that for masks to be helpful they have to cover both the
-mouth and nose. Since recovering I do get out for a run most mornings
-and that helps.&lt;/p&gt;
-&lt;p&gt;
-I realized that one of the draining factors of being stuck in a NYC
-apartment is that everything I was doing was on screens. I teach via
-the computer and consume my news and communicate the same way. If I&amp;#39;m
-working on a side programming project that&amp;#39;s more computer time as
-well. If I watch some TV I&amp;#39;m just switching out one screen for
-another. Even when I read which I&amp;#39;ve been doing much more of since the
-outbreak it&amp;#39;s still on a screen!!!!!&lt;/p&gt;
-&lt;p&gt;
-Devorah doesn&amp;#39;t have this problem - between her knitting, spinning,
-and weaving she&amp;#39;s got plenty of non-screen time. She always said I
-needed a hobby and as usual, was probably right.&lt;/p&gt;
-&lt;p&gt;
-How about painting. &lt;/p&gt;
-&lt;img width=&#34;50%&#34; src=&#34;https://cestlaz.github.io/img/bobross/halloween.jpg&#34;&gt;
-&lt;p&gt;
-Years ago, 1997 or 1998 I did Bob Ross for Halloween. It was an
-absolute blast. I did a painting in each class and a couple by the
-second floor bar. So much fun but I didn&amp;#39;t really know how to paint. I
-watched the show a few times but that was it.&lt;/p&gt;
-&lt;p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://cestlaz.github.io/img/bobross/halloween2.jpg&#34; width=&#34;50%&#34;/&gt;
-&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;
-I never really did anything after that Halloween - oil paints are
-messy, take forever to try, are hard to clean, and require the use of
-hazardous solvents. I put the stuff away in a closet.&lt;/p&gt;
-&lt;p&gt;
-Fast forward to today - we have water mixable oils which remove the
-toxicity issued and makes clean up easier and there&amp;#39;s now a wealth of online
-resources to learn from. I thought I&amp;#39;d give it another go.&lt;/p&gt;
-&lt;p&gt;
-Even with just a little practice, I&amp;#39;m starting to get better.&lt;/p&gt;
-&lt;img width=&#34;50%&#34; src=&#34;https://cestlaz.github.io/img/bobross/mountains.jpg&#34;&gt;
-&lt;p&gt;
-And while it&amp;#39;s all a work in progress,&lt;/p&gt;
-&lt;img width=&#34;50%&#34; src=&#34;https://cestlaz.github.io/img/bobross/islands1.jpg&#34;&gt;
-&lt;img width=&#34;50%&#34; src=&#34;https://cestlaz.github.io/img/bobross/islands2.jpg&#34;&gt;
-&lt;p&gt;
-But it&amp;#39;s been fun.&lt;/p&gt;
-&lt;img width=&#34;75%&#34; src=&#34;https://cestlaz.github.io/img/bobross/trees.jpg&#34;&gt;
-&lt;p&gt;
-Each time I paint it&amp;#39;s getting me away from a computer screen for an
-hour or two and it&amp;#39;s been both relaxing and fun. The only downside is
-that they still take forever to dry.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Scared teachers can&#39;t teach and scared students won&#39;t learn</title>
-      <link>https://cestlaz.github.io/post/scared-teachers-scared-students/</link>
-      <pubDate>Sat, 01 Aug 2020 13:23:23 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/scared-teachers-scared-students/</guid>
-      <description>&lt;p&gt;
-I&amp;#39;ve been reading a lot of takes on NYC schools reopening. We&amp;#39;ve had
-daily conversations about it with our summer teachers but
-conversations abound on Facebook, Twitter and everywhere else.&lt;/p&gt;
-&lt;p&gt;
-Many salient points have been raised - given the DOE&amp;#39;s track record,
-can they make things safe and will they? Can they be trusted? Given
-that any policy needs all players to follow the rules - students,
-teachers, and staff how can that ever happen? What happens when a
-parent want&amp;#39;s their kid in school but wants to opt out of wearing a
-mask? What happens if kids just straight out refuse? &lt;/p&gt;
-&lt;p&gt;
-Then there&amp;#39;s logistics and teacher workload - even if you have fewer
-kids in school there will still be far too many on subway platforms
-and who knows if they&amp;#39;ll be masked outside of the school
-building. What about bathrooms and class changeovers? &lt;/p&gt;
-&lt;p&gt;
-Then there&amp;#39;s that little matter of teachers having to now, instead of
-just five classes which is already too many could effectively be asked
-to teach double or more - the result of splitting their classes into
-live and remote. There&amp;#39;s also the way they want the live teaching to
-work which basically reduces the in person instruction to a remote
-experience.&lt;/p&gt;
-&lt;p&gt;
-What isn&amp;#39;t being talked about is discomfort and fear. &lt;/p&gt;
-&lt;p&gt;
-From what I can tell, a lot of teachers are afraid for their
-health. Not mildly concerned, afraid. I don&amp;#39;t blame them. I would be
-too. I&amp;#39;m betting a lot of students are also afraid of going back.&lt;/p&gt;
-&lt;p&gt;
-How effective is a teacher going to be when they feel that any
-interaction or even too much time in the wrong space might get them
-sick or worse. Same for students.&lt;/p&gt;
-&lt;p&gt;
-After 9/11 we relocated to Brooklyn Tech. It was surreal
-and weird but it felt fine. I taught, they learned. We were pushed
-back to Stuy too early. You could still smell the smoke from the
-smoldering wreckage of ground zero and there were concerns about the
-air quality. It was on a lot of our minds all the time we were down on
-Chambers street. It was certainly on my mind. &lt;/p&gt;
-&lt;p&gt;
-I know that I wasn&amp;#39;t teaching at anything resembling my normal level
-and I&amp;#39;m pretty sure the kids weren&amp;#39;t learning nearly as well.&lt;/p&gt;
-&lt;p&gt;
-Eventually, the smoke cleared, they cleaned the building again (and
-stole a lot of valuables) and set up sensors that at least seemed more
-accurate and after a period of time we felt normal or at least close
-enough.&lt;/p&gt;
-&lt;p&gt;
-Of course, that was from a single event not an ongoing pandemic.&lt;/p&gt;
-&lt;p&gt;
-I don&amp;#39;t believe for one second that NYC schools will be safe for
-teachers and students in the fall but even if they were, if teachers
-and students don&amp;#39;t feel safe, student learning will suffer. &lt;/p&gt;
-&lt;p&gt;
-I get that there are downsides to staying remote but don&amp;#39;t fool
-yourself into believing that just because you&amp;#39;re sending your kid to
-school they&amp;#39;ll be socializing and doing all that good in person
-stuff. They&amp;#39;ll be sitting in rows watching a projector and then
-shuffled home.&lt;/p&gt;
-&lt;p&gt;
-Sure, remote is not as good as normal in person classes but don&amp;#39;t
-blame teachers, blame the pandemic. These are exceptional times and
-bad and unsafe  in person &amp;#34;solutions&amp;#34; are much worse than safety of
-remote. At the end of the day, this pandemic will pass and we will get
-back to in person. So what if a for a year students don&amp;#39;t reach some
-arbitrary standard bar because remote is sub-optimal. &lt;/p&gt;
-&lt;p&gt;
-Even if safe, scared teachers can&amp;#39;t teach and scared students won&amp;#39;t
-learn.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>PSA on CSTA (NYC)</title>
-      <link>https://cestlaz.github.io/post/psa-for-csta/</link>
-      <pubDate>Wed, 17 Jun 2020 11:43:42 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/psa-for-csta/</guid>
-      <description>&lt;p&gt;
-Just a quick public service announcemnt.&lt;/p&gt;
-&lt;p&gt;
-Up until now CSTA-NYC has been using Meetup to organize and advertise
-events but now they&amp;#39;re moving over to using the CSTA site as their
-platform. &lt;/p&gt;
-&lt;p&gt;
-If you&amp;#39;re a CS teacher you should be a part of CSTA. There&amp;#39;s both a
-free tier and a plus tier which costs $50 a year.  I&amp;#39;ve been a plus
-member since that level became available. If you&amp;#39;re a NYC teacher, you
-should join the CSTA NYC chapter. If you&amp;#39;re already coming to CSTA-NYC
-events, you should still go to the CSTA web site and check to make
-sure you&amp;#39;re part of the NYC chapter so that you don&amp;#39;t miss any
-exciting announcements or events. &lt;/p&gt;
-&lt;p&gt;
-Read the tweet below for instructions:&lt;/p&gt;
-&lt;p&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;NEWS: The NYC &lt;a href=&#34;https://twitter.com/csteachersorg?ref_src=twsrc%5Etfw&#34;&gt;@csteachersorg&lt;/a&gt; chapter is moving platforms from Meetup to CSTA&amp;#39;s membership site!&lt;br&gt;&lt;br&gt;1. Join CSTA at &lt;a href=&#34;https://t.co/ze7ix0491W&#34;&gt;https://t.co/ze7ix0491W&lt;/a&gt;&lt;br&gt;2. Select &amp;quot;CSTA NYC&amp;quot; in the Member Area&lt;a href=&#34;https://twitter.com/hashtag/cs4allnyc?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#cs4allnyc&lt;/a&gt; &lt;a href=&#34;https://twitter.com/diane_levitt?ref_src=twsrc%5Etfw&#34;&gt;@diane_levitt&lt;/a&gt; &lt;a href=&#34;https://twitter.com/csnyc?ref_src=twsrc%5Etfw&#34;&gt;@csnyc&lt;/a&gt; &lt;a href=&#34;https://twitter.com/CSforAllNYC?ref_src=twsrc%5Etfw&#34;&gt;@CSforAllNYC&lt;/a&gt; &lt;a href=&#34;https://twitter.com/UpperlineCode?ref_src=twsrc%5Etfw&#34;&gt;@UpperlineCode&lt;/a&gt; &lt;a href=&#34;https://twitter.com/ed_saber?ref_src=twsrc%5Etfw&#34;&gt;@ed_saber&lt;/a&gt; &lt;a href=&#34;https://twitter.com/learningdrive?ref_src=twsrc%5Etfw&#34;&gt;@learningdrive&lt;/a&gt; &lt;a href=&#34;https://twitter.com/ronsummersnyc?ref_src=twsrc%5Etfw&#34;&gt;@ronsummersnyc&lt;/a&gt; &lt;a href=&#34;https://t.co/5KBHeErZPT&#34;&gt;pic.twitter.com/5KBHeErZPT&lt;/a&gt;&lt;/p&gt;&amp;mdash; Tom O&amp;#39;Connell 🏳️‍🌈 (He/Him/His) (@mrtomocon) &lt;a href=&#34;https://twitter.com/mrtomocon/status/1273276485638504455?ref_src=twsrc%5Etfw&#34;&gt;June 17, 2020&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
-&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Supporting Our Students</title>
-      <link>https://cestlaz.github.io/post/supporting-our-students/</link>
-      <pubDate>Fri, 12 Jun 2020 12:22:26 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/supporting-our-students/</guid>
-      <description>&lt;p&gt;
-Austin Cory Bart put together a great &lt;a href=&#34;https://acbart.github.io//2020/06/10/race-in-cs1/&#34;&gt;post&lt;/a&gt; about supporting Black
-students in CS1. Cory asked about this on the SIGCSE mailing list and
-in his post he both breaks things down and shares all the resources
-that he compiled from the ensuing discussion. &lt;/p&gt;
-&lt;p&gt;
-There&amp;#39;s a lot of good stuff both in the post and in the links but
-there&amp;#39;s a lot to get lost in. As teachers we can sometimes affect
-change at a department or school level but we can always make a
-difference in our classes and with our students.&lt;/p&gt;
-&lt;p&gt;
-I titled this post &amp;#34;Supporting Our Students&amp;#34; and not &amp;#34;Supporting Black
-Students.&amp;#34; I&amp;#39;m certainly &lt;strong&gt;not&lt;/strong&gt; pulling any all lives matter BS but
-rather reflecting back on something that shaped my approach with my
-students and started to open my eyes and that specific experience for
-me was an all students experience.&lt;/p&gt;
-&lt;p&gt;
-I cut my teach at Seward Park High School down on the Lower East
-Side. It was a high poverty school and a very diverse one. I had
-top flight honors students, criminal thugs, druggies, sweet kids whom
-the system failed and everything else you can imagine. The main groups
-were classified back then as Chinese and Hispanic and then Black then
-White but within those groups there were subdivisions. Shortly before
-I got the gig the school had brokered an in school truce between the
-factions of Chinese gangs and while the term of the day was
-Hispanic the students were from a variety of places.&lt;/p&gt;
-&lt;p&gt;
-One day I was talking to a guidance counselor in the hall. We didn&amp;#39;t
-know each other - I shanghaied her in another conversation - I had
-something to ask. She said &amp;#34;wait - you&amp;#39;re Zamansky right?&amp;#34; Yep. &amp;#34;I was
-wondering who you were, all the students want to be in your class.&amp;#34; I
-was confused. I wasn&amp;#39;t super popular - I was just in about a year and
-a half. I also wasn&amp;#39;t so good. I&amp;#39;d rate myself as an above average
-very raw young teacher but that&amp;#39;s about it. She explained that I was
-one of the only teachers where students from all the population groups
-wanted to be in my class. The Hispanic students, for instance all
-wanted to be in Pablo Chang&amp;#39;s math class, the Chinese in another
-teachers but apparently I appealed to everyone equally. &lt;/p&gt;
-&lt;p&gt;
-I started to think about why that might be the case and it got me
-thinking about what I had learned in my short time teaching. Prior to
-teaching I led a pretty sheltered life. I went to public school up
-until college and had a pretty diverse group of friends but as a kid
-you can be pretty oblivious to economic and race related
-differences. As an adult I went to a private college, NYU, and started off
-at Goldman Sachs. Not exactly a recipe for awareness. I quickly
-realized that not all kids learned the same, thought the same and
-going further, lived the same.&lt;/p&gt;
-&lt;p&gt;
-It taught me that it&amp;#39;s not merely about talking to your students, it&amp;#39;s
-about listening to them. Given time and the chance, they&amp;#39;ll open up
-and you&amp;#39;ll learn about their challenges. When it seems there giving
-you a song and dance, don&amp;#39;t assume they&amp;#39;re trying to pull a fast
-one. Give them the benefit of the doubt. You&amp;#39;ll get burned now and
-again by a kid taking advantage but things have a way of coming clean
-and if you don&amp;#39;t give the kid the benefit of the doubt you can
-irreparably harm your relationship. Trust is key in
-education.  Besides I&amp;#39;ve been burned way more by giving the benefit of
-the doubt to people professionally than as a teacher and at the end of
-the day I&amp;#39;d rather lose sleep angry over being taken advantage of than
-lose sleep feeling guilty for damaging my relationship with a student
-for the wrong reasons.&lt;/p&gt;
-&lt;p&gt;
-If you treat your students like people - young people but  people
-nonetheless and earnestly listen and try to learn from them and learn
-about them that&amp;#39;s your guide. I&amp;#39;m not saying I&amp;#39;m particularly good at
-helping my kids - I&amp;#39;m your stereotypical socially awkward computer
-geek but the more I listened the more I understood the individual
-issues my students had to deal with. My Black students, my immigrant
-students, my poor students and all the rest. Sure there were common
-themes but every one has a unique story.&lt;/p&gt;
-&lt;p&gt;
-While we teach our assorted subjects to our students really at the end
-of the day more so than teaching any specific computer science I hope
-to be a force for good in their lives and their development as
-people. The best way I can do that is to listen, try to learn, try to
-understand and then try to help and support.&lt;/p&gt;
 </description>
     </item>
     

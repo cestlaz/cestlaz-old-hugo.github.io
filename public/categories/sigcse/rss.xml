@@ -6,10 +6,518 @@
     <description>C&#39;est la Z (sigcse)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Mar 2024 22:34:50 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 01 Apr 2024 19:36:48 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/categories/sigcse/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>SIGCSE 2024 - Papers, Experience Reports, and Lightening Talks</title>
+      <link>https://cestlaz.github.io/post/sigcse-2024-6-sessions/</link>
+      <pubDate>Mon, 01 Apr 2024 19:36:48 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/sigcse-2024-6-sessions/</guid>
+      <description>&lt;p&gt;
+Last up we have paper sessions, which include experience reports and
+lightening talks.&lt;/p&gt;
+&lt;p&gt;
+Probably won&amp;#39;t write as much on this - I&amp;#39;m a little SIGCSE posted out.&lt;/p&gt;
+&lt;p&gt;
+One interesting note was a semi-recurring theme of &amp;#34;the hidden
+curriculum.&amp;#34; I say semi-recurring because while it appeared in three
+sessions I attended - two experience reports and one lightening talk,
+each time, the speakers were referring to a different &amp;#34;hidden
+curriculum.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+The first time was a talk from UCSD describing a projects course. It
+was similar to many projects based courses - students are shepherded
+through a large project, but in this class, students worked
+exclusively on large existing open source projects. The hidden
+curriculum consisted of all those real world tools and techniques not
+covered in a typical CS sequence - testing, code maangement, tech
+integration, navigating a code base and more.&lt;/p&gt;
+&lt;p&gt;
+The course sounds great. If given a single choice, I&amp;#39;m not sure if
+it&amp;#39;s better for students to work on a large original project or to
+learn how to work in an existing one as both skill sets are valuable
+and important but do like what they described as going on at UCSD. &lt;/p&gt;
+&lt;p&gt;
+The second time the hidden curriculum came up was in a lightening
+talk from instructors at the Milwaukee School of Engineering. What was
+interesting was that they were talking about something altogether
+different from what UCSD considered their hidden curriculum. In tnis
+case they were talking about things like study skills, stress
+management, homework strategies, registration and advisement, time
+management, and life after graduation. While I certainly appreciate
+everything about the software engineering skills form the UCSD talk,
+the skills talked about here are arguably more fundamental and they&amp;#39;re
+skills that many students, particularly those from lower income
+households have never had the opportunity to develop. This took me
+back to our first keynote when the speaker mentioned that he while he
+got great support from his family as the first one going to college,
+he got very little help. His family supported him and wanted him to
+succeed but as nobody else from the family had ever gone to college,
+they didn&amp;#39;t have much to offer in terms of concrete help in
+navigating this new world. At the school. the instructors taught their
+hidden curriculum through extra curricular sessions during common free
+times (providing free food to draw in the students). &lt;/p&gt;
+&lt;p&gt;
+The third hidden curriculum was a talk titled &amp;#34;From Degree to
+Developer…&amp;#34; In this case the hidden curriculum as interview prep
+both in terms of the soft skills for interviewing and also the
+technical interview skills - how to pass those LeetCode problems. The
+solution in this case was like the first talk - create a course that
+was essentially an algorithms course with interview style
+implementations along with the soft skills.&lt;/p&gt;
+&lt;p&gt;
+What struck me here is that we&amp;#39;ve got three different institutions all
+resorting to something outside of their school&amp;#39;s major requirements to
+address a real student need (the two courses that were created were
+free electives). Something&amp;#39;s wrong here and unless it&amp;#39;s addressed
+we&amp;#39;ll see the gap between the haves and the have nots continue to
+expand since well to do students at elite institutions are best able
+to learn these hidden curricula on their own.&lt;/p&gt;
+&lt;p&gt;
+Personally, I&amp;#39;ve found that if you&amp;#39;re strategic you can add a fair
+amount of the software engineering practices to core CS classes
+without too much hassle - certainly if you tweak the content a bit -
+do we really need every single one of those data structures and do we
+have to dive so deep into proof and theory? Maybe we should realize
+that our programs are still set up for 100% percent of our grads to go
+on to get their PhDs where the reality is that the majority want to
+take tech skills to industry. I&amp;#39;m betting programs could easily
+accommodate most of the hidden curricula with some sensible
+re-evaluation of requirements and everyone would be better for it.&lt;/p&gt;
+&lt;p&gt;
+One other session that I want to mention before I wrap up was one on
+&amp;#34;Creative labs in CS1&amp;#34; at Georgia Tech. This was interesting. In this course, they
+added a handful of what they considered &amp;#34;fun&amp;#34; projects. The concepts
+would not be tested on exams. These projects would not be in Python,
+which I guess is the core language for the CS1 class. The first
+project might be an HTML/CSS web site. The second, maybe adding some
+JS. To be honest, I didn&amp;#39;t get this at first but then the speakers
+explained that at Georgia Tech, CS1 is almost entirely made up of
+non-majors. I&amp;#39;m still not sold on their plan here but I think I get
+what they were trying for. What got me was the fact that this is a
+real problem and not just for Georgia Tech. We&amp;#39;re seeing more and more
+schools requiring students to essentially pre-declare in CS before
+they&amp;#39;re even admitted to the school. Kids without sufficient
+opportunities, as a result, are being locked out of the field. I know
+we&amp;#39;ve got a booming enrollment problem but we&amp;#39;ve got to do better.&lt;/p&gt;
+&lt;p&gt;
+So, that&amp;#39;s it for the sessions. I think I&amp;#39;ll do one more SIGCSE post
+as a general wrap up and talk about our Portland adventures. Then
+it&amp;#39;ll be back to my usual curmudgeonly rantings.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SIGCSE 2024 - Panels</title>
+      <link>https://cestlaz.github.io/post/sigcse-2024-5-panels/</link>
+      <pubDate>Mon, 25 Mar 2024 14:23:03 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/sigcse-2024-5-panels/</guid>
+      <description>&lt;p&gt;
+I generally enjoy both panels and special sessions at SIGCSE over
+paper sessions. Don&amp;#39;t get me wrong, paper sessions can be great but
+with those you can always read the paper and all to frequently there&amp;#39;s
+not a lot of value added beyond the paper itself. Panels and special
+sessions can&amp;#39;t just be read in the proceedings.&lt;/p&gt;
+&lt;p&gt;
+For one panel session I had to choose between&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Enduring Lessons from ‘Computer Science for All’ for AI Education in Schools&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+and&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;AI in Computing Education from Research to Practice&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+I opted for the latter. The panel was interesting but not what I
+expected it to be based on the title and description. The moderator
+provided a list of questions and the audience voted to order them
+using an app. The moderator then asked the top ranked questions along
+with additional audience questions.&lt;/p&gt;
+&lt;p&gt;
+Many of the questions went over what is now well trodden ground - will
+kids go into CS if AI will take their jobs? How can kids be motivated
+to learn to program since they have AI assistents? How can we detect
+the use of AI tools in assignments? What are useful current AI tools?
+Not a lot new here.&lt;/p&gt;
+&lt;p&gt;
+Still there were some interesting points that came up.&lt;/p&gt;
+&lt;p&gt;
+One panelist discussed how through the use of AI early CS classes, CS0
+and CS1 can get much further - student can do more advanced work more
+quickly. I started to wonder - has anyone actually checked this? I
+mean, yes it&amp;#39;s easy to see that they can get through more material but
+do they learn it? Have the later courses been adjusted to accomodate?
+Has anyone studied the AI enhanced CS0/1 students vs those without it
+in CS2?&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve seen countless times where students seemingly achieve advanced
+results through the use of libraries and other tools along with
+extreme coaching. Many code schools as well as some highly lauded
+youth programs do this but the students invariable have little
+retention and hit a wall or regress soon after the class or camp ends.&lt;/p&gt;
+&lt;p&gt;
+Now I&amp;#39;m not saying that you can&amp;#39;t make a better early CS experience
+with AI. I&amp;#39;m just saying that one, it&amp;#39;s not as easy as saying &amp;#34;they
+can do more&amp;#34; and two, the jury&amp;#39;s still out.&lt;/p&gt;
+&lt;p&gt;
+Another &amp;#34;positive&amp;#34; the panel brought up was that LLMS can help or
+guide students at scale - LLM based TAs and tutors. Now, I&amp;#39;m all for
+adding resources for students but people can be so hyped for some new
+technology they miss the problems. In this case, adding LLM based
+tutors to hide a courses shortcomings - something I wrote about
+dealing with CS50 &lt;a href=&#34;https://cestlaz.github.io/post/ai-replace-teaching/&#34;&gt;here&lt;/a&gt;. Another potential danger I see is using LLM
+based teachers and tutors to replace human interaction.&lt;/p&gt;
+&lt;p&gt;
+Another concern that came out of the panel when a panelist claimed
+that AI tools will allow for the creation of a &amp;#34;curriculum in a box&amp;#34; -
+the panelist framed this as a good thing - a school could offer a
+class they otherwise couldn&amp;#39;t but I read it as another sign of the
+deterioration of the craft of teaching.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ll end my thoughts on this panel though with an LLM strength - that
+they can be multilingual. I haven&amp;#39;t seen this exploited yet but this
+could certainly be a boon.&lt;/p&gt;
+&lt;p&gt;
+My second panel was&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Data Science and Computer Science in K-12&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+The panel started with an interesting fact. In 2020 no states had
+anything in their requirements or standards dealing with data
+science. Now in 2024, nineteen do. That&amp;#39;s some pretty fast growth.&lt;/p&gt;
+&lt;p&gt;
+The panelists brought up a number of issues:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data Science and Computer Science frequently overlap&lt;/li&gt;
+&lt;li&gt;Data Science provides opportunities to develop CS skills&lt;/li&gt;
+&lt;li&gt;CS has DS in their standards but frequently they need to be expanded
+on&lt;/li&gt;
+&lt;li&gt;The question as to if DS (and CS) should be standalone classes or
+embedded in other subject areas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It&amp;#39;s doubtful that data science will spin off into its own discipline
+in K12. It&amp;#39;s much more likely to be integrated into other subjects but
+the placement of data science and computer science is an interesting
+one. Currently, the trend in the early grades is integration. In the
+later K12 grades you&amp;#39;ve got mainstream players like the College Board
+with standalone classes like APCS-A and APCS Principles but also
+integration efforts like &lt;a href=&#34;https://www.bootstrapworld.org/&#34;&gt;Bootstrap&lt;/a&gt; which integrates into classes like
+high school algebra.&lt;/p&gt;
+&lt;p&gt;
+Now, in general I&amp;#39;d love to see more subject integration but looking
+at CS in particular, at least at the high school level, I&amp;#39;ve always
+pushed for separate classes.&lt;/p&gt;
+&lt;p&gt;
+Why? Well, first off, separate classes means separate teachers and
+ultimately departments. Yes, this further silos the system but without
+it, schools won&amp;#39;t have long term advocates for compute science and the
+subject will be permanently relegated to second class citizen.&lt;/p&gt;
+&lt;p&gt;
+Another problem with integration is that subject teachers are
+overloaded as it is. Now, a science teacher or history teacher might
+already be doing some data science and can just relable things but CS
+is another matter.&lt;/p&gt;
+&lt;p&gt;
+At the panel, I thought of another reason. What happens when the
+curriculum changes? Bootstrap is integrated into a typical algebra
+curriculum. What happens when the curriculum changes. On the one hand,
+if the curriculum is just tweaked, things will probably be fine but
+what if there are bigger changes. Over the course of my career there
+were changes to both the Geometry and Algebra 2 and Trig
+curricula. Big enough that if the embedded curriculum is scripted and
+the teacher doesn&amp;#39;t really know the CS well, that add on is going out
+the window. This will likely be the case with minor changes - moving
+or removing a single unit or changing an emphasis but what about
+bigger changes - adding calculators in math or the types of changes
+we&amp;#39;ve seen in APCS-A over the years.&lt;/p&gt;
+&lt;p&gt;
+This isn&amp;#39;t even counting major changes like when we went from Algebra
+to integrated math to a new version of integrated math back to Algebra
+all in my career.&lt;/p&gt;
+&lt;p&gt;
+This is all to say that integration probably isn&amp;#39;t sustainable if you&amp;#39;re just
+providing a drop in and some PD. It can work if the teachers are truly trained to
+know both their core subject and the CS or DS but that&amp;#39;s a big ask.&lt;/p&gt;
+&lt;p&gt;
+So those are my thoughts on the two panels I attended. Good stuff and
+good food for thought. Next up paper sessions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SIGCSE 2024 Birds of a Feather Sessions</title>
+      <link>https://cestlaz.github.io/post/sigcse-2024-4-bofs/</link>
+      <pubDate>Sun, 24 Mar 2024 10:30:26 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/sigcse-2024-4-bofs/</guid>
+      <description>&lt;p&gt;
+I saw three keynotes, I also went to three Birds of a Feather sessions
+(BOFS). Three was possible as SIGCSE added a third &amp;#34;flock&amp;#34; this
+year. I didn&amp;#39;t take notes since BOFS should be pretty interactive so I
+won&amp;#39;t be able to give too much in terms of content summaries bu
+hopefully I&amp;#39;ll be able to convey the gist of what went on.&lt;/p&gt;
+&lt;p&gt;
+Two of the BOFS I attended were good, the third was, if I&amp;#39;m to be
+honest, pretty awful.&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s the rundown.&lt;/p&gt;
+&lt;p&gt;
+The first session I attended was &amp;#34;Creating University Teacher Training
+Programs.&amp;#34; I figured I pretty much had to attend this one.&lt;/p&gt;
+&lt;p&gt;
+Overall, this was a good session but it did suffer from a couple of
+insurmountable problems that I think all the BOF sessions had. First,
+there were a lot of participants, second there just wasn&amp;#39;t enough
+time. This meant that we just didn&amp;#39;t have that much time to get into
+meaningful discussions. We were able to share some basic facts about
+our state&amp;#39;s certification processes but we couldn&amp;#39;t get much further.&lt;/p&gt;
+&lt;p&gt;
+Most of the BOFS I&amp;#39;ve attended at SIGCSE follow the same basic
+format. The session leaders say a few things, the room splits into
+groups of varying sizes, the leaders give questions, the groups
+discuss. Between questions, there&amp;#39;s usually a share out. This takes a
+lot of time. It might be worth it if SIGCSE made one flock of double
+length rather than two flocks or if organizers split their sessions
+into smaller groups and just let them have at it without the
+intermittent reconvening.&lt;/p&gt;
+&lt;p&gt;
+In any event, this session covered the basics and was worthwhile but I
+would have liked to have been able to talk about actual program
+designs with the other session attendees.&lt;/p&gt;
+&lt;p&gt;
+The second BOF I attended was titled:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;K-12 CS Teacher Education: What are we teaching and to whom? How do we
+know we are moving the needle?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+with a sub heading that included:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;…it is imperative that the CS education community understand the myriad
+ways in which CS teacher education is enacted and begin developing
+best practices for the field.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+I was hoping that this would be a dive into what and how different
+programs were teaching. I couldn&amp;#39;t have been more wrong. The session
+was run by two people but only one really facilitated. I won&amp;#39;t go into
+details but I will say that the individual who actually ran the
+session displayed poor teaching practices in working to direct the
+groups in specific ways rather than facilitating an open discussion.&lt;/p&gt;
+&lt;p&gt;
+I left midway through and had a much more valuable hallway track
+discussion.&lt;/p&gt;
+&lt;p&gt;
+My third BOF was the following day. It was titled &amp;#34;Computer Education
+and Capitalism.&amp;#34; Like the first BOF I described, this was a good
+session but fell short on time. The organizers framed the discussion
+but as &amp;#34;computer education and capitalism&amp;#34; can mean many things, they
+gave groups freedom to explore as each group wanted to. This meant we
+could talk about education for jobs vs pure education, capitalist
+influences on curricula, teacher prep, and how teachers have to teach
+or pretty much anything else. Overall strong session. I think most
+people, including myself left with a new wrinkle in our thinking.&lt;/p&gt;
+&lt;p&gt;
+So that&amp;#39;s it for today. Two strong BOFS and one bad one. I think it
+might be cool if there were a way for each BOF to summarize the
+discussion to share back to attendees. Sometimes it feels like we come
+together in a room, have a discussion with new friends and then it&amp;#39;s
+all lost in the ether. Still worthwhile but maybe they could be
+something more. &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SIGCSE 2024 - keynotes</title>
+      <link>https://cestlaz.github.io/post/sigcse-2024-3-keynotes/</link>
+      <pubDate>Sun, 24 Mar 2024 10:29:30 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/sigcse-2024-3-keynotes/</guid>
+      <description>&lt;p&gt;
+I wrote about the first keynote in my &lt;a href=&#34;https://cestlaz.github.io/post/sigcse-2024-1/&#34;&gt;day 1 post&lt;/a&gt;. Today I&amp;#39;ll talk
+about two more. There were two additional keynotes during luncheons
+but I didn&amp;#39;t attend those.&lt;/p&gt;
+&lt;p&gt;
+First up was Jane Plane titled &amp;#34;Find Your Drop and Add to the River.&amp;#34; Strong
+keynote but it spoke to me in a very different way than the first
+keynote. The first keynote was maybe the first talk I&amp;#39;ve heard by
+someone thought of as an education expert who actually spoke the
+measured truth rather than eduspeak propaganda. This keynote resonated
+as I&amp;#39;ve recently been thinking a lot about the drops I&amp;#39;ve either
+contributed or failed to contribute to the CS Education cause.&lt;/p&gt;
+&lt;p&gt;
+&amp;#34;Drop by drop a river is made&amp;#34; was the lead quote. It&amp;#39;s a translation
+of an Afghan proverb. Plane&amp;#39;s plea was for us all to find our drops to
+contribute and when dealing with CS Educations major issues -
+diversity, equity, and inclusion - it&amp;#39;s going to take all of us adding
+our drops and while any one action might seem insignificant, they add
+up over time.&lt;/p&gt;
+&lt;p&gt;
+The talk started with Plane&amp;#39;s journey. How she had the opportunity to
+and then actually built the first Masters in CS program in Africa and
+then later did built similar programs in Afghanistan. She also spoke
+of the drops she added at Maryland and now in Wisconsin. One might say
+that not everyone will have those opportunities but the truth is, most
+people, if they did have them, probably wouldn&amp;#39;t have taken them nor
+accomplished as much. Regardless, even more mundane sounding drops can
+big time contribute to the river.&lt;/p&gt;
+&lt;p&gt;
+In the first keynote, Todd Zakrajsek told of how he almost dropped out
+of college but the right words at the right time from one single
+professor changed the course of his life. Without those words, none of
+his drops would have been added.&lt;/p&gt;
+&lt;p&gt;
+In the micro-teaching session, one instructor mimed an interaction he
+had with a student. Before &amp;#34;class&amp;#34; he asked what the student planned
+to do after college. She said, she wasn&amp;#39;t sure. The instructor
+encouraged her to come to office hours to discuss. The &amp;#34;student&amp;#34; was
+at my table and said afterwards that the interaction was real and
+ultimately it what led to her becoming a CS educator. That&amp;#39;s a lot
+more drops.&lt;/p&gt;
+&lt;p&gt;
+The other day I noticed a comment on LinkedIn by my friend Leigh Ann
+DeLyser. Leigh Ann commented about the number of &amp;#34;multipliers&amp;#34; at
+SIGCSE. Made me think of the fact that teachers in general are
+tremendous multipliers. One word can send a child in one direction or
+another and the drops we add can turn into streams or more. As a high
+school teacher, I was charged with 150 or so students each
+semester. If even a small number, say, become teachers themselves, or
+go into tech and as a result of my classes pay more attention to DEI,
+well, that&amp;#39;s one drop that&amp;#39;s turned into a steady flow. We might not
+all be creating new programs in other countries but every teacher has
+an opportunity to be a tremendous influencer. We just don&amp;#39;t get credit
+on the internet.&lt;/p&gt;
+&lt;p&gt;
+The other keynote I attended was given by Rachel Rose of ILM. The talk
+started as a journey talk - from early interests through college and
+ultimately to ILM. One point was when Rose emphasized that
+she collaborated more in her CS classes than in her other
+classes. This was interesting. It makes sense - particularly in
+project based courses but flies in the face of the stereotypes. It&amp;#39;s
+also interesting in light of the ongoing tensions in schools between
+collaboration, individual assessment, and academic honesty.&lt;/p&gt;
+&lt;p&gt;
+The second part of the talk was a showcase and inside look into the
+technologies Rose&amp;#39;s team developed at ILM for use in productions like
+&amp;#34;The Mandalorean&amp;#34;, &amp;#34;Solo,&amp;#34; and others.&lt;/p&gt;
+&lt;p&gt;
+Next up was a talk about the Academy Software Foundation. How the
+movie industry banded together to form a foundation and how each major
+studio contributed open source platforms. Now the industry can use
+standards and tools like materialx, opencolorio, and openfx. You can
+check out ASFW &lt;a href=&#34;https://www.aswf.io/&#34;&gt;here&lt;/a&gt;. Looks really cool and having all the major
+players rally around the virtues of open source is really cool. My
+only issue with them is that their logo has an open comment with no
+close comment and that just bothers me.&lt;/p&gt;
+&lt;p&gt;
+The final theme, which appeared throughout the talk was the industry&amp;#39;s
+work to increase diversity. A major point Rose made was that
+youngsters have no idea as to what they can do within the movie
+industry. Neither do they understand the educational path from school
+to Hollywood be it in tech, the arts, or some hybrid of both. &lt;/p&gt;
+&lt;p&gt;
+All three keynotes were strong. All conveyed worthwhile messages and
+all were delivered in an entertaining way.&lt;/p&gt;
+&lt;p&gt;
+Good job SIGCSE2024!!!!&lt;/p&gt;
+&lt;p&gt;
+Still to come - BOFS, Panels, and Paper sessions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SIGCSE 2024 - Microteaching</title>
+      <link>https://cestlaz.github.io/post/sigcse-2024-2-micro-teaching/</link>
+      <pubDate>Sat, 23 Mar 2024 23:42:56 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/sigcse-2024-2-micro-teaching/</guid>
+      <description>&lt;p&gt;
+We stayed an extra day in Portland to do some site seeing. I&amp;#39;ll write
+about the tourist side in my final SIGCSE2024 post. Right now, we&amp;#39;re
+back in the hotel resting before dinner so I thought I&amp;#39;d start the
+next part of my SIGCSE2024 report.&lt;/p&gt;
+&lt;p&gt;
+For Day one&amp;#39;s first session, I attended &lt;a href=&#34;https://www.linkedin.com/in/lewiscolleen/&#34;&gt;Colleen Lewis&amp;#39;s&lt;/a&gt; Microteaching
+session. I&amp;#39;ve wrote about this session &lt;a href=&#34;https://cestlaz.github.io/post/sigcse-2023-microteaching/&#34;&gt;last year&lt;/a&gt; and also about
+Colleen&amp;#39;s recent appearance on the CSEd podcast where she discussed
+&lt;a href=&#34;https://cestlaz.github.io/post/manipulatives/&#34;&gt;manipulatives.&lt;/a&gt; Much of Colleen&amp;#39;s public facing work involves CS
+pedagogy and if you haven&amp;#39;t noticed, I&amp;#39;m a fan.&lt;/p&gt;
+&lt;p&gt;
+Microteaching has fast become my favorite SIGCSE session. Six teachers
+each give a quick, abbreviated mini-lesson and afterwards Colleen
+highlights pedagogical techniques.&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s not perfect. The mini-lessons are taught out of context, the
+audience aren&amp;#39;t the presenters real classes, and it&amp;#39;s only something
+like a 10 minute snippet but still, it made for a great session.&lt;/p&gt;
+&lt;p&gt;
+In one mini-lesson, Colleen pointed out that the presenter gave the
+&amp;#34;class&amp;#34; (us) time to process a question before asking for
+responses. Questioning technique and timing is an important part of
+K12 teacher training and I&amp;#39;m betting it&amp;#39;s not covered nearly enough at
+the college level. There&amp;#39;s a huge amount to explore on questioning but
+a simple technique like this - waiting say, 10 seconds after asking a
+question before entertaining a response can be huge.&lt;/p&gt;
+&lt;p&gt;
+In another lesson, Colleen commented how the teacher provided to
+concrete but different examples to set the stage for a class
+exercise. I liked that particular lesson, delivered by &lt;a href=&#34;https://www.linkedin.com/in/adam-blank-707669245/&#34;&gt;Adam Blank&lt;/a&gt;
+because it wasn&amp;#39;t a core lesson in his class but rather a fun side
+topic to set the stage for the cybersecurity work yet to come. He
+elicited suggestions from the class how they could first crack a safe
+(using the typical movie trope of listening with a stethoscope) and
+how to crack a keypad lock by looking at the worn out keys on the
+keypad. This led to a class &amp;#34;lab&amp;#34; where we had to figure out which
+mystery toy was in an egg shell without opening it. All of this was to
+teach the class about side channel attacks. It was terrific.&lt;/p&gt;
+&lt;p&gt;
+This went on for six mini-lessons in all.&lt;/p&gt;
+&lt;p&gt;
+It was a great session but I had one thought that might make it
+better. Instead of six mini-lessons, how about only three so that we&amp;#39;d
+then have time to discuss the lessons. This could be tricky because it
+puts the people presenting on the spot and open to criticism but it
+could be &lt;strong&gt;so&lt;/strong&gt; valuable.&lt;/p&gt;
+&lt;p&gt;
+For example, in one of the mini-lessons, the instructor presented a
+binary tree. Each node had a student name on it and also a priority
+value.Later the teacher removed the names. Colleen highlighted that
+putting the name in to the tree (along with priority values) was a
+strong technique as was later removing them. I partially agreed with
+this but also felt that removing the names could also have weakened
+the lesson. We didn&amp;#39;t have full context so I can&amp;#39;t be sure. In any
+event, this could have led to some really rich discussion.&lt;/p&gt;
+&lt;p&gt;
+A second example, and one I loved was when one teacher engaged the
+&amp;#34;class&amp;#34; prior to the lesson. He asked a student their future plans and
+after an exchange invited the student to come to office hours to
+discuss. This was a great example of a hidden technique for a number
+of reasons. One reason in particular I&amp;#39;ll address when I talk about
+the other SIGCSE keynotes but it&amp;#39;s also a technique that can be a
+negative. On the plus side it&amp;#39;s a way to engage the class at a more
+informal manner, it can be used to build class community and culture,
+and also, if it&amp;#39;s a morning class, start to get sleep minds stirring
+(not to mention the plus I&amp;#39;ll talk about later). On the other hand, if
+you do this consistently with just a couple of students, you risk
+building resentment or concern from the students that aren&amp;#39;t part of
+the &amp;#34;in crowd.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+All in all, a super session that gave attendees a chance to
+see aspects of teaching that are never covered in research papers and
+rarely talked about in general. Looking forward to next year&amp;#39;s
+edition.&lt;/p&gt;
+&lt;p&gt;
+I think I&amp;#39;ll organize the rest of my SIGCSE report into session
+types - BOFs, paper sessions, and panels so stay tuned for more.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>SIGCSE 2024 - Opening Day</title>

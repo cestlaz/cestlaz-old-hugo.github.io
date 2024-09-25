@@ -6,10 +6,210 @@
     <description>C&#39;est la Z (CS Ed)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Mar 2024 09:20:03 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 17 Sep 2024 11:49:58 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/categories/cs-ed/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>StuyCS - Playing the long game</title>
+      <link>https://cestlaz.github.io/post/cs-programs-the-long-game/</link>
+      <pubDate>Tue, 17 Sep 2024 11:49:58 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/cs-programs-the-long-game/</guid>
+      <description>&lt;p&gt;
+Last Thursday, I was back at Stuy. I was there along with members of
+the Alumni Association to host Stuy&amp;#39;s first tech meetup of the
+season. I guess that&amp;#39;s the first &amp;#34;official&amp;#34; project I&amp;#39;m working on
+since retirement. In the past, there had been various issues with
+Stuy&amp;#39;s assorted alumni associations (yes, there were at one time three
+competing entities) but for the past few years they&amp;#39;ve been under what
+we can call &amp;#34;new management&amp;#34; - people I both like and trust so I&amp;#39;m
+happy to be working with them.&lt;/p&gt;
+&lt;p&gt;
+This event was just a normal meetup - mostly networking time and a
+couple of speakers. One of the speakers was my friend, former student,
+former colleague, and successor as Coordinator of CS at Stuy - JonAlf.
+JonAlf gave an update on the &amp;#34;state of StuyCS&amp;#34; going back to when I
+first started to build things. I enjoyed the talk and since, as JonAlf
+said, even though the audience collectively knew the development,
+individually very few did. There were also a couple of old timers who
+probably didn&amp;#39;t know any of it.&lt;/p&gt;
+&lt;p&gt;
+It made me think of how much education is playing the long game.&lt;/p&gt;
+&lt;p&gt;
+Things started in Fall 1994 when I started teaching APCS-AB - the
+one that was both a college CS1 and CS2 - four sections. Prior to that
+there had been a single APCS class and a random programming elective
+here or there but all taught by math teachers and all taught as one
+offs.&lt;/p&gt;
+&lt;p&gt;
+Spring &amp;#39;95 brought graphics and Fall &amp;#39;95, Systems.&lt;/p&gt;
+&lt;p&gt;
+At this point, we, or I was just starting but I wouldn&amp;#39;t call it a
+program. Three courses but I&amp;#39;m not sure I&amp;#39;d be able to claim any
+strong coherence.&lt;/p&gt;
+&lt;p&gt;
+APCS was, well, APCS. Nothing special there except that we probably
+covered more and more deeply than most high school programs.&lt;/p&gt;
+&lt;p&gt;
+Graphics was the terminal course - second term senior year. It had a
+nice combination of the programming they had learned in APCS, Math
+from precalc and a touch of calc, and a little of their physics. Much
+like the rug, it tied things together nicely. That, plus the kids made
+pretty pictures which helped stave off but didn&amp;#39;t eliminate
+senioritis.&lt;/p&gt;
+&lt;p&gt;
+Systems was just thrown in. It was based around Intel Assembly
+programming in our lab of MS-DOS/Windows-95 machines I thought it
+might be interesting and fun for the kids and I knew I could teach it
+but there wasn&amp;#39;t any deep thought that went into why I created it as
+opposed to some other course to fill that space.&lt;/p&gt;
+&lt;p&gt;
+Around 1998 / 1999 things started to change. First, Systems had
+changed. We had switched the labs over from the extremely overpriced
+and obsolete IBM PS/2s (obsolete because IBM had stopped selling them
+prior to selling them to Stuy) for regular PCs which we could install
+Linux on. Since we could do much more with the platform I decided to
+change up the course. I also had a few years of graduates now in
+college and was able to get their thoughts on what was missing from
+their CS sequences.&lt;/p&gt;
+&lt;p&gt;
+That&amp;#39;s how our new Systems class was born. It covered C programming
+and an assortment of Systems topics. Some was similar to what they&amp;#39;d
+cover in college but a lot was set up to support them in college. I
+continued to get feedback from my grads on this and other courses from
+that point on and it helped direct my approach to course building.&lt;/p&gt;
+&lt;p&gt;
+I also created the sophomore one semester intro course that would
+later become a requirement. This class was designed as a new CS0 -
+something that would be programming heavy but would both expose
+students to a wider range of CS topics than a typical intro
+programming class and also relate CS to other disciplines. In some
+ways APCS-Principles which came around later had a similar intent but
+I&amp;#39;d say my course was much more rigorous and much better for my population.&lt;/p&gt;
+&lt;p&gt;
+The goal would be to provide something valuable to the majority of
+students who might never take any more CS while at the same time,
+inspiring and preparing those who would.&lt;/p&gt;
+&lt;p&gt;
+Now I&amp;#39;d say we had a program. It was still basically just me along
+with a math teacher and then two  picking up some of the APCS classes
+but we had a cohesive sequence of courses that made sense.&lt;/p&gt;
+&lt;p&gt;
+Intro would lead into APCS would lead into Systems/Graphics.&lt;/p&gt;
+&lt;p&gt;
+Being a StuyCS grad meant something.&lt;/p&gt;
+&lt;p&gt;
+A few other selective schools also claimed CS programs at the time but
+as far as I could tell they had intro programming followed by APCS
+followed by just teaching the next college course or courses in high
+school.&lt;/p&gt;
+&lt;p&gt;
+I didn&amp;#39;t see the point of that. The kids would get algorithms,
+theory, compilers etc. in college anyway.&lt;/p&gt;
+&lt;p&gt;
+For me, Systems and Graphics made much more sense. My Systems was set
+up to support the college classes and Graphics was typically an
+elective so it would add to my kid&amp;#39;s backgrounds and not just be
+something they&amp;#39;d take again. Besides, I ended up working some things
+like parsing and automata into the graphics course.&lt;/p&gt;
+&lt;p&gt;
+We also started to grow.&lt;/p&gt;
+&lt;p&gt;
+By 2007 we had 3 full time CS teachers plus five sections of CS
+classes being taught by math teachers. Intro was a single semester
+requirement. We had 12 intro classes each semester, 5 ACPS classes
+(still teaching AB), 2 Systems/Graphics (Fall/Spring), plus one
+research which was really a fake class to let me work with my kids to
+run the network although I did do my best to support the kids who did
+want to do legit research and within a few years, the class did morph
+into a legit research class.&lt;/p&gt;
+&lt;p&gt;
+That&amp;#39;s a little over 10 years. The long game.&lt;/p&gt;
+&lt;p&gt;
+We gad a coherent three year sequence. It wasn&amp;#39;t random
+electives. Being a StuyCS grad meant something. Now, I&amp;#39;m not saying
+that my way was the only way or the right way for everyone but I think
+for CS it made a world of sense. Contrast that with Stuy&amp;#39;s English
+department. Through most of your four years, students could select
+which English &amp;#34;selective&amp;#34; to take and they ranged wildly. You could
+take Science Fiction, Women&amp;#39;s Voices, Children&amp;#39;s book authoring,
+science writing, detective fiction and tons more. This means that Stuy
+grads can have radically different English and Literature
+experiences. For English. maybe that&amp;#39;s good. For a HS CS program, I
+think a coherent sequence is better. I guess it&amp;#39;s also like having
+area requirements for a Bachelors of Arts degree - take one from this
+category, two from this etc. versus Columbia&amp;#39;s core curriculum where
+everyone literally takes the same classes for the core.&lt;/p&gt;
+&lt;p&gt;
+I was confident though that it was working. At one point, I saw a
+tweet by Morgan Missen. I don&amp;#39;t know her but was told that she was the
+top tech team talent builder in the Bay Area. She tweeted &amp;#34;Stuyvesant,
+the Stanford of the East.&amp;#34; I also started hearing from VCs, investors,
+and founders about how they didn&amp;#39;t really like seeing a high school on
+a graduate&amp;#39;s resume unless it was Stuyvesant. If they saw StuyCS, the
+knew it meant something.&lt;/p&gt;
+&lt;p&gt;
+By the time I left Stuy for Hunter College we were mostly
+stable. Maybe one or two more APCS sections on any given year and I
+did create a Software Engineering course called Software Development
+to replace research. That course, like my others, was designed based
+on what my graduates were saying they needed.&lt;/p&gt;
+&lt;p&gt;
+So it took twenty years of work but in this case slow and steady might
+not have won the race, but it built the program.&lt;/p&gt;
+&lt;p&gt;
+Now, I&amp;#39;ve gone over why I left Stuy in some other posts but two
+important reasons were my stagnating - I had done everything I felt I
+could do and also, I felt that some of my team was also being held
+back as they were too deferential to me.&lt;/p&gt;
+&lt;p&gt;
+Regardless, I left, JonAlf took over team leadership and here&amp;#39;s where
+they are today.&lt;/p&gt;
+&lt;p&gt;
+They now have an opt in full year CS requirement. Kids can either take
+a full year of CS or one of CS and one of drafting.&lt;/p&gt;
+&lt;p&gt;
+That translates to 13 sections of the full year course and 6 of the
+single semester. They also rebranded intro and now call it
+&amp;#34;foundations of CS.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+They also have 7 APCS classes and that&amp;#39;s probably the limit, at least
+based on teaching the Stuy version that includes data structures. They
+tried to have additional sections based on requests but that led to a
+portion of the students really struggling.&lt;/p&gt;
+&lt;p&gt;
+To address that, they created NeXTCS which covered APCS-A but at a
+more relaxed pace and had a lot of fun projects. I think they were
+using Processing. They&amp;#39;re running 4 sections of that.&lt;/p&gt;
+&lt;p&gt;
+On top of that add 2 Systems to go along with 2 of a new Cybersecurity
+class as well as the usual 2 of softdev and a new Ethics class. The
+only reason they aren&amp;#39;t running 2 graphics classes this year as well
+is because they had a crunch in math and need to send a CS teacher
+over to teach a couple of math classes - how times have changed.&lt;/p&gt;
+&lt;p&gt;
+To run this, they have 8 full time CS teachers.&lt;/p&gt;
+&lt;p&gt;
+There&amp;#39;s no doubt in my mind that my leaving was the right move. StuyCS
+has gone on to new heights under new leadership and I couldn&amp;#39;t be
+prouder of them.&lt;/p&gt;
+&lt;p&gt;
+It did take a span of just about 30 years to go from no CS to a three
+year sequence, a full year required option, a coherent sequence of
+electives and eight full time CS teachers. Just another indication
+that education is a marathon not a sprint. Now, we&amp;#39;re in the infancy
+of CS teacher certifications and much of the country isn&amp;#39;t even where
+Stuy was thirty years ago in terms of courses. I expect it&amp;#39;ll be
+another thirty years or probably more before it&amp;#39;s all worked out. I
+guess for old timers like me (and some of my readers and friends) we get to be
+Moses - we get to see the promised land but we won&amp;#39;t get to enter
+it. It won&amp;#39;t be here for another few decades but that&amp;#39;s okay, that&amp;#39;s
+just how education progresses. It&amp;#39;s gratifying to look back and see
+how far we&amp;#39;ve come so far.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The CS-Ed podcast - teaching college without a PhD</title>

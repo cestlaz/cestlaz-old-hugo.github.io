@@ -6,10 +6,137 @@
     <description>C&#39;est la Z (ai)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Mar 2024 09:58:42 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jul 2024 14:37:10 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/tags/ai/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>AI without guardrails</title>
+      <link>https://cestlaz.github.io/post/ai-without-guardrails/</link>
+      <pubDate>Fri, 26 Jul 2024 14:37:10 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/ai-without-guardrails/</guid>
+      <description>&lt;p&gt;
+CSTA was only a week ago but I&amp;#39;ve already been trotting out things
+learned there in conversations. Specifically, during the panel
+keynote, one panelist, while discussing the affects of AI cited a
+study.&lt;/p&gt;
+&lt;p&gt;
+Two groups of programmers were tasked with writing some safe and
+secure code. One group used AI tools like copilot and chatGPT. The
+other didn&amp;#39;t&lt;/p&gt;
+&lt;p&gt;
+When all was said and done, the group that &lt;strong&gt;didn&amp;#39;t&lt;/strong&gt; use the AI tools
+produced more secure code. The group that did use the AI tools not
+only produced worse code but they were actually more confident in
+their code.&lt;/p&gt;
+&lt;p&gt;
+To be honest, this really didn&amp;#39;t come as a surprise.&lt;/p&gt;
+&lt;p&gt;
+Today I was thinking about this again. My friend Bethany Crystal wrote
+up a &lt;a href=&#34;https://paragraph.xyz/@bethanycrystal/beyond-the-classroom-leveraging-ai-for-educational-innovation&#34;&gt;post&lt;/a&gt; on leveraging AI. Lots of good stuff in the post, one point
+was when Bethany talks of when she was with StackOverflow and how it
+became such an important part of developers workflows and how AI is
+now becoming the same but beyond coding.&lt;/p&gt;
+&lt;p&gt;
+The post is a great post to get people thinking about using AI in
+their workflows but we also have to be reminded that AI without
+verification can be dangerous.&lt;/p&gt;
+&lt;p&gt;
+Bethany gives an example of using chatGPT in a similar vein to
+StackOverflow - as a timesaver to generate content from which she
+would then build her actual work.&lt;/p&gt;
+&lt;p&gt;
+To do this, she asks chatGPT:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hi, I&amp;#39;m a principal at a public high school in the South Bronx. Can
+you help me make a case about the importance of project-based learning
+to teachers who are skeptical about why we need to teach kids how to
+code?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+If one is an educator and already knows their stuff on Project Based
+Learning (PBL), the results are a nice start if you&amp;#39;re building a
+presentation, going to address your faculty, or a number of other
+tasks.&lt;/p&gt;
+&lt;p&gt;
+On the other hand, if you&amp;#39;re someone who just got out of Teach for
+America and are now making the next greatest education startup but
+don&amp;#39;t really know the real deal in education, it&amp;#39;s not nearly as
+helpful. I ran this query twice, the second time, the answer didn&amp;#39;t
+talk at all about some of the problems with PBL - class size and time
+issues, project storage over days for physical projects, prep time
+needed to set up each experience and many more. The first time I ran
+it, it mentioned some of the issues with PBL but just in the most
+generic sense &amp;#34;make sure teachers have the support they need.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+Both answers also conflated coding and PBL so if the person using
+chatGPT doesn&amp;#39;t have as strong education and in this case programming
+background the chatGPT solution can do more harm than good.&lt;/p&gt;
+&lt;p&gt;
+I then, for kicks, tried this prompt:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hi, I&amp;#39;m a principal at a public high school in the South Bronx. Can
+you help me make a case about the importance of the use of lectures in
+teaching who are skeptical about why we need to teach kids how to
+code?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+I had to change the wording a bit but it&amp;#39;s basically the same ask but
+with the use of lectures instead of projects.&lt;/p&gt;
+&lt;p&gt;
+While parts of the response are very specific to lectures, the entire
+answer actually reads very similarly to the PBL answers and its
+justifications are just as strong (or weak depending on your point of
+view).&lt;/p&gt;
+&lt;p&gt;
+All of my queries resulted in  some incorrect assertions.&lt;/p&gt;
+&lt;p&gt;
+Now, I&amp;#39;m not saying at all that one shouldn&amp;#39;t use these AI tools - we
+should - if we already know about the domain we&amp;#39;re using them in. They
+can be great at generating code for well understood algorithms - we
+just have to make sure to verify what&amp;#39;s been generated. They can help
+phrase a difficult paragraph or reframe an argument and assist us in
+many other ways. The important thing, and the thing that that first
+group of programmers from the experiment up top forgot, is that we
+have to verify what these tools give us. We end up using them like a
+curated library and it isn&amp;#39;t.&lt;/p&gt;
+&lt;p&gt;
+Tools like chatGPT look at a corpus of documents and probabilistically
+generate its content. This means it&amp;#39;s basing its results on the
+documents out there.&lt;/p&gt;
+&lt;p&gt;
+In the case of code, we know that there&amp;#39;s a lot more bad code out
+there than good. This means that while chatGPT can probably easily
+generate code for a really well known algorithm like a sort, we&amp;#39;ve got
+to question and test anything it puts out.&lt;/p&gt;
+&lt;p&gt;
+Likewise for education issues, there&amp;#39;s a lot of bad material on
+education out there. A lot of garbage has been published and treated
+like &amp;#34;the true way&amp;#34; to teach and to run schools. Things that
+&amp;#34;reformers&amp;#34; love because they cut costs but teachers know are
+crap. Things that are likewise pet theories of education that have
+become popular but are no better and are frequently worse than what
+teachers know are tried and true methods.&lt;/p&gt;
+&lt;p&gt;
+What&amp;#39;s more a chatGPT response can lack nuance. I can picture someone
+who&amp;#39;s starting a school - a non educator let&amp;#39;s say, heard from a
+person that PBL is good. Now, I know some people who swear by PBL and
+say to use it all the time - those are people in super selective
+private schools with tremendous resources and ultra small classes. The
+reality is that PBL is good and should be used as appropriate but
+there are other good techniques that will be better under some
+circumstances and worse under others. This person starting the school
+then dives into the AI with queries like I made on PBL and get a very
+one sided view. Now we have a problem.&lt;/p&gt;
+&lt;p&gt;
+I loved Bethany&amp;#39;s post and it got me thinking more of how I can
+leverage AI, of course the problem for me is that I&amp;#39;m currently
+between gigs so don&amp;#39;t have any work to apply it to. It also reminded
+me of the dangers of using it blindly and without guardrails.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Teachers want to teach AI but how will we teach the teachers?</title>

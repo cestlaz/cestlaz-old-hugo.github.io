@@ -6,10 +6,109 @@
     <description>C&#39;est la Z (certification)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Sep 2022 16:39:37 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 19 Apr 2024 13:05:03 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/tags/certification/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>CS Certification - I should be exempt</title>
+      <link>https://cestlaz.github.io/post/i-should-be-exempt/</link>
+      <pubDate>Fri, 19 Apr 2024 13:05:03 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/i-should-be-exempt/</guid>
+      <description>&lt;p&gt;
+Over the past few years, a number of states have acknowledged Computer
+Science as an academic area of study and have created pathways for
+certification. The actual requirements vary from state to state and
+indeed, even within a given state, there&amp;#39;s a lot of variation. Here in
+New York, for instance there are some strong programs that will truly
+prepare a candidate to teach CS in K12 but too many others that are
+just &amp;#34;certificate mills&amp;#34; and the state doesn&amp;#39;t seem to care.&lt;/p&gt;
+&lt;p&gt;
+The question that I noticed garnering discussion recently wasn&amp;#39;t the
+creation of new certification areas but rather, what do we do with the
+people currently teaching CS?&lt;/p&gt;
+&lt;p&gt;
+Do we grandfather them in? If so, do we do it indefinitely? Do we
+force them to go through an entire certification program? How about
+making them sit for an exam? How about something else?&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m writing about this now because on social media I noticed a post
+from a teacher who was just informed they&amp;#39;d have to take the Praxis
+exam in order to continue teaching CS. Here, and in other forums I&amp;#39;ve
+heard some teachers shrug this off since they did similar or had to do
+more, and some say that it was ridiculous to make someone already
+teaching CS sit for an exam or take additional courses.&lt;/p&gt;
+&lt;p&gt;
+I wanted to push back on that.&lt;/p&gt;
+&lt;p&gt;
+Just because someone has been teaching CS doesn&amp;#39;t mean they should. In
+New York City, due to their CSforAll initiative hundreds of teachers
+have been thrust into CS classes over the past few years with minimal
+preparation. Many of them have worked super hard and have done a
+yeoman&amp;#39;s job but the majority, from what I&amp;#39;ve seen, don&amp;#39;t know CS
+beyond the super basics and haven&amp;#39;t really had the opportunity to
+learn how to teach it.&lt;/p&gt;
+&lt;p&gt;
+On the other hand, there are some who indeed do have a solid CS
+background and any additional exams or coursework are just a waste of
+time.&lt;/p&gt;
+&lt;p&gt;
+On the third hand, a teacher who has already been certified in some
+other area and has been teaching CS in a public school shouldn&amp;#39;t have
+to pay out of pocket to take additional coursework or exams.&lt;/p&gt;
+&lt;p&gt;
+The problem is that you can&amp;#39;t really assess who knows their stuff and
+who doesn&amp;#39;t just because &amp;#34;I&amp;#39;ve been doing it for the past ten years.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m comfortable saying that even though I&amp;#39;m certified in math, I&amp;#39;m a
+very strong CS teacher but can I prove it? Test scores don&amp;#39;t
+necessarily prove it. I taught for many years at Stuyvesant. Those
+kids would do well on standardized tests if a potato taught the
+class. In fact, over my career, I&amp;#39;ve seen, in regents classes where a
+class taught by a horrible teacher ended up with some of the highest
+regents scores. There are reasons for this but it&amp;#39;s not worth the time
+to explain here.&lt;/p&gt;
+&lt;p&gt;
+Should we look for student testimonial? Maybe but that could just mean
+that the teacher was popular and unless you&amp;#39;re going to find students
+who are a bunch of years out, they might not have the perspective
+to give a fair evaluation.&lt;/p&gt;
+&lt;p&gt;
+How about observation reports from supervisors? Since supervisors
+rarely know CS that won&amp;#39;t work either.&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s a tough nut to crack.&lt;/p&gt;
+&lt;p&gt;
+So, we&amp;#39;re left with some states where they&amp;#39;re requiring sitting CS
+teachers take an exam and/or classes which will be an inconvenience or
+burden on the few teachers that already really know their stuff and
+other states like NY where they&amp;#39;re fine with unqualified teachers for
+the next ten years by having teachers merely fill out a form, which I
+wrote about &lt;a href=&#34;https://cestlaz.github.io/post/soce/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+Neither solution is ideal.&lt;/p&gt;
+&lt;p&gt;
+Probably the best solution would be to have current CS teachers sit
+for an exam like the CS Praxis exam and have the state pick up the
+fee. I&amp;#39;m not a big fan of standardized exams but as far as they go,
+the CS Praxis isn&amp;#39;t horrible and if you pass it, you should have the
+CS knowledge necessary to teach most High School CS classes. If you
+waive the fee, then it isn&amp;#39;t really a big ask for a qualified CS
+teacher. Maybe you also only do this for teachers who&amp;#39;ve been teaching
+CS classes for two or more years or something like that. Combine a no cost
+exam with the teachers past CS teaching track record and you probably
+hit the sweet spot - fair for the teacher and you have a pretty good
+idea that your CS teachers know their stuff.&lt;/p&gt;
+&lt;p&gt;
+Seems like an easy common sense solution and it wouldn&amp;#39;t cost that
+much. Instead we get states requiring way too much of working teachers
+or on the flip side, allowing teachers with no credentials to teach
+our students. I guess we&amp;#39;ve learned not to expect more from our
+governments.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Certified CS teachers - 2 flags in NY</title>

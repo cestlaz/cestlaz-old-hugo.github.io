@@ -6,10 +6,322 @@
     <description>C&#39;est la Z (misc)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Mar 2024 19:04:54 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 06 Sep 2024 15:10:30 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/categories/misc/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>What they remember</title>
+      <link>https://cestlaz.github.io/post/what-they-remember/</link>
+      <pubDate>Fri, 06 Sep 2024 15:10:30 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/what-they-remember/</guid>
+      <description>&lt;p&gt;
+I haven&amp;#39;t blogged for a few weeks. Part of the reason is that I
+haven&amp;#39;t felt that I&amp;#39;ve had too much to say. That&amp;#39;s in part because
+it&amp;#39;s summer time and in part because I&amp;#39;m no longer teaching so that
+means no new experiences with students, no new stories, and, at least
+right now, no new CS education adventures. Part of it could also just
+be that I&amp;#39;m following the trend - fewer CS Ed bloggers blogging less
+frequently.&lt;/p&gt;
+&lt;p&gt;
+Another part of why I haven&amp;#39;t blogged for a few weeks is that I&amp;#39;ve
+decided to try to write a book. Since retiring I&amp;#39;ve had a few people
+mention it to me so I thought I&amp;#39;d give it a go.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve been writing a few sample chapters over the last there weeks
+(around 35,000 words , 75 pages so far). The plan is to alternate
+chapters - one with a story from my career followed by one on teaching
+something in CS or some CS pedagogical technique. Rinse and
+repeat. The &amp;#34;story&amp;#34; chapters will also have some educational message
+but it won&amp;#39;t be topic or in class specific.&lt;/p&gt;
+&lt;p&gt;
+We&amp;#39;ll see where it goes. Even if it comes together I have no idea how
+I would go about trying to get it published&lt;/p&gt;
+&lt;p&gt;
+Since my memory isn&amp;#39;t what it was and even if it was, our memories are
+malleable I decided to reach out to my network of former students. I
+know that overall I&amp;#39;ve done a solid job as a CS teacher but what
+specifically was memorable. I might have loved a topic or something I
+did but maybe it was a flop. On the flip side, maybe there were things
+that had a major impact - good or bad and I thought they were just
+throwaways. I sent an email to my alumni list and posted to Facebook
+asking for the stories.&lt;/p&gt;
+&lt;p&gt;
+What I got as a result is what made me think about the title for this
+post.&lt;/p&gt;
+&lt;p&gt;
+Some of what I got wasn&amp;#39;t a surprise. The competitive kids enjoyed
+things related to the USACO. Some talked about some of the bigger
+themes in the advanced classes. Everyone loved Halloween!!!&lt;/p&gt;
+&lt;p&gt;
+I was surprised though with other things that came up.&lt;/p&gt;
+&lt;p&gt;
+A surprisingly large number of responses singled out my &amp;#34;Homer the
+robot&amp;#34; lesson - my day one or two activity for new CS students. I used
+to do &amp;#34;Homer the Robot&amp;#34; in APCS when students took AP without any
+prior class and then moved it to Intro once that class was established
+and a requirement.&lt;/p&gt;
+&lt;p&gt;
+Basically, I would play the part of Homer the Robot, named after Homer
+Simpson, largely due to Homer&amp;#39;s well known mental capacity and also
+because I&amp;#39;ve always been a huge Simpsons fan - remember I started
+teaching this lesson or a variant of it back in the mid to late
+90s. I&amp;#39;d set up a simple scenario - instruct Homer so that he writes
+today&amp;#39;s &lt;strong&gt;aim&lt;/strong&gt; on the board.&lt;/p&gt;
+&lt;p&gt;
+They would shout out instructions and hilarity would ensue.&lt;/p&gt;
+&lt;p&gt;
+The idea of course was to show that computers follow simple
+instructions and follow them literally. As I always tell my classes
+&amp;#34;computers are horrible at doing what you want them to do but they&amp;#39;re
+great at doing what you tell them to do.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;d interpret or rather, misinterpret the class&amp;#39;s instructions but
+eventually we&amp;#39;d get an aim on the board.&lt;/p&gt;
+&lt;p&gt;
+Now, I know this isn&amp;#39;t a unique idea. I&amp;#39;m sure while I was coming up
+with it in the 90s in New York City others were doing similar things
+elsewhere. It&amp;#39;s like pair programming. Industry &amp;#34;invented&amp;#34; the idea as
+part of agile programming but just about every CS teacher ever
+invented a variation of pair programming prior to industry ever
+dreaming of two people on one computer every time that teacher was in
+a computer lab with more students than working machines.&lt;/p&gt;
+&lt;p&gt;
+Nowadays you can find similar unplugged exercises a simple web search
+away - things like &amp;#34;the paper plane exercise&amp;#34; or the &amp;#34;peanut butter
+and jelly sandwich exercise&amp;#34; come to mind. Still, I prefer my version
+but if you want to know why, you&amp;#39;ll have to read my book if it ever
+comes out :-).&lt;/p&gt;
+&lt;p&gt;
+When reading my student messages, I was surprised how often Homer came
+up. Sure, it was fun and the class always got laughs but there were
+plenty of other classes with more laughs. Maybe because it set the
+stage. Many of the students who were subject to that lesson ended up
+taking two and a half years of CS and many classes with me. Maybe
+because it started to demystify computing. I can&amp;#39;t say for sure but
+it&amp;#39;s something I&amp;#39;ve been thinking about. Why that lesson and not any
+of the hundreds to follow.&lt;/p&gt;
+&lt;p&gt;
+As I said, it&amp;#39;s interesting what they remember.&lt;/p&gt;
+&lt;p&gt;
+Another theme that came up in more responses than I would have
+expected didn&amp;#39;t refer to a lesson, any particular activity, or
+story. It had to do with the CS class, or in many cases, the CS office
+area - room 301, being a &amp;#34;safe space.&amp;#34; Interesting because I don&amp;#39;t
+think people even used that term back in the day. I found that
+interesting because first, it again came from more students than I
+would have expected. Second, it also came from some people who were
+never my student but are now in my network. They were never in my
+class but still found there way to the CS corner of Stuy. Third, I
+never thought I did anything special or even really thought about
+making a &amp;#34;safe space,&amp;#34; particularly since that can mean very different
+things to different people.&lt;/p&gt;
+&lt;p&gt;
+Those were the two biggest surprises. Not that they were mentioned but
+that they were mentioned more than I would have expected.&lt;/p&gt;
+&lt;p&gt;
+There were plenty of other responses. Some I expected and some not and
+lots of good memory triggers as I stroll down memory lane.&lt;/p&gt;
+&lt;p&gt;
+With the new semester starting for teachers around the country it&amp;#39;s
+worth spending a minute thinking about it - you&amp;#39;ll all have an impact
+teaching your subject area but you&amp;#39;ll also have an impact in ways you
+probably wouldn&amp;#39;t think about.&lt;/p&gt;
+&lt;p&gt;
+Have a great semester everybody!!!!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hidden Communities of New York</title>
+      <link>https://cestlaz.github.io/post/hidden-communities/</link>
+      <pubDate>Mon, 08 Jul 2024 15:09:27 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/hidden-communities/</guid>
+      <description>&lt;p&gt;
+Now that I&amp;#39;m not teaching CS every day, I find the desire to maybe
+write about some other things. I&amp;#39;ve still got a bunch of CS and
+education posts lined up, but for today, something different.&lt;/p&gt;
+&lt;p&gt;
+I was out for my morning run a couple of days ago. I usually leave my
+apartment between 5:00 and 5:45, go to the Hudson River and run an out
+and back. It&amp;#39;s still pretty quiet at that time. When I leave later,
+the park is much more filled with runners, running groups, and bike
+commuters.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m heading south and walking north is an older couple. I
+say older couple but let&amp;#39;s be fair, They&amp;#39;re probably around my age and
+I&amp;#39;m just older than I care to admit although based on my current pace
+and recovery time, I should know better.&lt;/p&gt;
+&lt;p&gt;
+We wave good morning to each other and keep on our way. A little
+later, I see a younger man walking and running south (it was really
+hot and humid). We cross paths regularly but since we were going in
+the same direction and frequently wave, I slowed to join him. I said
+that after waving high for a couple of years, we might as well learn
+each other&amp;#39;s names. We fist bumped, or rather he went for the bump, I
+went for the handshake, we switched but then finally synced. So,
+that&amp;#39;s how I met Chris. We chatted for a few minutes - we both live in
+Chelsea, how we both get an energy boost whenever we see our &amp;#34;running
+buddies&amp;#34; in the morning, and also about some of the other early
+morning runners we&amp;#39;ve met.&lt;/p&gt;
+&lt;p&gt;
+He named Vicky, who I&amp;#39;ve been waving to for three or four years. Then
+I gave him Suki - the first person I started saying hello
+to. Suki and I would cross paths near Stuy, her walking north, me
+running south. She would greet &lt;strong&gt;everybody&lt;/strong&gt; with a warm smile, a wave and
+a strong Good Morning! After a while, I slowed my run one day to get
+to know here. We also talked about Priscilla, the Mayor of Hudson
+River Park - at least to us early risers. Priscilla would always be
+walking or running on the path along with her magnificent dog
+Buddy. Unfortunately, Buddy passed about a year ago. We both lamented
+that we haven&amp;#39;t seen Priscilla lately and we both hope it&amp;#39;s because
+our schedules have changed.&lt;/p&gt;
+&lt;p&gt;
+We talked of a few others and I noted that I really have to introduce
+myself to that couple I passed earlier and then went we on to complete
+our individual morning workouts.&lt;/p&gt;
+&lt;p&gt;
+I got to thinking about this community. It&amp;#39;s not a normal
+community. We don&amp;#39;t all know each others names and really very little
+about each other but every morning, or at least a few times a week
+we&amp;#39;ve come to expect to see each other and greet each other with a
+smile, a happy hello, or a thumbs up or some other encouragement. We
+get a boost when we do but we grow concerned when we don&amp;#39;t see our
+morning amigos.&lt;/p&gt;
+&lt;p&gt;
+In New York, we don&amp;#39;t have that small town everyone knows their neighbors
+thing. Heck, I live in a 20 story apartment building and barely know
+my neighbors. We also don&amp;#39;t have neighborhood schools and the mom and
+pop store everywhere is a dying breed. Yet, we still have these weird
+little communities that crop up. I look forward to seeing my running
+buddies again early tomorrow morning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What I have (and haven&#39;t) been up to</title>
+      <link>https://cestlaz.github.io/post/what-ive-been-doing/</link>
+      <pubDate>Wed, 19 Jun 2024 11:42:10 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/what-ive-been-doing/</guid>
+      <description>&lt;p&gt;
+It&amp;#39;s been about a year since I taught my last class. I miss working
+with the kids and truth be told, I do miss working with other
+educators and tech professionals on programs, policy items and related
+but I don&amp;#39;t miss any of the bureaucratic nonsense, policies made by
+people who don&amp;#39;t know what they&amp;#39;re doing, nor the record keeping, grading or
+paperwork.&lt;/p&gt;
+&lt;p&gt;
+I spent the first few months in what I&amp;#39;ve been calling my retirement
+hibernation but more recently it&amp;#39;s been time to emerge. Time to see
+where, if anywhere, I now fit in the CS/Ed/Tech space moving
+forward. That&amp;#39;s both in terms of where I&amp;#39;d like to be involved and of
+course the flip side, if those places or people want me involved.&lt;/p&gt;
+&lt;p&gt;
+So, what have I been doing in that regards?&lt;/p&gt;
+&lt;p&gt;
+Connecting.&lt;/p&gt;
+&lt;p&gt;
+Not me connecting with new people (although I love doing that, just
+haven&amp;#39;t had new opportunities) but connecting other people. A big part
+of this is connecting younger former students with older, more
+experienced ones - frequently for referrals. I like doing this but to
+be honest, I can no longer keep track of who&amp;#39;s where – too many
+former students at too many companies. Still, this is an aspect of the
+StuyCS and how HunterCS families that I&amp;#39;m really proud of building and
+I really get nachas when more experienced family members are there for
+the younger ones.&lt;/p&gt;
+&lt;p&gt;
+I also had a former student who decided to spend this summer mentoring
+college kids who couldn&amp;#39;t get an internship - he&amp;#39;s between jobs and
+wanted to give something back. Trouble is, he wanted to work with too
+many kids than would fit in his apartment. Fortunately, I was
+introduced a couple of months ago to someone who just opened a new
+co-working/learning space and was looking to support worthwhile
+projects. I put them together and it&amp;#39;s been a win win.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve been enjoying doing things like that.&lt;/p&gt;
+&lt;p&gt;
+Advising.&lt;/p&gt;
+&lt;p&gt;
+This is interesting, because I generally don&amp;#39;t actually give advice. I
+try to repaint the picture of the advisee so as to be sure I
+understand it and then I generally talk about the questions I would
+ask if I were in that situation.&lt;/p&gt;
+&lt;p&gt;
+In one case, I was put in touch with a team building a workforce
+exposure/entry experience for NYC high school students. They had a lot
+of workforce program experience but little tech experience. I think I
+was able to add value to their efforts given my tech background and
+educational experience.&lt;/p&gt;
+&lt;p&gt;
+In another instance, a friend has been working on a new school
+proposal. Now, I never actually started a new school but have been
+involved in school design a few times and have certainly built out a
+number of programs. It was a lot of fun talking to him about his
+vision and school&amp;#39;s aspirations and to share with him my perspectives.&lt;/p&gt;
+&lt;p&gt;
+One other recent conversation was between me and a friend who&amp;#39;s been
+building a company to help in both hiring and in leveling up
+employees. This is someone who I really enjoy working with. She cold
+emailed me around nine years ago when she was starting a direct CS
+Education program and we&amp;#39;ve been friends ever since. I really enjoyed
+this conversation because it wasn&amp;#39;t the usual &amp;#34;I want to start a
+coding program&amp;#34; but was still something that, with my education
+background and range from small kids through workforce, I think left
+me with something of value to add.&lt;/p&gt;
+&lt;p&gt;
+I enjoy this type of &amp;#34;advising&amp;#34; or rather, as I look at it, talking
+shop and I do think that my background - having been in multiple
+levels of education from early grades through college as well as in
+industry and having also build numerous programs lets me add
+value. Maybe I should try to set it up as a consulting thing rather
+than just being there for friends.&lt;/p&gt;
+&lt;p&gt;
+On the other hand, then there&amp;#39;s what I&amp;#39;m not doing.&lt;/p&gt;
+&lt;p&gt;
+I think I&amp;#39;ll be less and less involved with the national aspect of the
+CSTA. Note I&amp;#39;m talking here about the national CSTA. I&amp;#39;m looking
+forward to continue to work with my local NYC and regional CSTA people
+whom I both like and respect.&lt;/p&gt;
+&lt;p&gt;
+A couple of interactions this past year really rubbed me the
+wrong way. Last year, they were looking for people to join their new
+Imagining CS Pathways effort. I applied for one of the roles. I wasn&amp;#39;t
+selected. Now, that&amp;#39;s fine. I mean, I personally felt, after I heard
+who was selected, that I had more to offer than many but that could
+just be my ego. What bothered me was that I was then sent an email
+asking if I was interesting in participating in a capacity that I had
+explicitly said I wasn&amp;#39;t. I also wasn&amp;#39;t particularly impressed with
+the report once it came out. I felt it was lacking in actual
+CS. Although I didn&amp;#39;t think about this at the time, I suspect the
+people who built the committee already had an opinion as to what the
+end report should look like and built the committee to match. If true,
+not cool.&lt;/p&gt;
+&lt;p&gt;
+Later, I decided to throw my hat into the ring to run as an at large
+member for the CSTA board. Now, again, I didn&amp;#39;t figure I&amp;#39;d be
+elected - I think I&amp;#39;ve pissed off a number of people over the years
+but I was put off when I got an email saying that they elected to
+place other people on the ballot. Why did this bother me? Because it
+says that there are people within the organization who can basically
+shape the board by only allowing certain people on the ballot. Again,
+not cool.&lt;/p&gt;
+&lt;p&gt;
+Now, CSTA can of course do what they want. They&amp;#39;re the big players who
+get the Google money. I&amp;#39;m just a retired educator but since the
+organization appears to be going in directions that I think are wrong,
+there&amp;#39;s no reason for me to continue my involvement or show support.&lt;/p&gt;
+&lt;p&gt;
+So, that&amp;#39;s what I won&amp;#39;t be doing. I guess it also appears that I&amp;#39;m
+blogging less frequently but that seems to be the norm these
+days. I&amp;#39;ll probably continue apace until something clicks and I&amp;#39;ll
+do a deep dive somewhere.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Charleston day 2 - Wrought Iron and Religion</title>
@@ -3294,232 +3606,6 @@ another data point for people - what it&amp;#39;s like for those of us who are
 getting it but have been lucky so as not to get it so bad. &lt;/p&gt;
 &lt;p&gt;
 Hoping you&amp;#39;re all staying safe and healthy.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Email or USPS</title>
-      <link>https://cestlaz.github.io/post/email-or-usps/</link>
-      <pubDate>Fri, 17 Apr 2020 14:00:41 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/email-or-usps/</guid>
-      <description>&lt;p&gt;
-USPS is in financial trouble. That&amp;#39;s been pretty well documented
-recently. Most reasonable people will recognize that the USPS is both
-an important service and while it receives no taxpayer support would
-be profitable were it not for the GOP imposing &lt;a href=&#34;https://www.truthorfiction.com/is-usps-losing-money-because-of-a-2006-pension-law/&#34;&gt;unfair and unrealistic
-pension funding requirements&lt;/a&gt; in 2006.&lt;/p&gt;
-&lt;p&gt;
-Although I&amp;#39;m an ardent supporter of the post office and feel that
-privatization of such an important intuition would be criminal today I
-want to talk about some small repercussions of so many things going to
-email rather than snail mail. Small in the greater sense but maybe
-pretty big to the people affected.&lt;/p&gt;
-&lt;p&gt;
-Back in the old days college acceptances went out via old fashioned
-paper mail. It took a bit of time but it was super reliable no matter
-where you lived. Nowadays I&amp;#39;m pretty sure college acceptances are
-still sent out via USPS but you can also find out online. That&amp;#39;s
-terrific. The potential issue comes up for opportunities that are only
-announced via email. This is the case for my program and also for a
-number of other college and university honors program that I&amp;#39;m aware
-of. Part of this is certainly due to timing as the window from getting
-applications to confirming participation is very small but it&amp;#39;s still
-unfortunate.&lt;/p&gt;
-&lt;p&gt;
-This past year, I&amp;#39;ve had a few cases of bad email addresses. For one
-reason or another I had to reach out to a candidate only to get the
-email bounced back. This isn&amp;#39;t really horrible as I&amp;#39;ve always been
-able to hunt down a correct address either through Hunter or through
-my friends teaching at the high schools. The real problem is that
-students don&amp;#39;t always read or see all their emails. &lt;/p&gt;
-&lt;p&gt;
-I had a student who applied for my program with an active email but
-their high school school somehow sent over to Hunter one that the student didn&amp;#39;t
-use. Had I not caught it by chance that student who&amp;#39;s now with us and
-doing great wouldn&amp;#39;t be. In another case I was talking to a student
-who by chance new another student who we offered a seat but never took
-it. It came up in conversation that this kid was very unhappy at the
-college they ended up going to. I asked why they didn&amp;#39;t take our offer
-to be in the Daedalus program. We later found out that the student
-never saw the offer. It either went to a non-used address or a SPAM
-filter or was just buried in the inbox. &lt;/p&gt;
-&lt;p&gt;
-This is a problem. Not so much for those of us running these
-programs - we&amp;#39;re going to fill with qualified, deserving
-students. Rather for qualified and deserving students who miss out on
-the chance.&lt;/p&gt;
-&lt;p&gt;
-When something goes out via USPS we can be fairly certain it will at
-some point in the near future be in the hands of the intended
-recipient. USPS is really good at that. With email, we can&amp;#39;t always be
-sure.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Passover 2020</title>
-      <link>https://cestlaz.github.io/post/passover-2020/</link>
-      <pubDate>Thu, 09 Apr 2020 07:59:26 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/passover-2020/</guid>
-      <description>&lt;p&gt;
-Yesterday was the start of Passover and like many others we weren&amp;#39;t
-able to physically gather with friends and family to
-celebrate. Since the Talmud, unlike the NYC Dept of Education, doesn&amp;#39;t
-seem to ban Zoom, like many others, we used Zoom to connect with
-family.&lt;/p&gt;
-&lt;p&gt;
-Tonight we&amp;#39;ll do it again.&lt;/p&gt;
-&lt;p&gt;
-In the meantime, I thought I&amp;#39;d share this small bit of research Natan
-did a couple of years ago on a traditional part of the seder: &lt;a href=&#34;http://seccorecit.blogspot.com/2018/04/a-historically-informed-echad-mi-yodea.html&#34;&gt;A
-Historically Informed Echad Mi Yodea&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
-Enjoy&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Brazilian Carrot Cake</title>
-      <link>https://cestlaz.github.io/post/carrot-cake/</link>
-      <pubDate>Fri, 20 Mar 2020 15:55:03 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/carrot-cake/</guid>
-      <description>
-&lt;p&gt;
-&amp;lt;figure class=&amp;#34;z_image_center&amp;#34;&amp;gt;&amp;lt;img src=&amp;#34;/img/carrot-cake.jpg&amp;#34;/&amp;gt;
-&amp;lt;/figure&amp;gt;&lt;/p&gt;
-&lt;p&gt;
-Not my normal post but these are not normal times. Besides, this isn&amp;#39;t
-the first &lt;a href=&#34;https://cestlaz.github.io/posts/2010-05-02-flatbreads.html/&#34;&gt;recipe&lt;/a&gt; I&amp;#39;ve posted. &lt;/p&gt;
-&lt;p&gt;
-I&amp;#39;m one of those that will, as long as supplies allow, bake and cook
-my way through our shelter in. Today I made Brazilian carrot
-cake. It&amp;#39;s not quite the same as an American carrot cake as you&amp;#39;ll see
-from the recipe below. &lt;/p&gt;
-&lt;p&gt;
-First, carrot cake rules:&lt;/p&gt;
-&lt;p&gt;
-Obviously since it contains carrot which is a vegetable, it&amp;#39;s healthy.&lt;/p&gt;
-&lt;p&gt;
-If you don&amp;#39;t ice it and serve it before evening, it&amp;#39;s carrot bread and
-therefore a healthy option for breakfast, brunch, or snack.&lt;/p&gt;
-&lt;p&gt;
-Only when you add the frosting or icing does it become carrot cake and
-hence dessert. &lt;/p&gt;
-&lt;p&gt;
-This recipe is the family recipe of one of my daughter&amp;#39;s coworkers. I
-can only imagine it&amp;#39;s from some Brazilian grandmother and hence the
-measurement of &amp;#34;3 large carrots.&amp;#34; It makes me think of recipes that
-I&amp;#39;d get from bubbe or my mothers bubbe - &amp;#34;add 2 cups of sugar.&amp;#34; Of
-course she was talking about 2 empty yartzeit glasses of sugar. I have
-a relative who followed around here grandmother an before she added
-any ingredient for a recipe put it in a standard measure to 
-convert the recipe to something that we could make sense of today.&lt;/p&gt;
-&lt;p&gt;
-Okay, now on to the recipe:&lt;/p&gt;
-&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
-&lt;h2 id=&#34;headline-1&#34;&gt;
-Ingredients
-&lt;/h2&gt;
-&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-2&#34;&gt;
-Cake
-&lt;/h3&gt;
-&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-3&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;3 carrots, peeled and sliced)&lt;/li&gt;
-&lt;li&gt;3 eggs (large)&lt;/li&gt;
-&lt;li&gt;1 cup oil&lt;/li&gt;
-&lt;li&gt;2 cups sugar&lt;/li&gt;
-&lt;li&gt;2 cups flour&lt;/li&gt;
-&lt;li&gt;1 tablespoon baking powder&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-3&#34;&gt;
-Brigadeiro sauce
-&lt;/h3&gt;
-&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-3&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;1 can sweetened condensed milk&lt;/li&gt;
-&lt;li&gt;1 tablespoon butter&lt;/li&gt;
-&lt;li&gt;4 tablespoons of cocoa (or use some other chocolate and melt it in)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-4&#34;&gt;
-Buttermilk Glaze
-&lt;/h3&gt;
-&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-3&#34;&gt;
-&lt;p&gt;
-I sometimes use this instead of the brigadeiro sauce&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;2/3 cups buttermilk&lt;/li&gt;
-&lt;li&gt;1 to 2 cups powdered sugar&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-5&#34; class=&#34;outline-2&#34;&gt;
-&lt;h2 id=&#34;headline-5&#34;&gt;
-Directions
-&lt;/h2&gt;
-&lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;div id=&#34;outline-container-headline-6&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-6&#34;&gt;
-Cake
-&lt;/h3&gt;
-&lt;div id=&#34;outline-text-headline-6&#34; class=&#34;outline-text-3&#34;&gt;
-&lt;p&gt;
-Preheat oven to 350
-Prepare pan (I line the bottom with parchment and grease)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Mix sugar, flour, baking powder in a bowl&lt;/li&gt;
-&lt;li&gt;Blend carrots in a blender&lt;/li&gt;
-&lt;li&gt;Add oil and eggs to blender and blend all together&lt;/li&gt;
-&lt;li&gt;Fold carrot mixture into dry ingredients&lt;/li&gt;
-&lt;li&gt;pour into prepared pan&lt;/li&gt;
-&lt;li&gt;bake for ~40 mintues&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-7&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-7&#34;&gt;
-Bigadeiro sauce (if using) 
-&lt;/h3&gt;
-&lt;div id=&#34;outline-text-headline-7&#34; class=&#34;outline-text-3&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;combine all ingredients in saucepan&lt;/li&gt;
-&lt;li&gt;cook, stirring until thickened (about 10 minutes) 
-
-You&amp;#39;ll know it&amp;#39;s thick enough when you drag your spoon across the
-pan and you can see the bottom. It will thicken up considerably when
-it cools so better if it&amp;#39;s looser rather than thicker.
-
-spread on cake while warm.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-8&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-8&#34;&gt;
-Buttermilk glaze (if using)
-&lt;/h3&gt;
-&lt;div id=&#34;outline-text-headline-8&#34; class=&#34;outline-text-3&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;whisk together glaze ingredients until smooth.&lt;/li&gt;
-&lt;li&gt;poke holes all over cake with a fork or knife&lt;/li&gt;
-&lt;li&gt;pour / spread glaze on cake&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
 </description>
     </item>
     

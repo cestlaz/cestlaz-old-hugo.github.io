@@ -6,10 +6,83 @@
     <description>C&#39;est la Z (teaching)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jan 2024 11:08:04 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 08 May 2024 11:34:06 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/tags/teaching/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>It&#39;s teacher appreciation week again</title>
+      <link>https://cestlaz.github.io/post/teacher-appreciation-2024/</link>
+      <pubDate>Wed, 08 May 2024 11:34:06 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/teacher-appreciation-2024/</guid>
+      <description>&lt;p&gt;
+It&amp;#39;s teacher appreciation week again so I thought I&amp;#39;d show some
+appreciation.&lt;/p&gt;
+&lt;p&gt;
+In the past, I&amp;#39;ve specifically &lt;a href=&#34;https://cestlaz.github.io/posts/2012-05-09-my-favorite-year-teacher/&#34;&gt;written&lt;/a&gt; about some of the teachers who
+were particularly influential on me growing up. I&amp;#39;ve also &lt;a href=&#34;https://cestlaz.github.io/post/teacher-appreciation-week/&#34;&gt;written&lt;/a&gt; about
+how I&amp;#39;m not a huge fan of teacher appreciation week as a whole. Today,
+I wanted to talk about colleagues who deserve more appreciation from
+their students and schools than they might be getting. Now, this isn&amp;#39;t
+to say that they&amp;#39;re not getting the love but I wanted to add my two
+cents to make sure.&lt;/p&gt;
+&lt;p&gt;
+First, my partners in crime from my days at Stuy. People like JonAlf
+Dyrland-Weaver, Sam Konstantinovich, and Topher Mykolyk. Not only are
+they great teachers but whenever I&amp;#39;ve had a project that benefited
+either kids or other teachers, they&amp;#39;ve gone above and beyond. Those
+three were instrumental in helping build and run my teacher
+certification program at Hunter college. They were way underpaid, way
+overworked, and in some (but not) cases, underappreciated by some of
+the students. Most of the students in the program were great but the
+third cohort, if I&amp;#39;m to be honest, had a few, let&amp;#39;s say, challenging
+participants and I&amp;#39;ll always appreciated my big three for working
+through and providing the best experience possible for the majority of
+students.&lt;/p&gt;
+&lt;p&gt;
+Now, I also had a number of other great teacher colleagues through the
+years and I do appreciate them but I wanted to single out DW, Mr K,
+and Topher (why am I blanking on what the kids call him now?).&lt;/p&gt;
+&lt;p&gt;
+The other teachers I wanted to single out today are the teachers who
+went through my certification program. We had 20 in the first cohort,
+20 more int he second, then 60 in the third. The program continues on
+under the expert guidance of my friend and former student Edgar Troudt
+but I&amp;#39;m focusing on the three cohorts I worked with.&lt;/p&gt;
+&lt;p&gt;
+Yes, all my advanced cert teachers received scholerships to cover
+tuition but they &lt;strong&gt;all&lt;/strong&gt; decided to give up a summer and spend all day
+every day in July with me and my motley crew to learn more CS and how
+to teach it. They then spent the following school year taking courses
+as well as recording their classes, remote observing their fellow CS
+teachers and in general supporting each other as they all worked to be
+the best teachers and the best CS teachers they could become. They
+worked hard and learned a lot. The teachers who participated who came
+in with less CS content experience spent countless out of class hours
+with classmates, TAs and instructors to develop their skills.&lt;/p&gt;
+&lt;p&gt;
+As it turned out, with the State&amp;#39;s SOCE, it turns out that some, maybe
+even most of these teachers didn&amp;#39;t and might not need the actual
+certification but they all took it upon themselves to work on
+improving their content knowledge and their refining their pedagogical
+techniques so they could be the best version of themselves for their
+students. It&amp;#39;s also worth noting that they all elected to take on my
+program which I feel is pretty rigorous. At the time, we were the only
+game in town but if they decided to enroll in a certification program
+now, they&amp;#39;d have the option of rigorous programs, like mine and a
+couple of others or by taking one of the less rigorous programs that
+have since been approved by the state which barely cover any legit CS.&lt;/p&gt;
+&lt;p&gt;
+I don&amp;#39;t know if their students really know or appreciate that these
+teachers have really gone above and beyond for them and I&amp;#39;m sure will
+continue to do so.&lt;/p&gt;
+&lt;p&gt;
+So, hat&amp;#39;s off to them. A bunch of great teachers super worthy of
+appreciation. Not just this week but throughout the year.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Teaching using manipulatives</title>
@@ -3264,134 +3337,6 @@ plan to write at least the following: &lt;/p&gt;
 &lt;li&gt;Our overall philosophy in designing and running the program.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;So, stay tuned for more.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Pro Version Or Education Version</title>
-      <link>https://cestlaz.github.io/post/pro-version-or-ed-version/</link>
-      <pubDate>Fri, 29 May 2020 19:00:13 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/pro-version-or-ed-version/</guid>
-      <description>&lt;p&gt;
-I woke up to this tweet by Mark Guzdial today:#pro-version-or
-ed-version.org#&lt;/p&gt;
-  &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;An indication
-that CS Ed in US high schools is about vocational training: 2 (of 5)
-recommended sessions at the &lt;a
-href=&#34;https://twitter.com/csteachersorg?ref_src=twsrc%5Etfw&#34;&gt;@csteachersorg&lt;/a&gt;
-conference are on Github and Agile. Is &lt;a
-href=&#34;https://twitter.com/CSforALL?ref_src=twsrc%5Etfw&#34;&gt;@CSforAll&lt;/a&gt;
-a Silicon Valley jobs program? &lt;a
-href=&#34;https://t.co/n8ugnmTU84&#34;&gt;https://t.co/n8ugnmTU84&lt;/a&gt;&lt;/p&gt;&amp;mdash;
-Mark Guzdial (@guzdial) &lt;a
-href=&#34;https://twitter.com/guzdial/status/1265986599952822272?ref_src=twsrc%5Etfw&#34;&gt;May
-28, 2020&lt;/a&gt;&lt;/blockquote&gt; &lt;script async
-src=&#34;https://platform.twitter.com/widgets.js&#34;
-charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;p&gt;
-This led to a lively discussion throughout the day with lots of likes
-and lots of comments. Two themes emerged. One wondered if the CSTA
-conference should be highlighting these talks about professional
-sensibilities and the other questioned the use of tools designed for
-industry vs those designed for schools.&lt;/p&gt;
-&lt;p&gt;
-Let&amp;#39;s look at the former first. For full disclosure JonAlf and I are
-co-presenters of the GitHub session that was highlighted. Truth be
-told I had no idea it was highlighted until I read Mark&amp;#39;s tweet
-:-). CSTA is a conference for teachers, K12 teachers. Teachers go
-to learn new practices. Sure there are sessions about advocacy and
-the like but
-it&amp;#39;s really more like a multi day professional development session on
-steroids. That&amp;#39;s one of the things that makes it so wonderful. If a
-session gives teachers something of value it&amp;#39;s worth presenting. It
-can be what they teach, how they teach, or something ancillary to
-teaching even things as mundane as gradebook management. If it helps
-make a CS teacher better, it&amp;#39;s appropriate to include. &lt;/p&gt;
-&lt;p&gt;
-I can&amp;#39;t say why any particular session was chosen for highlight
-but it really isn&amp;#39;t a big deal. There are always sessions on specific lesson
-ideas, cross curricular stuff, ethics, standards, equity, CS4All,
-APCS, and lots lots more. &lt;/p&gt;
-&lt;p&gt;
-Now, what I&amp;#39;d like to see would be a banner on the conference page
-where every time you go there it displays a random assortment of
-sessions that are being offered. &lt;/p&gt;
-&lt;p&gt;
-What about the second point - professional tools or educational ones. First
-let&amp;#39;s lump things together, git is a tool, so is GitHub. Same for
-agile - it&amp;#39;s a tools as are programming languages. Now a great
-craftsman is a great craftsman but their job is a whole lot easier
-with a full chest of quality tools. &lt;/p&gt;
-&lt;p&gt;
-If a professional tool makes a teacher better it&amp;#39;s worth learning. &lt;/p&gt;
-&lt;p&gt;
-Let&amp;#39;s look at agile. I&amp;#39;ve never used terms like scrum or sprint in my
-class but pair programming comes out of agile and that&amp;#39;s become a
-mainstay of CS classes. Same thing for the short development cycle and
-all the testing. These are agile concepts that we take for granted as
-education tools. Are we going to use everything about agile in every
-CS class? No. Does it belong in CS when CS is embedded in other
-subject areas? Who knows but if a teacher gets exposed to it at CSTA
-then they can make an informed decision and use it when and as
-appropriate. &lt;/p&gt;
-&lt;p&gt;
-What about git/GitHub? I wouldn&amp;#39;t teach using it when CS is embedded
-but I might in a HS programming course and I certainly would in APCS-A
-or beyond. I&amp;#39;ve found that there are many positives of using them and
-I&amp;#39;ve written about it before on this blog. &lt;/p&gt;
-&lt;p&gt;
-The truth is that both git and agile provide ways of increasing
-student communication and collaboration and these are good things.&lt;/p&gt;
-&lt;p&gt;
-Even if I decided that my classes shouldn&amp;#39;t use git, I&amp;#39;d still use it
-for my web presence and to distribute materials and that too makes it
-worth learning.&lt;/p&gt;
-&lt;p&gt;
-Just because a tool came from industry it&amp;#39;s not
-necessarily bad and if it came fro education it&amp;#39;s not necessarily
-good. &lt;/p&gt;
-&lt;p&gt;
-Thonny is a beginner Python IDE. It was designed specifically to be a
-learner environment. It&amp;#39;s great for that. Eclipse is a professional
-IDE and I hate it for education. Other people disagree with me on both
-counts.&lt;/p&gt;
-&lt;p&gt;
-On the other hand I&amp;#39;ve seen tools written by people in education that
-are god awful.&lt;/p&gt;
-&lt;p&gt;
-Then you also have well designed education tools but they fill a
-narrow niche - they&amp;#39;re so specialize that a teacher and student can
-only use them in a specific case. A teacher then needs to find
-multiple tools for their multiple classes and students need to learn
-even more.&lt;/p&gt;
-&lt;p&gt;
-Let&amp;#39;s assume we have a bunch of these educational tools and their all
-pretty well designed and help students get to whatever it is they&amp;#39;re
-supposed to learn. Taken individually each tool seems great but taken
-as a whole? Where&amp;#39;s the line? Is it better to have the teacher learn
-and support a handful of these and students learn even more or should
-they spend more time/efforn to learn one or two tools where the tool
-will beuseful beyond the narrow scope of the specialized one.&lt;/p&gt;
-&lt;p&gt;
-The answer is of course, it depends.&lt;/p&gt;
-&lt;p&gt;
-I was part of a workshop this past summer and this came up. We were
-looking at a pretty sweet specialized tool that worked really well for
-one niche area. We also looked at Google Sheets which were less
-intuitive but more versatile and universal. Which to use? We never
-came up with a compelling answer either way. &lt;/p&gt;
-&lt;p&gt;
-There&amp;#39;s nothing inherently bad about industry tools and there&amp;#39;s
-nothing inherently good about educational ones. It&amp;#39;s true that
-industry tools are designed for industry but education tools are by
-and large not designed by teachers. They might be designed by people
-who teach as part of their job or who have taught but that&amp;#39;s not the
-same thing. Sometimes they hit but sometimes they miss their mark.&lt;/p&gt;
-&lt;p&gt;
-In math class we would typically draw arcs and circles on the board
-with a giant chalk compass. It was specifically designed for
-education. You know what works better? A shoelace.&lt;/p&gt;
 </description>
     </item>
     

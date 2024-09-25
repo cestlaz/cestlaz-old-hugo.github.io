@@ -6,10 +6,83 @@
     <description>C&#39;est la Z (teaching)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jan 2024 11:08:04 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 08 May 2024 11:34:06 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/categories/teaching/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>It&#39;s teacher appreciation week again</title>
+      <link>https://cestlaz.github.io/post/teacher-appreciation-2024/</link>
+      <pubDate>Wed, 08 May 2024 11:34:06 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/teacher-appreciation-2024/</guid>
+      <description>&lt;p&gt;
+It&amp;#39;s teacher appreciation week again so I thought I&amp;#39;d show some
+appreciation.&lt;/p&gt;
+&lt;p&gt;
+In the past, I&amp;#39;ve specifically &lt;a href=&#34;https://cestlaz.github.io/posts/2012-05-09-my-favorite-year-teacher/&#34;&gt;written&lt;/a&gt; about some of the teachers who
+were particularly influential on me growing up. I&amp;#39;ve also &lt;a href=&#34;https://cestlaz.github.io/post/teacher-appreciation-week/&#34;&gt;written&lt;/a&gt; about
+how I&amp;#39;m not a huge fan of teacher appreciation week as a whole. Today,
+I wanted to talk about colleagues who deserve more appreciation from
+their students and schools than they might be getting. Now, this isn&amp;#39;t
+to say that they&amp;#39;re not getting the love but I wanted to add my two
+cents to make sure.&lt;/p&gt;
+&lt;p&gt;
+First, my partners in crime from my days at Stuy. People like JonAlf
+Dyrland-Weaver, Sam Konstantinovich, and Topher Mykolyk. Not only are
+they great teachers but whenever I&amp;#39;ve had a project that benefited
+either kids or other teachers, they&amp;#39;ve gone above and beyond. Those
+three were instrumental in helping build and run my teacher
+certification program at Hunter college. They were way underpaid, way
+overworked, and in some (but not) cases, underappreciated by some of
+the students. Most of the students in the program were great but the
+third cohort, if I&amp;#39;m to be honest, had a few, let&amp;#39;s say, challenging
+participants and I&amp;#39;ll always appreciated my big three for working
+through and providing the best experience possible for the majority of
+students.&lt;/p&gt;
+&lt;p&gt;
+Now, I also had a number of other great teacher colleagues through the
+years and I do appreciate them but I wanted to single out DW, Mr K,
+and Topher (why am I blanking on what the kids call him now?).&lt;/p&gt;
+&lt;p&gt;
+The other teachers I wanted to single out today are the teachers who
+went through my certification program. We had 20 in the first cohort,
+20 more int he second, then 60 in the third. The program continues on
+under the expert guidance of my friend and former student Edgar Troudt
+but I&amp;#39;m focusing on the three cohorts I worked with.&lt;/p&gt;
+&lt;p&gt;
+Yes, all my advanced cert teachers received scholerships to cover
+tuition but they &lt;strong&gt;all&lt;/strong&gt; decided to give up a summer and spend all day
+every day in July with me and my motley crew to learn more CS and how
+to teach it. They then spent the following school year taking courses
+as well as recording their classes, remote observing their fellow CS
+teachers and in general supporting each other as they all worked to be
+the best teachers and the best CS teachers they could become. They
+worked hard and learned a lot. The teachers who participated who came
+in with less CS content experience spent countless out of class hours
+with classmates, TAs and instructors to develop their skills.&lt;/p&gt;
+&lt;p&gt;
+As it turned out, with the State&amp;#39;s SOCE, it turns out that some, maybe
+even most of these teachers didn&amp;#39;t and might not need the actual
+certification but they all took it upon themselves to work on
+improving their content knowledge and their refining their pedagogical
+techniques so they could be the best version of themselves for their
+students. It&amp;#39;s also worth noting that they all elected to take on my
+program which I feel is pretty rigorous. At the time, we were the only
+game in town but if they decided to enroll in a certification program
+now, they&amp;#39;d have the option of rigorous programs, like mine and a
+couple of others or by taking one of the less rigorous programs that
+have since been approved by the state which barely cover any legit CS.&lt;/p&gt;
+&lt;p&gt;
+I don&amp;#39;t know if their students really know or appreciate that these
+teachers have really gone above and beyond for them and I&amp;#39;m sure will
+continue to do so.&lt;/p&gt;
+&lt;p&gt;
+So, hat&amp;#39;s off to them. A bunch of great teachers super worthy of
+appreciation. Not just this week but throughout the year.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Teaching using manipulatives</title>
@@ -3251,60 +3324,6 @@ finished going over the feedback emails I&amp;#39;ve gotten from the class.&lt;/
 &lt;p&gt;
 I&amp;#39;m particularly proud of this video that I made for the class, enjoy:&lt;/p&gt;
   &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/OvwIyQJ-s40&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>It&#39;s okay, I Get It</title>
-      <link>https://cestlaz.github.io/post/i-get-it/</link>
-      <pubDate>Fri, 10 Apr 2020 14:13:08 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/i-get-it/</guid>
-      <description>&lt;p&gt;
-I was reading Mary Clair Wright&amp;#39;s new &lt;a href=&#34;https://computationalthinkinginroom112.com/&#34;&gt;blog&lt;/a&gt; the other day. It&amp;#39;s always
-great to see another teacher sharing publicly online.&lt;/p&gt;
-&lt;p&gt;
-One line caught my eye in her &lt;a href=&#34;https://computationalthinkinginroom112.com/2020/04/07/ap-csa-enrichment-gone-awry/&#34;&gt;latest post&lt;/a&gt; - &lt;/p&gt;
-&lt;p&gt;
-&amp;lt;blockquote&amp;gt;
-Remote instruction is weird, I can’t see them. I have to trust that they will message me with questions.
-&amp;lt;/blockquote&amp;gt;&lt;/p&gt;
-&lt;p&gt;
-This is a real problem. It&amp;#39;s hard enough in a regular class where we
-can pick up an all sorts of cues and use all sorts formal and informal
-assessments but when the students are on the other end of a
-teleconference or even more challenging an email or chat it&amp;#39;s even
-harder.&lt;/p&gt;
-&lt;p&gt;
-It&amp;#39;s also a reminder of how important those non verbal clues and
-student feedback can be.&lt;/p&gt;
-&lt;p&gt;
-It&amp;#39;s great if we can create an environment where our students will ask
-for help if they don&amp;#39;t know something but even under normal
-circumstances there&amp;#39;s the danger of students thinking they get
-it. If a student is totally lost they&amp;#39;ll usually know they&amp;#39;re totally
-lost but after that, it&amp;#39;s not so clear. &lt;/p&gt;
-&lt;p&gt;
-A student might think they get it if they can basically follow along
-with what&amp;#39;s being presented. It&amp;#39;s pretty easy to watch another student
-or a teacher go through explaining a solution step by step and think
-you really know what&amp;#39;s going on. Similarly they can read through an
-example in a text or on a web site and think they understand. A little
-better is when they can do the first couple of problems in the book
-but those frequently mimic the samples and don&amp;#39;t require any
-additional insight. Even in a traditional class a student can go week
-to week like this and really think they understand things and then
-they get hit over the head on a test or right before a big assignment
-is due. &lt;/p&gt;
-&lt;p&gt;
-This isn&amp;#39;t the student&amp;#39;s fault. It&amp;#39;s hard to know what you don&amp;#39;t know
-and truth be told, we don&amp;#39;t really teach our students how to study and
-self assess. It&amp;#39;s also really hard for teachers to assess this even in
-person. Now that we&amp;#39;re all remote it&amp;#39;s yet another huge red flag to
-look out for.&lt;/p&gt;
-&lt;p&gt;
-No solutions here today and no suggestions just yet another concern as
-we continue to work to do right by our kids.&lt;/p&gt;
 </description>
     </item>
     

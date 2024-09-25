@@ -1,15 +1,105 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Teacher Prep on C&#39;est la Z</title>
+    <title>teacher prep on C&#39;est la Z</title>
     <link>https://cestlaz.github.io/tags/teacher-prep/</link>
-    <description>C&#39;est la Z (Teacher Prep)</description>
+    <description>C&#39;est la Z (teacher prep)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Jun 2021 07:55:01 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 14 Aug 2024 10:51:51 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/tags/teacher-prep/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>The Danger of a Bad Teacher</title>
+      <link>https://cestlaz.github.io/post/danger-of-bad-teacher/</link>
+      <pubDate>Wed, 14 Aug 2024 10:51:51 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/danger-of-bad-teacher/</guid>
+      <description>&lt;p&gt;
+For years I&amp;#39;ve been one of the few people banging the &amp;#34;CS teachers
+must know CS&amp;#34; drum. There have been a few others out there but in
+terms of being vocal about it, we&amp;#39;re in the minority. I get it. There
+are many teachers who volunteered to teach CS and are working hard to
+acquire the knowledge needed. There are also those who were voluntold
+who are trying just as hard.&lt;/p&gt;
+&lt;p&gt;
+The problem is, at least from what I&amp;#39;ve seen, there are far too many
+CS teachers who after years of training still can&amp;#39;t navigate CS1 or
+sometimes even CS0 level code and have very limited context when it
+comes to CS. They know the bullet points in the scripted curriculum
+they&amp;#39;re using but that&amp;#39;s about it.&lt;/p&gt;
+&lt;p&gt;
+I also get that it&amp;#39;s not easy to be vocal about it. When I talk about
+this, it can seem like I&amp;#39;m calling out my CS teaching colleagues and
+while in a way I am, I&amp;#39;m talking about those who&amp;#39;ve stayed at barely
+CS0 for multiple years, not those working to improve their CS
+knowledge. &lt;/p&gt;
+&lt;p&gt;
+I was reminded today why this is a problem, why people should be
+paying more attention to it and why more should be calling it out.&lt;/p&gt;
+&lt;p&gt;
+I was chatting with a young man today. He has a Math and CS
+  background - was a double major, and is considering a career change from a non
+  teaching job in to either teaching or something education adjacent.&lt;/p&gt;
+&lt;p&gt;
+One thing that came up in our conversation was that he took a CS class
+in high school and that almost caused him to drop the field. My new
+friend mentioned that the teacher in question was a math teacher and a
+pretty good one at that but noted that in addition to not knowing the
+CS, the teacher didn&amp;#39;t know how to teach a CS class. Of course, my
+friend acknowledged that he&amp;#39;s not a teacher himself but the end
+result to him as a student was that he was turned off.&lt;/p&gt;
+&lt;p&gt;
+In college, in spite of that bad experience, he decided to try CS
+again and after a couple of nondescript courses he took one that he
+described as life changing. A great instructor that reignited his love
+for the subject.&lt;/p&gt;
+&lt;p&gt;
+This happened to me as well but on the math side. I was always pretty
+good at math and enjoyed it, until I wasn&amp;#39;t - this was Calc II. I
+thought I just hit my wall and I started to dread math even though I
+knew I&amp;#39;d need some to be a CS major. I figured it must be me. I
+slogged through my required courses in college barely getting by until
+I took Discrete Math - the instructor was &amp;#34;just&amp;#34; a grad student but he
+was terrific. Turned me back on to math. I realized I could do this
+stuff. A couple of years later, I realized that my problem wasn&amp;#39;t that
+I was stupid but I had a bad teacher who didn&amp;#39;t teach me what I needed
+to know to succeed in Calc II.&lt;/p&gt;
+&lt;p&gt;
+We always here about that small handful of teachers that many of us
+had who inspired us or set us up for our futures but there are also
+many tales of that bad experience. That reason why someone is math
+phobic or why they abandoned some prior passion. Maybe it was a bad
+teacher, maybe a good teacher severely out of their element but
+throwing kids into a CS class with an unprepared teacher just to say
+they got to take CS might not be the best idea. We might be exposing
+them to the field but we also might not and worse, we might be turning
+them off. If the teacher is well
+prepared, all good. If the teacher isn&amp;#39;t but recognizes
+their deficiencies they can still pretty much ensure that they won&amp;#39;t
+be harming students and some good will likely come out of the class.
+An ill prepared teacher who doesn&amp;#39;t know any better can be a
+dangerous thing.&lt;/p&gt;
+&lt;p&gt;
+This of course isn&amp;#39;t to say that there&amp;#39;s one way to prepare a teacher
+or for a teacher to be prepared and certainly there are many ways for
+said teacher to run their class. In my conversation today, my new
+young friend shared thoughts on a few of his CS teachers noting how
+many of them did things very differently from each other but they each
+played to their strengths and to my friend&amp;#39;s view, the were effective. &lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;d like to think that this situation will ultimately work itself out,
+at least in states that have strong credentialing but even there, we
+could have issues as I&amp;#39;ve seen CS credentialing programs that barely
+cover CS0. If we want to make sure that ALL students receive strong CS
+education, it&amp;#39;s up to all of us in the community to call out the
+situations preventing that and that includes calling out bad prep
+programs, bad PD, and schools and districts that tolerate or even
+encourage CS teachers who don&amp;#39;t know CS.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>But we don&#39;t have enough teachers!!</title>
