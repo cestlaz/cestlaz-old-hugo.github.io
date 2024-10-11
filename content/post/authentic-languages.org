@@ -1,0 +1,101 @@
+---
+title: Authentic Languages
+date: 2024-10-11T12:05:37-04:00
+tags:
+- programming languages
+- NetLogo
+categories:
+- Programming Languages
+draft: false 
+---
+
+Language wars in tech are common. Java vs C++, Functional vs OOP. If
+you're doing functional is your language functional enough?
+
+So to in CS Education. What's the best language for CS0? For CS1? Drag
+and Drop or text based? Functional? Object Oriented? Compiled?
+Interpreted?
+
+The battles rage on.
+
+One particular "war" that I've been a part of deals with the idea of a
+language's being authentic or real. I've been a part of this on two
+fronts.
+
+I guess most visibly this has been with Scratch and other drag and
+drop languages. People sometimes perceive me as being anti drag and
+drop. This is not the case. I love drag and drop languages for the
+earlier grades. My issue is that I haven't seen an advantage to using
+them in the later grades. I haven't seen evidence that knowledge
+transfers when an older student - say high school 10th grader or
+beyond starts with a Drag and Drop language and then switches to text
+based. I've also called out what I see as disadvantages of drag and
+drop languages in the later grades - what I call jigsaw puzzle
+debugging or programming where students write and debug programs by
+seeing which block fits geometrically as opposed to thinking through
+the problems and also the small screens students usually use are a
+limiting factor when writing complex, large programs.
+
+I never thought that drag and drop languages like Scratch were
+inauthentic or less real than, say Java.
+
+That said, there are those who do. I think it comes mostly from
+parents and students who feel "they don't use it in the real world."
+Probably also from hardcore programmers who, even though scratch is
+Touring Complete, feel that it's less of a language.
+
+I've never taught scratch in a formal class so I never had to deal
+with any push back. I've only used it in one offs like teacher
+professional developments or working with students for some side event
+or project.
+
+On the other hand, I've heard the same complaints when teaching
+languages like Racket (nee Scheme) and NetLogo. They're not real
+languages. Nobody uses them in the real world. I'd particularly hear
+it about NetLogo which is a wonderful language, particularly for
+visual modelling and simulation.
+
+Never mind that languages don't have to be used in the real world in
+order to be real and to be of tremendous value in the
+classroom. Racket is wonderful for teaching functional
+programming. It's also a super small language with a simple consistent
+syntax which makes it, when taught right, beginner friendly. NetLogo
+is interactive, visual and allows for students with little experience
+to explore complex concepts. In my classes at Stuy, we wrote a maze
+solver that used implemented a cellular automaton and also explored
+predator prey models all during one unit in our CS0 class.
+
+Even if a lesser known language, something seen (incorrectly) as
+inauthentic can truly have an impact.
+
+I saw that just the other day.
+
+I found out that one of my former students was on the team that just
+won the Nobel Prize in Chemistry. Just seeing the news made my week.
+
+I of course sent a congratulations. As part of his response, he wrote:
+
+#+begin_quote
+You know, I can trace a lot of my interest in
+computational science back to playing with NetLogo turtles simulating
+things, exploring cellular automata rules, and graphics.
+
+#+end_quote
+
+All the stuff we did in Stuyvesant's required intro CS class.
+
+I don't know if the intro course as a whole made a difference in his
+life and career - he might have gone down the CS path regardless. It
+is clear though that using NetLogo in the intro class did ignite a
+spark. Had we used say Java or C++ from the get go. maybe this never
+happens.
+
+The whole line about inauthentic languages is really hogwash
+anyway. Sure, some teachers use the wrong language the wrong way at
+the wrong time but most languages can be the "right one" under the
+right circumstances.
+
+In this case, it was NetLogo at Stuyvesant in tenth grade in our
+required CS class.
+
+
