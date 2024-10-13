@@ -42,7 +42,7 @@ inauthentic or less real than, say Java.
 That said, there are those who do. I think it comes mostly from
 parents and students who feel "they don't use it in the real world."
 Probably also from hardcore programmers who, even though scratch is
-Touring Complete, feel that it's less of a language.
+Turing Complete, feel that it's less of a language.
 
 I've never taught scratch in a formal class so I never had to deal
 with any push back. I've only used it in one offs like teacher
