@@ -1,0 +1,178 @@
+---
+title: Paris 2024
+date: 2024-10-26T02:02:42-04:00
+tags:
+- travel
+categories:
+- travel 
+draft: False
+--- 
+
+#+ATTR_HTML: :width 500px
+[[/img/paris/siene.jpg]]
+
+Devorah and I are finally on our first overseas retirement trip. Our
+hope was to make up for lost travel time in retirement. We've already
+gotten away a bit - a few days in Charlseton SC and a couple of local
+driving trips but this is our first retirement biggie.
+
+Started out in Paris. Left Monday evening and got in Tuesday at around
+6:00am local time. Went right to the hotel. Stayed at the Hotel
+Marignan on the Rue de Sommerard - a very reasonably priced hotel in
+the Latin Quarter. Address given to differentiate from
+the much more expensive Hotel Marignan on the Chams-Elysees. We took
+the train into the city and rolled up to the hotel before 9:00am. Our
+host at the hotel, Bridgette, was terrific. Took our luggage, signed
+us in, asked if we wanted breakfast and once we were settled and
+caffeinated, gave us the lay of the land and assured us our room would
+be ready by noon (which it was). Can't recommend the hotel highly
+enough. Nothing fancy but clean with a great staff. We opted for a
+room with a toilet and shower but if you're comfortable with shared
+facilities the rates are even better. I'll only add that the hotel has
+six floors - that's seven flights of stairs since they zero index and
+there's no elevator. Not a big deal for us but be aware.
+
+Even though we had just landed, once we dropped our bags and had
+breakfast we went forth and had a full day - a couple of museums, over
+10 miles walking, and some good food.
+
+#+ATTR_HTML: :width 500px
+[[/img/paris/rodin.jpg]]
+
+
+Our first stop was the Rodin Museum and garden - that is the museum in
+Paris and not his former home on the outskirts. We wanted to hit it
+since we just recently visited the Rodin museum in
+Philadelphia. The Paris museum is much larger. Many of the same
+pieces - each have their "Gates of Hell," Assorted Burghers of
+Callais, Balzac, and others but the Paris museum had more, also
+included paintings and other media and was much more spacious and
+expansive and since Devorah enjoys sculpture more than paintings,
+which I prefer, this was time well spent.
+
+#+ATTR_HTML: :width 500px
+[[/img/paris/steak.jpg]]
+
+After lunch we walked across the Siene and visited [[https://www.petitpalais.paris.fr/en/plan-your-visit/basic-information][le Petit
+Palais]]. Great collection plus it's free.  After that we made our way
+back to the hotel, rested up, got dinner then crashed for the
+night. We ended up walking well over 20,000 steps, about 11 miles give
+or take.
+
+We were going to start the day with a tour but that wasn't going to
+start until 11:00 so we had time to kill. We tarted with a critical
+pilgrimage. We had to head over to the Sorbonne to view le Tour
+Zamansky - yep, there's a tower named after a guy named Zamansky -
+perhaps a relative of mine.
+
+#+ATTR_HTML: :width 500px
+[[/img/paris/tour-zamansky.jpg]]
+
+Marc Zamansky was the Dean of the Faculty of Sciences at the Sorbonne
+up until 1970. He was also apparently a resistance fighter during
+World War II. When we entered the campus, the security guard indicated
+that we were not allowed to take pictures. I asked if he spoke English
+and he said "non." I tried to explain in my really weak french that I
+was a Zamansky and I showed him my ID. He laughed out loud and ushered
+us in and even offered to take the picture. It was a nice moment all
+around.
+
+We then wandered the Luxembourg Gardens until tour time.
+
+We usually try to do a free (tip only) walking tour whenever we visit
+a new city and since we haven't been to Paris for 36 years, it was
+basically new. I think we ultimately pay the same as if we do a normal
+pay tour but these have worked for us. The tour was great and
+informative and gave us the lay of the land.
+
+For lunch we decided just to get sandwiches - cheaper and lighter than
+a sit down lunch and the bread in Paris is amazing. Truth be told I
+would have been happy just eating bread the whole trip. They also do
+sandwiches right - not tons of meat and gobs of mayo. It's a slice of
+ham, maybe a slice of cheese and a little butter on amazing bread.
+
+Afterwards was the Muse D'Orsay. Here's the elephant out front.
+
+#+ATTR_HTML: :width 500px
+[[/img/paris/orsay-elephent.jpg]]
+
+Inside we found more elephants
+
+#+ATTR_HTML: :width 500px
+[[/img/paris/orsay-elephants.jpg]]
+
+But no Krafayis:
+
+#+ATTR_HTML: :width 500px
+[[/img/paris/krafayis.jpg]]
+
+Really amazing museum.
+
+For dinner we ended up at a restaurant with Basque options and I had a
+great cassoulet:
+
+#+ATTR_HTML: :width 500px
+[[/img/paris/cassoulet.jpg]]
+
+We went a bit further afield on Thursday, our last full day in
+Paris. We visited the Muse Marmottan de Monet. A converted house
+museum that boasts a tremendous collection of Monet's work as well as
+other impressionists.
+
+#+ATTR_HTML: :width 500px
+[[/img/paris/marmottan-monet.jpg]]
+
+They also had an exhibit on [[https://en.wikipedia.org/wiki/Trompe-l'%C5%93il][Trompe L'Oeil ]] - art with highly
+realistic depictions of 3D space. Really cool.
+
+#+ATTR_HTML: :width 500px
+[[/img/paris/marmottan1.jpg]]
+
+Great museum - I highly recommend and it was much less crowded than
+say the Muse D'Orsay. Afterwards we slowly made our way back to the
+hotel.
+
+If course we found the yarn store for Devorah:
+
+#+ATTR_HTML: :width 250px
+[[/img/paris/yarn.jpg]]
+
+And took a selfie as we passed the Eiffel Tower (but didn't go up):
+
+#+ATTR_HTML: :width 250px
+[[/img/paris/selfie.jpg]]
+
+The plan was to go to the Muse D'Orangerie which also boasts a strong
+collection of Impressionists and Post Impressionists but the line was
+too long and it looked too crowded so instead we went back to the
+Sorbonne and to a small Marie Curie museum. It's a two room museum
+plus you can look in on her lab and office. Really cool. Also 100%
+recommend to fellow science nerds. As a bonus, it was free.
+
+Finally on Friday we decided to visit the Cluny Museum - just a couple
+of blocks from our hotel. It's a mansion museum boasting a tremendous
+collection of art from the middle ages.
+
+#+ATTR_HTML: :width 250px
+[[/img/paris/cluny.jpg]]
+#+ATTR_HTML: :width 250px
+[[/img/paris/cluny2.jpg]]
+#+ATTR_HTML: :width 250px
+[[/img/paris/unicorn.jpg]]
+
+About a third of the museum was shut at the time of our visit but what
+we saw was amazing. We'll certainly be back to see the rest.
+
+After another sandwich lunch, this time in the Luxembourg gardens, we
+stopped by at the hotel and then off to Gare de Nord - the train
+station to take the Eurostar to Brussels.
+
+That's where I am now writing this post. It's Saturday
+afternoon. We're spending a few days in Brussels staying with a friend
+so it'll be more visiting and less frantic touring. That said, we did
+a walking tour this morning and have a couple of things lined up for
+tomorrow and then Monday we'll be heading to Bruges for a day trip,
+mostly because Devorah wants to check out the lace center there.
+
+Great trip so far. Looking forward to the rest.
+

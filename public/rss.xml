@@ -6,10 +6,363 @@
     <description>C&#39;est la Z</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Sep 2024 11:49:58 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 11 Oct 2024 12:05:37 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>Authentic Languages</title>
+      <link>https://cestlaz.github.io/post/authentic-languages/</link>
+      <pubDate>Fri, 11 Oct 2024 12:05:37 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/authentic-languages/</guid>
+      <description>&lt;p&gt;
+Language wars in tech are common. Java vs C++, Functional vs OOP. If
+you&amp;#39;re doing functional is your language functional enough?&lt;/p&gt;
+&lt;p&gt;
+So to in CS Education. What&amp;#39;s the best language for CS0? For CS1? Drag
+and Drop or text based? Functional? Object Oriented? Compiled?
+Interpreted?&lt;/p&gt;
+&lt;p&gt;
+The battles rage on.&lt;/p&gt;
+&lt;p&gt;
+One particular &amp;#34;war&amp;#34; that I&amp;#39;ve been a part of deals with the idea of a
+language&amp;#39;s being authentic or real. I&amp;#39;ve been a part of this on two
+fronts.&lt;/p&gt;
+&lt;p&gt;
+I guess most visibly this has been with Scratch and other drag and
+drop languages. People sometimes perceive me as being anti drag and
+drop. This is not the case. I love drag and drop languages for the
+earlier grades. My issue is that I haven&amp;#39;t seen an advantage to using
+them in the later grades. I haven&amp;#39;t seen evidence that knowledge
+transfers when an older student - say high school 10th grader or
+beyond starts with a Drag and Drop language and then switches to text
+based. I&amp;#39;ve also called out what I see as disadvantages of drag and
+drop languages in the later grades - what I call jigsaw puzzle
+debugging or programming where students write and debug programs by
+seeing which block fits geometrically as opposed to thinking through
+the problems and also the small screens students usually use are a
+limiting factor when writing complex, large programs.&lt;/p&gt;
+&lt;p&gt;
+I never thought that drag and drop languages like Scratch were
+inauthentic or less real than, say Java.&lt;/p&gt;
+&lt;p&gt;
+That said, there are those who do. I think it comes mostly from
+parents and students who feel &amp;#34;they don&amp;#39;t use it in the real world.&amp;#34;
+Probably also from hardcore programmers who, even though scratch is
+Turing Complete, feel that it&amp;#39;s less of a language.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve never taught scratch in a formal class so I never had to deal
+with any push back. I&amp;#39;ve only used it in one offs like teacher
+professional developments or working with students for some side event
+or project.&lt;/p&gt;
+&lt;p&gt;
+On the other hand, I&amp;#39;ve heard the same complaints when teaching
+languages like Racket (nee Scheme) and NetLogo. They&amp;#39;re not real
+languages. Nobody uses them in the real world. I&amp;#39;d particularly hear
+it about NetLogo which is a wonderful language, particularly for
+visual modelling and simulation.&lt;/p&gt;
+&lt;p&gt;
+Never mind that languages don&amp;#39;t have to be used in the real world in
+order to be real and to be of tremendous value in the
+classroom. Racket is wonderful for teaching functional
+programming. It&amp;#39;s also a super small language with a simple consistent
+syntax which makes it, when taught right, beginner friendly. NetLogo
+is interactive, visual and allows for students with little experience
+to explore complex concepts. In my classes at Stuy, we wrote a maze
+solver that used implemented a cellular automaton and also explored
+predator prey models all during one unit in our CS0 class.&lt;/p&gt;
+&lt;p&gt;
+Even if a lesser known language, something seen (incorrectly) as
+inauthentic can truly have an impact.&lt;/p&gt;
+&lt;p&gt;
+I saw that just the other day.&lt;/p&gt;
+&lt;p&gt;
+I found out that one of my former students was on the team that just
+won the Nobel Prize in Chemistry. Just seeing the news made my week.&lt;/p&gt;
+&lt;p&gt;
+I of course sent a congratulations. As part of his response, he wrote:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You know, I can trace a lot of my interest in
+computational science back to playing with NetLogo turtles simulating
+things, exploring cellular automata rules, and graphics.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+All the stuff we did in Stuyvesant&amp;#39;s required intro CS class.&lt;/p&gt;
+&lt;p&gt;
+I don&amp;#39;t know if the intro course as a whole made a difference in his
+life and career - he might have gone down the CS path regardless. It
+is clear though that using NetLogo in the intro class did ignite a
+spark. Had we used say Java or C++ from the get go. maybe this never
+happens.&lt;/p&gt;
+&lt;p&gt;
+The whole line about inauthentic languages is really hogwash
+anyway. Sure, some teachers use the wrong language the wrong way at
+the wrong time but most languages can be the &amp;#34;right one&amp;#34; under the
+right circumstances.&lt;/p&gt;
+&lt;p&gt;
+In this case, it was NetLogo at Stuyvesant in tenth grade in our
+required CS class.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Community Across The Years</title>
+      <link>https://cestlaz.github.io/post/community-across-the-years/</link>
+      <pubDate>Tue, 08 Oct 2024 14:02:09 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/community-across-the-years/</guid>
+      <description>&lt;p&gt;
+I spent last week in San Francisco. I didn&amp;#39;t leave my heart there but
+the entire trip was indeed heartwarming.&lt;/p&gt;
+&lt;p&gt;
+I was there with members of the Stuyvesant Alumni Association for a
+StuyCS/Tech meetup. As one might imagine, many tech inclined graduates
+from any school end up in the Bay Area and Stuy is no exception. Sure,
+the majority of StuyCS grads stay in New York and help drive New
+York&amp;#39;s tech sector but plenty decid to &amp;#34;go west.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+We had a terrific meetup on Thursday with around 125 attendees -
+mostly my former students but a few older tech alums from the early
+90s, 80s, and even earlier. The meetup was amazing and it meant a lot
+to me to see so many friends, friends who I don&amp;#39;t get to see nearly
+often enough. Of course, the problem is that it was something like
+being a parent hosting a Bar Mitzvah - since you know everyone there,
+you don&amp;#39;t have a chance to spend quality time with anyone - it&amp;#39;s
+mostly drive by greetings and at most a minute or two with any given
+person at a time. Still, I had a great time. Around the event, I was
+able to have a dinners with just a few former students but of
+course, I didn&amp;#39;t have enough days to have the number of small group
+gatherings as I would have liked.&lt;/p&gt;
+&lt;p&gt;
+This got me thinking about communities and alumni communities in
+particular. After a career in teaching that lasted 33 years, the
+StuyCS family might be the single thing I&amp;#39;m proudest of. Interestingly
+enough, there&amp;#39;s nothing else like it at Stuy. I&amp;#39;m wondering if there&amp;#39;s
+anything like it from other schools.&lt;/p&gt;
+&lt;p&gt;
+Like any school, each graduating class is a coherent group - some will
+be more active, some less but that&amp;#39;s the typical unit - the class of
+XX. They all have the usual five year reunions and maybe other
+periodic events. Not much crossover though, if any, between the years.&lt;/p&gt;
+&lt;p&gt;
+StuyCS is different. It&amp;#39;s a network of people who took the StuyCS
+classes regardless of whether they went into tech or not spanning the
+years. It also includes older Stuy graduates who are in tech but
+graduated prior to my starting Stuy&amp;#39;s CS program and Stuy grads who
+found their way to tech after graduating. As a result, we also have lawyers,
+doctors, authors and more as part of a community who&amp;#39;s graduation
+years start in the 70s and continue through this past year. &lt;/p&gt;
+&lt;p&gt;
+At Stuy, leaving CS aside, there are two other groups that I would
+have figured would have a similar network - Stuy&amp;#39;s Chorus - a program
+that accommodates a couple of hundred kids a year and spans all four
+years at Stuy. There are chorus classes and they also do special
+events in addition to the usual at school concerts. The other is
+Stuy&amp;#39;s Speech and Debate program. Smaller, but still spans the
+grades. I believe there&amp;#39;s at least one S&amp;amp;D class and there are after
+school meetings and practices and plenty of events and trips. For most
+of the past three decades, each was led by a top notch teacher with a
+strong personality - someone who could really hold things together and
+drive the programs - far more together than I ever was. Stuy has a few
+other sizable communities like the theater community or maybe one of
+the sports teams but these two would be the one&amp;#39;s that I would expect
+would have a strong, active, coherent alumni network.&lt;/p&gt;
+&lt;p&gt;
+Surprisingly, at least to me, Stuy Chorus alums might be connected to
+their fellow chorus members but not, for the most part, spanning the
+years. They feel an allegiance to Stuy&amp;#39;s chorus but mostly if not
+entirely withing their class. Speech and debate seems similar, at
+least to me based on my discussions with Speech and Debate grads.&lt;/p&gt;
+&lt;p&gt;
+At the meetup, a few StuyCS members noted that we&amp;#39;re the most active
+and coherent Stuy alumni group. Active meaning connected with each
+other and willing and able to help each other across the years. We
+wondered why, particularly since we&amp;#39;re probably the most socially
+awkward group of grads.&lt;/p&gt;
+&lt;p&gt;
+It was posited that yeah, we&amp;#39;re socially awkward but we&amp;#39;re &lt;strong&gt;all&lt;/strong&gt;
+socially awkward so somehow we fit together and it works. This sounds
+plausible.&lt;/p&gt;
+&lt;p&gt;
+Maybe it&amp;#39;s because we have critical mass in a couple of locations - NY
+and San Fran. Maybe, but then NY has critical mass for any Stuy alumni
+group.&lt;/p&gt;
+&lt;p&gt;
+Another possibility is that so many StuyCS people went into the tech
+field so there&amp;#39;s a direct professional commonality and a pretty direct
+way people across the years can help each other. Maybe. Not many
+chorus members are professional singers.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m not really sure.&lt;/p&gt;
+&lt;p&gt;
+We&amp;#39;re also an interesting group because we&amp;#39;re not affiliated with
+Stuy&amp;#39;s alumni association. We grew organically. In the past, under
+earlier Alumni Administrations, I actually avoided working with them
+but now, the current crew is top notch and I&amp;#39;m hoping to bring my
+community and the official Alumni group closer together.&lt;/p&gt;
+&lt;p&gt;
+As I mentioned, I&amp;#39;m really proud of this community. I&amp;#39;m wondering if
+other schools have had similar groups develop. If so, that&amp;#39;s
+awesome. If not, well, it&amp;#39;s never too late.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Enemy Of The Good</title>
+      <link>https://cestlaz.github.io/post/enemy-of-the-good/</link>
+      <pubDate>Wed, 25 Sep 2024 11:14:27 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/enemy-of-the-good/</guid>
+      <description>&lt;p&gt;
+I usually listen to podcasts on my morning run. For the past couple of
+weeks I&amp;#39;ve been listening to &lt;a href=&#34;https://99percentinvisible.org/&#34;&gt;99% Invisible&lt;/a&gt;&amp;#39;s series on &lt;a href=&#34;https://99percentinvisible.org/club/&#34;&gt;The Power
+Broker&lt;/a&gt;, Robert Caro&amp;#39;s incredible biography of Robert Moses. Arguably
+the best book on New York City not to mention urban planning and
+politics.  Amazing book. I read it a few years ago, well, actually
+listened to it at the same time as Natan - our own personal father son
+book club. We&amp;#39;ve done it with a few tomes  - &lt;a href=&#34;https://www.robertcaro.org/the-power-broker&#34;&gt;The Power Broker&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Don_Quixote&#34;&gt;Don
+Quixote&lt;/a&gt;, and most recently &lt;a href=&#34;https://www.nytimes.com/2020/09/16/books/review/wagnerism-alex-ross.html&#34;&gt;Wagnerism&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;
+I highly recommend both the book and the podcast series but I&amp;#39;m not
+going to talk about either really today. As part of the series, each
+episode includes an interview with a guest. One guest was Michael
+Schur, co-creator of &lt;a href=&#34;https://en.wikipedia.org/wiki/Parks_and_Recreation&#34;&gt;Parks and Rec&lt;/a&gt;. During the podcast, he told a
+story about how, when working on Parks and Rec, they interviewed a
+city bureaucrat or civil servant. He wanted to rebuild a small local
+park. He had all sorts of plans to return the park to its original
+glory including magnificent columns. Schur noted that since we live in
+a democracy, he couldn&amp;#39;t just start building but rather all sorts of
+constituents had to weigh in. One group wanted less grass, another
+objected to the ornateness of the columns and so it went on and on. By
+the time the park was actually finished, it was a pale imitation of
+the original plans. Sure, it was a new, rebuilt park, but the
+ plans had been gutted, scaled back and otherwise twisted.&lt;/p&gt;
+&lt;p&gt;
+In spite of this, when asked, the civil servant said he was happy with
+the results. Sure, he wanted his plans but he also knew how government
+worked and in the end, he as happy that there was some progress.&lt;/p&gt;
+&lt;p&gt;
+I see the same thing happen time and time again. Traffic calming
+efforts that would improve safety, air quality, and quality of life in
+general for many New Yorkers shot down because a small group of people
+(usually rich white ones) insist that the city can&amp;#39;t remove the free
+public parking in front of their buildings. I won&amp;#39;t even get started
+on the housing crisis in the city. If following our cited civil
+servant&amp;#39;s point of view, the people pushing the positive changes in
+the city should be happy with their baby step successes. &lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve always had difficulty with this point of view. &lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m not saying it has to be &amp;#34;go big or go home&amp;#34; but I&amp;#39;ve always tried
+to do it right rather than do it enough to check the checkbox.&lt;/p&gt;
+&lt;p&gt;
+I remember when New York City was creating AFSE (The Academy for
+Software Engineering). I was involved for a while until the Department
+of Ed froze me out. The DOE insisted that the goal of the school was to
+create industry ready software engineers right out of high school
+based on what I had built at Stuy. I said &amp;#34;great, but to do that you
+need to have an academic screen to get in&amp;#34;  knowing that you can&amp;#39;t get
+to industry ready if the kids are coming in multiple years behind,
+particularly in math. I also said that they could go without a screen
+but they&amp;#39;d have to adjust their expectations (as well as messaging)
+since without the screen and with students coming in at all levels,
+the best they would be able to do is give some exposure to computer
+science and if they did it right, prepare them for college CS or a
+boot camp after high school.&lt;/p&gt;
+&lt;p&gt;
+I said they could go either way but I was pushing for the entrance
+screen. Not anything like the Stuy test, but something to make sure
+the kids entered with enough of a math background so that the school
+could accomplish its goals. I really believed with a modest math
+screen and the right resources, the school could be something special.&lt;/p&gt;
+&lt;p&gt;
+At the end of the day, I lost that one. The DOE froze me out. The
+created an unscreened school (again, I&amp;#39;m not saying this in and of
+itself was bad) but they maintained the messaging that the kids would
+get that top level software engineering preparation.&lt;/p&gt;
+&lt;p&gt;
+Of course the students didn&amp;#39;t. The school was fine as a generic school
+but in terms of Software Engineering and CS Prep, looking back, I&amp;#39;d
+actually say that there were public NYC schools that already existed
+that were doing as well or arguably better and I&amp;#39;m not talking about
+test schools like Stuy here.&lt;/p&gt;
+&lt;p&gt;
+In discussing this was friends, I was commonly told &amp;#34;don&amp;#39;t let the
+perfect be the enemy of the good.&amp;#34; I get it but it&amp;#39;s something that
+I&amp;#39;ve long struggled with.&lt;/p&gt;
+&lt;p&gt;
+At the end of the day, I think I was right about AFSE for the students
+that went there. If the school was honest about what it was, I think
+it could have served its kids better. Alternatively, if it added a
+nominal screen it could have fulfilled its stated objective.&lt;/p&gt;
+&lt;p&gt;
+On the other hand, I was also wrong. The schools existence along with
+the Public Relations push and industry hype, all under the Bloomberg
+administration probably helped pave the way for Bill de Blasio&amp;#39;s
+CSforAll initiative in New York City.&lt;/p&gt;
+&lt;p&gt;
+So, was I right or was I wrong? I don&amp;#39;t know. Without AFSE we might
+not have had CSforAll so I was most likely wrong but part of me still
+believes that they could have done the school right and at the same
+time still built the hype.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve also been similarly on both CSforAll and CS teacher prep
+programs. My position has always been that we need knowledgeable CS
+teachers in CS classes and that knowledgeable means actually knowing a
+fair amount of CS. Of course this would mean a long term ramp up and
+funding to actually pay to prepare the teachers. The majority trend
+and view is quite different - start teaching CS now even if teachers
+don&amp;#39;t really know what they&amp;#39;re doing and we might work things out at
+some later point.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m not going to address the people who feel that short form PD is
+enough to make a strong high school CS teacher other than to say
+they&amp;#39;re flat out wrong.&lt;/p&gt;
+&lt;p&gt;
+My view is wrong in that the ramp up would take years - probably
+decades. That means that potentially another generation of kids would
+be denied any CS education. On top of that, the amount of time needed
+would be far longer than typical government office terms and who knows
+if initiatives would survive from one administration to another.&lt;/p&gt;
+&lt;p&gt;
+On the other hand, doing it quick and dirty can also be wrong. I&amp;#39;ve
+seen both teachers and schools who believe that once they have someone
+in an APCS-P class - regardless of that teacher&amp;#39;s ability to actually
+teach CS - as long as they have the seal of approval of having gone
+through some rudimentary code.org style training, it&amp;#39;s good enough and
+the school is set for life.&lt;/p&gt;
+&lt;p&gt;
+This is also a problem.&lt;/p&gt;
+&lt;p&gt;
+An even worse problem is when a school is teaching CS badly and
+either turning off students or teaching them things that are just
+wrong resulting in kids getting turned off later on. I&amp;#39;ve seen this as
+well.&lt;/p&gt;
+&lt;p&gt;
+So, I&amp;#39;m still muddled on this. I find it very frustrating when I see
+CS education at the school, district, city, state, or national level
+moving in a direction that I think is, not wrong, but not optimal even
+though I try to console myself with the fact that the movement is
+positive in a lot of ways.&lt;/p&gt;
+&lt;p&gt;
+I also remind myself of something Pete Seeger frequently said,
+attributing it to Rene Dubos - &amp;#34;think globally, act locally.&amp;#34; I take
+great pride in the results I&amp;#39;ve gotten when I have been able to do
+projects my way with my team - Hunter, Stuyvesant, and an assortment
+of others. That reminds me of something that a very smart friend once
+told me years ago when the K12 CS movement was just starting. He
+predicted that &amp;#34;there will be small pockets of excellence&amp;#34; - referring
+to places such as Stuy but the mainstream will be mediocre at best. I
+think the mainstream overall is doing a fair deal better than mediocre
+but I think his point of view was pretty prescient. &lt;/p&gt;
+&lt;p&gt;
+In any case, I do wear my naysayer hat as a badge of honor. I think
+the movement needs people like me to try to keep the mainstream
+honest. &lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>StuyCS - Playing the long game</title>
@@ -4251,303 +4604,6 @@ gut tells me I&amp;#39;d settle on Go for its minimalism and clean design.&lt;/p
 In any event, it was an interesting question to ponder on.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>New York - where actual teacher preparation in optional.</title>
-      <link>https://cestlaz.github.io/post/knowledge-optional/</link>
-      <pubDate>Thu, 01 Feb 2024 14:03:17 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/knowledge-optional/</guid>
-      <description>&lt;p&gt;
-This morning, I read Arthur Goldstein&amp;#39;s latest &lt;a href=&#34;https://arthurgoldstein.substack.com/p/anybody-can-teach-newcomers-says&#34;&gt;blog post&lt;/a&gt;. Arthur, is a
-relatively recently retired NYC public school teacher, a UFT
-(United Federation of Teachers) chapter leader, and a frequent critic
-of Michael Mulgrew, the current and long term UFT president.&lt;/p&gt;
-&lt;p&gt;
-I&amp;#39;m a union guy through and through but I also, like Arthur, believe
-that UFT&amp;#39;s leadership is neither pro-teacher nor pro-student but
-rather pro-themselves. It&amp;#39;s a rather sad state of affairs.&lt;/p&gt;
-&lt;p&gt;
-Today, Arther shared Mulgrew&amp;#39;s latest &amp;#34;accomplishment.&amp;#34; He, along with
-the city and state have relaxed the requirements for bilingual and ENL
-(English as a new language) certifications. This is in response to the
-recent massive influx of newcomers.&lt;/p&gt;
-&lt;p&gt;
-The deal has two parts. The first makes all the sense in the world. If
-a teacher holds the credentials for multiple certifications - one for
-bilingual and one not, they will be able to activate the bilingual
-cert with no penalty - that is they won&amp;#39;t lose salary, tenure,
-seniority or anything else. This should always have been the case and
-it should in fact he true, or at least partially true for any
-certification area. Maybe not the tenure thing but even in that case,
-there should be some modified rule to encourage teachers to switch to
-their most needed certification and not be penalized for doing so.&lt;/p&gt;
-&lt;p&gt;
-The second part is the problematic one. They&amp;#39;re easing the
-requirements for the bilingual certification. Now, instead of
-completing the coursework and taking an standardized assessment, you
-only have to do one or the other. That is, take a standardized test, a
-single instance platform on which success certainly doesn&amp;#39;t indicate a
-teacher is qualified or take a handful  of courses.&lt;/p&gt;
-&lt;p&gt;
-Arthur was lamenting over the exam, but given the number of education
-programs in NY where you just show up and earn an &amp;#34;A&amp;#34; or even for some
-you barely have to show up, this is basically just a rubber stamp for
-bilingual teachers.&lt;/p&gt;
-&lt;p&gt;
-Here&amp;#39;s the language from the UFT&amp;#39;s release on the program:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Certified teachers and pupil personnel services professionals (i.e.,
-social workers, school counselors and psychologists) can now complete
-either the examination requirement or the enrollment and education
-requirements, instead of both. That means candidates can pass the
-Bilingual Education Assessment and/or the Content Specialty Test in
-ESOL, if available, in lieu of completing coursework and matriculating
-in a registered program leading to a bilingual education extension
-and/or an ENL certificate.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;
-This struck me as awfully similar to the CS SOCE (Statement of
-Continued Eligibility). In New York State, even though we now have
-computer science certification, they created the SOCE which basically
-said that as long as you taught a single CS class in the last couple
-of years, if you fill out a form, you&amp;#39;ll be essentially certified to
-teach any CS in your school for the next 10 years.&lt;/p&gt;
-&lt;p&gt;
-Both of these initiatives attempt to address the lack of qualified
-teachers. Bilingual for the influx of new non native English speakers
-and CS for the new field of study that the city and state have been
-pushing.&lt;/p&gt;
-&lt;p&gt;
-Both of these initiatives will, and in the Case of CS have resulted in
-students being served by unqualified teachers both now and for the
-next decade and such actions should be criminal.&lt;/p&gt;
-&lt;p&gt;
-True, some teachers thrown into a CS classroom know their stuff and
-some are working diligently to learn but many aren&amp;#39;t there and to many
-are making no serious move to get there.&lt;/p&gt;
-&lt;p&gt;
-In each of my first to cohorts for Hunter&amp;#39;s advanced certificate
-program, I had well over 100 applicants. These were supposed to be the
-most prepared of the city&amp;#39;s CS teachers - all culled through the
-CS4All program and most had completed multiple years of New York&amp;#39;s CS
-training - much of which was provided by organizations like Code.org.&lt;/p&gt;
-&lt;p&gt;
-My CS prerequisites were pretty simple - a code sample in a text based
-language that showed some basics. A program with a function that
-returned the smallest value in an array or list of numbers would have
-covered all the requirements and then some. That&amp;#39;s also a typical
-early assignment in a CS0 class.&lt;/p&gt;
-&lt;p&gt;
-Each year, only a very small number of applicants - something like
-under 10, maybe under 15, could complete this, another handful were able
-to, with the help of self study resources like the Runestone academy&amp;#39;s
-Python or Java texts got up to speed. Each of the first two cohorts
-had a little over 20 students including a handful of masters
-candidates. All of the masters candidates came in with more than the
-required CS background.&lt;/p&gt;
-&lt;p&gt;
-Now, for those applicants who learned what they needed and were
-accepted, my hat was off to them, they worked hard and did what they
-had to do. They were great members of the cohort.&lt;/p&gt;
-&lt;p&gt;
-On the other hand, of the hundreds who never followed up, many had no
-idea what I meant by &amp;#34;in a text based language like Python, Java, or
-Javascript,&amp;#34; or similar parts of the application - and many of them
-had been teaching CS for multiple years and attending DOE training for
-multiple years.&lt;/p&gt;
-&lt;p&gt;
-Now, New York State comes along and says that they can all teach CS
-for 10 more years, no questions asked.&lt;/p&gt;
-&lt;p&gt;
-The kids will suffer.&lt;/p&gt;
-&lt;p&gt;
-How can the state get away with this? They don&amp;#39;t care. Neither do the
-teacher&amp;#39;s Unions (and again, I&amp;#39;m a big Union guy) - their current
-teachers can do whatever they want and all is good. The students don&amp;#39;t
-know how they&amp;#39;re being harmed and overall, parents are none the
-wiser. I&amp;#39;ve mentioned that a number of my Hunter undergrads came in
-having scored a 3, 4, or frequently 5 on APCS-Principals and while
-some had a good background, way more than should have would have been
-better off not taking anything. All these kids were super bright and
-motivated. It wasn&amp;#39;t there fault they were sold a bill of goods.&lt;/p&gt;
-&lt;p&gt;
-Back to the bilingual issue - again, the DOE, NYSED and UFT can get
-away with it because on the surface, it looks good - we can teach our
-newcomers but they&amp;#39;re the ones who will suffer. And of course, they&amp;#39;re
-a population with no voice.&lt;/p&gt;
-&lt;p&gt;
-Should be criminal.&lt;/p&gt;
-&lt;p&gt;
-So, that&amp;#39;s my rant for the day. I promise, more CS teaching content
-and positive posts to come.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Learning Elisp 17 - a thesaurus mode</title>
-      <link>https://cestlaz.github.io/post/learning-elisp-17/</link>
-      <pubDate>Thu, 25 Jan 2024 08:45:52 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/learning-elisp-17/</guid>
-      <description>
-&lt;p&gt;
-When we last left our heroes we had made the API call to
-dictionaryapi.com, gotten the response and coverted the json string
-into elisp data. Specifically an array that contained a hash table.&lt;/p&gt;
-&lt;p&gt;
-Today&amp;#39;s video will take us the rest of the way to our thesaurus mode -
-run the function and we&amp;#39;ll get a list of synonyms for the word we&amp;#39;re
-currently at.&lt;/p&gt;
-&lt;p&gt;
-First, we had to pull out the synonyms from the response. To do that
-we used basic elisp data manipulation. We used &lt;strong&gt;(aref json-resp 0)&lt;/strong&gt; to
-pull out the hash table, which was the 0&lt;sup&gt;th&lt;/sup&gt;  element of the array
-response, then wrap that in &lt;strong&gt;(gethash &amp;#34;meta&amp;#34;…)&lt;/strong&gt; to pull out the
-&amp;#34;meta&amp;#34; hash entry. That&amp;#39;s a hash table in its own right so we then
-pull out the &amp;#34;syns&amp;#34; element with another &lt;strong&gt;gethash&lt;/strong&gt; and then finally,
-since that&amp;#39;s an array with an array in it, another &lt;strong&gt;aref&lt;/strong&gt;. The
-complete code is up at gitlab but it&amp;#39;s essentially:&lt;/p&gt;
-&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;aref&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;gethash&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;syns&amp;#34;&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;gethash&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;meta&amp;#34;&lt;/span&gt;  (&lt;span style=&#34;color:#a6e22e&#34;&gt;aref&lt;/span&gt; json-resp &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;))) &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;
-This gives us an array of synonym strings but we want it to be a list
-so we used &lt;strong&gt;mapcar&lt;/strong&gt; to convert.&lt;/p&gt;
-&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (&lt;span style=&#34;color:#a6e22e&#34;&gt;mapcar&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;#&amp;#39;identity&lt;/span&gt; word-list)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;
-There&amp;#39;s probably a better way to do this but that&amp;#39;s what came to mind.&lt;/p&gt;
-&lt;p&gt;
-From there, the actual function to replace the word under the cursor
-with its synonym is pretty straightforward:&lt;/p&gt;
-&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(defun word-to-syn (n)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (interactive &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;p&amp;#34;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (let* ( (word (current-word))
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          (word-list (get-synonyms word))
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          (new-word (&lt;span style=&#34;color:#a6e22e&#34;&gt;completing-read&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Replacement:&amp;#34;&lt;/span&gt; word-list)))
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (backward-word)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (kill-word &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (&lt;span style=&#34;color:#a6e22e&#34;&gt;insert&lt;/span&gt; new-word)))&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;
-The &lt;strong&gt;current-word&lt;/strong&gt; function returns the word at or before the cursor
-location. We then use the &lt;strong&gt;get-synonyms&lt;/strong&gt; function that we just
-completed and then use &lt;strong&gt;completing-read&lt;/strong&gt; which lets us select a word
-from the synonym list.&lt;/p&gt;
-&lt;p&gt;
-Once we have the replacement word, it&amp;#39;s just buffer manipulations to
-delete the old word and insert the new one.&lt;/p&gt;
-&lt;p&gt;
-The rest of the video shows turning this into a mode and binding the
-function to a key.&lt;/p&gt;
-&lt;p&gt;
-So, that&amp;#39;s it for the elisp series for now. I&amp;#39;ll do more if I can
-think of interesting and fun things to do but no promises.&lt;/p&gt;
-&lt;p&gt;
-You can get all the code at the repo linked below:&lt;/p&gt;
-&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
-&lt;h2 id=&#34;headline-1&#34;&gt;
-Code:
-&lt;/h2&gt;
-&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;p&gt;
-The code for the series is still up here:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gitlab.com/zamansky/learning-elisp-code&#34;&gt;https://gitlab.com/zamansky/learning-elisp-code&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
-&lt;h2 id=&#34;headline-2&#34;&gt;
-The videos:
-&lt;/h2&gt;
-&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/ZBN4Kphv-ac?si=lMyYassaUwz6ia8g&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;
-Video link: &lt;a href=&#34;https://www.youtube.com/watch?v=ZBN4Kphv-ac&#34;&gt;https://www.youtube.com/watch?v=ZBN4Kphv-ac&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Observing History</title>
-      <link>https://cestlaz.github.io/post/observing-history/</link>
-      <pubDate>Tue, 23 Jan 2024 12:17:15 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/observing-history/</guid>
-      <description>&lt;p&gt;
-When I was a kid, CS in K12 wasn&amp;#39;t a thing. Personal Computers were
-just becoming available. I remember pilgrimages to the basement Polk
-Hobby shop to play. I don&amp;#39;t even remember what those computers were
-but soon, names like Apple, TRS-80 and Commodore PET were
-appearing. Throughout my schooling, CS wasn&amp;#39;t a thing until High
-School and even there it was a couple of random classes because
-somehow Stuyvesant had an IBM-1130 - a punch card driven machine and a
-couple of math teachers taught simple programming electives.&lt;/p&gt;
-&lt;p&gt;
-In my senior year, 1984, APCS came in but it wasn&amp;#39;t wide spread and it
-was a single random class for a handful of students taught primarily
-by math teachers. When I went into teaching after college and a short
-stint at Goldman, not much has changed.&lt;/p&gt;
-&lt;p&gt;
-What I&amp;#39;m getting at is that some of us - teachers of, um, let&amp;#39;s say,
-an age have really gotten to witness history. We&amp;#39;ve been able to live
-through the emergence of a new study area in K12.&lt;/p&gt;
-&lt;p&gt;
-That doesn&amp;#39;t happen too often.&lt;/p&gt;
-&lt;p&gt;
-At some levels I always realized this but in many ways I probably just
-taught day to day without thinking about it.&lt;/p&gt;
-&lt;p&gt;
-We&amp;#39;ve witnessed something that didn&amp;#39;t even exist to starting to answer
-questions like what should be taught? At what grade or grades?
-Separate or as an add on to other subject areas? Who will teach it?
-What must they know? What&amp;#39;s the point? Will this help solve the
-achievement gap? And on and on.&lt;/p&gt;
-&lt;p&gt;
-Since America consists of fifty different education systems, if not
-more, we&amp;#39;ve seen lots of different approaches - certification
-questions, standards, or lack thereof, what counts as CS? CS vs Tech
-Ed, requirements or electives?&lt;/p&gt;
-&lt;p&gt;
-In some ways it&amp;#39;s amazing how far things have come but also amazing
-how much further there is to go.&lt;/p&gt;
-&lt;p&gt;
-Personally, I&amp;#39;m in some ways amazed but also lament so many missed
-opportunities. In many ways CS Education in K12 has gone the way of
-other education. That&amp;#39;s a shame. Just like in Math, prior to NCLB
-Math teachers had to &lt;strong&gt;know&lt;/strong&gt; math. Now. many take &amp;#34;math for math
-teachers&amp;#34; and can barely pass local assessments. CS Ed in far too many
-places seems to be going that route. CS Certification programs that
-barely contain any real CS or even worse, just certifying based on
-vendor driven professional development.&lt;/p&gt;
-&lt;p&gt;
-I&amp;#39;m also lamenting the frequency of the checkbox approach - Oh we do
-that in this existing class - check, or we have this one course on the
-books for a few self selecting students - check.&lt;/p&gt;
-&lt;p&gt;
-But then, there&amp;#39;s also some good going on out there. The teachers that
-applied to my cert program - even the ones that weren&amp;#39;t accepted were
-all seeking out real CS knowledge and a network of CS teachers -
-that&amp;#39;s inspiring and of course the fact that we&amp;#39;re discussing CS
-availability and equity related issues means we&amp;#39;ve gotten things off
-the ground and there are people paying attention, at least to that
-side of things.&lt;/p&gt;
-&lt;p&gt;
-All this, is of course, ongoing. It&amp;#39;s going to be years, probably
-decades before K12 CS is settled for better or worse. Some people will
-want to be very involved - I&amp;#39;d like to think that my involvement has
-been for the better, and some would rather just teach but pay
-attention. We&amp;#39;re living through the evolution of a field of study and
-really not many generations of teachers really get to be able to do
-that.&lt;/p&gt;
 </description>
     </item>
     

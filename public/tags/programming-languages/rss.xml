@@ -6,10 +6,106 @@
     <description>C&#39;est la Z (programming languages)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Feb 2024 07:09:37 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 11 Oct 2024 12:05:37 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/tags/programming-languages/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>Authentic Languages</title>
+      <link>https://cestlaz.github.io/post/authentic-languages/</link>
+      <pubDate>Fri, 11 Oct 2024 12:05:37 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/authentic-languages/</guid>
+      <description>&lt;p&gt;
+Language wars in tech are common. Java vs C++, Functional vs OOP. If
+you&amp;#39;re doing functional is your language functional enough?&lt;/p&gt;
+&lt;p&gt;
+So to in CS Education. What&amp;#39;s the best language for CS0? For CS1? Drag
+and Drop or text based? Functional? Object Oriented? Compiled?
+Interpreted?&lt;/p&gt;
+&lt;p&gt;
+The battles rage on.&lt;/p&gt;
+&lt;p&gt;
+One particular &amp;#34;war&amp;#34; that I&amp;#39;ve been a part of deals with the idea of a
+language&amp;#39;s being authentic or real. I&amp;#39;ve been a part of this on two
+fronts.&lt;/p&gt;
+&lt;p&gt;
+I guess most visibly this has been with Scratch and other drag and
+drop languages. People sometimes perceive me as being anti drag and
+drop. This is not the case. I love drag and drop languages for the
+earlier grades. My issue is that I haven&amp;#39;t seen an advantage to using
+them in the later grades. I haven&amp;#39;t seen evidence that knowledge
+transfers when an older student - say high school 10th grader or
+beyond starts with a Drag and Drop language and then switches to text
+based. I&amp;#39;ve also called out what I see as disadvantages of drag and
+drop languages in the later grades - what I call jigsaw puzzle
+debugging or programming where students write and debug programs by
+seeing which block fits geometrically as opposed to thinking through
+the problems and also the small screens students usually use are a
+limiting factor when writing complex, large programs.&lt;/p&gt;
+&lt;p&gt;
+I never thought that drag and drop languages like Scratch were
+inauthentic or less real than, say Java.&lt;/p&gt;
+&lt;p&gt;
+That said, there are those who do. I think it comes mostly from
+parents and students who feel &amp;#34;they don&amp;#39;t use it in the real world.&amp;#34;
+Probably also from hardcore programmers who, even though scratch is
+Turing Complete, feel that it&amp;#39;s less of a language.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve never taught scratch in a formal class so I never had to deal
+with any push back. I&amp;#39;ve only used it in one offs like teacher
+professional developments or working with students for some side event
+or project.&lt;/p&gt;
+&lt;p&gt;
+On the other hand, I&amp;#39;ve heard the same complaints when teaching
+languages like Racket (nee Scheme) and NetLogo. They&amp;#39;re not real
+languages. Nobody uses them in the real world. I&amp;#39;d particularly hear
+it about NetLogo which is a wonderful language, particularly for
+visual modelling and simulation.&lt;/p&gt;
+&lt;p&gt;
+Never mind that languages don&amp;#39;t have to be used in the real world in
+order to be real and to be of tremendous value in the
+classroom. Racket is wonderful for teaching functional
+programming. It&amp;#39;s also a super small language with a simple consistent
+syntax which makes it, when taught right, beginner friendly. NetLogo
+is interactive, visual and allows for students with little experience
+to explore complex concepts. In my classes at Stuy, we wrote a maze
+solver that used implemented a cellular automaton and also explored
+predator prey models all during one unit in our CS0 class.&lt;/p&gt;
+&lt;p&gt;
+Even if a lesser known language, something seen (incorrectly) as
+inauthentic can truly have an impact.&lt;/p&gt;
+&lt;p&gt;
+I saw that just the other day.&lt;/p&gt;
+&lt;p&gt;
+I found out that one of my former students was on the team that just
+won the Nobel Prize in Chemistry. Just seeing the news made my week.&lt;/p&gt;
+&lt;p&gt;
+I of course sent a congratulations. As part of his response, he wrote:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You know, I can trace a lot of my interest in
+computational science back to playing with NetLogo turtles simulating
+things, exploring cellular automata rules, and graphics.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+All the stuff we did in Stuyvesant&amp;#39;s required intro CS class.&lt;/p&gt;
+&lt;p&gt;
+I don&amp;#39;t know if the intro course as a whole made a difference in his
+life and career - he might have gone down the CS path regardless. It
+is clear though that using NetLogo in the intro class did ignite a
+spark. Had we used say Java or C++ from the get go. maybe this never
+happens.&lt;/p&gt;
+&lt;p&gt;
+The whole line about inauthentic languages is really hogwash
+anyway. Sure, some teachers use the wrong language the wrong way at
+the wrong time but most languages can be the &amp;#34;right one&amp;#34; under the
+right circumstances.&lt;/p&gt;
+&lt;p&gt;
+In this case, it was NetLogo at Stuyvesant in tenth grade in our
+required CS class.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Which low level language to teach?</title>
