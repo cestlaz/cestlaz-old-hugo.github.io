@@ -70,7 +70,7 @@ A really amazing place.
 
 Between the two we got lunch in their Markthal - a neat food hall set
 up with an archaeological exhibit. A couple of blocks away outside
-they also had an urban surging pool.
+they also had an urban surfing pool.
 
 #+ATTR_HTML: :width 500px
 [[/img/antwerp-rotterdam-leiden/surfing.jpg]]
