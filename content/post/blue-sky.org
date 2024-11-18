@@ -1,0 +1,112 @@
+---
+title: Blue Sky
+date: 2024-11-18T11:23:53-04:00
+tags:
+- Social Networks
+categories:
+- Social Networks
+draft: false
+--- 
+
+#+begin_quote
+Blue skies smiling at me
+Nothing but blue skies do I see
+
+#+end_quote
+
+Last week, [[https://bsky.app/][Bluesky]] seemed to really take off.  What's Bluesky? The
+simplest answer is that it's another possible Twitter, or do I have to
+say X, alternative.
+
+Like many others, I left Twitter shortly after Musk took
+over. Actually, I just stopped using it. I didn't actually deactivate
+my account until relatively recently but other than logging on to do
+that, I hadn't been on Twitter since late 2022 or so.
+
+While Twitter has certainly gone to pot, prior to Musk's takeover, it
+filled a particular niche in social media. Facebook was for people you
+knew. Instagram for photos. Linkedin for jobs so not much general
+social discourse going on there and then there were other things like
+Tumblr, Whatsapp, Pinterest, Snapchat and more. I'm not listing Reddit
+since I view that more as a modern day Usenet replacement and things
+like Discord and Slack are also separate beasts.
+
+Twitter was more discoverable and open than Faceook - you didn't have to be
+"friends" to read or partake in a conversation and as a result, there
+was a different type of discourse. It also was more suitable for live
+conversations, similar to Slack or Discord based on hashtags.
+
+Twitter was also good for aggregating news, or at least types of news
+(before things got bad).
+
+Finally, Twitter became in many instances, at least for me, the last
+line of customer support. When you couldn't resolve a customer issue
+with a company in spite of hours on hold and speaking with people in
+call centers from around the world, a well placed tweet would often
+get results.
+
+Post the Musk acquisition, Twitter went south fast and up until now,
+nothing has really filled the void.
+
+Facebook continued to have its Facebook problems - closed silo, not
+very discoverable, and of course, you're subject to the whims of a
+different billionaire owner.
+
+Linedkin? As I said, that's for jobs although I did notice an uptick
+in traffic on my feeds post the first Twitter exodus right after the
+takeover.
+
+A few contenders have popped up. An early one was [[https://mastodon.social/explore][Mastadon]]. I really
+wanted to like Mastadon and I do. From a user point of view, it looks
+and acts similar to Twitter but it's open source and can be self
+hosted. Both big pluses for me. It also uses an open protocol -
+federated which, in theory lets it play nicely with other federated
+platforms.
+
+The trouble was and is that because it's distributed you have an
+account on a particular server. Sure, you can follow people on other
+servers but finding them and dealing with the whole distributed thing
+is just a little to much for the non techie user. So, in the end, it
+seems to be ending up as small closed twitter like groups of technical
+people. I'm on Mastadon as @zamansky@csed.social and will probably
+stay on the platform but I haven't seen much life there.
+
+Another one that had promise or at least backing has been Threads
+which is Meta's answer to Twitter. Again, the look is similar to
+Twitter but it has the huge advantage of preseeding your account with
+your contacts and everyone on Facebook could get on with a click. It
+was trivial to hit the ground running with Threads whereas on Mastadon
+you had to build your network one account at a time.
+
+On the downside, it really just feels like a more general Facebook
+feed. Lots of posting, little conversation (at least from what I can
+see) and again, another platform controlled by a different
+Billionaire.
+
+Bluesky has been another contender and the one showing the most
+promise. It grew out of twitter but has spun off and is it's own
+public benefit corporation - no affiliation with Twitter or Musk. Like
+Mastodon, it's distributed, uses an open protocol and has open sourced
+it's apps. Unlike Mastodon, it uses a single entry point so you don't
+have to figure out who's on which server.
+
+I got an invite back in June 2023 - shortly after Blusky's launch but
+things were pretty quiet. I checked back periodically but never
+noticed much growth.
+
+That all changed about a week ago. Suddenly Bluesky became very hot
+and tons of old Twitter contacts started appearing. Bluesky also seems
+to be kickstarting the onboarding and finding people problem through
+the use of what they call [[https://blueskydirectory.com/starter-packs/all
+][Starter Packs]]. I'm also starting to see news outlets and companies
+on the platform.
+
+Will Bluesky ultimately be the Twitter replacement people have been
+looking for? I don't know but it's the most promising one so far.
+
+So, if you haven't yet, check it out. I'm there as
+@zamansky.bsky.social and if you know some great people to follow or
+any great lists in the CS Ed space or NY Tech scene, let me know.
+
+
+
