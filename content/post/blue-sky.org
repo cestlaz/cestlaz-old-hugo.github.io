@@ -56,8 +56,8 @@ Linedkin? As I said, that's for jobs although I did notice an uptick
 in traffic on my feeds post the first Twitter exodus right after the
 takeover.
 
-A few contenders have popped up. An early one was [[https://mastodon.social/explore][Mastadon]]. I really
-wanted to like Mastadon and I do. From a user point of view, it looks
+A few contenders have popped up. An early one was [[https://mastodon.social/explore][Mastodon]]. I really
+wanted to like Mastodon and I do. From a user point of view, it looks
 and acts similar to Twitter but it's open source and can be self
 hosted. Both big pluses for me. It also uses an open protocol -
 federated which, in theory lets it play nicely with other federated
@@ -68,14 +68,14 @@ account on a particular server. Sure, you can follow people on other
 servers but finding them and dealing with the whole distributed thing
 is just a little to much for the non techie user. So, in the end, it
 seems to be ending up as small closed twitter like groups of technical
-people. I'm on Mastadon as @zamansky@csed.social and will probably
+people. I'm on Mastodon as @zamansky@csed.social and will probably
 stay on the platform but I haven't seen much life there.
 
 Another one that had promise or at least backing has been Threads
 which is Meta's answer to Twitter. Again, the look is similar to
 Twitter but it has the huge advantage of preseeding your account with
 your contacts and everyone on Facebook could get on with a click. It
-was trivial to hit the ground running with Threads whereas on Mastadon
+was trivial to hit the ground running with Threads whereas on Mastodon
 you had to build your network one account at a time.
 
 On the downside, it really just feels like a more general Facebook
