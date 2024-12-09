@@ -1,0 +1,116 @@
+---
+title: The New Entry Level
+date: 2024-12-09T15:20:32-04:00
+tags:
+- workforce
+categories:
+- workforce
+draft: false
+---
+
+Over in Facebook's Computer Science Educators group there was an
+article posted on CS grads going back for a "panic" master's degree
+since the job market isn't terrific. Now, going for more education, at
+least for those who can afford it has been a tried and true practice
+in weaker job markets. If you look at my former students with Masters
+degrees you'll certainly notice clusters around bad times in tech
+hiring.
+
+What this post is about though, is one of the comments. On of my CS Ed
+brethren commented on how companies are looking for more mid-level
+experience and abilities out of college and not entry level. 
+
+Now, I've long been one who's felt that we can do a better job
+preparing out students for industry from undergraduate CS programs. I
+don't want undergrad programs to become code schools - they still need
+to teach real CS - enough algorithms, data structure,s theory and all
+but there are some easy changes.
+ - Use industry standard tools when appropriate - version control for
+   example.
+ - Teach things like unit testing.
+ - Make sure students complete some large group projects, preferably
+   prior to their senior year.
+ - Use techniques like code review.
+
+These and other techniques and tools can easily be integrated into a
+CS sequence without removing any of the good stuff.
+
+That said, I don't think we should be bowing to industry if they
+demand more mid-level ready college graduates.
+
+Let's look at what industry had been demanding from their college
+grads over the past twenty years. Even if we just limit our view to
+the "good times" when "everyone was hiring" the typical entry level
+hire had a CS degree along with one or two internships. How much more
+can undergrad institutions actually do?
+
+Even back then, the Googles of the world largely recruited from
+"elite" institutions and when they said "entry level" they really
+meant that you went to Carnegie Mellon or MIT, taught yourself all the
+stuff from the unwritten curriculum, and had a couple of killer
+internships.
+
+In any event, once you got a job, you then might get some amount of ramp
+up - an in company bootcamp if the company was large enough or it
+might just be a helpful co-worker at a smaller company. Now, those
+company bootcamps also seem to be disappearing or at least becoming
+shorter and shorter.
+
+Companies deciding they want more 'mid-level' ready new hires is just
+the next step in companies abandoning any responsibility to the tech
+ecosystem in terms of job preparation. 
+
+I'm not surprised.
+
+About ten years ago I was speaking with a friend who was the CTO of
+what I guess I'll call a small large company. Multiple offices,
+multiple cities, but nothing like Meta or Microsoft in terms of number
+of employees. We were talking about internships. I asked him what his
+rate of return offers was and he gave me a number that I thought was
+low. He commented that he just couldn't hire that many but felt it was
+the companies responsibility to the tech ecosystem to have a robust
+internship program where college students could gain valuable
+experience and get paid a good summer salary.
+
+Since then, I've spoken to a number of people in the industry but
+unfortunately, only a few understand that having an education, robust,
+internship program should be a companies responsibility not only for
+hiring their own employees but also to help bolster the tech workforce
+in general. A few got it, a few talked the talk as though they got it
+but their actions, or rather their company's actions spoke otherwise
+and to far too many, the idea of having an internship program as
+anything other than a direct recruiting tool had never crossed their
+minds.
+
+Of course, in the most recent tech crunch, internships dried up. Never
+mind that companies like Google weren't losing money, they were only
+making less than before - one of the first things cut was this
+important peace of the tech education pipeline accompanied by a
+request for 'better prepared more mid-level ready' candidates.
+
+All this made me think back to when I got out of college. We didn't
+have a tech scene per se, but companies expected college grads to be
+raw. They trained them regardless of the job. I forget how long my
+training program at Goldman Sachs was but it was long. It covered the
+business side and the tech side. They taught the languages we were
+expected to use - generally C or Cobol and the platforms we were going
+to work on. Once we were in our groups, if we needed more training, we
+got it. I ended up doing Windows programming so my manager made sure I
+had whatever I needed to get up to speed.
+
+Other companies had even longer and more thorough programs. Many also
+had rotational programs - you got your training then you did
+rotations - multiple weeks or months even with different groups to find the best
+fit.
+
+Over the years, companies have abdicated more and more responsibility
+for employee training and society has decided that responsibility
+falls on the schools - both K12 and higher ed.
+
+This is neither sustainable nor healthy which is why I feel push back
+against the "mid-level ready" employee right out of college is both
+appropriate and needed. Unfortunately corporate America holds a lot of
+influence so I'm not sure how effective any push back will be. Those
+grads will still need jobs and who's more likely to blink first - the
+educators or the corporate execs?
+
