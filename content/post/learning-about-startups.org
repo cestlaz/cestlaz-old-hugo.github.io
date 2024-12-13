@@ -1,0 +1,90 @@
+---
+title: Learning About Startups at StuyCS
+date: 2024-12-13T15:12:24-04:00
+tags:
+- StuyCS
+categories:
+- StuyCS
+draft: false
+--- 
+
+Most students who study CS in college plan to go into industry in one
+manner or another. Unfortunately most college CS programs are still
+designed with the assumption that all undergraduate CS majors want to
+pursue a PhD. I've addressed this periodically here and that's not the
+focus for today.
+
+Of those who want to enter industry, it seems a fair number are
+interested in the startup ecosystem - they want to either be part of a
+startup - a small agile effort that they hope can change the world or
+even start their own company. Some eventually also want to turn
+towards venture capital.
+
+Now, if college does a less then ideal job preparing CS majors
+specifically for industry, they do less ideal job preparing them to
+launch a startup. Before going further, I don't want to be unfair - a
+number of institutions are making efforts to modernize their
+undergraduate CS programs and a number of them are doing great jobs -
+offering courses in software engineering, teaching the "hidden
+curriculum" and integrating modern software engineering sensibilities
+like unit testing into core CS classes but change in academia is slow.
+
+On the startup side, things are even further behind. There are a
+number of boutique masters programs in "tech entrepreneurship" that
+have popped up but financial aid can be sparse so many are, like code
+schools, workforce programs for the rich. For many of the programs I
+know of, I'm not sold on the quality. Some are good, many are meh.
+
+In undergrad, if you're a CS major you're not really going to learn
+about startups and the startup ecosystem. I supposed if you're a
+business major you might, but then you won't develop the tech skills.
+
+Since retiring, I've started to work more closely with the Stuyvesant
+Alumni Association and I've always had a tight bond with my former
+students and I wanted to do something to start to address this
+problem.
+
+Last night was the first step. It was only a single small firs step,
+but it's something.
+
+In partnership with Stuy's Alumni Association, we put on an
+event. First I reached out to my grads and asked for both founders and
+funders. People who've started a company and successfully raised money
+for it and people who've selected promising startups and provided said
+funds.
+
+Since it's the holiday season, a number of my New York VCs couldn't
+make it as they had other holiday events to attend but we had a solid
+dozen volunteers available and I'm sure I could have gotten more if I
+had worked at it.
+
+Then we had the attendees. I thought the event would mostly appeal to
+younger Stuy grads. Those in college and a bit beyond but there was a
+pretty wide spread of ages and even a number of current Stuy students.
+
+We split them up at tables, gave the funders and founders some loose
+guidelines to follow - key points to address and let the founders and
+funders lead small group conversations. We also had open mixing and
+networking before and after the small table discussions.
+
+While I'm still collecting feedback, overall I think the event went
+really well. People got to learn about the startup journey, some
+specifics from specific stories, got advice from knowledgable people
+who've both been there and done that and walked away with some new
+connections.
+
+It wasn't perfect. It would be better if we had more balance between
+founders and funders - we had 2/3 or 3/4 founders and a 50/50 mix
+would have been better. Reshuffling the tables would also have been a
+good idea but, overall a success.
+
+One thing that I really love about the StuyCS community is that we can
+do these events on almost any tech topic and really, many other topics
+as well. Last year I wanted to pull together an AI panel and instantly
+had far too many volunteers for panelists. This time, founder and
+funders and again no problem.
+
+Now the next step is to refine this event and figure out follow ups as
+well as other future events.
+
+
