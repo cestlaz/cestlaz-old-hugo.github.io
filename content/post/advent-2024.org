@@ -1,0 +1,128 @@
+---
+title: Advent of Code  2024
+date: 2024-12-26T14:30:56-04:00
+tags:
+- Advent of Code
+- Programming
+categories:
+- Advent of Code
+draft: false
+--- 
+
+Happy holiday season to all.
+
+Blogging wise, I usually write up a bunch of posts on [[http://adventofcode.com][Advent of Code]] -
+a 25 day programming event where each day a new two part challenge is
+released. It's been running since 2015 with this being the tenth year.
+
+Last year I wrote up five days, the year before only two but for 2021
+and 2020 I wrote up around 25 of them. This year, I once again partook
+in the festivities but I haven't felt motivated to write up posts
+about the days. I still might do some writeups in the comming weeks
+and months since, as always there were many interesting and fun
+problems.
+
+Still, I thought I'd share at least one post with some overall thoughts.
+
+This year, I managed to earn all 50 stars - that is both stars on each
+of the twenty five days. I've only done that once before -
+in 2020. Looking back, I average 35 stars each year with my highs of
+50 twice (2020, 2024) and lows of 18 in 2017 and 23 in 2018. I might
+go back and start completing more problems. I actually started to
+finish more of the 2015 problems this past month so we'll see.
+
+Usually, I start on day 1 and keep going until either life gets in the
+way, the problems get too annoying - you know the solution but just
+don't have the time or patience to implement whatever algorithm, or
+the problems get too hard, like some of the mathy problems where I
+feel I'm just way underwater. I also don't do these "closed book." I
+give them some thought and a shot closed book but I'm fine looking at
+the Advent of Code [[https://www.reddit.com/r/adventofcode/][subreddit]] which is both active and friendly. This
+year, I solved most closed book but there were a few where I got some
+helpful hints and two problems where I got some pretty significant
+help from the reddit.
+
+It's also worth noting that I really hadn't done any coding since last
+December. Take that for what it's worth.
+
+So, here are some thoughts.
+
+Usually I do AoC using Clojure - basically a Lisp. It's a fun language to work in and
+[[https://cider.mx/][Cider]], the Emacs based Clojure editing environment is second to
+none. This year, I solved some in Clojure, some in Python, and many in
+both. I was giving a short talk on AoC in mid December and knew that
+nobody in the audience would have any Clojure or any version of Lisp
+but many would have probably played with Python. So, I coded most
+problems in both. After my talk, I usually went mostly to Clojure but
+a few problems were easier in Python so I went the lazy way.
+
+That was the interested part - each language lends itself to it's own
+approach to problem solving. Some AoC problems lend themselves to state
+munging - you've got variables representing your things in your
+world. You have to keep changing them and they keep changing each
+other. Since Python started as a quick and dirty scripting language,
+it has an easier time on those types of situations. Clojure's big
+thing is immutability - once you set a variable you don't change it.
+
+On the other hand, Clojure, being functional lends itself to other
+problems.
+
+After solving a problem, I'd frequently look at other people's
+solutions to try to learn something and there was frequently a stark
+difference between the Python coders approaches and the Clojure
+programmers. In some cases, it was hard to believe that they solved
+the same problem.
+
+I also found it hard to context shift as I went from one language to
+another lest I end up writing Python code in Clojure or vice versa.
+
+This made me think about language choices in education. I've written
+about choices for first programming languages before ([[https://cestlaz.github.io/post/first-language/][here]], [[https://cestlaz.github.io/posts/first-language-changing/][here]]) and
+of course there are also considerations for what to do after that
+first choice.
+
+This is something I almost certainly plan to write about in the coming
+weeks.
+
+Another thing that I always like about AoC are range of problems. This
+year there were a bunch of 2D grid pathfinding problems, a couple of
+mathy ones though none that were too hard, one cellular automaton, a
+couple of simulations, and a couple of what I'll call, problems with a
+non programming twists.
+
+Those last ones I usually find really interesting although the last
+one from this year - day 24 required me to brush up on things I hadn't
+looked at in decades and many programmers may never have seen.
+
+Those are problems where it's not just "run the program and get the
+result." It's more of write a program to get some info, do some stuff
+by hand or by "thinking really hard," write some more code, back and
+forth and get an answer. I really like these types of problems because
+they come up so frequently in the real world. Maybe not for the
+professional software engineer but in the more general programming
+population. You might not be writing a complete program soup to nuts
+that you can then send to the app store but rather snippets and small
+programs to help you get some job done. Love it.
+
+Will probably look into that more next year.
+
+Another thing I've been thinking about are people's motivations. I
+just partake because they're interesting problems. I'll learn a bit,
+and it allows me to prove to myself that I haven't totally lost my
+programming chops. Interesting though, I don't do these types of
+programming problems during the rest of the year. Others though are
+out for the global leader board - they get the problem when it's
+released at midnight (Easter time) an they're off. In the last couple
+of years though there's been a problem with people using AI to game
+the leader board. The issue and the range of reactions have been
+pretty interesting.
+
+Of course on top of these there are the actual problems so maybe
+I'll write up some of them as well.
+
+We'll see but at least if I get motivated to write more, I've got
+plenty of blog fodder.
+
+
+
+
