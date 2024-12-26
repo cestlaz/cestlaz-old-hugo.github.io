@@ -112,7 +112,7 @@ and it allows me to prove to myself that I haven't totally lost my
 programming chops. Interesting though, I don't do these types of
 programming problems during the rest of the year. Others though are
 out for the global leader board - they get the problem when it's
-released at midnight (Easter time) an they're off. In the last couple
+released at midnight (Eastern time) an they're off. In the last couple
 of years though there's been a problem with people using AI to game
 the leader board. The issue and the range of reactions have been
 pretty interesting.
