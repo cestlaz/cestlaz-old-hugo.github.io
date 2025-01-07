@@ -1,0 +1,87 @@
+---
+title: Extracting Emails (with Emacs)
+date: 2025-01-07T09:25:00-04:00
+tags:
+- elisp
+- emacs
+categories:
+- emacs
+draft: false
+--- 
+
+Yesterday I found myself in a situation where I had a text document
+interspersed with a bunch of email addresses and I wanted to extract
+those email addresses.
+
+Specifically, I had to copy email addresses from a couple of
+spreadsheets and other sources and I thought it would be faster to
+copy lines form the sheets instead of email cells as well as just
+grabbing text from the other sources and then isolating the email
+addresses in Emacs.
+
+Now, writing a little "extract emails" script to operate on a text
+file is easy enough. You can search for an email address using a
+regular expression. Regular expressions are a text pattern matching
+language that most programming language support. I used something like
+the following regular expression to identify an email address:
+
+#+begin_src
+[a-zA-Z0-9\.]+@[a-zA-Z0-9]+\.[a-zA-Z]{3}
+#+end_src>
+
+The first [a-zA-Z0-9\.]+ matches a sequence of one or more characters
+that are letters, numbers or a period (the slash before the period is
+to escape it - prevent using the . for its special regular expression
+meaning). That's followed by the @ symbol, a second set of characters,
+this time without the period, then a dot and then three more
+characters.
+
+This will match most email addresses.
+
+In Clojure, I'd use the function re-seq which would take a string
+(presumably my text file) and return a list of all the matches. That
+is, all the email addresses. I could do the same in Python with
+re.findall.
+
+In an editor, at least in Emacs, it's a little trickier. You can
+search for a regular expression but that just finds the next email
+address. I'd then have to manually copy it and then repeat the
+process.
+
+I guess a keyboard macro could do the trick but easier would be to
+just write an elisp function and extend Emacs.
+
+The video shows the whole walkthrough but the core of the routine is
+using the ~search-forward-regexp~ function which searches for the next
+occurrence of an email match. I then add that email address to a
+list. Putting it all in a while loop, you get:
+
+#+begin_src emacs-lisp
+(while (search-forward-regexp regexp nil t 1)
+  (push (match-string-no-properties 0) matches))
+#+end_src>
+
+The match-string-no-properties grabs the actual text of the match.
+
+
+There's a little more detail but basically I wrote an equivalent of
+re-seq for an Emacs buffer - it grabs everything that matches a
+regular expression and returns all the matches in a list.
+
+Then, it was a simple matter of looping over that list and inserting
+the results. I ultimately named the routine ~extract-emails~. So now, I
+can be in any Emacs buffer, copy over all my source email material,
+run the command, and I'll have all the emails together one per line
+ready to be pasted into an email client.
+
+I'm thinking that I should probably give the routine an additional
+optional parameter - have it extract emails by default but allow the
+user to pass in any regular expression.
+
+Just another reason why Emacs is such a powerful editor.
+
+Here's the video, enjoy:
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o2z9SKNVCwk?si=rpUG-hg8KqGoxZxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+#+end_export>
