@@ -1,0 +1,99 @@
+---
+title: Making mistakes and what makes a great teacher
+date: 2025-01-09T15:32:50-04:00
+tags:
+- teaching
+categories:
+- teaching 
+draft: false
+---
+
+As he usually does (and of which I'm always appreciative) JCS [[https://irreal.org/blog/?p=12701][shared]]
+my most recent Emacs post in which I go over a small Elisp routine
+that I wrote.
+
+JCS commented that he liked that I don't post process or edit my
+videos. I work through whatever I'm doing and if I make a mistake, so
+be it, I'll try to figure it out live. I do things this way partly
+because of laziness but also because I think the result is more
+authentic. People doing something similar on their own will likely
+make mistakes and if every video and resource they find online is
+perfect, it creates an unrealistic expectation.
+
+It's like how the usual self reporting of AP scores in the CS
+communitie unfolded a bunch of times with the only people sharing
+their results were teachers who's students all did well. Given
+national scores, we know that not every student gets a great AP score
+but it created an unrealistic and demotivating picture for teachers in
+the community who's results were more, let's say mixed.
+
+From very early on, I've been pretty comfortable making mistakes in
+front of my classes. I mean, once I got to Stuy, I regularly taught
+students much smarter than I was. I almost always knew more material
+but they could stump me at times and once they dove into the mathy
+side, I was way out of my league. I felt being honest and open was my
+best approach and making mistakes allowed me to model that mistakes
+are part of the process as well as how to proceed. Of course a
+challenge would be recreating the mistake that was organic in period
+two later in the day.
+
+Anyway, since I think my willingness to make mistakes in front of my
+students - my honesty in that regard is part of what made me a strong
+teacher, JCS's comment made me think of Alfred Thompsons recent
+excellent [[https://blog.acthompson.net/2024/12/three-keys-to-being-great-teacher.html][post]] on what turns a good teacher into a great teacher. 
+
+Alfred focused on three things:
+
+ - Relationships with students - they care about their students as people.
+ - They had to be enthusiastic about the subject they teach.
+ - They had to innovate - that is develop their classes over time.
+
+It's a good list. Many great teachers do indeed have these there
+qualities. I think it's worth considering though that while these are
+generally positive teacher attributes, they're not absolutes.
+
+I've met some great teachers and teachers who have been considered to
+be great who don't have these qualities.
+
+While none of the great teachers I know have disdain for their
+students, some don't have any real relationship with them and they
+don't really care about their success outside of them wanting all
+their students to pass their class.
+
+Now, I've built my career on relationships so I never built a wall
+between me and my students and I don't understand teachers that do but
+I do have to recognize that building relationships isn't an absolute
+for one to be a great teacher.
+
+Same with subject enthusiasm. Sure, it probably helps, but again, I've
+met some great teachers who are more or less indifferent. What's
+important is that they have sufficient subject knowledge and it
+probably helps if they also do care about their students so maybe you
+need at least one from column A and one from column B.
+
+Finally, innovation. I always worked to improve and refine my work and
+would probably have gone crazy teaching the same thing in the same way
+for three plus decades but again, I've seen some great teachers who do
+the same thing pretty much the same way year in and year out.
+
+On the flip side, I've seen some lousy teachers who have all three
+of these great teacher qualities. They care, they know their stuff and
+love their subject area, and try new things but they're just not
+particularly good.
+
+JCS's post made me think about this because for me, open honesty was
+helpful in being my strongest teacher self, whatever that was and
+is. I also listened the other day to the most recent CSEd Podcast
+which had a professor sharing a particular practice he uses in
+class. I'm also planning to write a post on that but it also made
+think on how a teachers pedagogical toolbox can also have an affect
+on how "great" a teacher one is.
+
+I guess the moral of the story is that while we can pick out some
+common attributes that many great teachers share, great teaching is
+hard to pin down which is why it's so hard to meaningfully evaluate
+teachers. I guess it's like Justice Potter Stewart's concurring
+opinion on identifying "hard-core" pornography. We might not be able
+to define it but we know it when we see it.
+
+
