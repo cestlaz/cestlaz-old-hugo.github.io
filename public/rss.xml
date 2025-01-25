@@ -6,10 +6,1134 @@
     <description>C&#39;est la Z</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Oct 2024 12:05:37 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jan 2025 15:32:50 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>Making mistakes and what makes a great teacher</title>
+      <link>https://cestlaz.github.io/post/great-teacher/</link>
+      <pubDate>Thu, 09 Jan 2025 15:32:50 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/great-teacher/</guid>
+      <description>&lt;p&gt;
+As he usually does (and of which I&amp;#39;m always appreciative) JCS &lt;a href=&#34;https://irreal.org/blog/?p=12701&#34;&gt;shared&lt;/a&gt;
+my most recent Emacs post in which I go over a small Elisp routine
+that I wrote.&lt;/p&gt;
+&lt;p&gt;
+JCS commented that he liked that I don&amp;#39;t post process or edit my
+videos. I work through whatever I&amp;#39;m doing and if I make a mistake, so
+be it, I&amp;#39;ll try to figure it out live. I do things this way partly
+because of laziness but also because I think the result is more
+authentic. People doing something similar on their own will likely
+make mistakes and if every video and resource they find online is
+perfect, it creates an unrealistic expectation.&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s like how the usual self reporting of AP scores in the CS
+communitie unfolded a bunch of times with the only people sharing
+their results were teachers who&amp;#39;s students all did well. Given
+national scores, we know that not every student gets a great AP score
+but it created an unrealistic and demotivating picture for teachers in
+the community who&amp;#39;s results were more, let&amp;#39;s say mixed.&lt;/p&gt;
+&lt;p&gt;
+From very early on, I&amp;#39;ve been pretty comfortable making mistakes in
+front of my classes. I mean, once I got to Stuy, I regularly taught
+students much smarter than I was. I almost always knew more material
+but they could stump me at times and once they dove into the mathy
+side, I was way out of my league. I felt being honest and open was my
+best approach and making mistakes allowed me to model that mistakes
+are part of the process as well as how to proceed. Of course a
+challenge would be recreating the mistake that was organic in period
+two later in the day.&lt;/p&gt;
+&lt;p&gt;
+Anyway, since I think my willingness to make mistakes in front of my
+students - my honesty in that regard is part of what made me a strong
+teacher, JCS&amp;#39;s comment made me think of Alfred Thompsons recent
+excellent &lt;a href=&#34;https://blog.acthompson.net/2024/12/three-keys-to-being-great-teacher.html&#34;&gt;post&lt;/a&gt; on what turns a good teacher into a great teacher. &lt;/p&gt;
+&lt;p&gt;
+Alfred focused on three things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Relationships with students - they care about their students as people.&lt;/li&gt;
+&lt;li&gt;They had to be enthusiastic about the subject they teach.&lt;/li&gt;
+&lt;li&gt;They had to innovate - that is develop their classes over time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It&amp;#39;s a good list. Many great teachers do indeed have these there
+qualities. I think it&amp;#39;s worth considering though that while these are
+generally positive teacher attributes, they&amp;#39;re not absolutes.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve met some great teachers and teachers who have been considered to
+be great who don&amp;#39;t have these qualities.&lt;/p&gt;
+&lt;p&gt;
+While none of the great teachers I know have disdain for their
+students, some don&amp;#39;t have any real relationship with them and they
+don&amp;#39;t really care about their success outside of them wanting all
+their students to pass their class.&lt;/p&gt;
+&lt;p&gt;
+Now, I&amp;#39;ve built my career on relationships so I never built a wall
+between me and my students and I don&amp;#39;t understand teachers that do but
+I do have to recognize that building relationships isn&amp;#39;t an absolute
+for one to be a great teacher.&lt;/p&gt;
+&lt;p&gt;
+Same with subject enthusiasm. Sure, it probably helps, but again, I&amp;#39;ve
+met some great teachers who are more or less indifferent. What&amp;#39;s
+important is that they have sufficient subject knowledge and it
+probably helps if they also do care about their students so maybe you
+need at least one from column A and one from column B.&lt;/p&gt;
+&lt;p&gt;
+Finally, innovation. I always worked to improve and refine my work and
+would probably have gone crazy teaching the same thing in the same way
+for three plus decades but again, I&amp;#39;ve seen some great teachers who do
+the same thing pretty much the same way year in and year out.&lt;/p&gt;
+&lt;p&gt;
+On the flip side, I&amp;#39;ve seen some lousy teachers who have all three
+of these great teacher qualities. They care, they know their stuff and
+love their subject area, and try new things but they&amp;#39;re just not
+particularly good.&lt;/p&gt;
+&lt;p&gt;
+JCS&amp;#39;s post made me think about this because for me, open honesty was
+helpful in being my strongest teacher self, whatever that was and
+is. I also listened the other day to the most recent CSEd Podcast
+which had a professor sharing a particular practice he uses in
+class. I&amp;#39;m also planning to write a post on that but it also made
+think on how a teachers pedagogical toolbox can also have an affect
+on how &amp;#34;great&amp;#34; a teacher one is.&lt;/p&gt;
+&lt;p&gt;
+I guess the moral of the story is that while we can pick out some
+common attributes that many great teachers share, great teaching is
+hard to pin down which is why it&amp;#39;s so hard to meaningfully evaluate
+teachers. I guess it&amp;#39;s like Justice Potter Stewart&amp;#39;s concurring
+opinion on identifying &amp;#34;hard-core&amp;#34; pornography. We might not be able
+to define it but we know it when we see it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Extracting Emails (with Emacs)</title>
+      <link>https://cestlaz.github.io/post/extracting-emails/</link>
+      <pubDate>Tue, 07 Jan 2025 09:25:00 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/extracting-emails/</guid>
+      <description>&lt;p&gt;
+Yesterday I found myself in a situation where I had a text document
+interspersed with a bunch of email addresses and I wanted to extract
+those email addresses.&lt;/p&gt;
+&lt;p&gt;
+Specifically, I had to copy email addresses from a couple of
+spreadsheets and other sources and I thought it would be faster to
+copy lines form the sheets instead of email cells as well as just
+grabbing text from the other sources and then isolating the email
+addresses in Emacs.&lt;/p&gt;
+&lt;p&gt;
+Now, writing a little &amp;#34;extract emails&amp;#34; script to operate on a text
+file is easy enough. You can search for an email address using a
+regular expression. Regular expressions are a text pattern matching
+language that most programming language support. I used something like
+the following regular expression to identify an email address:&lt;/p&gt;
+&lt;div class=&#34;src src-text&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[a-zA-Z0-9\.]+@[a-zA-Z0-9]+\.[a-zA-Z]{3}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+The first [a-zA-Z0-9\.]+ matches a sequence of one or more characters
+that are letters, numbers or a period (the slash before the period is
+to escape it - prevent using the . for its special regular expression
+meaning). That&amp;#39;s followed by the @ symbol, a second set of characters,
+this time without the period, then a dot and then three more
+characters.&lt;/p&gt;
+&lt;p&gt;
+This will match most email addresses.&lt;/p&gt;
+&lt;p&gt;
+In Clojure, I&amp;#39;d use the function re-seq which would take a string
+(presumably my text file) and return a list of all the matches. That
+is, all the email addresses. I could do the same in Python with
+re.findall.&lt;/p&gt;
+&lt;p&gt;
+In an editor, at least in Emacs, it&amp;#39;s a little trickier. You can
+search for a regular expression but that just finds the next email
+address. I&amp;#39;d then have to manually copy it and then repeat the
+process.&lt;/p&gt;
+&lt;p&gt;
+I guess a keyboard macro could do the trick but easier would be to
+just write an elisp function and extend Emacs.&lt;/p&gt;
+&lt;p&gt;
+The video shows the whole walkthrough but the core of the routine is
+using the &lt;code&gt;search-forward-regexp&lt;/code&gt; function which searches for the next
+occurrence of an email match. I then add that email address to a
+list. Putting it all in a while loop, you get:&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(while (search-forward-regexp regexp &lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (push (match-string-no-properties &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;) matches))&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+The match-string-no-properties grabs the actual text of the match.&lt;/p&gt;
+&lt;p&gt;
+There&amp;#39;s a little more detail but basically I wrote an equivalent of
+re-seq for an Emacs buffer - it grabs everything that matches a
+regular expression and returns all the matches in a list.&lt;/p&gt;
+&lt;p&gt;
+Then, it was a simple matter of looping over that list and inserting
+the results. I ultimately named the routine &lt;code&gt;extract-emails&lt;/code&gt;. So now, I
+can be in any Emacs buffer, copy over all my source email material,
+run the command, and I&amp;#39;ll have all the emails together one per line
+ready to be pasted into an email client.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m thinking that I should probably give the routine an additional
+optional parameter - have it extract emails by default but allow the
+user to pass in any regular expression.&lt;/p&gt;
+&lt;p&gt;
+Just another reason why Emacs is such a powerful editor.&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s the video, enjoy:&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/o2z9SKNVCwk?si=rpUG-hg8KqGoxZxw&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advent of Code  2024</title>
+      <link>https://cestlaz.github.io/post/advent-2024/</link>
+      <pubDate>Thu, 26 Dec 2024 14:30:56 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/advent-2024/</guid>
+      <description>&lt;p&gt;
+Happy holiday season to all.&lt;/p&gt;
+&lt;p&gt;
+Blogging wise, I usually write up a bunch of posts on &lt;a href=&#34;http://adventofcode.com&#34;&gt;Advent of Code&lt;/a&gt; -
+a 25 day programming event where each day a new two part challenge is
+released. It&amp;#39;s been running since 2015 with this being the tenth year.&lt;/p&gt;
+&lt;p&gt;
+Last year I wrote up five days, the year before only two but for 2021
+and 2020 I wrote up around 25 of them. This year, I once again partook
+in the festivities but I haven&amp;#39;t felt motivated to write up posts
+about the days. I still might do some writeups in the comming weeks
+and months since, as always there were many interesting and fun
+problems.&lt;/p&gt;
+&lt;p&gt;
+Still, I thought I&amp;#39;d share at least one post with some overall thoughts.&lt;/p&gt;
+&lt;p&gt;
+This year, I managed to earn all 50 stars - that is both stars on each
+of the twenty five days. I&amp;#39;ve only done that once before -
+in 2020. Looking back, I average 35 stars each year with my highs of
+50 twice (2020, 2024) and lows of 18 in 2017 and 23 in 2018. I might
+go back and start completing more problems. I actually started to
+finish more of the 2015 problems this past month so we&amp;#39;ll see.&lt;/p&gt;
+&lt;p&gt;
+Usually, I start on day 1 and keep going until either life gets in the
+way, the problems get too annoying - you know the solution but just
+don&amp;#39;t have the time or patience to implement whatever algorithm, or
+the problems get too hard, like some of the mathy problems where I
+feel I&amp;#39;m just way underwater. I also don&amp;#39;t do these &amp;#34;closed book.&amp;#34; I
+give them some thought and a shot closed book but I&amp;#39;m fine looking at
+the Advent of Code &lt;a href=&#34;https://www.reddit.com/r/adventofcode/&#34;&gt;subreddit&lt;/a&gt; which is both active and friendly. This
+year, I solved most closed book but there were a few where I got some
+helpful hints and two problems where I got some pretty significant
+help from the reddit.&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s also worth noting that I really hadn&amp;#39;t done any coding since last
+December. Take that for what it&amp;#39;s worth.&lt;/p&gt;
+&lt;p&gt;
+So, here are some thoughts.&lt;/p&gt;
+&lt;p&gt;
+Usually I do AoC using Clojure - basically a Lisp. It&amp;#39;s a fun language to work in and
+&lt;a href=&#34;https://cider.mx/&#34;&gt;Cider&lt;/a&gt;, the Emacs based Clojure editing environment is second to
+none. This year, I solved some in Clojure, some in Python, and many in
+both. I was giving a short talk on AoC in mid December and knew that
+nobody in the audience would have any Clojure or any version of Lisp
+but many would have probably played with Python. So, I coded most
+problems in both. After my talk, I usually went mostly to Clojure but
+a few problems were easier in Python so I went the lazy way.&lt;/p&gt;
+&lt;p&gt;
+That was the interested part - each language lends itself to it&amp;#39;s own
+approach to problem solving. Some AoC problems lend themselves to state
+munging - you&amp;#39;ve got variables representing your things in your
+world. You have to keep changing them and they keep changing each
+other. Since Python started as a quick and dirty scripting language,
+it has an easier time on those types of situations. Clojure&amp;#39;s big
+thing is immutability - once you set a variable you don&amp;#39;t change it.&lt;/p&gt;
+&lt;p&gt;
+On the other hand, Clojure, being functional lends itself to other
+problems.&lt;/p&gt;
+&lt;p&gt;
+After solving a problem, I&amp;#39;d frequently look at other people&amp;#39;s
+solutions to try to learn something and there was frequently a stark
+difference between the Python coders approaches and the Clojure
+programmers. In some cases, it was hard to believe that they solved
+the same problem.&lt;/p&gt;
+&lt;p&gt;
+I also found it hard to context shift as I went from one language to
+another lest I end up writing Python code in Clojure or vice versa.&lt;/p&gt;
+&lt;p&gt;
+This made me think about language choices in education. I&amp;#39;ve written
+about choices for first programming languages before (&lt;a href=&#34;https://cestlaz.github.io/post/first-language/&#34;&gt;here&lt;/a&gt;, &lt;a href=&#34;https://cestlaz.github.io/posts/first-language-changing/&#34;&gt;here&lt;/a&gt;) and
+of course there are also considerations for what to do after that
+first choice.&lt;/p&gt;
+&lt;p&gt;
+This is something I almost certainly plan to write about in the coming
+weeks.&lt;/p&gt;
+&lt;p&gt;
+Another thing that I always like about AoC are range of problems. This
+year there were a bunch of 2D grid pathfinding problems, a couple of
+mathy ones though none that were too hard, one cellular automaton, a
+couple of simulations, and a couple of what I&amp;#39;ll call, problems with a
+non programming twists.&lt;/p&gt;
+&lt;p&gt;
+Those last ones I usually find really interesting although the last
+one from this year - day 24 required me to brush up on things I hadn&amp;#39;t
+looked at in decades and many programmers may never have seen.&lt;/p&gt;
+&lt;p&gt;
+Those are problems where it&amp;#39;s not just &amp;#34;run the program and get the
+result.&amp;#34; It&amp;#39;s more of write a program to get some info, do some stuff
+by hand or by &amp;#34;thinking really hard,&amp;#34; write some more code, back and
+forth and get an answer. I really like these types of problems because
+they come up so frequently in the real world. Maybe not for the
+professional software engineer but in the more general programming
+population. You might not be writing a complete program soup to nuts
+that you can then send to the app store but rather snippets and small
+programs to help you get some job done. Love it.&lt;/p&gt;
+&lt;p&gt;
+Will probably look into that more next year.&lt;/p&gt;
+&lt;p&gt;
+Another thing I&amp;#39;ve been thinking about are people&amp;#39;s motivations. I
+just partake because they&amp;#39;re interesting problems. I&amp;#39;ll learn a bit,
+and it allows me to prove to myself that I haven&amp;#39;t totally lost my
+programming chops. Interesting though, I don&amp;#39;t do these types of
+programming problems during the rest of the year. Others though are
+out for the global leader board - they get the problem when it&amp;#39;s
+released at midnight (Eastern time) an they&amp;#39;re off. In the last couple
+of years though there&amp;#39;s been a problem with people using AI to game
+the leader board. The issue and the range of reactions have been
+pretty interesting.&lt;/p&gt;
+&lt;p&gt;
+Of course on top of these there are the actual problems so maybe
+I&amp;#39;ll write up some of them as well.&lt;/p&gt;
+&lt;p&gt;
+We&amp;#39;ll see but at least if I get motivated to write more, I&amp;#39;ve got
+plenty of blog fodder.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning About Startups at StuyCS</title>
+      <link>https://cestlaz.github.io/post/learning-about-startups/</link>
+      <pubDate>Fri, 13 Dec 2024 15:12:24 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/learning-about-startups/</guid>
+      <description>&lt;p&gt;
+Most students who study CS in college plan to go into industry in one
+manner or another. Unfortunately most college CS programs are still
+designed with the assumption that all undergraduate CS majors want to
+pursue a PhD. I&amp;#39;ve addressed this periodically here and that&amp;#39;s not the
+focus for today.&lt;/p&gt;
+&lt;p&gt;
+Of those who want to enter industry, it seems a fair number are
+interested in the startup ecosystem - they want to either be part of a
+startup - a small agile effort that they hope can change the world or
+even start their own company. Some eventually also want to turn
+towards venture capital.&lt;/p&gt;
+&lt;p&gt;
+Now, if college does a less then ideal job preparing CS majors
+specifically for industry, they do less ideal job preparing them to
+launch a startup. Before going further, I don&amp;#39;t want to be unfair - a
+number of institutions are making efforts to modernize their
+undergraduate CS programs and a number of them are doing great jobs -
+offering courses in software engineering, teaching the &amp;#34;hidden
+curriculum&amp;#34; and integrating modern software engineering sensibilities
+like unit testing into core CS classes but change in academia is slow.&lt;/p&gt;
+&lt;p&gt;
+On the startup side, things are even further behind. There are a
+number of boutique masters programs in &amp;#34;tech entrepreneurship&amp;#34; that
+have popped up but financial aid can be sparse so many are, like code
+schools, workforce programs for the rich. For many of the programs I
+know of, I&amp;#39;m not sold on the quality. Some are good, many are meh.&lt;/p&gt;
+&lt;p&gt;
+In undergrad, if you&amp;#39;re a CS major you&amp;#39;re not really going to learn
+about startups and the startup ecosystem. I supposed if you&amp;#39;re a
+business major you might, but then you won&amp;#39;t develop the tech skills.&lt;/p&gt;
+&lt;p&gt;
+Since retiring, I&amp;#39;ve started to work more closely with the Stuyvesant
+Alumni Association and I&amp;#39;ve always had a tight bond with my former
+students and I wanted to do something to start to address this
+problem.&lt;/p&gt;
+&lt;p&gt;
+Last night was the first step. It was only a single small firs step,
+but it&amp;#39;s something.&lt;/p&gt;
+&lt;p&gt;
+In partnership with Stuy&amp;#39;s Alumni Association, we put on an
+event. First I reached out to my grads and asked for both founders and
+funders. People who&amp;#39;ve started a company and successfully raised money
+for it and people who&amp;#39;ve selected promising startups and provided said
+funds.&lt;/p&gt;
+&lt;p&gt;
+Since it&amp;#39;s the holiday season, a number of my New York VCs couldn&amp;#39;t
+make it as they had other holiday events to attend but we had a solid
+dozen volunteers available and I&amp;#39;m sure I could have gotten more if I
+had worked at it.&lt;/p&gt;
+&lt;p&gt;
+Then we had the attendees. I thought the event would mostly appeal to
+younger Stuy grads. Those in college and a bit beyond but there was a
+pretty wide spread of ages and even a number of current Stuy students.&lt;/p&gt;
+&lt;p&gt;
+We split them up at tables, gave the funders and founders some loose
+guidelines to follow - key points to address and let the founders and
+funders lead small group conversations. We also had open mixing and
+networking before and after the small table discussions.&lt;/p&gt;
+&lt;p&gt;
+While I&amp;#39;m still collecting feedback, overall I think the event went
+really well. People got to learn about the startup journey, some
+specifics from specific stories, got advice from knowledgable people
+who&amp;#39;ve both been there and done that and walked away with some new
+connections.&lt;/p&gt;
+&lt;p&gt;
+It wasn&amp;#39;t perfect. It would be better if we had more balance between
+founders and funders - we had 2/3 or 3/4 founders and a 50/50 mix
+would have been better. Reshuffling the tables would also have been a
+good idea but, overall a success.&lt;/p&gt;
+&lt;p&gt;
+One thing that I really love about the StuyCS community is that we can
+do these events on almost any tech topic and really, many other topics
+as well. Last year I wanted to pull together an AI panel and instantly
+had far too many volunteers for panelists. This time, founder and
+funders and again no problem.&lt;/p&gt;
+&lt;p&gt;
+Now the next step is to refine this event and figure out follow ups as
+well as other future events.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The New Entry Level</title>
+      <link>https://cestlaz.github.io/post/the-new-entry-level/</link>
+      <pubDate>Mon, 09 Dec 2024 15:20:32 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/the-new-entry-level/</guid>
+      <description>&lt;p&gt;
+Over in Facebook&amp;#39;s Computer Science Educators group there was an
+article posted on CS grads going back for a &amp;#34;panic&amp;#34; master&amp;#39;s degree
+since the job market isn&amp;#39;t terrific. Now, going for more education, at
+least for those who can afford it has been a tried and true practice
+in weaker job markets. If you look at my former students with Masters
+degrees you&amp;#39;ll certainly notice clusters around bad times in tech
+hiring.&lt;/p&gt;
+&lt;p&gt;
+What this post is about though, is one of the comments. On of my CS Ed
+brethren commented on how companies are looking for more mid-level
+experience and abilities out of college and not entry level. &lt;/p&gt;
+&lt;p&gt;
+Now, I&amp;#39;ve long been one who&amp;#39;s felt that we can do a better job
+preparing out students for industry from undergraduate CS programs. I
+don&amp;#39;t want undergrad programs to become code schools - they still need
+to teach real CS - enough algorithms, data structure,s theory and all
+but there are some easy changes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use industry standard tools when appropriate - version control for
+example.&lt;/li&gt;
+&lt;li&gt;Teach things like unit testing.&lt;/li&gt;
+&lt;li&gt;Make sure students complete some large group projects, preferably
+prior to their senior year.&lt;/li&gt;
+&lt;li&gt;Use techniques like code review.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These and other techniques and tools can easily be integrated into a
+CS sequence without removing any of the good stuff.&lt;/p&gt;
+&lt;p&gt;
+That said, I don&amp;#39;t think we should be bowing to industry if they
+demand more mid-level ready college graduates.&lt;/p&gt;
+&lt;p&gt;
+Let&amp;#39;s look at what industry had been demanding from their college
+grads over the past twenty years. Even if we just limit our view to
+the &amp;#34;good times&amp;#34; when &amp;#34;everyone was hiring&amp;#34; the typical entry level
+hire had a CS degree along with one or two internships. How much more
+can undergrad institutions actually do?&lt;/p&gt;
+&lt;p&gt;
+Even back then, the Googles of the world largely recruited from
+&amp;#34;elite&amp;#34; institutions and when they said &amp;#34;entry level&amp;#34; they really
+meant that you went to Carnegie Mellon or MIT, taught yourself all the
+stuff from the unwritten curriculum, and had a couple of killer
+internships.&lt;/p&gt;
+&lt;p&gt;
+In any event, once you got a job, you then might get some amount of ramp
+up - an in company bootcamp if the company was large enough or it
+might just be a helpful co-worker at a smaller company. Now, those
+company bootcamps also seem to be disappearing or at least becoming
+shorter and shorter.&lt;/p&gt;
+&lt;p&gt;
+Companies deciding they want more &amp;#39;mid-level&amp;#39; ready new hires is just
+the next step in companies abandoning any responsibility to the tech
+ecosystem in terms of job preparation. &lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m not surprised.&lt;/p&gt;
+&lt;p&gt;
+About ten years ago I was speaking with a friend who was the CTO of
+what I guess I&amp;#39;ll call a small large company. Multiple offices,
+multiple cities, but nothing like Meta or Microsoft in terms of number
+of employees. We were talking about internships. I asked him what his
+rate of return offers was and he gave me a number that I thought was
+low. He commented that he just couldn&amp;#39;t hire that many but felt it was
+the companies responsibility to the tech ecosystem to have a robust
+internship program where college students could gain valuable
+experience and get paid a good summer salary.&lt;/p&gt;
+&lt;p&gt;
+Since then, I&amp;#39;ve spoken to a number of people in the industry but
+unfortunately, only a few understand that having an education, robust,
+internship program should be a companies responsibility not only for
+hiring their own employees but also to help bolster the tech workforce
+in general. A few got it, a few talked the talk as though they got it
+but their actions, or rather their company&amp;#39;s actions spoke otherwise
+and to far too many, the idea of having an internship program as
+anything other than a direct recruiting tool had never crossed their
+minds.&lt;/p&gt;
+&lt;p&gt;
+Of course, in the most recent tech crunch, internships dried up. Never
+mind that companies like Google weren&amp;#39;t losing money, they were only
+making less than before - one of the first things cut was this
+important piece of the tech education pipeline accompanied by a
+request for &amp;#39;better prepared more mid-level ready&amp;#39; candidates.&lt;/p&gt;
+&lt;p&gt;
+All this made me think back to when I got out of college. We didn&amp;#39;t
+have a tech scene per se, but companies expected college grads to be
+raw. They trained them regardless of the job. I forget how long my
+training program at Goldman Sachs was but it was long. It covered the
+business side and the tech side. They taught the languages we were
+expected to use - generally C or Cobol and the platforms we were going
+to work on. Once we were in our groups, if we needed more training, we
+got it. I ended up doing Windows programming so my manager made sure I
+had whatever I needed to get up to speed.&lt;/p&gt;
+&lt;p&gt;
+Other companies had even longer and more thorough programs. Many also
+had rotational programs - you got your training then you did
+rotations - multiple weeks or months even with different groups to find the best
+fit.&lt;/p&gt;
+&lt;p&gt;
+Over the years, companies have abdicated more and more responsibility
+for employee training and society has decided that responsibility
+falls on the schools - both K12 and higher ed.&lt;/p&gt;
+&lt;p&gt;
+This is neither sustainable nor healthy which is why I feel push back
+against the &amp;#34;mid-level ready&amp;#34; employee right out of college is both
+appropriate and needed. Unfortunately corporate America holds a lot of
+influence so I&amp;#39;m not sure how effective any push back will be. Those
+grads will still need jobs and who&amp;#39;s more likely to blink first - the
+educators or the corporate execs?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Evolving As A Teacher</title>
+      <link>https://cestlaz.github.io/post/evolving-as-a-teacher/</link>
+      <pubDate>Fri, 22 Nov 2024 15:18:28 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/evolving-as-a-teacher/</guid>
+      <description>&lt;p&gt;
+Over the past couple of months I&amp;#39;ve had a number of interactions with
+former students. A fourth of July celebration with some of my first
+students, a bunch of dinners dinners and a couple of alumni events.&lt;/p&gt;
+&lt;p&gt;
+It got me thinking that while I was the same person and same teacher
+for all of them, I was also a different person and teacher.&lt;/p&gt;
+&lt;p&gt;
+We all evolve over time.&lt;/p&gt;
+&lt;p&gt;
+One particular conversation made me think. I was talking
+to one of my earlier but not earliest grads. Someone who graduated
+within my first decade my career - a number of years that based on
+my scale would place me as moving out form advanced beginner and
+into intermediate level as a teacher. Devorah and I were getting
+dinner with this former student, who I now consider a friend, and his
+partner. He was talking about the stress levels and impersonally and
+large schools like Stuyvesant and in fact in many large public
+schools. Something I agreed with. He also spoke about his college
+choice. He was and is a really smart guy and had strong grades but he
+didn&amp;#39;t want to go to a school like CMU or MIT since he thought they
+would be the same type of big machine hyper competitive education
+complex that some people perceived Stuy to be and so opted for another
+top CS school that he felt would be more chill.&lt;/p&gt;
+&lt;p&gt;
+All of this got me thinking. At that stage of my career, I was still
+enamored with my students all getting in to top name schools. I was
+patting myself on the back when my students hyper achieved and I was
+designing experiences for the top of the class.&lt;/p&gt;
+&lt;p&gt;
+Now, I didn&amp;#39;t know it, but I would evolve. A few year later, I would
+refocus on all students designing my intro course and pushing the city
+for CS Education for everyone. I also became more aware on the college
+front. Whereas I don&amp;#39;t think I advised this student particularly well,
+if at all back when he was a senior but a few years later, I would
+probably have tried to get some small liberal arts schools with great
+CS onto his radar. I learned that you can do just as well at a Tufts
+as a CMU or similarly a Stony Brook or a Hunter college, where I&amp;#39;d
+later end up teaching. I learned it was about fit not about ranking. &lt;/p&gt;
+&lt;p&gt;
+Later, as I got older, I&amp;#39;d also evolve in terms of my perception of
+students needs. Back then, I don&amp;#39;t think I did a particularly good job
+curating my class or my office suite for culture. Sure, we had a fun
+quirky tech culture going on but I&amp;#39;m talking about a comfort zone for
+students. Later in my career, I heard back from a number of former
+students who thanked me for making my classroom or my office suite a
+&amp;#34;safe space&amp;#34; for them. I didn&amp;#39;t think I explicitly did anything
+special other than try to be a decent human being but I think it was
+also part of my evolution as a teacher. Something I didn&amp;#39;t know to pay
+attention to in the early years but fortunately something changed at
+some point so I did better as I gained more experience.&lt;/p&gt;
+&lt;p&gt;
+All this is to say that on some levels I was always the same teacher
+but we do change for better or worse. It makes sense. When I started I
+was only a few years older than my students. In fact, I had a couple
+at Seward who were piratically my age. I could be viewed as
+practically a peer or an older brother. By the end, I was older than
+my students parents.&lt;/p&gt;
+&lt;p&gt;
+The funny thing is that while looking back I can clearly see how I
+changed as an educator, for years I had my students evaluate me
+anonymously and my ratings decade in and decade out were pretty
+consistent. At the same time, my results, however you measure them,
+also remained pretty much the same as did, at least to my perception,
+my rapport with students and former students.&lt;/p&gt;
+&lt;p&gt;
+All of this is neither here nor there but it&amp;#39;s something to think
+about and I encourage long term educators to look at their own careers
+and see how they&amp;#39;ve evolved.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Blue Sky</title>
+      <link>https://cestlaz.github.io/post/blue-sky/</link>
+      <pubDate>Mon, 18 Nov 2024 11:23:53 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/blue-sky/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Blue skies smiling at me
+Nothing but blue skies do I see&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+Last week, &lt;a href=&#34;https://bsky.app/&#34;&gt;Bluesky&lt;/a&gt; seemed to really take off.  What&amp;#39;s Bluesky? The
+simplest answer is that it&amp;#39;s another possible Twitter, or do I have to
+say X, alternative.&lt;/p&gt;
+&lt;p&gt;
+Like many others, I left Twitter shortly after Musk took
+over. Actually, I just stopped using it. I didn&amp;#39;t actually deactivate
+my account until relatively recently but other than logging on to do
+that, I hadn&amp;#39;t been on Twitter since late 2022 or so.&lt;/p&gt;
+&lt;p&gt;
+While Twitter has certainly gone to pot, prior to Musk&amp;#39;s takeover, it
+filled a particular niche in social media. Facebook was for people you
+knew. Instagram for photos. Linkedin for jobs so not much general
+social discourse going on there and then there were other things like
+Tumblr, Whatsapp, Pinterest, Snapchat and more. I&amp;#39;m not listing Reddit
+since I view that more as a modern day Usenet replacement and things
+like Discord and Slack are also separate beasts.&lt;/p&gt;
+&lt;p&gt;
+Twitter was more discoverable and open than Faceook - you didn&amp;#39;t have to be
+&amp;#34;friends&amp;#34; to read or partake in a conversation and as a result, there
+was a different type of discourse. It also was more suitable for live
+conversations, similar to Slack or Discord based on hashtags.&lt;/p&gt;
+&lt;p&gt;
+Twitter was also good for aggregating news, or at least types of news
+(before things got bad).&lt;/p&gt;
+&lt;p&gt;
+Finally, Twitter became in many instances, at least for me, the last
+line of customer support. When you couldn&amp;#39;t resolve a customer issue
+with a company in spite of hours on hold and speaking with people in
+call centers from around the world, a well placed tweet would often
+get results.&lt;/p&gt;
+&lt;p&gt;
+Post the Musk acquisition, Twitter went south fast and up until now,
+nothing has really filled the void.&lt;/p&gt;
+&lt;p&gt;
+Facebook continued to have its Facebook problems - closed silo, not
+very discoverable, and of course, you&amp;#39;re subject to the whims of a
+different billionaire owner.&lt;/p&gt;
+&lt;p&gt;
+Linedkin? As I said, that&amp;#39;s for jobs although I did notice an uptick
+in traffic on my feeds post the first Twitter exodus right after the
+takeover.&lt;/p&gt;
+&lt;p&gt;
+A few contenders have popped up. An early one was &lt;a href=&#34;https://mastodon.social/explore&#34;&gt;Mastodon&lt;/a&gt;. I really
+wanted to like Mastodon and I do. From a user point of view, it looks
+and acts similar to Twitter but it&amp;#39;s open source and can be self
+hosted. Both big pluses for me. It also uses an open protocol -
+federated which, in theory lets it play nicely with other federated
+platforms.&lt;/p&gt;
+&lt;p&gt;
+The trouble was and is that because it&amp;#39;s distributed you have an
+account on a particular server. Sure, you can follow people on other
+servers but finding them and dealing with the whole distributed thing
+is just a little to much for the non techie user. So, in the end, it
+seems to be ending up as small closed twitter like groups of technical
+people. I&amp;#39;m on Mastodon as @zamansky@csed.social and will probably
+stay on the platform but I haven&amp;#39;t seen much life there.&lt;/p&gt;
+&lt;p&gt;
+Another one that had promise or at least backing has been Threads
+which is Meta&amp;#39;s answer to Twitter. Again, the look is similar to
+Twitter but it has the huge advantage of preseeding your account with
+your contacts and everyone on Facebook could get on with a click. It
+was trivial to hit the ground running with Threads whereas on Mastodon
+you had to build your network one account at a time.&lt;/p&gt;
+&lt;p&gt;
+On the downside, it really just feels like a more general Facebook
+feed. Lots of posting, little conversation (at least from what I can
+see) and again, another platform controlled by a different
+Billionaire.&lt;/p&gt;
+&lt;p&gt;
+Bluesky has been another contender and the one showing the most
+promise. It grew out of twitter but has spun off and is it&amp;#39;s own
+public benefit corporation - no affiliation with Twitter or Musk. Like
+Mastodon, it&amp;#39;s distributed, uses an open protocol and has open sourced
+it&amp;#39;s apps. Unlike Mastodon, it uses a single entry point so you don&amp;#39;t
+have to figure out who&amp;#39;s on which server.&lt;/p&gt;
+&lt;p&gt;
+I got an invite back in June 2023 - shortly after Blusky&amp;#39;s launch but
+things were pretty quiet. I checked back periodically but never
+noticed much growth.&lt;/p&gt;
+&lt;p&gt;
+That all changed about a week ago. Suddenly Bluesky became very hot
+and tons of old Twitter contacts started appearing. Bluesky also seems
+to be kickstarting the onboarding and finding people problem through
+the use of what they call [[&lt;a href=&#34;https://blueskydirectory.com/starter-packs/all&#34;&gt;https://blueskydirectory.com/starter-packs/all&lt;/a&gt;
+][Starter Packs]]. I&amp;#39;m also starting to see news outlets and companies
+on the platform.&lt;/p&gt;
+&lt;p&gt;
+Will Bluesky ultimately be the Twitter replacement people have been
+looking for? I don&amp;#39;t know but it&amp;#39;s the most promising one so far.&lt;/p&gt;
+&lt;p&gt;
+So, if you haven&amp;#39;t yet, check it out. I&amp;#39;m there as
+@zamansky.bsky.social and if you know some great people to follow or
+any great lists in the CS Ed space or NY Tech scene, let me know.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Back to Amsterdam</title>
+      <link>https://cestlaz.github.io/post/amsterdam-2024/</link>
+      <pubDate>Tue, 05 Nov 2024 10:10:17 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/amsterdam-2024/</guid>
+      <description>&lt;p&gt;
+We finished up the trip with a few days in Amsterdam. Sitting in our
+hotel now writing this post and trying not to stress out over the
+elections until it&amp;#39;s time for dinner.&lt;/p&gt;
+&lt;p&gt;
+Getting to town was a little hectic. Turns out there was a train with
+some mechanical issues on the line so two thirds of the trains into
+Amsterdam from Leiden were crowded. It only slowed us down by about a
+half hour but it was a little hectic and much more crowded than I
+would have liked.&lt;/p&gt;
+&lt;p&gt;
+Since we had most of the day, after dropping our bags at the hotel we
+explored one of Amsterdam&amp;#39;s street markets. The &lt;a href=&#34;https://www.iamsterdam.com/en/whats-on/calendar/shopping/markets/ten-katemarkt&#34;&gt;Ten Katemarkt&lt;/a&gt; in
+particular. &lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam2/market.jpg&#34; alt=&#34;/img/amsterdam2/market.jpg&#34; title=&#34;/img/amsterdam2/market.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+Of course, Devorah wasted no time in finding yarn and fabric
+stores.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam2/fabric.jpg&#34; alt=&#34;/img/amsterdam2/fabric.jpg&#34; title=&#34;/img/amsterdam2/fabric.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+A Dutch specialty appears to be Speculoos cookies - think Biscoff
+cookies you get on planes. One particular version is the Gevulde
+Speculaas which is an almond paste filled version. We got a
+particularly tasty one at the market.&lt;/p&gt;
+&lt;p&gt;
+We spent the rest of the day wandering through the city, through
+Voldelpark and eventually getting back to our hotel.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam2/vondelpark.jpg&#34; alt=&#34;/img/amsterdam2/vondelpark.jpg&#34; title=&#34;/img/amsterdam2/vondelpark.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+Had dinner at the &lt;a href=&#34;https://www.blinqueen.com/&#34;&gt;Blin Queen&lt;/a&gt; which is a pancake restaurant by day and
+a really nice dinner restaurant in the evenings though we did get a
+great pancake there for dessert.&lt;/p&gt;
+&lt;p&gt;
+Next day was another walking tour. It was a bit of a
+disappointment. It randomly turned out to be the same tour guide as
+the one Batya and I toured with last year and then he was great. This
+time, not so much. I&amp;#39;d like to attribute it to just a bad day. In the
+afternoon we hit the &lt;a href=&#34;https://www.iamsterdam.com/en/whats-on/calendar/shopping/markets/albert-cuypmarkt&#34;&gt;Albert Cyupmarkt&lt;/a&gt; - Amsterdam&amp;#39;s largest street
+market. Also great stuff there. I think visiting the two markets were
+the highlights of the trip.&lt;/p&gt;
+&lt;p&gt;
+To close the day we found Amsterdam&amp;#39;s Beguinage:&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam2/beguinage.jpg&#34; alt=&#34;/img/amsterdam2/beguinage.jpg&#34; title=&#34;/img/amsterdam2/beguinage.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam2/beguinage2.jpg&#34; alt=&#34;/img/amsterdam2/beguinage2.jpg&#34; title=&#34;/img/amsterdam2/beguinage2.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+Though here it&amp;#39;s called a &lt;a href=&#34;https://en.wikipedia.org/wiki/Begijnhof,_Amsterdam&#34;&gt;Begijnhof&lt;/a&gt;. We noticed it on Google maps and
+decided to check it out.&lt;/p&gt;
+&lt;p&gt;
+Next up, museum day. First back to the Rijksmuseum which is truly
+amazing and then an afternoon canal boat tour with Those Dam Boat Guys
+which was fun.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam2/rijks.jpg&#34; alt=&#34;/img/amsterdam2/rijks.jpg&#34; title=&#34;/img/amsterdam2/rijks.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+Between the two activities we went to &lt;a href=&#34;https://www.decarrouselpannenkoeken.nl/en/&#34;&gt;The Carrousel Pancake House&lt;/a&gt; -
+recommended last year by a friend.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam2/pancake.jpg&#34; alt=&#34;/img/amsterdam2/pancake.jpg&#34; title=&#34;/img/amsterdam2/pancake.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+That brought us to yesterday morning when we visited the Ann Frank
+House. We also did the introductory program. Both were very
+impactful. Walking though the house and going up to the secret annex
+you can&amp;#39;t help but get emotional.&lt;/p&gt;
+&lt;p&gt;
+We also ended up randomly finding our way to the Netherlands National
+Holocaust Memorial which was also moving.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam2/memorial.jpg&#34; alt=&#34;/img/amsterdam2/memorial.jpg&#34; title=&#34;/img/amsterdam2/memorial.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+And finished out the day in the Amsterdam Museum.&lt;/p&gt;
+&lt;p&gt;
+Today&amp;#39;s our last day in Amsterdam - we&amp;#39;re flying home tomorrow
+morning. Our first visit today was the Straat museum.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam2/straat.jpg&#34; alt=&#34;/img/amsterdam2/straat.jpg&#34; title=&#34;/img/amsterdam2/straat.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+A really cool place. We had to take a ferry from Amsterdam Centraal to
+get there but it was a nice ride and free. The museum is dedicated to
+street art and you just get consumed being surrounded by all these
+giant pieces. Really great museum.&lt;/p&gt;
+&lt;p&gt;
+Last up was the H&amp;#39;Art museum for an exhibition of Kadinsky&amp;#39;s work on
+loan from the Pompidou Center. Lots of great works but what got me
+were his earlier non abstract works. I had no idea he started with
+stuff like that. &lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/amsterdam2/kandinsky.jpg&#34; alt=&#34;/img/amsterdam2/kandinsky.jpg&#34; title=&#34;/img/amsterdam2/kandinsky.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+Now all that&amp;#39;s left is a dinner, a breakfast and a long flight. It&amp;#39;s
+been a great trip but I&amp;#39;m looking forward to getting home.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Antwerp Rotterdam Leiden</title>
+      <link>https://cestlaz.github.io/post/antwerp-rotterdam-leiden/</link>
+      <pubDate>Thu, 31 Oct 2024 14:35:10 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/antwerp-rotterdam-leiden/</guid>
+      <description>&lt;p&gt;
+Before heading off to the Netherlands we had one more day in
+Belgium. In Antwerp Specifically.&lt;/p&gt;
+&lt;p&gt;
+We stayed one night right across from the railway station which is
+particularly magnificent.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/antwerp-rotterdam-leiden/antwerp-train.jpg&#34; alt=&#34;/img/antwerp-rotterdam-leiden/antwerp-train.jpg&#34; title=&#34;/img/antwerp-rotterdam-leiden/antwerp-train.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+First stop, the Plantin Moretus Museum. This museum focuses on two
+16th century printers - Christophe Plantin and Jan Moretus. The
+museum, which is  based in their homes and printing business covers
+the history of the family, the evolution of their printing business
+and the industry in general as well as the development of
+technology. It also focused on some of their primary industries -
+religious texts, science, and maps. Really amazing place.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/antwerp-rotterdam-leiden/print1.jpg&#34; alt=&#34;/img/antwerp-rotterdam-leiden/print1.jpg&#34; title=&#34;/img/antwerp-rotterdam-leiden/print1.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/antwerp-rotterdam-leiden/planter-garden.jpg&#34; alt=&#34;/img/antwerp-rotterdam-leiden/planter-garden.jpg&#34; title=&#34;/img/antwerp-rotterdam-leiden/planter-garden.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/antwerp-rotterdam-leiden/presses.jpg&#34; alt=&#34;/img/antwerp-rotterdam-leiden/presses.jpg&#34; title=&#34;/img/antwerp-rotterdam-leiden/presses.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/antwerp-rotterdam-leiden/lib.jpg&#34; alt=&#34;/img/antwerp-rotterdam-leiden/lib.jpg&#34; title=&#34;/img/antwerp-rotterdam-leiden/lib.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/antwerp-rotterdam-leiden/lib2.jpg&#34; alt=&#34;/img/antwerp-rotterdam-leiden/lib2.jpg&#34; title=&#34;/img/antwerp-rotterdam-leiden/lib2.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/antwerp-rotterdam-leiden/atlas.jpg&#34; alt=&#34;/img/antwerp-rotterdam-leiden/atlas.jpg&#34; title=&#34;/img/antwerp-rotterdam-leiden/atlas.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+After lunch we visited the Red Star Line museum.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/antwerp-rotterdam-leiden/red-star.jpg&#34; alt=&#34;/img/antwerp-rotterdam-leiden/red-star.jpg&#34; title=&#34;/img/antwerp-rotterdam-leiden/red-star.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+This  was basically an immigrant experience museum. We&amp;#39;ve gone to tons
+of these in the states but it was pretty interesting to see learn
+about the story from the other side of the Atlantic where so many of
+the journeys originated.&lt;/p&gt;
+&lt;p&gt;
+The next morning we were off to Rotterdam.&lt;/p&gt;
+&lt;p&gt;
+We spent the morning at hte Boijmans art depot. They store thousands
+of works of art and many are on display but there are no descriptive
+plaques or anything, just the art.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/antwerp-rotterdam-leiden/boijmans.jpg&#34; alt=&#34;/img/antwerp-rotterdam-leiden/boijmans.jpg&#34; title=&#34;/img/antwerp-rotterdam-leiden/boijmans.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+In one room we saw master after master - Money, Van Gogh, Bosch,
+Rembrant and so many more one after another.  Also, tons of more
+modern works.&lt;/p&gt;
+&lt;p&gt;
+A really amazing place.&lt;/p&gt;
+&lt;p&gt;
+Between the two we got lunch in their Markthal - a neat food hall set
+up with an archaeological exhibit. A couple of blocks away outside
+they also had an urban surfing pool.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/antwerp-rotterdam-leiden/surfing.jpg&#34; alt=&#34;/img/antwerp-rotterdam-leiden/surfing.jpg&#34; title=&#34;/img/antwerp-rotterdam-leiden/surfing.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+Next was Leiden which was mostly a Devorah day.&lt;/p&gt;
+&lt;p&gt;
+We did hit the Windmill museum which was pretty cool. We got to climb
+up a working windmill, learn about it and also the local history. &lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/antwerp-rotterdam-leiden/windmill.jpg&#34; alt=&#34;/img/antwerp-rotterdam-leiden/windmill.jpg&#34; title=&#34;/img/antwerp-rotterdam-leiden/windmill.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+We also hit a number of fabric and textile places starting with the
+Textile Research Center where they had an exhibit Shisha embroidery
+and also showed us a bit of their archives in the back&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/antwerp-rotterdam-leiden/trc.jpg&#34; alt=&#34;/img/antwerp-rotterdam-leiden/trc.jpg&#34; title=&#34;/img/antwerp-rotterdam-leiden/trc.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+We also hit the Weaver House - a house from the 1500s still
+preserved. It housed poor families - mostly weavers throughout its
+history. The walls had a list of all the inhabitants. &lt;/p&gt;
+&lt;p&gt;
+We learned of the house&amp;#39;s history and saw weaving demo. One of the
+docent&amp;#39;s recommended we then visit the headquarters of the Leidse
+Deken - a group working on raising awareness of the history of
+Leiden&amp;#39;s artisinal blanket making industry as well as bringing it
+back. We wandered in, went up the stairs, and introduced ourselves. We
+got the grand tour.&lt;/p&gt;
+&lt;p&gt;
+They told us about their mission, how they created the blankets from
+shorn sheep to end product and showed us around. Lots of cool looms,
+spinning wheels, and even a weaving machine that was pedal powered.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/antwerp-rotterdam-leiden/blankets.jpg&#34; alt=&#34;/img/antwerp-rotterdam-leiden/blankets.jpg&#34; title=&#34;/img/antwerp-rotterdam-leiden/blankets.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/antwerp-rotterdam-leiden/looms.jpg&#34; alt=&#34;/img/antwerp-rotterdam-leiden/looms.jpg&#34; title=&#34;/img/antwerp-rotterdam-leiden/looms.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/antwerp-rotterdam-leiden/bike-loom.jpg&#34; alt=&#34;/img/antwerp-rotterdam-leiden/bike-loom.jpg&#34; title=&#34;/img/antwerp-rotterdam-leiden/bike-loom.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+Our one additional stop was at the American Pilgrims Museum which was
+interesting. It was actually a split house museum  a house that has
+been preserved through the ages. Half was as it was in the thirteen
+hundreds and the other half, in the sixteen and seventeen
+hundreds. There wasn&amp;#39;t any evidence that any Pilgrims that would later
+sail to America actually lived there but the house was typical of the
+period when the Pilgrims were living in Leiden en route to America.&lt;/p&gt;
+&lt;p&gt;
+Overall a very interesting day.&lt;/p&gt;
+&lt;p&gt;
+We finished things off with an Indonesian meal. Tomorrow we&amp;#39;re off to
+Amsterdam for the last leg of our trip.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Belgium 2024</title>
+      <link>https://cestlaz.github.io/post/belgium-2024/</link>
+      <pubDate>Tue, 29 Oct 2024 02:40:17 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/belgium-2024/</guid>
+      <description>&lt;p&gt;
+After Paris, we spent a few days in Belgium. We have a friend there -
+Helen, who teaches at the International School. Helen and Devorah
+taught together at the Manhattan Center for Science and Math back in
+the day and while I got to see Helen on my last visit here with Batya
+last year, Devorah hasn&amp;#39;t seen her for almost a decade.&lt;/p&gt;
+&lt;p&gt;
+This was more of a visiting part of our trip than a run around like
+chickens without heads touring part but we still got in some good
+stuff.&lt;/p&gt;
+&lt;p&gt;
+Helen lives in the Laeken suberb of Brussels so we spent time just
+wandering there.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/belgium/bockstael.jpg&#34; alt=&#34;/img/belgium/bockstael.jpg&#34; title=&#34;/img/belgium/bockstael.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+Had dinner at the Atomium - built for the 1958 world&amp;#39;s fair. The top
+sphere houses a restaurant while the others have various exhibits. &lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/belgium/atomium-day.jpg&#34; alt=&#34;/img/belgium/atomium-day.jpg&#34; title=&#34;/img/belgium/atomium-day.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/belgium/atomium-night.jpg&#34; alt=&#34;/img/belgium/atomium-night.jpg&#34; title=&#34;/img/belgium/atomium-night.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+The restaurant&amp;#39;s way up to so we got some cool views. Not at dinner
+mind you - we were on the upper level of the top sphere which doesn&amp;#39;t
+have views but we were able to go down to the level with windows and
+walk around.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/belgium/shep-pie.jpg&#34; alt=&#34;/img/belgium/shep-pie.jpg&#34; title=&#34;/img/belgium/shep-pie.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+The meal was tasty but the restaurant was uncomfortably warm and
+apparently half the waitstaff called in sick so service wasn&amp;#39;t
+great. There was only one guy handling our entire level and he was
+running around frantically all evening trying to keep up. Felt bad for him.x&lt;/p&gt;
+&lt;p&gt;
+We did also, though go to the inner city and do a walking tour.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/belgium/grand-place.jpg&#34; alt=&#34;/img/belgium/grand-place.jpg&#34; title=&#34;/img/belgium/grand-place.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+Next day we explored Anderlecht, another essentially, borough of
+Brussels. We went to see the &lt;a href=&#34;https://en.wikipedia.org/wiki/Beguinage&#34;&gt;Beguinage&lt;/a&gt; there. Basically a housing
+complex for lay religious women.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/belgium/anderlecht.jpg&#34; alt=&#34;/img/belgium/anderlecht.jpg&#34; title=&#34;/img/belgium/anderlecht.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+The Beguinage was closed but we did get to a library that was
+exhibiting a local artist&amp;#39;s watercolor work and Devorah found a fabric
+store.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/belgium/fabric.jpg&#34; alt=&#34;/img/belgium/fabric.jpg&#34; title=&#34;/img/belgium/fabric.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+The highlight was the Erasmus house. Completed in 1515, Desiderius
+Erasmus Roterodamus, or Erasmus of Rotterdam lived there briefly and
+the building is now a museum dedicated to his work. Really interesting
+stuff.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/belgium/erasmus.jpg&#34; alt=&#34;/img/belgium/erasmus.jpg&#34; title=&#34;/img/belgium/erasmus.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+Final day in Belgium was a visit to Brugges.&lt;/p&gt;
+&lt;p&gt;
+The reason for the visit was to see the lace center.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/belgium/lace1.jpg&#34; alt=&#34;/img/belgium/lace1.jpg&#34; title=&#34;/img/belgium/lace1.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/belgium/lace2.jpg&#34; alt=&#34;/img/belgium/lace2.jpg&#34; title=&#34;/img/belgium/lace2.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+Devorah used to make lace - mostly bobbin lace before we had kids but
+lace making and small children do not mix so she stopped. Now with the
+kids grown she plans to start again and add to her set of hobbies -
+sewing, knitting, spinning, and weaving. She&amp;#39;s wanted to check out the
+lace center for years.&lt;/p&gt;
+&lt;p&gt;
+Very cool place and far enough outside the touristy areas so that we
+got a feel for the real town.&lt;/p&gt;
+&lt;p&gt;
+Of course, we also did the tour and played tourist as well.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/belgium/brugges1.jpg&#34; alt=&#34;/img/belgium/brugges1.jpg&#34; title=&#34;/img/belgium/brugges1.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/belgium/brugges2.jpg&#34; alt=&#34;/img/belgium/brugges2.jpg&#34; title=&#34;/img/belgium/brugges2.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/belgium/brugges3.jpg&#34; alt=&#34;/img/belgium/brugges3.jpg&#34; title=&#34;/img/belgium/brugges3.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+As a bonus, on the tour we went in to the Brugges Beguinage so we got
+to learn a bit more about that and them.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/belgium/beguinage-brugges.jpg&#34; alt=&#34;/img/belgium/beguinage-brugges.jpg&#34; title=&#34;/img/belgium/beguinage-brugges.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/belgium/beguinage-brugges..jpg&#34; alt=&#34;/img/belgium/beguinage-brugges..jpg&#34; title=&#34;/img/belgium/beguinage-brugges..jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+Between the tour and the lace center we also sat down for waffles.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/belgium/waffles.jpg&#34; alt=&#34;/img/belgium/waffles.jpg&#34; title=&#34;/img/belgium/waffles.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+Savory for lunch and sweet for dessert but the latter vanished before
+we got pictures.&lt;/p&gt;
+&lt;p&gt;
+This was the more relaxed part of our trip - more visiting than
+touring but still got to see the sights.&lt;/p&gt;
+&lt;p&gt;
+We&amp;#39;re off to Antwerp today to finish out Belgium and then to the
+Netherlands.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Paris 2024</title>
+      <link>https://cestlaz.github.io/post/paris/</link>
+      <pubDate>Sat, 26 Oct 2024 02:02:42 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/paris/</guid>
+      <description>&lt;img src=&#34;https://cestlaz.github.io/img/paris/siene.jpg&#34; alt=&#34;/img/paris/siene.jpg&#34; title=&#34;/img/paris/siene.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+Devorah and I are finally on our first overseas retirement trip. Our
+hope was to make up for lost travel time in retirement. We&amp;#39;ve already
+gotten away a bit - a few days in Charlseton SC and a couple of local
+driving trips but this is our first retirement biggie.&lt;/p&gt;
+&lt;p&gt;
+Started out in Paris. Left Monday evening and got in Tuesday at around
+6:00am local time. Went right to the hotel. Stayed at the Hotel
+Marignan on the Rue de Sommerard - a very reasonably priced hotel in
+the Latin Quarter. Address given to differentiate from
+the much more expensive Hotel Marignan on the Chams-Elysees. We took
+the train into the city and rolled up to the hotel before 9:00am. Our
+host at the hotel, Bridgette, was terrific. Took our luggage, signed
+us in, asked if we wanted breakfast and once we were settled and
+caffeinated, gave us the lay of the land and assured us our room would
+be ready by noon (which it was). Can&amp;#39;t recommend the hotel highly
+enough. Nothing fancy but clean with a great staff. We opted for a
+room with a toilet and shower but if you&amp;#39;re comfortable with shared
+facilities the rates are even better. I&amp;#39;ll only add that the hotel has
+six floors - that&amp;#39;s seven flights of stairs since they zero index and
+there&amp;#39;s no elevator. Not a big deal for us but be aware.&lt;/p&gt;
+&lt;p&gt;
+Even though we had just landed, once we dropped our bags and had
+breakfast we went forth and had a full day - a couple of museums, over
+10 miles walking, and some good food.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/paris/rodin.jpg&#34; alt=&#34;/img/paris/rodin.jpg&#34; title=&#34;/img/paris/rodin.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+Our first stop was the Rodin Museum and garden - that is the museum in
+Paris and not his former home on the outskirts. We wanted to hit it
+since we just recently visited the Rodin museum in
+Philadelphia. The Paris museum is much larger. Many of the same
+pieces - each have their &amp;#34;Gates of Hell,&amp;#34; Assorted Burghers of
+Callais, Balzac, and others but the Paris museum had more, also
+included paintings and other media and was much more spacious and
+expansive and since Devorah enjoys sculpture more than paintings,
+which I prefer, this was time well spent.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/paris/steak.jpg&#34; alt=&#34;/img/paris/steak.jpg&#34; title=&#34;/img/paris/steak.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+After lunch we walked across the Siene and visited &lt;a href=&#34;https://www.petitpalais.paris.fr/en/plan-your-visit/basic-information&#34;&gt;le Petit
+Palais&lt;/a&gt;. Great collection plus it&amp;#39;s free.  After that we made our way
+back to the hotel, rested up, got dinner then crashed for the
+night. We ended up walking well over 20,000 steps, about 11 miles give
+or take.&lt;/p&gt;
+&lt;p&gt;
+We were going to start the day with a tour but that wasn&amp;#39;t going to
+start until 11:00 so we had time to kill. We tarted with a critical
+pilgrimage. We had to head over to the Sorbonne to view le Tour
+Zamansky - yep, there&amp;#39;s a tower named after a guy named Zamansky -
+perhaps a relative of mine.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/paris/tour-zamansky.jpg&#34; alt=&#34;/img/paris/tour-zamansky.jpg&#34; title=&#34;/img/paris/tour-zamansky.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+Marc Zamansky was the Dean of the Faculty of Sciences at the Sorbonne
+up until 1970. He was also apparently a resistance fighter during
+World War II. When we entered the campus, the security guard indicated
+that we were not allowed to take pictures. I asked if he spoke English
+and he said &amp;#34;non.&amp;#34; I tried to explain in my really weak french that I
+was a Zamansky and I showed him my ID. He laughed out loud and ushered
+us in and even offered to take the picture. It was a nice moment all
+around.&lt;/p&gt;
+&lt;p&gt;
+We then wandered the Luxembourg Gardens until tour time.&lt;/p&gt;
+&lt;p&gt;
+We usually try to do a free (tip only) walking tour whenever we visit
+a new city and since we haven&amp;#39;t been to Paris for 36 years, it was
+basically new. I think we ultimately pay the same as if we do a normal
+pay tour but these have worked for us. The tour was great and
+informative and gave us the lay of the land.&lt;/p&gt;
+&lt;p&gt;
+For lunch we decided just to get sandwiches - cheaper and lighter than
+a sit down lunch and the bread in Paris is amazing. Truth be told I
+would have been happy just eating bread the whole trip. They also do
+sandwiches right - not tons of meat and gobs of mayo. It&amp;#39;s a slice of
+ham, maybe a slice of cheese and a little butter on amazing bread.&lt;/p&gt;
+&lt;p&gt;
+Afterwards was the Muse D&amp;#39;Orsay. Here&amp;#39;s the elephant out front.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/paris/orsay-elephent.jpg&#34; alt=&#34;/img/paris/orsay-elephent.jpg&#34; title=&#34;/img/paris/orsay-elephent.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+Inside we found more elephants&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/paris/orsay-elephants.jpg&#34; alt=&#34;/img/paris/orsay-elephants.jpg&#34; title=&#34;/img/paris/orsay-elephants.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+But no Krafayis:&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/paris/krafayis.jpg&#34; alt=&#34;/img/paris/krafayis.jpg&#34; title=&#34;/img/paris/krafayis.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+Really amazing museum.&lt;/p&gt;
+&lt;p&gt;
+For dinner we ended up at a restaurant with Basque options and I had a
+great cassoulet:&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/paris/cassoulet.jpg&#34; alt=&#34;/img/paris/cassoulet.jpg&#34; title=&#34;/img/paris/cassoulet.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+We went a bit further afield on Thursday, our last full day in
+Paris. We visited the Muse Marmottan de Monet. A converted house
+museum that boasts a tremendous collection of Monet&amp;#39;s work as well as
+other impressionists.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/paris/marmottan-monet.jpg&#34; alt=&#34;/img/paris/marmottan-monet.jpg&#34; title=&#34;/img/paris/marmottan-monet.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+They also had an exhibit on &lt;a href=&#34;https://en.wikipedia.org/wiki/Trompe-l&amp;#39;%C5%93il&#34;&gt;Trompe L&amp;#39;Oeil &lt;/a&gt; - art with highly
+realistic depictions of 3D space. Really cool.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/paris/marmottan1.jpg&#34; alt=&#34;/img/paris/marmottan1.jpg&#34; title=&#34;/img/paris/marmottan1.jpg&#34; width=&#34;500px&#34;/&gt;
+&lt;p&gt;
+Great museum - I highly recommend and it was much less crowded than
+say the Muse D&amp;#39;Orsay. Afterwards we slowly made our way back to the
+hotel.&lt;/p&gt;
+&lt;p&gt;
+If course we found the yarn store for Devorah:&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/paris/yarn.jpg&#34; alt=&#34;/img/paris/yarn.jpg&#34; title=&#34;/img/paris/yarn.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+And took a selfie as we passed the Eiffel Tower (but didn&amp;#39;t go up):&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/paris/selfie.jpg&#34; alt=&#34;/img/paris/selfie.jpg&#34; title=&#34;/img/paris/selfie.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+The plan was to go to the Muse D&amp;#39;Orangerie which also boasts a strong
+collection of Impressionists and Post Impressionists but the line was
+too long and it looked too crowded so instead we went back to the
+Sorbonne and to a small Marie Curie museum. It&amp;#39;s a two room museum
+plus you can look in on her lab and office. Really cool. Also 100%
+recommend to fellow science nerds. As a bonus, it was free.&lt;/p&gt;
+&lt;p&gt;
+Finally on Friday we decided to visit the Cluny Museum - just a couple
+of blocks from our hotel. It&amp;#39;s a mansion museum boasting a tremendous
+collection of art from the middle ages.&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/paris/cluny.jpg&#34; alt=&#34;/img/paris/cluny.jpg&#34; title=&#34;/img/paris/cluny.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/paris/cluny2.jpg&#34; alt=&#34;/img/paris/cluny2.jpg&#34; title=&#34;/img/paris/cluny2.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/paris/unicorn.jpg&#34; alt=&#34;/img/paris/unicorn.jpg&#34; title=&#34;/img/paris/unicorn.jpg&#34; width=&#34;250px&#34;/&gt;
+&lt;p&gt;
+About a third of the museum was shut at the time of our visit but what
+we saw was amazing. We&amp;#39;ll certainly be back to see the rest.&lt;/p&gt;
+&lt;p&gt;
+After another sandwich lunch, this time in the Luxembourg gardens, we
+stopped by at the hotel and then off to Gare de Nord - the train
+station to take the Eurostar to Brussels.&lt;/p&gt;
+&lt;p&gt;
+That&amp;#39;s where I am now writing this post. It&amp;#39;s Saturday
+afternoon. We&amp;#39;re spending a few days in Brussels staying with a friend
+so it&amp;#39;ll be more visiting and less frantic touring. That said, we did
+a walking tour this morning and have a couple of things lined up for
+tomorrow and then Monday we&amp;#39;ll be heading to Bruges for a day trip,
+mostly because Devorah wants to check out the lace center there.&lt;/p&gt;
+&lt;p&gt;
+Great trip so far. Looking forward to the rest.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Authentic Languages</title>
@@ -3452,1158 +4576,6 @@ So, there you have it. SAT or no SAT? I&amp;#39;d be happy to get rid of it
 but everyone should recognize that it&amp;#39;s really about image and not
 about forming an equitable and/or diverse incoming class. Colleges can do that
 already it&amp;#39;s just that many don&amp;#39;t really care to.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Charleston days 3 and 4 - Plantation visits and more food</title>
-      <link>https://cestlaz.github.io/post/charleston34/</link>
-      <pubDate>Sun, 10 Mar 2024 15:11:50 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/charleston34/</guid>
-      <description>&lt;p&gt;
-As I mentioned in my &lt;a href=&#34;https://cestlaz.github.io/post/csed-podcast-teaching-with-masters/&#34;&gt;CS-Ed Podcast&lt;/a&gt; post, yesterday was a
-washout. Seriously scary storms. We ended up spending the entire day
-in the hotel but was able to get to &lt;a href=&#34;https://www.middletonplace.org/&#34;&gt;Middleton Place&lt;/a&gt; for dinner. The
-original plan was to do the entire plantation during the afternoon but
-that was a no go. Instead we got there a little before our reservation
-time which did let us wander the grounds a little before heading in to
-the restaurant.&lt;/p&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/day34/middleton.jpg&#34; alt=&#34;/img/charleston/day34/middleton.jpg&#34; title=&#34;/img/charleston/day34/middleton.jpg&#34; width=&#34;300px&#34;/&gt;
-&lt;p&gt;
-We did this based on advise of friends and I highly recommend it. We
-weren&amp;#39;t able to explore everything they have to offer but we got the
-flavor of the gardens and landscaping and didn&amp;#39;t have to pay any
-entrance fee. The meal was also extraordinary. &lt;/p&gt;
-&lt;p&gt;
-Today was much better. We headed off to the &lt;a href=&#34;https://www.magnoliaplantation.com/&#34;&gt;Magnolia Plantation&lt;/a&gt;. It&amp;#39;s
-on most of the &amp;#34;must see&amp;#34; in Charleston lists kown for beautiful
-gardens. It was nice and there was some history thrown in,
-particularly when taking their included tour of the slave cabins but,
-maybe since the flowers aren&amp;#39;t in full bloom yet, I wasn&amp;#39;t
-overwhelmed.&lt;/p&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/day34/magnolia1.jpg&#34; alt=&#34;/img/charleston/day34/magnolia1.jpg&#34; title=&#34;/img/charleston/day34/magnolia1.jpg&#34; width=&#34;300px&#34;/&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/day34/magnolia2.jpg&#34; alt=&#34;/img/charleston/day34/magnolia2.jpg&#34; title=&#34;/img/charleston/day34/magnolia2.jpg&#34; width=&#34;300px&#34;/&gt;
-&lt;p&gt;
-The limited parts of Middleton Place that we saw made a stronger
-visual impact probably due to the greater amount of terracing and
-landscaping.&lt;/p&gt;
-&lt;p&gt;
-That said, Magnolia boasts a host of gardens incuding a bamboo garden
-and a swamp garden.&lt;/p&gt;
-&lt;p&gt;
-Speaking of which, we did end up seeing a plethora of gators. So many
-that I started to feel like Mick Dundee (gotta stay with  older
-generation references rather than the slightly more contemporary Steve
-Irwin).&lt;/p&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/day34/gator4.jpg&#34; alt=&#34;/img/charleston/day34/gator4.jpg&#34; title=&#34;/img/charleston/day34/gator4.jpg&#34; width=&#34;200px&#34;/&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/day34/gator3.jpg&#34; alt=&#34;/img/charleston/day34/gator3.jpg&#34; title=&#34;/img/charleston/day34/gator3.jpg&#34; width=&#34;200px&#34;/&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/day34/gator2.jpg&#34; alt=&#34;/img/charleston/day34/gator2.jpg&#34; title=&#34;/img/charleston/day34/gator2.jpg&#34; width=&#34;200px&#34;/&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/day34/gator1.jpg&#34; alt=&#34;/img/charleston/day34/gator1.jpg&#34; title=&#34;/img/charleston/day34/gator1.jpg&#34; width=&#34;200px&#34;/&gt;
-&lt;p&gt;
-Next up was a late lunch at the Mason Jar by Fatboys, Finally got our
-fried chicken fix.&lt;/p&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/day34/chicken.jpg&#34; alt=&#34;/img/charleston/day34/chicken.jpg&#34; title=&#34;/img/charleston/day34/chicken.jpg&#34; width=&#34;300px&#34;/&gt;
-&lt;p&gt;
-One of the big reasons we chose Charleston was for the food. Food,
-history, and culture are our big three for vacations. Walk-ability also
-comes into play. We ended up at least trying pretty much all the local
-food that we wanted to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Hush puppies&lt;/li&gt;
-&lt;li&gt;She crab soup&lt;/li&gt;
-&lt;li&gt;Shrimp and grits&lt;/li&gt;
-&lt;li&gt;Cheese grits&lt;/li&gt;
-&lt;li&gt;Fried chicken&lt;/li&gt;
-&lt;li&gt;Perloo&lt;/li&gt;
-&lt;li&gt;Biscuits&lt;/li&gt;
-&lt;li&gt;BBQ&lt;/li&gt;
-&lt;li&gt;Fried green tomatos&lt;/li&gt;
-&lt;li&gt;Shrimp&lt;/li&gt;
-&lt;li&gt;Benne wafers&lt;/li&gt;
-&lt;li&gt;Pimiento cheese&lt;/li&gt;
-&lt;li&gt;Pickled okra&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Going to get dinner at a seafood place shortly and then home tomorrow.&lt;/p&gt;
-&lt;p&gt;
-Overall a solid first post-retirement trip.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The CS-Ed podcast - teaching college without a PhD</title>
-      <link>https://cestlaz.github.io/post/csed-podcast-teaching-with-masters/</link>
-      <pubDate>Sat, 09 Mar 2024 09:20:03 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/csed-podcast-teaching-with-masters/</guid>
-      <description>&lt;p&gt;
-It&amp;#39;s our third day in Charleston and we&amp;#39;re stuck in our hotel. Stormy
-rains and strong winds and a coastal flood alert telling everyone to
-stay home. Our car is in the parking lot with water halfway up the
-wheels.&lt;/p&gt;
-&lt;p&gt;
-We had tickets to go to the &lt;a href=&#34;https://iaamuseum.org/&#34;&gt;International African American Museum&lt;/a&gt; this
-morning but got an email saying they won&amp;#39;t be open until the afternoon
-and that our tickets would automatically be refunded.&lt;/p&gt;
-&lt;p&gt;
-So while waiting and hoping that the rain subsides and the parking lot
-drains I decided to listen to the latest episode of the &lt;a href=&#34;https://csedpodcast.org/ &#34;&gt;CS-Ed podcast&lt;/a&gt;
-hosted by Kristin Stephens-Martinez with guest Adam Blank. The title
-was &amp;#34;What is in a Teaching Faculty Job Title?&amp;#34; but it was really about
-teaching at the college level without a PhD. Adam, the guest, has been
-teaching full time at the college level with &amp;#34;only&amp;#34; a Masters. I say
-&amp;#34;only&amp;#34; because faculty without a PhD isn&amp;#39;t the norm. I in no way mean to belittle his
-degree or situation. I too &amp;#34;only&amp;#34; have a Masters in CS but, to be
-honest, as soon as I joined Hunter College&amp;#39;s faculty, I was the
-strongest teacher in the department and likely one of the strongest in
-the whole faculty. Maybe not the nicest, most popular, or charismatic
-but the strongest. Yeah, that maybe sounds a bit arrogant and
-egotistical but after my 26 years of self reflection and work to
-improve at my craft at the high school leve, I can say I&amp;#39;m one of the
-better teachers overall out there and K12 teachers, by and large are
-much better teachers than college faculty.&lt;/p&gt;
-&lt;p&gt;
-Anyway, you should give the podcast a listen, here&amp;#39;s a direct link to
-the episode (&lt;a href=&#34;https://csedpodcast.org/blog/s4e3_teaching_faculty_job_title/&#34;&gt;link&lt;/a&gt;) and here are some of my thoughts.&lt;/p&gt;
-&lt;p&gt;
-&lt;strong&gt;Disclaimer:&lt;/strong&gt; Some of the things said on the podcast were given as the
-opinions of the host or the guest and at other times they were stating
-things that others have said. I&amp;#39;m doing my best not to mix those
-things up but apologize in advance if I do.&lt;/p&gt;
-&lt;p&gt;
-Both Kristin and Adam seem to believe that having a PhD doesn&amp;#39;t make
-you a better prepared teacher than just having a Masters. I
-wholeheartedly agree.&lt;/p&gt;
-&lt;p&gt;
-I agree with the sentiment but Kristin pushed back saying that one
-could get a PhD in CS Education.&lt;/p&gt;
-&lt;p&gt;
-I disagree with that push back on a number of fronts. First off,
-there&amp;#39;s still limited opportunities to do a PhD in CS Education,
-second, education degrees, at least in the circles I&amp;#39;ve been exposed
-to are sometimes not treated with the same respect as straight old
-hardcore CS degrees and that brings us back to the whole point of the
-podcast that a college instructor without a PhD shouldn&amp;#39;t be a second
-class citizen. Finally, there&amp;#39;s the whole problem with education
-education and education research.&lt;/p&gt;
-&lt;p&gt;
-Both Adam and Kristin felt that you can&amp;#39;t understand the
-research on education if you haven&amp;#39;t done any research and this
-understanding leads to one being a better teacher.&lt;/p&gt;
-&lt;p&gt;
-I guess it can, but much better is actually teaching and reflecting
-and acting on those reflections.&lt;/p&gt;
-&lt;p&gt;
-In general, education research is held in very low regard. It&amp;#39;s
-rarely reproduced and hardly ever accounts for the myriad variables
-that influence a class. An education researcher looks in from the
-outside and says &amp;#34;oh, this seems to work.&amp;#34; A teacher lives it and
-either adapts or dies (1/3 of teachers leave the profession within 3 years).&lt;/p&gt;
-&lt;p&gt;
-To put it another way. I like classic movies. I watch many of
-them. I&amp;#39;ve read analyses and taken classes. I&amp;#39;ve criticized
-performances and directorial choices. None of this will make me a good
-or even bettor actor, director, or cinematographer.&lt;/p&gt;
-&lt;p&gt;
-Even closer to home for me is that I was a competitive fencer. I
-watched other people train and bout and even studied film. None of
-that improved me. At best, it would inform me as to what to work on
-when I took lessons, practiced and competed but only with that
-practice and competition did I really improve.&lt;/p&gt;
-&lt;p&gt;
-Want to become a better teacher? Teach, get feedback, reflect, improve.&lt;/p&gt;
-&lt;p&gt;
-Something else that got me thinking along these lines was a comment
-Kristin made asking if teachers really needed to be up on the latest
-research or if it were enough for them to wait until that research
-were distilled into a teaching handbook.&lt;/p&gt;
-&lt;p&gt;
-It got me thinking on how many times I was given a different &amp;#34;true
-way&amp;#34; to teach based on the research.&amp;#39;&lt;/p&gt;
-&lt;p&gt;
-It also got me thinking about the typical teacher career
-path. Teachers are most &amp;#34;up&amp;#34; on the research when the graduate from
-their teacher education programs. When they&amp;#39;re new. It&amp;#39;s also when
-they&amp;#39;re at their worst as teachers. They quickly learn that their best
-instructors were the ones that said &amp;#34;this is what the research says,
-this is what your supervisor wants to see, and now we&amp;#39;ll talk about
-the reality of what you need in the classroom.&amp;#34;&lt;/p&gt;
-&lt;p&gt;
-The teachers that get better might read the current research but more
-likely they work on their craft, self reflect, and work with other,
-frequently more experienced teachers. Teaching is very much a craft
-and most of the master teachers you&amp;#39;ll find won&amp;#39;t be quoting the
-research but developed in this way.&lt;/p&gt;
-&lt;p&gt;
-This brings me back to the subject of the podcast. Our entire higher
-ed system has evolved into a hierarchical system focused on
-research. Even if you&amp;#39;re &amp;#34;teaching faculty&amp;#34; and don&amp;#39;t have many or any
-research obligations, there exists this caste system and there&amp;#39;s
-rarely anything in an institutions organizational structure to support
-faculty members becoming better teachers. Sure, some faculty members
-are great teachers and many work on their craft but it seems that
-teacher development is normally something that an instructor is left
-to do or not to do on their own.&lt;/p&gt;
-&lt;p&gt;
-With this system, there&amp;#39;s absolutely no reason not to have a teaching
-career path with the entry point being sufficient CS knowledge. I&amp;#39;d
-prefer that plus some background in how to teach it but that&amp;#39;s likely
-a bridge too far for now.&lt;/p&gt;
-&lt;p&gt;
-Even had I not been an experienced teacher, the biggest difference
-between me with my Masters in CS and the PhD&amp;#39;s I worked with is that
-they had super deep knowledge in some very narrow area of CS. This
-meant that maybe I couldn&amp;#39;t teach a small handful of super specialized
-400 level electives but in practice I could teach many of them and as
-my education and experience was more of a generalist, I could
-generally teach a wider swath of classes at the entry to mid level
-than many super specialized researchers.&lt;/p&gt;
-&lt;p&gt;
-The PhD is nothing special, or maybe it is special but no more so than
-someone who dedicated an equivalent number of years towards being a
-great teacher, a great software engineer, or a great a lot of other
-things.&lt;/p&gt;
-&lt;p&gt;
-Hopefully one day higher education will realize this.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Charleston day 2 - Wrought Iron and Religion</title>
-      <link>https://cestlaz.github.io/post/charleston2/</link>
-      <pubDate>Fri, 08 Mar 2024 19:04:54 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/charleston2/</guid>
-      <description>&lt;p&gt;
-We started day 2 with a walking tour. We&amp;#39;ve been using &lt;a href=&#34;https://freetoursbyfoot.com/&#34;&gt;Free Tours by
-Foot&lt;/a&gt; or similar services. No fee or a small reservation fee up front
-and then pay what you want at the end. We generally haven&amp;#39;t been
-disappointed and also generally end up tipping voluntarily about the
-same amount as what we&amp;#39;d pay for a pay up front tour.&lt;/p&gt;
-&lt;p&gt;
-We walked around downtown getting more local and US history and
-learning about the city. During one stop at the &lt;a href=&#34;https://charlestonstage.com/about-us/dock-street-theatre&#34;&gt;Dock Street Theater&lt;/a&gt; we
-learned about Charleston&amp;#39;s preservation and architectural restoration
-efforts.&lt;/p&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/day2/theater.jpg&#34; alt=&#34;/img/charleston/day2/theater.jpg&#34; title=&#34;/img/charleston/day2/theater.jpg&#34; width=&#34;300px&#34;/&gt;
-&lt;p&gt;
-We also discussed Charleston&amp;#39;s history of religious tolerance, being
-known as the Holy City due to the preponderance of churches and
-acceptance of all religions. &lt;/p&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/day2/church.jpg&#34; alt=&#34;/img/charleston/day2/church.jpg&#34; title=&#34;/img/charleston/day2/church.jpg&#34; width=&#34;300px&#34;/&gt;
-&lt;p&gt;
-We also got to see a whole lot of wrought iron created by &lt;a href=&#34;https://en.wikipedia.org/wiki/Philip_Simmons&#34;&gt;Philip
-Simmons&lt;/a&gt;.&lt;/p&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/day2/iron1.jpg&#34; alt=&#34;/img/charleston/day2/iron1.jpg&#34; title=&#34;/img/charleston/day2/iron1.jpg&#34; width=&#34;100px&#34;/&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/day2/iron2.jpg&#34; alt=&#34;/img/charleston/day2/iron2.jpg&#34; title=&#34;/img/charleston/day2/iron2.jpg&#34; width=&#34;100px&#34;/&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/day2/iron3.jpg&#34; alt=&#34;/img/charleston/day2/iron3.jpg&#34; title=&#34;/img/charleston/day2/iron3.jpg&#34; width=&#34;100px&#34;/&gt;
-&lt;p&gt;
-After lunch, Devorah and I visited &lt;a href=&#34;https://www.kkbe.org/&#34;&gt;KKBE&lt;/a&gt; - America&amp;#39;s first reform
-Jewish congregation. They give an interesting tour. Jews started
-appearing in Charleston in the late sixteen, early seventeen
-hundreds. They were of Sephardic descent. This was similar to the
-first Jews in New Amsterdam who came for religious tolerance (but as a
-New Yorker, I have to say that they got to us first :-) ). The first
-reformers from Germany came to Charleston in the 1820s and KKBE, the
-first Reform Congreation in America was formed in 1841.&lt;/p&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/day2/synagogue.jpg&#34; alt=&#34;/img/charleston/day2/synagogue.jpg&#34; title=&#34;/img/charleston/day2/synagogue.jpg&#34; width=&#34;300px&#34;/&gt;
-&lt;p&gt;
-This is interesting for two reasons. First, this congregation,
-according to our docent didn&amp;#39;t specifically follow the lead of the
-reform movement in Germany. Second, Isaac Mayer Wise is normally
-credited with starting the Reform Judaism movement in America when he
-settled in Albany in 1846, some five years later.&lt;/p&gt;
-&lt;p&gt;
-After the tour, we walked around, saw this storefront:&lt;/p&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/day2/scribnered.jpg&#34; alt=&#34;/img/charleston/day2/scribnered.jpg&#34; title=&#34;/img/charleston/day2/scribnered.jpg&#34; width=&#34;500px&#34;/&gt;
-&lt;p&gt;
-Neither of us knew what the old Kress building was, now housing an H&amp;amp;M
-but Devorah and I both thought &amp;#34;Damn, they were Scribnered&amp;#34; (if you
-know, you know).&lt;/p&gt;
-&lt;p&gt;
-It turns out that S.H Kress owned a series of &amp;#34;five and dime&amp;#34; stores
-and one was in this building. The store there was the cite of a noted
-civil rights protest. &lt;/p&gt;
-&lt;p&gt;
-We also saw some fountains in public parks including of course, the
-Pineapple Fountain.&lt;/p&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/day2/fountain.jpg&#34; alt=&#34;/img/charleston/day2/fountain.jpg&#34; title=&#34;/img/charleston/day2/fountain.jpg&#34; width=&#34;500px&#34;/&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/day2/selfie.jpg&#34; alt=&#34;/img/charleston/day2/selfie.jpg&#34; title=&#34;/img/charleston/day2/selfie.jpg&#34; width=&#34;500px&#34;/&gt;
-&lt;p&gt;
-We ended the day passing the historic marker commemorating &lt;a href=&#34;https://en.wikipedia.org/wiki/Robert_Smalls&#34;&gt;Robert
-Smalls&lt;/a&gt;. How is there not a movie about this guy? I won&amp;#39;t tell the
-story here but if you don&amp;#39;t know who he was go read the &lt;a href=&#34;https://en.wikipedia.org/wiki/Robert_Smalls&#34;&gt;Wikipedia article&lt;/a&gt;.&lt;/p&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/day2/smalls.jpg&#34; alt=&#34;/img/charleston/day2/smalls.jpg&#34; title=&#34;/img/charleston/day2/smalls.jpg&#34; width=&#34;500px&#34;/&gt;
-&lt;p&gt;
-Finished off with dinner back at the Glass Onion which was again
-superb. If you get down to Charleston, defiantly have a meal or two
-there. &lt;/p&gt;
-&lt;p&gt;
-Tomorrow was supposed to be plantation day but there are supposed to
-be nonstop thunder storms so it looks like we&amp;#39;ll probably go museum
-hopping instead.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Visiting Charleston</title>
-      <link>https://cestlaz.github.io/post/charleston/</link>
-      <pubDate>Thu, 07 Mar 2024 19:48:46 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/charleston/</guid>
-      <description>&lt;p&gt;
-Depending how you looked at things, I started my retirement this past
-Fall. Part of the plan was for Devorah and I to travel a bit more -
-something we rarely got to do when we were younger. I did have a great
-trip with Batya to Holland and Belgium but Devorah and I, other than a
-couple of weekend getaways, weren&amp;#39;t able to go anywhere. We planned to
-finally have a trip in January but I broke a toe. Then there were a
-few other niggling things that prevented getting away.&lt;/p&gt;
-&lt;p&gt;
-Finally, this week, we made it - our first retirement trip, and
-spanning our anniversary no less!!!&lt;/p&gt;
-&lt;p&gt;
-We decided on Charleston South Carolina. Why? Well, why not. We wanted
-to hit it in January since it would be somewhat warmer than NYC. We
-figured that it wouldn&amp;#39;t be too hot visiting now in early March - it
-would be alike an early Spring for us. Besides, at least on paper,
-Charleston checks a lot of our travel buttons - history, food, culture.&lt;/p&gt;
-&lt;p&gt;
-Our first stop after flying in and lunch was &lt;a href=&#34;https://southcarolinaparks.com/charles-towne-landing&#34;&gt;Charles Towne Landing&lt;/a&gt; - Charleston&amp;#39;s
-birthplace. Beautiful day, beautiful ground to walk around and our
-first taste of Charleston history.&lt;/p&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/ctlanding.jpg&#34; alt=&#34;/img/charleston/ctlanding.jpg&#34; title=&#34;/img/charleston/ctlanding.jpg&#34; width=&#34;300px&#34;/&gt;
-&lt;p&gt;
-From there to our hotel. Dinner was at a local place - &lt;a href=&#34;https://www.ilovetheglassonion.com/&#34;&gt;The Glass
-Onion&lt;/a&gt;. Really exceptional. We started with boudin balls then I had the
-shrimp and grits and bread pudding for dessert. &lt;/p&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/boudin.jpg&#34; alt=&#34;/img/charleston/boudin.jpg&#34; title=&#34;/img/charleston/boudin.jpg&#34; width=&#34;300px&#34;/&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/shrimp.jpg&#34; alt=&#34;/img/charleston/shrimp.jpg&#34; title=&#34;/img/charleston/shrimp.jpg&#34; width=&#34;300px&#34;/&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/bread-pudding.jpg&#34; alt=&#34;/img/charleston/bread-pudding.jpg&#34; title=&#34;/img/charleston/bread-pudding.jpg&#34; width=&#34;300px&#34;/&gt;
-&lt;p&gt;
-Devorah had the gumbo dinner. Super highly recommend. We might go back
-tomorrow.&lt;/p&gt;
-&lt;p&gt;
-We started today at &lt;a href=&#34;https://en.wikipedia.org/wiki/Fort_Sumter&#34;&gt;Fort Sumter&lt;/a&gt;. Obviously a lot of American Civil War
-history but also earlier stuff and later. &lt;/p&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/sumter.jpg&#34; alt=&#34;/img/charleston/sumter.jpg&#34; title=&#34;/img/charleston/sumter.jpg&#34; width=&#34;300px&#34;/&gt;
-&lt;p&gt;
-In the afternoon we went to the &lt;a href=&#34;https://www.charlestonmuseum.org/&#34;&gt;Charleson Museum&lt;/a&gt; for lots of local
-history. They also have a natural history exhibit with a giant sloth
-that I&amp;#39;m pretty sure is bigger than ours in Natural History:&lt;/p&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/sloth.jpg&#34; alt=&#34;/img/charleston/sloth.jpg&#34; title=&#34;/img/charleston/sloth.jpg&#34; width=&#34;300px&#34;/&gt;
-&lt;p&gt;
-and also a quilting and abstract art exhibit.&lt;/p&gt;
-&lt;p&gt;
-Then on the way to the City Market, we stopped at Peace Pie for a
-snack.&lt;/p&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/peace-pie.jpg&#34; alt=&#34;/img/charleston/peace-pie.jpg&#34; title=&#34;/img/charleston/peace-pie.jpg&#34; width=&#34;300px&#34;/&gt;
-&lt;p&gt;
-Nice place - custom ice cream / cookie sandwiches. Like Glass Onion,
-also highly recommended.&lt;/p&gt;
-&lt;p&gt;
-The City Market was pretty cool - lots of crafts&lt;/p&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/seder.jpg&#34; alt=&#34;/img/charleston/seder.jpg&#34; title=&#34;/img/charleston/seder.jpg&#34; width=&#34;300px&#34;/&gt;
-&lt;p&gt;
-Finally, before heading home, we checked out their U.S. Customs House. Nice
-to contrast it to our Customs House on Bowling Green and it&amp;#39;s
-predecessor - Federal Hall. &lt;/p&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/customs.jpg&#34; alt=&#34;/img/charleston/customs.jpg&#34; title=&#34;/img/charleston/customs.jpg&#34; width=&#34;300px&#34;/&gt;
-&lt;p&gt;
-Overall a great day.&lt;/p&gt;
-&lt;p&gt;
-The only two downers were when we passed a store with lots of anti
-Biden T-shirts and also when we found out that the Civil War museum on
-top of the City Market is run the Daughters of the &lt;a href=&#34;https://en.wikipedia.org/wiki/United_Daughters_of_the_Confederacy&#34;&gt;United Daughters of
-the Confederacy&lt;/a&gt;, fortunately, we decided to pass.&lt;/p&gt;
-&lt;p&gt;
-For dinner, we got our South Carolina Barbecue at Swig and Swine:&lt;/p&gt;
-&lt;img src=&#34;https://cestlaz.github.io/img/charleston/bbq.jpg&#34; alt=&#34;/img/charleston/bbq.jpg&#34; title=&#34;/img/charleston/bbq.jpg&#34; width=&#34;300px&#34;/&gt;
-&lt;p&gt;
-Tomorrow, a walking tour and Kahal Kadosh Beth Elohim&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Teachers want to teach AI but how will we teach the teachers?</title>
-      <link>https://cestlaz.github.io/post/teach-ai-teachers/</link>
-      <pubDate>Tue, 05 Mar 2024 09:58:42 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/teach-ai-teachers/</guid>
-      <description>&lt;p&gt;
-Saw &lt;a href=&#34;https://www.edweek.org/technology/how-young-is-too-young-to-teach-students-about-ai-survey-reveals-differing-opinions/2024/02&#34;&gt;this&lt;/a&gt; earlier as posted on Linkedin by Pat Yongpradit of
-code.org. According to the article, nine out of ten educators think
-that students should be taught how AI works prior to graduating from
-high school. How it works, not just how to use it. This is a good
-thing. Sure, opinions vary as to when to teach it - elementary, high
-school, or across the board but still, a good thing.&lt;/p&gt;
-&lt;p&gt;
-It did make me think though about a few things.&lt;/p&gt;
-&lt;p&gt;
-First, in a way this is really just saying &amp;#34;kids should learn computer
-science.&amp;#34; This too is a good thing but the bad thing is that a lot of
-people talking about learning about AI don&amp;#39;t get this.&lt;/p&gt;
-&lt;p&gt;
-AI isn&amp;#39;t some new magic mystically appearing. It&amp;#39;s algorithms applied
-on data on computers with a user interface. Sounds like CS to me, more
-specifically a subset of CS. Sure the data sets are HUGE and the
-algorithms, more complex than the bubble sort but at a technical
-level, it&amp;#39;s a next step.&lt;/p&gt;
-&lt;p&gt;
-AI applications can do some really impressive things but then so could
-earlier computer solutions.&lt;/p&gt;
-&lt;p&gt;
-AI can be filled with bias but computer systems have always been
-infused with our societal biases (and we have to do better).&lt;/p&gt;
-&lt;p&gt;
-AI can either take away jobs or enhance productivity but the same can
-be said with earlier computer innovations.&lt;/p&gt;
-&lt;p&gt;
-So, the call to teach how AI works is a good one but there&amp;#39;s a level
-of concern that people don&amp;#39;t see that in a lot of ways this isn&amp;#39;t a
-revolution but a next step and as my readers know, I fell we&amp;#39;ve gotten
-some serious things wrong in the roll out of teaching CS, without
-acknowledging that this comes from CS begs the question, what will we
-do differently, or more specifically better. &lt;/p&gt;
-&lt;p&gt;
-This brings me to my next thought, and this is the bigger one - if
-teachers are going to teach all our students how AI works, how are we
-going to teach all those teachers?&lt;/p&gt;
-&lt;p&gt;
-It&amp;#39;s clear, at least to me, that the professional development, short
-form training model favored by so many for CSforAll efforts is far
-from ideal. It sets up content providers and politicians to be able to
-say &amp;#34;we&amp;#39;ve trained all our teachers in just &lt;code&gt;n&lt;/code&gt; years&amp;#34; with &lt;code&gt;n&lt;/code&gt; being
-some small number but the truth is, those teachers don&amp;#39;t really know
-what they&amp;#39;re teaching and are doing a disservice to their students in
-the long run &lt;sup class=&#34;footnote-reference&#34;&gt;&lt;a id=&#34;footnote-reference-1&#34; href=&#34;#footnote-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. We also see Computational Thinking efforts where
-elementary school teachers relabel things they already do with CT
-labels - debugging for error fixing, for example. This can be a
-stepping stone to true CT and CS concepts but I&amp;#39;ve seen
-implementations where just the labeling is considered good
-enough. Worse, at times the teachers delivering these CT enhanced
-lessons aren&amp;#39;t using the CT definitions correctly.&lt;/p&gt;
-&lt;p&gt;
-CSforAll in New York City has been going on for nine years. Some
-states are further along in bringing CS to their schools and some
-started later. Still, after a decade, we have an extremely &lt;strong&gt;long&lt;/strong&gt; way to
-go. The number of high school teachers that have a deep knowledge of
-CS and how to teach it still pales in comparison to other subject
-areas and while elementary school teachers don&amp;#39;t require the same
-depth of knowledge, they, in my opinion, as a group are also far
-behind where they should be when CS is a subject equal to all the
-others.&lt;/p&gt;
-&lt;p&gt;
-I&amp;#39;m not blaming anyone for this (other than what I already said about
-the acceptance and in fact enthusiasm of the short term PD model) but
-rather noting that creating a new subject area from whole cloth where
-those you intend to teach it never studied the subject themselves is a
-multi decade process.&lt;/p&gt;
-&lt;p&gt;
-What&amp;#39;s worth thinking about now though, is what are we going to do
-with AI? Are we going to double down on short form PD and pay lip
-service to this emerging technology? Are we going to make some serious
-decisions and decide that some meaty material has to be included in
-per service programs?&lt;/p&gt;
-&lt;p&gt;
-I&amp;#39;m a skeptic. In a country where public school teaching is regularly
-derided and even in New York there&amp;#39;s talk about removing the Masters
-degree requirements I&amp;#39;m not hopeful. Will we, as a society, decide to
-do what&amp;#39;s right for all of our students or will we pay lip service
-while those who are well resources continue to get further ahead.&lt;/p&gt;
-&lt;p&gt;
-Time will tell.&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-&lt;hr class=&#34;footnotes-separatator&#34;&gt;
-&lt;div class=&#34;footnote-definitions&#34;&gt;
-&lt;div class=&#34;footnote-definition&#34;&gt;
-&lt;sup id=&#34;footnote-1&#34;&gt;&lt;a href=&#34;#footnote-reference-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
-&lt;div class=&#34;footnote-body&#34;&gt;
-&lt;p&gt;PD as a first step is often necessary and can be a good start
-but without meaningful long form preparation as a follow up it&amp;#39;s pure style over substance] &lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Real world projects or made up ones?</title>
-      <link>https://cestlaz.github.io/post/real-world-projects/</link>
-      <pubDate>Thu, 29 Feb 2024 12:48:54 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/real-world-projects/</guid>
-      <description>&lt;p&gt;
-There was a discussion to day on a the Facebook CS Educators group
-about project based learning. This was initiated based on the College
-Board&amp;#39;s desire to more more project work in some classes including
-APCS-A.&lt;/p&gt;
-&lt;p&gt;
-Most, actually I think all of the  educators on the forum agreed that
-students creating projects are a good idea but the bone of contention
-was over real world projects vs what I&amp;#39;ll call practice projects.&lt;/p&gt;
-&lt;p&gt;
-The thought is that a real world project would be a program that they
-might do if they were at a business - a complete web app for instance
-or a game, soup to nuts. A made up project might be implementing a
-sort or a data structure.&lt;/p&gt;
-&lt;p&gt;
-In the discussion some felt that all projects should be real world
-arguing that students will be more engaged. Others felt that while real
-world projects should be a goal, made up projects were more
-appropriate at times - like how you&amp;#39;ll practice etudes on a musical
-instrument when developing your chops rather than only ever working on
-a piece.&lt;/p&gt;
-&lt;p&gt;
-I don&amp;#39;t agree with the stance that real world projects are more
-engaging. Let&amp;#39;s take games - something always paraded out as real
-world and engaging. Sure, to kids who like computer gaming. Not so
-much for everyone else. Personally, I&amp;#39;m not huge on gaming and neither
-were many of my students. That said, enough were so that it made sense
-to explore game projects in some classes and to certainly allow them
-on appropriate open ended projects.&lt;/p&gt;
-&lt;p&gt;
-Let&amp;#39;s contrast that to made up projects. I&amp;#39;ve done assorted graphics
-projects and many had zero real world ramifications but many (not
-all) students found them super engaging. I&amp;#39;ve also frequently done a
-computer Caesar Cipher decoder. Many students found it very
-engaging. It wasn&amp;#39;t real world but it gave a level appropriate
-foreshadowing of a lot to come - proto-AI, proto-math, proto-stats.&lt;/p&gt;
-&lt;p&gt;
-Not real world but very engaging and I&amp;#39;d argue, more valuable than
-forcing a real world project that was less appropriate for what we
-were learning.&lt;/p&gt;
-&lt;p&gt;
-Besides, let&amp;#39;s look at some real, real world projects. Here are some
-projects that software engineers I know have worked on:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;make a round button that launches an already built feature of our
-platform.&lt;/li&gt;
-&lt;li&gt;I changed my mind, make it more of a rectangle with rounded
-courners.&lt;/li&gt;
-&lt;li&gt;Move that UI component down 3 pixels and over 5.&lt;/li&gt;
-&lt;li&gt;Change all the calls in our code base to function f so that it no
-longer passes null as the final parameter so that it matches the
-new API spec.&lt;/li&gt;
-&lt;li&gt;Write a function to check a string to make sure it conforms to our
-input specification.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The list goes on. The truth is more real world programmers work on
-small bits of a larger system. They&amp;#39;re working in teams (something I
-think our students have to learn about, but not exclusively) on large
-systems. Very rarely does someone in the real world go from concept to
-completion all by themselves, although I think CS programs would
-better serve their students if they did teach this manner of &amp;#34;software
-architecting.&amp;#34;&lt;/p&gt;
-&lt;p&gt;
-So, really, real world can be fine but it&amp;#39;s not the be all and end
-all.&lt;/p&gt;
-&lt;p&gt;
-Some might mean &amp;#34;uses real world data&amp;#34; for real world and this can
-certainly work. I frequently assign data based projects - find a data
-source, collect it, clean it, and do something with it. If the
-students can find data they like that can be super motivating but
-again, it&amp;#39;s not a be all and end all. I&amp;#39;ve had students go nuts over
-writing a Mandelbrot set explorer - no data there and not real world
-but super exciting for some.&lt;/p&gt;
-&lt;p&gt;
-I haven&amp;#39;t even really addressed group work or solo but I think this
-post is long enough as it is.&lt;/p&gt;
-&lt;p&gt;
-The truth is, authentic assignments come in all shapes and sizes and
-can be inspired by all sorts of things. Real world, whatever that
-means can be great but are not always appropriate. In K12, most
-schools top out with CS0 (APCS-P or similar) or CS1 (APCS-A or
-similar) not much in the real world is CS0 level - real world data,
-real world ideas, yes but not real, real world. Made up assignments
-can be as good or better and freed from the constraints of real world
-can be much more appropriate for a students development and just as if
-not more motivating.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>AI in the classroom - it really isn&#39;t that simple</title>
-      <link>https://cestlaz.github.io/post/ai-in-class-not-simple/</link>
-      <pubDate>Tue, 20 Feb 2024 15:49:24 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/ai-in-class-not-simple/</guid>
-      <description>&lt;p&gt;
-Earlier today, I saw a linkedin post by Code.org&amp;#39;s &lt;a href=&#34;https://www.linkedin.com/in/patyongpradit/&#34;&gt;Pat Yongpradit&lt;/a&gt;
-summarizing a series of articles on AI in K12 classrooms in Ed Week. I
-couldn&amp;#39;t get far into the articles due to paywall restrictions but
-Pat&amp;#39;s summary and the ensuing comments and discussion let me to
-writing this.&lt;/p&gt;
-&lt;p&gt;
-One thing that stuck out in the comments, and this has been a
-recurring theme in AI in K12 classroom discussions is that a teacher
-who allows students to use AI, teaches AI, etc. will be more effective
-than one who doesn&amp;#39;t.&lt;/p&gt;
-&lt;p&gt;
-While I&amp;#39;m against an AI ban and if I were still in the classroom I
-don&amp;#39;t doubt that I&amp;#39;d be exploring the tools, it&amp;#39;s not that simple.&lt;/p&gt;
-&lt;p&gt;
-Let&amp;#39;s look at elementary math education. When I was in grade school in
-the 70s, we learned our math facts, long division, and all sorts of
-things that were positively uncool when my kids were in school in the
-early 2000s. They didn&amp;#39;t learn there math facts and teachers had very
-different ways of approaching most of the topics. This struck me as,
-well, not good, so I started to talking to my students who had gone
-through this &amp;#34;new math&amp;#34; education as well as to parents.&lt;/p&gt;
-&lt;p&gt;
-While this wasn&amp;#39;t an official study, it certainly appeared that by the
-time kids who were educated in this newfangled way using all the new
-tools and tech were by and large more poorly prepared than students
-who either had an old school teacher who bucked the trend and did
-things the old way or had parents who supplemented on their own.&lt;/p&gt;
-&lt;p&gt;
-How does this relate to AI in the classroom? Well, a teacher only has
-so much time with their students and way more to teach than can
-realistically be done in the time allotted. So, teacher A focuses on
-the new hotness. Goes all in on AI - well, that&amp;#39;s great but
-something&amp;#39;s got to give. At the same time, teacher B doesn&amp;#39;t do the AI
-but goes old school - pen and paper and really focuses on teaching the
-kids to write - that is - communicate effectively.&lt;/p&gt;
-&lt;p&gt;
-Fast forward a few years and teacher A&amp;#39;s kids are proficient in what
-was modern AI a few years ago. Maybe this will be a tremendous boon
-but maybe we&amp;#39;ve moved on to the next thing. Teacher B&amp;#39;s kids, on the
-other hand are stronger communicators regardless of medium.&lt;/p&gt;
-&lt;p&gt;
-Who&amp;#39;s better off? Maybe A&amp;#39;s kids, Maybe B&amp;#39;s.&lt;/p&gt;
-&lt;p&gt;
-To make things more complicated, teachers have not been educated in AT
-and neither have administrators and just adding more and more to
-teachers plates is both unjust and not sustainable. &lt;/p&gt;
-&lt;p&gt;
-This hypothetical has played out before - with elementary math,
-calculators, writing across the curriculum, CS4All and more. Over and
-over again. There&amp;#39;s no simple answer. I wasn&amp;#39;t sure that calculators
-were the way to go back when they came in. I&amp;#39;m still not and even if
-they were the right move, why are kids and schools still forking money
-over to TI when there are free and better alternatives on phones and
-computers? Writing across the curriculum? Great idea but nobody carved
-out anything from my required curricula to make room for it and while
-I&amp;#39;d like to think I could do it, I&amp;#39;ve got nothing to show in my work
-history or education to say that I was qualified to teach effective
-writing.&lt;/p&gt;
-&lt;p&gt;
-Yes - let&amp;#39;s work on AI policies - hopefully informed by people who
-know both the tech an the teaching but let&amp;#39;s not be so fast to say
-that a teacher who embraces AI is good while one who does not is bad.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Neighbors, Community and David Bouley</title>
-      <link>https://cestlaz.github.io/post/neighbors-community-bouley/</link>
-      <pubDate>Wed, 14 Feb 2024 12:57:19 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/neighbors-community-bouley/</guid>
-      <description>&lt;p&gt;
-I read this morning that &lt;a href=&#34;https://ny.eater.com/2024/2/14/24072381/david-bouley-death-bouley-montrachet-brushstroke&#34;&gt;David Bouley&lt;/a&gt; has passed away at
-age 70. Bouley was an influential chef in New York city. A huge
-influence on the fine dining scene that has developed in the last few
-decades.&lt;/p&gt;
-&lt;p&gt;
-Why am I, a retired computer science teacher writing about a decorated
-chef? As fate had it, there are some connections between David Bouley
-and Stuyvesant High School, specifically the new building, where I
-spent most of my career. I started teaching during a teacher shortage,
-particularly in math. Actually, had there not been a shortage, I never
-would have been given an emergency license and who knows what career
-path I would have gone down. This meant that I was younger than most
-of the other teachers my departments. Somewhat at Seward and clearly
-at Stuy. There was me and Bill in our twenties and most of the rest of
-the department were in their upper forties or older. At some point that
-switched, and Bill and I were the old farts towards the later stages
-of my career.&lt;/p&gt;
-&lt;p&gt;
-I was always a foodie but was never exposed to fine dining. This was
-where &lt;a href=&#34;https://cestlaz.github.io/posts/2014-11-07-rich-rich/&#34;&gt;Rich Geller&lt;/a&gt; came in. Rich taught calc and ran the math team. He
-was also big into fine dining. Bruce Winokur, another much more
-experienced math teacher had similar tastes. I don&amp;#39;t remember when but
-we ended up going to Bouley&amp;#39;s restaurant &amp;#34;Bouley&amp;#34; - just a couple of
-blocks form Stuy for a meal. It was a revelation.&lt;/p&gt;
-&lt;p&gt;
-It turned out that Rich was friends with David Bouley - I think it
-just started with him frequenting the restaurant and asking to speak
-to the chef and that turned into something of a Stuy math department
-connection. We had a biannual tradition - once during the January
-regents week and again in June of taking a long lunch at Bouley. Me,
-Rich, Bruce, Dawn and a rotating cast of others. And of course going
-with Rich meant we always got a few bonus deserts or maybe an extra
-course. It was a highlight of the week.&lt;/p&gt;
-&lt;p&gt;
-The Stuy/Bouley connection went further. Rich, as I mentioned ran
-Stuy&amp;#39;s math team. In Spring &amp;#39;95 he arranged a special luncheon -
-Stuy&amp;#39;s math team at Bouley. If I recall, the entire team was too large
-so it was only the seniors. Unfortunately I couldn&amp;#39;t crash the party
-but now, many years later, I&amp;#39;m friends with a number of those team
-members and it was quite a memorable experience.&lt;/p&gt;
-&lt;p&gt;
-Fast forward to post 9/11. We had been displaced due to the attacks
-and had spent a month as guests at Brooklyn Tech. About a month
-afterwards, certainly before Halloween, we were back at Stuy. It was
-the evening of parent teacher conferences. Usually that evening, the
-parents association hosts a dinner for the teachers. It&amp;#39;s cafeteria
-style and teachers come and go at various times as long as they make
-it to their room by the start of conferences. Usually it&amp;#39;s mostly pot
-luck from the parents. Usually pretty tasty and certainly
-appreciated. This time, as I went down the line, I said to myself
-&amp;#34;Hey, I recognize that beef dish…&amp;#34; Yep, that meal was catered by
-David Bouley and we got many of his on the menu dishes - at least
-those that lent themselves to prior preparation and transport to the
-school. I don&amp;#39;t know if this was part of his general recovery work (he
-did a lot to prepare food for the rescue/recovery workers), if this
-was a special arrangement made by Rich or something else but it was
-exceptional.&lt;/p&gt;
-&lt;p&gt;
-The years continued as did the regents week lunches. Unfortunately, we
-lost Rich to Cancer in the fall of 2011 (tribute post &lt;a href=&#34;https://cestlaz.github.io/posts/2014-11-07-rich-rich/&#34;&gt;here&lt;/a&gt;). Shortly before his passing,
-David Bouley hosted a reception at Bouley for Rich, his wife Barbara,
-his friends, and former students. A touching tribute for a master
-teacher.&lt;/p&gt;
-&lt;p&gt;
-Why am I spending all this time about my friend Rich and David Bouley?
-Well, it&amp;#39;s about community. Stuy isn&amp;#39;t a neighborhood school. In a
-neighborhood or community school, teachers and students see each other
-in passing. Not so at Stuy. Only a handful of teachers live in
-Manhattan or even the five boroughs. The kids? Many have commutes well
-over an hour each way. Yet still, here we had this little foodie math
-community at Stuy. Mostly teachers, but students were touched as
-well. While we lost Rich over a decade ago, reading about David
-Bouley&amp;#39;s death really brought me back.&lt;/p&gt;
-&lt;p&gt;
-I&amp;#39;ve had many fine dining experiences since Rich introduced me to
-Bouley&amp;#39;s restaurants. I&amp;#39;ve had great food at Jean George, Daniel, and
-Park Avenue Cafe and many others but my meals at Bouley have been
-special - the best overall dining experiences. I also remember some
-particularly special meals - Rich&amp;#39;s reception. The surprise lunch
-for a special graduating senior, when Devorah and I took Jim and Helen
-there to thank them for writing the kids college recs and a handful of
-others.&lt;/p&gt;
-&lt;p&gt;
-I think that in a lot of cultures there&amp;#39;s a strong tie between food
-and community and in this weird little circle community was created
-between some CS people, Math people, a specialized high school, and a
-great chef.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Using Emacs 82 - Conda and Direnv</title>
-      <link>https://cestlaz.github.io/post/using-emacs-82-conda-direnv/</link>
-      <pubDate>Tue, 13 Feb 2024 11:31:06 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/using-emacs-82-conda-direnv/</guid>
-      <description>&lt;p&gt;
-One of the things I want to do now that I have some time is get my
-head around all the modern AI stuff. I&amp;#39;m starting with a review or
-things I&amp;#39;ve already done  by going through Andrew Ng&amp;#39;s Coursera ML
-class. I&amp;#39;ll probably continue with his courses but I&amp;#39;m certainly open
-to any suggestions (specifically for a CS guy who&amp;#39;s not so strong on
-the math side).&lt;/p&gt;
-&lt;p&gt;
-This means diving back into Python even though Clojure is usually my
-weapon of choice. I thought I&amp;#39;d see how the platform has changed.&lt;/p&gt;
-&lt;p&gt;
-First up &lt;a href=&#34;https://www.anaconda.com/&#34;&gt;Anaconda&lt;/a&gt; which is a platform and package manager for
-Python. I opted for &lt;a href=&#34;https://docs.anaconda.com/free/miniconda/index.html&#34;&gt;Miniconda&lt;/a&gt; which just gives the basics and I can
-always add anything missing later.&lt;/p&gt;
-&lt;p&gt;
-See the previous two links to install Anaconda or Miniconda. The video
-goes over basic use. It&amp;#39;s a lot like virtualenv. You can set up an
-Python environment with specific packages and then activate or
-deactivate whichever environment you wish to work under.&lt;/p&gt;
-&lt;p&gt;
-On the Emacs side, I installed the package conda as follows:&lt;/p&gt;
-&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      (use-package conda :straight &lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        :config
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        (conda-env-initialize-interactive-shells)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        (conda-env-initialize-eshell))&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;
-And that was pretty much it. To activate an particular environment we
-just use &lt;code&gt;conda-env-actiate&lt;/code&gt;. Again, this is covered in the video.&lt;/p&gt;
-&lt;p&gt;
-Next up is &lt;a href=&#34;https://direnv.net/&#34;&gt;direnv&lt;/a&gt;. This lets you customize your environment per
-directory. You can do things like set specific environment variables
-or even, in our case, activate a conda environment just by going into
-a project directory. Basic installation instructions can be found on
-the home page.&lt;/p&gt;
-&lt;p&gt;
-To set up direnv to work with Anaconda/Miniconda though took a bit of
-work. Between a few web sites and videos, I found that this worked.&lt;/p&gt;
-&lt;p&gt;
-First, I had to create a file named &lt;code&gt;.direnvrc&lt;/code&gt; in my home directory
-with these contents:&lt;/p&gt;
-&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  layout_conda() {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;#&lt;/span&gt; Ref Url: https://github.com/direnv/direnv/wiki/Python
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;#&lt;/span&gt; local ANACONDA_HOME=&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;”&lt;/span&gt;${HOME}/anaconda3&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    # PATH_add “$ANACONDA_HOME”/bin1
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    if [ -n &amp;#34;&lt;/span&gt;$1&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; ]; then
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    # Explicit environment name from layout command.
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    local env_name=&amp;#34;&lt;/span&gt;$1&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    source activate ${env_name}
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    elif (grep -q name: environment.yml); then
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    # Detect environment name from `environment.yml` file in `.envrc` directory
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    source activate `grep name: environment.yml | sed -e ‘s/name: //’ | cut -d
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    &amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;‘&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; -f 2 | cut -d ‘&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;‘&lt;/span&gt; -f &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;`&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    else
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (&amp;gt;&amp;amp;2 echo No environment specified)&lt;span style=&#34;color:#75715e&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    exit &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    fi&lt;span style=&#34;color:#75715e&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;
-You might have to play with it if you&amp;#39;re not using the miniconda
-installation defaults.&lt;/p&gt;
-&lt;p&gt;
-Next, I had to edit my .zshrc:&lt;/p&gt;
-&lt;div class=&#34;src src-sh&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    export iam&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;whoami&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    export CONDA_HOME&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/home/&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;iam&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/miniconda3&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;[[&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;:&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;PATH&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;:&amp;#34;&lt;/span&gt; !&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; *&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;:&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;CONDA_HOME&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/bin:&amp;#34;&lt;/span&gt;* &lt;span style=&#34;color:#f92672&#34;&gt;]]&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;CONDA_HOME&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/bin:&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;PATH&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# &amp;lt;&amp;lt;&amp;lt; my export init &amp;lt;&amp;lt;&amp;lt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# &amp;gt;&amp;gt;&amp;gt; conda initialize &amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# !! Contents within this block are managed by &amp;#39;conda init&amp;#39; !!&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    __conda_setup&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/home/zamansky/miniconda3/bin/conda&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;shell.zsh&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;hook&amp;#39;&lt;/span&gt; 2&amp;gt; /dev/null&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt; $? -eq &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;; &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        eval &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$__conda_setup&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt; -f &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/home/zamansky/miniconda3/etc/profile.d/conda.sh&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;; &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            . &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/home/zamansky/miniconda3/etc/profile.d/conda.sh&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/home/zamansky/miniconda3/bin:&lt;/span&gt;$PATH&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;fi&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;fi&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    unset __conda_setup
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# &amp;lt;&amp;lt;&amp;lt; conda initialize &amp;lt;&amp;lt;&amp;lt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    export LANG&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;en_US.UTF-8
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    eval &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;direnv hook zsh&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;
-Some of that was added when I installed direnv and followed those
-directions. I think for the direnv Anaconda support I added the first
-two lines and the last one.&lt;/p&gt;
-&lt;p&gt;
-Finally, in your project&amp;#39;s root directory create a file named &lt;code&gt;.envrc&lt;/code&gt;
-which contains the line &lt;code&gt;layout conda name&lt;/code&gt; where &lt;strong&gt;name&lt;/strong&gt; is replaced with
-the name of the conda environment you want.&lt;/p&gt;
-&lt;p&gt;
-The first time you go into the directory it will tell you that you
-haven&amp;#39;t allowed direnv to work there yet and you have to enter &lt;code&gt;direnv
-allow&lt;/code&gt;. After you do that, every time you enter that directory it will
-activate your conda environment, leave it, it will deactivate it.&lt;/p&gt;
-&lt;p&gt;
-In Emacs, I found two packages that worked pretty much the same. One
-named &lt;code&gt;direnv&lt;/code&gt; and the other &lt;code&gt;envrc&lt;/code&gt;. I opted for envrc.&lt;/p&gt;
-&lt;p&gt;
-You simply add:&lt;/p&gt;
-&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (use-package envrc :straight &lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    :config (envrc-global-mode))&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;
-to your config and when you open a file in that directory, it will
-use direnv.&lt;/p&gt;
-&lt;p&gt;
-&lt;strong&gt;Important note:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;
-That&amp;#39;s pretty much it. This all worked on my desktop but it&amp;#39;s giving
-me problems on my laptop. It appears that conda mode isn&amp;#39;t working. It
-allows me to select the environment but it doesn&amp;#39;t actually activate
-it. I think it&amp;#39;s a path issue even though I think both my desktop and
-laptop are the same. I&amp;#39;ll update this once I figure out what&amp;#39;s up on
-the laptop side.&lt;/p&gt;
-&lt;p&gt;
-All in all, I&amp;#39;m pretty happy with this. I love that I can
-automatically start an environment just by accessing a file in the
-directory. Too many times, I forget and mess things up.&lt;/p&gt;
-&lt;p&gt;
-The video steps through everything and demos both packages:&lt;/p&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/UrJoBaJv5kA?si=_W-OU3RG7o3K5LQ4&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;
-Enjoy!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hosting an AI panel at Stuy</title>
-      <link>https://cestlaz.github.io/post/ai-panel/</link>
-      <pubDate>Fri, 09 Feb 2024 11:15:47 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/ai-panel/</guid>
-      <description>&lt;p&gt;
-Went back to school yesterday. Specifically, I was back at Stuy
-running an AI panel discussion for the Stuy HS Alumni Association. I
-figured it&amp;#39;s time for me to get back in the CS / CS Ed game.&lt;/p&gt;
-&lt;p&gt;
-Plans started a few months ago when a member of my Stuy CS family
-who&amp;#39;s also in the SHSAA board asked about doing something. I was game
-but a little apprehensive, mostly because there have been, let&amp;#39;s say,
-issues with the way the SHSAA had operated in the past. Still, this
-was a new board with a new staff so I figured, worth exploring.&lt;/p&gt;
-&lt;p&gt;
-Turns out the new Alumni Association ED is a former student of mine so
-that rocketed the trust level of the association way up and we were
-off to the races.&lt;/p&gt;
-&lt;p&gt;
-Setting up any panel or tech event can be tricky. If you&amp;#39;re doing
-something for your own classes it&amp;#39;s much easier - you&amp;#39;ve got a good
-idea as to the classes experience as well as interest in whatever
-event you&amp;#39;re planning. A panel like this, not so much. I had no idea
-on the audience size but since it would be mostly Stuy grads along
-with a few Stuy students and a low cost or free event it meant that
-the room would be filled with nimble minds. The challenge was that
-those nimble minds would be all over the place with regards to tech
-experience. I was guessing we&amp;#39;d have adult tech pros and hard core CS
-people, students who were into CS just finding their way, adults
-wanting to learn more but who had no background in either CS or AI,
-and probably a few alumna who just wanted to show up for an alumni
-event. Turns out I think I got the audience range right.&lt;/p&gt;
-&lt;p&gt;
-How to make a panel for that? You want to be able to do something of a
-deep technical dive but you don&amp;#39;t want to lose the non-techies. You
-also want to spend time on all sorts of societal issues - talking AI
-is a lot more than just tensor flow, neural nets, transformers, and
-LLMs.&lt;/p&gt;
-&lt;p&gt;
-I reached out the my StuyCS family, my alumni network for four
-specific individuals. Oh, if you&amp;#39;re an AI person and part of the
-family and wondering why I didn&amp;#39;t ask you - remember - this was a live
-NY event so all you Pittsburgh, Seattle, and California AI folks,
-sorry - geography made that decision.&lt;/p&gt;
-&lt;p&gt;
-Alphabetically, first up was Ben - he was one of my technical
-heavyweights. I was confident he could handle any technical curveballs
-from the audience. He also has worked at both large companies and has
-built startups so he could also give some management and
-entrepreneurial context. Next, Doug - strong tech background but a lot of
-experience as a technical manager. Been at a number of major and minor
-companies from small to large. I figured he would anchor the
-business/manager side.  Eugene was third - another technical anchor to
-balance Ben but Eugene has more formal academic training and also
-spent his entire career in a single major tech company. Finally,
-Jamil who also brought startup and small/mid company experience but
-has always been big on civic tech and equity related issues.&lt;/p&gt;
-&lt;p&gt;
-Of course, all four overlapped. I joked that Jamil was the conscience
-of the panel but truthfully those societal issues were important to
-all of us. Likewise, all have had some managerial experience etc.&lt;/p&gt;
-&lt;p&gt;
-From the limited feedback I got so far, I think the mix worked. We
-started &amp;#34;defining&amp;#34; AI, modern AI, LLMs (in lay terms) etc. and then
-shifted to issues like the use of other peoples data in training, bias
-in AI, and of course, recommendations for the youngsters just getting
-started. The audience Q and A got more deeply into these issues along
-with future jobs issues and if it&amp;#39;s even worth learning to code
-anymore.&lt;/p&gt;
-&lt;p&gt;
-I won&amp;#39;t recap all the specifics but a highlight to me was how the
-panel painted the picture to show that while AI was new and shiny and
-is opening new doors with both opportunities and challenges, at the
-core, so many of the important issues are societal based, not
-technical. Ben mentioning that in a startup the big cost drivers are still
-things like personnel and that we&amp;#39;re still very much in the same
-startup/funding/scaling model just with new tech and Jamil and others
-emphasizing that it&amp;#39;s not that there are these new potential dangers
-with bias, for instance with AI but rather that the bias is already
-baked into our system and AI is the next frontier - a wake up call
-that we can&amp;#39;t just sprinkle some equity sugar on AI but rather have to
-deal with the hard societal issues.&lt;/p&gt;
-&lt;p&gt;
-All in all, I think it was a terrific event.&lt;/p&gt;
-&lt;p&gt;
-At the end I had a chance to informally spend time with both panelists
-and audience and it was great to see a number of old friends. Between
-the panelists and audience, I had students from the class of &amp;#39;95 up to
-some of my most recent graduates.&lt;/p&gt;
-&lt;p&gt;
-It was a fun first event to come out of my retirement hibernation. Not
-sure whats next but this one was both educational and fun.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Which low level language to teach?</title>
-      <link>https://cestlaz.github.io/post/which-low-level/</link>
-      <pubDate>Tue, 06 Feb 2024 07:09:37 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/which-low-level/</guid>
-      <description>
-&lt;p&gt;
-A teacher in one of the CSEd forums I&amp;#39;m part of asked for thoughts on
-what low level language to teach. She also asked about scripting but
-I&amp;#39;m not going address that here. The question came, aparently due to
-state guidelines which were somewhat vague. I couldn&amp;#39;t find the
-specific guidelines but I did find old guidelines that indicated that
-the course in question was intended to be post APCS-A.&lt;/p&gt;
-&lt;p&gt;
-Back at Stuy, I designed a systems programming course that was post
-APCS-AB. I first used assembly language and then pivoted to C. That&amp;#39;s
-where it stayed until I left and I&amp;#39;m guessing it&amp;#39;s still there. If I
-were to design the course now, I&amp;#39;m not sure if I&amp;#39;d make the same
-choice. If I were designing a unit in a post APCS-A class that had
-some low-level work, I&amp;#39;m also not sure what I&amp;#39;d do but I found the
-question interesting so I thought I&amp;#39;d noodle about it here.&lt;/p&gt;
-&lt;p&gt;
-The first question I&amp;#39;d ask would be &amp;#34;should the language be low level
-or is it any language suited for low level, that is, systems type
-work?&amp;#34; If it&amp;#39;s the former, choices are pretty limited. If it&amp;#39;s the
-latter, then most popular mainstream languages would work but
-scripting languages like Python and JVM based languages like Java
-probably miss the mark, at least philosophically.&lt;/p&gt;
-&lt;p&gt;
-Let&amp;#39;s explore some of the contenders:&lt;/p&gt;
-&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
-&lt;h2 id=&#34;headline-1&#34;&gt;
-Assembly
-&lt;/h2&gt;
-&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;p&gt;
-This is what I think of when I hear &amp;#34;low level language.&amp;#34; In some ways
-assembly is simple. Each instruction does a specific thing. On the
-other hand, since you&amp;#39;re giving the CPU explicit instructions to run,
-as opposed to higher level &amp;#34;human&amp;#34; constructs, you need a lot of code
-to do &amp;#34;simple&amp;#34; things. Assembly certainly gives a platform to explore
-a machine at a low level but if we&amp;#39;re talking only a short unit, it
-could be hard to get student buy in. Still, some students might love it.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
-&lt;h2 id=&#34;headline-2&#34;&gt;
-C
-&lt;/h2&gt;
-&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;p&gt;
-C has long been my go to for low level. I like to think about it as
-assembly with better constructs like loops, arrays, structs, and
-similar. A nice thing is that it&amp;#39;s syntactically similar to Java which
-would have been used in APCS-A. A not so nice thing is that it&amp;#39;s less
-forgiving and more error prone. This &amp;#34;feature&amp;#34; does let you explore
-concepts like memory management and how the computer arranges things
-internally but it can also be incredibly frustrating for students and
-programmers alike.&lt;/p&gt;
-&lt;p&gt;
-One really nice feature of using C is that it&amp;#39;s a small, simple
-language. K&amp;amp;R - &lt;strong&gt;the&lt;/strong&gt; book on C is only around 100 pages and the
-complete reference manual is a short section in back. It also cleaning
-compiles to assembly. A really nice unit is to take some C code and
-use &lt;strong&gt;gdb&lt;/strong&gt; - the Gnu Debugger - a free debugging tool that can even be
-run online to look at the assembly code generated and step through
-it. This gives some of the benefits of studying assembly, a little bit
-on how memory and the machine works, a touch of how C is translated
-when compiled and is very accessible to students.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;
-&lt;h2 id=&#34;headline-3&#34;&gt;
-C++
-&lt;/h2&gt;
-&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;p&gt;
-C++ is newer and much larger than C. It used to be a C extension but
-for a long time it&amp;#39;s been a language in its own right. An advantage of
-using C++ is that it&amp;#39;s the core language used in many colleges (with
-Java being the other main one) and while it&amp;#39;s a little more cumbersome
-to use than C, it&amp;#39;s not much of a step up in complexity until you dive
-in to the more advanced concepts. You can also do the &amp;#39;explore
-assembly using gdb&amp;#39; stuff I described above.&lt;/p&gt;
-&lt;p&gt;
-Given current markets, I&amp;#39;d be tempted to go C++ as opposed to C if I
-were designing this unit today but for anyone doing so, I&amp;#39;d encourage
-you, if you do this, to actually teach C++ sensibilities and not
-merely C with C++ constructs. &lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-2&#34;&gt;
-&lt;h2 id=&#34;headline-4&#34;&gt;
-Go
-&lt;/h2&gt;
-&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;p&gt;
-Go&amp;#39;s an interesting one. If I remember correctly, it was designed as a
-systems programming language to replace C but at the end of the day it
-attracted more Python programmers than C programmers.&lt;/p&gt;
-&lt;p&gt;
-I&amp;#39;ve only dabbled with it but there&amp;#39;s a lot to like. It&amp;#39;s a small,
-simple, clean language. A friend described it as &amp;#34;a minimalist
-language with libraries designed by really smart people with good
-taste.&amp;#34; I think that&amp;#39;s fair.&lt;/p&gt;
-&lt;p&gt;
-It&amp;#39;s a compiled language with a blazingly fast compiler and hosts some
-nice teaching/learning aids. For instance, it comes with gofmt, a
-program that indents go code consistently and design features like
-having only one loop construct simplifies things. It also has a
-terrific concurrency model but that might not be relevant for a past
-APCS-A low level unit.&lt;/p&gt;
-&lt;p&gt;
-It also appears that you can gdb so I&amp;#39;m guessing it has the same
-ability to be used to explore assembly as C and C++.&lt;/p&gt;
-&lt;p&gt;
-Even though I&amp;#39;m a C guy from way back and taught C++ for the past 7
-years at Hunter College, I&amp;#39;d be really tempted to look at Go if I were
-exploring low level programming or system programming with a High
-School post APCS-A class today.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-5&#34; class=&#34;outline-2&#34;&gt;
-&lt;h2 id=&#34;headline-5&#34;&gt;
-Rust
-&lt;/h2&gt;
-&lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;p&gt;
-Rust is another interesting choice. It seems to be the up and coming
-darling systems language of the day. That&amp;#39;s not to say it&amp;#39;s a fad -
-there seems to be some solid substance underneath. Like with Go, I&amp;#39;ve
-only dabbled and to an even lesser extent.&lt;/p&gt;
-&lt;p&gt;
-My big concern with it in a high school course, particularly for just
-a unit in a high school course is there seems to be a fair amount of
-overhead and cognitive load for a beginner.  This overhead gives you
-some great protections when programming but it just seems to much
-given the high school students lack of experience.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-6&#34; class=&#34;outline-2&#34;&gt;
-&lt;h2 id=&#34;headline-6&#34;&gt;
-Others (Ada, Swift, Nim)
-&lt;/h2&gt;
-&lt;div id=&#34;outline-text-headline-6&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;p&gt;
-There are other choices as well. I worked with Ada a bit back in the
-day and it would suit the bill. After all it was designed for embedded
-systems but it&amp;#39;s less mainstream and is less streamlined than C, C++
-or Go. Also, to be honest, I&amp;#39;m so out of date with Ada that I can&amp;#39;t
-really say what it looks like today. Swift and Nim also came up as I
-poked around for current systems programming languages this morning
-but know neither and Swift being apple only would be a concern for me.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-7&#34; class=&#34;outline-2&#34;&gt;
-&lt;h2 id=&#34;headline-7&#34;&gt;
-Conclusions
-&lt;/h2&gt;
-&lt;div id=&#34;outline-text-headline-7&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;p&gt;
-So, where would I fall if I had to design this student experience? If
-I were pressed for time, I&amp;#39;d probably opt for C++ with C being my
-second choice. If I had time to plan, I&amp;#39;d look at Go and Rust but my
-gut tells me I&amp;#39;d settle on Go for its minimalism and clean design.&lt;/p&gt;
-&lt;p&gt;
-In any event, it was an interesting question to ponder on.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
 </description>
     </item>
     

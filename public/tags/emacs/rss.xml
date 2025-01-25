@@ -6,10 +6,90 @@
     <description>C&#39;est la Z (emacs)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Feb 2024 11:31:06 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jan 2025 09:25:00 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/tags/emacs/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>Extracting Emails (with Emacs)</title>
+      <link>https://cestlaz.github.io/post/extracting-emails/</link>
+      <pubDate>Tue, 07 Jan 2025 09:25:00 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/extracting-emails/</guid>
+      <description>&lt;p&gt;
+Yesterday I found myself in a situation where I had a text document
+interspersed with a bunch of email addresses and I wanted to extract
+those email addresses.&lt;/p&gt;
+&lt;p&gt;
+Specifically, I had to copy email addresses from a couple of
+spreadsheets and other sources and I thought it would be faster to
+copy lines form the sheets instead of email cells as well as just
+grabbing text from the other sources and then isolating the email
+addresses in Emacs.&lt;/p&gt;
+&lt;p&gt;
+Now, writing a little &amp;#34;extract emails&amp;#34; script to operate on a text
+file is easy enough. You can search for an email address using a
+regular expression. Regular expressions are a text pattern matching
+language that most programming language support. I used something like
+the following regular expression to identify an email address:&lt;/p&gt;
+&lt;div class=&#34;src src-text&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[a-zA-Z0-9\.]+@[a-zA-Z0-9]+\.[a-zA-Z]{3}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+The first [a-zA-Z0-9\.]+ matches a sequence of one or more characters
+that are letters, numbers or a period (the slash before the period is
+to escape it - prevent using the . for its special regular expression
+meaning). That&amp;#39;s followed by the @ symbol, a second set of characters,
+this time without the period, then a dot and then three more
+characters.&lt;/p&gt;
+&lt;p&gt;
+This will match most email addresses.&lt;/p&gt;
+&lt;p&gt;
+In Clojure, I&amp;#39;d use the function re-seq which would take a string
+(presumably my text file) and return a list of all the matches. That
+is, all the email addresses. I could do the same in Python with
+re.findall.&lt;/p&gt;
+&lt;p&gt;
+In an editor, at least in Emacs, it&amp;#39;s a little trickier. You can
+search for a regular expression but that just finds the next email
+address. I&amp;#39;d then have to manually copy it and then repeat the
+process.&lt;/p&gt;
+&lt;p&gt;
+I guess a keyboard macro could do the trick but easier would be to
+just write an elisp function and extend Emacs.&lt;/p&gt;
+&lt;p&gt;
+The video shows the whole walkthrough but the core of the routine is
+using the &lt;code&gt;search-forward-regexp&lt;/code&gt; function which searches for the next
+occurrence of an email match. I then add that email address to a
+list. Putting it all in a while loop, you get:&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(while (search-forward-regexp regexp &lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (push (match-string-no-properties &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;) matches))&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+The match-string-no-properties grabs the actual text of the match.&lt;/p&gt;
+&lt;p&gt;
+There&amp;#39;s a little more detail but basically I wrote an equivalent of
+re-seq for an Emacs buffer - it grabs everything that matches a
+regular expression and returns all the matches in a list.&lt;/p&gt;
+&lt;p&gt;
+Then, it was a simple matter of looping over that list and inserting
+the results. I ultimately named the routine &lt;code&gt;extract-emails&lt;/code&gt;. So now, I
+can be in any Emacs buffer, copy over all my source email material,
+run the command, and I&amp;#39;ll have all the emails together one per line
+ready to be pasted into an email client.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m thinking that I should probably give the routine an additional
+optional parameter - have it extract emails by default but allow the
+user to pass in any regular expression.&lt;/p&gt;
+&lt;p&gt;
+Just another reason why Emacs is such a powerful editor.&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s the video, enjoy:&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/o2z9SKNVCwk?si=rpUG-hg8KqGoxZxw&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
     
     <item>
       <title>Using Emacs 82 - Conda and Direnv</title>
@@ -3847,41 +3927,6 @@ The video has all the details. Enjoy.&lt;/p&gt;
 src=&#34;https://www.youtube.com/embed/G1NGNR40lB4&#34; frameborder=&#34;0&#34;
 allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope;
 picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Using Emacs 71 Openwith</title>
-      <link>https://cestlaz.github.io/post/using-emacs-71-openwith/</link>
-      <pubDate>Wed, 13 May 2020 11:45:39 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/using-emacs-71-openwith/</guid>
-      <description>&lt;p&gt;
-I spend most of my time in Emacs but still use the shell and browser
-for some things. One of the things I use my shell for is to launch
-libreoffice to view and edit docx files and spreadsheets, evince for
-pdf files and imagemagick for image files. Yes, I know I can view all
-of these in Emacs but there are a few limitations:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Emacs chokes on large files&lt;/li&gt;
-&lt;li&gt;I can&amp;#39;t edit the docx file or the image&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;So, I hop to the shell and launch the program I need on the files in
-question. It&amp;#39;s fine but it does mean I end up with two windows for
-each operation - the terminal from which I run, say, libreoffice and
-libreoffice itself. I will also have my browser and one ore more Emacs
-windows open so things can get a bit cluttered.&lt;/p&gt;
-&lt;p&gt;
-Now, on the Emacs side, one tool that I still haven&amp;#39;t gotten myself to
-regularly use is dired. I figured dired could be made to do what I
-want - quickly and easily launch programs to view and edit my files.&lt;/p&gt;
-&lt;p&gt;
-By default, dired opens files in a new Emacs buffer. That&amp;#39;s fine for
-text files but not the behavior I want for docx and other files. It
-turns out there are a number of good solutions. The one that I&amp;#39;ll
-likely stick with is &lt;a href=&#34;https://github.com/jpkotta/openwith/tree/1dc89670822966fab6e656f6519fdd7f01e8301a&#34;&gt;openwith&lt;/a&gt; but there are other options as
-well. Check out the video for more:&lt;/p&gt;
-  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/_qjJ5UzInRI&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 </description>
     </item>
     

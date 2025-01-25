@@ -6,10 +6,107 @@
     <description>C&#39;est la Z (teaching)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 May 2024 11:34:06 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jan 2025 15:32:50 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/tags/teaching/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>Making mistakes and what makes a great teacher</title>
+      <link>https://cestlaz.github.io/post/great-teacher/</link>
+      <pubDate>Thu, 09 Jan 2025 15:32:50 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/great-teacher/</guid>
+      <description>&lt;p&gt;
+As he usually does (and of which I&amp;#39;m always appreciative) JCS &lt;a href=&#34;https://irreal.org/blog/?p=12701&#34;&gt;shared&lt;/a&gt;
+my most recent Emacs post in which I go over a small Elisp routine
+that I wrote.&lt;/p&gt;
+&lt;p&gt;
+JCS commented that he liked that I don&amp;#39;t post process or edit my
+videos. I work through whatever I&amp;#39;m doing and if I make a mistake, so
+be it, I&amp;#39;ll try to figure it out live. I do things this way partly
+because of laziness but also because I think the result is more
+authentic. People doing something similar on their own will likely
+make mistakes and if every video and resource they find online is
+perfect, it creates an unrealistic expectation.&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s like how the usual self reporting of AP scores in the CS
+communitie unfolded a bunch of times with the only people sharing
+their results were teachers who&amp;#39;s students all did well. Given
+national scores, we know that not every student gets a great AP score
+but it created an unrealistic and demotivating picture for teachers in
+the community who&amp;#39;s results were more, let&amp;#39;s say mixed.&lt;/p&gt;
+&lt;p&gt;
+From very early on, I&amp;#39;ve been pretty comfortable making mistakes in
+front of my classes. I mean, once I got to Stuy, I regularly taught
+students much smarter than I was. I almost always knew more material
+but they could stump me at times and once they dove into the mathy
+side, I was way out of my league. I felt being honest and open was my
+best approach and making mistakes allowed me to model that mistakes
+are part of the process as well as how to proceed. Of course a
+challenge would be recreating the mistake that was organic in period
+two later in the day.&lt;/p&gt;
+&lt;p&gt;
+Anyway, since I think my willingness to make mistakes in front of my
+students - my honesty in that regard is part of what made me a strong
+teacher, JCS&amp;#39;s comment made me think of Alfred Thompsons recent
+excellent &lt;a href=&#34;https://blog.acthompson.net/2024/12/three-keys-to-being-great-teacher.html&#34;&gt;post&lt;/a&gt; on what turns a good teacher into a great teacher. &lt;/p&gt;
+&lt;p&gt;
+Alfred focused on three things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Relationships with students - they care about their students as people.&lt;/li&gt;
+&lt;li&gt;They had to be enthusiastic about the subject they teach.&lt;/li&gt;
+&lt;li&gt;They had to innovate - that is develop their classes over time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It&amp;#39;s a good list. Many great teachers do indeed have these there
+qualities. I think it&amp;#39;s worth considering though that while these are
+generally positive teacher attributes, they&amp;#39;re not absolutes.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve met some great teachers and teachers who have been considered to
+be great who don&amp;#39;t have these qualities.&lt;/p&gt;
+&lt;p&gt;
+While none of the great teachers I know have disdain for their
+students, some don&amp;#39;t have any real relationship with them and they
+don&amp;#39;t really care about their success outside of them wanting all
+their students to pass their class.&lt;/p&gt;
+&lt;p&gt;
+Now, I&amp;#39;ve built my career on relationships so I never built a wall
+between me and my students and I don&amp;#39;t understand teachers that do but
+I do have to recognize that building relationships isn&amp;#39;t an absolute
+for one to be a great teacher.&lt;/p&gt;
+&lt;p&gt;
+Same with subject enthusiasm. Sure, it probably helps, but again, I&amp;#39;ve
+met some great teachers who are more or less indifferent. What&amp;#39;s
+important is that they have sufficient subject knowledge and it
+probably helps if they also do care about their students so maybe you
+need at least one from column A and one from column B.&lt;/p&gt;
+&lt;p&gt;
+Finally, innovation. I always worked to improve and refine my work and
+would probably have gone crazy teaching the same thing in the same way
+for three plus decades but again, I&amp;#39;ve seen some great teachers who do
+the same thing pretty much the same way year in and year out.&lt;/p&gt;
+&lt;p&gt;
+On the flip side, I&amp;#39;ve seen some lousy teachers who have all three
+of these great teacher qualities. They care, they know their stuff and
+love their subject area, and try new things but they&amp;#39;re just not
+particularly good.&lt;/p&gt;
+&lt;p&gt;
+JCS&amp;#39;s post made me think about this because for me, open honesty was
+helpful in being my strongest teacher self, whatever that was and
+is. I also listened the other day to the most recent CSEd Podcast
+which had a professor sharing a particular practice he uses in
+class. I&amp;#39;m also planning to write a post on that but it also made
+think on how a teachers pedagogical toolbox can also have an affect
+on how &amp;#34;great&amp;#34; a teacher one is.&lt;/p&gt;
+&lt;p&gt;
+I guess the moral of the story is that while we can pick out some
+common attributes that many great teachers share, great teaching is
+hard to pin down which is why it&amp;#39;s so hard to meaningfully evaluate
+teachers. I guess it&amp;#39;s like Justice Potter Stewart&amp;#39;s concurring
+opinion on identifying &amp;#34;hard-core&amp;#34; pornography. We might not be able
+to define it but we know it when we see it.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>It&#39;s teacher appreciation week again</title>
@@ -3263,80 +3360,6 @@ As I said, we were blown away by their work but super proud that we
 also have the bonus of being able to make their work available to the
 general CS Ed community. If you&amp;#39;re looking to create a unit in any of
 these, check them out.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Preparing teachers to teach CS</title>
-      <link>https://cestlaz.github.io/post/teacher-cert-recap-intro/</link>
-      <pubDate>Mon, 03 Aug 2020 06:16:52 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/teacher-cert-recap-intro/</guid>
-      <description>&lt;p&gt;
-Now that the summer portion of Hunter College&amp;#39;s Advanced Certificate
-in Teaching Computer Science is over I thought I&amp;#39;d do a
-postmortem. That is, a few posts about what we did and how it all
-went. &lt;/p&gt;
-&lt;p&gt;
-First, though, an overview of the program.&lt;/p&gt;
-&lt;p&gt;
-The Advanced Certificate program is geared towards teachers who are
-currently certified in another subject area who wish to earn an
-additional New York State teaching certificate in Computer
-Science. Aspiring teachers - people who don&amp;#39;t currently have either a
-Masters degree or any teaching certification can enroll in our Masters
-in Computer Science Education program. We&amp;#39;re starting a small cohort
-of five on that in the Fall. &lt;/p&gt;
-&lt;p&gt;
-The certificate program consists of a bunch of graduate classes plus
-field work which is required by the state. Over the summer we covered
-four of the classes. &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Programming - essentially a CS1 type course.&lt;/li&gt;
-&lt;li&gt;Data Structures - since K12 teachers should go deeper than the last
-HS course which is typically APCS-A.&lt;/li&gt;
-&lt;li&gt;Topcs in Compute rScience - since K12 teachers need a wide breadth
-of CS knowledge.&lt;/li&gt;
-&lt;li&gt;Methods - since teachers need to know how to teach CS.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In the fall, we&amp;#39;ll continue with Ethics in Computer Science and
-Curriculum Development which also includes the field work.&lt;/p&gt;
-&lt;p&gt;
-For this summer we started with a cohort of 22 practicing teachers but
-lost one along the way. They all came from different schools and we
-had all five boroughs represented. Most of the teachers worked in high
-schools but we had some middle school representation and in terms of
-current certifications, we had at least math, special ed, and science
-represented but that&amp;#39;s something we didn&amp;#39;t officially track.&lt;/p&gt;
-&lt;p&gt;
-Staffing wise, it was me along with two of my long time collaborators
-JonAlf Dyrland-Weaver and Topher Mykolyk. JonAlf and Topher are two of
-the best educators out there and part of my former core team at
-Stuy. That team is the biggest thing I still miss having come over to
-Hunter. They&amp;#39;re quite simply the best.&lt;/p&gt;
-&lt;p&gt;
-The program ran basically all day every day during the month of
-July. we knew it would be tight so we also added on some pre-work
-which made sure all participants had some experience with Java prior
-to our official start. &lt;/p&gt;
-&lt;p&gt;
-More will be revealed over the next few posts but I&amp;#39;ll spoil the
-ending - I&amp;#39;m super proud of our 21 participants - while they still
-have more work to do to earn their certifications, if I ran a school,
-I&amp;#39;d love to have any of them teaching my CS classes. &lt;/p&gt;
-&lt;p&gt;
-I&amp;#39;m not planning on writing much about the programming and data
-structure classes except possibly through the methods eye because both
-of those courses are pretty well established and cut and dry but I do
-plan to write at least the following: &lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;The methods course &lt;/li&gt;
-&lt;li&gt;More on the methods course &lt;/li&gt;
-&lt;li&gt;The topics course &lt;/li&gt;
-&lt;li&gt;Use of tools for remote teaching &lt;/li&gt;
-&lt;li&gt;Our overall philosophy in designing and running the program.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;So, stay tuned for more.&lt;/p&gt;
 </description>
     </item>
     

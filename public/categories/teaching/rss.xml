@@ -6,10 +6,107 @@
     <description>C&#39;est la Z (teaching)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 May 2024 11:34:06 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jan 2025 15:32:50 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/categories/teaching/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>Making mistakes and what makes a great teacher</title>
+      <link>https://cestlaz.github.io/post/great-teacher/</link>
+      <pubDate>Thu, 09 Jan 2025 15:32:50 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/great-teacher/</guid>
+      <description>&lt;p&gt;
+As he usually does (and of which I&amp;#39;m always appreciative) JCS &lt;a href=&#34;https://irreal.org/blog/?p=12701&#34;&gt;shared&lt;/a&gt;
+my most recent Emacs post in which I go over a small Elisp routine
+that I wrote.&lt;/p&gt;
+&lt;p&gt;
+JCS commented that he liked that I don&amp;#39;t post process or edit my
+videos. I work through whatever I&amp;#39;m doing and if I make a mistake, so
+be it, I&amp;#39;ll try to figure it out live. I do things this way partly
+because of laziness but also because I think the result is more
+authentic. People doing something similar on their own will likely
+make mistakes and if every video and resource they find online is
+perfect, it creates an unrealistic expectation.&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s like how the usual self reporting of AP scores in the CS
+communitie unfolded a bunch of times with the only people sharing
+their results were teachers who&amp;#39;s students all did well. Given
+national scores, we know that not every student gets a great AP score
+but it created an unrealistic and demotivating picture for teachers in
+the community who&amp;#39;s results were more, let&amp;#39;s say mixed.&lt;/p&gt;
+&lt;p&gt;
+From very early on, I&amp;#39;ve been pretty comfortable making mistakes in
+front of my classes. I mean, once I got to Stuy, I regularly taught
+students much smarter than I was. I almost always knew more material
+but they could stump me at times and once they dove into the mathy
+side, I was way out of my league. I felt being honest and open was my
+best approach and making mistakes allowed me to model that mistakes
+are part of the process as well as how to proceed. Of course a
+challenge would be recreating the mistake that was organic in period
+two later in the day.&lt;/p&gt;
+&lt;p&gt;
+Anyway, since I think my willingness to make mistakes in front of my
+students - my honesty in that regard is part of what made me a strong
+teacher, JCS&amp;#39;s comment made me think of Alfred Thompsons recent
+excellent &lt;a href=&#34;https://blog.acthompson.net/2024/12/three-keys-to-being-great-teacher.html&#34;&gt;post&lt;/a&gt; on what turns a good teacher into a great teacher. &lt;/p&gt;
+&lt;p&gt;
+Alfred focused on three things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Relationships with students - they care about their students as people.&lt;/li&gt;
+&lt;li&gt;They had to be enthusiastic about the subject they teach.&lt;/li&gt;
+&lt;li&gt;They had to innovate - that is develop their classes over time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It&amp;#39;s a good list. Many great teachers do indeed have these there
+qualities. I think it&amp;#39;s worth considering though that while these are
+generally positive teacher attributes, they&amp;#39;re not absolutes.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve met some great teachers and teachers who have been considered to
+be great who don&amp;#39;t have these qualities.&lt;/p&gt;
+&lt;p&gt;
+While none of the great teachers I know have disdain for their
+students, some don&amp;#39;t have any real relationship with them and they
+don&amp;#39;t really care about their success outside of them wanting all
+their students to pass their class.&lt;/p&gt;
+&lt;p&gt;
+Now, I&amp;#39;ve built my career on relationships so I never built a wall
+between me and my students and I don&amp;#39;t understand teachers that do but
+I do have to recognize that building relationships isn&amp;#39;t an absolute
+for one to be a great teacher.&lt;/p&gt;
+&lt;p&gt;
+Same with subject enthusiasm. Sure, it probably helps, but again, I&amp;#39;ve
+met some great teachers who are more or less indifferent. What&amp;#39;s
+important is that they have sufficient subject knowledge and it
+probably helps if they also do care about their students so maybe you
+need at least one from column A and one from column B.&lt;/p&gt;
+&lt;p&gt;
+Finally, innovation. I always worked to improve and refine my work and
+would probably have gone crazy teaching the same thing in the same way
+for three plus decades but again, I&amp;#39;ve seen some great teachers who do
+the same thing pretty much the same way year in and year out.&lt;/p&gt;
+&lt;p&gt;
+On the flip side, I&amp;#39;ve seen some lousy teachers who have all three
+of these great teacher qualities. They care, they know their stuff and
+love their subject area, and try new things but they&amp;#39;re just not
+particularly good.&lt;/p&gt;
+&lt;p&gt;
+JCS&amp;#39;s post made me think about this because for me, open honesty was
+helpful in being my strongest teacher self, whatever that was and
+is. I also listened the other day to the most recent CSEd Podcast
+which had a professor sharing a particular practice he uses in
+class. I&amp;#39;m also planning to write a post on that but it also made
+think on how a teachers pedagogical toolbox can also have an affect
+on how &amp;#34;great&amp;#34; a teacher one is.&lt;/p&gt;
+&lt;p&gt;
+I guess the moral of the story is that while we can pick out some
+common attributes that many great teachers share, great teaching is
+hard to pin down which is why it&amp;#39;s so hard to meaningfully evaluate
+teachers. I guess it&amp;#39;s like Justice Potter Stewart&amp;#39;s concurring
+opinion on identifying &amp;#34;hard-core&amp;#34; pornography. We might not be able
+to define it but we know it when we see it.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>It&#39;s teacher appreciation week again</title>
@@ -3290,40 +3387,6 @@ plan to write at least the following: &lt;/p&gt;
 &lt;li&gt;Our overall philosophy in designing and running the program.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;So, stay tuned for more.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Varying Remote Teaching</title>
-      <link>https://cestlaz.github.io/post/varying-remote-teaching/</link>
-      <pubDate>Wed, 15 Apr 2020 08:33:20 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/varying-remote-teaching/</guid>
-      <description>&lt;p&gt;
-When we first went remote I jumped on Zoom. I already new the
-technology and it most simulated a live class. Basically, it was the
-best combination if quick, easy, and effective and we were under the
-gun to get something going and give our students some sense of
-normalcy and continuity.&lt;/p&gt;
-&lt;p&gt;
-As we settled in though, it made sense to try some different
-things. One was the &amp;#34;lab packet.&amp;#34; A self contained document with
-instructions and partial walkthroughs. One of my classes is already
-set up to do a number of labs in this way so that was an easy thing to
-try.  Basically it ended up being an asynchronous experience with me
-being available using the usual suspects - Slack and email. &lt;/p&gt;
-&lt;p&gt;
-I tried something different this past Monday. It was synchronous with
-me available on Slack but we didn&amp;#39;t use Zoom. I set up a series of
-videos. Each video was fairly short and most had a small assignment at
-the end. I asked the class to fill out a form after each
-video/assignment. The topic was binary trees.&lt;/p&gt;
-&lt;p&gt;
-The whole process seemed to go well but I&amp;#39;ll report back once I&amp;#39;ve
-finished going over the feedback emails I&amp;#39;ve gotten from the class.&lt;/p&gt;
-&lt;p&gt;
-I&amp;#39;m particularly proud of this video that I made for the class, enjoy:&lt;/p&gt;
-  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/OvwIyQJ-s40&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 </description>
     </item>
     

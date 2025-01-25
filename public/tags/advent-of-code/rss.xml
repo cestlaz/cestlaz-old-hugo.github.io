@@ -6,10 +6,133 @@
     <description>C&#39;est la Z (Advent of Code)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Dec 2023 14:40:23 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 26 Dec 2024 14:30:56 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/tags/advent-of-code/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>Advent of Code  2024</title>
+      <link>https://cestlaz.github.io/post/advent-2024/</link>
+      <pubDate>Thu, 26 Dec 2024 14:30:56 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/advent-2024/</guid>
+      <description>&lt;p&gt;
+Happy holiday season to all.&lt;/p&gt;
+&lt;p&gt;
+Blogging wise, I usually write up a bunch of posts on &lt;a href=&#34;http://adventofcode.com&#34;&gt;Advent of Code&lt;/a&gt; -
+a 25 day programming event where each day a new two part challenge is
+released. It&amp;#39;s been running since 2015 with this being the tenth year.&lt;/p&gt;
+&lt;p&gt;
+Last year I wrote up five days, the year before only two but for 2021
+and 2020 I wrote up around 25 of them. This year, I once again partook
+in the festivities but I haven&amp;#39;t felt motivated to write up posts
+about the days. I still might do some writeups in the comming weeks
+and months since, as always there were many interesting and fun
+problems.&lt;/p&gt;
+&lt;p&gt;
+Still, I thought I&amp;#39;d share at least one post with some overall thoughts.&lt;/p&gt;
+&lt;p&gt;
+This year, I managed to earn all 50 stars - that is both stars on each
+of the twenty five days. I&amp;#39;ve only done that once before -
+in 2020. Looking back, I average 35 stars each year with my highs of
+50 twice (2020, 2024) and lows of 18 in 2017 and 23 in 2018. I might
+go back and start completing more problems. I actually started to
+finish more of the 2015 problems this past month so we&amp;#39;ll see.&lt;/p&gt;
+&lt;p&gt;
+Usually, I start on day 1 and keep going until either life gets in the
+way, the problems get too annoying - you know the solution but just
+don&amp;#39;t have the time or patience to implement whatever algorithm, or
+the problems get too hard, like some of the mathy problems where I
+feel I&amp;#39;m just way underwater. I also don&amp;#39;t do these &amp;#34;closed book.&amp;#34; I
+give them some thought and a shot closed book but I&amp;#39;m fine looking at
+the Advent of Code &lt;a href=&#34;https://www.reddit.com/r/adventofcode/&#34;&gt;subreddit&lt;/a&gt; which is both active and friendly. This
+year, I solved most closed book but there were a few where I got some
+helpful hints and two problems where I got some pretty significant
+help from the reddit.&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s also worth noting that I really hadn&amp;#39;t done any coding since last
+December. Take that for what it&amp;#39;s worth.&lt;/p&gt;
+&lt;p&gt;
+So, here are some thoughts.&lt;/p&gt;
+&lt;p&gt;
+Usually I do AoC using Clojure - basically a Lisp. It&amp;#39;s a fun language to work in and
+&lt;a href=&#34;https://cider.mx/&#34;&gt;Cider&lt;/a&gt;, the Emacs based Clojure editing environment is second to
+none. This year, I solved some in Clojure, some in Python, and many in
+both. I was giving a short talk on AoC in mid December and knew that
+nobody in the audience would have any Clojure or any version of Lisp
+but many would have probably played with Python. So, I coded most
+problems in both. After my talk, I usually went mostly to Clojure but
+a few problems were easier in Python so I went the lazy way.&lt;/p&gt;
+&lt;p&gt;
+That was the interested part - each language lends itself to it&amp;#39;s own
+approach to problem solving. Some AoC problems lend themselves to state
+munging - you&amp;#39;ve got variables representing your things in your
+world. You have to keep changing them and they keep changing each
+other. Since Python started as a quick and dirty scripting language,
+it has an easier time on those types of situations. Clojure&amp;#39;s big
+thing is immutability - once you set a variable you don&amp;#39;t change it.&lt;/p&gt;
+&lt;p&gt;
+On the other hand, Clojure, being functional lends itself to other
+problems.&lt;/p&gt;
+&lt;p&gt;
+After solving a problem, I&amp;#39;d frequently look at other people&amp;#39;s
+solutions to try to learn something and there was frequently a stark
+difference between the Python coders approaches and the Clojure
+programmers. In some cases, it was hard to believe that they solved
+the same problem.&lt;/p&gt;
+&lt;p&gt;
+I also found it hard to context shift as I went from one language to
+another lest I end up writing Python code in Clojure or vice versa.&lt;/p&gt;
+&lt;p&gt;
+This made me think about language choices in education. I&amp;#39;ve written
+about choices for first programming languages before (&lt;a href=&#34;https://cestlaz.github.io/post/first-language/&#34;&gt;here&lt;/a&gt;, &lt;a href=&#34;https://cestlaz.github.io/posts/first-language-changing/&#34;&gt;here&lt;/a&gt;) and
+of course there are also considerations for what to do after that
+first choice.&lt;/p&gt;
+&lt;p&gt;
+This is something I almost certainly plan to write about in the coming
+weeks.&lt;/p&gt;
+&lt;p&gt;
+Another thing that I always like about AoC are range of problems. This
+year there were a bunch of 2D grid pathfinding problems, a couple of
+mathy ones though none that were too hard, one cellular automaton, a
+couple of simulations, and a couple of what I&amp;#39;ll call, problems with a
+non programming twists.&lt;/p&gt;
+&lt;p&gt;
+Those last ones I usually find really interesting although the last
+one from this year - day 24 required me to brush up on things I hadn&amp;#39;t
+looked at in decades and many programmers may never have seen.&lt;/p&gt;
+&lt;p&gt;
+Those are problems where it&amp;#39;s not just &amp;#34;run the program and get the
+result.&amp;#34; It&amp;#39;s more of write a program to get some info, do some stuff
+by hand or by &amp;#34;thinking really hard,&amp;#34; write some more code, back and
+forth and get an answer. I really like these types of problems because
+they come up so frequently in the real world. Maybe not for the
+professional software engineer but in the more general programming
+population. You might not be writing a complete program soup to nuts
+that you can then send to the app store but rather snippets and small
+programs to help you get some job done. Love it.&lt;/p&gt;
+&lt;p&gt;
+Will probably look into that more next year.&lt;/p&gt;
+&lt;p&gt;
+Another thing I&amp;#39;ve been thinking about are people&amp;#39;s motivations. I
+just partake because they&amp;#39;re interesting problems. I&amp;#39;ll learn a bit,
+and it allows me to prove to myself that I haven&amp;#39;t totally lost my
+programming chops. Interesting though, I don&amp;#39;t do these types of
+programming problems during the rest of the year. Others though are
+out for the global leader board - they get the problem when it&amp;#39;s
+released at midnight (Eastern time) an they&amp;#39;re off. In the last couple
+of years though there&amp;#39;s been a problem with people using AI to game
+the leader board. The issue and the range of reactions have been
+pretty interesting.&lt;/p&gt;
+&lt;p&gt;
+Of course on top of these there are the actual problems so maybe
+I&amp;#39;ll write up some of them as well.&lt;/p&gt;
+&lt;p&gt;
+We&amp;#39;ll see but at least if I get motivated to write more, I&amp;#39;ve got
+plenty of blog fodder.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Advent 2023 Day 15 - hash tables</title>

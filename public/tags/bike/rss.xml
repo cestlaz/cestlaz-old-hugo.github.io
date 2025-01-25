@@ -29,13 +29,15 @@ the Bixi bike share. Here are some thoughts comparing their system
 with our Citibike system. It&amp;rsquo;s not really a fair comparison. In NY I
 use it alone for shopping and meetings and in Montreal, it was a
 family of 4 tourists. Still, I found some things interesting.&lt;/p&gt;
-&lt;h3 id=&#34;our-trips&#34; &gt;Our trips
-&lt;span&gt;
+&lt;h3 id=&#34;our-trips&#34; &gt;
+&lt;div&gt;
     &lt;a href=&#34;#our-trips&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+        ##
     &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h3&gt;&lt;p&gt;On our first day, we rode from our place to the &lt;a href=&#34;http://espacepourlavie.ca/en/botanical-garden&#34;&gt;Botanical
+    Our trips
+&lt;/div&gt;
+&lt;/h3&gt;
+&lt;p&gt;On our first day, we rode from our place to the &lt;a href=&#34;http://espacepourlavie.ca/en/botanical-garden&#34;&gt;Botanical
 Gardens&lt;/a&gt;. Between 7 and
 8 kilometers. They had a pretty amazing exhibition going on:&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
@@ -60,13 +62,15 @@ spent most of the day there. It was about a 17 minute ride. At the end
 of the day, we decided to wend our way back to the apartment on foot
 to see more of the neighborhoods - something we couldn&amp;rsquo;t do if we
 brought our own bikes.&lt;/p&gt;
-&lt;h3 id=&#34;issues-and-annoyances&#34; &gt;Issues and annoyances
-&lt;span&gt;
+&lt;h3 id=&#34;issues-and-annoyances&#34; &gt;
+&lt;div&gt;
     &lt;a href=&#34;#issues-and-annoyances&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+        ##
     &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h3&gt;&lt;p&gt;One problem we had, was lack of internet. Without internet, you can&amp;rsquo;t
+    Issues and annoyances
+&lt;/div&gt;
+&lt;/h3&gt;
+&lt;p&gt;One problem we had, was lack of internet. Without internet, you can&amp;rsquo;t
 use the mobile app to find bike and docks. This turned out not to be
 too much of a problem as Montreal seems to be saturated with Bixi
 stations but it was a concern if we wanted to venture to more fringe
@@ -83,13 +87,15 @@ and at maximum height, the bikes were too short. My son&amp;rsquo;s legs are
 longer. Neither of us are giants. This made for a less comfortable and
 slower ride. I guess people might not notice &amp;ndash; even in NY I always
 see people on rentals and Citibikes with their seats too low.&lt;/p&gt;
-&lt;h3 id=&#34;overall&#34; &gt;Overall
-&lt;span&gt;
+&lt;h3 id=&#34;overall&#34; &gt;
+&lt;div&gt;
     &lt;a href=&#34;#overall&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+        ##
     &lt;/a&gt;
-&lt;/span&gt;
-&lt;/h3&gt;&lt;p&gt;I still love my Bike Friday.&lt;/p&gt;
+    Overall
+&lt;/div&gt;
+&lt;/h3&gt;
+&lt;p&gt;I still love my Bike Friday.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;But I&amp;rsquo;m also liking this bike share touring thing as well.&lt;/p&gt;
 </description>

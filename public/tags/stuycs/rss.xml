@@ -1,15 +1,103 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>stuycs on C&#39;est la Z</title>
+    <title>StuyCS on C&#39;est la Z</title>
     <link>https://cestlaz.github.io/tags/stuycs/</link>
-    <description>C&#39;est la Z (stuycs)</description>
+    <description>C&#39;est la Z (StuyCS)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Dec 2024 15:12:24 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/tags/stuycs/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>Learning About Startups at StuyCS</title>
+      <link>https://cestlaz.github.io/post/learning-about-startups/</link>
+      <pubDate>Fri, 13 Dec 2024 15:12:24 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/learning-about-startups/</guid>
+      <description>&lt;p&gt;
+Most students who study CS in college plan to go into industry in one
+manner or another. Unfortunately most college CS programs are still
+designed with the assumption that all undergraduate CS majors want to
+pursue a PhD. I&amp;#39;ve addressed this periodically here and that&amp;#39;s not the
+focus for today.&lt;/p&gt;
+&lt;p&gt;
+Of those who want to enter industry, it seems a fair number are
+interested in the startup ecosystem - they want to either be part of a
+startup - a small agile effort that they hope can change the world or
+even start their own company. Some eventually also want to turn
+towards venture capital.&lt;/p&gt;
+&lt;p&gt;
+Now, if college does a less then ideal job preparing CS majors
+specifically for industry, they do less ideal job preparing them to
+launch a startup. Before going further, I don&amp;#39;t want to be unfair - a
+number of institutions are making efforts to modernize their
+undergraduate CS programs and a number of them are doing great jobs -
+offering courses in software engineering, teaching the &amp;#34;hidden
+curriculum&amp;#34; and integrating modern software engineering sensibilities
+like unit testing into core CS classes but change in academia is slow.&lt;/p&gt;
+&lt;p&gt;
+On the startup side, things are even further behind. There are a
+number of boutique masters programs in &amp;#34;tech entrepreneurship&amp;#34; that
+have popped up but financial aid can be sparse so many are, like code
+schools, workforce programs for the rich. For many of the programs I
+know of, I&amp;#39;m not sold on the quality. Some are good, many are meh.&lt;/p&gt;
+&lt;p&gt;
+In undergrad, if you&amp;#39;re a CS major you&amp;#39;re not really going to learn
+about startups and the startup ecosystem. I supposed if you&amp;#39;re a
+business major you might, but then you won&amp;#39;t develop the tech skills.&lt;/p&gt;
+&lt;p&gt;
+Since retiring, I&amp;#39;ve started to work more closely with the Stuyvesant
+Alumni Association and I&amp;#39;ve always had a tight bond with my former
+students and I wanted to do something to start to address this
+problem.&lt;/p&gt;
+&lt;p&gt;
+Last night was the first step. It was only a single small firs step,
+but it&amp;#39;s something.&lt;/p&gt;
+&lt;p&gt;
+In partnership with Stuy&amp;#39;s Alumni Association, we put on an
+event. First I reached out to my grads and asked for both founders and
+funders. People who&amp;#39;ve started a company and successfully raised money
+for it and people who&amp;#39;ve selected promising startups and provided said
+funds.&lt;/p&gt;
+&lt;p&gt;
+Since it&amp;#39;s the holiday season, a number of my New York VCs couldn&amp;#39;t
+make it as they had other holiday events to attend but we had a solid
+dozen volunteers available and I&amp;#39;m sure I could have gotten more if I
+had worked at it.&lt;/p&gt;
+&lt;p&gt;
+Then we had the attendees. I thought the event would mostly appeal to
+younger Stuy grads. Those in college and a bit beyond but there was a
+pretty wide spread of ages and even a number of current Stuy students.&lt;/p&gt;
+&lt;p&gt;
+We split them up at tables, gave the funders and founders some loose
+guidelines to follow - key points to address and let the founders and
+funders lead small group conversations. We also had open mixing and
+networking before and after the small table discussions.&lt;/p&gt;
+&lt;p&gt;
+While I&amp;#39;m still collecting feedback, overall I think the event went
+really well. People got to learn about the startup journey, some
+specifics from specific stories, got advice from knowledgable people
+who&amp;#39;ve both been there and done that and walked away with some new
+connections.&lt;/p&gt;
+&lt;p&gt;
+It wasn&amp;#39;t perfect. It would be better if we had more balance between
+founders and funders - we had 2/3 or 3/4 founders and a 50/50 mix
+would have been better. Reshuffling the tables would also have been a
+good idea but, overall a success.&lt;/p&gt;
+&lt;p&gt;
+One thing that I really love about the StuyCS community is that we can
+do these events on almost any tech topic and really, many other topics
+as well. Last year I wanted to pull together an AI panel and instantly
+had far too many volunteers for panelists. This time, founder and
+funders and again no problem.&lt;/p&gt;
+&lt;p&gt;
+Now the next step is to refine this event and figure out follow ups as
+well as other future events.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Reunion Season</title>

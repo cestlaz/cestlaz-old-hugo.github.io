@@ -1,9 +1,10 @@
-baseURL = "https://cestlaz.github.io/"
+baseURL = "https://cestlaz.github.io/cestlaz-old-hugo.github.io"
 languageCode = "en-us"
 title = "C'est la Z"
-paginate = "10" # Number of posts per page
-# theme = "anubis"
-theme =  ["github.com/Mitrichius/hugo-theme-anubis"]
+#paginate = "10" # Number of posts per page
+pagination.pagerSize=10
+theme = "anubis2"
+#theme =  ["github.com/mitrichius/hugo-theme-anubis"]
 disqusShortname = "cestlaz" # Enable comments by entering your Disqus shortname
 googleAnalytics = "UA-126185083-1" # Enable Google Analytics by entering your tracking id
 rssLimit = 40
@@ -68,7 +69,7 @@ weight=8
 [[menu.main]]
 identifier="oldblog"
 name="Old Blog"
-url="https://cestlaz-nikola.github.io/"
+url="https://cestlaz-nikola.github.io/cestlaz-old-hugo.github.io"
 weight=8
 
 [[menu.main]]

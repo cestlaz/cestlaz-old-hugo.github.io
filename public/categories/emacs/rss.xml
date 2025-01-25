@@ -6,10 +6,90 @@
     <description>C&#39;est la Z (emacs)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Feb 2024 11:31:06 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jan 2025 09:25:00 -0400</lastBuildDate>
     
     <atom:link href="https://cestlaz.github.io/categories/emacs/rss.xml" rel="self" type="application/rss" />
     
+    
+    <item>
+      <title>Extracting Emails (with Emacs)</title>
+      <link>https://cestlaz.github.io/post/extracting-emails/</link>
+      <pubDate>Tue, 07 Jan 2025 09:25:00 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/extracting-emails/</guid>
+      <description>&lt;p&gt;
+Yesterday I found myself in a situation where I had a text document
+interspersed with a bunch of email addresses and I wanted to extract
+those email addresses.&lt;/p&gt;
+&lt;p&gt;
+Specifically, I had to copy email addresses from a couple of
+spreadsheets and other sources and I thought it would be faster to
+copy lines form the sheets instead of email cells as well as just
+grabbing text from the other sources and then isolating the email
+addresses in Emacs.&lt;/p&gt;
+&lt;p&gt;
+Now, writing a little &amp;#34;extract emails&amp;#34; script to operate on a text
+file is easy enough. You can search for an email address using a
+regular expression. Regular expressions are a text pattern matching
+language that most programming language support. I used something like
+the following regular expression to identify an email address:&lt;/p&gt;
+&lt;div class=&#34;src src-text&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[a-zA-Z0-9\.]+@[a-zA-Z0-9]+\.[a-zA-Z]{3}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+The first [a-zA-Z0-9\.]+ matches a sequence of one or more characters
+that are letters, numbers or a period (the slash before the period is
+to escape it - prevent using the . for its special regular expression
+meaning). That&amp;#39;s followed by the @ symbol, a second set of characters,
+this time without the period, then a dot and then three more
+characters.&lt;/p&gt;
+&lt;p&gt;
+This will match most email addresses.&lt;/p&gt;
+&lt;p&gt;
+In Clojure, I&amp;#39;d use the function re-seq which would take a string
+(presumably my text file) and return a list of all the matches. That
+is, all the email addresses. I could do the same in Python with
+re.findall.&lt;/p&gt;
+&lt;p&gt;
+In an editor, at least in Emacs, it&amp;#39;s a little trickier. You can
+search for a regular expression but that just finds the next email
+address. I&amp;#39;d then have to manually copy it and then repeat the
+process.&lt;/p&gt;
+&lt;p&gt;
+I guess a keyboard macro could do the trick but easier would be to
+just write an elisp function and extend Emacs.&lt;/p&gt;
+&lt;p&gt;
+The video shows the whole walkthrough but the core of the routine is
+using the &lt;code&gt;search-forward-regexp&lt;/code&gt; function which searches for the next
+occurrence of an email match. I then add that email address to a
+list. Putting it all in a while loop, you get:&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(while (search-forward-regexp regexp &lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (push (match-string-no-properties &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;) matches))&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+The match-string-no-properties grabs the actual text of the match.&lt;/p&gt;
+&lt;p&gt;
+There&amp;#39;s a little more detail but basically I wrote an equivalent of
+re-seq for an Emacs buffer - it grabs everything that matches a
+regular expression and returns all the matches in a list.&lt;/p&gt;
+&lt;p&gt;
+Then, it was a simple matter of looping over that list and inserting
+the results. I ultimately named the routine &lt;code&gt;extract-emails&lt;/code&gt;. So now, I
+can be in any Emacs buffer, copy over all my source email material,
+run the command, and I&amp;#39;ll have all the emails together one per line
+ready to be pasted into an email client.&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m thinking that I should probably give the routine an additional
+optional parameter - have it extract emails by default but allow the
+user to pass in any regular expression.&lt;/p&gt;
+&lt;p&gt;
+Just another reason why Emacs is such a powerful editor.&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s the video, enjoy:&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/o2z9SKNVCwk?si=rpUG-hg8KqGoxZxw&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
     
     <item>
       <title>Using Emacs 82 - Conda and Direnv</title>
@@ -2198,6 +2278,44 @@ Enjoy&lt;/p&gt;
     </item>
     
     <item>
+      <title>Using Emacs 76 Bookmarks and Burly</title>
+      <link>https://cestlaz.github.io/post/using-emacs-76-bookmarks-burly/</link>
+      <pubDate>Fri, 23 Oct 2020 13:41:22 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-76-bookmarks-burly/</guid>
+      <description>&lt;p&gt;
+I read a post on &lt;a href=&#34;https://www.reddit.com/r/emacs/&#34;&gt;/r/emacs&lt;/a&gt; the other day asking if people used Emacs
+bookmarks among other things. I thought about it for a bit and
+wondered why I didn&amp;#39;t use Bookmarks? I did set a few bindings to load
+frequently used files and those are like bookmarks but I have to set
+those up in my configuration. It turns out that Emacs bookmarks are
+pretty easy and effective and work right out of the box. I cover the
+basics in the video and you can also check the documentation &lt;a href=&#34;https://www.gnu.org/software/emacs/manual/html_node/emacs/Bookmarks.html&#34;&gt;here&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;
+In the video I mention that the bookmark bindings are part of the
+bindings used for registers which also include rectangles. If you&amp;#39;re
+interested in those aspects you can find out all about registers by
+viewing &lt;a href=&#34;https://www.youtube.com/watch?v=u1YoF4ycLTY&#34;&gt;this nice video&lt;/a&gt; by Prot and I cover rectangle editing &lt;a href=&#34;https://cestlaz.github.io/posts/using-emacs-28-rectangles/&#34;&gt;here&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;
+I also noticed another post on /r/emacs about &lt;a href=&#34;https://github.com/alphapapa/burly.el&#34;&gt;burly&lt;/a&gt; - a package for
+managing windows and their associated buffers. It&amp;#39;s pretty cool. In
+the video I confused myself and thought it might be mapping the
+buffers to windows wrong but that was just me confusing myself. &lt;/p&gt;
+&lt;p&gt;
+Burly uses bookmarks to store the configurations which is cool and it
+was much easier for me to get my head around it than other
+solutions. Burly&amp;#39;s install instructions use &lt;a href=&#34;https://github.com/quelpa/quelpa&#34;&gt;quelpa&lt;/a&gt; and
+&lt;a href=&#34;https://github.com/quelpa/quelpa-use-package&#34;&gt;quelpa-use-package&lt;/a&gt; so now it looks like I&amp;#39;ll have to figure those out
+as well :-).&lt;/p&gt;
+&lt;p&gt;
+The run through is all in the video.&lt;/p&gt;
+&lt;p&gt;
+Enjoy.&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/JVFnaQVNEE0&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Using Emacs 75 - Bufler</title>
       <link>https://cestlaz.github.io/post/using-emacs-75-bufler/</link>
       <pubDate>Tue, 22 Sep 2020 13:17:41 -0400</pubDate>
@@ -3066,96 +3184,6 @@ Anyway, here&amp;#39;s a video that shows org-msg in action:&lt;/p&gt;
 src=&amp;#34;&lt;a href=&#34;https://www.youtube.com/embed/cPZe0AGOUJU&#34;&gt;https://www.youtube.com/embed/cPZe0AGOUJU&lt;/a&gt;&amp;#34; frameborder=&amp;#34;0&amp;#34;
 allow=&amp;#34;accelerometer; autoplay; encrypted-media; gyroscope;
 picture-in-picture&amp;#34; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Using Emacs 60 - Restclient</title>
-      <link>https://cestlaz.github.io/post/using-emacs-60-restclient/</link>
-      <pubDate>Fri, 25 Oct 2019 11:57:57 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/using-emacs-60-restclient/</guid>
-      <description>&lt;p&gt;
-I started to work on a web application the other day. It&amp;#39;s nothing
-special but if I ever finish it, it will be a pretty complete
-project. The backend will be a &lt;a href=&#34;https://restapitutorial.com/&#34;&gt;REST&lt;/a&gt; API and I&amp;#39;m planning on writing
-the frontend in Clojurescript. &lt;/p&gt;
-&lt;p&gt;
-The problem with developing a web application like this is that you
-can&amp;#39;t really write the front end until you have enough of the backend
-to provide data. Also, writing the backend would be much easier if you
-already had a front end to test it with. &lt;/p&gt;
-&lt;p&gt;
-Pretty annoying.&lt;/p&gt;
-&lt;p&gt;
-What you basically have to do is use some system to make all the API
-calls with all the required data. The most fundamental way to do this
-is to use a command line tool like &lt;a href=&#34;https://curl.haxx.se/&#34;&gt;curl&lt;/a&gt;. For example, from a terminal
-I might write something like this to make a login call:&lt;/p&gt;
-&lt;div class=&#34;src src-curl&#34;&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-curl&#34; data-lang=&#34;curl&#34;&gt;curl --data &amp;#34;email=myemail&amp;amp;password=mypassword&amp;#34; https://localhost:8080/login&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;
-It works but is clunky and you end up using the mouse a lot to cut and
-paste data.&lt;/p&gt;
-&lt;p&gt;
-Web browsers like Firefox and Chrome also have extensions (&lt;a href=&#34;https://techbeacon.com/app-dev-testing/5-top-open-source-api-testing-tools-how-choose&#34;&gt;link&lt;/a&gt;, &lt;a href=&#34;https://www.guru99.com/testing-rest-api-manually.html&#34;&gt;link&lt;/a&gt;)
-but I find them somewhat bulky with their mouse / form based
-interfaces.&lt;/p&gt;
-&lt;p&gt;
-Emacs to the rescue!!!!!!!!&lt;/p&gt;
-&lt;p&gt;
-I discovered &lt;a href=&#34;https://github.com/pashky/restclient.el&#34;&gt;restclient&lt;/a&gt; for Emacs a couple of years ago but only now
-am reaping the benefits. It&amp;#39;s really amazing. I can easily set up REST
-querries, use all the editing power of Emacs, and even save the
-queries for later.&lt;/p&gt;
-&lt;p&gt;
-I didn&amp;#39;t find this until after I made the video but you can even use
-restclient in &lt;a href=&#34;https://github.com/alf/ob-restclient.el&#34;&gt;org-mode&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;
-It&amp;#39;s all very cool.&lt;/p&gt;
-&lt;p&gt;
-Details in the video:&lt;/p&gt;
-&lt;p&gt;
-&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34;
-src=&amp;#34;&lt;a href=&#34;https://www.youtube.com/embed/L7Jcoe3oHTs&#34;&gt;https://www.youtube.com/embed/L7Jcoe3oHTs&lt;/a&gt;&amp;#34; frameborder=&amp;#34;0&amp;#34;
-allow=&amp;#34;accelerometer; autoplay; encrypted-media; gyroscope;
-picture-in-picture&amp;#34; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
-&lt;p&gt;
-Enjoy.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Using Emacs 59 - markdown</title>
-      <link>https://cestlaz.github.io/post/using-emacs-59-markdown/</link>
-      <pubDate>Fri, 18 Oct 2019 11:57:57 -0400</pubDate>
-      
-      <guid>https://cestlaz.github.io/post/using-emacs-59-markdown/</guid>
-      <description>&lt;p&gt;
-Org-mode is my markup of choice. I spend the vast majority of my time working
-on text files working in org-mode. Since GitHUb started rendering
-org-mode files in their site I&amp;#39;ve also used org-mode for things like
-Readme files in my projects. I even force it on my students at
-times. When I make an assignment, I seed it with an org-mode file that
-they have to modify - that is - fill in things like their names, group
-members etc..&lt;/p&gt;
-&lt;p&gt;
-That said, sometimes I have to work in plain old &lt;a href=&#34;https://guides.github.com/features/mastering-markdown/&#34;&gt;markdown&lt;/a&gt;. This is
-almost always when I&amp;#39;m working on something collaboratively and more
-often than not it&amp;#39;s documentation on a project living on GitHub.&lt;/p&gt;
-&lt;p&gt;
-So, given that I have to work with Markdown, time to use some Emacs
-magic to make it easy and fun.&lt;/p&gt;
-&lt;p&gt;
-To start, Emacs has a &lt;a href=&#34;https://github.com/jrblevin/markdown-mode/tree/f3c54e34cc5228001af36a5301883325319f21d4&#34;&gt;markdown mode&lt;/a&gt; along with a bunch of previewing
-and rendering modes. I settled on &lt;a href=&#34;https://github.com/seagle0128/grip-mode/tree/4c7014c8151e522b9dd94f878478087bf92ab10e&#34;&gt;grip mode&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;
-You can check out the video to see grip-mode along with some of the
-other modes I tried here:&lt;/p&gt;
-  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/IlhkYmUU-ns&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/ifram&gt;e
-&lt;p&gt;
-Enjoy.&lt;/p&gt;
 </description>
     </item>
     

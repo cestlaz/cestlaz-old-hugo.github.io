@@ -119,6 +119,7 @@ and add a binding to the elfeed key map:
 ("M" . elfeed-toggle-star)
 ("j" . mz/hydra-elfeed/body)
 ("J" . mz/hydra-elfeed/body)))
+{{< / highlight >}}
 
 #+End_SRC
 
